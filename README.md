@@ -30,24 +30,6 @@ The pipeline addresses critical data quality issues (cross-listing duplicates, u
 
 ---
 
-## 📚 Literature Context & Methodology References
-
-### 1. León et al. (2025)
-* **Citation**: León, C. J., Suárez-Rojas, C., Cazorla-Artiles, J. M., & González-Hernández, M. M. (2025). *Satisfaction and sustainability concerns in whale-watching tourism: A user-generated content model.* Tourism Management, 106, 105019.
-* **Methodology Adopted**:
-  - **Niche Domain Lexicons**: Constructing specific attribute lexicons for specialized nature/adventure tourism.
-  - **VADER Sentiment Polarity**: Extracting continuous VADER sentiment compound scores ($[-1.0, +1.0]$) as control and mediating variables.
-  - **Ordered Probit Regressions**: Modeling discrete TripAdvisor ratings (1–5 stars) with product fixed effects.
-
-### 2. Orea-Giner et al. (2022)
-* **Citation**: Orea-Giner, A., Fuentes-Moraleda, L., Villacé-Molinero, T., Muñoz-Mazón, A., & Calero-Sanz, J. (2022). *Does the implementation of robots in hotels influence the overall TripAdvisor rating? A text mining analysis from the Industry 5.0 approach.* Tourism Management, 93, 104586.
-* **Methodology Adopted**:
-  - **NRC Emotion Lexicon**: Mapping review text into **8 basic emotions** (*Anger*, *Anticipation*, *Disgust*, *Fear*, *Joy*, *Sadness*, *Surprise*, *Trust*) and 2 sentiment valences (*Positive* / *Negative*).
-  - **Traveler Typologies**: Segmenting review analysis across 5 traveler types (`Couples`, `Family`, `Solo`, `Friends`, `Business`).
-  - **Touchpoint Disaggregation**: Disaggregating service roles into distinct touchpoints (**Pilots**, **Guides**, and **Ground Staff**).
-
----
-
 ## 🛠️ Data Processing & Pipeline Workflow
 
 ### Step 1: Raw Data Aggregation & Fixed Effect Preservation (`tour_name`)
