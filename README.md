@@ -30,25 +30,21 @@ The pipeline addresses critical data quality issues (cross-listing duplicates, u
 
 ---
 
-## 📚 Theoretical Foundations & Benchmark Literature Integration
+## 📚 Literature Context & Methodology References
 
-Our methodology strictly aligns with and expands upon landmark empirical studies published in *Tourism Management* (SSCI Q1, IF 12.7):
+### 1. León et al. (2025)
+* **Citation**: León, C. J., Suárez-Rojas, C., Cazorla-Artiles, J. M., & González-Hernández, M. M. (2025). *Satisfaction and sustainability concerns in whale-watching tourism: A user-generated content model.* Tourism Management, 106, 105019.
+* **Methodology Adopted**:
+  - **Niche Domain Lexicons**: Constructing specific attribute lexicons for specialized nature/adventure tourism.
+  - **VADER Sentiment Polarity**: Extracting continuous VADER sentiment compound scores ($[-1.0, +1.0]$) as control and mediating variables.
+  - **Ordered Probit Regressions**: Modeling discrete TripAdvisor ratings (1–5 stars) with product fixed effects.
 
-### 1. León et al. (2025) — *Tourism Management* (Vol. 106, 105019)
-* **Citation**: León, C. J., Suárez-Rojas, C., Cazorla-Artiles, J. M., & González-Hernández, M. M. (2025). *Satisfaction and sustainability concerns in whale-watching tourism: A user-generated content model.*
-* **Methodological Alignment**:
-  - **Custom Niche Lexicon**: Developed domain-specific term lexicons to capture physical, environmental, and operational attributes of niche nature-based tours.
-  - **VADER Sentiment Polarity**: Utilized continuous VADER compound sentiment scores ($[-1.0, +1.0]$) as key continuous control and mediating variables.
-  - **Ordered Probit Regressions**: Estimated discrete Likert rating distributions (1–5 stars) using Econometric Ordered Probit models with product fixed effects.
-  - **Our Adaptation**: Applied this framework to low-altitude air tours, defining 9 domain-specific lexicons (`pilot_mention`, `safety_mention`, `price_value_mention`, `weather_mention`, `helicopter_comparison`...) and computing continuous VADER polarity scores across 22,235 clean reviews.
-
-### 2. Orea-Giner et al. (2022) — *Tourism Management* (Vol. 93, 104586)
-* **Citation**: Orea-Giner, A., Fuentes-Moraleda, L., Villacé-Molinero, T., Muñoz-Mazón, A., & Calero-Sanz, J. (2022). *Does the implementation of robots in hotels influence the overall TripAdvisor rating? A text mining analysis from the Industry 5.0 approach.*
-* **Methodological Alignment**:
-  - **NRC Emotion Association Lexicon**: Categorized text into **8 basic psychological emotions** (*Anger*, *Anticipation*, *Disgust*, *Fear*, *Joy*, *Sadness*, *Surprise*, *Trust*) and 2 sentiment valences (*Positive* / *Negative*).
-  - **Traveler Typology Segmentation**: Segmented reviews across **5 traveler types**: `Couples` (情侣/夫妻), `Family` (家庭), `Solo` (单人), `Friends` (朋友), `Business` (商务).
-  - **Touchpoint Disaggregation**: Evaluated emotional responses across specific service touchpoints (Room service vs Concierge vs Cloakroom) via Non-parametric Mann-Whitney U tests and Multivariate Logistic Regressions.
-  - **Our Adaptation**: We integrate NRC emotion dimensions across our 5 traveler typologies and disaggregate low-altitude touchpoints into **Flight Pilots/Captains (`pilot_mention`)**, **Tour Guides (`guide_mention`)**, and **Ground Reception Staff (`staff_service_mention`)**.
+### 2. Orea-Giner et al. (2022)
+* **Citation**: Orea-Giner, A., Fuentes-Moraleda, L., Villacé-Molinero, T., Muñoz-Mazón, A., & Calero-Sanz, J. (2022). *Does the implementation of robots in hotels influence the overall TripAdvisor rating? A text mining analysis from the Industry 5.0 approach.* Tourism Management, 93, 104586.
+* **Methodology Adopted**:
+  - **NRC Emotion Lexicon**: Mapping review text into **8 basic emotions** (*Anger*, *Anticipation*, *Disgust*, *Fear*, *Joy*, *Sadness*, *Surprise*, *Trust*) and 2 sentiment valences (*Positive* / *Negative*).
+  - **Traveler Typologies**: Segmenting review analysis across 5 traveler types (`Couples`, `Family`, `Solo`, `Friends`, `Business`).
+  - **Touchpoint Disaggregation**: Disaggregating service roles into distinct touchpoints (**Pilots**, **Guides**, and **Ground Staff**).
 
 ---
 
