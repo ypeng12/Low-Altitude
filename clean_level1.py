@@ -3,10 +3,10 @@ import re
 import html
 import pandas as pd
 
-RAW_INPUT = r"c:\Users\pengy\OneDrive\Desktop\Low-Altitude\tripadvisor_merged_raw.csv"
-CLEANED_LEVEL1_OUTPUT = r"c:\Users\pengy\OneDrive\Desktop\Low-Altitude\tripadvisor_level1_cleaned.csv"
-CHECK_500_OUTPUT = r"c:\Users\pengy\OneDrive\Desktop\Low-Altitude\manual_check_500.csv"
-CHECK_2000_OUTPUT = r"c:\Users\pengy\OneDrive\Desktop\Low-Altitude\manual_check_2000.csv"
+RAW_INPUT = "data/cleaned_datasets/tripadvisor_merged_raw.csv"
+CLEANED_LEVEL1_OUTPUT = "data/cleaned_datasets/tripadvisor_level1_cleaned.csv"
+CHECK_500_OUTPUT = "data/cleaned_datasets/manual_check_500.csv"
+CHECK_2000_OUTPUT = "data/cleaned_datasets/manual_check_2000.csv"
 
 def clean_published_date(val):
     """

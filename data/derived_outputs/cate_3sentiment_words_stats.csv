@@ -1,0 +1,108 @@
+word,raw_label,count,mean_rating,mean_polarity,sentiment_category
+worth,worth (值得/划算),3012,4.919654714475431,0.9050329017264276,Positive Sentiment / Delight
+small,small (小型的/紧凑的),1483,4.864463924477411,0.9082494268374915,Neutral / Attribute & Operational
+interesting,interesting (有趣的/引人入胜的),860,4.916279069767442,0.9390144186046512,Positive Sentiment / Delight
+cool,cool (酷炫的/棒的),644,4.9021739130434785,0.9208973602484473,Positive Sentiment / Delight
+extra,extra (额外的/附加体验),541,4.87985212569316,0.9068144177449168,Neutral / Attribute & Operational
+ease,ease (轻松/平稳自如),419,4.978520286396181,0.940736754176611,Positive Sentiment / Delight
+personable,personable (平易近人的/亲切的),418,4.9688995215311005,0.923327990430622,Positive Sentiment / Delight
+completely,completely (完全地/彻底地),326,4.751533742331288,0.8675018404907976,Neutral / Attribute & Operational
+unbelievable,unbelievable (未翻译),349,4.982808022922636,0.8893593123209168,Positive Sentiment / Delight
+calm,calm (未翻译),252,4.9523809523809526,0.9561043650793649,Positive Sentiment / Delight
+skilled,skilled (技术熟练的/专业的),240,4.954166666666667,0.90825125,Positive Sentiment / Delight
+choice,choice (明智的选择),257,4.8949416342412455,0.9129727626459143,Positive Sentiment / Delight
+courteous,courteous (礼貌有礼的),240,4.945833333333334,0.9501541666666667,Positive Sentiment / Delight
+fortunate,fortunate (幸运的),233,4.957081545064377,0.9601343347639485,Positive Sentiment / Delight
+interest,interest (兴趣/看点),228,4.921052631578948,0.9454864035087719,Positive Sentiment / Delight
+absolute,absolute (绝对的/完美的),269,4.936802973977695,0.8388970260223048,Positive Sentiment / Delight
+organized,organized (组织良好的/有序的),219,4.863013698630137,0.8877904109589041,Neutral / Attribute & Operational
+sense,sense (感知/安全感),206,4.912621359223301,0.9394082524271845,Positive Sentiment / Delight
+superb,superb (极好的/卓越的),226,4.946902654867257,0.9305097345132743,Positive Sentiment / Delight
+forward,forward (期待/前向视角),178,4.556179775280899,0.8301089887640449,Negative Sentiment / Friction
+cold,cold (寒冷的/高空气温),170,4.847058823529411,0.9422858823529412,Neutral / Attribute & Operational
+noise,noise (噪音/降噪耳机),166,4.873493975903615,0.9249253012048193,Neutral / Attribute & Operational
+cheap,cheap (划算/价格适中),134,4.873134328358209,0.868120895522388,Neutral / Attribute & Operational
+wrong,wrong (偏差/纠错),134,4.559701492537314,0.7694171641791044,Negative Sentiment / Friction
+strongly,strongly (强烈推荐),129,4.891472868217054,0.9444875968992248,Positive Sentiment / Delight
+standing,standing (伫立/空中悬停),128,4.7109375,0.88528359375,Neutral / Attribute & Operational
+actual,actual (实际的/真实的),126,4.634920634920635,0.8531492063492063,Neutral / Attribute & Operational
+polite,polite (礼貌客气的),125,4.832,0.8635136,Neutral / Attribute & Operational
+working,working (良好运转/工作),121,4.570247933884297,0.8645115702479339,Negative Sentiment / Friction
+major,major (主要的/重大看点),120,4.85,0.8988208333333334,Neutral / Attribute & Operational
+attention,attention (关照/注重细节),120,4.941666666666666,0.8827783333333333,Positive Sentiment / Delight
+question,question (解答问题),112,4.910714285714286,0.8797267857142858,Neutral / Attribute & Operational
+overcast,overcast (多云/阴天天气),110,4.745454545454545,0.8821863636363636,Neutral / Attribute & Operational
+contact,contact (联系/预订沟通),110,4.590909090909091,0.8128554545454546,Negative Sentiment / Friction
+accessible,accessible (易达的/方便的),105,4.876190476190477,0.9207133333333334,Neutral / Attribute & Operational
+inaccessible,inaccessible (陆路不可达的),87,4.9655172413793105,0.9115413793103451,Neutral / Attribute & Operational
+effort,effort (付出/精心安排),86,4.6976744186046515,0.8898744186046512,Neutral / Attribute & Operational
+spirit,spirit (精神/氛围),90,4.844444444444444,0.802231111111111,Neutral / Attribute & Operational
+fascinating,fascinating (引人入胜的),85,4.882352941176471,0.9507564705882353,Positive Sentiment / Delight
+capture,capture (捕捉照片/摄影),81,4.839506172839506,0.8979246913580247,Neutral / Attribute & Operational
+grateful,grateful (感激的),82,4.926829268292683,0.9278878048780488,Positive Sentiment / Delight
+advantage,advantage (优势/空中视野优势),79,4.949367088607595,0.9583392405063292,Neutral / Attribute & Operational
+priceless,priceless (无价的/极为珍贵),85,5.0,0.8757141176470586,Positive Sentiment / Delight
+afford,afford (负担得起/物有所值),76,4.907894736842105,0.8631552631578946,Neutral / Attribute & Operational
+balance,balance (平衡/稳健平稳),73,4.575342465753424,0.8775986301369865,Negative Sentiment / Friction
+delayed,delayed (延迟/因天气顺延),74,4.445945945945946,0.7314945945945946,Negative Sentiment / Friction
+crystal,crystal (清澈的/晶莹剔透),73,4.972602739726027,0.9446,Positive Sentiment / Delight
+epic,epic (史诗级的/壮丽的),105,4.9714285714285715,0.9043838095238097,Positive Sentiment / Delight
+agree,agree (赞同/认同好评),72,4.944444444444445,0.9413666666666667,Neutral / Attribute & Operational
+grandeur,grandeur (壮丽/雄伟地貌),76,4.907894736842105,0.9160697368421054,Positive Sentiment / Delight
+extraordinary,extraordinary (非凡的/卓越的),75,4.973333333333334,0.8912213333333333,Positive Sentiment / Delight
+convenient,convenient (方便快捷的),61,4.704918032786885,0.8555639344262295,Neutral / Attribute & Operational
+gracious,gracious (亲切体贴的),61,4.967213114754099,0.9423852459016394,Positive Sentiment / Delight
+hospitality,hospitality (热情好客),63,4.984126984126984,0.9579714285714284,Positive Sentiment / Delight
+culture,culture (文化/历史解说),57,5.0,0.9372210526315791,Neutral / Attribute & Operational
+fair,fair (公道的/合理定价),58,4.5344827586206895,0.8594586206896551,Negative Sentiment / Friction
+uncomfortable,uncomfortable (身体不适/颠簸),55,3.981818181818182,0.5334763636363637,Negative Sentiment / Friction
+lack,lack (缺乏/美中不足),46,3.847826086956522,0.5218826086956523,Negative Sentiment / Friction
+careful,careful (谨慎平稳驾驶),46,4.586956521739131,0.8300260869565215,Negative Sentiment / Friction
+flexibility,flexibility (灵活协调/退改),43,4.8604651162790695,0.9248999999999999,Neutral / Attribute & Operational
+decent,decent (尚可的/体面的),42,4.309523809523809,0.8367785714285713,Negative Sentiment / Friction
+seasoned,seasoned (经验丰富的),40,5.0,0.952755,Positive Sentiment / Delight
+charming,charming (迷人的),40,4.95,0.9452300000000001,Positive Sentiment / Delight
+adventurous,adventurous (富有冒险精神的),39,4.846153846153846,0.9487948717948718,Positive Sentiment / Delight
+extensive,extensive (丰富的飞行经验),39,4.897435897435898,0.9120538461538461,Neutral / Attribute & Operational
+touched,touched (感动/深有感触),42,4.904761904761905,0.9062452380952379,Positive Sentiment / Delight
+stress,stress (解压/无压力出行),39,4.923076923076923,0.9336589743589742,Positive Sentiment / Delight
+greater,greater (更优质的视角),39,4.82051282051282,0.845846153846154,Neutral / Attribute & Operational
+kindness,kindness (友善体贴),37,4.891891891891892,0.9090270270270271,Neutral / Attribute & Operational
+impression,impression (深刻印象),39,4.538461538461538,0.789251282051282,Negative Sentiment / Friction
+superior,superior (优越的/顶级的),42,4.904761904761905,0.8888619047619047,Neutral / Attribute & Operational
+solid,solid (扎实的/可靠的技术),37,4.891891891891892,0.9344864864864865,Neutral / Attribute & Operational
+bother,bother (困扰/打扰),35,4.514285714285714,0.8376771428571428,Negative Sentiment / Friction
+overwhelming,overwhelming (震撼人心/极具冲击),34,4.852941176470588,0.8677941176470588,Neutral / Attribute & Operational
+cute,cute (可爱/温馨客舱),30,4.8,0.96728,Neutral / Attribute & Operational
+educated,educated (讲解知识渊博的),29,5.0,0.9142965517241378,Neutral / Attribute & Operational
+chatty,chatty (健谈风趣的飞行员),29,4.896551724137931,0.9557482758620689,Neutral / Attribute & Operational
+silk,silk (如丝般顺滑的起降),30,5.0,0.9320066666666666,Neutral / Attribute & Operational
+timely,timely (准时起飞/按时),29,4.793103448275862,0.8119413793103448,Neutral / Attribute & Operational
+stellar,stellar (星级优秀的),29,4.793103448275862,0.8024275862068966,Neutral / Attribute & Operational
+carefully,carefully (小心谨慎平稳飞行),29,4.724137931034483,0.9215689655172414,Neutral / Attribute & Operational
+boring,boring (平淡/无聊),28,3.642857142857143,0.5740678571428571,Negative Sentiment / Friction
+communicative,communicative (沟通顺畅体贴),25,5.0,0.8650520000000002,Neutral / Attribute & Operational
+cramped,cramped (空间拥挤的),26,4.538461538461538,0.7331615384615383,Negative Sentiment / Friction
+soak,soak (沉浸在美景中),23,4.956521739130435,0.9749521739130437,Positive Sentiment / Delight
+comprehensive,comprehensive (全面详尽的解说),25,4.96,0.907536,Neutral / Attribute & Operational
+diverse,diverse (多样化的景观地貌),23,5.0,0.7072347826086955,Negative Sentiment / Friction
+graciously,graciously (礼貌地/热情地),22,4.954545454545454,0.9490999999999999,Positive Sentiment / Delight
+skeptical,skeptical (起初怀有疑虑的),22,4.818181818181818,0.8287818181818181,Negative Sentiment / Friction
+inexpensive,inexpensive (性价比高/便宜),26,4.846153846153846,0.9162076923076922,Neutral / Attribute & Operational
+cherry,cherry (锦上添花/绝佳点缀),21,4.761904761904762,0.8593000000000001,Neutral / Attribute & Operational
+refreshing,refreshing (令人耳目一新的),21,4.904761904761905,0.9471619047619049,Positive Sentiment / Delight
+courtesy,courtesy (礼貌赠送/体贴),21,4.476190476190476,0.7810047619047619,Negative Sentiment / Friction
+tired,tired (疲惫/玩累了),20,4.5,0.712285,Negative Sentiment / Friction
+immense,immense (巨大的震撼/雄伟),22,5.0,0.9138772727272726,Positive Sentiment / Delight
+chilly,chilly (高空凉爽/偏冷),19,4.842105263157895,0.9315473684210529,Negative Sentiment / Friction
+suitable,suitable (适合全家/适合老人),19,4.526315789473684,0.8707052631578946,Negative Sentiment / Friction
+granted,granted (理所当然/顺理成章),20,4.8,0.8328099999999999,Neutral / Attribute & Operational
+leisurely,leisurely (悠闲舒适的飞行),18,4.944444444444445,0.9603166666666666,Neutral / Attribute & Operational
+valuable,valuable (有价值的物超所值),18,4.555555555555555,0.9170444444444443,Negative Sentiment / Friction
+suffer,suffer (受晕机困扰/耐受),17,4.9411764705882355,0.8210235294117647,Negative Sentiment / Friction
+energetic,energetic (充满活力的解说),17,5.0,0.9445470588235295,Neutral / Attribute & Operational
+charm,charm (独特魅力),19,4.894736842105263,0.9584421052631581,Neutral / Attribute & Operational
+comprehend,comprehend (领略/理解壮美),16,5.0,0.84175625,Neutral / Attribute & Operational
+hooked,hooked (入迷/沉迷其中),16,5.0,0.939275,Neutral / Attribute & Operational
+essential,essential (必备体验/不容错过),16,4.875,0.9165125000000001,Neutral / Attribute & Operational
+balanced,balanced (平稳平衡的飞行),15,4.8,0.8780666666666666,Neutral / Attribute & Operational

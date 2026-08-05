@@ -2,8 +2,8 @@ import os
 import re
 import pandas as pd
 
-DATA_DIR = r"c:\Users\pengy\OneDrive\Desktop\Low-Altitude\02-07-2025-TripAdvisor"
-RAW_OUTPUT = r"c:\Users\pengy\OneDrive\Desktop\Low-Altitude\tripadvisor_merged_raw.csv"
+DATA_DIR = "02-07-2025-TripAdvisor"
+RAW_OUTPUT = "data/cleaned_datasets/tripadvisor_merged_raw.csv"
 
 def extract_tour_name(filename):
     """

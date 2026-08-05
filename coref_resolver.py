@@ -33,7 +33,7 @@ COMPANION_TERMS = {
 
 def resolve_review_roles(text):
     """
-    基于低空观光行业逻辑的角色实体匹配函数
+    基于低空观光行业逻辑的角色实体匹配与代词指代消解函数 (Sentence-level Context Window Coreference Resolver)。
     """
     if not isinstance(text, str) or not text.strip():
         return {
@@ -43,13 +43,56 @@ def resolve_review_roles(text):
         }
     
     text_lower = text.lower()
-    words = set(re.findall(r'\b[a-z]+\b', text_lower))
+    # 按照句子结束标点符号及换行拆分为单句
+    sentences = [s.strip() for s in re.split(r'[.!?\n]+', text_lower) if s.strip()]
     
-    # 显式领域词库精准匹配 (避免盲目跨句假设，确保 100% Precision)
-    has_flight_crew = 1 if words.intersection(FLIGHT_CREW_TERMS) or 'na pali' in text_lower or 'tour guide' in text_lower else 0
-    has_ground_staff = 1 if words.intersection(GROUND_STAFF_TERMS) or 'front desk' in text_lower or 'check in' in text_lower else 0
-    has_companion = 1 if words.intersection(COMPANION_TERMS) else 0
+    has_flight_crew = 0
+    has_ground_staff = 0
+    has_companion = 0
     
+    # 存储每个单句的显式提及状态 (flight_crew, ground_staff, companion)
+    sentence_mentions = []
+    
+    # 代词词集
+    male_pronouns = {'he', 'him', 'his', 'himself'}
+    female_pronouns = {'she', 'her', 'hers', 'herself'}
+    
+    for idx, sentence in enumerate(sentences):
+        words = set(re.findall(r'\b[a-z]+\b', sentence))
+        
+        # 1. 显式领域词库匹配
+        fc = 1 if words.intersection(FLIGHT_CREW_TERMS) or 'na pali' in sentence or 'tour guide' in sentence else 0
+        gs = 1 if words.intersection(GROUND_STAFF_TERMS) or 'front desk' in sentence or 'check in' in sentence else 0
+        cp = 1 if words.intersection(COMPANION_TERMS) else 0
+        
+        # 2. 检查当前句是否含有代词
+        has_male = any(w in words for w in male_pronouns)
+        has_female = any(w in words for w in female_pronouns)
+        
+        # 3. 句级上下文窗口指代消解 (向上检索前 1 句的实体)
+        if idx > 0:
+            prev_fc, prev_gs, prev_cp = sentence_mentions[idx-1]
+            
+            # 如果当前句含 he/him 且前句提到了飞行员或同伴，继承其角色指代
+            if has_male:
+                if prev_fc:
+                    fc = 1
+                if prev_cp:
+                    cp = 1
+                    
+            # 如果当前句含 she/her 且前句提到了地勤或同伴，继承其角色指代
+            if has_female:
+                if prev_gs:
+                    gs = 1
+                if prev_cp:
+                    cp = 1
+        
+        sentence_mentions.append((fc, gs, cp))
+        
+        if fc: has_flight_crew = 1
+        if gs: has_ground_staff = 1
+        if cp: has_companion = 1
+        
     return {
         'flight_crew_mentioned': has_flight_crew,
         'ground_staff_mentioned': has_ground_staff,
@@ -60,7 +103,14 @@ if __name__ == "__main__":
     test_1 = "Pilot Sarah gave an amazing flight narration during the tour."
     test_2 = "The front desk staff was very helpful during check-in."
     test_3 = "My husband loved the view."
+    test_4 = "We had a great pilot. He flew us smoothly over the canyon."
+    test_5 = "The desk lady welcomed us. She explained everything clearly."
+    test_6 = "I went with my daughter. She was so excited about the trip."
     
-    print("Test 1 (Flight Crew Pilot=Guide):", resolve_review_roles(test_1))
+    print("Test 1 (Flight Crew Sarah):", resolve_review_roles(test_1))
     print("Test 2 (Ground Staff):", resolve_review_roles(test_2))
     print("Test 3 (Companion):", resolve_review_roles(test_3))
+    print("Test 4 (Coref he -> pilot):", resolve_review_roles(test_4))
+    print("Test 5 (Coref she -> staff):", resolve_review_roles(test_5))
+    print("Test 6 (Coref she -> companion daughter):", resolve_review_roles(test_6))
+

@@ -166,7 +166,7 @@ def main():
     print("【步骤 1】合并 46 个 TripAdvisor 原始抓取 CSV 文件")
     print("="*70)
     
-    raw_dir = r"c:\Users\pengy\OneDrive\Desktop\Low-Altitude\02-07-2025-TripAdvisor"
+    raw_dir = "02-07-2025-TripAdvisor"
     csv_files = glob.glob(os.path.join(raw_dir, "*.csv"))
     print(f"找到 {len(csv_files)} 个原始产品 CSV 文件。")
 
