@@ -108,7 +108,6 @@ dataset_mean_rating = df['rating'].mean()
 # -------------------------------------------------------------
 # Generate Clean Publication Scatter Plot
 # Order: NRC Emotions by count, and CATE strictly AT THE END
-# All word labels unified in dark slate black (#1E293B) normal font (like 'beware')
 # -------------------------------------------------------------
 plt.style.use('seaborn-v0_8-whitegrid' if 'seaborn-v0_8-whitegrid' in plt.style.available else 'default')
 fig, ax = plt.subplots(figsize=(15.0, 10.0), dpi=300)
@@ -116,7 +115,7 @@ fig, ax = plt.subplots(figsize=(15.0, 10.0), dpi=300)
 # Sort NRC emotion categories by count descending, then append CATE AT THE VERY END
 nrc_counts = words_df[words_df['category'] != 'CATE']['category'].value_counts()
 categories_order = nrc_counts.index.tolist()
-categories_order.append('CATE')  # Put CATE at the end!
+categories_order.append('CATE')
 
 for cat in categories_order:
     sub = words_df[words_df['category'] == cat]
@@ -125,7 +124,6 @@ for cat in categories_order:
     color = VIVID_EMOTION_COLORS[cat]
     sizes = 40 + 34 * np.log10(sub['count'])
     
-    # CATE drawn with higher zorder (zorder=4) and bold edge so it pops out prominently on top
     z_ord = 4 if cat == 'CATE' else 3
     lw = 0.8 if cat == 'CATE' else 0.5
     
@@ -160,29 +158,47 @@ curated_annotate_words = {
     'spectacular', 'unbelievable', 'breathtaking', 'epic', 'grandeur', 'priceless', 'safe', 'calm'
 }
 
+# Function to get text label color transitioning from bright to dark based on rating & polarity
+def get_label_color_brightness(rating, polarity, category):
+    if rating >= 4.8:
+        # High rating -> Bright Navy / Ocean Blue
+        return '#1E3A8A'
+    elif rating >= 4.2:
+        # Mid-High rating -> Dark Slate Blue
+        return '#334155'
+    elif rating >= 3.5:
+        # Mid-Low rating -> Deep Charcoal / Dark Amber
+        return '#4B5563'
+    else:
+        # Low rating (Severe Friction) -> Deep Crimson Dark Maroon
+        return '#881337'
+
 texts = []
 for idx, row in words_df.iterrows():
     w = row['word']
     if w in curated_annotate_words:
         x = row['mean_polarity']
         y = row['mean_rating']
+        cat = row['category']
         
-        # UNIFIED font style & color for ALL words (matching 'beware': #1E293B, normal weight, 8.5pt)
-        txt = ax.text(x, y, w, fontsize=8.5, fontweight='normal', color='#1E293B', alpha=0.95, zorder=5)
+        txt_color = get_label_color_brightness(y, x, cat)
+        fw = 'bold' if y < 3.5 or x < -0.2 else 'normal'
+        
+        txt = ax.text(x, y, w, fontsize=8.5, fontweight=fw, color=txt_color, alpha=0.95, zorder=5)
         texts.append(txt)
 
-print(f"Annotating exactly {len(texts)} clean curated words unified in beware-style font with adjustText...")
+print(f"Annotating exactly {len(texts)} clean curated words with rating-brightness color coding...")
 
 adjust_text(
     texts,
-    arrowprops=dict(arrowstyle='->', color='#475569', lw=0.6, alpha=0.75),
+    arrowprops=dict(arrowstyle='->', color='#64748B', lw=0.6, alpha=0.75),
     expand_text=(1.25, 1.35),
     expand_points=(1.25, 1.35),
     force_text=(0.6, 0.9),
     force_points=(0.6, 0.9)
 )
 
-ax.set_title('Word Sentiment Scatter Plot: VADER Polarity (X) vs Average Tourist Rating (Y)\n[Unified Dark Text Labels Across All Landmarks]', fontsize=14, fontweight='bold', pad=15)
+ax.set_title('Word Sentiment Scatter Plot: VADER Polarity (X) vs Average Tourist Rating (Y)\n[Text Labels Color-Coded from Bright Navy (High Rating) to Dark Maroon (Friction)]', fontsize=14, fontweight='bold', pad=15)
 ax.set_xlabel('Average VADER Sentiment Polarity (-1.0 to +1.0)', fontsize=12, labelpad=10)
 ax.set_ylabel('Average Tourist Star Rating (1.0 to 5.0 Stars)', fontsize=12, labelpad=10)
 
