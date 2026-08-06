@@ -140,22 +140,60 @@ def parse_location(loc_str):
     return {'user_city': city, 'user_state': state, 'user_country': country, 'is_us_domestic': is_us}
 
 def detect_language(text):
-    """【语种检测】快速判定评论语言 (English / French / German / Spanish / Chinese 等)"""
+    """【语种检测】准确判定评论语言 (English / French / German / Spanish / Chinese 等)"""
     if not isinstance(text, str) or len(text.strip()) == 0:
         return 'English'
     if re.search(r'[\u4e00-\u9fff]', text): return 'Chinese'
     if re.search(r'[\u3040-\u30ff]', text): return 'Japanese'
     if re.search(r'[\uac00-\ud7af]', text): return 'Korean'
+    if re.search(r'[\u0400-\u04ff]', text): return 'Russian'
     
-    words = set(re.findall(r'\b[a-z]+\b', text.lower()))
-    english_stops = {'the', 'and', 'is', 'was', 'in', 'to', 'of', 'it', 'for', 'with', 'on', 'that', 'this', 'we', 'my'}
-    if len(words) >= 5 and len(words.intersection(english_stops)) == 0:
-        if any(w in words for w in ['le', 'la', 'les', 'du', 'et', 'est', 'très', 'pour', 'une', 'des']): return 'French'
-        elif any(w in words for w in ['der', 'die', 'das', 'und', 'ist', 'mit', 'sehr', 'schön', 'war']): return 'German'
-        elif any(w in words for w in ['el', 'la', 'los', 'las', 'que', 'muy', 'excelente', 'con', 'para']): return 'Spanish'
-        elif any(w in words for w in ['il', 'che', 'molto', 'bello', 'per', 'con', 'vista']): return 'Italian'
-        else: return 'Other Non-English'
+    tokens = set(re.findall(r'\b[a-z\u00c0-\u024f]+\b', text.lower()))
+    if len(tokens) == 0:
+        return 'English'
+        
+    try:
+        from nltk.corpus import stopwords
+        english_stops = set(stopwords.words('english'))
+        german_stops = set(stopwords.words('german'))
+        french_stops = set(stopwords.words('french'))
+        spanish_stops = set(stopwords.words('spanish'))
+        italian_stops = set(stopwords.words('italian'))
+    except Exception:
+        english_stops = {'the', 'and', 'is', 'was', 'in', 'to', 'of', 'it', 'for', 'with', 'on', 'that', 'this', 'we', 'my'}
+        german_stops = {'der', 'die', 'das', 'und', 'ist', 'mit', 'sehr', 'schön', 'war'}
+        french_stops = {'le', 'la', 'les', 'du', 'et', 'est', 'très', 'pour', 'une', 'des'}
+        spanish_stops = {'el', 'la', 'los', 'las', 'que', 'muy', 'excelente', 'con', 'para'}
+        italian_stops = {'il', 'che', 'molto', 'bello', 'per', 'con', 'vista'}
+
+    en_cnt = len(tokens.intersection(english_stops))
+    de_cnt = len(tokens.intersection(german_stops))
+    fr_cnt = len(tokens.intersection(french_stops))
+    es_cnt = len(tokens.intersection(spanish_stops))
+    it_cnt = len(tokens.intersection(italian_stops))
+    
+    de_triggers = {'der', 'die', 'das', 'und', 'ist', 'mit', 'sehr', 'schön', 'war', 'fliegen', 'ausflug', 'rundflug', 'erlebnis', 'wir', 'uns', 'den', 'dem'}
+    es_triggers = {'el', 'la', 'los', 'las', 'que', 'muy', 'excelente', 'con', 'para', 'sin', 'una', 'del', 'por', 'sobre', 'inolvidable'}
+    fr_triggers = {'le', 'la', 'les', 'du', 'et', 'est', 'très', 'pour', 'une', 'des', 'avec', 'vol', 'magnifique', 'dans', 'plus'}
+    
+    de_trig_cnt = len(tokens.intersection(de_triggers))
+    es_trig_cnt = len(tokens.intersection(es_triggers))
+    fr_trig_cnt = len(tokens.intersection(fr_triggers))
+    
+    if de_cnt > en_cnt or de_trig_cnt >= 2:
+        return 'German'
+    if es_cnt > en_cnt or es_trig_cnt >= 2:
+        return 'Spanish'
+    if fr_cnt > en_cnt or fr_trig_cnt >= 2:
+        return 'French'
+    if it_cnt > en_cnt:
+        return 'Italian'
+        
+    if en_cnt == 0 and len(tokens) >= 5:
+        return 'Other Non-English'
+        
     return 'English'
+
 
 
 # ==============================================================================

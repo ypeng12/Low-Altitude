@@ -18,7 +18,10 @@ master_path = 'data/cleaned_datasets/tripadvisor_processed_master.csv'
 cate_path = 'data/derived_outputs/cate_words_curated_107.csv'
 
 print(f"Loading master dataset from {master_path}...")
-df = pd.read_csv(master_path)
+df_raw = pd.read_csv(master_path)
+df = df_raw[df_raw['is_english'] == 1].copy()
+print(f"Total Master Reviews: {len(df_raw)} | Filtered Pure English Reviews: {len(df)}")
+
 
 # Load 107 CATE words
 cate_words_set = set()
