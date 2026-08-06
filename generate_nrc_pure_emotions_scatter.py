@@ -20,11 +20,6 @@ try:
 except LookupError:
     nltk.download('vader_lexicon', quiet=True)
 
-try:
-    nltk.data.find('taggers/averaged_perceptron_tagger.zip')
-except LookupError:
-    nltk.download('averaged_perceptron_tagger', quiet=True)
-
 sia = SentimentIntensityAnalyzer()
 vader_lexicon = sia.lexicon
 
@@ -107,30 +102,25 @@ for word, stats in word_data.items():
     if stats['count'] < 15:
         continue
     
-    # Calculate INTRINSIC VADER WORD POLARITY (-1.0 to +1.0)
+    # RAW VADER WORD POLARITY SCORE (-4.0 to +4.0)
     if word in vader_lexicon:
-        intrinsic_polarity = vader_lexicon[word] / 4.0
+        raw_vader_score = vader_lexicon[word]
     else:
-        intrinsic_polarity = 0.0
+        raw_vader_score = 0.0
         
     records.append({
         'word': word,
         'count': stats['count'],
         'mean_rating': np.mean(stats['ratings']),
-        'intrinsic_polarity': intrinsic_polarity,
+        'raw_vader_score': raw_vader_score,
         'category': stats['category']
     })
 
 words_df = pd.DataFrame(records)
 dataset_mean_rating = df['rating'].mean()
 
-# Save pure emotion word stats
-out_csv = 'data/derived_outputs/nrc_pure_emotion_words_stats.csv'
-words_df.to_csv(out_csv, index=False)
-print(f"Saved pure emotion word stats ({len(words_df)} words) to {out_csv}")
-
 # -------------------------------------------------------------
-# Generate Publication Scatter Plot: Pure Emotion Words Only
+# Generate Publication Scatter Plot: RAW VADER Score (-4.0 to +4.0) vs Rating (1.0 to 5.0)
 # -------------------------------------------------------------
 plt.style.use('seaborn-v0_8-whitegrid' if 'seaborn-v0_8-whitegrid' in plt.style.available else 'default')
 fig, ax = plt.subplots(figsize=(15.0, 10.0), dpi=300)
@@ -159,7 +149,7 @@ for cat_code, cat_label in plutchik_legend_order:
     
     cnt_n = len(sub)
     ax.scatter(
-        sub['intrinsic_polarity'], sub['mean_rating'],
+        sub['raw_vader_score'], sub['mean_rating'],
         c=color, s=sizes, label=f"{cat_label} (n={cnt_n})",
         alpha=0.92 if cat_code in ['CATE', 'FEAR'] else 0.82, 
         edgecolors='black', linewidths=lw, zorder=z_ord
@@ -177,12 +167,12 @@ curated_annotate_words = {
     'spectacular', 'unbelievable', 'breathtaking', 'epic', 'grandeur', 'priceless', 'safe', 'calm'
 }
 
-# RULE COMPLIANCE: ALL WORD LABELS ARE STRICTLY UNIFIED DARK BLACK (#1E293B), REGULAR WEIGHT, 8.5pt
+# ALL WORD LABELS STRICTLY UNIFIED IN DARK SLATE BLACK (#1E293B), REGULAR WEIGHT, 8.5pt
 texts = []
 for idx, row in words_df.iterrows():
     w = row['word']
     if w in curated_annotate_words:
-        x = row['intrinsic_polarity']
+        x = row['raw_vader_score']
         y = row['mean_rating']
         
         txt = ax.text(x, y, w, fontsize=8.5, fontweight='normal', color='#1E293B', alpha=0.95, zorder=5)
@@ -197,9 +187,10 @@ adjust_text(
     force_points=(0.6, 0.9)
 )
 
-ax.set_title('Pure Emotion & Sentiment Word Scatter Plot: Intrinsic VADER Polarity (X) vs Star Rating (Y)\n[Excluding Non-Emotion Role/Entity Nouns, Plutchik Pairwise Colors, Unified Dark Labels]', fontsize=14, fontweight='bold', pad=15)
-ax.set_xlabel('Intrinsic Word VADER Sentiment Polarity (-1.0 to +1.0)', fontsize=12, labelpad=10)
+ax.set_title('Word Sentiment Scatter Plot: Raw VADER Word Score (-4.0 to +4.0) vs Tourist Rating (1.0 to 5.0)\n[Pure Emotion & CATE Words, Plutchik Pairwise Colors, Unified Dark Text Labels]', fontsize=14, fontweight='bold', pad=15)
+ax.set_xlabel('Raw Inherent VADER Word Polarity Score (-4.0 to +4.0 Scale)', fontsize=12, labelpad=10)
 ax.set_ylabel('Average Tourist Star Rating (1.0 to 5.0 Stars)', fontsize=12, labelpad=10)
+ax.set_xlim(-4.0, +4.0)
 
 ax.legend(title='Plutchik Emotion Pairs & CATE Domain', fontsize=9.5, title_fontsize=10.5, loc='lower left', frameon=True, facecolor='white', framealpha=0.95)
 
@@ -211,4 +202,4 @@ plt.savefig(out_fig, dpi=300, bbox_inches='tight')
 plt.savefig('figures/word_sentiment_scatter_exact_match.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-print(f"Saved Pure Emotion Word scatter plot to {out_fig}")
+print(f"Saved Raw VADER Word Score (-4.0 to +4.0) scatter plot to {out_fig}")
