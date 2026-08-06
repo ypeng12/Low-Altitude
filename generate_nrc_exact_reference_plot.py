@@ -22,7 +22,6 @@ df_raw = pd.read_csv(master_path)
 df = df_raw[df_raw['is_english'] == 1].copy()
 print(f"Total Master Reviews: {len(df_raw)} | Filtered Pure English Reviews: {len(df)}")
 
-
 # Load 107 CATE words
 cate_words_set = set()
 if os.path.exists(cate_path):
@@ -53,8 +52,8 @@ PLUTCHIK_COLORS = {
     'FEAR': '#DC2626',         # Crimson Red (Fear/Thrill)
     'ANGER': '#B91C1C',        # Dark Blood Red (Anger)
     
-    # CATE: Low-Altitude Specific Domain Attributes
-    'CATE': '#FFE500'          # Brightest Electric Gold (Domain Priority)
+    # CATE: Low-Altitude Specific Domain Attributes (Brightest Gold Yellow)
+    'CATE': '#FFE500'          
 }
 
 def map_word_to_nrc_or_cate(word):
@@ -104,7 +103,7 @@ words_df = pd.DataFrame(records)
 dataset_mean_rating = df['rating'].mean()
 
 # -------------------------------------------------------------
-# Generate Publication Scatter Plot with English Plutchik Pairwise Order
+# Generate Publication Scatter Plot with Plutchik Pairwise Order & CATE at the end
 # -------------------------------------------------------------
 plt.style.use('seaborn-v0_8-whitegrid' if 'seaborn-v0_8-whitegrid' in plt.style.available else 'default')
 fig, ax = plt.subplots(figsize=(15.0, 10.0), dpi=300)
@@ -118,7 +117,7 @@ plutchik_legend_order = [
     ('SURPRISE', 'Surprise [Pair 3]'),
     ('FEAR', 'Fear [Pair 4]'),
     ('ANGER', 'Anger [Pair 4]'),
-    ('CATE', 'CATE [Domain Attributes]')
+    ('CATE', 'CATE [Domain Attributes]')  # CATE is strictly placed at the very end
 ]
 
 for cat_code, cat_label in plutchik_legend_order:
@@ -142,38 +141,26 @@ for cat_code, cat_label in plutchik_legend_order:
 ax.axhline(dataset_mean_rating, color='red', linestyle=':', linewidth=1.5, zorder=2, label=f'Dataset Mean Rating ({dataset_mean_rating:.2f})')
 ax.axvline(0.0, color='#94A3B8', linestyle='--', linewidth=1.2, zorder=2)
 
+# Words to annotate in non-crowded areas (Left, Middle, Friction points, Key Emotion Shift terms)
 curated_annotate_words = {
-    'war', 'dank', 'gut', 'die', 'sin', 'dire', 'genial', 'art', 
-    'voyage', 'airs', 'mail', 'fuss', 'worse', 'fall',
+    'die', 'fuss', 'mail', 'voyage', 'airs', 'genial', 'art', 'fall',
     'horrible', 'terrible', 'wasted', 'awful', 'disappointing', 'ruined', 'beware', 'waste', 'refused',
-    'uncomfortable', 'delay', 'cancel', 'maintenance', 'lack', 'boring',
-    'nervous', 'scared', 'fear', 'afraid',
+    'uncomfortable', 'delay', 'cancel', 'maintenance', 'lack', 'boring', 'worse',
+    'nervous', 'scared', 'fear', 'afraid', 'anxious', 'terrified',
     'pilot', 'captain', 'worth', 'small', 'friendly', 'courteous', 'skilled', 
     'spectacular', 'unbelievable', 'breathtaking', 'epic', 'grandeur', 'priceless', 'safe', 'calm'
 }
 
-def get_label_color_brightness(rating, polarity, category):
-    if rating >= 4.8:
-        return '#1E3A8A'
-    elif rating >= 4.2:
-        return '#334155'
-    elif rating >= 3.5:
-        return '#4B5563'
-    else:
-        return '#881337'
-
+# RULE COMPLIANCE: ALL WORD LABELS ARE STRICTLY UNIFIED DARK BLACK (#1E293B), REGULAR WEIGHT (normal), 8.5pt
 texts = []
 for idx, row in words_df.iterrows():
     w = row['word']
     if w in curated_annotate_words:
         x = row['mean_polarity']
         y = row['mean_rating']
-        cat = row['category']
         
-        txt_color = get_label_color_brightness(y, x, cat)
-        fw = 'bold' if y < 3.5 or x < -0.2 or cat == 'FEAR' else 'normal'
-        
-        txt = ax.text(x, y, w, fontsize=8.5, fontweight=fw, color=txt_color, alpha=0.95, zorder=5)
+        # Pure dark slate black (#1E293B), normal weight for ALL labels
+        txt = ax.text(x, y, w, fontsize=8.5, fontweight='normal', color='#1E293B', alpha=0.95, zorder=5)
         texts.append(txt)
 
 adjust_text(
@@ -185,10 +172,11 @@ adjust_text(
     force_points=(0.6, 0.9)
 )
 
-ax.set_title('Word Sentiment Scatter Plot: VADER Polarity (X) vs Average Tourist Rating (Y)\n[Plutchik Pairwise Emotion Color Scheme & CATE Highlighting]', fontsize=14, fontweight='bold', pad=15)
+ax.set_title('Word Sentiment Scatter Plot: VADER Polarity (X) vs Average Tourist Rating (Y)\n[Plutchik Pairwise Colors, CATE Gold Highlighting, Unified Dark Labels]', fontsize=14, fontweight='bold', pad=15)
 ax.set_xlabel('Average VADER Sentiment Polarity (-1.0 to +1.0)', fontsize=12, labelpad=10)
 ax.set_ylabel('Average Tourist Star Rating (1.0 to 5.0 Stars)', fontsize=12, labelpad=10)
 
+# CATE at the end of the legend
 ax.legend(title='Plutchik Emotion Pairs & CATE Domain', fontsize=9.5, title_fontsize=10.5, loc='lower right', frameon=True, facecolor='white', framealpha=0.95)
 
 plt.tight_layout()
@@ -199,4 +187,4 @@ plt.savefig(out_fig, dpi=300, bbox_inches='tight')
 plt.savefig('figures/word_sentiment_scatter_exact_match.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-print(f"Saved Plutchik-aligned scatter plot to {out_fig}")
+print(f"Saved Plutchik-aligned scatter plot with strictly unified dark labels to {out_fig}")
