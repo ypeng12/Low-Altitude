@@ -209,6 +209,37 @@ Following Level 1 (Cleaning) and Level 2 (Feature Engineering), **Level 3** repr
 
 ---
 
+## 🎨 Step 8: CATE 107 Lexicon Derivation & NRC Emotion Scatter Analysis
+
+### 1. CATE 107 Lexicon Derivation & 5 ServQual Dimensions
+- **Contextual Aspect-based Tourism Emotion (CATE)** was constructed to address generic NLP sentiment model gaps in low-altitude tourism:
+  1. **Phase 1 (Initial Pool)**: Extracted 224 candidate adjectives and perceived attribute words with frequency $\ge 15$ across 21,269 pure English reviews (`is_english == 1`).
+  2. **Phase 2 (Noise Pruning)**: Stripped non-service stop words, mechanical counts (`first`, `second`, `one`), and non-directional adjectives.
+  3. **Phase 3 (ServQual & Psychological Mapping)**: Curated **107 domain-specific CATE attributes** (`cate_words_curated_107.csv` and `cate_words_curated_107_translated.xlsx`), mapping them onto 5 experience dimensions:
+     - *Pilot & Service Quality* (n=24): `skilled`, `personable`, `courteous`, `gracious`, `careful`...
+     - *Aerial Scenery & Environment* (n=8): `crystal`, `overcast`, `grandeur`, `epic`...
+     - *Cabin Facilities & Comfort* (n=15): `small`, `noise`, `cold`, `balance`, `uncomfortable`...
+     - *Perceived Value & Flexibility* (n=13): `worth`, `priceless`, `cheap`, `afford`, `fair`, `delayed`...
+     - *Psychological Thrill & Service Friction* (n=47): `fear`, `nervous`, `scared`, `afraid`, `anxious`, `lack`, `wrong`...
+
+### 2. Root Cause Analysis of X = 0.0 Words in Word Sentiment Scatter Plot
+In the pure emotion scatter plot (`figures/nrc_emotion_plots/nrc_pure_emotion_words_scatter.png`), **357 words lie on the vertical center line $X = 0.0$** (Intrinsic VADER Word Score):
+1. **VADER Rule-Lexicon Capacity Limit**: VADER's rule lexicon (`sia.lexicon`) contains ~7,500 hardcoded polarity scores. Words unlisted in VADER default to `0.0`.
+2. **Generic NLP Lexicon Domain Gap (60 CATE Words at 0.0)**:
+   - 60 out of 107 CATE words (e.g. `personable` 4.97★, `skilled` 4.95★, `priceless` 5.0★, `inaccessible` 4.96★, `epic` 4.97★, `hospitality` 4.98★) are high-value tourism attributes that generic VADER missed (assigned $0.0$).
+3. **NRC 8-Emotion Untagged Complement (297 NRC Words at 0.0)**:
+   - 297 words belong to Saif Mohammad's NRC 8-Emotion categories (e.g. `professional` in Trust, `spectacular` in Anticipation, `flying` in Fear), which NRC tagged with emotions but VADER lacked numeric polarity scores for (assigned $0.0$).
+
+### 3. Emotion Shift Paradox (Top-Left Quadrant Anomalies)
+- Words with intrinsic negative polarity ($X < 0$) paired with ultra-high star ratings ($Y \ge 4.8$):
+  - **`fear`**: Intrinsic VADER **$-2.20$** | Star Rating **4.96**
+  - **`scared`**: Intrinsic VADER **$-2.10$** | Star Rating **4.93**
+  - **`afraid`**: Intrinsic VADER **$-1.90$** | Star Rating **4.97**
+  - **`nervous`**: Intrinsic VADER **$-1.30$** | Star Rating **4.92**
+  - **`anxious`**: Intrinsic VADER **$-1.10$** | Star Rating **4.70**
+
+---
+
 ## 📁 Final Categorized Directory Structure
 
 ```text
