@@ -238,6 +238,21 @@ In the pure emotion scatter plot (`figures/nrc_emotion_plots/nrc_pure_emotion_wo
   - **`nervous`**: Intrinsic VADER **$-1.30$** | Star Rating **4.92**
   - **`anxious`**: Intrinsic VADER **$-1.10$** | Star Rating **4.70**
 
+### 4. Grounded Theory & Psychological Mechanism: The "Thrill & Friction Paradox"
+- **Research Question**: Why do tourists frequently use negative emotion/discomfort words (`fear`, `scared`, `nervous`, `anxious`, `cold`, `noise`, `cramped`, `small`) yet award 4.8–5.0 star ratings?
+- **Grounded Theory Framework (扎根理论三级编码分析)**:
+  1. **Open Coding (开放式编码 - Ex-Ante Perceived Risk & Physical Arousal)**:
+     - Negative emotion terms represent **pre-flight psychological fear** and **in-flight physiological arousal** (heightened heart rate, apprehension about low-altitude flying).
+     - Physical friction terms (`small` aircraft, `noise` from rotors, `cold` high-altitude winds) represent inherent cabin environmental realities, NOT service failures.
+  2. **Axial Coding (主轴编码 - Dual-Factor Psychological Transformation)**:
+     - **The Safety Anchor (人 - Pilot & Staff)**: Pilot professional reassurance (`skilled`, `personable`, `careful`, `calm`) eliminates life-threatening panic and transforms fear into controllable excitement.
+     - **The Peak-Awe Escalator (景 - Aerial Scenery)**: Unmatched 3D visual grandeur (`epic`, `breathtaking`, `crystal`, `priceless`) overwhelms minor physical discomforts (`cramped`, `noise`).
+  3. **Selective Coding (核心编码 - Peak-End Rule & Emotion Shift Mechanism)**:
+     - Under Kahneman's **Peak-End Rule (峰终定律)**, the intensity of emotional arousal at the peak (Aerial Visual Awe) combined with a safe, smooth landing (Pilot Professionalism) dominates post-trip memory.
+     - **Attribution Dichotomy (景 vs 人 归因机制)**:
+       - **People (Pilot/Staff)**: Acts as the **Hygiene/Safety Baseline (安全基石与信任兜底)**. Without pilot competence, fear degrades into 1-star panic.
+       - **Scenery (Aerial Landscape)**: Acts as the **Motivator/Thrill Multiplier (震撼增幅器与极致巅峰体验)**. It converts neutralized physiological arousal into an indelible 5-star "bucket-list" memory.
+
 ---
 
 ## 📁 Final Categorized Directory Structure
