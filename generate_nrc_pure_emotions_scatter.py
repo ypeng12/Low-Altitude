@@ -119,6 +119,11 @@ for word, stats in word_data.items():
 words_df = pd.DataFrame(records)
 dataset_mean_rating = df['rating'].mean()
 
+# Save pure emotion word stats with raw VADER score
+out_csv = 'data/derived_outputs/nrc_pure_emotion_words_stats.csv'
+words_df.to_csv(out_csv, index=False, encoding='utf-8-sig')
+print(f"Saved pure emotion word stats ({len(words_df)} words) with raw VADER score to {out_csv}")
+
 # -------------------------------------------------------------
 # Generate Publication Scatter Plot: RAW VADER Score (-4.0 to +4.0) vs Rating (1.0 to 5.0)
 # -------------------------------------------------------------

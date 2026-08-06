@@ -195,6 +195,7 @@ if os.path.exists(nrc_path):
         w = str(row['word']).strip().lower()
         cn_trans = TRANSLATION_MAP.get(w, '情绪与感知词汇')
         
+        v_score = row.get('raw_vader_score', row.get('intrinsic_polarity', 0.0))
         nrc_rows.append({
             '序号 (Index)': idx + 1,
             '英文单词 (Word)': w,
@@ -202,7 +203,7 @@ if os.path.exists(nrc_path):
             '词汇全称 (Formatted)': f"{w} ({cn_trans})",
             '出现频次 (Frequency)': row['count'],
             '平均游客星级 (Star Rating)': round(row['mean_rating'], 3),
-            '固有 VADER 极性 (Intrinsic Polarity)': round(row['intrinsic_polarity'], 3),
+            '固有 VADER 得分 (-4.0 to +4.0)': round(v_score, 3),
             'Plutchik 情绪分类 (Category)': row['category']
         })
         
