@@ -5,18 +5,30 @@ import seaborn as sns
 import re
 import os
 import sys
+import nltk
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from adjustText import adjust_text
 
 # Ensure UTF-8 output
 sys.stdout.reconfigure(encoding='utf-8')
+
+# Ensure NLTK resources
+try:
+    nltk.data.find('sentiment/vader_lexicon.zip')
+except LookupError:
+    nltk.download('vader_lexicon', quiet=True)
+
+sia = SentimentIntensityAnalyzer()
+vader_lexicon = sia.lexicon
 
 # 1. Load Master Dataset & 107 Curated CATE Words
 master_path = 'data/cleaned_datasets/tripadvisor_processed_master.csv'
 cate_path = 'data/derived_outputs/cate_words_curated_107.csv'
 
 print(f"Loading master dataset from {master_path}...")
-df = pd.read_csv(master_path)
-df_eng = df[df['is_english'] == 1].copy()
+df_raw = pd.read_csv(master_path)
+df = df_raw[df_raw['is_english'] == 1].copy()
+print(f"Total Master Reviews: {len(df_raw)} | Filtered Pure English Reviews: {len(df)}")
 
 # Load 107 CATE words
 cate_df = pd.read_csv(cate_path)
@@ -65,45 +77,42 @@ def assign_5_servqual_dimension(word):
         return 'Perceived Value & Flexibility'
         
     # Dimension 5: Psychological Thrill & Friction/Emotion Shift (心理惊险与服务摩擦)
-    # Default for words expressing thrill, friction, or subjective emotional reaction
     return 'Psychological Thrill & Service Friction'
 
 # 3. Calculate word-level statistics from master reviews
-word_stats = {w: {'ratings': [], 'polarities': [], 'count': 0} for w in cate_words_dict}
+word_stats = {w: {'ratings': [], 'count': 0} for w in cate_words_dict}
 
-for idx, row in df_eng.iterrows():
+for idx, row in df.iterrows():
     rating = row['rating']
-    polarity = row['sentiment_polarity']
     text = str(row['review_title']) + " " + str(row['review_text'])
     tokens = set(re.findall(r'\b[a-zA-Z]{3,}\b', text.lower()))
     
     for token in tokens:
         if token in word_stats:
             word_stats[token]['ratings'].append(rating)
-            word_stats[token]['polarities'].append(polarity)
             word_stats[token]['count'] += 1
 
 records = []
 for word, stats in word_stats.items():
     if stats['count'] > 0:
         mean_rating = np.mean(stats['ratings'])
-        mean_polarity = np.mean(stats['polarities'])
+        raw_vader = vader_lexicon.get(word, 0.0)
         dim = assign_5_servqual_dimension(word)
         records.append({
             'word': word,
-            'raw': cate_words_dict[word],
+            'raw_label': cate_words_dict[word],
             'count': stats['count'],
             'mean_rating': mean_rating,
-            'mean_polarity': mean_polarity,
+            'raw_vader_score': raw_vader,
             'dimension': dim
         })
 
 cate_result_df = pd.DataFrame(records)
-dataset_mean_rating = df_eng['rating'].mean()
+dataset_mean_rating = df['rating'].mean()
 
 # Save stats to derived_outputs
 out_csv = 'data/derived_outputs/cate_5dimensions_words_stats.csv'
-cate_result_df.to_csv(out_csv, index=False)
+cate_result_df.to_csv(out_csv, index=False, encoding='utf-8-sig')
 print(f"Saved 5-Dimension CATE stats to {out_csv}")
 
 # 4. Plot 5-Dimension Scatter Plot
@@ -118,7 +127,6 @@ DIMENSION_COLORS = {
     'Psychological Thrill & Service Friction': '#E50914'    # Crimson Red
 }
 
-dim_counts = cate_result_df['dimension'].value_counts()
 dimensions_order = [
     'Pilot & Service Quality',
     'Aerial Scenery & Environment',
@@ -136,7 +144,7 @@ for dim in dimensions_order:
     
     cnt_n = len(sub)
     ax.scatter(
-        sub['mean_polarity'], sub['mean_rating'],
+        sub['raw_vader_score'], sub['mean_rating'],
         c=color, s=sizes, label=f"{dim} (n={cnt_n})",
         alpha=0.88, edgecolors='black', linewidths=0.7, zorder=3
     )
@@ -149,16 +157,15 @@ texts = []
 annotate_words = {
     'worth', 'small', 'skilled', 'courteous', 'unbelievable', 'spectacular', 
     'breathtaking', 'calm', 'cold', 'loud', 'cheap', 'priceless', 'extra', 
-    'wrong', 'uncomfortable', 'lack', 'boring', 'delayed', 'cramped'
+    'wrong', 'uncomfortable', 'lack', 'boring', 'delayed', 'cramped', 'personable', 'epic'
 }
 
 for idx, row in cate_result_df.iterrows():
     w = row['word']
-    x = row['mean_polarity']
+    x = row['raw_vader_score']
     y = row['mean_rating']
     
-    # Label key landmark words or outliers
-    if w in annotate_words or x < 0.4 or y < 4.6:
+    if w in annotate_words or x < -0.5 or y < 4.6:
         txt = ax.text(x, y, w, fontsize=8.5, fontweight='normal', color='#1E293B', alpha=0.95, zorder=5)
         texts.append(txt)
 
@@ -171,11 +178,12 @@ adjust_text(
     force_points=(0.5, 0.8)
 )
 
-ax.set_title('CATE 107 Domain Keywords: 5 ServQual & Psychological Experience Dimensions\n[VADER Polarity (X) vs Average Tourist Rating (Y)]', fontsize=14, fontweight='bold', pad=15)
-ax.set_xlabel('Average VADER Sentiment Polarity (-1.0 to +1.0)', fontsize=12, labelpad=10)
+ax.set_title('CATE 107 Domain Keywords: 5 ServQual & Psychological Experience Dimensions\n[Raw VADER Word Score (-4.0 to +4.0) vs Average Tourist Rating (1.0 to 5.0)]', fontsize=14, fontweight='bold', pad=15)
+ax.set_xlabel('Raw Inherent VADER Word Polarity Score (-4.0 to +4.0 Scale)', fontsize=12, labelpad=10)
 ax.set_ylabel('Average Tourist Star Rating (1.0 to 5.0 Stars)', fontsize=12, labelpad=10)
+ax.set_xlim(-4.0, +4.0)
 
-ax.legend(title='CATE 5 Experience Dimensions', fontsize=10, title_fontsize=11, loc='lower right', frameon=True, facecolor='white', framealpha=0.95)
+ax.legend(title='CATE 5 Experience Dimensions', fontsize=10, title_fontsize=11, loc='lower left', frameon=True, facecolor='white', framealpha=0.95)
 
 plt.tight_layout()
 out_dir = 'figures/cate_sentiment_plots'

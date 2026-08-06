@@ -230,20 +230,13 @@ In the pure emotion scatter plot (`figures/nrc_emotion_plots/nrc_pure_emotion_wo
 3. **NRC 8-Emotion Untagged Complement (297 NRC Words at 0.0)**:
    - 297 words belong to Saif Mohammad's NRC 8-Emotion categories (e.g. `professional` in Trust, `spectacular` in Anticipation, `flying` in Fear), which NRC tagged with emotions but VADER lacked numeric polarity scores for (assigned $0.0$).
 
-### 3. Emotion Shift Paradox & Pilot-Driven Psychological Mediation
+### 3. Emotion Shift Paradox (Top-Left Quadrant Anomalies)
 - Words with intrinsic negative polarity ($X < 0$) paired with ultra-high star ratings ($Y \ge 4.8$):
   - **`fear`**: Intrinsic VADER **$-2.20$** | Star Rating **4.96**
   - **`scared`**: Intrinsic VADER **$-2.10$** | Star Rating **4.93**
   - **`afraid`**: Intrinsic VADER **$-1.90$** | Star Rating **4.97**
   - **`nervous`**: Intrinsic VADER **$-1.30$** | Star Rating **4.92**
   - **`anxious`**: Intrinsic VADER **$-1.10$** | Star Rating **4.70**
-- **Empirical Mechanism Discovery**:
-  - Out of all 854 5-star reviews containing fear/anxiety terms (`fear`, `scared`, `afraid`, `nervous`), **82.67% explicitly credit the Pilot/Captain (`pilot_mention == 1`)**.
-  - *Qualitative Quotes*:
-    - *"I have a terrible fear of flying... Captain Carla was so kind and professional and assured me I would have a wonderful day!"* (5-Star Rating)
-    - *"I was a nervous passenger, however, I had nothing to worry about thanks to our pilot Ken."* (5-Star Rating)
-    - *"I’m afraid of heights but the pilot made me feel very safe."* (5-Star Rating)
-  - **Academic Conclusion**: Pilot competence and reassurance act as a crucial psychological catalyst that converts pre-flight anxiety into 5-star post-flight thrill and satisfaction!
 
 ---
 
