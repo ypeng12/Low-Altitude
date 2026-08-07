@@ -1,0 +1,16 @@
+﻿Variable,Coef_Attribution_Discourse,StdErr_Attribution_Discourse,PValue_Attribution_Discourse
+Intercept,4.176,0.0369,0.0
+weather_neg,-0.1803,0.0616,0.0034
+pilot_pos,0.0297,0.006,0.0
+weather_neg:pilot_pos,0.2788,0.067,0.0
+fear_trans,-0.0449,0.0252,0.0754
+fear_anxiety,0.1173,0.0216,0.0
+safety_assurance,0.0437,0.0064,0.0
+sentiment_post_but,0.8094,0.0403,0.0
+discourse_shift_pos2neg,0.3693,0.0976,0.0002
+discourse_shift_neg2pos,-0.1675,0.0328,0.0
+ground_staff_pos,-0.0013,0.0078,0.8657
+ground_staff_neg,-0.4077,0.0881,0.0
+price_value_neg,-0.447,0.0737,0.0
+word_count_std,-0.0935,0.006,0.0
+is_us_domestic,0.0255,0.006,0.0

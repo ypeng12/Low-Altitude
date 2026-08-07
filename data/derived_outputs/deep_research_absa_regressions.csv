@@ -1,0 +1,16 @@
+﻿Variable,Coef_ABSA_Baseline,StdErr_ABSA_Baseline,PValue_ABSA_Baseline
+Intercept,4.7822,0.0111,0.0
+pilot_pos,0.0862,0.0068,0.0
+pilot_neg,-0.5217,0.0714,0.0
+weather_pos,0.025,0.0088,0.0047
+weather_neg,-0.1415,0.0382,0.0002
+ground_staff_pos,0.0316,0.0082,0.0001
+ground_staff_neg,-0.5672,0.1067,0.0
+price_value_pos,0.0143,0.0082,0.0824
+price_value_neg,-0.6649,0.0863,0.0
+scenery_pos,0.0757,0.0072,0.0
+scenery_neg,-0.0748,0.0434,0.0849
+safety_assurance,0.069,0.0067,0.0
+fear_anxiety,0.081,0.0138,0.0
+word_count_std,-0.0886,0.0071,0.0
+is_us_domestic,0.0243,0.0065,0.0002

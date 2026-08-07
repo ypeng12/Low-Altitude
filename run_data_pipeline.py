@@ -313,12 +313,22 @@ def main():
     df_dedup['sentiment_pos'] = [s['pos'] for s in sentiments]
     df_dedup['sentiment_neg'] = [s['neg'] for s in sentiments]
 
-    # 5.4 低空旅游领域 9 大维度特征抽取 (匹配 0/1 哑变量)
-    print("正在提取低空观光领域专属体验特征 (0/1 指标)...")
+    # 5.4 低空旅游领域特征抽取：ABSA 极性、篇章转折权重、安抚/恐惧解耦与独立角色触点
+    print("正在提取低空观光领域专属体验特征 (ABSA极性、篇章转折权重与触点解耦)...")
     full_text_lower = full_text_str.str.lower()
     
-    # (1) 安全与心理感知
-    df_dedup['safety_mention'] = full_text_lower.str.contains(r'\b(safe|safety|nervous|calm|scared|frightened|smooth|landing|reassured|comfort|comfortable|ease|relax|reassure|anxious|anxiety)\b', regex=True).astype(int)
+    # (1) 安全与心理感知细分：解耦正面安全感与负面恐惧唤起
+    df_dedup['safety_assurance'] = full_text_lower.str.contains(
+        r'\b(safe|safety|calm|smooth|reassured|comfort|comfortable|ease|relax|reassure)\b', regex=True
+    ).astype(int)
+    df_dedup['fear_anxiety'] = full_text_lower.str.contains(
+        r'\b(scared|frightened|nervous|afraid|anxious|anxiety|fear|terrified|terrifying|panic|worried)\b', regex=True
+    ).astype(int)
+    # 恐惧转化指数：衡量游客从害怕转为安全感的心理调控过程
+    df_dedup['fear_trans'] = ((df_dedup['fear_anxiety'] == 1) & (df_dedup['safety_assurance'] == 1)).astype(int)
+    # 兼容原 safety_mention 变量
+    df_dedup['safety_mention'] = ((df_dedup['safety_assurance'] == 1) | (df_dedup['fear_anxiety'] == 1)).astype(int)
+
     # (2) 机型对比 (直升机 vs 飞机)
     df_dedup['helicopter_comparison'] = full_text_lower.str.contains(r'\b(helicopter|heli|chopper)\b', regex=True).astype(int)
     # (3) 价格与性价比
@@ -330,7 +340,8 @@ def main():
     df_dedup['wildlife_mention'] = full_text_lower.str.contains(r'\b(whale|whales|dolphin|wildlife|turtle|turtles)\b', regex=True).astype(int)
     # (5) 天气与能见度
     df_dedup['weather_mention'] = full_text_lower.str.contains(r'\b(weather|cloud|clouds|cloudy|rain|rainy|wind|windy|headwind|visibility|clear|sun|sunny|rainbow)\b', regex=True).astype(int)
-    # (6) 飞行服务切分: 空中飞行解说组 (Flight Crew: Pilot=Guide) vs 地面服务组 (Ground Staff) vs 同行家属 (Companion)
+
+    # (6) 飞行服务独立触点切分: 空中机长组 vs 地面接待组 vs 专职导游 vs 同行家属
     print("正在通过 coref_resolver 执行低空领域服务角色实体提取 (空中飞行解说 vs 地面接待)...")
     from coref_resolver import resolve_review_roles
     
@@ -341,13 +352,74 @@ def main():
     df_dedup['ground_staff_mention'] = role_df['ground_staff_mentioned'] # 地面与前台接待组 (Desk, Check-in, Office)
     df_dedup['companion_mention'] = role_df['companion_mentioned']       # 同行家属/同伴 (Husband, Wife, Family)
     
-    # 兼容性保留
+    # 触点完全拆分与兼容变量
     df_dedup['pilot_mention'] = df_dedup['flight_crew_mention']
     df_dedup['staff_service_mention'] = df_dedup['ground_staff_mention']
     df_dedup['guide_mention'] = full_text_lower.str.contains(r'\b(guide|tour guide|narrator)\b', regex=True).astype(int)
     df_dedup['pilot_service_mention'] = ((df_dedup['flight_crew_mention'] == 1) | (df_dedup['ground_staff_mention'] == 1)).astype(int)
-    
-    # (7) 纪念场景 (蜜月/生日/Bucket list)
+
+    # (7) 篇章转折解析 (Discourse Marker & Clause Weight Parser: "but", "however")
+    print("正在计算篇章转折动态与转折后子句权重 (Discourse Clause Parsing)...")
+    def parse_discourse(text):
+        if not isinstance(text, str) or not text.strip():
+            return 0.0, 0.0, 0, 0, 0
+        match = re.search(r'\b(but|however|although|yet|though|even though|except|nonetheless|nevertheless)\b', text, flags=re.IGNORECASE)
+        if match:
+            idx = match.start()
+            pre = text[:idx].strip()
+            post = text[idx:].strip()
+            c_pre = sia.polarity_scores(pre)['compound'] if pre else 0.0
+            c_post = sia.polarity_scores(post)['compound'] if post else 0.0
+            p2n = 1 if (c_pre >= 0.05 and c_post <= -0.05) else 0
+            n2p = 1 if (c_pre <= -0.05 and c_post >= 0.05) else 0
+            return c_pre, c_post, 1, p2n, n2p
+        else:
+            c_tot = sia.polarity_scores(text)['compound']
+            return c_tot, c_tot, 0, 0, 0
+
+    disc_res = df_dedup['review_text'].apply(parse_discourse).tolist()
+    df_dedup['sentiment_pre_but'] = [r[0] for r in disc_res]
+    df_dedup['sentiment_post_but'] = [r[1] for r in disc_res]
+    df_dedup['has_adversative_conjunction'] = [r[2] for r in disc_res]
+    df_dedup['discourse_shift_pos2neg'] = [r[3] for r in disc_res]
+    df_dedup['discourse_shift_neg2pos'] = [r[4] for r in disc_res]
+
+    # (8) 属性级情感极性 (ABSA - Aspect-Based Sentiment Analysis)
+    print("正在计算四大核心属性领域 ABSA 极性 (Pilot, Weather, GroundStaff, PriceValue)...")
+    absa_patterns = {
+        'pilot': r'\b(pilot|pilots|captain|bruce|aviator|flyer)\b',
+        'weather': r'\b(weather|cloud|clouds|cloudy|rain|rainy|wind|windy|headwind|visibility|clear|sun|sunny|fog|foggy|overcast)\b',
+        'ground_staff': r'\b(staff|desk|check-in|counter|reception|office|ground|shuttle|agent)\b',
+        'price_value': r'\b(economical|cheap|expensive|price|priced|worth|dime|penny|value|cost|budget|affordable|deal|money|dollars)\b',
+        'scenery': r'\b(view|views|scenery|landscape|canyon|glacier|mountain|mountains|waterfall|coast|scenic|grandeur|cliff|sea|ocean|island|wildlife)\b'
+    }
+
+    def compute_absa(text):
+        if not isinstance(text, str) or not text.strip():
+            return {f'{k}_{m}': 0 for k in absa_patterns for m in ['pos', 'neg']} | {f'{k}_sentiment': 0.0 for k in absa_patterns}
+        
+        sentences = [s.strip() for s in re.split(r'[.!?;\n]+', text.lower()) if s.strip()]
+        res = {}
+        for k, pat in absa_patterns.items():
+            matching_sents = [s for s in sentences if re.search(pat, s)]
+            if matching_sents:
+                scores = [sia.polarity_scores(s)['compound'] for s in matching_sents]
+                avg_score = np.mean(scores)
+                res[f'{k}_sentiment'] = avg_score
+                res[f'{k}_pos'] = 1 if avg_score >= 0.05 else 0
+                res[f'{k}_neg'] = 1 if avg_score <= -0.05 else 0
+            else:
+                res[f'{k}_sentiment'] = 0.0
+                res[f'{k}_pos'] = 0
+                res[f'{k}_neg'] = 0
+        return res
+
+    absa_results = df_dedup['review_text'].apply(compute_absa).tolist()
+    absa_df = pd.DataFrame(absa_results, index=df_dedup.index)
+    for col in absa_df.columns:
+        df_dedup[col] = absa_df[col]
+
+    # (9) 纪念场景 (蜜月/生日/Bucket list)
     df_dedup['special_occasion'] = full_text_lower.str.contains(r'\b(honeymoon|anniversary|birthday|bucket list|highlight|50th|celebrat\w*|special occasion)\b', regex=True).astype(int)
     # 机型分类
     tour_lower = df_dedup['tour_name'].fillna('').str.lower()
