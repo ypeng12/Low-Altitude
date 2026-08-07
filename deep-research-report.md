@@ -61,13 +61,19 @@ VADER 最初主要是为微博式社交媒体文本设计的规则模型；NRC �
 - **天气要素**：正面天气 $\beta_{\text{weather\_pos}} = +0.0250$ ($p = 0.005$)；恶劣天气 $\beta_{\text{weather\_neg}} = -0.1415$ ($p < 0.001$)。
 - **地面触点解耦**：地面负面服务 $\beta_{\text{ground\_staff\_neg}} = -0.5672$ ($p < 0.001$)，证明地面柜台与登机摩擦对星级评分有极强的破坏力。
 
+![Figure 1: ABSA 属性极性回归边际效应森林图](file:///Users/yuliangpeng/Desktop/Low-Altitude/figures/absa_marginal_effects_forest_plot.png)
+
 #### 2. 归因缓冲机制 (Attribution Compensation Effect)
 - **交互项 $Weather_{neg} \times Pilot_{pos}$**：交互系数为 **$+0.2788$ ($p < 0.001$)**。
 - **学术含义**：当面临恶劣天气等不可控外部限制（$Weather_{neg}=1$）时，飞行员卓越的专业解说与技术操控（$Pilot_{pos}=1$）能够**完全抵消**不可抗力带来的分值下降（$-0.1803 + 0.2788 = +0.0985 > 0$），证明了优质内部服务对外部不可控自然环境缺陷的强效缓冲与补救作用！
 
+![Figure 2: 归因缓冲效应交互作用图](file:///Users/yuliangpeng/Desktop/Low-Altitude/figures/attribution_mitigation_interaction.png)
+
 #### 3. 篇章转折权重 ("But" Discourse Focus)
 - **转折后子句 Compound 分值 ($S_{\text{post\_but}}$)**：回归系数达 **$+0.8094$ ($p < 0.001$)** (Ordered Probit 模型中达到 **$+1.2465$**)。
 - **学术含义**：在包含 `but`/`however` 的复杂复合句中，游客最终的 5 星评分高度由转折后子句的情感走向主导，解释力 ($R^2$) 从基准模型的 $11.87\%$ 大幅跃升至 **$24.88\%$**。
+
+![Figure 3: 篇章转折焦点与 R² 解释力跃升图](file:///Users/yuliangpeng/Desktop/Low-Altitude/figures/discourse_clause_r2_jump.png)
 
 ---
 
