@@ -1,0 +1,12 @@
+﻿Incongruence_Mechanism,Review_Count,Percentage
+Pure Positive Baseline,15111,67.96
+Minor Local Noise,2887,12.98
+Type 1: Local Friction - Overall Positive,2288,10.29
+Type 9: Multilingual Lexicon Artifact,775,3.49
+Low Rating Failure,517,2.33
+Type 3: Fear Transformation / Arousal,263,1.18
+Type 8: Negation Pseudo-Negative,187,0.84
+Type 5: Price Concession,104,0.47
+Type 4: Service Recovery,71,0.32
+Type 2: Uncontrollable Natural Factor,23,0.1
+Type 10: True Star-Text Conflict,9,0.04

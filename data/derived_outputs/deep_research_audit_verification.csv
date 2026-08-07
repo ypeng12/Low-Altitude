@@ -1,0 +1,13 @@
+﻿metric,count,percentage
+Total Reviews,22235,100.0
+5-Star Reviews,20876,93.89
+4+5 Star Reviews,21718,97.67
+Sub-cohort (High Rating & VADER Neg Prop >= 0.05),2008,9.67
+Sub-cohort Contrast/Concession Markers,994,49.5
+Sub-cohort Weather/Uncontrollable Conditions,676,33.7
+Sub-cohort Price/Value Mention,512,25.5
+Sub-cohort Fear/Physical Discomfort,468,23.3
+Sub-cohort Service Recovery/Reassurance,295,14.7
+Sub-cohort Loose Scenery Positive,1439,71.7
+Sub-cohort Loose People Positive,1378,68.6
+Sub-cohort Loose Both Scenery & People,1016,50.6

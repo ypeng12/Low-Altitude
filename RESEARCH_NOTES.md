@@ -275,6 +275,45 @@ In the pure emotion scatter plot (`figures/nrc_emotion_plots/nrc_pure_emotion_wo
 
 ---
 
+## 🔬 Step 10: Deep Research Framework Validation & Quintuple Econometric Models
+
+### 1. Empirical Verification of Audit Statistics (`run_deep_research_audit.py`)
+- **Rating Ceiling Distribution**:
+  - Total Reviews: **22,235** | 5-Star Reviews: **20,876 (93.89%)** | 4+5 Star Reviews: **21,718 (97.67%)** | Mean Rating: **4.892**
+- **Incongruence Sub-cohort (Rating $\ge 4$ & VADER Neg Prop $\ge 0.05$, $N=2,008$)**:
+  - **Discourse Contrast/Concession Markers (`but`, `however`, `although`)**: **49.5%** ($N=994$)
+  - **Uncontrollable Weather/Natural Conditions**: **33.7%** ($N=676$)
+  - **Price/Value Concession**: **25.5%** ($N=512$)
+  - **Fear & Physiological Discomfort**: **23.3%** ($N=468$)
+  - **Service Recovery & Reassurance**: **14.7%** ($N=295$)
+  - **Dual Scenery & People Positive Co-presence**: **50.6%** ($N=1,016$)
+
+### 2. Quintuple Extraction & 10 Incongruence Mechanisms (`run_quintuple_extraction.py`)
+- Extracted 10 Domain-Specific Aspect Categories across 22,235 reviews:
+  - `Scenery` (68.15%), `Pilot` (66.40%), `Companion` (24.55%), `PriceValue` (21.58%), `Weather` (19.94%), `GroundStaff` (19.64%), `CabinComfort` (16.51%), `LifetimeExperience` (15.88%), `Safety` (15.70%), `ServiceRecovery` (6.18%).
+- **Incongruence Taxonomy Distribution**:
+  - Pure Positive Baseline: **15,111 (67.96%)**
+  - Type 1 (Local Friction - Overall Positive): **2,288 (10.29%)**
+  - Type 9 (Multilingual Artifact): **775 (3.49%)**
+  - Type 3 (Fear Transformation): **263 (1.18%)**
+  - Type 8 (Negation Pseudo-Negative): **187 (0.84%)**
+  - Type 5 (Price Concession): **104 (0.47%)**
+  - Type 4 (Service Recovery): **71 (0.32%)**
+  - Type 2 (Uncontrollable Factor): **23 (0.10%)**
+  - Type 10 (True Star-Text Conflict): **Only 9 reviews (0.04%)**!
+
+### 3. Econometric Regressions & Interaction Mechanisms (`run_incongruence_econometrics.py`)
+- **Baseline Aspect Utility OLS & Ordered Probit**:
+  - `aspect_Safety`: $\beta = +0.0767$ ($p < 0.001$, Probit $\beta = +0.2916, p < 0.001$)
+  - `aspect_Pilot`: $\beta = +0.0862$ ($p < 0.001$, Probit $\beta = +0.2807, p < 0.001$)
+  - `aspect_Scenery`: $\beta = +0.0882$ ($p < 0.001$, Probit $\beta = +0.2304, p < 0.001$)
+  - `aspect_CabinComfort`: $\beta = -0.0268$ ($p = 0.023$, Probit $\beta = -0.2745, p < 0.001$)
+- **Service Recovery & Attributability Interaction Effect**:
+  - `aspect_Weather * aspect_ServiceRecovery`: **$\beta = +0.3688$, $p < 0.0001$ ($z = 5.351$)**!
+  - **Empirical Insight**: While bad weather (`aspect_Weather`) lowers rating, proactive operator service recovery (`aspect_ServiceRecovery`) produces a massive $+0.3688$ positive interaction boost that fully neutralizes negative weather effects!
+
+---
+
 ## 📁 Final Categorized Directory Structure
 
 ```text
