@@ -13,60 +13,73 @@ out_dir = 'figures'
 os.makedirs(out_dir, exist_ok=True)
 
 # -----------------------------------------------------------------------------
-# 图 1：各个体验维度对星级评分的影响（加分项 vs 扣分项 对比图）
+# 图 1：ABSA 属性极性影响 —— 清晰拆分为加分项与扣分项双面板对比图
 # -----------------------------------------------------------------------------
 absa_csv = 'data/derived_outputs/deep_research_absa_regressions.csv'
 df_absa = pd.read_csv(absa_csv)
 
-# 筛选核心领域维度
-df_domain = df_absa[~df_absa['Variable'].isin(['Intercept', 'word_count_std', 'is_us_domestic'])].copy()
+# 正面好评因素子集
+pos_vars = ['pilot_pos', 'scenery_pos', 'safety_assurance', 'ground_staff_pos', 'weather_pos', 'price_value_pos']
+pos_labels = [
+    '飞行员服务优异 (Pilot Positive)',
+    '景色震撼壮丽 (Scenery Positive)',
+    '安全感建立确立 (Safety Reassurance)',
+    '地勤接待热情 (Ground Staff Positive)',
+    '天气晴朗能见度高 (Weather Positive)',
+    '价格合理划算 (Price Positive)'
+]
 
-# 中文通俗标签映射
-zh_name_map = {
-    'pilot_pos': '飞行员表现优异 (Pilot Positive)',
-    'scenery_pos': '景色壮丽震撼 (Scenery Positive)',
-    'safety_assurance': '安全感确立 (Safety Reassurance)',
-    'fear_anxiety': '心理紧张/刺激 (Fear/Thrill)',
-    'ground_staff_pos': '地勤服务热情 (Ground Staff Positive)',
-    'weather_pos': '天气晴朗能见度高 (Weather Positive)',
-    'price_value_pos': '价格合理划算 (Price Positive)',
-    'scenery_neg': '景观不佳 (Scenery Negative)',
-    'weather_neg': '天气恶劣/大雾 (Weather Negative)',
-    'pilot_neg': '飞行员态度/技术差 (Pilot Negative)',
-    'ground_staff_neg': '地勤服务态度恶劣 (Ground Staff Negative)',
-    'price_value_neg': '价格昂贵/极不划算 (Price Negative)'
-}
+# 负面抱怨因素子集
+neg_vars = ['price_value_neg', 'ground_staff_neg', 'pilot_neg', 'weather_neg', 'scenery_neg']
+neg_labels = [
+    '价格昂贵/极不划算 (Price Negative)',
+    '地面前台服务恶劣 (Ground Staff Negative)',
+    '飞行员失职/服务差 (Pilot Negative)',
+    '老天爷天气恶劣/大雾 (Weather Negative)',
+    '景色地貌不佳 (Scenery Negative)'
+]
 
-df_domain['ZH_Name'] = df_domain['Variable'].map(lambda x: zh_name_map.get(x, x))
-df_domain = df_domain.sort_values(by='Coef_ABSA_Baseline', ascending=True)
+df_pos = df_absa[df_absa['Variable'].isin(pos_vars)].copy()
+df_pos['Label'] = df_pos['Variable'].map(dict(zip(pos_vars, pos_labels)))
+df_pos = df_pos.sort_values(by='Coef_ABSA_Baseline', ascending=True)
 
-fig, ax = plt.subplots(figsize=(13, 8), dpi=300)
+df_neg = df_absa[df_absa['Variable'].isin(neg_vars)].copy()
+df_neg['Label'] = df_neg['Variable'].map(dict(zip(neg_vars, neg_labels)))
+df_neg = df_neg.sort_values(by='Coef_ABSA_Baseline', ascending=False) # Most negative at bottom
 
-y_pos = np.arange(len(df_domain))
-coefs = df_domain['Coef_ABSA_Baseline'].values
-names = df_domain['ZH_Name'].values
-colors = ['#E11D48' if c < 0 else '#10B981' for c in coefs]
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6.5), dpi=300)
 
-bars = ax.barh(y_pos, coefs, color=colors, height=0.6, edgecolor='black', linewidth=1.0, zorder=3)
+# 上/左面板：正面加分项
+y1 = np.arange(len(df_pos))
+c1 = df_pos['Coef_ABSA_Baseline'].values
+l1 = df_pos['Label'].values
 
-ax.axvline(0.0, color='#475569', linestyle='-', linewidth=1.5, zorder=2)
-ax.set_yticks(y_pos)
-ax.set_yticklabels(names, fontsize=11, fontweight='bold')
-ax.set_xlabel('对游客星级评分的影响程度 (回归系数 β)', fontsize=12, fontweight='bold', labelpad=10)
-ax.set_title('图 1：低空旅游各个体验维度的评分影响（加分 vs 扣分）\n【绿色右边为加分项：飞行员好评加分最多 (+0.086星) | 红色左边为扣分项：价格昂贵与服务差扣分最惨 (-0.52~-0.66星)】', fontsize=13, fontweight='bold', pad=15)
+bars1 = ax1.barh(y1, c1, color='#10B981', height=0.55, edgecolor='black', linewidth=1.0, zorder=3)
+ax1.set_yticks(y1)
+ax1.set_yticklabels(l1, fontsize=10.5, fontweight='bold')
+ax1.set_xlim(0.0, 0.11)
+ax1.set_xlabel('加分影响程度 (+ 星级)', fontsize=11, fontweight='bold', labelpad=8)
+ax1.set_title('【左图：正面体验加分项】\n飞行员优秀服务加分第 1 名 (+0.0862星)', fontsize=12, fontweight='bold', color='#065F46')
 
-for bar, c in zip(bars, coefs):
-    width = bar.get_width()
-    offset = 0.012 if c >= 0 else -0.012
-    align = 'left' if c >= 0 else 'right'
-    color = '#047857' if c >= 0 else '#B91C1C'
-    label_str = f"+{c:.4f} 星" if c >= 0 else f"{c:.4f} 星"
-    ax.text(width + offset, bar.get_y() + bar.get_height()/2.0, label_str, va='center', ha=align, fontsize=10.5, fontweight='bold', color=color)
+for bar, val in zip(bars1, c1):
+    ax1.text(val + 0.003, bar.get_y() + bar.get_height()/2.0, f"+{val:.4f} 星", va='center', ha='left', fontsize=10, fontweight='bold', color='#047857')
 
-# 添加重点标注框
-ax.text(0.09, 10.8, '[+] 飞行员优秀服务：\n加分第 1 名 (+0.0862星)', bbox=dict(boxstyle='round,pad=0.5', facecolor='#D1FAE5', edgecolor='#10B981', alpha=0.9), fontsize=10, fontweight='bold', color='#065F46')
-ax.text(-0.62, 1.2, '[-] 价格昂贵与地勤恶劣：\n扣分最惨重 (-0.56 ~ -0.66星)', bbox=dict(boxstyle='round,pad=0.5', facecolor='#FEE2E2', edgecolor='#EF4444', alpha=0.9), fontsize=10, fontweight='bold', color='#991B1B')
+# 右面板：负面扣分项
+y2 = np.arange(len(df_neg))
+c2 = df_neg['Coef_ABSA_Baseline'].values
+l2 = df_neg['Label'].values
 
+bars2 = ax2.barh(y2, c2, color='#EF4444', height=0.55, edgecolor='black', linewidth=1.0, zorder=3)
+ax2.set_yticks(y2)
+ax2.set_yticklabels(l2, fontsize=10.5, fontweight='bold')
+ax2.set_xlim(-0.75, 0.0)
+ax2.set_xlabel('扣分严重程度 (- 星级)', fontsize=11, fontweight='bold', labelpad=8)
+ax2.set_title('【右图：负面体验扣分项】\n价格昂贵与地勤态度差扣分最惨重 (-0.56 ~ -0.66星)', fontsize=12, fontweight='bold', color='#991B1B')
+
+for bar, val in zip(bars2, c2):
+    ax2.text(val - 0.015, bar.get_y() + bar.get_height()/2.0, f"{val:.4f} 星", va='center', ha='right', fontsize=10, fontweight='bold', color='#B91C1C')
+
+fig.suptitle('图 1：ABSA 属性级极性对星级评分的影响（正面加分 vs 负面扣分）', fontsize=14, fontweight='bold', y=1.02)
 plt.tight_layout()
 fig1_path = os.path.join(out_dir, 'absa_marginal_effects_forest_plot.png')
 plt.savefig(fig1_path, dpi=300, bbox_inches='tight')
@@ -103,7 +116,6 @@ for bar, r in zip(bars2, ratings):
     diff_str = f" ({diff:+.3f}星)" if abs(diff) > 0.001 else " (基准线)"
     ax.text(bar.get_x() + bar.get_width()/2.0, yval + 0.008, f"{r:.3f} 星\n{diff_str}", ha='center', va='bottom', fontsize=11, fontweight='bold')
 
-# 弧线箭头标注“救场反弹”
 ax.annotate(
     '飞行员救场反弹效应！\n(+0.2788 交互作用补救)',
     xy=(2, bad_weather_good_pilot), xytext=(1.15, 4.935),
@@ -123,7 +135,6 @@ print(f"Saved Figure 2 -> {fig2_path}")
 # -----------------------------------------------------------------------------
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6.5), dpi=300)
 
-# 左图：模型解释力提升（R² 暴涨）
 models = ['旧方法：忽略转折句\n(仅看属性词)', '新方法：加入 but 转折句分析\n(看转折句后半段极性)']
 r2_vals = [11.87, 24.88]
 m_colors = ['#94A3B8', '#6366F1']
@@ -144,7 +155,6 @@ ax1.annotate(
     fontsize=10.5, fontweight='bold', color='#3730A3'
 )
 
-# 右图：转折句后半段得分与评分的关系
 x_post = np.linspace(-1.0, 1.0, 100)
 y_pred = 4.176 + 0.8094 * x_post
 
@@ -154,7 +164,6 @@ ax2.set_xlabel('but (但是) 转折句后半段的情感极性 (-1负面 ~ +1正
 ax2.set_ylabel('游客预测星级评分 (1 ~ 5 星)', fontsize=11, fontweight='bold', labelpad=10)
 ax2.set_title('右图：but 转折句后半段越正面，评分越高\n(斜率 β = +0.8094, 极具决定性)', fontsize=12, fontweight='bold', pad=12)
 
-# 在右图添加文字解释
 ax2.text(-0.85, 4.75, '前半句再多害怕或抱怨\n只要 but 后半句是好评\n最终就是 5 星！', bbox=dict(boxstyle='round,pad=0.5', facecolor='#FEF3C7', edgecolor='#F59E0B', alpha=0.95), fontsize=10, fontweight='bold', color='#92400E')
 
 fig.suptitle('图 3：为什么转折句 "but" 后的内容才是决定游客最终打分的关键？', fontsize=14, fontweight='bold', y=1.02)
