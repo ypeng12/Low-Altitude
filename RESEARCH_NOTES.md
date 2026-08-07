@@ -255,6 +255,26 @@ In the pure emotion scatter plot (`figures/nrc_emotion_plots/nrc_pure_emotion_wo
 
 ---
 
+## 🌐 Step 9: Language Identification (LID) Audit & Multilingual Noise Mitigation
+
+### 1. Multi-Language Noise & False Negative VADER Scores
+- **Problem**: Prior dictionary-based language detection allowed **344 non-English reviews** (e.g. Danish, Dutch, German, Spanish, Portuguese) to slip into the `is_english=1` pool.
+- **VADER English Lexicon Artifacts**: Non-English words (e.g. German `die`, `war`, `gut`, `dank`, Spanish `sin`) overlapped with English negative words or received incorrect polarities in English VADER, artificially generating false "High-rating Negative VADER" anomalies (VADER compound near $-1.0$ for 5-star reviews).
+
+### 2. FastText + langdetect Ensemble Pipeline (`upgrade_language_pipeline.py`)
+- **LID Ensemble Methodology**:
+  1. Applied Facebook's **FastText `lid.176.bin` pre-trained language identification model** across all 22,235 reviews.
+  2. Cross-validated non-English and low-confidence predictions using Google's `langdetect` engine (`DetectorFactory.seed=42`).
+- **Audit Results**:
+  - **Clean English Reviews (`is_english == 1`)**: Purged 344 false-positive reviews $\rightarrow$ **21,237 pure English reviews** (95.51%).
+  - **Non-English Reviews (`is_english == 0`)**: Updated `data/cleaned_datasets/non_english_reviews.csv` to **998 rows** (German, Spanish, Dutch, French, Portuguese, Japanese, etc.).
+
+### 3. Recommendations for Future Multilingual Extension
+- **Multilingual Transformer Encoders (XLM-RoBERTa / MaskLID)**:
+  If non-English reviews ($N=998$) are to be incorporated in future studies, rather than passing translated text into English VADER, researchers should employ **XLM-RoBERTa (`xlm-roberta-base`)** or **MaskLID** for zero-shot multilingual sentiment embeddings directly on original text.
+
+---
+
 ## 📁 Final Categorized Directory Structure
 
 ```text
