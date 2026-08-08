@@ -317,4 +317,40 @@ python run_data_pipeline.py
 
 # 步骤 2：运行绘图与分析 (生成 figures/ 目录下的图片及 data/derived_outputs/ 目录下的高频词/分布表)
 python run_analysis_and_plots.py
+
+# 步骤 3：运行全量数据代码审计校验 (生成 deep_research_audit_verification.csv)
+python run_deep_research_audit.py
+
+# 步骤 4：运行 Level 3 计量回归分析 (生成 deep_research_attribution_discourse_regressions.csv)
+python run_incongruence_econometrics.py
 ```
+
+---
+
+## 🔍 七、 高评分局部负面评论 6 大机制规则与算力验证细节
+
+> 💡 **分析目的**：针对“高评分（4+5星）评论中出现负面词”的悖论，排除单纯的极性分类错误，将现象定位为“高满意度主线中嵌入局部负面体验/风险叙事”，并通过正则表达式提取 6 大不一致产生机制。
+
+### 1. 审计样本筛选条件 (Sub-Cohort Filter)
+在干净主数据集 `tripadvisor_processed_master.csv` (N=22,235) 中筛选：
+- **`is_english == 1`**（纯英文评论）
+- **`rating >= 4`**（4星或5星好评）
+- **`sentiment_neg >= 0.05`**（含有至少 5% 的 VADER 局部负面词极性得分）
+- **筛选后有效子样本规模**：**N = 2,012 条评论**
+
+### 2. 6 大机制正则表达式与代码匹配实证结果
+
+在 [run_deep_research_audit.py#L130-L158](file:///Users/yuliangpeng/Desktop/Low-Altitude/run_deep_research_audit.py#L130-L158) 中定义的规则词典与实证占比：
+
+| 现象机制 | Python 正则表达式 (Regex Match Pattern) | 匹配数量 | 子样本占比 | 实证学术含义 |
+| :--- | :--- | :---: | :---: | :--- |
+| **1. 篇章转折/让步标记** | `r'\b(but\|however\|although\|though\|despite\|even though\|nonetheless\|yet)\b'` | **994 条** | **49.4%** | 评论采用先抑后扬结构，`but` 后的正面结论决定了最终星级 |
+| **2. 天气/自然不可抗因素** | `r'\b(weather\|cloud\|clouds\|cloudy\|wind\|winds\|windy\|rain\|fog\|foggy\|snow\|delay\|delays\|delayed\|cancel\|cancelled\|cancellation\|turbulence\|bumpy)\b'` | **676 条** | **33.6%** | 自然不可抗力导致体验受限，归因于老天爷而非商家失职 |
+| **3. 价格/性价比让步** | `r'\b(price\|prices\|expensive\|cost\|costs\|costly\|worth\|money|value\|dollar\|dollars\|cash)\b'` | **512 条** | **25.4%** | 虽然价格昂贵，但稀缺性极高（"expensive, but worth every penny"） |
+| **4. 害怕/心理生理唤起** | `r'\b(scared\|terrified\|nervous\|anxious\|afraid\|fear\|frightened\|sick\|nausea\|nauseous\|dizzy\|dizziness\|cold\|cramped\|small\|tight\|noise\|noisy)\b'` | **468 条** | **23.3%** | 飞行前的心理紧张或轻微晕机被看作高空刺激体验的一部分 |
+| **5. 服务补救/重新安排** | `r'\b(refund\|refunded\|reschedule\|rescheduled\|alternative\|route\|accommodate\|accommodated\|handled\|reassured\|reassurance\|fix\|fixed\|help\|helped)\b'` | **295 条** | **14.7%** | 虽然遇到延误/取消，但商家的敏捷补救与替代路线赢得了信任 |
+| **6. 员工/触点直接负面** | `r'\b(rude\|unprofessional\|disappointed\|disappointing\|poor\|horrible\|terrible\|awful\|bad\|unfriendly)\b'` | **273 条** | **13.6%** | 地勤或前台柜台的小摩擦，被出色的飞行体验所覆盖 |
+
+### 3. 代码校验与导出文件
+- **校验代码**：[run_deep_research_audit.py](file:///Users/yuliangpeng/Desktop/Low-Altitude/run_deep_research_audit.py)
+- **校验输出 CSV**：[deep_research_audit_verification.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/deep_research_audit_verification.csv)
