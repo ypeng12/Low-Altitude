@@ -317,14 +317,24 @@ def main():
     print("正在提取低空观光领域专属体验特征 (ABSA极性、篇章转折权重与触点解耦)...")
     full_text_lower = full_text_str.str.lower()
     
-    # (1) 安全与心理感知细分：解耦正面安全感与负面恐惧唤起
+    # (1) 安全与心理感知细分：基于探险旅游 (Adventure Tourism) 与心流理论 (Flow Theory) 解耦
+    # 寻求心流体验 (Flow Experience) = 恐惧唤起/刺激体验 (fear_anxiety/thrill_arousal) + 高掌控感与安全信任确认 (safety_assurance)
     df_dedup['safety_assurance'] = full_text_lower.str.contains(
-        r'\b(safe|safety|calm|smooth|reassured|comfort|comfortable|ease|relax|reassure)\b', regex=True
+        r'\b(safe|safety|secure|security|calm|smooth|reassured|reassuring|reassurance|comfort|comfortable|ease|relax|confidence|confident|trust|trusted|expert|professional|capable|good hands|flawless|gentle)\b', regex=True
     ).astype(int)
+    
     df_dedup['fear_anxiety'] = full_text_lower.str.contains(
-        r'\b(scared|frightened|nervous|afraid|anxious|anxiety|fear|terrified|terrifying|panic|worried)\b', regex=True
+        r'\b(scared|frightened|nervous|afraid|anxious|anxiety|fear|terrified|terrifying|panic|worried|dizzy|nauseous)\b', regex=True
     ).astype(int)
-    # 恐惧转化指数：衡量游客从害怕转为安全感的心理调控过程
+
+    df_dedup['thrill_arousal'] = full_text_lower.str.contains(
+        r'\b(thrill|thrilling|exhilarating|exhilaration|adrenalin|adrenaline|adventure|adventurous|breathtaking|awe|awesome|epic|unforgettable)\b', regex=True
+    ).astype(int)
+    
+    # 心流状态指数 (Flow Experience): 高挑战刺激感 (thrill/fear) + 高掌控安全感 (safety_assurance) 的完美交汇
+    df_dedup['flow_experience'] = (((df_dedup['fear_anxiety'] == 1) | (df_dedup['thrill_arousal'] == 1)) & (df_dedup['safety_assurance'] == 1)).astype(int)
+    
+    # 恐惧转化指数：衡量游客从害怕转为安全感的过程
     df_dedup['fear_trans'] = ((df_dedup['fear_anxiety'] == 1) & (df_dedup['safety_assurance'] == 1)).astype(int)
     # 兼容原 safety_mention 变量
     df_dedup['safety_mention'] = ((df_dedup['safety_assurance'] == 1) | (df_dedup['fear_anxiety'] == 1)).astype(int)

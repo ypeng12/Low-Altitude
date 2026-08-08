@@ -32,8 +32,9 @@ print(f"R-squared: {m1.rsquared:.4f} | Adj R-squared: {m1.rsquared_adj:.4f} | F-
 # 2. Model 2: Attribution Theory & Discourse Clause Dynamics Regression
 # Testing Weather_Neg * Pilot_Pos (Service mitigation of uncontrollable bad weather)
 # Testing Fear_Trans (Scared -> Safety Assurance transformation effect)
+# Testing Flow_Experience (Adventure Tourism Flow State = High Thrill/Fear + High Safety Reassurance)
 # Testing Sentiment_Post_But (Post-adversative clause dominance)
-f2 = 'rating ~ weather_neg * pilot_pos + fear_trans + fear_anxiety + safety_assurance + sentiment_post_but + discourse_shift_pos2neg + discourse_shift_neg2pos + pilot_pos + ground_staff_pos + ground_staff_neg + price_value_neg + word_count_std + is_us_domestic'
+f2 = 'rating ~ weather_neg * pilot_pos + flow_experience + fear_trans + fear_anxiety + safety_assurance + sentiment_post_but + discourse_shift_pos2neg + discourse_shift_neg2pos + pilot_pos + ground_staff_pos + ground_staff_neg + price_value_neg + word_count_std + is_us_domestic'
 m2 = smf.ols(f2, data=df_en).fit(cov_type='HC3')
 
 print("\n=======================================================")
