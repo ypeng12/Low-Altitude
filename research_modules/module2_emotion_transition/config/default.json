@@ -1,0 +1,168 @@
+{
+  "random_seed": 42,
+  "repository_root": "../../..",
+  "inputs": {
+    "canonical_reviews": "research_modules/canonical_pipeline_v2/outputs/canonical/canonical_reviews_v2.csv",
+    "analysis_spans": "research_modules/module1_emotion_discovery/outputs/intermediate/analysis_spans.csv",
+    "sentences": "research_modules/module1_emotion_discovery/outputs/intermediate/sentences.csv",
+    "embedding_index": "research_modules/module1_emotion_discovery/outputs/embeddings/embedding_index.csv",
+    "span_embeddings": "research_modules/module1_emotion_discovery/outputs/embeddings/span_embeddings.npy"
+  },
+  "output_dir": "research_modules/module2_emotion_transition/outputs",
+  "candidate_extraction": {
+    "minimum_source_tokens": 3,
+    "minimum_target_tokens": 3,
+    "include_relation_families": [
+      "adversative",
+      "concessive",
+      "temporal_progression",
+      "continuity_or_reappraisal",
+      "ambiguous_contrast_or_simultaneity",
+      "punctuation_boundary"
+    ]
+  },
+  "pair_representation": {
+    "representation": "l2_normalized_target_minus_source_bge",
+    "zero_norm_tolerance": 1e-12
+  },
+  "clustering": {
+    "pca_components": 50,
+    "umap_components": 10,
+    "umap_metric": "cosine",
+    "umap_min_dist": 0.0,
+    "umap_n_neighbors": 30,
+    "experiment_seeds": [42, 73, 101],
+    "min_cluster_size": [30, 100],
+    "min_samples": [5, 15],
+    "cluster_selection_method": "eom",
+    "silhouette_sample_size": 5000
+  },
+  "reporting": {
+    "representative_examples": 10,
+    "top_phrases": 12,
+    "max_tfidf_features": 30000,
+    "ngram_range": [1, 3]
+  },
+  "provisional_cluster_coding": {
+    "status": "llm_assisted_provisional_not_human_validated",
+    "mappings": [
+      {
+        "mapping_id": "price_to_worth_reappraisal",
+        "cluster_ids": [6, 7, 8],
+        "aspect": "Price/Value",
+        "source_emotion": "price concern",
+        "target_emotion": "value satisfaction",
+        "actor": "Tourist evaluation",
+        "mechanism": "value reappraisal",
+        "transformation_type": "lexical_polarity_shift|contextual_reinterpretation|contrastive_discourse",
+        "rationale": "Expensive, pricey, or not cheap is repeatedly contrasted with worth it/every penny."
+      },
+      {
+        "mapping_id": "motion_sickness_disconfirmation",
+        "cluster_ids": [11],
+        "aspect": "Physical comfort/Motion sickness",
+        "source_emotion": "flight apprehension",
+        "target_emotion": "relief",
+        "actor": "Flight conditions",
+        "mechanism": "anticipated symptom disconfirmation",
+        "transformation_type": "negation_intensification|emotional_reappraisal|contrastive_discourse",
+        "rationale": "Expected motion sickness is followed by no problems, no trouble, or no concerns."
+      },
+      {
+        "mapping_id": "small_aircraft_safety_reappraisal",
+        "cluster_ids": [12],
+        "aspect": "Aircraft/Safety",
+        "source_emotion": "flight apprehension",
+        "target_emotion": "relief",
+        "actor": "Pilot and flight conditions",
+        "mechanism": "perceived safety confirmation",
+        "transformation_type": "contextual_reinterpretation|emotional_reappraisal|contrastive_discourse",
+        "rationale": "Small-plane fear is followed by feeling safe, a capable pilot, or an enjoyable flight."
+      },
+      {
+        "mapping_id": "adverse_sensation_to_scenic_awe",
+        "cluster_ids": [19],
+        "aspect": "Flight conditions/Scenery",
+        "source_emotion": "discomfort or annoyance",
+        "target_emotion": "scenic awe",
+        "actor": "Aerial scenery",
+        "mechanism": "scenic awe reframing",
+        "transformation_type": "contextual_reinterpretation|mixed_emotion|emotional_reappraisal",
+        "rationale": "Noise, turbulence, or limited duration is reframed by majestic, awe-inspiring, or breathtaking views."
+      },
+      {
+        "mapping_id": "weather_constraint_disappointment",
+        "cluster_ids": [16, 17, 18],
+        "aspect": "Weather/Itinerary",
+        "source_emotion": "anticipation",
+        "target_emotion": "disappointment",
+        "actor": "Weather",
+        "mechanism": "weather-imposed activity loss",
+        "transformation_type": "contrastive_discourse|negative_outcome_shift",
+        "rationale": "A booked flight, Denali view, or glacier landing is prevented by unsafe or unfavorable weather."
+      },
+      {
+        "mapping_id": "blocked_goal_to_alternative_awe",
+        "cluster_ids": [21],
+        "aspect": "Weather/Scenery",
+        "source_emotion": "disappointment",
+        "target_emotion": "scenic awe",
+        "actor": "Alternative scenery or glacier landing",
+        "mechanism": "alternative-benefit reappraisal",
+        "transformation_type": "contextual_reinterpretation|emotional_reappraisal|contrastive_discourse",
+        "rationale": "Denali is obscured or unreachable, but other mountain views or a glacier landing remain awe-inspiring."
+      },
+      {
+        "mapping_id": "pilot_reassurance_to_relief",
+        "cluster_ids": [22],
+        "aspect": "Pilot/Safety",
+        "source_emotion": "flight apprehension",
+        "target_emotion": "relief",
+        "actor": "Pilot",
+        "mechanism": "interpersonal reassurance and competent handling",
+        "transformation_type": "emotional_reappraisal|contrastive_discourse",
+        "rationale": "Nervousness is explicitly followed by pilot reassurance, skill, smooth handling, or being put at ease."
+      },
+      {
+        "mapping_id": "weather_adaptation_to_trust",
+        "cluster_ids": [23],
+        "aspect": "Weather/Pilot service",
+        "source_emotion": "disappointment or concern",
+        "target_emotion": "trust",
+        "actor": "Pilot",
+        "mechanism": "adaptive routing and service recovery",
+        "transformation_type": "mixed_emotion|emotional_reappraisal|contrastive_discourse",
+        "rationale": "Poor weather is followed by pilot accommodation, safe decisions, narration, and maximized views."
+      },
+      {
+        "mapping_id": "missed_landing_to_enjoyment",
+        "cluster_ids": [24],
+        "aspect": "Glacier landing/Overall experience",
+        "source_emotion": "disappointment",
+        "target_emotion": "joy",
+        "actor": "Remaining flight experience",
+        "mechanism": "outcome reappraisal despite activity loss",
+        "transformation_type": "contextual_reinterpretation|emotional_reappraisal|contrastive_discourse",
+        "rationale": "A missed glacier landing is followed by still enjoyed, wonderful, good experience, or worth it."
+      },
+      {
+        "mapping_id": "positive_experience_with_drawback",
+        "cluster_ids": [33],
+        "aspect": "Service/Overall experience",
+        "source_emotion": "joy",
+        "target_emotion": "disappointment or annoyance",
+        "actor": "Service or experience condition",
+        "mechanism": "negative qualification",
+        "transformation_type": "mixed_emotion|contrastive_discourse",
+        "rationale": "A positive evaluation is qualified by rushed, loud, disorganized, or insufficiently trained conditions."
+      }
+    ]
+  },
+  "annotation_packet": {
+    "target_items": 300,
+    "mapped_cluster_examples_per_cluster": 10,
+    "unmapped_cluster_examples_per_cluster": 5,
+    "noise_items": 55,
+    "blind_llm_seed_labels": true
+  }
+}

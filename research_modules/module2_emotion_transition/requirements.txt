@@ -1,0 +1,1 @@
+-r ../module1_emotion_discovery/requirements.txt

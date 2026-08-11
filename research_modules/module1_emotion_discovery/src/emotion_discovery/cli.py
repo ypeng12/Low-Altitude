@@ -10,6 +10,7 @@ from typing import Callable, Dict
 import numpy as np
 
 from .clustering import run_clustering
+from .candidate_synthesis import run_candidate_synthesis
 from .config import default_config_path, load_config
 from .embeddings import run_embeddings
 from .focused_discovery import run_focused_discovery
@@ -34,6 +35,7 @@ STAGES: Dict[str, Callable] = {
     "focused": run_focused_discovery,
     "reference": run_goemotions_reference,
     "review": run_review_packet,
+    "synthesis": run_candidate_synthesis,
 }
 
 

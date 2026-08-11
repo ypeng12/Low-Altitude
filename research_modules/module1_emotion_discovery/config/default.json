@@ -86,5 +86,58 @@
     "batch_size": 64,
     "max_length": 256,
     "profile_display_labels": 5
+  },
+  "post_cluster_candidate_synthesis": {
+    "status": "llm_assisted_provisional_not_human_validated",
+    "required_candidate_count": 3,
+    "candidate_families": [
+      {
+        "candidate_id": "scenic_awe",
+        "possible_fine_grained_emotion_label": "scenic awe",
+        "domain_gloss": "A felt sense of vastness, wonder, and being overwhelmed by aerial scenery.",
+        "nrc_parent_if_applicable": "surprise|joy",
+        "full_unsupervised_clusters": [18, 24, 34, 38, 48, 49],
+        "cate_focused_clusters": [22],
+        "corpus_rationale": "Repeated stable clusters use breathtaking, magnificent, stunning, wow, spectacular, and close-up mountain/view language."
+      },
+      {
+        "candidate_id": "flight_apprehension",
+        "possible_fine_grained_emotion_label": "flight apprehension",
+        "domain_gloss": "Anticipatory nervousness or anxiety about small-aircraft flight and perceived aviation risk.",
+        "nrc_parent_if_applicable": "fear|anticipation",
+        "full_unsupervised_clusters": [71, 87],
+        "cate_focused_clusters": [21],
+        "corpus_rationale": "A stable small-plane cluster repeatedly expresses nervous, anxious, worried, afraid, hesitant, and apprehensive before flight."
+      },
+      {
+        "candidate_id": "provider_directed_gratitude",
+        "possible_fine_grained_emotion_label": "provider-directed gratitude",
+        "domain_gloss": "Thankfulness directed toward pilots, staff, or the operator for enabling a memorable experience.",
+        "nrc_parent_if_applicable": "joy|trust",
+        "full_unsupervised_clusters": [2, 5, 27],
+        "cate_focused_clusters": [],
+        "corpus_rationale": "Distinct thank-you, thanks, and kudos clusters recur independently from general recommendation and scenery clusters."
+      }
+    ],
+    "deferred_families": [
+      {
+        "candidate_id": "reassurance_relief",
+        "clusters": "full_unsupervised:82|cate_focused:13",
+        "decision": "defer_to_emotion_transition",
+        "reason": "Safe/ease spans indicate a regulation mechanism or final state, while the full cluster has weak seed stability and static relief language is sparse."
+      },
+      {
+        "candidate_id": "exhilaration_excitement",
+        "clusters": "full_unsupervised:17,28,31,33|cate_focused:3,18,19,20",
+        "decision": "retain_for_human_review",
+        "reason": "Excitement-like evidence is dispersed across wildlife, destinations, fun, cool, glacier, and generic positive-evaluation clusters rather than one coherent emotion family."
+      },
+      {
+        "candidate_id": "value_satisfaction",
+        "clusters": "full_unsupervised:9,63|cate_focused:2,5,6,8,9,14,15,20,22,24",
+        "decision": "treat_as_appraisal_or_mechanism",
+        "reason": "Worth-it language is frequent and stable but encodes value appraisal, not a discrete experienced emotion."
+      }
+    ]
   }
 }

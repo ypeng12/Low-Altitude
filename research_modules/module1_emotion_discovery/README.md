@@ -24,6 +24,7 @@ Ratings, rating prediction, causal inference, SHAP, econometrics, and final AEM/
 6. `focused`: repeat discovery on spans selected by exact words from the sole approved CATE-107 workbook. CATE terms select a broad appraisal pool; they are not emotion labels.
 7. `reference`: profile the already-obtained cluster examples with pinned `SamLowe/roberta-base-go_emotions-onnx` revision `90ee0c1c4796d370e68968687b8ba51fc11224f4`. All 28 continuous probabilities are stored; none is treated as gold or an automatic “+3” decision.
 8. `review`: create a double-coding XLSX/CSV packet. Human fields are deliberately blank until independent review and adjudication.
+9. `synthesis`: consolidate three corpus-supported LLM provisional candidates while hard-coding `human_validation_status=pending` and `eligible_as_final_plus3=False`.
 
 ## Setup and execution
 
@@ -43,6 +44,7 @@ python scripts/04_report_clusters.py
 python scripts/05_focused_discovery.py
 python scripts/06_goemotions_reference.py
 python scripts/07_build_review_packet.py
+python scripts/08_synthesize_provisional_plus3.py
 ```
 
 A current stage is skipped. A stale stage refuses to mix incompatible artifacts. `--force` replaces only this module's generated stage outputs. Do not use `run_all.py --force` unless intentionally recomputing embeddings and all clustering experiments.
@@ -60,6 +62,8 @@ The principal human-review file is:
 `outputs/human_review/module1_cluster_review_packet.xlsx`
 
 It contains instructions, a cluster-type codebook, all 119 cluster rows, 1,190 diverse representative examples, stability evidence, NRC references where available, and GoEmotions reference profiles. Final “+3” selection occurs only after independent coding, adjudication, and consolidation of semantically equivalent clusters.
+
+The current LLM-assisted provisional synthesis nominates `scenic awe`, `flight apprehension`, and `provider-directed gratitude`. These are not final: the output explicitly sets `eligible_as_final_plus3=False`. Relief/reassurance is deferred to narrated transition analysis; excitement remains dispersed; worth-it is treated as value appraisal rather than a discrete emotion.
 
 ## Output map
 

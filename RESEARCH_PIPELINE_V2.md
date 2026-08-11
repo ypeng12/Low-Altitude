@@ -1,6 +1,6 @@
 # Low-Altitude research pipeline v2
 
-This is the reproducible entry point for the repaired pre-model data layer and Module 1 emotion discovery. It does not run rating prediction, causal inference, SHAP, econometrics, AEM final coding, or Emotion Transition final coding.
+This is the reproducible entry point for the repaired pre-model data layer, Module 1 emotion discovery, and provisional AEM/Emotion Transition research stages. It does not run rating prediction, causal inference, SHAP, econometrics, or final human coding.
 
 ## One environment
 
@@ -14,6 +14,7 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements-research.txt
 python -m pip install -e research_modules/canonical_pipeline_v2
 python -m pip install -e research_modules/module1_emotion_discovery
+python -m pip install -e research_modules/module2_emotion_transition
 pytest -q
 ```
 
@@ -23,7 +24,7 @@ pytest -q
 python scripts/run_research_pipeline_v2.py
 ```
 
-The order is canonical v2 → canonical-only corpus preparation → BGE embeddings → handoff validation → full clustering → reporting → CATE-focused clustering → GoEmotions post-cluster reference → human review packet.
+The order is canonical v2 → canonical-only corpus preparation → BGE embeddings → Module 1 discovery/reference/review → directional Emotion Transition candidates/vectors/clustering → provisional AEM/Transition seed coding → blinded annotation packet.
 
 Every stage skips when current and refuses stale mixtures. Run or rebuild one stage with:
 
@@ -52,5 +53,7 @@ python scripts/run_research_pipeline_v2.py --only focused --force
 - 6,607 legacy Type 9 rows audited; 5,834 are reclassified and 995 remain Type 9.
 - Module 1 has 138,314 analysis spans and a byte-identical 138,314 × 384 BGE embedding cache across the canonical-only refactor.
 - All discovered clusters and noise examples remain available for review; no uncertain sample is forced into a final label.
+- Emotion Transition currently retains 11,764 explicit discourse candidates: 4,307 in 35 directional clusters and 7,457 as noise/uncertain.
+- The provisional transition matrix covers 1,917 pairs; 9,847 remain uncertain/unmapped, and no record is marked Gold.
 
-See `research_modules/canonical_pipeline_v2/README.md` and `research_modules/module1_emotion_discovery/README.md` for schemas and output maps.
+See the README files under `canonical_pipeline_v2`, `module1_emotion_discovery`, and `module2_emotion_transition` for schemas and output maps.
