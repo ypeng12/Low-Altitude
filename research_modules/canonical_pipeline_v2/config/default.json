@@ -1,0 +1,25 @@
+{
+  "random_seed": 42,
+  "repository_root": "../../..",
+  "inputs": {
+    "master_reviews": "data/cleaned_datasets/tripadvisor_processed_master.csv",
+    "level1_reviews": "data/cleaned_datasets/tripadvisor_level1_cleaned.csv",
+    "level2_reviews": "data/cleaned_datasets/tripadvisor_level2_features.csv",
+    "nrc_reviews": "data/cleaned_datasets/tripadvisor_level3_econometrics.csv",
+    "fasttext_language_model": "lid.176.bin",
+    "cate_workbook": "data/derived_outputs/cate_words_curated_107_translated.xlsx",
+    "raw_reviews_dir": "02-07-2025-TripAdvisor"
+  },
+  "output_dir": "research_modules/canonical_pipeline_v2/outputs",
+  "cate": {
+    "sheet_name": "Sheet1",
+    "expected_rows": 107
+  },
+  "language": {
+    "english_label": "en",
+    "include_probability": 0.7,
+    "uncertain_probability": 0.7,
+    "top_k": 3,
+    "text_fields": ["review_title", "review_text"]
+  }
+}

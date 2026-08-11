@@ -12,15 +12,28 @@ import numpy as np
 from .clustering import run_clustering
 from .config import default_config_path, load_config
 from .embeddings import run_embeddings
+from .focused_discovery import run_focused_discovery
+from .goemotions_reference import run_goemotions_reference
+from .handoff import validate_canonical_handoff
 from .prepare import run_prepare
 from .reporting import run_reporting
+from .review_packet import run_review_packet
+
+
+def run_handoff(config, force: bool = False):
+    del force
+    return validate_canonical_handoff(config)
 
 
 STAGES: Dict[str, Callable] = {
     "prepare": run_prepare,
     "embed": run_embeddings,
+    "handoff": run_handoff,
     "cluster": run_clustering,
     "report": run_reporting,
+    "focused": run_focused_discovery,
+    "reference": run_goemotions_reference,
+    "review": run_review_packet,
 }
 
 

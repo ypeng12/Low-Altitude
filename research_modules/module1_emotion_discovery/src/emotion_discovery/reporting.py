@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import math
 import os
+import re
 from pathlib import Path
 from typing import Dict, Iterable, List, Sequence, Tuple
 
@@ -25,6 +26,7 @@ from .storage import (
 
 
 NRC_COLUMNS = tuple(f"nrc_{emotion}" for emotion in NRC_EMOTIONS)
+EXAMPLE_TOKEN_PATTERN = re.compile(r"[a-z0-9]+(?:'[a-z0-9]+)?", re.I)
 
 
 def _minmax(values: pd.Series) -> pd.Series:
@@ -110,19 +112,32 @@ def _representatives(
     ranked = np.argsort(similarities)[::-1]
     records = []
     seen_reviews = set()
+    seen_texts = set()
+    seen_token_sets: List[set[str]] = []
     for position in ranked:
         row = members.iloc[int(position)]
         review_id = str(row["review_id"])
         if review_id in seen_reviews:
             continue
+        span_text = str(row["span_text"]).strip()
+        normalized_text = " ".join(EXAMPLE_TOKEN_PATTERN.findall(span_text.casefold()))
+        tokens = set(EXAMPLE_TOKEN_PATTERN.findall(span_text.casefold()))
+        if not normalized_text or normalized_text in seen_texts:
+            continue
+        if len(tokens) >= 4 and any(
+            len(tokens & prior) / max(len(tokens | prior), 1) >= 0.80 for prior in seen_token_sets
+        ):
+            continue
         seen_reviews.add(review_id)
+        seen_texts.add(normalized_text)
+        seen_token_sets.append(tokens)
         records.append(
             {
                 "cluster_id": cluster_id,
                 "rank": len(records) + 1,
                 "span_id": row["span_id"],
                 "review_id": review_id,
-                "span_text": row["span_text"],
+                "span_text": span_text,
                 "parent_sentence": row.get("sentence_text", ""),
                 "unit_type": row["unit_type"],
                 "marker_before": row.get("marker_before", ""),
@@ -194,7 +209,7 @@ def _create_plots(
         inventory["seed_stability_jaccard"],
         inventory["centroid_coherence"],
         s=sizes,
-        c=inventory["emotion_cluster_confidence"],
+        c=inventory["automated_screening_score"],
         cmap="viridis",
         vmin=0,
         vmax=1,
@@ -210,7 +225,7 @@ def _create_plots(
         ylabel="Embedding centroid coherence",
         xlim=(-0.02, 1.02),
     )
-    fig.colorbar(scatter, ax=axis, label="Emotion-cluster confidence")
+    fig.colorbar(scatter, ax=axis, label="Automated review-priority score")
     _save_figure(fig, plot_dir / "cluster_stability.png")
     plt.close(fig)
 
@@ -262,6 +277,7 @@ def run_reporting(config: ProjectConfig, force: bool = False) -> Dict[str, objec
         report_dir / "cluster_representative_examples.csv",
         report_dir / "cluster_nrc_profile.csv",
         report_dir / "uncertain_clusters.csv",
+        report_dir / "cluster_review_queue.csv",
         audit_dir / "noise_spans.csv",
         plot_dir / "umap_clusters.png",
         plot_dir / "cluster_stability.png",
@@ -361,7 +377,7 @@ def run_reporting(config: ProjectConfig, force: bool = False) -> Dict[str, objec
                 "cluster_id": cluster_id,
                 "cluster_size": int(len(members)),
                 "unique_reviews": int(members["review_id"].nunique()),
-                "possible_fine_grained_emotion_label": possible_label,
+                "corpus_derived_phrase_label": possible_label,
                 "representative_words_phrases": json.dumps(
                     [
                         {"phrase": phrase, "score": round(score, 8)}
@@ -369,8 +385,8 @@ def run_reporting(config: ProjectConfig, force: bool = False) -> Dict[str, objec
                     ],
                     ensure_ascii=False,
                 ),
-                "nrc_parent_emotion": parent,
-                "nrc_parent_enrichment": best_enrichment if parent else np.nan,
+                "review_level_nrc_parent_reference": parent,
+                "review_level_nrc_parent_enrichment": best_enrichment if parent else np.nan,
                 "mean_review_vader_compound": float(members["sentiment_polarity"].mean()),
                 "mean_absolute_review_vader": float(members["sentiment_polarity"].abs().mean()),
                 "mean_nrc_density_sum": float(unique_reviews.loc[:, NRC_COLUMNS].sum(axis=1).mean()),
@@ -391,47 +407,56 @@ def run_reporting(config: ProjectConfig, force: bool = False) -> Dict[str, objec
         + 0.15 * ((inventory["centroid_coherence"].clip(-1, 1) + 1) / 2)
         + 0.10 * _minmax(inventory["lexical_distinctiveness"])
     )
-    inventory["affect_evidence_score"] = (
+    # These are review-level signals inherited by each span. They help prioritize
+    # inspection but cannot establish that a semantic cluster is an emotion.
+    inventory["review_level_affect_signal"] = (
         0.55 * _minmax(inventory["mean_nrc_density_sum"])
         + 0.45 * _minmax(inventory["mean_absolute_review_vader"])
     )
-    inventory["emotion_cluster_confidence"] = (
+    inventory["automated_screening_score"] = (
         0.80 * inventory["cluster_quality_confidence"]
-        + 0.20 * inventory["affect_evidence_score"]
+        + 0.20 * inventory["review_level_affect_signal"]
     ).clip(0, 1)
     uncertain_threshold = float(reporting_config["uncertain_confidence_threshold"])
-    inventory["confidence_band"] = np.select(
+    inventory["screening_priority"] = np.select(
         [
-            inventory["emotion_cluster_confidence"] >= 0.70,
-            inventory["emotion_cluster_confidence"] >= uncertain_threshold,
+            inventory["automated_screening_score"] >= 0.70,
+            inventory["automated_screening_score"] >= uncertain_threshold,
         ],
         ["high", "medium"],
-        default="uncertain",
+        default="low",
     )
-    inventory["requires_human_label_review"] = inventory["confidence_band"] != "high"
+    inventory["human_cluster_type"] = ""
+    inventory["possible_fine_grained_emotion_label"] = ""
+    inventory["human_review_status"] = "pending"
+    # No automated score is allowed to waive human review.
+    inventory["requires_human_label_review"] = True
     inventory = inventory.sort_values(
-        ["emotion_cluster_confidence", "cluster_size"], ascending=[False, False]
+        ["automated_screening_score", "cluster_size"], ascending=[False, False]
     ).reset_index(drop=True)
     nrc_profile = pd.DataFrame.from_records(nrc_records)
     representative_output = pd.concat(representatives, ignore_index=True)
-    uncertain = inventory.loc[inventory["requires_human_label_review"]].copy()
+    uncertain = inventory.loc[inventory["screening_priority"] != "high"].copy()
 
     atomic_write_csv(inventory, report_dir / "cluster_inventory.csv")
     atomic_write_csv(representative_output, report_dir / "cluster_representative_examples.csv")
     atomic_write_csv(nrc_profile, report_dir / "cluster_nrc_profile.csv")
     atomic_write_csv(uncertain, report_dir / "uncertain_clusters.csv")
+    atomic_write_csv(inventory, report_dir / "cluster_review_queue.csv")
     _create_plots(assignments, inventory, nrc_profile, plot_dir, config.random_seed)
 
     summary: Dict[str, object] = {
         "clusters": int(len(inventory)),
-        "high_confidence_clusters": int((inventory["confidence_band"] == "high").sum()),
-        "medium_confidence_clusters": int((inventory["confidence_band"] == "medium").sum()),
-        "uncertain_clusters": int((inventory["confidence_band"] == "uncertain").sum()),
+        "high_priority_screening_clusters": int((inventory["screening_priority"] == "high").sum()),
+        "medium_priority_screening_clusters": int((inventory["screening_priority"] == "medium").sum()),
+        "low_priority_screening_clusters": int((inventory["screening_priority"] == "low").sum()),
+        "clusters_requiring_human_review": int(inventory["requires_human_label_review"].sum()),
         "clustered_spans": int(len(valid)),
         "noise_spans": int(len(noise)),
         "representative_examples": int(len(representative_output)),
         "label_method": "corpus c-TF-IDF phrases; no pre-specified fine-grained emotion inventory",
         "nrc_role": "post-cluster parent reference using existing review-level NRC baseline",
+        "screening_warning": "automated score ranks review priority; it is not emotion-label confidence",
     }
     atomic_write_json(summary, report_dir / "module1_summary.json")
     manifest = {

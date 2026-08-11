@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "tripadvisor-emotion-discovery"
 version = "0.1.0"
 description = "Restartable fine-grained emotion discovery for the TripAdvisor corpus"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

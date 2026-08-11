@@ -282,9 +282,10 @@ def main():
     # Step 1: Compute NRC Emotion Scores if not present or recalculate
     df = extract_nrc_scores_batch(df)
     
-    # Save enriched master dataset back
-    df.to_csv(master_path, index=False)
-    print(f"Updated Master Dataset with NRC Emotion columns at {master_path}")
+    # Safety: preserve the immutable research master and emit a legacy rebuild copy.
+    enriched_master_path = 'data/cleaned_datasets/tripadvisor_processed_master_level3_legacy_rebuild.csv'
+    df.to_csv(enriched_master_path, index=False)
+    print(f"Saved enriched legacy rebuild copy at {enriched_master_path}")
     
     # Also save a dedicated Level 3 CSV for econometrics
     level3_csv = 'data/cleaned_datasets/tripadvisor_level3_econometrics.csv'

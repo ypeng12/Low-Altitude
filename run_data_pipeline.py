@@ -444,7 +444,8 @@ def main():
     
     out_dir = os.path.join("data", "cleaned_datasets")
     os.makedirs(out_dir, exist_ok=True)
-    master_output = os.path.join(out_dir, "tripadvisor_processed_master.csv")
+    # Safety: the research master is immutable. Legacy rebuilds use a new file.
+    master_output = os.path.join(out_dir, "tripadvisor_processed_master_legacy_rebuild.csv")
     df_dedup.to_csv(master_output, index=False, encoding='utf-8-sig')
     print(f"主数据集保存成功！ -> {master_output} ({len(df_dedup)} 行)")
 

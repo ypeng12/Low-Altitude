@@ -15,6 +15,7 @@ from sklearn.metrics import adjusted_rand_score, silhouette_score
 
 from .config import ProjectConfig
 from .storage import (
+    atomic_save_npy,
     atomic_save_npz,
     atomic_write_csv,
     atomic_write_json,
@@ -151,14 +152,37 @@ def run_clustering(config: ProjectConfig, force: bool = False) -> Dict[str, obje
     atomic_write_csv(not_sampled, audit_dir / "clustering_not_sampled.csv")
     working = np.asarray(embeddings[selected_rows], dtype=np.float32)
     working_index = index.iloc[selected_rows].reset_index(drop=True)
+    cache_key = sha256_json(
+        {
+            "inputs": expected,
+            "selected_span_ids_sha256": sha256_strings(working_index["span_id"].astype(str)),
+        }
+    )[:16]
+    cache_dir = cluster_dir / "cache" / cache_key
+    cache_counts = {"pca": 0, "umap": 0, "hdbscan": 0}
 
     pca_components = min(
         int(cluster_config["pca_components"]),
         working.shape[1],
         max(1, working.shape[0] - 1),
     )
-    pca = PCA(n_components=pca_components, svd_solver="randomized", random_state=config.random_seed)
-    pca_embeddings = pca.fit_transform(working).astype(np.float32)
+    pca_path = cache_dir / "pca.npz"
+    if pca_path.exists() and not force:
+        cached_pca = np.load(pca_path, allow_pickle=False)
+        pca_embeddings = cached_pca["embeddings"]
+        pca_explained_variance_ratio = cached_pca["explained_variance_ratio"]
+        cache_counts["pca"] += 1
+    else:
+        pca = PCA(n_components=pca_components, svd_solver="randomized", random_state=config.random_seed)
+        pca_embeddings = pca.fit_transform(working).astype(np.float32)
+        pca_explained_variance_ratio = pca.explained_variance_ratio_.astype(np.float32)
+        atomic_save_npz(
+            pca_path,
+            embeddings=pca_embeddings,
+            explained_variance_ratio=pca_explained_variance_ratio,
+        )
+    if pca_embeddings.shape != (len(working), pca_components):
+        raise ValueError(f"PCA cache has unexpected shape: {pca_embeddings.shape}")
 
     try:
         import umap
@@ -173,17 +197,26 @@ def run_clustering(config: ProjectConfig, force: bool = False) -> Dict[str, obje
 
     for n_neighbors in cluster_config["umap_n_neighbors"]:
         for seed in cluster_config["experiment_seeds"]:
-            reducer = umap.UMAP(
-                n_neighbors=int(n_neighbors),
-                n_components=int(cluster_config["umap_components"]),
-                min_dist=float(cluster_config["umap_min_dist"]),
-                metric=str(cluster_config["umap_metric"]),
-                random_state=int(seed),
-                transform_seed=int(seed),
-                n_jobs=1,
-            )
-            reduced = reducer.fit_transform(pca_embeddings).astype(np.float32)
             reduction_key = f"nn{int(n_neighbors)}_seed{int(seed)}"
+            reduction_path = cache_dir / f"umap__{reduction_key}.npy"
+            if reduction_path.exists() and not force:
+                reduced = np.load(reduction_path, allow_pickle=False)
+                cache_counts["umap"] += 1
+            else:
+                reducer = umap.UMAP(
+                    n_neighbors=int(n_neighbors),
+                    n_components=int(cluster_config["umap_components"]),
+                    min_dist=float(cluster_config["umap_min_dist"]),
+                    metric=str(cluster_config["umap_metric"]),
+                    random_state=int(seed),
+                    transform_seed=int(seed),
+                    n_jobs=1,
+                )
+                reduced = reducer.fit_transform(pca_embeddings).astype(np.float32)
+                atomic_save_npy(reduced, reduction_path)
+            expected_reduction_shape = (len(working), int(cluster_config["umap_components"]))
+            if reduced.shape != expected_reduction_shape:
+                raise ValueError(f"UMAP cache has unexpected shape: {reduced.shape}")
             run_reductions[reduction_key] = reduced
             for min_cluster_size, min_samples in itertools.product(
                 cluster_config["min_cluster_size"], cluster_config["min_samples"]
@@ -193,16 +226,26 @@ def run_clustering(config: ProjectConfig, force: bool = False) -> Dict[str, obje
                     f"ms{int(min_samples)}"
                 )
                 run_id = f"{group_id}_seed{int(seed)}"
-                estimator = HDBSCAN(
-                    min_cluster_size=int(min_cluster_size),
-                    min_samples=int(min_samples),
-                    metric="euclidean",
-                    cluster_selection_method=str(cluster_config["cluster_selection_method"]),
-                    n_jobs=-1,
-                    copy=True,
-                )
-                labels = estimator.fit_predict(reduced).astype(np.int32)
-                probabilities = np.asarray(estimator.probabilities_, dtype=np.float32)
+                run_path = cache_dir / f"hdbscan__{run_id}.npz"
+                if run_path.exists() and not force:
+                    cached_run = np.load(run_path, allow_pickle=False)
+                    labels = cached_run["labels"]
+                    probabilities = cached_run["probabilities"]
+                    cache_counts["hdbscan"] += 1
+                else:
+                    estimator = HDBSCAN(
+                        min_cluster_size=int(min_cluster_size),
+                        min_samples=int(min_samples),
+                        metric="euclidean",
+                        cluster_selection_method=str(cluster_config["cluster_selection_method"]),
+                        n_jobs=-1,
+                        copy=True,
+                    )
+                    labels = estimator.fit_predict(reduced).astype(np.int32)
+                    probabilities = np.asarray(estimator.probabilities_, dtype=np.float32)
+                    atomic_save_npz(run_path, labels=labels, probabilities=probabilities)
+                if labels.shape != (len(working),) or probabilities.shape != (len(working),):
+                    raise ValueError(f"HDBSCAN cache has unexpected shape for {run_id}")
                 run_labels[run_id] = labels
                 run_probabilities[run_id] = probabilities
                 run_groups.setdefault(group_id, []).append(run_id)
@@ -318,7 +361,7 @@ def run_clustering(config: ProjectConfig, force: bool = False) -> Dict[str, obje
 
     experiment_arrays: Dict[str, np.ndarray] = {
         "selected_embedding_rows": selected_rows,
-        "pca_explained_variance_ratio": pca.explained_variance_ratio_.astype(np.float32),
+        "pca_explained_variance_ratio": pca_explained_variance_ratio,
     }
     for run_id, labels in run_labels.items():
         experiment_arrays[f"labels__{run_id}"] = labels
@@ -340,13 +383,15 @@ def run_clustering(config: ProjectConfig, force: bool = False) -> Dict[str, obje
         "clustered_spans": int(len(assignments)),
         "not_sampled_spans": int(len(not_sampled)),
         "pca_components": int(pca_components),
-        "pca_explained_variance": float(pca.explained_variance_ratio_.sum()),
+        "pca_explained_variance": float(pca_explained_variance_ratio.sum()),
         "experiment_runs": int(len(metrics)),
         "selected_group": selected_group,
         "canonical_run": canonical_run,
         "selected_configuration": selected_configuration,
         "clusters": int(len(stability)),
         "noise_spans": int((canonical_labels < 0).sum()),
+        "restart_cache_key": cache_key,
+        "restart_cache_files_reused": cache_counts,
     }
     manifest = {
         "inputs": expected,

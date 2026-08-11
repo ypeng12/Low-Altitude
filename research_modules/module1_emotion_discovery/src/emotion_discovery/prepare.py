@@ -1,17 +1,14 @@
-"""Stage 1: immutable corpus joins, language audit, and span preparation."""
+"""Stage 1: segment the authoritative canonical-v2 English corpus."""
 
 from __future__ import annotations
 
-import json
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
 import pandas as pd
 
 from . import NRC_EMOTIONS
 from .config import ProjectConfig
-from .ids import stable_review_id
-from .language import audit_languages
 from .segmentation import segment_review
 from .storage import (
     atomic_write_csv,
@@ -23,64 +20,53 @@ from .storage import (
 )
 
 
-MASTER_REQUIRED = {
-    "user_name",
+NRC_COLUMNS = tuple(f"nrc_{emotion}" for emotion in NRC_EMOTIONS)
+CANONICAL_REQUIRED = {
+    "review_id",
     "review_title",
     "review_text",
-    "tour_name",
-    "language",
-    "is_english",
+    "legacy_tour_name",
+    "legacy_language",
+    "legacy_is_english",
+    "language_iso",
+    "language_confidence",
+    "analysis_language_status",
+    "analysis_is_english",
+    "top_k_predictions",
     "sentiment_polarity",
     "sentiment_pos",
     "sentiment_neg",
+    "nrc_baseline_available",
+    *NRC_COLUMNS,
 }
-NRC_COLUMNS = tuple(f"nrc_{emotion}" for emotion in NRC_EMOTIONS)
 
 
-def _read_with_ids(path: Path, required: set[str]) -> pd.DataFrame:
-    frame = pd.read_csv(path, low_memory=False)
-    missing = sorted(required - set(frame.columns))
+def validate_canonical_reviews(frame: pd.DataFrame) -> None:
+    missing = sorted(CANONICAL_REQUIRED - set(frame.columns))
     if missing:
-        raise ValueError(f"Required columns missing from {path}: {missing}")
-    frame.insert(
-        0,
-        "review_id",
-        [stable_review_id(user, text) for user, text in zip(frame["user_name"], frame["review_text"])],
-    )
-    duplicate_ids = frame[frame["review_id"].duplicated(keep=False)]
-    if not duplicate_ids.empty:
-        raise ValueError(
-            f"Stable review_id is not unique in {path}: {len(duplicate_ids)} duplicate rows"
-        )
-    return frame
-
-
-def join_nrc_baseline(master: pd.DataFrame, nrc: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    """Join NRC by content identity, never by order, and return a join audit."""
-
-    baseline = nrc.loc[:, ["review_id", *NRC_COLUMNS]].copy()
-    joined = master.merge(baseline, on="review_id", how="left", validate="one_to_one", indicator=True)
-    audit = joined.loc[
-        joined["_merge"] != "both",
-        ["review_id", "review_title", "tour_name", "_merge"],
-    ].rename(columns={"_merge": "join_status"})
-    joined = joined.drop(columns="_merge")
-    return joined, audit
+        raise ValueError(f"Canonical v2 is missing required columns: {missing}")
+    if frame.empty or frame["review_id"].isna().any() or frame["review_id"].duplicated().any():
+        raise ValueError("Canonical v2 must contain unique, nonempty review_id values")
+    allowed = {"english", "non_english", "uncertain"}
+    unexpected = sorted(set(frame["analysis_language_status"].dropna()) - allowed)
+    if unexpected or frame["analysis_language_status"].isna().any():
+        raise ValueError(f"Canonical v2 contains invalid language decisions: {unexpected}")
+    expected_english = frame["analysis_language_status"].eq("english")
+    actual_english = frame["analysis_is_english"].astype(bool)
+    if not expected_english.equals(actual_english):
+        raise ValueError("Canonical v2 analysis_is_english disagrees with analysis_language_status")
+    missing_nrc = ~frame["nrc_baseline_available"].astype(bool)
+    if missing_nrc.any() or frame.loc[:, NRC_COLUMNS].isna().any().any():
+        raise ValueError(f"Canonical v2 has {int(missing_nrc.sum())} reviews without the NRC8 baseline")
 
 
 def _prepare_expected(config: ProjectConfig) -> Dict[str, object]:
     return {
         "stage_config_sha256": sha256_json(
-            {
-                "random_seed": config.random_seed,
-                "language": config.raw["language"],
-                "segmentation": config.raw["segmentation"],
-            }
+            {"random_seed": config.random_seed, "segmentation": config.raw["segmentation"]}
         ),
-        "master_sha256": sha256_file(config.input_path("master_reviews")),
-        "nrc_sha256": sha256_file(config.input_path("nrc_reviews")),
-        "fasttext_model_sha256": sha256_file(config.input_path("fasttext_language_model")),
-        "stage": "prepare-v1",
+        "canonical_reviews_sha256": sha256_file(config.input_path("canonical_reviews")),
+        "stage": "canonical-prepare-v2",
     }
 
 
@@ -105,37 +91,38 @@ def run_prepare(config: ProjectConfig, force: bool = False) -> Dict[str, int]:
             raise RuntimeError(f"Stage manifest is current but outputs are missing: {missing}")
         return {"status": "skipped"}  # type: ignore[return-value]
 
-    master = _read_with_ids(config.input_path("master_reviews"), MASTER_REQUIRED)
-    nrc = _read_with_ids(config.input_path("nrc_reviews"), {"user_name", "review_text", *NRC_COLUMNS})
-    joined, nrc_audit = join_nrc_baseline(master, nrc)
-
-    language_config = config.raw["language"]
-    language_audit = audit_languages(
-        joined,
-        config.input_path("fasttext_language_model"),
-        text_fields=language_config["text_fields"],
-        english_label=language_config["english_label"],
-        include_probability=float(language_config["include_probability"]),
-        uncertain_probability=float(language_config["uncertain_probability"]),
-        top_k=int(language_config["top_k"]),
+    canonical = pd.read_csv(config.input_path("canonical_reviews"), low_memory=False)
+    validate_canonical_reviews(canonical)
+    analysis = canonical.rename(
+        columns={
+            "legacy_tour_name": "tour_name",
+            "language_iso": "fasttext_label",
+            "language_confidence": "fasttext_probability",
+            "analysis_language_status": "language_decision",
+        }
     )
-    source_language = joined.loc[:, ["review_id", "language", "is_english"]].rename(
-        columns={"language": "source_language", "is_english": "source_is_english"}
+    language_audit = analysis.loc[
+        :,
+        [
+            "review_id",
+            "fasttext_label",
+            "fasttext_probability",
+            "language_decision",
+            "top_k_predictions",
+            "legacy_language",
+            "legacy_is_english",
+        ],
+    ].rename(
+        columns={"legacy_language": "source_language", "legacy_is_english": "source_is_english"}
     )
-    language_audit = language_audit.merge(source_language, on="review_id", validate="one_to_one")
     language_audit["source_disagrees"] = (
         language_audit["source_is_english"].astype(bool)
-        != (language_audit["language_decision"] == "english")
+        != language_audit["language_decision"].eq("english")
     )
 
-    joined = joined.merge(
-        language_audit.loc[:, ["review_id", "fasttext_label", "fasttext_probability", "language_decision"]],
-        on="review_id",
-        validate="one_to_one",
-    )
-    excluded_reviews = joined.loc[joined["language_decision"] != "english"].copy()
+    excluded_reviews = analysis.loc[analysis["language_decision"].ne("english")].copy()
     excluded_reviews["exclusion_reason"] = excluded_reviews["language_decision"].map(
-        {"non_english": "fasttext_non_english", "uncertain": "fasttext_uncertain"}
+        {"non_english": "canonical_non_english", "uncertain": "canonical_language_uncertain"}
     )
     excluded_reviews["review_excerpt"] = excluded_reviews["review_text"].fillna("").str.slice(0, 500)
     excluded_reviews = excluded_reviews.loc[
@@ -145,14 +132,14 @@ def run_prepare(config: ProjectConfig, force: bool = False) -> Dict[str, int]:
             "exclusion_reason",
             "fasttext_label",
             "fasttext_probability",
-            "language",
-            "is_english",
+            "legacy_language",
+            "legacy_is_english",
             "review_title",
             "review_excerpt",
         ],
-    ]
+    ].rename(columns={"legacy_language": "language", "legacy_is_english": "is_english"})
 
-    included = joined.loc[joined["language_decision"] == "english"].copy()
+    included = analysis.loc[analysis["language_decision"].eq("english")].copy()
     corpus_columns = [
         "review_id",
         "review_title",
@@ -205,6 +192,10 @@ def run_prepare(config: ProjectConfig, force: bool = False) -> Dict[str, int]:
         no_span_audit["exclusion_reason"] = "no_analysis_span"
         excluded_reviews = pd.concat([excluded_reviews, no_span_audit], ignore_index=True, sort=False)
 
+    nrc_audit = canonical.loc[
+        ~canonical["nrc_baseline_available"].astype(bool), ["review_id"]
+    ].copy()
+    nrc_audit["join_issue"] = "canonical_review_missing_nrc8_baseline"
     atomic_write_csv(corpus, intermediate_dir / "corpus_reviews.csv")
     atomic_write_csv(sentences_frame, intermediate_dir / "sentences.csv")
     atomic_write_csv(spans_frame, intermediate_dir / "analysis_spans.csv")
@@ -214,10 +205,10 @@ def run_prepare(config: ProjectConfig, force: bool = False) -> Dict[str, int]:
     atomic_write_csv(nrc_audit, audit_dir / "nrc_join_audit.csv")
 
     summary = {
-        "source_reviews": int(len(master)),
+        "source_reviews": int(len(canonical)),
         "included_english_reviews": int(len(corpus)),
         "excluded_reviews": int(len(excluded_reviews)),
-        "uncertain_language_reviews": int((language_audit["language_decision"] == "uncertain").sum()),
+        "uncertain_language_reviews": int(language_audit["language_decision"].eq("uncertain").sum()),
         "nrc_unmatched_reviews": int(len(nrc_audit)),
         "sentences": int(len(sentences_frame)),
         "analysis_spans": int(len(spans_frame)),

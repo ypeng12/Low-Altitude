@@ -25,6 +25,7 @@ TRACKED_PACKAGES = (
     "numba",
     "sentence-transformers",
     "transformers",
+    "huggingface-hub",
     "optimum",
     "onnxruntime",
     "torch",

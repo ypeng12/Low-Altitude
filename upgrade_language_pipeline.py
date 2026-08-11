@@ -145,9 +145,10 @@ df['sentiment_pos'] = [s['pos'] for s in sentiments]
 df['sentiment_neg'] = [s['neg'] for s in sentiments]
 
 # Save datasets
-master_out = 'data/cleaned_datasets/tripadvisor_processed_master.csv'
+master_out = 'data/cleaned_datasets/tripadvisor_processed_master_language_legacy_rebuild.csv'
 non_eng_out = 'data/cleaned_datasets/non_english_reviews.csv'
 
+# Safety: never overwrite the immutable research master from a legacy script.
 df.to_csv(master_out, index=False, encoding='utf-8-sig')
 df[df['is_english'] == 0].to_csv(non_eng_out, index=False, encoding='utf-8-sig')
 
