@@ -13,15 +13,15 @@
 
 你上传的数据非常适合做这个题目，但若要达到计算机科学、机器学习论文的水平，需要从“词频与词典分数”转向以下几个层面：
 
-| 当前层面 | 应升级到的层面 |
-|---|---|
-| NRC 单词属于哪种情绪 | 情绪表达对应哪个具体对象 |
-| VADER 整篇正负极性 | 句子、分句、属性级极性 |
-| 评论出现负面词 | 负面词是抱怨、风险描述、否定、假设，还是被克服的困难 |
-| pilot/weather/scenery 是否被提及 | 对该对象究竟是正面还是负面评价 |
-| 负面情绪和高评分并存 | 为什么负面信息没有降低最终评分 |
-| 相关性与回归系数 | 机制归因、反事实检验和稳健性分析 |
-| 预设关键词表 | 计算扎根理论与人工编码形成的领域本体 |
+| 当前层面                         | 应升级到的层面                                       |
+| -------------------------------- | ---------------------------------------------------- |
+| NRC 单词属于哪种情绪             | 情绪表达对应哪个具体对象                             |
+| VADER 整篇正负极性               | 句子、分句、属性级极性                               |
+| 评论出现负面词                   | 负面词是抱怨、风险描述、否定、假设，还是被克服的困难 |
+| pilot/weather/scenery 是否被提及 | 对该对象究竟是正面还是负面评价                       |
+| 负面情绪和高评分并存             | 为什么负面信息没有降低最终评分                       |
+| 相关性与回归系数                 | 机制归因、反事实检验和稳健性分析                     |
+| 预设关键词表                     | 计算扎根理论与人工编码形成的领域本体                 |
 
 VADER 最初主要是为微博式社交媒体文本设计的规则模型；NRC 则记录单词与八类情绪及正负极性的静态关联。二者都很适合作为低成本基线，但它们本身并不解决“评价对象是谁”“否定范围是什么”“负面事件是否由企业可控”“负面内容在转折句前还是后”等问题。citeturn2search0turn2search1turn2search9
 
@@ -35,14 +35,14 @@ VADER 最初主要是为微博式社交媒体文本设计的规则模型；NRC �
 
 在四星和五星评论（N=21,718）中：
 
-| 定义 | 验证代码计算数量 | 高评分评论中的真实比例 | 代码验证状态 |
-|---|---:|---:|:---:|
-| VADER 整篇 compound 小于 0 | **498** | **2.29%** | ✅ `run_deep_research_audit.py` 已验证 |
-| VADER negative proportion 大于 0 | **7,874** | **36.26%** | ✅ `run_deep_research_audit.py` 已验证 |
-| VADER negative proportion 至少 0.05 | **2,343** | **10.79%** | ✅ `run_deep_research_audit.py` 已验证 |
-| NRC negative 大于 0 | **9,962** | **45.87%** | ✅ `run_deep_research_audit.py` 已验证 |
-| NRC negative 至少 0.02 | **4,550** | **20.95%** | ✅ `run_deep_research_audit.py` 已验证 |
-| NRC 与 VADER 都检测到某种负面成分 | **5,909** | **27.21%** | ✅ `run_deep_research_audit.py` 已验证 |
+| 定义                                | 验证代码计算数量 | 高评分评论中的真实比例 |              代码验证状态              |
+| ----------------------------------- | ---------------: | ---------------------: | :------------------------------------: |
+| VADER 整篇 compound 小于 0          |          **498** |              **2.29%** | ✅ `run_deep_research_audit.py` 已验证 |
+| VADER negative proportion 大于 0    |        **7,874** |             **36.26%** | ✅ `run_deep_research_audit.py` 已验证 |
+| VADER negative proportion 至少 0.05 |        **2,343** |             **10.79%** | ✅ `run_deep_research_audit.py` 已验证 |
+| NRC negative 大于 0                 |        **9,962** |             **45.87%** | ✅ `run_deep_research_audit.py` 已验证 |
+| NRC negative 至少 0.02              |        **4,550** |             **20.95%** | ✅ `run_deep_research_audit.py` 已验证 |
+| NRC 与 VADER 都检测到某种负面成分   |        **5,909** |             **27.21%** | ✅ `run_deep_research_audit.py` 已验证 |
 
 这组结果非常重要：**“评论包含负面词”与“评论整体是负面评论”不是一回事。**
 
@@ -57,23 +57,20 @@ VADER 最初主要是为微博式社交媒体文本设计的规则模型；NRC �
 针对原先哑变量仅表达“提及”而非“评价”的缺陷，更新后的数据流水线 `run_data_pipeline.py` 与计量模型 `run_incongruence_econometrics.py` 成功提取了属性级情感 (ABSA)、篇章转折句法 (Discourse Parsing) 和归因缓冲机制。实证回归结果（见 [deep_research_absa_regressions.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/deep_research_absa_regressions.csv) 与 [deep_research_attribution_discourse_regressions.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/deep_research_attribution_discourse_regressions.csv)）证明了以下核心学术假设：
 
 #### 1. 属性极性解耦 (ABSA Utility Model)
+
 - **飞行员服务**：正面表现 $\beta_{\text{pilot\_pos}} = +0.0862$ ($p < 0.001$)；负面表现 $\beta_{\text{pilot\_neg}} = -0.5217$ ($p < 0.001$)。负面惩罚权重是正面赞许的 **6.05 倍**。
 - **天气要素**：正面天气 $\beta_{\text{weather\_pos}} = +0.0250$ ($p = 0.005$)；恶劣天气 $\beta_{\text{weather\_neg}} = -0.1415$ ($p < 0.001$)。
 - **地面触点解耦**：地面负面服务 $\beta_{\text{ground\_staff\_neg}} = -0.5672$ ($p < 0.001$)，证明地面柜台与登机摩擦对星级评分有极强的破坏力。
 
-![Figure 1: ABSA 属性极性回归边际效应森林图](file:///Users/yuliangpeng/Desktop/Low-Altitude/figures/absa_marginal_effects_forest_plot.png)
-
 #### 2. 归因缓冲机制 (Attribution Compensation Effect)
+
 - **交互项 $Weather_{neg} \times Pilot_{pos}$**：交互系数为 **$+0.2788$ ($p < 0.001$)**。
 - **学术含义**：当面临恶劣天气等不可控外部限制（$Weather_{neg}=1$）时，飞行员卓越的专业解说与技术操控（$Pilot_{pos}=1$）能够**完全抵消**不可抗力带来的分值下降（$-0.1803 + 0.2788 = +0.0985 > 0$），证明了优质内部服务对外部不可控自然环境缺陷的强效缓冲与补救作用！
 
-![Figure 2: 归因缓冲效应交互作用图](file:///Users/yuliangpeng/Desktop/Low-Altitude/figures/attribution_mitigation_interaction.png)
-
 #### 3. 篇章转折权重 ("But" Discourse Focus)
+
 - **转折后子句 Compound 分值 ($S_{\text{post\_but}}$)**：回归系数达 **$+0.8094$ ($p < 0.001$)** (Ordered Probit 模型中达到 **$+1.2465$**)。
 - **学术含义**：在包含 `but`/`however` 的复杂复合句中，游客最终的 5 星评分高度由转折后子句的情感走向主导，解释力 ($R^2$) 从基准模型的 $11.87\%$ 大幅跃升至 **$24.88\%$**。
-
-![Figure 3: 篇章转折焦点与 R² 解释力跃升图](file:///Users/yuliangpeng/Desktop/Low-Altitude/figures/discourse_clause_r2_jump.png)
 
 ---
 
@@ -107,14 +104,14 @@ VADER 最初主要是为微博式社交媒体文本设计的规则模型；NRC �
 
 我对标记为英语、评分至少四星且 VADER negative proportion 至少为 0.05 的 2,161 条评论进行了初步规则复核。结果显示：
 
-| 现象 | 初步出现比例 |
-|---|---:|
-| 包含 but、however、although、though、despite 等转折或让步标记 | 47.8% |
-| 提及天气、云、风、延误、取消或颠簸 | 35.5% |
-| 提及价格、成本或是否值得 | 23.4% |
-| 提及害怕、紧张、晕机、恶心等身体或心理反应 | 19.2% |
-| 提及退款、改期、替代路线、补救或妥善处理 | 12.4% |
-| 出现较明确的服务人员负面表达 | 约 5.0% |
+| 现象                                                          | 初步出现比例 |
+| ------------------------------------------------------------- | -----------: |
+| 包含 but、however、although、though、despite 等转折或让步标记 |        47.8% |
+| 提及天气、云、风、延误、取消或颠簸                            |        35.5% |
+| 提及价格、成本或是否值得                                      |        23.4% |
+| 提及害怕、紧张、晕机、恶心等身体或心理反应                    |        19.2% |
+| 提及退款、改期、替代路线、补救或妥善处理                      |        12.4% |
+| 出现较明确的服务人员负面表达                                  |      约 5.0% |
 
 这说明负面词主要可能来自以下机制。
 
@@ -187,19 +184,15 @@ VADER 最初主要是为微博式社交媒体文本设计的规则模型；NRC �
 \[
 Rating =
 w_1 \cdot Scenery
-+
-w_2 \cdot Pilot
-+
-w_3 \cdot Safety
-+
-w_4 \cdot ServiceRecovery
--
-w_5 \cdot Price
--
-w_6 \cdot Discomfort
--
-w_7 \cdot OperationalFailure
-\]
+
+- w_2 \cdot Pilot
+- w_3 \cdot Safety
+- w_4 \cdot ServiceRecovery
+
+* w_5 \cdot Price
+* w_6 \cdot Discomfort
+* w_7 \cdot OperationalFailure
+  \]
 
 其中各权重并不相等。一次极佳的景色或一位优秀的飞行员，可能足以抵消短暂恶心、昂贵价格或天气限制。
 
@@ -239,21 +232,21 @@ w_7 \cdot OperationalFailure
 
 可编码为：
 
-| 字段 | 标注 |
-|---|---|
-| opinion span | terrible |
-| target | weather |
-| polarity | negative |
-| cause/source | natural condition |
+| 字段            | 标注                       |
+| --------------- | -------------------------- |
+| opinion span    | terrible                   |
+| target          | weather                    |
+| polarity        | negative                   |
+| cause/source    | natural condition          |
 | controllability | uncontrollable by operator |
-| discourse role | concession/background |
-| rating impact | weak negative |
-| second opinion | amazing |
-| second target | pilot/service recovery |
-| second polarity | positive |
-| controllability | operator-controlled |
-| discourse role | main resolution |
-| rating impact | strong positive |
+| discourse role  | concession/background      |
+| rating impact   | weak negative              |
+| second opinion  | amazing                    |
+| second target   | pilot/service recovery     |
+| second polarity | positive                   |
+| controllability | operator-controlled        |
+| discourse role  | main resolution            |
+| rating impact   | strong positive            |
 
 这比普通 ABSA 多了两个关键维度：
 
@@ -274,27 +267,27 @@ w_7 \cdot OperationalFailure
 
 初始属性不要只分 scenery 与 people，而应至少包括：
 
-| 一级类别 | 二级类别示例 |
-|---|---|
-| 自然景观 | canyon、coast、mountain、glacier、waterfall、wildlife |
-| 飞行人员 | pilot professionalism、knowledge、reassurance、narration |
-| 地面服务 | check-in、communication、transport、refund、waiting |
-| 导游服务 | knowledge、friendliness、route explanation |
-| 飞行体验 | smoothness、turbulence、aircraft comfort、visibility |
-| 安全感 | objective safety、subjective fear、reassurance |
-| 身体反应 | nausea、motion sickness、dizziness |
-| 外部条件 | weather、cloud、wind、regulation |
-| 价格价值 | expensive、worth it、value |
+| 一级类别 | 二级类别示例                                              |
+| -------- | --------------------------------------------------------- |
+| 自然景观 | canyon、coast、mountain、glacier、waterfall、wildlife     |
+| 飞行人员 | pilot professionalism、knowledge、reassurance、narration  |
+| 地面服务 | check-in、communication、transport、refund、waiting       |
+| 导游服务 | knowledge、friendliness、route explanation                |
+| 飞行体验 | smoothness、turbulence、aircraft comfort、visibility      |
+| 安全感   | objective safety、subjective fear、reassurance            |
+| 身体反应 | nausea、motion sickness、dizziness                        |
+| 外部条件 | weather、cloud、wind、regulation                          |
+| 价格价值 | expensive、worth it、value                                |
 | 行程结果 | cancellation、delay、alternative route、missed attraction |
-| 社会体验 | family、child reaction、companion |
-| 特殊意义 | birthday、honeymoon、bucket list、once-in-a-lifetime |
+| 社会体验 | family、child reaction、companion                         |
+| 特殊意义 | birthday、honeymoon、bucket list、once-in-a-lifetime      |
 
 另外增加三种机制标签：
 
-| 机制 | 说明 |
-|---|---|
-| attribution | 责任归于公司、员工、自然、游客自身或第三方 |
-| recovery | 问题是否被修复、补偿或重新解释 |
+| 机制                | 说明                                             |
+| ------------------- | ------------------------------------------------ |
+| attribution         | 责任归于公司、员工、自然、游客自身或第三方       |
+| recovery            | 问题是否被修复、补偿或重新解释                   |
 | discourse dominance | 该内容是主结论、背景、让步、转折前项还是转折后项 |
 
 ### 研究问题
@@ -323,13 +316,13 @@ w_7 \cdot OperationalFailure
 
 先从以下几组评论中抽样：
 
-| 样本组 | 建议数量 |
-|---|---:|
-| 五星且 VADER 整体负面 | 250–400 |
-| 五星且有较高局部负面词比例 | 400–600 |
-| 四星且局部负面明显 | 200–300 |
-| 一至三星对照组 | 300–400 |
-| 高评分但无明显负面成分的匹配对照 | 300–400 |
+| 样本组                           | 建议数量 |
+| -------------------------------- | -------: |
+| 五星且 VADER 整体负面            |  250–400 |
+| 五星且有较高局部负面词比例       |  400–600 |
+| 四星且局部负面明显               |  200–300 |
+| 一至三星对照组                   |  300–400 |
+| 高评分但无明显负面成分的匹配对照 |  300–400 |
 
 不要一开始强制所有文本只能进入 weather、pilot、scenery 等旧类别。先使用句向量聚类、主题发现、关键词比较和人工开放编码寻找可能遗漏的机制，例如：
 
@@ -399,12 +392,12 @@ h = Encoder(\text{title} + \text{review})
 
 \[
 L =
-\lambda_1L_{\text{span}}
-+\lambda_2L_{\text{aspect}}
-+\lambda_3L_{\text{polarity}}
-+\lambda_4L_{\text{attribution}}
-+\lambda_5L_{\text{discourse}}
-+\lambda_6L_{\text{rating}}
+\lambda*1L*{\text{span}}
++\lambda*2L*{\text{aspect}}
++\lambda*3L*{\text{polarity}}
++\lambda*4L*{\text{attribution}}
++\lambda*5L*{\text{discourse}}
++\lambda*6L*{\text{rating}}
 \]
 
 其中：
@@ -467,9 +460,9 @@ L =
 
 \[
 PostContrastSentiment
--
-PreContrastSentiment
-\]
+
+- PreContrastSentiment
+  \]
 
 因为在英语评论中，`but` 后面的内容通常更接近作者希望强调的结论。你可以实证检验这一假设，而不是直接写死规则。
 
@@ -477,18 +470,18 @@ PreContrastSentiment
 
 不要把所有不一致都归为一类。建议定义以下标签：
 
-| 不一致类型 | 例子 |
-|---|---|
-| 局部负面—整体正面 | 座位很挤，但景色极佳 |
-| 不可控因素负面 | 天气导致看不到山峰 |
-| 恐惧转化 | 开始害怕，后来非常安心 |
-| 服务补救 | 原航班取消，但改期处理极佳 |
-| 价格让步 | 很贵，但完全值得 |
-| 第三方归责 | 邮轮公司取消，实际运营商很好 |
-| 比较式负面 | 比直升机便宜、没有直升机那么吵 |
-| 否定式伪负面 | never felt unsafe |
-| 多语言误判 | 非英语词被英语词典判为负面 |
-| 真正星文冲突 | 文本主要抱怨，但仍给五星 |
+| 不一致类型        | 例子                           |
+| ----------------- | ------------------------------ |
+| 局部负面—整体正面 | 座位很挤，但景色极佳           |
+| 不可控因素负面    | 天气导致看不到山峰             |
+| 恐惧转化          | 开始害怕，后来非常安心         |
+| 服务补救          | 原航班取消，但改期处理极佳     |
+| 价格让步          | 很贵，但完全值得               |
+| 第三方归责        | 邮轮公司取消，实际运营商很好   |
+| 比较式负面        | 比直升机便宜、没有直升机那么吵 |
+| 否定式伪负面      | never felt unsafe              |
+| 多语言误判        | 非英语词被英语词典判为负面     |
+| 真正星文冲突      | 文本主要抱怨，但仍给五星       |
 
 最后一类才是真正强意义上的 rating–sentiment incongruence。其他很多只是 lexicon–context incongruence。
 
@@ -499,7 +492,7 @@ PreContrastSentiment
 原因是“提及景色”“赞扬飞行员”等变量本身是体验之后形成的文本表达。评论者是否提及某属性，受到体验、个性、写作风格和评分共同影响。直接回归：
 
 \[
-Rating \sim scenery\_mention + pilot\_mention
+Rating \sim scenery_mention + pilot_mention
 \]
 
 不能解释为“提及景色导致评分上升”。
@@ -511,9 +504,9 @@ Rating \sim scenery\_mention + pilot\_mention
 第一层称为 **perceived contribution attribution**，只做解释性归因，不宣称因果。模型输出：
 
 \[
-Contribution_{\text{scenery}},
-Contribution_{\text{pilot}},
-Contribution_{\text{weather}},\ldots
+Contribution*{\text{scenery}},
+Contribution*{\text{pilot}},
+Contribution\_{\text{weather}},\ldots
 \]
 
 第二层才做因果或准因果设计。最可行的是反事实文本实验：
@@ -532,20 +525,20 @@ Contribution_{\text{weather}},\ldots
 让人工受试者或一个经过人工验证的评分模型预测星级变化：
 
 \[
-\Delta_{\text{scenery}}
+\Delta\_{\text{scenery}}
 =
 \hat{Y}(text)
--
-\hat{Y}(text \setminus scenery)
-\]
+
+- \hat{Y}(text \setminus scenery)
+  \]
 
 \[
-\Delta_{\text{pilot}}
+\Delta\_{\text{pilot}}
 =
 \hat{Y}(text)
--
-\hat{Y}(text \setminus pilot)
-\]
+
+- \hat{Y}(text \setminus pilot)
+  \]
 
 不过，大语言模型生成的反事实可能改变非目标内容，而且 LLM 也可能偏向认可自己生成的样本，因此必须进行人工有效性检查。已有系统研究发现，人类反事实和 LLM 反事实之间仍存在明显质量差距。citeturn4search14
 
@@ -571,7 +564,7 @@ Contribution_{\text{weather}},\ldots
 可以定义：
 
 \[
-I_{text-image}
+I\_{text-image}
 =
 Similarity(\text{text aspect},\text{visual regions})
 \]
@@ -579,12 +572,12 @@ Similarity(\text{text aspect},\text{visual regions})
 以及：
 
 \[
-Mismatch_{modal}
+Mismatch*{modal}
 =
-Sentiment_{text}
--
-Sentiment_{image}
-\]
+Sentiment*{text}
+
+- Sentiment\_{image}
+  \]
 
 2024–2025 年的多模态属性情感研究正在从“整张图片与整段文字直接拼接”，转向细粒度 aspect–image alignment、视觉去噪、隐式属性生成和美学属性建模。DaNet 强调对图像序列进行属性感知和情感感知的细粒度对齐；Vanessa 则引入视觉内涵和审美属性，并用 CLIP 相似性与对比学习建模文本—图片关系。citeturn8search0turn8search1
 
@@ -621,17 +614,14 @@ Sentiment_{image}
 \[
 HighRating =
 SceneryBenefit
-+
-HumanServiceBenefit
-+
-SafetyReassurance
-+
-RecoveryBenefit
--
-ControllableFailure
--
-UncontrollableDiscomfort
-\]
+
+- HumanServiceBenefit
+- SafetyReassurance
+- RecoveryBenefit
+
+* ControllableFailure
+* UncontrollableDiscomfort
+  \]
 
 其中，景色往往提供高强度的核心效用，飞行员和员工则影响安全感、信任、解释质量和问题补救。两者经常共同产生五星，而不是彼此替代。
 
@@ -657,17 +647,17 @@ PriceNegative \times OnceInLifetime
 
 ## 可发表的研究路线与优先级
 
-| 研究方向 | 新颖性 | 技术难度 | 对当前数据适配度 | 建议 |
-|---|---:|---:|---:|---|
-| 属性、归因、篇章感知的评分—文本不一致 | 高 | 中高 | 非常高 | 最推荐主论文 |
-| 计算扎根理论构建不一致机制本体 | 中高 | 中 | 非常高 | 与主论文结合 |
-| ASTE 加可控性与服务补救抽取 | 高 | 高 | 高 | 适合 CS/NLP 投稿 |
-| 反事实删除景色/人员分句的评分变化 | 很高 | 高 | 高 | 适合作为第二阶段 |
-| 多模态图片—文本—星级不一致 | 很高 | 很高 | 当前偏低 | 获得图片后做 |
-| 多语言评分—文本不一致 | 中高 | 中高 | 中 | 先修复语言识别 |
-| 单纯比较 NRC、VADER、BERT | 低 | 低 | 高 | 只作为 baseline |
-| 单纯 BERTopic 找主题 | 低 | 低 | 高 | 只能作为探索步骤 |
-| 用 SHAP 解释评分预测 | 中低 | 中 | 高 | 可辅助，不能作为主要创新 |
+| 研究方向                              | 新颖性 | 技术难度 | 对当前数据适配度 | 建议                     |
+| ------------------------------------- | -----: | -------: | ---------------: | ------------------------ |
+| 属性、归因、篇章感知的评分—文本不一致 |     高 |     中高 |           非常高 | 最推荐主论文             |
+| 计算扎根理论构建不一致机制本体        |   中高 |       中 |           非常高 | 与主论文结合             |
+| ASTE 加可控性与服务补救抽取           |     高 |       高 |               高 | 适合 CS/NLP 投稿         |
+| 反事实删除景色/人员分句的评分变化     |   很高 |       高 |               高 | 适合作为第二阶段         |
+| 多模态图片—文本—星级不一致            |   很高 |     很高 |         当前偏低 | 获得图片后做             |
+| 多语言评分—文本不一致                 |   中高 |     中高 |               中 | 先修复语言识别           |
+| 单纯比较 NRC、VADER、BERT             |     低 |       低 |               高 | 只作为 baseline          |
+| 单纯 BERTopic 找主题                  |     低 |       低 |               高 | 只能作为探索步骤         |
+| 用 SHAP 解释评分预测                  |   中低 |       中 |               高 | 可辅助，不能作为主要创新 |
 
 推荐的实际论文贡献可以写成：
 
@@ -687,12 +677,12 @@ PriceNegative \times OnceInLifetime
 
 建议至少报告：
 
-| 划分方式 | 目的 |
-|---|---|
-| stratified random split | 与常规研究比较 |
-| group split by user | 防止同一用户泄漏 |
-| leave-one-tour-out | 检验跨产品泛化 |
-| temporal split | 用早期评论预测较新评论 |
+| 划分方式                  | 目的                     |
+| ------------------------- | ------------------------ |
+| stratified random split   | 与常规研究比较           |
+| group split by user       | 防止同一用户泄漏         |
+| leave-one-tour-out        | 检验跨产品泛化           |
+| temporal split            | 用早期评论预测较新评论   |
 | mismatch-stratified split | 保证稀有不一致类型被覆盖 |
 
 评分预测应使用：
@@ -739,21 +729,21 @@ Task_2:
 
 ## 优先阅读的论文
 
-| 论文 | 你应吸收的内容 |
-|---|---|
-| **VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text** | 理解 VADER 的设计范围和规则基线，而不是把它当成旅游评论真值。citeturn2search0 |
-| **Crowdsourcing a Word–Emotion Association Lexicon** | 理解 NRC 是词—情绪关联资源，不是上下文情绪原因模型。citeturn2search1 |
-| **Sentiment Analysis in the Era of Large Language Models: A Reality Check** | 设计 LLM、encoder、词典等多层基线，避免默认 LLM 一定最好。citeturn4search6 |
-| **ASTE-Transformer: Modelling Dependencies in Aspect-Sentiment Triplet Extraction** | 学习 aspect、opinion、polarity 联合建模。citeturn0search7 |
-| **PASTEL: Polarity-Aware Sentiment Triplet Extraction with LLM-as-a-Judge** | 学习模块化抽取和候选验证，但仍需人工 gold set。citeturn0search0 |
-| **Causal Discovery Inspired Unsupervised Domain Adaptation for Emotion-Cause Pair Extraction** | 将情绪识别升级为情绪—原因配对。citeturn0search6 |
-| **DINER: Debiasing Aspect-Based Sentiment Analysis with Multi-variable Causal Inference** | 学习如何分析属性词与标签之间的虚假相关。citeturn4search9 |
-| **Computational Grounded Theory: A Methodological Framework** | 构建机器发现—人工精炼—计算确认的研究流程。citeturn1search2 |
-| **Theory-Grounded Computational Text Analysis** | 避免把复杂模型、聚类和可视化误当成理论贡献。citeturn1search0 |
-| **Exploring an Incongruence Frame for Online Reviews** | 建立评分—文本不一致的消费者行为理论背景。citeturn6search0 |
-| **Fault of Our Stars: Behavioral Drivers of Rating-Sentiment Incongruence** | 这是与你题目最接近的 2026 年工作；你的论文必须在属性归因、篇章机制和反事实上超越它。citeturn6academia34 |
-| **How to Make Causal Inferences Using Texts** | 学习分样本、构念发现和验证分离，避免从同一数据发现又检验。citeturn5search13 |
-| **DaNet** 与 **Vanessa** | 获得评论图片后，发展真正的多模态属性情感和图片—文本对齐。citeturn8search0turn8search1 |
+| 论文                                                                                           | 你应吸收的内容                                                                                             |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **VADER: A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text**         | 理解 VADER 的设计范围和规则基线，而不是把它当成旅游评论真值。citeturn2search0                           |
+| **Crowdsourcing a Word–Emotion Association Lexicon**                                           | 理解 NRC 是词—情绪关联资源，不是上下文情绪原因模型。citeturn2search1                                    |
+| **Sentiment Analysis in the Era of Large Language Models: A Reality Check**                    | 设计 LLM、encoder、词典等多层基线，避免默认 LLM 一定最好。citeturn4search6                              |
+| **ASTE-Transformer: Modelling Dependencies in Aspect-Sentiment Triplet Extraction**            | 学习 aspect、opinion、polarity 联合建模。citeturn0search7                                               |
+| **PASTEL: Polarity-Aware Sentiment Triplet Extraction with LLM-as-a-Judge**                    | 学习模块化抽取和候选验证，但仍需人工 gold set。citeturn0search0                                         |
+| **Causal Discovery Inspired Unsupervised Domain Adaptation for Emotion-Cause Pair Extraction** | 将情绪识别升级为情绪—原因配对。citeturn0search6                                                         |
+| **DINER: Debiasing Aspect-Based Sentiment Analysis with Multi-variable Causal Inference**      | 学习如何分析属性词与标签之间的虚假相关。citeturn4search9                                                |
+| **Computational Grounded Theory: A Methodological Framework**                                  | 构建机器发现—人工精炼—计算确认的研究流程。citeturn1search2                                              |
+| **Theory-Grounded Computational Text Analysis**                                                | 避免把复杂模型、聚类和可视化误当成理论贡献。citeturn1search0                                            |
+| **Exploring an Incongruence Frame for Online Reviews**                                         | 建立评分—文本不一致的消费者行为理论背景。citeturn6search0                                               |
+| **Fault of Our Stars: Behavioral Drivers of Rating-Sentiment Incongruence**                    | 这是与你题目最接近的 2026 年工作；你的论文必须在属性归因、篇章机制和反事实上超越它。citeturn6academia34 |
+| **How to Make Causal Inferences Using Texts**                                                  | 学习分样本、构念发现和验证分离，避免从同一数据发现又检验。citeturn5search13                             |
+| **DaNet** 与 **Vanessa**                                                                       | 获得评论图片后，发展真正的多模态属性情感和图片—文本对齐。citeturn8search0turn8search1                  |
 
 最终最有竞争力的研究不是“证明 NRC 和 VADER 与星级相关”，而是提出并验证一个更精细的解释框架：
 

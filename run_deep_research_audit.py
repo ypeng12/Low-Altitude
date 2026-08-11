@@ -129,35 +129,6 @@ print(f"  - Weather Positive Polarity: {weather_pos_cnt} ({weather_pos_cnt/total
 print(f"  - Safety Assurance: {safety_assure_cnt} ({safety_assure_cnt/total_n*100:.2f}%) | Fear/Anxiety: {fear_anx_cnt} ({fear_anx_cnt/total_n*100:.2f}%) | Fear Transformation: {fear_trans_cnt} ({fear_trans_cnt/total_n*100:.2f}%)")
 print(f"  - Reviews with Adversative Conjunction ('but'): {post_but_cnt} ({post_but_cnt/total_n*100:.2f}%)")
 
-# 5. Verification of 2,161 Sub-Cohort High-Rating Local-Negative Phenomena Ratios
-print("\n=======================================================")
-print("5. Verification of Sub-Cohort (N=2,161: English, Rating>=4, NegProp>=0.05)")
-print("=======================================================")
-sub_cohort = en_df[(en_df['rating'] >= 4) & (en_df['sentiment_neg'] >= 0.05)].copy()
-n_sub = len(sub_cohort)
-print(f"Sub-Cohort Total Rows: N = {n_sub}")
-
-contrast_pat = r'\b(but|however|although|though|despite|even though|nonetheless|yet)\b'
-weather_pat = r'\b(weather|cloud|clouds|cloudy|wind|winds|windy|rain|fog|foggy|snow|delay|delays|delayed|cancel|cancelled|cancellation|turbulence|bumpy)\b'
-price_pat = r'\b(price|prices|expensive|cost|costs|costly|worth|money|value|dollar|dollars|cash)\b'
-fear_physio_pat = r'\b(scared|terrified|nervous|anxious|afraid|fear|frightened|sick|nausea|nauseous|dizzy|dizziness|cold|cramped|small|tight|noise|noisy)\b'
-recovery_pat = r'\b(refund|refunded|reschedule|rescheduled|alternative|route|accommodate|accommodated|handled|reassured|reassurance|fix|fixed|help|helped)\b'
-staff_neg_pat = r'\b(rude|unprofessional|disappointed|disappointing|poor|horrible|terrible|awful|bad|unfriendly)\b'
-
-c_contrast = sub_cohort['review_text'].str.contains(contrast_pat, case=False, regex=True).sum()
-c_weather = sub_cohort['review_text'].str.contains(weather_pat, case=False, regex=True).sum()
-c_price = sub_cohort['review_text'].str.contains(price_pat, case=False, regex=True).sum()
-c_fear = sub_cohort['review_text'].str.contains(fear_physio_pat, case=False, regex=True).sum()
-c_recovery = sub_cohort['review_text'].str.contains(recovery_pat, case=False, regex=True).sum()
-c_staff_neg = sub_cohort['review_text'].str.contains(staff_neg_pat, case=False, regex=True).sum()
-
-print(f"  1. Contrast/Concession Markers (but/however...): {c_contrast} ({c_contrast/n_sub*100:.1f}%)")
-print(f"  2. Weather/Uncontrollable Factor Mention: {c_weather} ({c_weather/n_sub*100:.1f}%)")
-print(f"  3. Price/Value Concession Mention: {c_price} ({c_price/n_sub*100:.1f}%)")
-print(f"  4. Fear/Physiological Arousal Mention: {c_fear} ({c_fear/n_sub*100:.1f}%)")
-print(f"  5. Service Recovery/Reassurance Mention: {c_recovery} ({c_recovery/n_sub*100:.1f}%)")
-print(f"  6. Direct Staff Negative Expression: {c_staff_neg} ({c_staff_neg/n_sub*100:.1f}%)")
-
 # Save complete audit verification table
 audit_df = pd.DataFrame([
     {"definition": "Total Master Reviews", "count": total_n, "percentage": 100.0},
