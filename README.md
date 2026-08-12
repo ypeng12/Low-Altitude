@@ -3,7 +3,7 @@
 > 🌐 **Project Repository**: [https://github.com/ypeng12/Low-Altitude](https://github.com/ypeng12/Low-Altitude)  
 > 📄 **Document Matrix**:
 > - 🇬🇧 **English Research Notes & Pipeline Overview**: `README.md` (Current File) / `RESEARCH_NOTES.md`
-> - 🇨🇳 **Chinese Comprehensive Lab Notes**: [RESEARCH_NOTES_CN.md](file:///c:/Users/pengy/OneDrive/Desktop/Low-Altitude/RESEARCH_NOTES_CN.md)
+> - 🇨🇳 **Chinese Comprehensive Lab Notes**: `RESEARCH_NOTES_CN.md`
 
 ---
 
@@ -126,21 +126,33 @@ Following **Orea-Giner et al. (2022)**, emotion in tourism is not monolithic. We
 
 ---
 
-## 🔬 Corpus-Derived Emotion Lexicon Codebook (Discovery & Induction Pipeline)
+## 🔬 Corpus-Derived Emotion Lexicon Codebook (500-Review Stage 1 Codebook)
 
-To avoid relying blindly on fixed generic sentiment lexicons (e.g., NRC or VADER), this project implements a **two-stage corpus-derived emotion lexicon induction pipeline** tailored specifically for low-altitude air tourism:
+To avoid relying blindly on fixed external sentiment lexicons (e.g., NRC or VADER), this project implements a **corpus-derived emotion lexicon induction pipeline** tailored specifically for low-altitude air tourism. 
 
-### Stage 1: 500-Review Open Discovery & Human-in-the-Loop Audit
+### Stage 1: 500-Review Open Discovery & Contextual Audit (Primary Codebook)
 - **Sampling**: Stratified random sample of 500 reviews ($N_{discovery}=500$, Seed 42), weighted by star ratings, air tour types, aircraft, and text length.
 - **Candidate Pool**: Extracted **3,605 unique candidate terms** (lemmas).
 - **Contextual Adjudication**: Executed sentence-by-sentence contextual auditing, strictly partitioning candidates into two clean outputs:
   - **`clean_emotion_words_500_reviews.xlsx` / `.csv` (347 Pure Emotion Terms)**: Contains pure Experiencer States ($E_1$: *nervous*, *awe*, *secure*, *uncomfortable*, *grateful*) and Stimulus Appraisals ($E_2$: *scary*, *breathtaking*, *spectacular*, *smooth*), annotated with contextual Chinese translations (`chinese_translation`) and explicit affect types (`affect_type`).
   - **`removed_non_emotion_words_from_500_reviews.csv` (3,258 Non-Emotion Terms)**: Validated negative audit log of neutral entities, physical attributes, spatial adverbs, non-emotion verbs, and structural noise (*silver*, *scattered*, *scientific*, *senior*, *sharp*, *together*, *choice*, *absolute*).
 
-### Stage 2: 2,000-Review Expansion & Gold Codebook Saturation (Next Step)
-- **Validation Sample**: 2,000 non-overlapping reviews ($N_{validation}=2,000$).
-- **Automated Noise Filter**: Utilizes the 3,258 validated `removed` list to instantly eliminate ~90%+ physical noise while inheriting existing 347 clean emotion terms.
-- **Target Output**: Final saturated **`clean_emotion_gold_codebook_2500_reviews.xlsx`** for domain-specific ABSA econometric modeling.
+### 🛠️ Python Execution & Reproducibility Scripts
+
+To run or reproduce the emotion lexicon discovery and induction pipeline, execute:
+
+```bash
+# 1. Run the core emotion lexicon induction pipeline for Stage 1 (500 Discovery Sample)
+python3 research_modules/emotion_lexicon_induction/scripts/build_emotion_lexicon_stage.py \
+    --stage discovery_500 \
+    --config research_modules/emotion_lexicon_induction/config/default.json
+
+# 2. Ingest AI/human contextual annotations and update Excel & CSV outputs
+python3 research_modules/emotion_lexicon_induction/scripts/ingest_ai_responses.py \
+    --stage discovery_500
+```
+
+*Outputs location*: `data/derived_outputs/clean_emotion_words_500_reviews.xlsx` and `data/derived_outputs/removed_non_emotion_words_from_500_reviews.csv`.
 
 ---
 
