@@ -76,6 +76,106 @@
     "max_tfidf_features": 30000,
     "ngram_range": [1, 3]
   },
+  "cate_term_taxonomy": {
+    "status": "llm_assisted_initial_coding_human_validation_pending",
+    "context_examples_per_term": 8,
+    "function_classes": {
+      "emotion_or_affective_state": [
+        "calm", "grateful", "stress", "skeptical", "tired", "uncomfortable"
+      ],
+      "appraisal_or_evaluation": [
+        "worth", "interesting", "unbelievable", "choice", "fortunate", "superb",
+        "cheap", "wrong", "fascinating", "advantage", "priceless", "afford",
+        "epic", "agree", "grandeur", "extraordinary", "fair", "lack", "decent",
+        "charming", "adventurous", "impression", "superior", "solid", "cute",
+        "silk", "stellar", "boring", "inexpensive", "refreshing", "immense",
+        "suitable", "valuable", "charm", "essential"
+      ],
+      "aspect_or_attribute": [
+        "small", "personable", "skilled", "courteous", "organized", "cold", "noise",
+        "polite", "working", "overcast", "accessible", "inaccessible", "balance",
+        "crystal", "convenient", "gracious", "hospitality", "culture", "careful",
+        "flexibility", "seasoned", "extensive", "kindness", "educated", "chatty",
+        "timely", "communicative", "cramped", "comprehensive", "diverse", "chilly",
+        "leisurely", "energetic", "balanced"
+      ],
+      "mechanism_trigger_or_action": [
+        "ease", "attention", "question", "contact", "effort", "capture", "delayed",
+        "carefully", "soak", "graciously", "courtesy", "suffer", "comprehend"
+      ],
+      "modifier_discourse_or_ambiguous": [
+        "cool", "extra", "completely", "interest", "absolute", "sense", "forward",
+        "strongly", "standing", "actual", "major", "spirit", "touched", "greater",
+        "bother", "overwhelming", "cherry", "granted", "hooked"
+      ]
+    },
+    "candidate_families": [
+      {
+        "candidate_id": "gratitude",
+        "possible_fine_grained_emotion_label": "gratitude",
+        "terms": ["grateful"],
+        "nrc_parent_if_applicable": "joy|trust",
+        "initial_status": "promising_non_nrc8_candidate",
+        "context_caveat": "Verify that gratitude is an experienced emotion directed toward a provider rather than a generic closing formula."
+      },
+      {
+        "candidate_id": "scenic_awe",
+        "possible_fine_grained_emotion_label": "scenic awe",
+        "terms": ["unbelievable", "epic", "grandeur", "overwhelming", "immense"],
+        "nrc_parent_if_applicable": "surprise|joy",
+        "initial_status": "promising_non_nrc8_candidate",
+        "context_caveat": "Most terms are stimulus appraisals rather than emotions by themselves; require evidence of wonder, vastness, accommodation, or felt overwhelm."
+      },
+      {
+        "candidate_id": "calm_relief",
+        "possible_fine_grained_emotion_label": "calm or relief",
+        "terms": ["calm", "ease", "stress"],
+        "nrc_parent_if_applicable": "trust|joy|fear",
+        "initial_status": "context_required_non_nrc8_candidate",
+        "context_caveat": "Calm often describes weather or flight motion; stress is frequently negated; ease can encode either a mechanism or an emotional outcome."
+      },
+      {
+        "candidate_id": "fascination_absorption",
+        "possible_fine_grained_emotion_label": "fascination or absorption",
+        "terms": ["interesting", "interest", "fascinating", "soak", "hooked"],
+        "nrc_parent_if_applicable": "anticipation|joy",
+        "initial_status": "exploratory_non_nrc8_candidate",
+        "context_caveat": "Separate felt fascination and absorption from interesting information, attraction attributes, equipment senses of hooked, and literal soak uses."
+      },
+      {
+        "candidate_id": "boredom",
+        "possible_fine_grained_emotion_label": "boredom",
+        "terms": ["boring"],
+        "nrc_parent_if_applicable": "sadness|disgust",
+        "initial_status": "exploratory_non_nrc8_candidate",
+        "context_caveat": "Boring is normally an appraisal of an activity; verify that the tourist actually experienced boredom."
+      },
+      {
+        "candidate_id": "skepticism_apprehension",
+        "possible_fine_grained_emotion_label": "skepticism or apprehension",
+        "terms": ["skeptical"],
+        "nrc_parent_if_applicable": "fear|anticipation|trust",
+        "initial_status": "exploratory_non_nrc8_candidate",
+        "context_caveat": "Skepticism is often a cognitive stance about price, safety, or the activity and is not automatically an experienced emotion."
+      },
+      {
+        "candidate_id": "feeling_moved",
+        "possible_fine_grained_emotion_label": "feeling moved",
+        "terms": ["touched"],
+        "nrc_parent_if_applicable": "joy|sadness",
+        "initial_status": "weak_polysemous_candidate",
+        "context_caveat": "In this corpus touched predominantly refers to landing or physical proximity, so emotional movedness must be coded at occurrence level."
+      },
+      {
+        "candidate_id": "adventure_exhilaration",
+        "possible_fine_grained_emotion_label": "adventure-related exhilaration",
+        "terms": ["cool", "adventurous", "energetic"],
+        "nrc_parent_if_applicable": "joy|anticipation",
+        "initial_status": "exploratory_non_nrc8_candidate",
+        "context_caveat": "Cool is polysemous and energetic often describes the pilot; require a tourist-experienced high-arousal positive state."
+      }
+    ]
+  },
   "goemotions_reference": {
     "role": "post_cluster_continuous_reference_only",
     "model_name": "SamLowe/roberta-base-go_emotions-onnx",

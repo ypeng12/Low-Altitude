@@ -1,0 +1,116 @@
+digraph NRCPlus3 {
+  graph [
+    rankdir=LR,
+    bgcolor="#FAFBFD",
+    pad="0.35",
+    nodesep="0.38",
+    ranksep="0.72",
+    fontname="PingFang SC",
+    label="NRC 8、全量语义聚类候选 +3 与评分之间的关系",
+    labelloc="t",
+    fontsize=22
+  ];
+  node [
+    shape=box,
+    style="rounded,filled",
+    fontname="PingFang SC",
+    fontsize=12,
+    color="#40546B",
+    penwidth=1.2,
+    margin="0.16,0.10"
+  ];
+  edge [fontname="PingFang SC", fontsize=10, color="#61758A", arrowsize=0.75];
+
+  corpus [
+    label="全量英文语料\n21,215条评论\n138,314个句子/从句",
+    fillcolor="#E9F2FF",
+    color="#2F6FB3",
+    penwidth=1.7
+  ];
+
+  subgraph cluster_nrc {
+    label="固定基准：NRC 8";
+    fontname="PingFang SC";
+    fontsize=15;
+    color="#7DA4D6";
+    style="rounded,dashed";
+
+    nrc_method [
+      label="NRC情绪词典匹配\n类别预先固定，不发现新情绪",
+      fillcolor="#EDF5FF"
+    ];
+    nrc_scores [
+      label="每条评论的8个NRC分数\nanger · anticipation · disgust · fear\njoy · sadness · surprise · trust",
+      fillcolor="#DCEBFF"
+    ];
+    nrc_meaning [
+      label="分数含义\n词典证据/词频强度\n不是模型置信度，也不一定是主观强度",
+      fillcolor="#FFF7E6",
+      color="#C88A20"
+    ];
+    nrc_method -> nrc_scores -> nrc_meaning;
+  }
+
+  subgraph cluster_discovery {
+    label="全量数据驱动发现";
+    fontname="PingFang SC";
+    fontsize=15;
+    color="#77B89B";
+    style="rounded,dashed";
+
+    embedding [
+      label="BGE语义向量\nPCA → UMAP → HDBSCAN",
+      fillcolor="#EAF8F0"
+    ];
+    clusters [
+      label="92个语义簇\n包含情绪、Aspect、评价、人物、地点等",
+      fillcolor="#DDF3E7"
+    ];
+    cluster_scores [
+      label="聚类质量分数\nmembership probability = 片段归簇把握\nseed stability = 换随机种子后是否稳定",
+      fillcolor="#FFF7E6",
+      color="#C88A20"
+    ];
+    embedding -> clusters -> cluster_scores;
+  }
+
+  candidates [
+    shape=plain,
+    label=<
+      <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" CELLPADDING="8" COLOR="#8556A8">
+        <TR><TD BGCOLOR="#EEDFFC" COLSPAN="2"><B>聚类后解释出的候选 +3（尚未人工确认）</B></TD></TR>
+        <TR><TD BGCOLOR="#F8F0FF"><B>Scenic awe</B><BR/>景观敬畏</TD><TD BGCOLOR="#FFFFFF">NRC上位参照：surprise + joy</TD></TR>
+        <TR><TD BGCOLOR="#F8F0FF"><B>Flight apprehension</B><BR/>飞行忧惧</TD><TD BGCOLOR="#FFFFFF">NRC上位参照：fear + anticipation</TD></TR>
+        <TR><TD BGCOLOR="#F8F0FF"><B>Provider gratitude</B><BR/>服务提供者定向感激</TD><TD BGCOLOR="#FFFFFF">NRC上位参照：joy + trust</TD></TR>
+      </TABLE>
+    >
+  ];
+
+  validation [
+    label="人工语境编码与一致性验证\n确认：是否真是情绪、边界、误判和最终频次",
+    fillcolor="#F3EAFB",
+    color="#8556A8",
+    penwidth=1.6
+  ];
+
+  final_system [
+    label="最终多标签情绪体系\nNRC 8 + 经验证的领域细粒度情绪\n一条评论可以有0个、1个或多个标签",
+    fillcolor="#E8F7F1",
+    color="#28855D",
+    penwidth=1.7
+  ];
+
+  warning [
+    label="重要：不能把全部评论硬分成3类\n聚类置信度 ≠ 情绪强度\n候选证据量 ≠ 最终情绪出现次数",
+    fillcolor="#FFE9E9",
+    color="#C84A4A",
+    penwidth=1.6
+  ];
+
+  corpus -> nrc_method [label="基准分析"];
+  corpus -> embedding [label="无监督发现"];
+  clusters -> candidates [label="代表句 + 稳定性 + 人工/LLM解释", color="#8556A8"];
+  nrc_scores -> candidates [label="只作上位情绪参照", style=dashed, color="#8556A8"];
+  candidates -> validation -> final_system;
+  warning -> validation [style=dashed, arrowhead=none, color="#C84A4A"];
+}

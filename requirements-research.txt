@@ -2,6 +2,7 @@
 # NumPy stays below 2 because several plotting binaries on the project host use
 # the NumPy 1.x ABI.
 -r research_modules/module1_emotion_discovery/requirements.txt
+-r research_modules/emotion_lexicon_induction/requirements.txt
 openpyxl>=3.1,<4
 nltk>=3.8,<4
 jsonschema>=4.20,<5

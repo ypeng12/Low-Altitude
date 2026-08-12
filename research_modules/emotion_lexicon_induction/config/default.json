@@ -1,0 +1,55 @@
+{
+  "random_seed": 42,
+  "repository_root": "../../..",
+  "inputs": {
+    "canonical_reviews": "research_modules/canonical_pipeline_v2/outputs/canonical/canonical_reviews_v2.csv",
+    "review_tour_links": "research_modules/canonical_pipeline_v2/outputs/provenance/review_tour_links_v2.csv"
+  },
+  "output_dir": "research_modules/emotion_lexicon_induction/outputs",
+  "corpus": {
+    "language_status_column": "analysis_language_status",
+    "accepted_language_status": "english",
+    "text_field": "review_text",
+    "preserve_fields": [
+      "review_id",
+      "rating",
+      "review_title",
+      "review_text",
+      "published_date",
+      "legacy_tour_name",
+      "aircraft_type",
+      "review_word_count",
+      "language_iso",
+      "language_confidence",
+      "linked_tour_count"
+    ]
+  },
+  "sampling": {
+    "disjoint_stages": [
+      {"name": "discovery_500", "size": 500},
+      {"name": "gold_candidate_2000", "size": 2000}
+    ],
+    "balance_columns": ["rating", "primary_tour_id", "aircraft_type", "length_bin"],
+    "balance_strength_per_column": 0.35,
+    "maximum_relative_weight": 12.0,
+    "length_bin_edges": [0, 50, 100, 200, 1000000000]
+  },
+  "tokenization": {
+    "minimum_letters": 2,
+    "lemmatization_method": "lowercase_surface",
+    "eligible_coarse_pos": ["ADJ", "ADV", "NOUN", "VERB"],
+    "examples_per_word": 5,
+    "maximum_context_characters": 400,
+    "nltk_resources": [
+      "taggers/averaged_perceptron_tagger_eng",
+      "corpora/stopwords"
+    ]
+  },
+  "annotation": {
+    "instruction_version": "emotion-unigram-open-coding-v1",
+    "allowed_statuses": ["E1", "E2", "E3", "N", "U"],
+    "direct_emotion_status": "E1",
+    "require_exact_token": true,
+    "external_lexicons_forbidden_during_discovery": ["NRC", "VADER", "CATE", "GoEmotions"]
+  }
+}
