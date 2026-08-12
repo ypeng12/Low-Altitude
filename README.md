@@ -128,17 +128,34 @@ Following **Orea-Giner et al. (2022)**, emotion in tourism is not monolithic. We
 
 ## 🔬 Corpus-Derived Emotion Lexicon Codebook (500-Review Stage 1 Codebook)
 
-To avoid relying blindly on fixed external sentiment lexicons (e.g., NRC or VADER), this project implements a **corpus-derived emotion lexicon induction pipeline** tailored specifically for low-altitude air tourism. 
+To avoid relying blindly on fixed external sentiment lexicons (e.g., NRC or VADER), this project implements a **corpus-derived emotion lexicon induction pipeline** tailored specifically for low-altitude air tourism.
 
 ### Stage 1: 500-Review Open Discovery & Contextual Audit (Primary Codebook)
-- **Sampling**: Stratified random sample of 500 reviews ($N_{discovery}=500$, Seed 42), weighted by star ratings, air tour types, aircraft, and text length.
-- **Candidate Pool**: Extracted **3,605 unique candidate terms** (lemmas).
-- **Contextual Adjudication**: Executed sentence-by-sentence contextual auditing, strictly partitioning candidates into two clean outputs:
-  - **`clean_emotion_words_500_reviews.xlsx` / `.csv` (347 Pure Emotion Terms)**: Contains pure Experiencer States ($E_1$: *nervous*, *awe*, *secure*, *uncomfortable*, *grateful*) and Stimulus Appraisals ($E_2$: *scary*, *breathtaking*, *spectacular*, *smooth*), annotated with contextual Chinese translations (`chinese_translation`) and explicit affect types (`affect_type`).
-  - **`removed_non_emotion_words_from_500_reviews.csv` (3,258 Non-Emotion Terms)**: Validated negative audit log of neutral entities, physical attributes, spatial adverbs, non-emotion verbs, and structural noise (*silver*, *scattered*, *scientific*, *senior*, *sharp*, *together*, *choice*, *absolute*).
+- **Source Corpus**: `data/cleaned_datasets/tripadvisor_level3_english_v2.csv` (21,215 clean English reviews).
+- **Sampling Method**: Stratified random sampling ($N=500$, Seed 42), weighted by star ratings, air tour products, aircraft types, and review text lengths (`data/derived_outputs/stage_discovery_500/manifest_500_reviews.csv`).
+- **Initial Candidate Pool**: Extracted **3,605 unique candidate lemmas** from tokenization, POS tagging, and lemmatization.
+
+### 🔍 Sentence-Contextual Screening Logic & Adjudication Rules
+Every candidate term was evaluated **strictly within its exact review sentence (`example_context`)**, adhering to human-in-the-loop adjudication standards:
+
+#### ✅ RETAINED (Saved in `clean_emotion_words_500_reviews.xlsx` / `.csv` - 347 Words)
+1. **Experiencer Affective States ($E_1$)**: Direct internal emotional/psychological states felt by the tourist (*nervous*, *awe*, *secure*, *uncomfortable*, *grateful*, *happy*, *afraid*, *thrilled*, *sick*).
+2. **Stimulus / Service Appraisals ($E_2$)**: Subjective evaluations of air tour attributes (*scary*, *breathtaking*, *spectacular*, *smooth*, *professional*, *flawless*, *hostile*, *nerve-wracking*).
+3. **Polysemous Affect Terms ($E_1\_E_2$)**: Terms carrying both state and appraisal values depending on sentence context (*comfortable* - *"made us feel comfortable"* [$E_1$] vs *"comfortable air tour"* [$E_2$]).
+4. **Codebook Annotations**: Includes 100% contextual Chinese translations (`chinese_translation`) and explicit affect types (`affect_type`).
+
+#### ❌ PURGED (Moved to `removed_non_emotion_words_from_500_reviews.csv` - 3,258 Words)
+1. **Neutral Physical Objects, Colors & Nature**: *blue*, *silver*, *gold*, *tall*, *pine*, *gravel*, *water*, *canyon*, *helicopter*, *plane*.
+2. **Physical Verbs & Action Expressions**: *whooping*, *yelled*, *crying*, *screaming*, *smiling*, *wiping*, *writing*, *taxied*, *switched*, *flying*, *landing*.
+3. **Cognitive / Speculative Stance Words**: *wondered*, *wonder*, *wonders*, *think*, *thought*, *suspect*, *doubt*, *hesitate*, *assume*, *believe*, *guess*.
+4. **Neutral Structural Modifiers, Quantifiers & Adverbs**: *together* (physical seating), *choice* (option), *absolute* (degree), *quickly*, *world*, *custom*, *daily*, *whole*, *different*, *entire*, *due*, *however*, *old*, *later*, *possible*.
+5. **Contextually Non-Emotion Polysemes**: *interest* (*"points of interest"*), *shy* (*"one level shy of Heaven"*), *respect* (*"in every respect"*).
+
+### 📊 Mathematical Partition Completeness
+$$\text{Total 500 Candidates (3,605)} = \text{Clean Emotion Words (347)} + \text{Removed Non-Emotion Words (3,258)}$$
+$$\text{Clean} \cap \text{Removed} = 0 \quad (\text{Zero Overlap Guaranteed Partition})$$
 
 ### 🛠️ Python Execution & Reproducibility Scripts
-
 To run or reproduce the emotion lexicon discovery and induction pipeline, execute:
 
 ```bash
@@ -152,7 +169,10 @@ python3 research_modules/emotion_lexicon_induction/scripts/ingest_ai_responses.p
     --stage discovery_500
 ```
 
-*Outputs location*: `data/derived_outputs/clean_emotion_words_500_reviews.xlsx` and `data/derived_outputs/removed_non_emotion_words_from_500_reviews.csv`.
+*Outputs location*:
+- Stage 1 Directory: [data/derived_outputs/stage_discovery_500/](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_discovery_500/)
+- Primary Excel Codebook: [data/derived_outputs/clean_emotion_words_500_reviews.xlsx](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/clean_emotion_words_500_reviews.xlsx)
+- Purged Audit Log: [data/derived_outputs/removed_non_emotion_words_from_500_reviews.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_from_500_reviews.csv)
 
 ---
 
