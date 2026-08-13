@@ -39,6 +39,11 @@ review_bd821a97ad719aeeebde185a :: Bruce informed us there was some haze and che
 review_4af2d9822d8f9626565e416d :: Everything about the flight was even better than we had hoped.
 review_4af2d9822d8f9626565e416d :: We couldn’t have asked for a better adventure for our family.
 review_a49c3b4b417661efc807e243 :: Seeing the Napali coast by air turned out to be far better than by water, and having gracious, genuine hosts for our tour made it that much better."
+informative,引人入胜干货满满的,E2_Appraisal (Stimulus/Service Attribute),informative,ADJ,46,46,"review_353636e7a5b2962a9d433033 :: The flight was amazing, pilot Phillip was so nice and informative.
+review_7b8fca9fb1b20483fadf5af6 :: Capt Josh was very informative and ensured that we all engaged in an interactive conversation.
+review_f0ee2cd886f1308d732e265f :: Our pilot was great and very informative.
+review_1a40b7366c1df323a2059968 :: The tour had an audio component, which was just informative enough but not overdone.
+review_f1afb11c14a20df3c0e654e1 :: Tony's narration throughout the flight was very complete and informative."
 spectacular,壮观的 / 震撼的,E2_Appraisal (Stimulus/Service Attribute),spectacular,ADJ|ADV,38,35,"review_9876556ef47117a9c27fced8 :: On a clear day it is a pretty spectacular 30 minutes.
 review_606c51f8ee10965aa9c59bca :: The views and scenery were spectacular and the view to Mt McKinley was amazing.
 review_f1afb11c14a20df3c0e654e1 :: The Glacier landing was spectacular!
@@ -74,6 +79,11 @@ review_d780f91654b1c9f99a2a236a :: We so enjoyed doing some Christmas shopping i
 review_e4cd1a8f00e8148f6f1f053c :: I was a little nervous about going on a small plane, but once we got started I forgot all that and enjoyed the ride.
 review_e19f4508602ecbfcd0a59754 :: I really enjoyed the tour!
 review_993985c342753f81a2cd36de :: We totally enjoyed the kindness and trust in Bruce and Ellen."
+interesting,引人入胜的 / 趣味盎然的,E2_Appraisal (Stimulus/Service Attribute),interesting,ADJ,23,23,"review_291988db94de25fedef72be3 :: I cannot say enough about how fun and interesting this flight was to see so much of the island and to get such a detailed commentary from Kevin!
+review_b79c6cfcd7b2a3c981b7475b :: There was enough info to be interesting without being overbearing, so we could still enjoy the experience.
+review_7e2201b48b681475df75ef1a :: He told facts about the park as well as interesting historical facts.
+review_fd7ebcc7f5e93d96ece3c7ac :: He pointed out all the interesting features and had lots of great stories about the various sights and the old legends that went with them.
+review_e68e4472a8fa5075641e96df :: They had information about the plane printed up and it was interesting to find out about the history of the plane we were flying on."
 lovely,令人愉悦的 / 可爱的,E1_E2_Candidate,lovely,ADJ|ADV,20,17,"review_cbe4d099bc688920d0a3a2b9 :: My two sisters and I planned a lovely, activity filled Christmas in Kauai.
 review_3b2f354df3d8b44c9d34a54a :: We had a lovely time with Bruce.
 review_123bf9f58334923a62ba4371 :: Wings Over Kauai also gifts you with a lovely DVD as a thank you gift for taking their flight.
@@ -424,6 +434,9 @@ review_9709658ca472693848c0fd99 :: From my initial contact by phone to the perfe
 disappointing,令人失望的,E1_E2_Candidate,disappointing,ADJ,3,3,"review_b76e6c2bc278477c91d37c62 :: We made the best of a pretty disappointing and unexpectedly expensive situation, but we will not be trusting TripAdvisor descriptions in the future.
 review_0007fe1c2b3216a8645c4245 :: It was a cool experience - but a bit disappointing.
 review_5acad42fcb96595910c9a410 :: So disappointing when you travel far from home."
+entertaining,引人入胜生动有趣的,E2_Appraisal (Stimulus/Service Attribute),entertaining,ADJ,3,3,"review_df128e035c2e2f5109e3638c :: Our pilot was great and entertaining.
+review_52e0f8b0bee4c2cfdd50b4c3 :: Eric, the pilot, was quite entertaining.
+review_ed42ef9dc4fa813cfcacdfdb :: Our pilot Mark was phenomenal; very skilled in flying, knowledgeable on the geography of the Grand Canyon, and entertaining."
 enthusiastic,热情的 / 充满激情的,E1_E2_Candidate,enthusiastic,ADJ,3,3,"review_da8299d8fba78458a1318905 :: Everyone on this tour, from the pilot to the river guide to the bus driver who took us to our car at the end of the day, was enthusiastic and friendly.
 review_f636b160dcd5b8cb35245d33 :: Although he probably had done this in the morning he was enthusiastic as if we were his first party of the day.
 review_442bd14270e4cf874af0ab43 :: Taquan runs a great airline, they employ an enthusiastic and knowledgeable staff (including expert guides), and our safety was their priority from start to finish."
@@ -531,6 +544,8 @@ dream,梦寐以求的,E1_E2_Candidate,dream,NOUN,2,2,"review_7e2201b48b681475df7
 review_683e95f01306eac2d85eff49 :: It has always been my dream to take a flight seeing tour with a glacier landing and man-oh-man did K2 deliver!"
 easier,更容易的 / 更省心的,E1_E2_Candidate,easier,ADJ,2,2,"review_65d0a54805e601aa5a524fcc :: This makes shopping far more easier.
 review_8004c02b664a326a3d504152 :: The last one is the smallest but its easier to avoid the wings in your photos from that seat."
+educational,富有教育启发意义的,E2_Appraisal (Stimulus/Service Attribute),educational,ADJ,2,2,"review_b26468480071052891dda30e :: He hovered to allow us to take pictures and videos from several different angles and provided an educational narrative about the canyon.
+review_8a2e45237fce19ebec74d4f5 :: Bruce knows so much about the nature and history of the island owning to his scientific background in the field of agriculture, so the flight was just as educational as it was thrilling."
 energetic,精力充沛的,E1_E2_Candidate,energetic,ADJ,2,2,"review_b2bb2560cd98db474ce2cbd6 :: The pilot was energetic and offered tons of information about the island (I am always impressed when people can maintain a high level of energy, even though they probably do the same exact tour every day).
 review_ef54bc7bc3c4866c7f29937f :: Tour guide was energetic, informative and funny!"
 enthusiasm,热情 / 积极性,E1_E2_Candidate,enthusiasm,NOUN,2,2,"review_9a6426dc1c3d9f04489aec57 :: At the end of it all I was left with the impression that this company knows their stuff and is technically very good, but they did not show any level of enthusiasm for what they do.
