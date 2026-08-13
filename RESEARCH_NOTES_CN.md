@@ -305,36 +305,65 @@ python run_incongruence_econometrics.py
 - **校验输出 CSV**：[deep_research_audit_verification.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/deep_research_audit_verification.csv)
 
 
-### 📊 八、 NRC 情感词典套入对比实验、词根救回与 4 大归因审定 (N=630 个金标准词)
+
+### 📊 八、 NRC 情感词典套入对比实验、双层匹配代码逻辑与 4 大归因审定 (N=630 个金标准词)
 
 为实证验证本项目自建的**语料库推导金标准情感代码本**相较于传统通用词典（如 NRC Emotion Lexicon）的学术优越性，我们将 **630 个 Master 金标准情感实词** 全量套入 **NRC 词典**（Mohammad & Turney）进行映射与对比：
 
 ![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
 
-#### 🌲 Master 金标准情感代码本 ($N=630$) 在 NRC 中的结构分布：
+#### 🔬 双层匹配协议：原始字符串匹配 (Raw Match) vs. 词根归一化匹配 (Canonical Lemma Match)
 
-```text
-Master 金标准情感代码本 (全量 N = 630 个词)
-│
-├── 1️⃣ 开启词根归一化比对 (Lemma Normalized Match) ── 286 词 (45.40%) 【推荐使用！】
-│   │  (将复数、分词与错别字变体还原为字典词根后再比对，救回了 17 个真正具备 8 大情绪的词！)
-│   │
-│   ├── 1a. 在 8 大 Emotion 情绪分类里的词：286 个词 (45.40%)
-│   │       (如: beautiful, friendly, wonderful, happy, nervous, disappointed)
-│   │
-│   └── 1b. 只有 Positive / Negative 极性标记的词：72 个词 (11.43%)
-│           (如: worth, interesting, cool, calm, fortunate, grateful, pristine)
-│
-└── 2️⃣ 完全不在 NRC 词库里的词 (Completely Missed by NRC)：272 个词 (43.17%)
-    (如: great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
+在传统 NLP 处理流程中，如果不进行形态归一化直接用原始单词比对词典，会导致大量复数、过去分词与错别字变体被误判为“未识别”。我们设计了**双层匹配对照代码逻辑**：
+
+```python
+import pandas as pd
+from nrclex import NRCLex
+
+# 1. 加载 630 个 Master 金标准情感代码本
+df_gold = pd.read_csv("data/analyze/gold_emotion_master.csv")
+nrc_dict = NRCLex().__lexicon__
+NRC8 = {"anger", "anticipation", "disgust", "fear", "joy", "sadness", "surprise", "trust"}
+
+# 2. 原始字符串匹配 (Raw Exact String Match)
+raw_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
+
+# 3. 开启 canonical_lemma 词根归一化匹配 (Canonical Lemma Match)
+lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.canonical_lemma).lower().strip(), [])) & NRC8) > 0 or len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
 ```
+
+| 匹配协议维度 | NRC 8 大情绪匹配词数 | 仅正负极性词数 | 彻底遗漏词数 | 代码本总词数 | 方法论对比结论 |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **原始字符串匹配 (Raw Exact Match)** | 269 个词 (42.70%) | 72 个词 (11.43%) | 289 个词 (45.87%) | 630 个词 | 错别字、动词过去式与复数变体被误判为“未识别” |
+| **词根归一化匹配 (Canonical Lemma Match)** ⭐ | **286 个词 (45.40%)** | **72 个词 (11.43%)** | **272 个词 (43.17%)** | **630 个词** | **【推荐使用！】通过词根映射成功救回 17 个真实 8 大情绪词！** |
 
 $$\text{全量金标准代码本 (630)} = 286 \text{ (8大情绪)} + 72 \text{ (仅正负极性)} + 272 \text{ (都不在 NRC)}$$
 
 ---
 
 #### 💡 通过 `canonical_lemma` 词根归一化协议救回的 17 个核心情感词：
-通过建立 **`canonical_lemma` 词根归一化协议**，我们将 17 个复数变体、过去分词与错别字变体（如 *worries $\rightarrow$ worry*, *surprises $\rightarrow$ surprise*, *cherished $\rightarrow$ cherish*, *hates $\rightarrow$ hate*, *dreaded $\rightarrow$ dread*, *suprise $\rightarrow$ surprise*）成功还原映射回字典词根，把这 17 个原本会被原始字符串匹配漏掉的 8 大情绪标签完整救了回来！
+
+通过建立 **`canonical_lemma` 词根归一化协议**，我们将 17 个复数变体、过去分词与错别字变体成功还原映射回字典词根，把这 17 个原本会被原始字符串匹配漏掉的 8 大情绪标签完整救了回来：
+
+| 游客原始评论词 (`word`) | 归一化字典词根 (`canonical_lemma`) | 21,215 词频 | 被 NRC 提取出的真实 8 大情绪标签 | 为什么 Raw Match 会漏掉？ |
+| :--- | :--- | :---: | :--- | :--- |
+| **`worries`** | **`worry`** | 38 | `fear, anticipation, sadness` | NRC 原版只有单数 *worry*，复数 *-es* 漏掉了 |
+| **`surprises`** | **`surprise`** | 21 | `fear, joy, surprise` | NRC 原版只有单数 *surprise*，复数 *-s* 漏掉了 |
+| **`cherished`** | **`cherish`** | 8 | `trust, anticipation, joy, surprise` | NRC 只有原形 *cherish*，过去式 *-ed* 漏掉了 |
+| **`hates`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | 动词三单加 *-s* 漏掉了 |
+| **`hated`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | 动词过去式 *-ed* 漏掉了 |
+| **`marveled`** | **`marvel`** | 5 | `surprise` | 动词过去式 *-ed* 漏掉了 |
+| **`dreaded`** | **`dread`** | 4 | `fear, anticipation` | 分词形式 *-ed* 漏掉了 |
+| **`dreading`** | **`dread`** | 4 | `fear, anticipation` | 分词形式 *-ing* 漏掉了 |
+| **`scaring`** | **`scare`** | 3 | `anger, fear, anticipation, surprise` | 动词分词 *-ing* 漏掉了 |
+| **`horribly`** | **`horrible`** | 3 | `anger, fear, disgust` | 副词后缀 *-ly* 漏掉了 |
+| **`apprehensions`**| **`apprehension`** | 3 | `fear` | 名词复数 *-s* 漏掉了 |
+| **`suprise`** | **`surprise`** | 5 | `fear, joy, surprise` | 游客错别字变体 (漏打 r) |
+| **`suprised`** | **`surprised`** | 4 | `surprise` | 游客错别字变体 |
+| **`dissapointed`** | **`disappointed`** | 8 | `anger, disgust, sadness` | 游客错别字变体 |
+| **`aprehensive`** | **`apprehensive`** | 3 | `fear, anticipation` | 游客错别字变体 |
+| **`disappointingly`**| **`disappointed`**| 3 | `anger, disgust, sadness` | 副词衍生变体 |
+| **`lucked`** | **`lucky`** | 86 | `joy, surprise` | 动词化变体 |
 
 ---
 

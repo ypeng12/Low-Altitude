@@ -383,23 +383,65 @@ python run_analysis_and_plots.py
 ```
 
 
+
 ### 📊 7. NRC Lexicon Mapping & Comparative Audit ($N=630$ Words)
 
 To validate the theoretical superiority of our **Corpus-Derived Gold Emotion Lexicon** over generic off-the-shelf lexicons, we mapped all **630 Master Gold Emotion Terms** against the **NRC Emotion Lexicon** (Mohammad & Turney):
 
 ![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
 
-#### 🌲 Master Gold Emotion Codebook ($N=630$) NRC Structural Breakdown:
-- **Mapped to NRC 8-Emotion Categories**: **286 words (45.40%)** *(via Canonical Lemma Normalization, rescuing 17 inflected/typo words)*
-- **Mapped to Positive/Negative Polarity Only**: **72 words (11.43%)** *(e.g., worth, interesting, cool, calm, fortunate, pristine)*
-- **Completely MISSED by NRC Lexicon**: **272 words (43.17%)** *(Domain-specific low-altitude awe & high-frequency appraisals)*
+#### 🔬 Dual-Layer Matching Protocol: Raw Exact Match vs. Canonical Lemma Match
+
+In generic NLP pipelines, matching raw unnormalized words against static dictionaries leads to severe misclassification due to plurals, verb inflections, and typos. We compared **Raw String Matching** against our **Canonical Lemma Normalization Protocol**:
+
+```python
+import pandas as pd
+from nrclex import NRCLex
+
+# Load 630 Master Gold Emotion Codebook
+df_gold = pd.read_csv("data/analyze/gold_emotion_master.csv")
+nrc_dict = NRCLex().__lexicon__
+NRC8 = {"anger", "anticipation", "disgust", "fear", "joy", "sadness", "surprise", "trust"}
+
+# 1. Raw Exact String Match (Unnormalized)
+raw_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
+
+# 2. Canonical Lemma Match (Normalized via canonical_lemma)
+lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.canonical_lemma).lower().strip(), [])) & NRC8) > 0 or len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
+```
+
+| Matching Protocol | NRC 8-Emotion Match Count | Only Polarity Count | Completely Missed Count | Total Codebook Universe | Key Methodological Takeaway |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Raw Exact Match (Unnormalized)** | 269 words (42.70%) | 72 words (11.43%) | 289 words (45.87%) | 630 words | Plurals (-s), past participles (-ed), and typos are lost as "unmapped". |
+| **Canonical Lemma Match (Normalized)** ⭐ | **286 words (45.40%)** | **72 words (11.43%)** | **272 words (43.17%)** | **630 words** | **Rescues 17 true 8-emotion terms via lemma root mapping! (Recommended)** |
 
 $$\text{Total Master Gold Codebook (630)} = 286 \text{ (8-Emotions)} + 72 \text{ (Polarity Only)} + 272 \text{ (NRC Misses)}$$
 
 ---
 
-#### 💡 17 Rescued Words via Canonical Lemma Normalization Protocol:
-By instituting our **Canonical Lemma Normalization Protocol**, 17 inflected plurals, past participles, and typo variants were mapped back to their dictionary root lemmas (e.g., *worries $\rightarrow$ worry*, *surprises $\rightarrow$ surprise*, *cherished $\rightarrow$ cherish*, *hates $\rightarrow$ hate*, *dreaded $\rightarrow$ dread*, *suprise $\rightarrow$ surprise*), successfully recovering their 8-emotion tags that would otherwise be missed by raw exact string matching.
+#### 💡 17 Rescued Emotion Terms via Canonical Lemma Normalization
+
+By instituting our **Canonical Lemma Normalization Protocol**, 17 inflected plurals, past participles, and typo variants were mapped back to their dictionary root lemmas, successfully recovering their 8-emotion tags:
+
+| Raw Token in Review (`word`) | Normalized Root Lemma (`canonical_lemma`) | Review Freq ($N=21,215$) | Rescued NRC 8-Emotion Categories | Why Raw String Matching Failed |
+| :--- | :--- | :---: | :--- | :--- |
+| **`worries`** | **`worry`** | 38 | `fear, anticipation, sadness` | Raw NRC misses plural *-es* suffix |
+| **`surprises`** | **`surprise`** | 21 | `fear, joy, surprise` | Raw NRC misses plural *-s* suffix |
+| **`cherished`** | **`cherish`** | 8 | `trust, anticipation, joy, surprise` | Raw NRC misses past participle *-ed* |
+| **`hates`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | Raw NRC misses verb inflection *-s* |
+| **`hated`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | Raw NRC misses past tense *-ed* |
+| **`marveled`** | **`marvel`** | 5 | `surprise` | Raw NRC misses past tense *-ed* |
+| **`dreaded`** | **`dread`** | 4 | `fear, anticipation` | Raw NRC misses participle *-ed* |
+| **`dreading`** | **`dread`** | 4 | `fear, anticipation` | Raw NRC misses participle *-ing* |
+| **`scaring`** | **`scare`** | 3 | `anger, fear, anticipation, surprise` | Raw NRC misses participle *-ing* |
+| **`horribly`** | **`horrible`** | 3 | `anger, fear, disgust` | Raw NRC misses adverbial *-ly* |
+| **`apprehensions`** | **`apprehension`** | 3 | `fear` | Raw NRC misses noun plural *-s* |
+| **`suprise`** | **`surprise`** | 5 | `fear, joy, surprise` | Raw NRC misses typo variant (missing r) |
+| **`suprised`** | **`surprised`** | 4 | `surprise` | Raw NRC misses typo variant |
+| **`dissapointed`** | **`disappointed`** | 8 | `anger, disgust, sadness` | Raw NRC misses typo variant |
+| **`aprehensive`** | **`apprehensive`** | 3 | `fear, anticipation` | Raw NRC misses typo variant |
+| **`disappointingly`**| **`disappointed`** | 3 | `anger, disgust, sadness` | Raw NRC misses adverbial derivation |
+| **`lucked`** | **`lucky`** | 86 | `joy, surprise` | Raw NRC misses verbalized inflection |
 
 ---
 
