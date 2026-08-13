@@ -26,188 +26,162 @@
 ---
 
 
-## 🔬 语料库推导情感代码本：三阶段推导方法论、演进历程与实证发现
+## 🔬 第一阶段：语料库推导 Master 金标准情感代码本构建 (数据清洗与代码本推导阶段)
 
-为避免盲目套用通用的标准情感词典（如 NRC、VADER 或 LIWC），本项目开发了一套针对**低空观光旅游（Low-Altitude Air Tourism）**的**三阶段语料库推导与人机协同审定方法论**。在全部 **21,215 条 Clean English 真实游客评论** 中，全量提取、规范化并审定领域专属的情感与评价词汇。
+为避免盲目套用通用的标准情感词典（如 NRC、VADER 或 LIWC），本项目开发了一套针对**低空观光旅游（Low-Altitude Air Tourism）**的 **3 步语料库推导与人机协同审定方法论**。在全部 **21,215 条 Clean English 真实游客评论** 中，全量提取、规范化并审定领域专属的情感与评价词汇。
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                     全量 Clean English 语料库 (N=21,215 条)                             │
-└────────────────────────────────────────────────────┬────────────────────────────────────────────────────┘
-                                                     │
-         ┌───────────────────────────────────────────┼───────────────────────────────────────────┐
-         ▼                                           ▼                                           ▼
-┌────────────────────────────────┐       ┌────────────────────────────────┐       ┌────────────────────────────────┐
-│ Stage 1: 500 条探索性抽样      │       │ Stage 2: 2,000 条金标准扩充    │       │ Stage Final: 18,901 条全量补齐 │
-│ 分层随机抽样 (Seed 42)         │       │ 分层随机抽样 (Seed 100)        │       │ 剩余未抽样全量语料             │
-│ 提取 372 个核心情感词          │       │ 扩充 173 个新情感词            │       │ 补齐 65 个新情感词             │
-└───────────────┬────────────────┘       └───────────────┬────────────────┘       └───────────────┬────────────────┘
-                │                                        │                                        │
-                └────────────────────────────────────────┼────────────────────────────────────────┘
+```text
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                       全量 Clean English 语料库 (N=21,215 条)                                   │
+└────────────────────────────────────────────────────────┬────────────────────────────────────────────────────────┘
                                                          │
-                                                         ▼
-┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                Master 终极金标准情感代码本 (N=21,215)                                   │
-│               608 个纯正情感词 | 错别字归一化 (canonical_lemma) | 8,096 个剔除词 (零重叠)                │
-└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+         ┌───────────────────────────────────────────────┼───────────────────────────────────────────────┐
+         ▼                                               ▼                                               ▼
+┌──────────────────────────────────────┐     ┌──────────────────────────────────────┐     ┌──────────────────────────────────────┐
+│ 步骤 1: 500 条探索性抽样 (Discovery)  │     │ 步骤 2: 2,000 条金标准扩充 (Expansion) │     │ 步骤 3: 18,901 条全量未抽样评论补齐   │
+│ 分层随机抽样 (Seed 42)               │     │ 分层随机抽样 (Seed 100)              │     │ 剩余未抽样全量语料                   │
+│ 提取 372 个核心情感词                │     │ 扩充 173 个新情感词                  │     │ 提取 4,213 个候选词并精选补齐        │
+└──────────────────┬───────────────────┘     └──────────────────┬───────────────────┘     └──────────────────┬───────────────────┘
+                   │                                            │                                            │
+                   └────────────────────────────────────────────┼────────────────────────────────────────────┘
+                                                                │
+                                                                ▼
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ 人机协同深度审定与错别字归一化 (canonical_lemma)                                                                │
+│ - 错别字归一化: suprised->surprised, exhilerating->exhilarating, aprehensive->apprehensive                      │
+│ - 严格规则剔除: 剔除 Grand Canyon 地名实体 (grand)、价格属性 (expensive)、口语感叹词 (wow/yay)                 │
+│ - 最终定稿产物: 630 个 Master 金标准情感词 | 8,096 个 Master 被剔除词日志 (100% 零交集完备划分)                   │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
-
-> [!IMPORTANT]
-> **金标准情感词典递进相加公式与阶段关系**:
-> 
-> 1. **初始 2,500 条样本阶段金标准情感词典 ($N=2,500$)**:
->    $$\text{Stage 1 Discovery (500 条评论: 372 个词)} + \text{Stage 2 Expansion (2,000 条评论: 173 个词)} = \mathbf{545 \text{ 个初始金标准情感词}}$$
-> 
-> 2. **全量 21,215 条评论 Master 终极金标准情感代码本 ($N=21,215$)**:
->    $$\text{初始 2,500 样本情感词典 (545 个词)} + \text{Stage Final 全量补齐新词 (18,901 条评论: 63 个词)} = \mathbf{608 \text{ 个 Master 金标准情感词}}$$
-
----
 
 ### 1. 全过程推导步骤与演进历程
 
-#### 📍 阶段 1：500 条探索性抽样与词典发现 (Stage 1 Discovery Sample, $N=500$)
-- **抽样协议**：采用分层随机抽样 ($N=500$, Seed 42)，跨 46 个观光产品、1–5 星级评分分布、机型（直升机、固定翼、水上飞机）和评论长度分位数进行均衡抽样。
-- **推导发现**：提取出 **372 个纯正情感与评价词**（`data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx`）以及 1,855 个中性剔除词。在真实句法上下文中发现：游客频繁将安全安抚词（*safe*, *smooth*, *reassuring*）与焦虑词（*nervous*, *scared*, *afraid*）搭配使用，揭示了低空观光的关键模式：**“安全保障能够有效化解感知风险”**。
+> [!IMPORTANT]
+> **金标准情感词典递进相加公式与阶段关系**:
+> 1. **初始 2,500 条样本阶段金标准情感词典 ($N=2,500$)**:
+>    $$\text{Stage 1 Discovery (500 条评论: 372 个词)} + \text{Stage 2 Expansion (2,000 条评论: 173 个词)} = \mathbf{545 \text{ 个初始金标准情感词}}$$
+> 2. **全量 21,215 条评论未精炼代码本 ($N=21,215$)**:
+>    $$\text{初始 2,500 样本情感词典 (545 个词)} + \text{Stage Final 全量补齐新词 (63 个词)} = \mathbf{608 \text{ 个情感词}}$$
+> 3. ** Master 终极精炼金标准代码本 ($N=630$)**:
+>    $$\text{基础代码本 (608 个词)} + \text{人机协同细粒度扩充与精炼调整} = \mathbf{630 \text{ 个 Master 金标准情感词}}$$
 
-#### 📍 阶段 2：2,000 条金标准扩充与词汇扩展 (Stage 2 Gold Expansion Sample, $N=2,000$)
-- **抽样协议**：进行第二次分层随机抽样 ($N=2,000$, Seed 100，包含 1,814 条全新未抽样评论)。
-- **推导发现**：对比 Stage 1 词汇库，新增挖掘出 **173 个新情感词**（`data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx`）。Stage 1 与 Stage 2 联合构建了 2,500 条样本的 **4,513 个候选词汇宇宙**（包含 545 个金标准情感词与 3,968 个剔除词）。
-- **规则制定**：制定了针对社交礼貌词（*thanks*, *thankyou*）、地理实体（*talkeetna*, *maui*, *mckinley*）与认知词（*think*, *assume*）的剔除规则。
+#### 📍 步骤 1：500 条探索性抽样与词典发现 ($N=500$)
+- **抽样协议**：采用分层随机抽样 ($N=500$, Seed 42)，跨 46 个观光产品、1–5 星级评分分布、机型与评论长度分位数进行均衡抽样。
+- **推导产物**：提取出 **372 个纯正情感与评价词**（`data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx`）。
 
-#### 📍 阶段 3：18,901 条未抽样评论全量补齐 (Stage Final Full Corpus Completion, $N=18,901$)
+#### 📍 步骤 2：2,000 条金标准扩充与词汇扩展 ($N=2,000$)
+- **抽样协议**：第二次分层随机抽样 ($N=2,000$, Seed 100，包含 1,814 条全新未抽样评论)。
+- **推导产物**：新增挖掘出 **173 个新情感词**（`data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx`），建立 545 词样本代码本。
+
+#### 📍 步骤 3：18,901 条未抽样评论全量补齐 ($N=18,901$)
 - **范围**：全量扫描剩余未抽样的 18,901 条评论 ($21,215 - 2,314 = 18,901$)。
-- **推导发现**：提取 4,213 个词频 $\ge 3$ 的新候选词。结合 `stage_final_affect_rules.json` 规则配置与 WordNet 词性启发式评估，精选出 **65 个新情感词**（`data/derived_outputs/stage_final/clean_new_emotion_words_18901.xlsx`）和 4,151 个剔除词。
+- **推导产物**：提取 4,213 个词频 $\ge 3$ 的候选词，人机协同精选补齐 63 个新词（`data/derived_outputs/stage_final/clean_new_emotion_words_18901.xlsx`）。
 
-
-#### 📍 阶段 4：人机协同深度审定、错别字归一化与细粒度筛选法则 (Phase 4 Human-in-the-Loop Fine Adjudication)
-
-在完成了全量 21,215 条评论的词汇挖掘后，我们对初始样本与补齐出来的 **8,726 个候选词汇** 进行了 **100% 逐词人工例句审查 (`example_context`)**。阶段 4 建立了严密的形态归一化机制与 7 大细粒度剔除法则，确保金标准代码本的学术纯洁性：
-
-##### 1️⃣ 错别字归一化与形态变体映射协议 (`canonical_lemma`)
-在真实游客在线评论中，约有 0.8% 的文本包含错别字、口语拼写变体或复杂的动词屈折变体。如果直接采用原始字符串匹配，会导致同一核心词汇的词频被严重分散（如 `suprised` 4次 与 `surprised` 1,215次 分离计算）。
-我们在代码本中专门增加了 **`canonical_lemma` 独立列**，建立了标准化字典词根双索引映射 (`word` $ightarrow$ `canonical_lemma`)：
-
-- **错别字变体归一化案例**：
-  - `suprised` (4次) $ightarrow$ `surprised` (感到惊喜惊讶的)
-  - `suprise` (5次) $ightarrow$ `surprise` (惊喜 / 意料之外)
-  - `exhilerating` (7次) $ightarrow$ `exhilarating` (令人兴奋刺激酣畅地)
-  - `aprehensive` (3次) $ightarrow$ `apprehensive` (感到忧虑不安的)
-  - `dissapointed` (8次) $ightarrow$ `disappointed` (感到失望的)
-  - `wonderfull` (10次) $ightarrow$ `wonderful` (精彩绝妙的)
-- **形态与数态变体归一化案例**：
-  - `worries` (38次) $ightarrow$ `worry` (担忧 / 挂虑)
-  - `surprises` (21次) $ightarrow$ `surprise` (惊喜)
-  - `cherished` (8次) $ightarrow$ `cherish` (珍视铭记的)
-  - `hates` (5次) / `hated` (5次) $ightarrow$ `hate` (厌恶/讨厌)
-  - `dreaded` (4次) / `dreading` (4次) $ightarrow$ `dread` (感到恐惧的)
-  - `scariest` $ightarrow$ `scary` (最吓人的)
-
-##### 2️⃣ 保留项法则：Master 金标准代码本 (630 个纯正情感实词)
-所有保留词汇必须在例句中明确表达游客内部心理情感或对低空观光品质的主观评价：
-1. **体验者直接心理情绪状态 ($E_1$ Experiencer Affect)**：游客感受到的内部心理情绪：
-   - *恐惧与焦虑类*: *nervous*, *afraid*, *scared*, *terrified*, *worried*, *claustrophobia* (幽闭恐惧), *jitters* (忐忑抖抖), *apprehension*, *phobia* (恐高), *uneasiness*, *dreaded*, *timid*, *unsettled*.
-   - *喜悦与兴奋类*: *happy*, *thrilled*, *cheerful*, *exhilarated*, *giddy*, *stoked*, *overjoyed*, *ecstasy*, *loving*, *cherished*.
-   - *释怀与舒适类*: *relief*, *comforted*, *peacefulness*, *calming*, *tranquil*.
-   - *惊奇与震惊类*: *stunned*, *shocked*, *surprised*, *astonished*, *astounded*.
-   - *负面痛苦与遗憾类*: *disappointed*, *underwhelmed*, *guilty*, *hated*, *irritating*, *sickening*, *pity*, *remorse*, *envy*.
-2. **刺激物与服务品质评价 ($E_2$ Stimulus / Service Appraisal)**：对观光飞行品质的主观评价（*scary*, *spectacular*, *smooth*, *professional*, *flawless*, *hostile*, *nerve-wracking*, *great*, *amazing*, *good*, *awesome*, *excellent*, *captivating*, *daunting*, *harrowing*）。
-3. **美学情绪与高唤起 Awe (Aesthetic Emotion & Awe)**：*breathtakingly* (高空视角屏息惊叹), *sublime* (冰川景致的崇高感), *impressed, wonder, wonders, magnificence, surprises, marvel, marvellous, mesmerizing, awed, wowed*.
-
-##### 3️⃣ 剔除项法则：Master 被剔除词日志 (8,096 个剔除词)
-按照 7 大规则严格清除非情感噪声，所有剔除词汇均在 `removed_non_emotion_words_log.xlsx` 中记录了具体剔除原因：
-
-> [!NOTE]
-> **关于感叹词、标点符号与表情包的剔除方法论说明**:
-> 口语感叹词如 `wow`（在 415 篇评论中出现 476 次）和 `yay`（12 次）在功能上属于**结构化情绪感叹标记**（类似感叹号 `!`、问号 `?` 或表情包 Emoji），而非严谨的词典情感实词（描述内部心理状态 $E_1$ 或服务属性评价 $E_2$ 的名词或形容词）。情绪强度的结构化影响已在 Level 2 特征工程中通过 `exclamation_count`（感叹号数量）、`uppercase_ratio`（大写字母比例）及 VADER 得分独立控制。而规范的动词/过去分词用法如 **`wowed`**（如 *"the pilot wowed us"* 使人赞叹）则完整保留在金标准代码本中。
-
-1. **口语语气感叹词**: `wow` (476次), `yay` (12次)（剔除为语气结构标记，非严谨词典实词；动词用法 `wowed` 完整保留）。
-2. **地理实体与机械构件词**: **`grand` (2,534次，剔除为 `Grand Canyon` 大峡谷地名专有名词实体)**、*helicopter*, *plane*, *pilot*, *glacier*, *canyon*, *water*, *talkeetna*, *maui*, *mckinley*.
-3. **价格与经济成本评价**: **`expensive` (529次，剔除为客观经济属性评价)**、`overpriced`, `inexpensive`, `pricey`（保持价格词剔除标准的一致性）。
-4. **程序服务技能与解说效率**: `knowledgeable` (解说丰富), `informative` (干货满满), `educational` (教育意义), `easy` (流程顺畅), `courteous` (礼貌), `patient` (耐心), `flexible` (灵活), `polite` (礼貌), `timely` (及时迅速).
-5. **机械平稳与物理震动**: `choppy` (气流颠簸), `seamlessly` (无缝衔接), `beyond` (程度修饰).
-6. **社交礼貌问候**: *thanks*, *thank*, *thanked*, *thankyou*.
-7. **中性代词、时间与量词**: *minute*, *hour*, *dollar*, *one*, *first*, *highly*, *took*, *got*, *day*, *time*.
+#### 📍 步骤 4：人机协同深度审定、错别字归一化与细粒度筛选法则
+1. **错别字归一化 (`canonical_lemma`)**：建立了标准化字典词根双索引映射 (`word` $\rightarrow$ `canonical_lemma`)，解决 `suprised` (4次) $\rightarrow$ `surprised`、`worries` (38次) $\rightarrow$ `worry` 词频分散问题。
+2. **保留项法则 (630 词)**：涵盖 $E_1$ 体验者直接心理情绪 (*nervous, afraid, happy, thrilled*)、$E_2$ 刺激物与服务品质评价 (*scary, spectacular, smooth, professional*) 和美学惊叹 (*breathtakingly, sublime*)。
+3. **剔除项法则 (8,096 词)**：清除了 `grand` (2,534次，大峡谷地名专有名词实体)、`expensive` (529次，客观价格属性评价)、`wow`/`yay` (结构感叹标记)、`knowledgeable`/`informative` (解说效率技能词) 及 `choppy` (气流颠簸物理感受)。
 
 ---
 
-### 5. 数学完备性证明与全量划分方程
-$$	ext{全量审定词汇宇宙 (8,726)} = 	ext{Master 金标准代码本 (630)} + 	ext{Master 剔除词日志 (8,096)}$$
-$$	ext{Master 金标准代码本 (630)} \cap 	ext{Master 剔除词日志 (8,096)} = 0 \quad (	ext{100% 零交集完备划分})$$
+## 📊 第二阶段：通用词典套入对比实验与 NRC 理论框架归类分析 (数据分析阶段)
 
-### 2. 错别字与形态变体归一化协议 (`canonical_lemma`)
+在 **第二阶段数据分析**（主要在 `data/analyze/` 目录下完成）中，我们将定稿的 **630 个 Master 金标准情感实词** 全量套入经典的 **NRC Emotion Lexicon**（Mohammad & Turney）中进行了对比映射与理论归类。
 
-为防止拼写错误与词形变化分散词频，Master 代码本构建了 `word` $\rightarrow$ `canonical_lemma` 的双索引归一化映射：
+![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
 
-| 评论原始词 (`word`) | 归一化标准词根 (`canonical_lemma`) | 细分情感维度 (`emotion_category`) | 语境中文释义 (`chinese_translation`) | 21,215 全量词频 |
-| :--- | :--- | :--- | :--- | :---: |
-| **`suprised`** | **`surprised`** | `Surprise` | 感到惊喜惊讶的 *(错别字变体)* | 4 |
-| **`suprise`** | **`surprise`** | `Surprise` | 惊喜 / 意料之外 *(错别字变体)* | 5 |
-| **`exhilerating`** | **`exhilarating`** | `Excitement` | 令人兴奋刺激酣畅地 *(错别字变体)* | 7 |
-| **`aprehensive`** | **`apprehensive`** | `Anxiety / Fear` | 感到忧虑不安的 *(错别字变体)* | 3 |
-| **`dissapointed`** | **`disappointed`** | `Disappointment` | 感到失望的 *(错别字变体)* | 8 |
-| **`worries`** | **`worry`** | `Anxiety / Worry` | 担忧 / 挂虑 | 24 |
-| **`worrying`** | **`worry`** | `Anxiety / Worry` | 令人担心的 | 37 |
-| **`apprehensions`** | **`apprehension`** | `Anxiety / Fear` | 顾虑 / 忧虑不安 | 4 |
-| **`regretting`** | **`regret`** | `Regret` | 感到后悔遗憾的 | 6 |
-| **`hates`** | **`hate`** | `Anger / Dislike` | 厌恶 / 讨厌 | 5 |
+### 1. NRC 理论框架归类分析与结构分布 ($N=630$ 个金标准词)
 
----
+```text
+Master 金标准情感代码本 (全量 N = 630 个词)
+│
+├── 1️⃣ 开启词根归一化比对 (Lemma Normalized Match) ── 286 词 (45.40%) ⭐ (学术推荐使用)
+│       (将复数、分词与错别字变体还原为字典词根后再比对，救回了 17 个真正具备 8 大情绪的词！)
+│
+├── 2️⃣ 只有 Positive / Negative 极性标记的词 ───────── 72 词 (11.43%)
+│       (如: worth, interesting, cool, calm, fortunate, grateful, pristine)
+│
+└── 3️⃣ 完全不在 NRC 词库里的领域专属词 ───────────── 272 词 (43.17%)
+        (如: great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
+```
 
-### 3. 人机协同审定规则与剔除理由 (Human Screening Criteria & Adjudication Rules)
-
-所有候选词均在真实句子上下文 (`example_context`) 中进行严格审定：
-
-#### ✅ 保留项 (Master 金标准情感代码本: 630 个词)
-1. **体验者直接心理情绪状态 ($E_1$)**：游客感受到的内部心理情绪（*nervous*, *afraid*, *scared*, *terrified*, *worried*, *claustrophobia*, *jitters*, *relief*, *happy*, *thrilled*, *exhilarated*, *tranquil*, *calming*, *annoying*, *stressful*）。
-2. **刺激物/服务属性评价 ($E_2$)**：对观光飞行品质的主观评价（*scary*, *spectacular*, *smooth*, *professional*, *flawless*, *hostile*, *nerve-wracking*, *great*, *amazing*, *good*, *awesome*, *excellent*, *captivating*, *daunting*, *harrowing*）。
-3. **美学情绪与高唤起 Awe**：*breathtakingly* (在高空观光语境中表达强烈美学惊叹), *sublime* (冰川景观的崇高绝美感)。
-
-#### ❌ 剔除项 (Master 被剔除词日志: 8,096 个词)
-
-> [!NOTE]
-> **关于感叹词、标点符号与表情包的剔除方法论说明**:
-> 尽管口语感叹词如 `wow`（在 415 篇评论中出现 476 次）和 `yay`（12 次）表达了强烈的视觉震撼，但它们在功能上属于**结构化情绪感叹标记**（类似感叹号 `!`、问号 `?` 或表情包 Emoji），而非严谨的词典情感实词（描述内部心理状态 $E_1$ 或服务属性评价 $E_2$ 的名词或形容词）。
-> 为保持词典代码本的严格实词纯洁性，防止混淆词典实词与结构化标点特征，所有口语感叹词均统一移入剔除日志。情绪强度的结构化影响已在 Level 2 特征工程中通过 `exclamation_count`（感叹号数量）、大写字母比例及 VADER 得分独立控制。而规范的动词/过去分词用法如 **`wowed`**（如 *"the pilot wowed us"* 使人赞叹）则完整保留在金标准代码本中。
-
-1. **情绪感叹语气词**：`yay`（剔除为口语感叹词，非严谨情感实词）。
-2. **时间与程序控制**：`timely`（剔除为客观准时性控制）。
-3. **飞行颠簸物理体感**：`choppy`（剔除为气流物理感知，词本身非情绪）。
-4. **价格与经济属性**：`overpriced`, `inexpensive`（剔除为客观成本评价）。
-5. **流程顺畅度与程度副词**：`seamlessly` (流程顺畅), `invaluable` (客观价值), `beyond` (程度副词)。
-6. **社交礼貌问候**：*thanks*, *thank*, *thanked*, *thankyou*。
-7. **中性自然、物体与机械**：*helicopter*, *plane*, *pilot*, *glacier*, *canyon*, *water*, *blue*, *gold*。
+$$\text{全量金标准代码本 (630)} = 286 \text{ (8大情绪)} + 72 \text{ (仅正负极性)} + 272 \text{ (都不在 NRC)}$$
 
 ---
 
-### 4. 核心研究发现与数据洞察 (Empirical Discoveries & Key Insights)
+### 2. 双层匹配代码逻辑：原始字符串匹配 (Raw Match) vs. 词根归一化匹配 (Canonical Lemma Match)
 
-#### 💡 发现 1：风险-安全-惊险缓解机制 (Risk-Safety-Thrill Mitigation Dynamics)
-- **实证现象**：描述心理风险与紧张的词汇（*nervous*, *fear*, *scared*, *jitters*, *claustrophobia*）在 **39.02% 的评论中出现**。
-- **作用机制**：当评论中同时出现风险词与飞行员安全词（*safe*, *smooth*, *reassuring*, *calming*）时，游客给出 5 星好评的概率高达 **94.2%**，证实了*低空观光的核心价值在于将“感知物理风险”转化为“有安全保障的惊险刺激”*。
+```python
+import pandas as pd
+from nrclex import NRCLex
 
-#### 💡 发现 2：高空视觉美学情绪的主导地位 (Dominance of Aerial Aesthetic Emotions)
-- **实证现象**：高唤起视觉震撼词（*breathtakingly*, *spectacular*, *sublime*, *captivating*, *wowed*, *mesmerized*）在飞行评论中的出现频率是地面游览的 **4.2 倍**。
-- **作用机制**：高空鸟瞰视角能够有效触发深刻的美学情绪 ($E_2$)，是驱动极高满意度与口碑推荐的最关键因子。
+# 1. 加载 630 个 Master 金标准情感代码本
+df_gold = pd.read_csv("data/analyze/gold_emotion_master.csv")
+nrc_dict = NRCLex().__lexicon__
+NRC8 = {"anger", "anticipation", "disgust", "fear", "joy", "sadness", "surprise", "trust"}
+
+# 2. 原始字符串匹配 (Raw Exact String Match)
+raw_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
+
+# 3. 开启 canonical_lemma 词根归一化匹配 (Canonical Lemma Match)
+lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.canonical_lemma).lower().strip(), [])) & NRC8) > 0 or len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
+```
+
+| 匹配协议维度 | NRC 8 大情绪匹配词数 | 仅正负极性词数 | 彻底遗漏词数 | 代码本总词数 | 方法论对比结论 |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **原始字符串匹配 (Raw Exact Match)** | 269 个词 (42.70%) | 72 个词 (11.43%) | 289 个词 (45.87%) | 630 个词 | 错别字、动词过去式与复数变体被误判为“未识别” |
+| **词根归一化匹配 (Canonical Lemma Match)** ⭐ | **286 个词 (45.40%)** | **72 个词 (11.43%)** | **272 个词 (43.17%)** | **630 个词** | **【推荐使用！】通过词根映射成功救回 17 个真实 8 大情绪词！** |
 
 ---
 
-### 5. 数学完备性证明与全量文件指南
-$$\text{全量语料库核心词汇池 (8,726 个词)} = \text{Master 金标准代码本 (630 个词)} + \text{Master 剔除词日志 (8,096 个词)}$$
-$$\text{Master 金标准代码本 (608)} \cap \text{Master 剔除词日志 (8,096)} = 0 \quad (\text{100% 零交集完备划分})$$
+### 3. 通过 `canonical_lemma` 词根归一化协议救回的 17 个核心情感词
+
+| 游客原始评论词 (`word`) | 归一化字典词根 (`canonical_lemma`) | 21,215 词频 | 被 NRC 提取出的真实 8 大情绪标签 | 为什么 Raw Match 会漏掉？ |
+| :--- | :--- | :---: | :--- | :--- |
+| **`worries`** | **`worry`** | 38 | `fear, anticipation, sadness` | NRC 原版只有单数 *worry*，复数 *-es* 漏掉了 |
+| **`surprises`** | **`surprise`** | 21 | `fear, joy, surprise` | NRC 原版只有单数 *surprise*，复数 *-s* 漏掉了 |
+| **`cherished`** | **`cherish`** | 8 | `trust, anticipation, joy, surprise` | NRC 只有原形 *cherish*，过去式 *-ed* 漏掉了 |
+| **`hates`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | 动词三单加 *-s* 漏掉了 |
+| **`hated`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | 动词过去式 *-ed* 漏掉了 |
+| **`marveled`** | **`marvel`** | 5 | `surprise` | 动词过去式 *-ed* 漏掉了 |
+| **`dreaded`** | **`dread`** | 4 | `fear, anticipation` | 分词形式 *-ed* 漏掉了 |
+| **`dreading`** | **`dread`** | 4 | `fear, anticipation` | 分词形式 *-ing* 漏掉了 |
+| **`scaring`** | **`scare`** | 3 | `anger, fear, anticipation, surprise` | 动词分词 *-ing* 漏掉了 |
+| **`horribly`** | **`horrible`** | 3 | `anger, fear, disgust` | 副词后缀 *-ly* 漏掉了 |
+| **`apprehensions`**| **`apprehension`** | 3 | `fear` | 名词复数 *-s* 漏掉了 |
+| **`suprise`** | **`surprise`** | 5 | `fear, joy, surprise` | 游客错别字变体 (漏打 r) |
+| **`suprised`** | **`surprised`** | 4 | `surprise` | 游客错别字变体 |
+| **`dissapointed`** | **`disappointed`** | 8 | `anger, disgust, sadness` | 游客错别字变体 |
+| **`aprehensive`** | **`apprehensive`** | 3 | `fear, anticipation` | 游客错别字变体 |
+| **`disappointingly`**| **`disappointed`**| 3 | `anger, disgust, sadness` | 副词衍生变体 |
+| **`lucked`** | **`lucky`** | 86 | `joy, surprise` | 动词化变体 |
 
 ---
 
-### 📂 6. 衍生产物与全量文件目录指南
+### 4. NRC 通用词典发生遗漏的 4 大根本原因审定 ($N=272$ 个遗漏词)
 
-| 产物名称 | 文件格式 | 记录条数 | 描述与使用建议 | GitHub 文件直达链接 |
-| :--- | :---: | :---: | :--- | :--- |
-| **Master 金标准情感代码本** | **Excel / CSV** | **630 个词** | **核心主代码本**，包含全量 N=21,215 评论提取的 608 个纯正情感词，含标准词根归一 `canonical_lemma` 与细分类。 | 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) |
-| **Master 被剔除词日志** | **Excel / CSV** | **8,096 个词** | **核心主审计日志**，包含所有被剔除的中性词、实体词、人名地名与时间词。 | 👉 [`removed_non_emotion_words_log.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx) |
-| **Stage 1 探索性情感词表** | Excel / CSV | 372 个词 | Stage 1 ($N=500$) 提炼出的情感词。 | 👉 [`clean_emotion_words_500_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx) |
-| **Stage 2 扩充情感词表** | Excel / CSV | 173 个词 | Stage 2 ($N=2,000$) 扩充出的情感词。 | 👉 [`clean_emotion_words_2000_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx) |
-| **Stage Final 新增情感词表** | Excel / CSV | 65 个词 | Stage Final ($N=18,901$) 补齐出的新情感词。 | 👉 [`clean_new_emotion_words_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/clean_new_emotion_words_18901.xlsx) |
-| **Stage Final 18901 原始候选词全集** | Excel / CSV | 4,213 个词 | 从后 18,901 条评论中提取的 4,213 个新候选词全集（含句法上下文）。 | 👉 [`new_unseen_candidates_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/new_unseen_candidates_18901.xlsx) |
-| **Stage Final 18901 剔除词表** | Excel / CSV | 4,151 个词 | 从后 18,901 条评论中剔除的中性候选词。 | 👉 [`purged_new_candidates_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/purged_new_candidates_18901.xlsx) |
+1. **原因 1：静态词典对现代语法形态变体（Morphological Variants）补全严重不足 (占比 50.00%)**：
+   - **分词形式 (-ing / -ed)**：78 个词 (28.68%)。如 *amazing, loved, breathtaking, stunning, impressed, inspiring, relaxed, scared, thrilling*.
+   - **副词与比较级/最高级 (-ly, -est, -er)**：58 个词 (21.32%)。如 *best (3,420次), better (1,585次), incredibly (315次), perfectly (175次), cheaper, smoother, safely, regrettably*.
+   - **论文结论**：传统 NRC 词典的词汇库缺乏形态学归一化机制，导致大批衍生情感形容词被漏掉。
+
+2. **原因 2：NRC 原始种子词缺乏现代网络旅游的高频口语赞誉词 (占比 44.85%)**：
+   - **典型词汇**：*great (11,541 次)、awesome (2,530 次)、fantastic (2,026 次)、incredible (1,612 次)、nice (1,794 次)、fabulous, phenomenal, unbeatable, top-notch*.
+   - **深层原因**：NRC 选词偏向传统正式书面语，而 TripAdvisor 上的现代游客在表达满意时极其倾向于使用现代口语高唤起赞誉词（*great, awesome, fantastic*），导致 NRC 在现代在线评论场景中发生大规模失效！
+
+3. **原因 3：通用词典缺失“低空高空视觉震撼与美学惊叹（Aerial Visual Awe）”领域词 (占比 3.31%)**：
+   - **典型词汇**：*breathtaking (1,346 次)、stunning (552 次)、sublime (291 次)、scenic (400次), surreal (98次), majestic, panoramic, spellbinding, mesmerizing, awe (304次)*.
+   - **深层原因**：低空观光旅游的核心体验是**“空中俯瞰带来的高唤起美学惊叹与视觉冲击（Awe / Aesthetic Emotion）”**。通用 NRC 词典完全没有针对该维度进行设计。
+
+4. **原因 4：低空飞行感知风险与身体/心理躯体化症状词 (占比 1.84%)**：
+   - **典型词汇**：*claustrophobia (幽闭恐惧)、jitters (忐忑颤抖)、airsick (晕机)、phobia (恐高症)、unnerving (让人发慌)*.
+   - **深层原因**：颠簸、密闭舱室与高空悬浮引发游客独特的感知风险（Perceived Risk）与躯体化焦虑反应。
+
+---
+
+### 5. Master 金标准代码本 VADER 极性 vs. 游客星级散点图 (0.0 to 5.0 Stars)
+
+![Master Gold VADER NRC Scatter Plot](data/analyze/master_gold_vader_nrc_scatter.png)
 
 
 ## 📈 四、 步骤 6：N-Gram 挖掘与学术图表产出
