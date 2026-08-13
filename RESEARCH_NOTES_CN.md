@@ -260,10 +260,11 @@ $$\text{全量金标准代码本 (630)} = 358 \text{ (NRC 收录总数)} + 272 \
 
 为了保证学术分类的严谨性，全量 **272 个遗漏词** 被划分为 4 个**互斥零重叠（Mutually Exclusive）**的归因维度：
 
-1. **归因 1：纯粹语法形态与分词变体补全严重不足 (Morphological Variants)**：
+1. **归因 1：纯粹语法形态与分词变体补全不足 (Morphological Variants)**：
    - **分词形式 (-ing / -ed)**：如 *loved (1,473次), impressed (255次), inspiring (210次), relaxed (159次), scared (144次), amazed (120次), thrilled (113次), reassuring (97次)*。
    - **副词与比较级/最高级 (-ly, -est, -er)**：如 *better (1,585次), cheaper (208次), perfectly (155次), smoother (143次), safely (132次), smoothest (105次), luckily (96次)*。
-   - **论文结论**：传统 NRC 词典的词汇库缺乏形态学归一化机制，导致大批衍生情感形容词被漏掉。
+   - **词根验证与实证发现**：在 127 个纯形态变体词中，**48.82%（62 个词）的底层词根（如 *amaze, love, impress, inspire, scare, thrill, good, safe*）实际上在 NRC 词典中已有收录**。然而，由于传统静态匹配缺乏形态学还原规则，导致评论语料中 **88.7%（累计 15,581 次）的高频情感提及未能被有效匹配捕捉**。
+   - **论文学术结论**：传统 NRC 词典缺乏形态学归一化机制（Morphological Normalization），引发了显著的词汇提取偏误。本项目引入的 `canonical_lemma` 词根映射协议成功弥合了这一形态学断层。
 
 2. **归因 2：NRC 原始种子词缺乏现代网络旅游的高频口语赞誉词**：
    - **典型词汇**：*great (11,541 次)、awesome (2,530 次)、fantastic (2,026 次)、incredible (1,612 次)、nice (1,794 次)、incredibly (315次)、fabulous, phenomenal, unbeatable, top-notch*.
