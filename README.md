@@ -11,7 +11,8 @@ An end-to-end NLP and econometric research pipeline analyzing **21,215 canonical
 
 ## 🌟 Key Research Contributions
 
-- **Cleaned & Deduplicated Corpus**: Filtered 28,918 raw reviews down to **22,235 deduplicated master reviews** ($N=21,238$ language-detected English reviews $ightarrow$ **21,215 canonical English reviews** after final validation).
+- **Cleaned & Deduplicated Corpus**: Filtered 28,918 raw reviews down to **22,235 deduplicated master reviews** ($N=21,238$ language-detected English reviews $
+ightarrow$ **21,215 canonical English reviews** after final validation).
 - **Corpus-Derived Gold Emotion Lexicon ($N=630$)**: Constructed a 630-word human-adjudicated domain emotion codebook via multi-stage sampling, achieving a 100% zero-overlap partition against **8,096 purged non-emotion terms**.
 - **Generic Lexicon Failure & NRC Benchmark Audit**: Benchmarked against NRC v0.92, revealing that generic lexicons completely miss **43.17% ($N=272$)** of domain emotion terms across 3 core failure classes (Morphological Variants, Web 2.0 Colloquial Superlatives, and Low-Altitude Domain-Specific Lexicon).
 - **Emotion-Rating Incongruence & Feature Engineering**: Engineered **11 domain-specific binary indicators**, VADER sentiment scores, geographic tourist origins, and touchpoint features to analyze emotion-rating mismatch.
@@ -42,7 +43,8 @@ An end-to-end NLP and econometric research pipeline analyzing **21,215 canonical
 ### 1. Sample Reconciliation & Number Consistency
 - **Raw Universe**: 28,918 observations scraped across 46 air tour products.
 - **Cross-Listing Deduplication**: TripAdvisor cross-lists reviews across vendor pages (23.1% duplicate rate). Fingerprint deduplication removed **6,683 duplicate copies** (`deleted_duplicates_audit.csv`), retaining **22,235 clean master reviews**.
-- **Corpus Reconciliation**: 21,238 language-detected English reviews $ightarrow$ **21,215 canonical English reviews** after final text validation ($N=997$ non-English reviews exported separately to `non_english_reviews.csv`).
+- **Corpus Reconciliation**: 21,238 language-detected English reviews $
+ightarrow$ **21,215 canonical English reviews** after final text validation ($N=997$ non-English reviews exported separately to `non_english_reviews.csv`).
 
 ### 2. Feature Engineering (11 Domain Binary Indicators)
 Extracted domain-specific binary indicators using regular expression matching:
@@ -57,8 +59,14 @@ Extracted domain-specific binary indicators using regular expression matching:
 Generic lexicons fail in low-altitude air tourism. We built a **630-word Master Gold Emotion Codebook** across the **21,215 canonical English reviews**:
 
 ### 1. Induction & Adjudication Protocol
-- **Multi-Stage Sampling**: $N=500$ Discovery Sample (372 terms) $ightarrow$ $N=2,000$ Gold Expansion Sample (+173 terms) $ightarrow$ $N=18,901$ Full Corpus Completion (+63 terms). *(For complete sampling logs, see [`RESEARCH_NOTES.md`](file:///Users/yuliangpeng/Desktop/Low-Altitude/RESEARCH_NOTES.md)).*
-- **Canonical Lemma Normalization (`canonical_lemma`)**: Standardized spelling typos (`suprised` $ightarrow$ `surprised`, `exhilerating` $ightarrow$ `exhilarating`) and inflections (`worries` $ightarrow$ `worry`, `surprises` $ightarrow$ `surprise`).
+- **Multi-Stage Sampling**: $N=500$ Discovery Sample (372 terms) $
+ightarrow$ $N=2,000$ Gold Expansion Sample (+173 terms) $
+ightarrow$ $N=18,901$ Full Corpus Completion (+63 terms). *(For complete sampling logs, see [`RESEARCH_NOTES.md`](file:///Users/yuliangpeng/Desktop/Low-Altitude/RESEARCH_NOTES.md)).*
+- **Canonical Lemma Normalization (`canonical_lemma`)**: Standardized spelling typos (`suprised` $
+ightarrow$ `surprised`, `exhilerating` $
+ightarrow$ `exhilarating`) and inflections (`worries` $
+ightarrow$ `worry`, `surprises` $
+ightarrow$ `surprise`).
 - **Retained vs. Purged Boundary Rules**:
   - ✅ **Retained (630 Gold Words)**: Experiencer Affective States ($E_1$: *nervous, afraid, scared, relief, thrilled, tranquil, calming, annoying*), Stimulus Appraisals ($E_2$: *scary, spectacular, smooth, professional, great, amazing, awesome*), and Aerial Aesthetic Emotions (*breathtakingly, sublime*).
   - ❌ **Purged (8,096 Purged Log)**: Physical Entities (*grand, helicopter, glacier, canyon*), Price (*expensive, overpriced*), Procedural Service (*informative, timely*), and Interjections (*wow, yay*).
