@@ -2,3 +2,6 @@ lid.176.bin
 *.pyc
 __pycache__/
 .DS_Store
+
+archive_scripts/
+scratch/

@@ -129,17 +129,25 @@ $$	ext{Total Master Gold Codebook (630)} = 358 	ext{ (Total NRC Covered)} + 272 
 
 ```text
 Low-Altitude/
-├── data/
-│   ├── cleaned_datasets/                 # Processed master datasets (22,235 clean master)
-│   └── derived_outputs/                  # Master Codebook & Audit Artifacts (630 Gold vs 8,096 Purged)
-├── data/analyze/                         # Stage 2 & Stage 3 Audit Scripts & NRC Outputs
-├── run_data_pipeline.py                  # Master Data Pipeline Runner
-├── RESEARCH_NOTES.md                     # Detailed Sampling Methodology & Research Log
-├── RESEARCH_NOTES_CN.md                  # Comprehensive Chinese Research Notes
-└── README.md                             # High-Impact Project Overview (This file)
+├── article/                              # 📄 Paper Manuscripts & Research Drafts (Preserved)
+├── data/                                 # 🧹 Datasets & Derived Lexicon Codebooks
+│   ├── cleaned_datasets/                 # Primary master datasets (22,235 clean master)
+│   ├── derived_outputs/                  # Master Codebook & Audit Logs (630 Gold vs 8,096 Purged)
+│   └── analyze/                          # NRC Audit Combined Outputs & Excel Tables
+├── figures/                              # 📈 Publication-Ready Charts & Maps
+│
+├── scripts/                              # 💻 Clean Categorized Python Scripts
+│   ├── data_cleaning/                    # Phase 1: Deduplication, HTML cleaning & feature indicators
+│   ├── lexicon_induction/                # Phase 2: 500 -> 2,000 -> 18,901 multi-stage codebook induction
+│   ├── nrc_audit/                        # Phase 3: NRC 3-level tree audit & 3 core miss classes
+│   ├── visualization/                    # Publication-grade academic plot generators
+│   └── econometrics/                     # Econometric regression models & rating mismatch
+│
+├── run_data_pipeline.py                  # 🚀 Master Data Pipeline Runner
+├── README.md                             # 📄 High-Impact Executive Overview (100% English)
+├── RESEARCH_NOTES.md                     # 📝 Exhaustive English Methodology & Sampling Log
+└── RESEARCH_NOTES_CN.md                  # 📘 Comprehensive Chinese Lab Notes
 ```
-
----
 
 ## 💻 Quick Reproduction Guide
 
