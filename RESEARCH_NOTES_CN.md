@@ -267,9 +267,9 @@ $$\text{全量金标准代码本 (630)} = 358 \text{ (NRC 收录总数)} + 272 \
    - **论文学术结论**：传统 NRC 词典缺乏形态学归一化机制（Morphological Normalization），引发了显著的词汇提取偏误。本项目引入的 `canonical_lemma` 词根映射协议成功弥合了这一形态学断层。
 
 2. **归因 2：NRC 原始种子词缺乏现代网络旅游的高频口语赞誉词 (Web 2.0 口语赞誉缺口)**：
-   - **典型词汇**：*great (11,541次)、awesome (2,530次)、fantastic (2,026次)、nice (1,794次)、incredible (1,612次)、fabulous (508次)、incredibly (315次)、phenomenal (200次)*。
-   - **实证验证与词根对比**：与归因 1（可通过词根还原找回）存在本质区别，**即使进行 100% 的词根还原（Lemmatization），`great (11,541次)`、`awesome (2,530次)`、`fantastic (2,026次)`、`nice (1,794次)` 等超级高频赞誉词在 NRC 词库中依然 100% 完全不存在**！该缺口直接影响了评论语料中 **20,578 次最高频的满意情感表达**。
-   - **深层原因与学术结论**：NRC 选词偏向传统正式书面语（Formal Written English），而 TripAdvisor 上的现代游客在表达满意时极其倾向于使用现代口语高唤起赞誉词（*great, awesome, fantastic*），揭示了传统通用词典在现代 Web 2.0 用户生成内容（UGC）场景中的大规模失灵。
+   - **典型词汇**：*great (11,541次)、awesome (2,530次)、fantastic (2,026次)、nice (1,794次)、incredible (1,612次)、fabulous (508次)、incredibly (315次)、phenomenal (200次)、unbeatable (21次)*。
+   - **实证验证与词根对比**：归因 2 展现了通用词典在 Web 2.0 用户生成内容（UGC）场景中的系统性失灵。与归因 1（可通过形态学归一化找回）存在本质区别，**即使进行 100% 的词根还原（Lemmatization），`great (11,541次)`、`awesome (2,530次)`、`fantastic (2,026次)`、`nice (1,794次)` 等超级高频赞誉词在 NRC 词典中依然 100% 完全缺失**。这一词汇库缺口导致评论语料中 **20,549 次最高频的满意情感表达未能被传统词典匹配捕捉**。
+   - **深层原因与论文学术结论**：NRC 在 2012 年构建时选用的种子词汇偏向传统正式书面语（Formal Written Corpora），而 TripAdvisor 上的现代游客在表达满意时极其倾向于使用高唤起口语赞誉词（*great, awesome, fantastic*）。这一发现揭示了传统通用词典在在线旅游文本分析中的严重适应性失灵，进一步彰显了自建语料库推导代码本（Corpus-Derived Codebook）的学术不可替代性。
 
 3. **归因 3：通用词典缺失“低空高空视觉震撼与美学惊叹（Aerial Visual Awe）”领域词**：
    - **典型词汇**：*breathtaking (1,346 次)、stunning (552 次)、sublime (291 次)、scenic (400次)、surreal (98次)、majestic, panoramic, spellbinding, mesmerizing, awe (304次)*.
