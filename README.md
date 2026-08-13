@@ -377,10 +377,11 @@ $$\text{Total Master Gold Codebook (630)} = 358 \text{ (Total NRC Covered)} + 27
 
 ### 6. 4 Root Causes of Generic NRC Lexicon Gaps ($N=272$ Missed Words)
 
-1. **Morphological & Participle Omissions (50.00% of Misses)**:
-   - **Participle Forms (-ing / -ed)**: 78 words (28.68%), e.g., *amazing, loved, breathtaking, stunning, impressed, inspiring, relaxed, scared, thrilling*.
-   - **Adverbs & Superlatives (-ly, -est, -er)**: 58 words (21.32%), e.g., *best (3,420), better (1,585), incredibly (315), perfectly (175), cheaper, smoother, safely*.
-   - *Finding*: Generic NRC lexicons lack morphological derivation rules, causing massive loss of participle emotion adjectives.
+1. **Morphological & Participle Derivation Gaps (Pure Morphological Variants)**:
+   - **Participle Forms (-ing / -ed)**: e.g., *loved (1,473), impressed (255), inspiring (210), relaxed (159), scared (144), amazed (120), thrilled (113), reassuring (97)*.
+   - **Adverbs & Superlatives (-ly, -est, -er)**: e.g., *better (1,585), cheaper (208), perfectly (155), smoother (143), safely (132), smoothest (105), luckily (96)*.
+   - **Empirical Validation**: Among the 127 pure morphological variant words, **48.82% (62 words) have base dictionary roots (e.g., *amaze, love, impress, inspire, scare, thrill, good, safe*) already present in NRC**. However, static string matching fails to capture them, omitting **88.7% (15,581 review mentions)** of high-frequency emotional expressions.
+   - *Finding*: Generic NRC lexicons lack morphological derivation rules, causing significant classification omissions.
 
 2. **Omission of Modern Online Tourism Colloquial Superlatives (44.85% of Misses)**:
    - **Key Terms**: *great (11,541), awesome (2,530), fantastic (2,026), incredible (1,612), nice (1,794), fabulous, phenomenal, unbeatable, top-notch*.
