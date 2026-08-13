@@ -1,4 +1,11 @@
-# Low-Altitude Air Tourism: TripAdvisor Review Processing & Domain-Specific Emotion Lexicon Pipeline
+#!/usr/bin/env python3
+"""Rewrite README.md into a perfectly structured, 100% English 3-Step narrative focusing on Step 2 & Step 3."""
+
+from pathlib import Path
+
+readme_path = Path("README.md")
+
+clean_english_readme = """# Low-Altitude Air Tourism: TripAdvisor Review Processing & Domain-Specific Emotion Lexicon Pipeline
 
 > 🌐 **Project Repository**: [https://github.com/ypeng12/Low-Altitude](https://github.com/ypeng12/Low-Altitude)  
 > 📄 **Documentation Matrix**:
@@ -13,7 +20,7 @@ This repository provides an end-to-end data engineering and Natural Language Pro
 
 ### ✨ 3 Key Methodological Contributions
 1. **Step 1 — Publication-Grade Clean Master Sample ($N=22,235$)**: Aggregated 28,918 raw reviews, eliminated a 23.1% cross-listing duplicate rate ($N=6,683$), retaining 22,235 clean master reviews ($N=21,238$ clean English reviews) while preserving **Product Fixed Effects ($\mu_j$)** via `tour_name`.
-2. **Step 2 — Corpus-Derived Gold Lexicon Induction ($N=630$ Words)** ⭐ *(Primary Focus)*: Constructed a 630-word domain-specific emotion codebook via a 3-stage sampling methodology ($N=500$ Discovery $ightarrow$ $N=2,000$ Expansion $ightarrow$ $N=18,901$ Full Completion), establishing a 100% zero-overlap partition against 8,096 purged non-emotion terms.
+2. **Step 2 — Corpus-Derived Gold Lexicon Induction ($N=630$ Words)** ⭐ *(Primary Focus)*: Constructed a 630-word domain-specific emotion codebook via a 3-stage sampling methodology ($N=500$ Discovery $\rightarrow$ $N=2,000$ Expansion $\rightarrow$ $N=18,901$ Full Completion), establishing a 100% zero-overlap partition against 8,096 purged non-emotion terms.
 3. **Step 3 — Generic Lexicon Failure Audit ($N=272$ Missed Words)** ⭐ *(Primary Focus)*: Empirically audited NRC lexicon coverage gaps, revealing that NRC completely misses 43.17% ($N=272$) of domain emotion vocabulary, categorized into 3 core academic failure classes (Morphological Variants, Web 2.0 Colloquial Superlatives, and Low-Altitude Air Tourism Domain-Specific Lexicon).
 
 ---
@@ -80,16 +87,16 @@ Generic sentiment lexicons (NRC, VADER) fail in specialized experiential domains
 ### 2. Canonical Lemma Normalization & Adjudication Rules (`canonical_lemma`)
 
 To prevent typos and inflected forms from fragmenting term frequencies, we instituted **Canonical Lemma Normalization**:
-- **Typo Normalization**: `suprised` (4) $ightarrow$ `surprised`, `suprise` (5) $ightarrow$ `surprise`, `exhilerating` (7) $ightarrow$ `exhilarating`, `aprehensive` (3) $ightarrow$ `apprehensive`, `dissapointed` (8) $ightarrow$ `disappointed`.
-- **Morphological Normalization**: `worries` (38) $ightarrow$ `worry`, `surprises` (21) $ightarrow$ `surprise`, `cherished` (8) $ightarrow$ `cherish`, `hates` (5) $ightarrow$ `hate`, `dreaded` (4) $ightarrow$ `dread`, `scariest` $ightarrow$ `scary`.
+- **Typo Normalization**: `suprised` (4) $\rightarrow$ `surprised`, `suprise` (5) $\rightarrow$ `surprise`, `exhilerating` (7) $\rightarrow$ `exhilarating`, `aprehensive` (3) $\rightarrow$ `apprehensive`, `dissapointed` (8) $\rightarrow$ `disappointed`.
+- **Morphological Normalization**: `worries` (38) $\rightarrow$ `worry`, `surprises` (21) $\rightarrow$ `surprise`, `cherished` (8) $\rightarrow$ `cherish`, `hates` (5) $\rightarrow$ `hate`, `dreaded` (4) $\rightarrow$ `dread`, `scariest` $\rightarrow$ `scary`.
 
 #### Retained vs. Purged Boundary Rules
 - ✅ **Retained (Master Gold Lexicon: 630 Words)**: Experiencer Affective States ($E_1$: *nervous, afraid, scared, relief, thrilled, tranquil, calming, annoying, stressful*), Stimulus/Service Appraisals ($E_2$: *scary, spectacular, smooth, professional, flawless, great, amazing, awesome, excellent*), and Aerial Aesthetic Emotions (*breathtakingly, sublime*).
 - ❌ **Purged (Master Removed Log: 8,096 Words)**: Geographic/Physical Entities (*grand, helicopter, glacier, canyon*), Economic Price (*expensive, overpriced*), Procedural Service (*informative, timely*), Interjections (*wow, yay*), and Greetings (*thanks*).
 
 #### Mathematical Partition Completeness
-$$	ext{Total Screened Universe (8,726)} = 	ext{Master Gold Lexicon (630)} + 	ext{Master Removed Log (8,096)}$$
-$$	ext{Master Gold Lexicon (630)} \cap 	ext{Master Removed Log (8,096)} = 0 \quad (	ext{100% Zero-Overlap Partition})$$
+$$\text{Total Screened Universe (8,726)} = \text{Master Gold Lexicon (630)} + \text{Master Removed Log (8,096)}$$
+$$\text{Master Gold Lexicon (630)} \cap \text{Master Removed Log (8,096)} = 0 \quad (\text{100% Zero-Overlap Partition})$$
 
 ---
 
@@ -114,8 +121,8 @@ Master Gold Emotion Codebook (N = 630 Words)
         (e.g., great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
 ```
 
-$$	ext{Total NRC Vocabulary Coverage (358)} = 286 	ext{ (8-Emotions)} + 72 	ext{ (Polarity Only)}$$
-$$	ext{Total Master Gold Codebook (630)} = 358 	ext{ (Total NRC Covered)} + 272 	ext{ (Completely Missed by NRC)}$$
+$$\text{Total NRC Vocabulary Coverage (358)} = 286 \text{ (8-Emotions)} + 72 \text{ (Polarity Only)}$$
+$$\text{Total Master Gold Codebook (630)} = 358 \text{ (Total NRC Covered)} + 272 \text{ (Completely Missed by NRC)}$$
 
 ---
 
@@ -186,3 +193,7 @@ Low-Altitude/
 # Execute full pipeline from data cleaning to feature extraction:
 python run_data_pipeline.py
 ```
+"""
+
+readme_path.write_text(clean_english_readme, encoding="utf-8")
+print("Successfully rewrote README.md into crisp 100% English 3-step narrative!")
