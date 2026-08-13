@@ -416,27 +416,6 @@ $$\text{Total Master Gold Codebook (630)} = 358 \text{ (Total NRC Covered)} + 27
 
 ---
 
-## 📊 Level 3 Econometric Modeling Plan
-
-Level 3 estimates structural econometric equations leveraging Level 2 features:
-
-### 1. Baseline Econometric Regression Models
-$$\text{Rating}_{ij} = \beta_0 + \beta_1 \text{PilotMention}_{ij} + \beta_2 \text{SafetyMention}_{ij} + \beta_3 \text{PriceValue}_{ij} + \boldsymbol{\gamma} \mathbf{Z}_{ij} + \mu_j + \lambda_t + \varepsilon_{ij}$$
-* **Dependent Variable ($Y_{ij}$)**: TripAdvisor Rating (`rating`, 1–5 stars) or Helpful Votes (`helpful_votes`).
-* **Key Independent Variables ($X_{ij}$)**: Level 2 domain indicators (`pilot_mention`, `safety_mention`, `price_value_mention`, `weather_mention`).
-* **Controls ($\mathbf{Z}_{ij}$)**: `review_word_count`, `uppercase_ratio`, `is_us_domestic`, `has_photo`.
-* **Fixed Effects**: Product Fixed Effects ($\mu_j$) for 46 products and Year/Month Time Fixed Effects ($\lambda_t$).
-
-### 2. Psychological Mechanism & VADER Sentiment Mediation
-- **Mediation Model**: Testing whether pilot excellence (`pilot_mention`) or reassuring safety (`safety_mention`) drives 5-star ratings via boosting VADER continuous sentiment polarity (`sentiment_polarity`):
-  $$\text{Pilot / Safety Touchpoint} \xrightarrow{\quad\text{Elevates}\quad} \text{VADER Sentiment Polarity} \xrightarrow{\quad\text{Drives}\quad} \text{Rating (5 Stars)}$$
-- **Moderation Model**: Testing environmental interaction effects (e.g., *Under adverse weather/low visibility (`weather_mention=1`), does pilot communication exert a stronger positive marginal effect on tourist ratings?*).
-
-### 3. Group Heterogeneity & Robustness
-- **Origin Heterogeneity**: Comparing US domestic tourists (`is_us_domestic=1`) vs. international tourists on price sensitivity.
-- **Aircraft Type**: Helicopter vs Fixed-Wing plane satisfaction drivers.
-- **Robustness Checks**: Ordered Probit / Tobit estimations restricted to English sub-sample (`is_english=1`).
-
 ---
 
 ## 📁 Repository Structure & Directory Map
