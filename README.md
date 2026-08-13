@@ -327,7 +327,7 @@ Master Gold Emotion Codebook (N = 630 Words)
 │
 ├── 1️⃣ Total Mapped into NRC Vocabulary Universe (在 NRC 词库里的总词数) ── 358 words (56.83%)
 │   │
-│   ├── 1a. Mapped to NRC 8-Emotion Categories ────────────────── 286 words (45.40%) ⭐ (Recommended)
+│   ├── 1a. Mapped to NRC 8-Emotion Categories ────────────────── 286 words (45.40%) 
 │   │       (via Canonical Lemma Normalization, rescuing 17 inflected/typo words)
 │   │
 │   └── 1b. Mapped to Positive / Negative Polarity Only ──────── 72 words (11.43%)
