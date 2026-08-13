@@ -128,42 +128,124 @@ Following **Orea-Giner et al. (2022)**, emotion in tourism is not monolithic. We
 
 ---
 
-## 🔬 Corpus-Derived Emotion Lexicon Codebook (Master Gold Emotion Lexicon)
+## 🔬 Corpus-Derived Emotion Lexicon Codebook & Multi-Stage Induction Methodology
 
-To avoid relying blindly on fixed external sentiment lexicons (e.g., NRC or VADER), this project implements a two-stage **corpus-derived emotion lexicon induction pipeline** tailored specifically for low-altitude air tourism.
+To avoid relying blindly on fixed generic sentiment lexicons (e.g., NRC or VADER), this project implements a 3-stage **Corpus-Derived Emotion Lexicon Induction Methodology** tailored specifically for low-altitude air tourism. Across all **21,215 clean English reviews**, we extract, normalize, and human-adjudicate domain-specific emotion and appraisal terms.
 
-### Lexicon Induction & Human Calibration Workflow
-- **Source Corpus**: `data/cleaned_datasets/tripadvisor_level3_english_v2.csv` (21,215 clean English reviews).
-- **Stage 1 Discovery ($N=500$)**: Stratified random sampling ($N=500$, Seed 42). Extracted and adjudicated **372 clean emotion terms** (`data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx`).
-- **Stage 2 Expansion ($N=2,000$)**: Stratified random sampling ($N=2,000$, Seed 100). Screened new candidate terms beyond Stage 1 to extract **173 new clean emotion terms** (`data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx`).
-- **Canonical Master Gold Lexicon (`gold_emotion_lexicon_codebook.xlsx`)**: Merged Stage 1 and Stage 2 human calibration outputs to produce the **Master Gold Emotion Lexicon Codebook** (`data/derived_outputs/gold_emotion_lexicon_codebook.xlsx`), comprising **545 pure, human-calibrated emotion & appraisal terms** with 100% contextual Chinese translations and $E_1$ vs $E_2$ affect types.
-
-### 🔍 Sentence-Contextual Screening Logic & Adjudication Rules
-Every candidate term was evaluated **strictly within its exact review sentence (`example_context`)**, adhering to human-in-the-loop adjudication standards:
-
-#### ✅ RETAINED (Gold Emotion Lexicon: `gold_emotion_lexicon_codebook.xlsx` - 545 Words)
-1. **Experiencer Affective States ($E_1$)**: Direct internal emotional/psychological states felt by the tourist (*nervous*, *awe*, *secure*, *uncomfortable*, *grateful*, *happy*, *afraid*, *thrilled*, *sick*, *surprised*, *worry*, *shame*, *privilege*, *disappointment*, *miserable*, *laughing*, *soaring*).
-2. **Stimulus / Service Appraisals ($E_2$)**: Subjective evaluations of air tour attributes (*scary*, *breathtaking*, *spectacular*, *smooth*, *professional*, *flawless*, *hostile*, *nerve-wracking*, *mild*, *cute*, *compliment*, *incomprehensible*, *interesting*, *informative*, *educational*, *entertaining*, *great*, *amazing*, *good*, *awesome*, *excellent*).
-3. **Polysemous Affect Terms ($E_1\_E_2$)**: Terms carrying both state and appraisal values depending on sentence context (*comfortable* - *"made us feel comfortable"* [$E_1$] vs *"comfortable air tour"* [$E_2$], *fun*, *friendly*, *knowledgeable*).
-4. **Codebook Annotations**: Includes 100% contextual Chinese translations (`chinese_translation`), explicit affect types (`affect_type`), aggregated 2,500-sample frequency (`frequency_2500`), review counts, and example sentence contexts.
-
-#### ❌ PURGED (Removed Non-Emotion Log: `removed_non_emotion_words_log.xlsx` - 3,968 Words)
-1. **Neutral Physical Objects, Colors & Nature**: *blue*, *silver*, *gold*, *tall*, *pine*, *gravel*, *water*, *canyon*, *helicopter*, *plane*, *pilot*, *flight*, *island*, *glacier*.
-2. **Social Courtesy / Hospitality Greetings**: *thanks*, *thank*, *thanked*, *thankyou* (purged as social formality rather than felt emotion).
-3. **Cognitive / Speculative Stance Words**: *think*, *thought*, *suspect*, *doubt*, *assume*, *believe*, *guess*.
-4. **Neutral Structural Modifiers & Quantifiers**: *minute*, *hour*, *dollar*, *one*, *first*, *highly*, *took*, *got*, *day*, *time*.
-
-### 📊 Mathematical Partition Completeness
-$$\text{Total Human-Screened Candidate Universe (4,513)} = \text{Gold Emotion Lexicon (545)} + \text{Removed Non-Emotion Log (3,968)}$$
-$$\text{Gold Lexicon (545)} \cap \text{Removed Log (3,968)} = 0 \quad (\text{100% Zero-Overlap Guaranteed Partition})$$
-
-### 🛠️ Key Derived Outputs & Master Files
-- **Master Gold Emotion Lexicon Codebook (Excel)**: [data/derived_outputs/gold_emotion_lexicon_codebook.xlsx](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx)
-- **Master Gold Emotion Lexicon Codebook (CSV)**: [data/derived_outputs/gold_emotion_lexicon_codebook.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.csv)
-- **Master Removed Non-Emotion Log (Excel)**: [data/derived_outputs/removed_non_emotion_words_log.xlsx](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx)
-- **Master Removed Non-Emotion Log (CSV)**: [data/derived_outputs/removed_non_emotion_words_log.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.csv)
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                   Full English Corpus (N=21,215 Reviews)                                 │
+└────────────────────────────────────────────────────┬────────────────────────────────────────────────────┘
+                                                     │
+         ┌───────────────────────────────────────────┼───────────────────────────────────────────┐
+         ▼                                           ▼                                           ▼
+┌────────────────────────────────┐       ┌────────────────────────────────┐       ┌────────────────────────────────┐
+│  Stage 1: Discovery (N=500)    │       │ Stage 2: Gold Expansion (N=2k) │       │ Stage Final: Full (N=18,901)   │
+│  Stratified Sample (Seed 42)   │       │ Stratified Sample (Seed 100)   │       │ Unsampled Remaining Reviews    │
+│  372 Emotion Terms Extracted   │       │ 173 New Emotion Terms Added    │       │ 65 New Emotion Terms Added     │
+└───────────────┬────────────────┘       └───────────────┬────────────────┘       └───────────────┬────────────────┘
+                │                                        │                                        │
+                └────────────────────────────────────────┼────────────────────────────────────────┘
+                                                         │
+                                                         ▼
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                            Master Gold Emotion Lexicon Codebook (N=21,215)                              │
+│                608 Pure Emotion Words | Typo Normalization (canonical_lemma) | 8,118 Purged Log         │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
+
+### 1. Multi-Stage Sampling & Induction Pipeline
+
+#### 📍 Stage 1: Discovery Sample ($N=500$ Reviews)
+- **Sampling Protocol**: Stratified random sampling ($N=500$, Seed 42) balanced across rating distributions, 46 air tour products, aircraft types, and review length bins.
+- **Induction Output**: Extracted **372 clean emotion terms** (`data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx`) and **1,855 purged non-emotion terms**.
+
+#### 📍 Stage 2: Gold Candidate Expansion Sample ($N=2,000$ Reviews)
+- **Sampling Protocol**: Stratified random sampling ($N=2,000$, Seed 100, comprising 1,814 unique new unsampled reviews).
+- **Induction Output**: Extracted **173 new clean emotion terms** (`data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx`) and **2,113 purged terms**.
+- **Combined 2,500 Sample Universe**: Yielded **545 Gold Emotion Words** and **3,968 Purged Terms** ($N=4,513$ unique vocabulary terms).
+
+#### 📍 Stage Final: Full Corpus Completion ($N=18,901$ Remaining Reviews)
+- **Sampling Protocol**: All remaining unsampled reviews ($21,215 - 2,314 = 18,901$ reviews).
+- **Induction Output**: Extracted **4,213 candidate terms** (frequency $\ge 3$). Screened and human-adjudicated to identify **65 new emotion terms** (`data/derived_outputs/stage_final/clean_new_emotion_words_18901.xlsx`) and **4,151 purged terms** (`data/derived_outputs/stage_final/purged_new_candidates_18901.xlsx`).
+
+---
+
+### 2. Typo Normalization & Morphological Variance Mapping (`canonical_lemma`)
+
+To prevent spelling typos and inflected morphological variants from fragmenting term frequencies, we instituted a **Canonical Lemma Normalization Protocol** (`canonical_lemma` column):
+
+| Raw Token in Review (`word`) | Normalized Canonical Lemma (`canonical_lemma`) | Fine-Grained Emotion Category (`emotion_category`) | Chinese Translation (`chinese_translation`) | Full Corpus Freq ($N=21,215$) |
+| :--- | :--- | :--- | :--- | :---: |
+| **`suprised`** | **`surprised`** | `Surprise` | 感到惊喜惊讶的 *(错别字变体)* | 4 |
+| **`suprise`** | **`surprise`** | `Surprise` | 惊喜 / 意料之外 *(错别字变体)* | 5 |
+| **`exhilerating`** | **`exhilarating`** | `Excitement` | 令人兴奋刺激酣畅地 *(错别字变体)* | 7 |
+| **`aprehensive`** | **`apprehensive`** | `Anxiety / Fear` | 感到忧虑不安的 *(错别字变体)* | 3 |
+| **`dissapointed`** | **`disappointed`** | `Disappointment` | 感到失望的 *(错别字变体)* | 8 |
+| **`worries`** | **`worry`** | `Anxiety / Worry` | 担忧 / 挂虑 | 24 |
+| **`worrying`** | **`worry`** | `Anxiety / Worry` | 令人担心的 | 37 |
+| **`apprehensions`** | **`apprehension`** | `Anxiety / Fear` | 顾虑 / 忧虑不安 | 4 |
+| **`regretting`** | **`regret`** | `Regret` | 感到后悔遗憾的 | 6 |
+| **`hates`** | **`hate`** | `Anger / Dislike` | 厌恶 / 讨厌 | 5 |
+
+---
+
+### 3. Human-in-the-Loop Screening Criteria & Adjudication Rules
+
+Every candidate term was evaluated **strictly within its exact sentence context (`example_context`)**:
+
+#### ✅ RETAINED (Gold Emotion Lexicon Codebook: 608 Words)
+1. **Experiencer Affective States ($E_1$)**: Direct internal emotional/psychological states felt by the tourist (*nervous*, *awe*, *secure*, *uncomfortable*, *grateful*, *happy*, *afraid*, *thrilled*, *calming*, *annoying*, *stressful*, *tranquil*, *claustrophobia*, *jitters*, *overjoyed*, *ecstasy*).
+2. **Stimulus / Service Appraisals ($E_2$)**: Subjective evaluations of air tour attributes (*scary*, *spectacular*, *smooth*, *professional*, *flawless*, *hostile*, *nerve-wracking*, *great*, *amazing*, *good*, *awesome*, *excellent*, *captivating*, *daunting*, *harrowing*).
+3. **Aesthetic Emotions & High-Arousal Awe**: *breathtakingly* (expressing intense awe/amazement in air tour context), *sublime* (aesthetic awe over glacier landscapes).
+
+#### ❌ PURGED (Master Removed Non-Emotion Log: 8,118 Words)
+1. **Interjections & Emotive Exclamations**: `yay` (purged as an informal interjection rather than a formal emotion noun/adjective).
+2. **Temporal & Procedural Performance**: `timely` (purged as objective time/punctuality control).
+3. **Physical Vibration & Ride Sensation**: `choppy` (purged as physical flight sensation rather than internal emotion).
+4. **Price & Monetary Attributes**: `overpriced`, `inexpensive` (purged as economic cost evaluation).
+5. **Operational Smoothness & Degree Modifiers**: `seamlessly` (procedural flow), `invaluable` (cognitive value rating), `beyond` (degree modifier).
+6. **Social Formality & Courtesy Greetings**: *thanks*, *thank*, *thanked*, *thankyou*.
+7. **Neutral Nature, Objects & Mechanics**: *helicopter*, *plane*, *pilot*, *glacier*, *canyon*, *water*, *blue*, *gold*.
+
+---
+
+### 4. Mathematical Partition Completeness
+$$\text{Total Screened Vocabulary Universe (8,726)} = \text{Master Gold Lexicon (608)} + \text{Master Removed Log (8,118)}$$
+$$\text{Master Gold Lexicon (608)} \cap \text{Master Removed Log (8,118)} = 0 \quad (\text{100% Zero-Overlap Guaranteed Partition})$$
+
+---
+
+### 📂 5. Derived Artifacts & File Directory Guide
+
+| Artifact Name | File Format | Record Count | Description & Purpose | Direct File Link |
+| :--- | :---: | :---: | :--- | :--- |
+| **Master Gold Emotion Lexicon Codebook** | **Excel / CSV** | **608 Words** | **Primary Master Codebook** containing all 608 pure emotion & appraisal terms across N=21,215 reviews, with canonical lemma normalization and emotion categories. | 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) |
+| **Master Removed Non-Emotion Log** | **Excel / CSV** | **8,118 Words** | **Primary Master Audit Log** containing all purged non-emotion, entity, and procedural terms. | 👉 [`removed_non_emotion_words_log.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx) |
+| **Stage 1 Discovery Emotion Lexicon** | Excel / CSV | 372 Words | Clean emotion terms discovered in Stage 1 ($N=500$). | 👉 [`clean_emotion_words_500_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx) |
+| **Stage 2 Expansion Emotion Lexicon** | Excel / CSV | 173 Words | New clean emotion terms expanded in Stage 2 ($N=2,000$). | 👉 [`clean_emotion_words_2000_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx) |
+| **Stage Final Clean New Emotion Words** | Excel / CSV | 65 Words | New clean emotion terms identified in Stage Final ($N=18,901$). | 👉 [`clean_new_emotion_words_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/clean_new_emotion_words_18901.xlsx) |
+| **Stage Final Unseen Candidates All** | Excel / CSV | 4,213 Words | All 4,213 new candidate terms extracted from remaining 18,901 reviews with sentence contexts. | 👉 [`new_unseen_candidates_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/new_unseen_candidates_18901.xlsx) |
+| **Stage Final Purged Candidates** | Excel / CSV | 4,151 Words | Purged non-emotion terms from remaining 18,901 reviews. | 👉 [`purged_new_candidates_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/purged_new_candidates_18901.xlsx) |
+
+---
+
+### 💻 6. Reproduction & Pipeline Execution Commands
+
+To re-run the emotion lexicon induction pipeline or reproduce the Stage Final candidate extraction:
+
+```bash
+# 1. Run Stage Final Candidate Extraction & Induction Script
+python3 research_modules/emotion_lexicon_induction/scripts/build_stage_final_codebook.py
+
+# 2. Run Data Processing & Feature Engineering Pipeline
+python3 run_data_pipeline.py
+
+# 3. Run Level 3 Econometric Regressions & Mitigation Models
+python3 run_incongruence_econometrics.py
+```
 
 ## 📈 Summary Data & Empirical Metrics Ledger
 
