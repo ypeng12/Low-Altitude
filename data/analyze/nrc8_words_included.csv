@@ -5,7 +5,7 @@ wonderful,wonderful,精彩美妙的,Unclassified,E2_Appraisal (Stimulus/Service 
 good,good,良好的 / 棒的（服务与体验）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2635,2230,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
 excellent,excellent,卓越极佳的 / 顶级的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2284,2065,"joy, trust",positive,"joy, positive, trust"
 fun,fun,乐趣十足的 / 充满乐趣的,Unclassified,E1_E2_Polysemous (State & Appraisal),1729,1575,"anticipation, joy",positive,"anticipation, joy, positive"
-spectacular,spectacular,壮观震撼的（高空景观）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1616,1566,"anticipation, surprise",None,"anticipation, surprise"
+spectacular,spectacular,壮观震撼的（高空景观）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1616,1566,"anticipation, surprise",,"anticipation, surprise"
 perfect,perfect,完美的 / 无瑕的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1474,1340,"anticipation, joy, trust",positive,"anticipation, joy, positive, trust"
 helpful,helpful,热心有帮助的 / 周到解说,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1157,1108,"joy, trust",positive,"joy, positive, trust"
 glad,glad,感到高兴放心的,Joy / Happiness,E1_State (Direct Internal Affective State),897,856,"anticipation, joy",positive,"anticipation, joy, positive"
@@ -27,19 +27,19 @@ regret,regret,遗憾 / 后悔,Regret,E1_State (Direct Internal Affective State),
 magnificent,magnificent,壮丽的 / 宏伟震撼的（Awe）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),282,272,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
 sick,sick,晕机的 / 身体不适的,Unclassified,E1_E2_Candidate,274,240,"disgust, sadness",negative,"disgust, negative, sadness"
 lovely,lovely,令人愉悦的 / 可爱的,Unclassified,E1_E2_Candidate,266,248,"anticipation, joy, sadness, surprise, trust",positive,"anticipation, joy, positive, sadness, surprise, trust"
-terrific,terrific,极好的 / 太棒了,Unclassified,E1_E2_Candidate,260,247,sadness,None,sadness
+terrific,terrific,极好的 / 太棒了,Unclassified,E1_E2_Candidate,260,247,sadness,,sadness
 efficient,efficient,高效省心的,Unclassified,E1_E2_Candidate,215,211,"anticipation, trust",positive,"anticipation, positive, trust"
 entertaining,entertaining,引人入胜生动有趣的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),210,208,"anticipation, joy",positive,"anticipation, joy, positive"
-surprised,surprised,感到惊喜惊讶的,Unclassified,E1_State (Direct Internal Affective State),196,194,surprise,None,surprise
+surprised,surprised,感到惊喜惊讶的,Unclassified,E1_State (Direct Internal Affective State),196,194,surprise,,surprise
 surprise,surprise,惊喜 / 意料之外的喜悦,Unclassified,E1_State (Direct Internal Affective State),195,181,"fear, joy, surprise",positive,"fear, joy, positive, surprise"
 brilliant,brilliant,璀璨的 / 出色的,Unclassified,E1_E2_Candidate,184,169,"anticipation, joy, trust",positive,"anticipation, joy, positive, trust"
-ready,ready,准备就绪的 / 心安的,Unclassified,E1_E2_Candidate,171,168,anticipation,None,anticipation
+ready,ready,准备就绪的 / 心安的,Unclassified,E1_E2_Candidate,171,168,anticipation,,anticipation
 excited,excited,兴奋的 / 激动的,Unclassified,E1_State (Direct Internal Affective State),167,160,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
 majestic,majestic,雄伟的 / 壮丽的,Unclassified,E1_E2_Candidate,165,165,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
 competent,competent,称职的 / 有能力的,Unclassified,E1_E2_Candidate,163,163,trust,positive,"positive, trust"
 quiet,quiet,宁静的 / 幽雅安静的,Unclassified,E1_E2_Candidate,161,159,sadness,positive,"positive, sadness"
 hope,hope,希望 / 期盼,Hope,E1_State (Direct Internal Affective State),159,158,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
-concerned,concern,感到担心的,Worry / Concern,E1_State (Direct Internal Affective State),155,151,"fear, sadness",None,"fear, sadness"
+concerned,concern,感到担心的,Worry / Concern,E1_State (Direct Internal Affective State),155,151,"fear, sadness",,"fear, sadness"
 interested,interested,感兴趣的 / 充满好奇的,Unclassified,E1_E2_Candidate,153,146,"disgust, sadness",positive,"disgust, positive, sadness"
 magical,magical,神奇的 / 魔幻般的,Unclassified,E1_E2_Candidate,152,149,"anticipation, joy, surprise",positive,"anticipation, joy, positive, surprise"
 afraid,afraid,害怕的 / 恐惧的,Unclassified,E1_State (Direct Internal Affective State),150,141,fear,negative,"fear, negative"
@@ -54,7 +54,7 @@ disappoint,disappoint,使失望,Disappointment,E1_State (Direct Internal Affecti
 fear,fear,恐惧 / 害怕,Fear,E1_State (Direct Internal Affective State),120,116,"anger, fear",negative,"anger, fear, negative"
 unable,unable,无法的 / 无能为力的,Unclassified,E1_E2_Candidate,114,110,sadness,negative,"negative, sadness"
 confidence,confidence,信心 / 确信,Unclassified,E1_E2_Candidate,112,109,"fear, joy, trust",positive,"fear, joy, positive, trust"
-difficult,difficult,困难的 / 令人头疼的,Unclassified,E1_E2_Candidate,112,111,fear,None,fear
+difficult,difficult,困难的 / 令人头疼的,Unclassified,E1_E2_Candidate,112,111,fear,,fear
 expert,expert,专家级的 / 娴熟的,Unclassified,E1_E2_Candidate,112,106,trust,positive,"positive, trust"
 confident,confident,自信的 / 确信的,Unclassified,E1_E2_Candidate,109,109,"joy, trust",positive,"joy, positive, trust"
 worry,worry,担心 / 忧虑感,Anxiety / Worry,E1_State (Direct Internal Affective State),106,103,"anticipation, fear, sadness",negative,"anticipation, fear, negative, sadness"
@@ -90,7 +90,7 @@ enthusiasm,enthusiasm,热情 / 积极性,Unclassified,E1_E2_Candidate,52,52,"ant
 disappointment,disappointment,失望 / 遗憾失落情绪,Unclassified,E1_State (Direct Internal Affective State),51,48,"disgust, sadness",negative,"disgust, negative, sadness"
 satisfied,satisfied,感到满意的,Satisfaction / Contentment,E1_State (Direct Internal Affective State),49,49,joy,positive,"joy, positive"
 delight,delight,欣喜 / 愉快,Unclassified,E1_State (Direct Internal Affective State),48,48,"anticipation, joy",positive,"anticipation, joy, positive"
-steady,steady,平稳的 / 稳健的,Unclassified,E1_E2_Candidate,48,47,"surprise, trust",None,"surprise, trust"
+steady,steady,平稳的 / 稳健的,Unclassified,E1_E2_Candidate,48,47,"surprise, trust",,"surprise, trust"
 terrible,terrible,可怕的 / 糟糕的,Unclassified,E1_E2_Candidate,46,44,"anger, disgust, fear, sadness",negative,"anger, disgust, fear, negative, sadness"
 unexpected,unexpected,意想不到的惊喜,Unclassified,E1_E2_Candidate,46,46,"anticipation, fear, joy, surprise","negative, positive","anticipation, fear, joy, negative, positive, surprise"
 friendliness,friendliness,友善 / 亲和力,Unclassified,E1_E2_Candidate,45,45,"joy, trust",positive,"joy, positive, trust"
@@ -106,7 +106,7 @@ reliable,reliable,可靠的 / 可信赖的,Unclassified,E1_E2_Candidate,36,36,tr
 anxious,anxious,焦虑不安的 / 挂虑的,Unclassified,E1_State (Direct Internal Affective State),35,33,"anticipation, fear",negative,"anticipation, fear, negative"
 humorous,humorous,幽默风趣的,Unclassified,E1_E2_Candidate,35,35,joy,positive,"joy, positive"
 picturesque,picturesque,风景如画的,Unclassified,E1_E2_Candidate,35,35,joy,positive,"joy, positive"
-surprisingly,surprisingly,出乎意料赞叹地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),35,35,"anticipation, surprise",None,"anticipation, surprise"
+surprisingly,surprisingly,出乎意料赞叹地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),35,35,"anticipation, surprise",,"anticipation, surprise"
 anxiety,anxiety,焦虑 / 不安,Unclassified,E1_E2_Candidate,34,33,"anger, anticipation, fear, sadness",negative,"anger, anticipation, fear, negative, sadness"
 generous,generous,大方的 / 慷慨的,Unclassified,E1_E2_Candidate,34,34,"joy, trust",positive,"joy, positive, trust"
 romantic,romantic,浪漫惬意的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),34,31,"anticipation, joy, trust",positive,"anticipation, joy, positive, trust"
@@ -114,7 +114,7 @@ sadly,sadly,令人遗憾地 / 悲伤地,Unclassified,E1_E2_Candidate,34,32,sadne
 worse,worse,更糟糕的,Unclassified,E1_E2_Candidate,34,31,"fear, sadness",negative,"fear, negative, sadness"
 skillful,skillful,技术精湛的,Unclassified,E1_E2_Candidate,32,32,trust,positive,"positive, trust"
 turbulent,turbulent,颠簸不安的,Unclassified,E1_E2_Candidate,32,30,fear,negative,"fear, negative"
-convinced,convinced,深信不疑的 / 心服口服,Unclassified,E1_State (Direct Internal Affective State),29,29,trust,None,trust
+convinced,convinced,深信不疑的 / 心服口服,Unclassified,E1_State (Direct Internal Affective State),29,29,trust,,trust
 delighted,delighted,高高兴兴的,Unclassified,E1_State (Direct Internal Affective State),29,29,"anticipation, joy, surprise",positive,"anticipation, joy, positive, surprise"
 serene,serene,宁静祥和的,Unclassified,E1_E2_Candidate,28,28,trust,negative,"negative, trust"
 eager,eager,热切的 / 渴望的,Unclassified,E1_E2_Candidate,27,26,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
@@ -143,16 +143,16 @@ danger,danger,危险 / 威胁,Unclassified,E1_E2_Candidate,18,15,"fear, sadness"
 effective,effective,有效划算的,Unclassified,E1_E2_Candidate,18,18,trust,positive,"positive, trust"
 honesty,honesty,真诚 / 诚信解说,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,18,trust,positive,"positive, trust"
 marvel,marvel,惊叹 / 奇迹,Amazement / Awe,E2_Appraisal (Stimulus/Service Attribute),18,17,surprise,positive,"positive, surprise"
-secret,secret,秘境 / 私密独享感,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,18,trust,None,trust
+secret,secret,秘境 / 私密独享感,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,18,trust,,trust
 soothing,soothing,舒缓抚慰人心的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,18,"joy, trust",positive,"joy, positive, trust"
 witty,witty,风趣幽默的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,18,joy,positive,"joy, positive"
 discomfort,discomfort,身体/心理不适感,Unclassified,E1_State (Direct Internal Affective State),17,17,sadness,negative,"negative, sadness"
 overwhelmed,overwhelmed,被震撼/感动深深淹没的,Unclassified,E1_State (Direct Internal Affective State),17,17,sadness,negative,"negative, sadness"
 insane,insane,疯狂震撼的 / 极端的,Unclassified,E1_E2_Candidate,16,16,"anger, fear",negative,"anger, fear, negative"
-leery,leery,提防警惕 / 顾虑重重的,Unclassified,E1_State (Direct Internal Affective State),16,16,surprise,None,surprise
+leery,leery,提防警惕 / 顾虑重重的,Unclassified,E1_State (Direct Internal Affective State),16,16,surprise,,surprise
 loving,loving,热爱的 / 充满了爱的,Love / Affection,E1_State (Direct Internal Affective State),16,16,"joy, trust",positive,"joy, positive, trust"
 sensational,sensational,绝佳轰动震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),16,15,joy,positive,"joy, positive"
-sudden,sudden,突然的 / 猝不及防的,Unclassified,E1_E2_Candidate,16,15,surprise,None,surprise
+sudden,sudden,突然的 / 猝不及防的,Unclassified,E1_E2_Candidate,16,15,surprise,,surprise
 uncertain,uncertain,不确定的 / 顾虑的,Unclassified,E1_E2_Candidate,16,16,"anger, disgust, fear, surprise",negative,"anger, disgust, fear, negative, surprise"
 worthy,worthy,非常值的 / 值得的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),16,16,trust,positive,"positive, trust"
 annoying,annoying,令人烦躁恼火的（Annoyance/Irritation Emotion）,Unclassified,E1_State (Direct Internal Affective State),15,15,anger,negative,"anger, negative"
@@ -174,10 +174,10 @@ uneasy,uneasy,心神不宁感到不安的,Unclassified,E1_State (Direct Internal
 admire,admire,钦佩赞赏,Admiration,E1_State (Direct Internal Affective State),11,11,trust,positive,"positive, trust"
 inviting,inviting,引人入胜令人愉悦的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11,11,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
 mad,mad,发怒的 / 生气的,Unclassified,E1_E2_Candidate,11,11,"anger, disgust, fear, sadness",negative,"anger, disgust, fear, negative, sadness"
-nervousness,nervousness,紧张不安的情绪,Unclassified,E1_State (Direct Internal Affective State),11,11,fear,None,fear
-surprising,surprising,令人出乎意料惊喜的,Surprise,E2_Appraisal (Stimulus/Service Attribute),11,11,surprise,None,surprise
+nervousness,nervousness,紧张不安的情绪,Unclassified,E1_State (Direct Internal Affective State),11,11,fear,,fear
+surprising,surprising,令人出乎意料惊喜的,Surprise,E2_Appraisal (Stimulus/Service Attribute),11,11,surprise,,surprise
 trepidation,trepidation,惊恐战栗 / 不安,Unclassified,E1_E2_Candidate,11,10,"anticipation, fear, surprise",negative,"anticipation, fear, negative, surprise"
-wary,wary,警惕顾虑的,Unclassified,E1_E2_Candidate,11,11,fear,None,fear
+wary,wary,警惕顾虑的,Unclassified,E1_E2_Candidate,11,11,fear,,fear
 badly,badly,严重地 / 糟糕地,Unclassified,E1_E2_Candidate,10,9,sadness,negative,"negative, sadness"
 conscientious,conscientious,认真负责的,Unclassified,E1_E2_Candidate,10,10,trust,positive,"positive, trust"
 ecstatic,ecstatic,狂喜的 / 极度兴奋的,Unclassified,E1_E2_Candidate,10,10,"anticipation, joy, surprise",positive,"anticipation, joy, positive, surprise"
@@ -191,7 +191,7 @@ wonderfull,wonderful,令人惊叹绝妙的 (错别字变体),Joy / Wonder,E2_App
 bummer,bummer,令人扫兴扫兴的事,Unclassified,E2_Appraisal (Stimulus/Service Attribute),9,9,"anger, disgust",negative,"anger, disgust, negative"
 compliment,compliment,赞美 / 赞赏评价,Unclassified,E2_Appraisal (Stimulus/Service Attribute),9,9,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
 miserable,miserable,极度痛苦糟糕的,Unclassified,E1_State (Direct Internal Affective State),9,8,"anger, disgust, sadness",negative,"anger, disgust, negative, sadness"
-terribly,terribly,极度负面地 / 抱歉,Unclassified,E1_E2_Candidate,9,9,sadness,None,sadness
+terribly,terribly,极度负面地 / 抱歉,Unclassified,E1_E2_Candidate,9,9,sadness,,sadness
 cherished,cherish,珍视铭记的,Love / Affection,E1_State (Direct Internal Affective State),8,8,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
 dissapointed,disappointed,感到失望的（错别字变体）,Disappointment,E1_State (Direct Internal Affective State),8,7,"anger, disgust, sadness",negative,"anger, disgust, negative, sadness"
 exhausted,exhausted,精疲力竭极为疲惫的,Unclassified,E1_State (Direct Internal Affective State),8,8,sadness,negative,"negative, sadness"
@@ -212,7 +212,7 @@ unhappy,unhappy,不高兴不满意的,Unclassified,E1_State (Direct Internal Aff
 unpleasant,unpleasant,令人不快令人难受的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),7,7,"disgust, sadness",negative,"disgust, negative, sadness"
 weird,weird,古怪令人不安的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),7,7,disgust,negative,"disgust, negative"
 worrying,worry,令人担心的,Anxiety / Worry,E2_Appraisal (Stimulus/Service Attribute),7,7,"anticipation, fear, sadness",negative,"anticipation, fear, negative, sadness"
-amaze,amaze,使惊叹 / 惊奇,Amazement,E2_Appraisal (Stimulus/Service Attribute),6,5,surprise,None,surprise
+amaze,amaze,使惊叹 / 惊奇,Amazement,E2_Appraisal (Stimulus/Service Attribute),6,5,surprise,,surprise
 gratitude,gratitude,感激 / 感恩,Unclassified,E1_E2_Candidate,6,6,joy,positive,"joy, positive"
 hug,hug,拥抱 / 温暖关怀,Unclassified,E1_E2_Candidate,6,5,"joy, trust",positive,"joy, positive, trust"
 jovial,jovial,欢快风趣的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,6,joy,positive,"joy, positive"
@@ -226,7 +226,7 @@ hates,hate,厌恶 / 讨厌,Anger / Dislike,E1_State (Direct Internal Affective S
 joyful,joyful,充满喜悦欢快的,Unclassified,E1_State (Direct Internal Affective State),5,5,"joy, trust",positive,"joy, positive, trust"
 luscious,luscious,秀美令人心旷神怡的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),5,5,"anticipation, joy",positive,"anticipation, joy, positive"
 marveled,marvel,惊叹赞赏的,Wonder / Awe,E1_State (Direct Internal Affective State),5,5,surprise,positive,"positive, surprise"
-pity,pity,遗憾 / 同情怜悯,Pity / Sadness,E1_State (Direct Internal Affective State),5,5,sadness,None,sadness
+pity,pity,遗憾 / 同情怜悯,Pity / Sadness,E1_State (Direct Internal Affective State),5,5,sadness,,sadness
 scare,scare,吓人 / 引发恐慌的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),5,5,"anger, anticipation, fear, surprise",negative,"anger, anticipation, fear, negative, surprise"
 shock,shock,震惊 / 冲击,Surprise / Shock,E1_State (Direct Internal Affective State),5,5,"anger, fear, surprise",negative,"anger, fear, negative, surprise"
 suprise,surprise,惊喜 / 意料之外（错别字变体）,Surprise,E1_State (Direct Internal Affective State),5,5,"fear, joy, surprise",positive,"fear, joy, positive, surprise"
@@ -238,7 +238,7 @@ irritating,irritating,令人烦躁恼火的,Annoyance / Irritation,E2_Appraisal 
 nasty,nasty,令人厌恶的 / 恶劣的,Unclassified,E1_E2_Candidate,4,3,"anger, disgust, fear, sadness",negative,"anger, disgust, fear, negative, sadness"
 ominous,ominous,不详的 / 不妙的,Unclassified,E1_E2_Candidate,4,3,"anticipation, fear",negative,"anticipation, fear, negative"
 regretting,regret,感到后悔遗憾的,Regret,E1_State (Direct Internal Affective State),4,4,sadness,negative,"negative, sadness"
-suprised,surprised,感到惊喜惊讶的（错别字变体）,Surprise,E1_State (Direct Internal Affective State),4,4,surprise,None,surprise
+suprised,surprised,感到惊喜惊讶的（错别字变体）,Surprise,E1_State (Direct Internal Affective State),4,4,surprise,,surprise
 tranquil,tranquil,清幽宁静的（Calmness/Serenity State）,Unclassified,E1_State (Direct Internal Affective State),4,4,joy,positive,"joy, positive"
 tranquility,tranquility,宁静 / 平和,Unclassified,E1_E2_Candidate,4,4,"joy, trust",positive,"joy, positive, trust"
 unfair,unfair,不公平的 / 冤枉的,Unclassified,E1_E2_Candidate,4,3,"anger, disgust, sadness",negative,"anger, disgust, negative, sadness"
@@ -282,6 +282,6 @@ hazardous,hazardous,危险的 / 有隐患的,Unclassified,E1_E2_Candidate,1,1,fe
 hostile,hostile,敌意的 / 恶劣的,Unclassified,E1_E2_Candidate,1,1,"anger, disgust, fear",negative,"anger, disgust, fear, negative"
 reward,reward,赏心悦目的奖赏体验,Unclassified,E1_State (Direct Internal Affective State),1,1,"anticipation, joy, surprise, trust",positive,"anticipation, joy, positive, surprise, trust"
 shady,shady,可疑不诚信的,Unclassified,E1_E2_Candidate,1,1,fear,negative,"fear, negative"
-truthful,truthful,真实可信的,Unclassified,E1_E2_Candidate,1,1,trust,None,trust
+truthful,truthful,真实可信的,Unclassified,E1_E2_Candidate,1,1,trust,,trust
 ungodly,ungodly,糟糕恶劣的,Unclassified,E1_E2_Candidate,1,1,sadness,negative,"negative, sadness"
 unwell,unwell,身体不适的,Unclassified,E1_E2_Candidate,1,1,sadness,negative,"negative, sadness"

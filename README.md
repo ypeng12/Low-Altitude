@@ -154,7 +154,7 @@ To capture these domain-specific emotional dynamics with rigorous academic trans
 │ Phase 4: Human-in-the-Loop Fine Adjudication & Typo Normalization (canonical_lemma)                              │
 │ - Typo Normalization: suprised->surprised, exhilerating->exhilarating, aprehensive->apprehensive                    │
 │ - Strict Rule Purging: Purged interjections (yay), procedural (timely), physical vibration (choppy), price     │
-│ - Outcome: 632 Master Gold Emotion Words | 8,094 Master Purged Non-Emotion Terms (100% Zero Overlap)           │
+│ - Outcome: 630 Master Gold Emotion Words | 8,096 Master Purged Non-Emotion Terms (100% Zero Overlap)           │
 └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -178,7 +178,7 @@ To capture these domain-specific emotional dynamics with rigorous academic trans
 #### 📍 Phase 2: Gold Expansion & Vocabulary Scaling ($N=2,000$ Sample)
 - **Sampling Strategy**: Executed a secondary stratified random sample ($N=2,000$, Seed 100, incorporating 1,814 unique new unsampled reviews).
 - **Process**: Evaluated candidate terms against the Stage 1 vocabulary to uncover novel, lower-frequency emotion terms.
-- **Discoveries**: Added **173 new clean emotion terms**. Combined with Stage 1, the 2,500-review sample established a **4,513-word candidate universe** (632 Words Emotion Terms + 3,968 Purged Non-Emotion Terms).
+- **Discoveries**: Added **173 new clean emotion terms**. Combined with Stage 1, the 2,500-review sample established a **4,513-word candidate universe** (630 Words Emotion Terms + 3,968 Purged Non-Emotion Terms).
 - **Rule Refinement**: Formulated explicit purging criteria for social courtesy phrases (*thanks*, *thank*, *thankyou*), geographic entities (*talkeetna*, *maui*, *mckinley*), and cognitive stance words (*think*, *assume*).
 
 #### 📍 Phase 3: Corpus-Wide Completion ($N=18,901$ Unsampled Reviews)
@@ -217,7 +217,7 @@ Our Master Codebook incorporates a dual-index mapping (`word` $\rightarrow$ `can
 
 Adjudication was executed by evaluating every candidate term **in its actual review sentence context (`example_context`)**:
 
-#### ✅ RETAINED (Master Gold Emotion Lexicon Codebook: 632 Words)
+#### ✅ RETAINED (Master Gold Emotion Lexicon Codebook: 630 Words)
 1. **Experiencer Affective States ($E_1$)**: Direct internal emotional/psychological states felt by the tourist:
    - *Anxiety / Fear*: *nervous*, *afraid*, *scared*, *terrified*, *worried*, *claustrophobia*, *jitters*, *apprehension*, *phobia*, *uneasiness*, *dreaded*, *timid*, *unsettled*.
    - *Joy & Excitement*: *happy*, *thrilled*, *cheerful*, *exhilarated*, *giddy*, *stoked*, *overjoyed*, *ecstasy*, *loving*, *cherished*.
@@ -227,7 +227,7 @@ Adjudication was executed by evaluating every candidate term **in its actual rev
 2. **Stimulus / Service Appraisals ($E_2$)**: Subjective evaluations of air tour experience quality (*scary*, *spectacular*, *smooth*, *professional*, *flawless*, *hostile*, *nerve-wracking*, *great*, *amazing*, *good*, *awesome*, *excellent*, *captivating*, *daunting*, *harrowing*).
 3. **Aesthetic Emotions & High-Arousal Awe**: *breathtakingly* (expressing intense awe/amazement in aerial view context), *sublime* (aesthetic awe over glacier landscapes).
 
-#### ❌ PURGED (Master Removed Non-Emotion Log: 8,094 Words)
+#### ❌ PURGED (Master Removed Non-Emotion Log: 8,096 Words)
 
 > [!NOTE]
 > **Methodological Rationale on Emotive Interjections, Punctuation & Emojis**:
@@ -257,8 +257,8 @@ Adjudication was executed by evaluating every candidate term **in its actual rev
 ---
 
 ### 5. Mathematical Partition Completeness
-$$\text{Total Screened Vocabulary Universe (8,726)} = \text{Master Gold Lexicon (608)} + \text{Master Removed Log (8,094)}$$
-$$\text{Master Gold Lexicon (608)} \cap \text{Master Removed Log (8,094)} = 0 \quad (\text{100% Zero-Overlap Guaranteed Partition})$$
+$$\text{Total Screened Vocabulary Universe (8,726)} = \text{Master Gold Lexicon (608)} + \text{Master Removed Log (8,096)}$$
+$$\text{Master Gold Lexicon (608)} \cap \text{Master Removed Log (8,096)} = 0 \quad (\text{100% Zero-Overlap Guaranteed Partition})$$
 
 ---
 
@@ -266,8 +266,8 @@ $$\text{Master Gold Lexicon (608)} \cap \text{Master Removed Log (8,094)} = 0 \q
 
 | Artifact Name | File Format | Record Count | Description & Purpose | Direct File Link |
 | :--- | :---: | :---: | :--- | :--- |
-| **Master Gold Emotion Lexicon Codebook** | **Excel / CSV** | **632 Words** | **Primary Master Codebook** containing all 608 pure emotion & appraisal terms across N=21,215 reviews, with canonical lemma normalization and emotion categories. | 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) |
-| **Master Removed Non-Emotion Log** | **Excel / CSV** | **8,094 Words** | **Primary Master Audit Log** containing all purged non-emotion, entity, and procedural terms. | 👉 [`removed_non_emotion_words_log.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx) |
+| **Master Gold Emotion Lexicon Codebook** | **Excel / CSV** | **630 Words** | **Primary Master Codebook** containing all 608 pure emotion & appraisal terms across N=21,215 reviews, with canonical lemma normalization and emotion categories. | 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) |
+| **Master Removed Non-Emotion Log** | **Excel / CSV** | **8,096 Words** | **Primary Master Audit Log** containing all purged non-emotion, entity, and procedural terms. | 👉 [`removed_non_emotion_words_log.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx) |
 | **Stage 1 Discovery Emotion Lexicon** | Excel / CSV | 372 Words | Clean emotion terms discovered in Stage 1 ($N=500$). | 👉 [`clean_emotion_words_500_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx) |
 | **Stage 2 Expansion Emotion Lexicon** | Excel / CSV | 173 Words | New clean emotion terms expanded in Stage 2 ($N=2,000$). | 👉 [`clean_emotion_words_2000_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx) |
 | **Stage Final Clean New Emotion Words** | Excel / CSV | 65 Words | New clean emotion terms identified in Stage Final ($N=18,901$). | 👉 [`clean_new_emotion_words_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/clean_new_emotion_words_18901.xlsx) |
@@ -382,15 +382,15 @@ python run_data_pipeline.py
 python run_analysis_and_plots.py
 ```
 
-### 📊 7. NRC Emotion Lexicon Mapping & Comparative Audit ($N=632$ Words)
+### 📊 7. NRC Emotion Lexicon Mapping & Comparative Audit ($N=630$ Words)
 
-To validate the theoretical superiority of our **Corpus-Derived Gold Emotion Lexicon** over generic off-the-shelf lexicons, we mapped all **632 Master Gold Emotion Terms** against the **NRC Emotion Lexicon** (Mohammad & Turney):
+To validate the theoretical superiority of our **Corpus-Derived Gold Emotion Lexicon** over generic off-the-shelf lexicons, we mapped all **630 Master Gold Emotion Terms** against the **NRC Emotion Lexicon** (Mohammad & Turney):
 
 ![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
 
 #### Key Empirical Findings & NRC Lexicon Gaps:
 1. **Low Coverage Rate of Generic Lexicons (43.35% Miss Rate)**:
-   - Out of 632 domain-specific Gold Emotion terms, **NRC Lexicon only covers 358 words (56.65%)**.
+   - Out of 630 domain-specific Gold Emotion terms, **NRC Lexicon only covers 358 words (56.65%)**.
    - **274 words (43.35%) are completely MISSED by NRC**, including critical high-frequency low-altitude air tourism emotions: *amazing* (6,251 mentions), *awesome* (2,530 mentions), *fantastic* (2,026 mentions), *incredible* (1,612 mentions), *breathtaking* (1,346 mentions), *stunning* (552 mentions), *unforgettable* (459 mentions), and *awe* (304 mentions).
 
 2. **NRC 8 Basic Emotions Distribution across Gold Lexicon**:
