@@ -107,7 +107,7 @@
 
 所有候选词均在真实句子上下文 (`example_context`) 中进行严格审定：
 
-#### ✅ 保留项 (Master 金标准情感代码本: 648 个词)
+#### ✅ 保留项 (Master 金标准情感代码本: 632 个词)
 1. **体验者直接心理情绪状态 ($E_1$)**：游客感受到的内部心理情绪（*nervous*, *afraid*, *scared*, *terrified*, *worried*, *claustrophobia*, *jitters*, *relief*, *happy*, *thrilled*, *exhilarated*, *tranquil*, *calming*, *annoying*, *stressful*）。
 2. **刺激物/服务属性评价 ($E_2$)**：对观光飞行品质的主观评价（*scary*, *spectacular*, *smooth*, *professional*, *flawless*, *hostile*, *nerve-wracking*, *great*, *amazing*, *good*, *awesome*, *excellent*, *captivating*, *daunting*, *harrowing*）。
 3. **美学情绪与高唤起 Awe**：*breathtakingly* (在高空观光语境中表达强烈美学惊叹), *sublime* (冰川景观的崇高绝美感)。
@@ -142,7 +142,7 @@
 ---
 
 ### 5. 数学完备性证明与全量文件指南
-$$\text{全量语料库核心词汇池 (8,726 个词)} = \text{Master 金标准代码本 (648 个词)} + \text{Master 剔除词日志 (8,118 个词)}$$
+$$\text{全量语料库核心词汇池 (8,726 个词)} = \text{Master 金标准代码本 (632 个词)} + \text{Master 剔除词日志 (8,118 个词)}$$
 $$\text{Master 金标准代码本 (608)} \cap \text{Master 剔除词日志 (8,118)} = 0 \quad (\text{100% 零交集完备划分})$$
 
 ---
@@ -151,7 +151,7 @@ $$\text{Master 金标准代码本 (608)} \cap \text{Master 剔除词日志 (8,11
 
 | 产物名称 | 文件格式 | 记录条数 | 描述与使用建议 | GitHub 文件直达链接 |
 | :--- | :---: | :---: | :--- | :--- |
-| **Master 金标准情感代码本** | **Excel / CSV** | **648 个词** | **核心主代码本**，包含全量 N=21,215 评论提取的 608 个纯正情感词，含标准词根归一 `canonical_lemma` 与细分类。 | 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) |
+| **Master 金标准情感代码本** | **Excel / CSV** | **632 个词** | **核心主代码本**，包含全量 N=21,215 评论提取的 608 个纯正情感词，含标准词根归一 `canonical_lemma` 与细分类。 | 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) |
 | **Master 被剔除词日志** | **Excel / CSV** | **8,118 个词** | **核心主审计日志**，包含所有被剔除的中性词、实体词、人名地名与时间词。 | 👉 [`removed_non_emotion_words_log.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx) |
 | **Stage 1 探索性情感词表** | Excel / CSV | 372 个词 | Stage 1 ($N=500$) 提炼出的情感词。 | 👉 [`clean_emotion_words_500_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx) |
 | **Stage 2 扩充情感词表** | Excel / CSV | 173 个词 | Stage 2 ($N=2,000$) 扩充出的情感词。 | 👉 [`clean_emotion_words_2000_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx) |

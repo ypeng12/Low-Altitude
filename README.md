@@ -154,7 +154,7 @@ To capture these domain-specific emotional dynamics with rigorous academic trans
 │ Phase 4: Human-in-the-Loop Fine Adjudication & Typo Normalization (canonical_lemma)                              │
 │ - Typo Normalization: suprised->surprised, exhilerating->exhilarating, aprehensive->apprehensive                    │
 │ - Strict Rule Purging: Purged interjections (yay), procedural (timely), physical vibration (choppy), price     │
-│ - Outcome: 648 Master Gold Emotion Words | 8,118 Master Purged Non-Emotion Terms (100% Zero Overlap)           │
+│ - Outcome: 632 Master Gold Emotion Words | 8,118 Master Purged Non-Emotion Terms (100% Zero Overlap)           │
 └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -217,7 +217,7 @@ Our Master Codebook incorporates a dual-index mapping (`word` $\rightarrow$ `can
 
 Adjudication was executed by evaluating every candidate term **in its actual review sentence context (`example_context`)**:
 
-#### ✅ RETAINED (Master Gold Emotion Lexicon Codebook: 648 Words)
+#### ✅ RETAINED (Master Gold Emotion Lexicon Codebook: 632 Words)
 1. **Experiencer Affective States ($E_1$)**: Direct internal emotional/psychological states felt by the tourist:
    - *Anxiety / Fear*: *nervous*, *afraid*, *scared*, *terrified*, *worried*, *claustrophobia*, *jitters*, *apprehension*, *phobia*, *uneasiness*, *dreaded*, *timid*, *unsettled*.
    - *Joy & Excitement*: *happy*, *thrilled*, *cheerful*, *exhilarated*, *giddy*, *stoked*, *overjoyed*, *ecstasy*, *loving*, *cherished*.
@@ -266,7 +266,7 @@ $$\text{Master Gold Lexicon (608)} \cap \text{Master Removed Log (8,118)} = 0 \q
 
 | Artifact Name | File Format | Record Count | Description & Purpose | Direct File Link |
 | :--- | :---: | :---: | :--- | :--- |
-| **Master Gold Emotion Lexicon Codebook** | **Excel / CSV** | **648 Words** | **Primary Master Codebook** containing all 608 pure emotion & appraisal terms across N=21,215 reviews, with canonical lemma normalization and emotion categories. | 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) |
+| **Master Gold Emotion Lexicon Codebook** | **Excel / CSV** | **632 Words** | **Primary Master Codebook** containing all 608 pure emotion & appraisal terms across N=21,215 reviews, with canonical lemma normalization and emotion categories. | 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) |
 | **Master Removed Non-Emotion Log** | **Excel / CSV** | **8,118 Words** | **Primary Master Audit Log** containing all purged non-emotion, entity, and procedural terms. | 👉 [`removed_non_emotion_words_log.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx) |
 | **Stage 1 Discovery Emotion Lexicon** | Excel / CSV | 372 Words | Clean emotion terms discovered in Stage 1 ($N=500$). | 👉 [`clean_emotion_words_500_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx) |
 | **Stage 2 Expansion Emotion Lexicon** | Excel / CSV | 173 Words | New clean emotion terms expanded in Stage 2 ($N=2,000$). | 👉 [`clean_emotion_words_2000_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx) |
