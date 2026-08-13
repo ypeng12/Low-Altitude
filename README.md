@@ -351,53 +351,29 @@ $$\text{Total Master Gold Codebook (630)} = 358 \text{ (Total NRC Covered)} + 27
 
 ---
 
-### 5. 17 Rescued Emotion Terms via Canonical Lemma Normalization
+### 6. 3 Core Classes of Generic Lexicon Gaps ($N=272$ Missed Words)
 
-| Raw Token in Review (`word`) | Normalized Root Lemma (`canonical_lemma`) | Review Freq ($N=21,215$) | Rescued NRC 8-Emotion Categories | Why Raw String Matching Failed |
-| :--- | :--- | :---: | :--- | :--- |
-| **`worries`** | **`worry`** | 38 | `fear, anticipation, sadness` | Raw NRC misses plural *-es* suffix |
-| **`surprises`** | **`surprise`** | 21 | `fear, joy, surprise` | Raw NRC misses plural *-s* suffix |
-| **`cherished`** | **`cherish`** | 8 | `trust, anticipation, joy, surprise` | Raw NRC misses past participle *-ed* |
-| **`hates`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | Raw NRC misses verb inflection *-s* |
-| **`hated`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | Raw NRC misses past tense *-ed* |
-| **`marveled`** | **`marvel`** | 5 | `surprise` | Raw NRC misses past tense *-ed* |
-| **`dreaded`** | **`dread`** | 4 | `fear, anticipation` | Raw NRC misses participle *-ed* |
-| **`dreading`** | **`dread`** | 4 | `fear, anticipation` | Raw NRC misses participle *-ing* |
-| **`scaring`** | **`scare`** | 3 | `anger, fear, anticipation, surprise` | Raw NRC misses participle *-ing* |
-| **`horribly`** | **`horrible`** | 3 | `anger, fear, disgust` | Raw NRC misses adverbial *-ly* |
-| **`apprehensions`** | **`apprehension`** | 3 | `fear` | Raw NRC misses noun plural *-s* |
-| **`suprise`** | **`surprise`** | 5 | `fear, joy, surprise` | Raw NRC misses typo variant (missing r) |
-| **`suprised`** | **`surprised`** | 4 | `surprise` | Raw NRC misses typo variant |
-| **`dissapointed`** | **`disappointed`** | 8 | `anger, disgust, sadness` | Raw NRC misses typo variant |
-| **`aprehensive`** | **`apprehensive`** | 3 | `fear, anticipation` | Raw NRC misses typo variant |
-| **`disappointingly`**| **`disappointed`** | 3 | `anger, disgust, sadness` | Raw NRC misses adverbial derivation |
-| **`lucked`** | **`lucky`** | 86 | `joy, surprise` | Raw NRC misses verbalized inflection |
+All **272 missed words** are systematically classified into 3 core academic categories:
 
----
+1. **Class 1: Participle & Morphological Derivation Gaps (127 Words, 46.69%)**:
+   - **Participle Forms (-ing / -ed)** & **Adverbs/Superlatives (-ly, -est, -er)**: e.g., *loved (1,473), impressed (255), inspiring (210), relaxed (159), scared (144), amazed (120), thrilled (113), better (1,585), cheaper (208), perfectly (155), smoother (143), safely (132)*.
+   - **Empirical Validation**: Among the 127 pure morphological words, **48.82% (62 words) have base dictionary roots (e.g., *amaze, love, impress, inspire, scare, thrill, good, safe*) already present in NRC**. However, static string matching fails to capture them, omitting **88.7% (15,581 review mentions)** of high-frequency emotional expressions.
+   - *Deep Cause & Finding*: Generic NRC lexicons lack morphological derivation rules, causing significant classification omissions.
 
-### 6. 4 Root Causes of Generic NRC Lexicon Gaps ($N=272$ Missed Words)
-
-1. **Morphological & Participle Derivation Gaps (Pure Morphological Variants)**:
-   - **Participle Forms (-ing / -ed)**: e.g., *loved (1,473), impressed (255), inspiring (210), relaxed (159), scared (144), amazed (120), thrilled (113), reassuring (97)*.
-   - **Adverbs & Superlatives (-ly, -est, -er)**: e.g., *better (1,585), cheaper (208), perfectly (155), smoother (143), safely (132), smoothest (105), luckily (96)*.
-   - **Empirical Validation**: Among the 127 pure morphological variant words, **48.82% (62 words) have base dictionary roots (e.g., *amaze, love, impress, inspire, scare, thrill, good, safe*) already present in NRC**. However, static string matching fails to capture them, omitting **88.7% (15,581 review mentions)** of high-frequency emotional expressions.
-   - *Finding*: Generic NRC lexicons lack morphological derivation rules, causing significant classification omissions.
-
-2. **Omission of Modern Online Tourism Colloquial Superlatives & Base Terms (Web 2.0 UGC Seed Gap, 44.85% of Misses)**:
+2. **Class 2: Omission of Modern Online Tourism Colloquial Superlatives & Base Terms (128 Words, 47.06%)**:
    - **Key Terms**: *great (11,541), awesome (2,530), fantastic (2,026), nice (1,794), incredible (1,612), comfortable (1,446), fabulous (508), enjoyable (460), unforgettable (459), funny (301), phenomenal (200)*.
-   - **Manual & Code Verification**: Manual and programmatic audit confirmed that among the 128 base candidate words, **only `stellar` (29 mentions) exists as a rare exception in NRC (tagged with `positive`), whereas all remaining 127 base terms are 100% ABSENT from NRC (matching tags = 0)**. These 127 pure missed terms leave **28,073 review mentions** uncaptured.
-   - **Pareto Principle Validation**: Unlike Cause 1 (recoverable via Lemmatization), Cause 2 represents a complete dictionary seed gap. Remarkably, just **10 top high-frequency colloquial superlatives** (*great, awesome, fantastic, nice, incredible, etc.*) account for **20,549 mentions (73.2% of Cause 2 frequency, and 42.08% of total missed review frequency)**.
-   - *Deep Cause & Finding*: NRC 2012 seed vocabulary prioritized formal written English corpora. Modern TripAdvisor reviewers rely heavily on colloquial high-arousal superlatives (*great, awesome, fantastic*), causing widespread generic lexicon failure in Web 2.0 online review contexts and highlighting the necessity of domain-specific codebooks.
+   - **Empirical Validation**: Even after 100% Lemmatization root mapping, top terms such as `great`, `awesome`, `fantastic`, and `nice` remain 100% ABSENT from NRC. **10 top high-frequency colloquial superlatives account for 20,549 mentions (73.2% of Class 2 frequency, and 42.08% of total missed review frequency)**.
+   - *Deep Cause & Finding*: NRC 2012 seed vocabulary prioritized formal written English corpora. Modern TripAdvisor reviewers rely heavily on colloquial high-arousal superlatives (*great, awesome, fantastic*), causing widespread generic lexicon failure in Web 2.0 online review contexts.
 
-3. **Absence of Low-Altitude Aerial Visual Awe & Aesthetic Emotions (Domain Awe Gap, 3.31% of Misses)**:
-   - **Key Terms**: *breathtaking (1,346), stunning (552), scenic (400), awe (304), surreal (98), breathtakingly (30), mesmerizing (26), awed (15), sublime (6), spellbinding (4)*.
-   - **Empirical Validation**: All 11 awe terms have **0 tags in NRC (100% unmapped)**, omitting **2,791 review mentions**.
-   - *Deep Cause & Finding*: Low-altitude air tourism is uniquely defined by **Aerial Visual Awe**, a domain-specific aesthetic emotion completely absent from generic news or conversational lexicons.
-
-4. **Absence of Flight Perceived Risk & Somatic Symptoms (Aviation Risk Gap, 1.84% of Misses)**:
-   - **Key Terms**: *airsick (33), claustrophobic (16), claustrophobia (9), jitters (5), unnerving (4), phobia (4)*.
-   - **Empirical Validation**: All 6 flight risk terms have **0 tags in NRC (100% unmapped)**, omitting **71 review mentions**.
-   - *Deep Cause & Finding*: Flight vibration, confined cabin space, and altitude suspense trigger somatic anxiety and perceived risk reactions specific to aviation tourism that generic sentiment dictionaries fail to capture.
+3. **Class 3: Low-Altitude Air Tourism Domain-Specific Lexicon (低空观光旅游特有词汇, 17 Words, 6.25%)**:
+   - **Sub-dimension A: Low-Altitude Aerial Visual Awe & Aesthetic Emotions (Domain Awe Gap)**:
+     - **Key Terms**: *breathtaking (1,346), stunning (552), scenic (400), awe (304), surreal (98), breathtakingly (30), mesmerizing (26), awed (15), sublime (6), spellbinding (4)*.
+     - **Empirical Validation**: All 11 awe terms have **0 tags in NRC (100% unmapped)**, omitting **2,791 review mentions**.
+     - **Deep Cause & Finding**: Low-altitude air tourism is uniquely defined by Aerial Visual Awe, a domain-specific aesthetic emotion completely absent from generic news or conversational lexicons.
+   - **Sub-dimension B: Flight Perceived Risk & Somatic Symptoms (Aviation Risk Gap)**:
+     - **Key Terms**: *airsick (33), claustrophobic (16), claustrophobia (9), jitters (5), unnerving (4), phobia (4)*.
+     - **Empirical Validation**: All 6 flight risk terms have **0 tags in NRC (100% unmapped)**, omitting **71 review mentions**.
+     - **Deep Cause & Finding**: Flight vibration, confined cabin space, and altitude suspense trigger somatic anxiety and perceived risk reactions specific to aviation tourism that generic sentiment dictionaries fail to capture.
 
 ## 📈 Summary Data & Empirical Metrics Ledger
 
@@ -505,30 +481,6 @@ lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.
 $$\text{Total Master Gold Codebook (630)} = 286 \text{ (8-Emotions)} + 72 \text{ (Polarity Only)} + 272 \text{ (NRC Misses)}$$
 
 ---
-
-#### 💡 17 Rescued Emotion Terms via Canonical Lemma Normalization
-
-By instituting our **Canonical Lemma Normalization Protocol**, 17 inflected plurals, past participles, and typo variants were mapped back to their dictionary root lemmas, successfully recovering their 8-emotion tags:
-
-| Raw Token in Review (`word`) | Normalized Root Lemma (`canonical_lemma`) | Review Freq ($N=21,215$) | Rescued NRC 8-Emotion Categories | Why Raw String Matching Failed |
-| :--- | :--- | :---: | :--- | :--- |
-| **`worries`** | **`worry`** | 38 | `fear, anticipation, sadness` | Raw NRC misses plural *-es* suffix |
-| **`surprises`** | **`surprise`** | 21 | `fear, joy, surprise` | Raw NRC misses plural *-s* suffix |
-| **`cherished`** | **`cherish`** | 8 | `trust, anticipation, joy, surprise` | Raw NRC misses past participle *-ed* |
-| **`hates`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | Raw NRC misses verb inflection *-s* |
-| **`hated`** | **`hate`** | 5 | `anger, fear, disgust, sadness` | Raw NRC misses past tense *-ed* |
-| **`marveled`** | **`marvel`** | 5 | `surprise` | Raw NRC misses past tense *-ed* |
-| **`dreaded`** | **`dread`** | 4 | `fear, anticipation` | Raw NRC misses participle *-ed* |
-| **`dreading`** | **`dread`** | 4 | `fear, anticipation` | Raw NRC misses participle *-ing* |
-| **`scaring`** | **`scare`** | 3 | `anger, fear, anticipation, surprise` | Raw NRC misses participle *-ing* |
-| **`horribly`** | **`horrible`** | 3 | `anger, fear, disgust` | Raw NRC misses adverbial *-ly* |
-| **`apprehensions`** | **`apprehension`** | 3 | `fear` | Raw NRC misses noun plural *-s* |
-| **`suprise`** | **`surprise`** | 5 | `fear, joy, surprise` | Raw NRC misses typo variant (missing r) |
-| **`suprised`** | **`surprised`** | 4 | `surprise` | Raw NRC misses typo variant |
-| **`dissapointed`** | **`disappointed`** | 8 | `anger, disgust, sadness` | Raw NRC misses typo variant |
-| **`aprehensive`** | **`apprehensive`** | 3 | `fear, anticipation` | Raw NRC misses typo variant |
-| **`disappointingly`**| **`disappointed`** | 3 | `anger, disgust, sadness` | Raw NRC misses adverbial derivation |
-| **`lucked`** | **`lucky`** | 86 | `joy, surprise` | Raw NRC misses verbalized inflection |
 
 ---
 
