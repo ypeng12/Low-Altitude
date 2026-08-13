@@ -1,6 +1,6 @@
 {
-  "description": "Config-driven Emotion & Appraisal Rules for Stage Final Lexicon Induction",
-  "version": "1.0.0",
+  "description": "Config-Driven Emotion & Appraisal Rules for Stage Final Lexicon Induction",
+  "version": "1.1.0",
   "affect_classifications": {
     "beyond": {
       "chinese_translation": "超越预期的（beyond expectations/nice）",
@@ -49,12 +49,26 @@
     "tranquil": {
       "chinese_translation": "清幽宁静的",
       "affect_type": "E1_State (Direct Internal Affective State)"
+    },
+    "choppy": {
+      "chinese_translation": "颠簸起伏不平的（颠簸体验评价）",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "inexpensive": {
+      "chinese_translation": "经济实惠划算的",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "insightful": {
+      "chinese_translation": "富有真知灼见生动的（解说评价）",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
     }
   },
-  "nlp_heuristics": {
-    "state_keywords": ["feel", "felt", "was", "were", "made us", "scared", "afraid", "worried", "nervous", "grateful", "happy", "sick", "thrilled", "surprised"],
-    "appraisal_keywords": ["tour", "flight", "pilot", "view", "views", "scenery", "landscape", "service", "plane", "helicopter", "crew", "commentary"],
-    "positive_morphemes": ["ful", "ous", "able", "ible", "ive", "ingly", "ly"],
-    "negative_morphemes": ["less", "un", "dis", "in", "im", "ir"]
-  }
+  "non_emotion_purged_rules": [
+    "timely",
+    "every",
+    "another",
+    "nearby",
+    "usual",
+    "randy"
+  ]
 }
