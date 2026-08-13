@@ -128,40 +128,40 @@ Following **Orea-Giner et al. (2022)**, emotion in tourism is not monolithic. We
 
 ---
 
-## 🔬 Corpus-Derived Emotion Lexicon Codebook (2,500-Review Master Gold Codebook)
+## 🔬 Corpus-Derived Emotion Lexicon Codebook (Master Gold Emotion Lexicon)
 
 To avoid relying blindly on fixed external sentiment lexicons (e.g., NRC or VADER), this project implements a two-stage **corpus-derived emotion lexicon induction pipeline** tailored specifically for low-altitude air tourism.
 
-### Stage 1 & Stage 2 Lexicon Induction Workflow
+### Lexicon Induction & Human Calibration Workflow
 - **Source Corpus**: `data/cleaned_datasets/tripadvisor_level3_english_v2.csv` (21,215 clean English reviews).
-- **Stage 1 (500 Discovery Sample)**: Stratified random sampling ($N=500$, Seed 42). Extracted and adjudicated **372 clean emotion terms** (`data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx`).
-- **Stage 2 (2,000 Expansion Sample)**: Stratified random sampling ($N=2,000$, Seed 100). Screened new candidate terms beyond Stage 1 to extract **173 new clean emotion terms** (`data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx`).
-- **Consolidated Master Codebook ($N=2,500$)**: Merged Stage 1 and Stage 2 to form the **2,500-Review Master Gold Emotion Codebook** (`data/derived_outputs/clean_emotion_gold_codebook_2500_reviews.xlsx`), comprising **545 pure, human-calibrated emotion & appraisal terms** with 100% contextual Chinese translations and $E_1$ vs $E_2$ affect types.
+- **Stage 1 Discovery ($N=500$)**: Stratified random sampling ($N=500$, Seed 42). Extracted and adjudicated **372 clean emotion terms** (`data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx`).
+- **Stage 2 Expansion ($N=2,000$)**: Stratified random sampling ($N=2,000$, Seed 100). Screened new candidate terms beyond Stage 1 to extract **173 new clean emotion terms** (`data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx`).
+- **Canonical Master Gold Lexicon (`gold_emotion_lexicon_codebook.xlsx`)**: Merged Stage 1 and Stage 2 human calibration outputs to produce the **Master Gold Emotion Lexicon Codebook** (`data/derived_outputs/gold_emotion_lexicon_codebook.xlsx`), comprising **545 pure, human-calibrated emotion & appraisal terms** with 100% contextual Chinese translations and $E_1$ vs $E_2$ affect types.
 
 ### 🔍 Sentence-Contextual Screening Logic & Adjudication Rules
 Every candidate term was evaluated **strictly within its exact review sentence (`example_context`)**, adhering to human-in-the-loop adjudication standards:
 
-#### ✅ RETAINED (Master Gold Codebook: `clean_emotion_gold_codebook_2500_reviews.xlsx` - 545 Words)
+#### ✅ RETAINED (Gold Emotion Lexicon: `gold_emotion_lexicon_codebook.xlsx` - 545 Words)
 1. **Experiencer Affective States ($E_1$)**: Direct internal emotional/psychological states felt by the tourist (*nervous*, *awe*, *secure*, *uncomfortable*, *grateful*, *happy*, *afraid*, *thrilled*, *sick*, *surprised*, *worry*, *shame*, *privilege*, *disappointment*, *miserable*, *laughing*, *soaring*).
 2. **Stimulus / Service Appraisals ($E_2$)**: Subjective evaluations of air tour attributes (*scary*, *breathtaking*, *spectacular*, *smooth*, *professional*, *flawless*, *hostile*, *nerve-wracking*, *mild*, *cute*, *compliment*, *incomprehensible*, *interesting*, *informative*, *educational*, *entertaining*, *great*, *amazing*, *good*, *awesome*, *excellent*).
 3. **Polysemous Affect Terms ($E_1\_E_2$)**: Terms carrying both state and appraisal values depending on sentence context (*comfortable* - *"made us feel comfortable"* [$E_1$] vs *"comfortable air tour"* [$E_2$], *fun*, *friendly*, *knowledgeable*).
 4. **Codebook Annotations**: Includes 100% contextual Chinese translations (`chinese_translation`), explicit affect types (`affect_type`), aggregated 2,500-sample frequency (`frequency_2500`), review counts, and example sentence contexts.
 
-#### ❌ PURGED (Master Removed Log: `removed_non_emotion_words_2500_reviews.xlsx` - 3,968 Words)
+#### ❌ PURGED (Removed Non-Emotion Log: `removed_non_emotion_words_log.xlsx` - 3,968 Words)
 1. **Neutral Physical Objects, Colors & Nature**: *blue*, *silver*, *gold*, *tall*, *pine*, *gravel*, *water*, *canyon*, *helicopter*, *plane*, *pilot*, *flight*, *island*, *glacier*.
 2. **Social Courtesy / Hospitality Greetings**: *thanks*, *thank*, *thanked*, *thankyou* (purged as social formality rather than felt emotion).
 3. **Cognitive / Speculative Stance Words**: *think*, *thought*, *suspect*, *doubt*, *assume*, *believe*, *guess*.
 4. **Neutral Structural Modifiers & Quantifiers**: *minute*, *hour*, *dollar*, *one*, *first*, *highly*, *took*, *got*, *day*, *time*.
 
 ### 📊 Mathematical Partition Completeness
-$$\text{Total 2,500 Unique Candidates (4,513)} = \text{Master Gold Emotion Words (545)} + \text{Master Removed Non-Emotion Words (3,968)}$$
-$$\text{Gold Codebook (545)} \cap \text{Removed Log (3,968)} = 0 \quad (\text{100% Zero-Overlap Guaranteed Partition})$$
+$$\text{Total Human-Screened Candidate Universe (4,513)} = \text{Gold Emotion Lexicon (545)} + \text{Removed Non-Emotion Log (3,968)}$$
+$$\text{Gold Lexicon (545)} \cap \text{Removed Log (3,968)} = 0 \quad (\text{100% Zero-Overlap Guaranteed Partition})$$
 
-### 🛠️ Key Derived Outputs & Artifacts
-- **2,500 Master Gold Codebook (Excel)**: [data/derived_outputs/clean_emotion_gold_codebook_2500_reviews.xlsx](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/clean_emotion_gold_codebook_2500_reviews.xlsx)
-- **2,500 Master Gold Codebook (CSV)**: [data/derived_outputs/clean_emotion_gold_codebook_2500_reviews.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/clean_emotion_gold_codebook_2500_reviews.csv)
-- **2,500 Master Removed Log (Excel)**: [data/derived_outputs/removed_non_emotion_words_2500_reviews.xlsx](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_2500_reviews.xlsx)
-- **2,500 Master Removed Log (CSV)**: [data/derived_outputs/removed_non_emotion_words_2500_reviews.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_2500_reviews.csv)
+### 🛠️ Key Derived Outputs & Master Files
+- **Master Gold Emotion Lexicon Codebook (Excel)**: [data/derived_outputs/gold_emotion_lexicon_codebook.xlsx](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx)
+- **Master Gold Emotion Lexicon Codebook (CSV)**: [data/derived_outputs/gold_emotion_lexicon_codebook.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.csv)
+- **Master Removed Non-Emotion Log (Excel)**: [data/derived_outputs/removed_non_emotion_words_log.xlsx](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx)
+- **Master Removed Non-Emotion Log (CSV)**: [data/derived_outputs/removed_non_emotion_words_log.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.csv)
 
 ---
 
