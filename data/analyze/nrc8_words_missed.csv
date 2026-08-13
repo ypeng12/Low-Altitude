@@ -1,345 +1,345 @@
-﻿word,canonical_lemma,chinese_translation,emotion_category,affect_type,frequency_21215,review_count_21215,nrc8_emotions,nrc_polarities,nrc_all_tags
-great,great,非常棒的 / 极好的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11541,8445,None (Not in NRC 8),,Unmapped in NRC
-amazing,amazing,极其震撼赞叹的 / 太棒了,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6251,5377,None (Not in NRC 8),,Unmapped in NRC
-best,best,最棒的 / 顶级的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3420,2977,None (Not in NRC 8),,Unmapped in NRC
-worth,worth,物有所值的 / 绝对值得的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2799,2678,None (Not in NRC 8),positive,positive
-awesome,awesome,太棒了 / 极为赞叹的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2530,2344,None (Not in NRC 8),,Unmapped in NRC
-fantastic,fantastic,奇妙太棒的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2026,1875,None (Not in NRC 8),,Unmapped in NRC
-nice,nice,美好的 / 良好的,Unclassified,E1_E2_Candidate,1794,1586,None (Not in NRC 8),,Unmapped in NRC
-incredible,incredible,难以置信震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1612,1508,None (Not in NRC 8),,Unmapped in NRC
-better,better,更好的 / 更满意的（超过预期）,Unclassified,E1_E2_Candidate,1585,1431,None (Not in NRC 8),,Unmapped in NRC
-loved,loved,喜爱 / 热爱（体验）,Unclassified,E1_State (Direct Internal Affective State),1473,1365,None (Not in NRC 8),,Unmapped in NRC
-comfortable,comfortable,舒适的 / 安心的,Unclassified,E1_E2_Polysemous (State & Appraisal),1446,1372,None (Not in NRC 8),,Unmapped in NRC
-breathtaking,breathtaking,令人屏息震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1346,1328,None (Not in NRC 8),,Unmapped in NRC
-interesting,interesting,引人入胜的 / 趣味盎然的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),886,853,None (Not in NRC 8),positive,positive
-cool,cool,酷的 / 爽快的,Unclassified,E1_E2_Candidate,652,606,None (Not in NRC 8),positive,positive
-stunning,stunning,令人目眩震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),552,546,None (Not in NRC 8),,Unmapped in NRC
-fabulous,fabulous,绝妙的 / 极好的,Unclassified,E1_E2_Candidate,508,486,None (Not in NRC 8),,Unmapped in NRC
-enjoyable,enjoyable,令人愉快的 / 趣味盎然的,Unclassified,E1_E2_Candidate,460,446,None (Not in NRC 8),,Unmapped in NRC
-unforgettable,unforgettable,令人难忘的 / 铭心的,Unclassified,E1_E2_Candidate,459,455,None (Not in NRC 8),,Unmapped in NRC
-scenic,scenic,风景优美的 / 宜人的,Unclassified,E1_E2_Candidate,400,363,None (Not in NRC 8),,Unmapped in NRC
-incredibly,incredibly,难以置信地 / 极其,Unclassified,E1_E2_Candidate,315,301,None (Not in NRC 8),,Unmapped in NRC
-awe,awe,敬畏 / 震撼,Unclassified,E1_State (Direct Internal Affective State),304,303,None (Not in NRC 8),,Unmapped in NRC
-unbelievable,unbelievable,难以置信的 / 震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),302,298,None (Not in NRC 8),negative,negative
-funny,funny,幽默风趣的,Unclassified,E1_E2_Candidate,301,299,None (Not in NRC 8),,Unmapped in NRC
-plenty,plenty,丰富的 / 充足的,Unclassified,E1_E2_Candidate,298,280,None (Not in NRC 8),,Unmapped in NRC
-hard,hard,困难的 / 艰辛的,Unclassified,E1_E2_Candidate,297,285,None (Not in NRC 8),,Unmapped in NRC
-exceptional,exceptional,卓越的 / 杰出的（顶级评价）,Unclassified,E1_E2_Candidate,276,271,None (Not in NRC 8),,Unmapped in NRC
-calm,calm,镇定 / 平息情绪的,Calmness,E1_State (Direct Internal Affective State),259,251,None (Not in NRC 8),positive,positive
-impressed,impressed,感到深深被折服/留下深刻印象,Admiration / Impression,E1_State (Direct Internal Affective State),255,248,None (Not in NRC 8),,Unmapped in NRC
-unfortunately,unfortunately,不幸的是 / 遗憾的是,Unclassified,E1_E2_Candidate,240,230,None (Not in NRC 8),,Unmapped in NRC
-fortunate,fortunate,幸运的 / 幸运地,Unclassified,E1_E2_Candidate,235,231,None (Not in NRC 8),positive,positive
-welcome,welcome,受欢迎的 / 感受温暖的,Unclassified,E1_E2_Candidate,212,208,None (Not in NRC 8),,Unmapped in NRC
-inspiring,inspiring,令人启发震慑的,Inspiration,E2_Appraisal (Stimulus/Service Attribute),210,209,None (Not in NRC 8),,Unmapped in NRC
-cheaper,cheaper,更实惠的 / 较便宜的,Unclassified,E1_E2_Candidate,208,204,None (Not in NRC 8),,Unmapped in NRC
-phenomenal,phenomenal,现象级震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),200,198,None (Not in NRC 8),,Unmapped in NRC
-superb,superb,极好精湛的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),196,189,None (Not in NRC 8),positive,positive
-fine,fine,良好的 / 优秀的,Unclassified,E1_E2_Candidate,190,174,None (Not in NRC 8),,Unmapped in NRC
-forward,forward,期待（look forward）,Unclassified,E1_E2_Candidate,183,178,None (Not in NRC 8),positive,positive
-reasonable,reasonable,合理的 / 公道的,Unclassified,E1_E2_Candidate,179,179,None (Not in NRC 8),,Unmapped in NRC
-relaxed,relaxed,放松的 / 从容的,Unclassified,E1_State (Direct Internal Affective State),159,158,None (Not in NRC 8),,Unmapped in NRC
-perfectly,perfectly,完美地 / 无可挑剔地,Unclassified,E1_E2_Candidate,155,149,None (Not in NRC 8),,Unmapped in NRC
-pleasure,pleasure,乐趣 / 愉悦,Unclassified,E1_E2_Candidate,153,149,None (Not in NRC 8),,Unmapped in NRC
-scared,scared,感到恐惧害怕的,Fear,E1_State (Direct Internal Affective State),144,137,None (Not in NRC 8),,Unmapped in NRC
-smoother,smoother,更平稳的 / 更顺畅的,Unclassified,E1_E2_Candidate,143,143,None (Not in NRC 8),,Unmapped in NRC
-wrong,wrong,出差错的 / 错误的（负面体验）,Unclassified,E1_E2_Candidate,137,132,None (Not in NRC 8),negative,negative
-cheap,cheap,便宜的 / 廉价的,Unclassified,E1_E2_Candidate,134,132,None (Not in NRC 8),negative,negative
-safely,safely,安全平稳地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),132,129,None (Not in NRC 8),,Unmapped in NRC
-exactly,exactly,精准地 / 正是,Unclassified,E1_E2_Candidate,130,126,None (Not in NRC 8),,Unmapped in NRC
-impressive,impressive,令人印象深刻的,Unclassified,E1_E2_Candidate,130,129,None (Not in NRC 8),,Unmapped in NRC
-humor,humor,幽默感,Unclassified,E1_E2_Candidate,125,124,None (Not in NRC 8),,Unmapped in NRC
-dream,dream,梦寐以求的,Unclassified,E1_E2_Candidate,124,118,None (Not in NRC 8),,Unmapped in NRC
-sorry,sorry,感到抱歉遗憾的,Pity / Regret,E1_State (Direct Internal Affective State),123,123,None (Not in NRC 8),,Unmapped in NRC
-relaxing,relaxing,令人放松惬意的,Relaxation / Calmness,E2_Appraisal (Stimulus/Service Attribute),122,119,None (Not in NRC 8),,Unmapped in NRC
-wonder,wonder,惊奇 / 赞叹,Amazement / Wonder,E2_Appraisal (Stimulus/Service Attribute),121,117,None (Not in NRC 8),,Unmapped in NRC
-amazed,amazed,感到吃惊惊叹的,Amazement,E1_State (Direct Internal Affective State),120,119,None (Not in NRC 8),,Unmapped in NRC
-thrilled,thrilled,极度兴奋的,Unclassified,E1_State (Direct Internal Affective State),113,112,None (Not in NRC 8),,Unmapped in NRC
-honestly,honestly,老实说 / 真诚地,Unclassified,E1_E2_Candidate,111,109,None (Not in NRC 8),,Unmapped in NRC
-willing,willing,乐意的 / 愿意的,Unclassified,E1_E2_Candidate,108,104,None (Not in NRC 8),,Unmapped in NRC
-smoothest,smoothest,最平稳的,Unclassified,E1_E2_Candidate,105,105,None (Not in NRC 8),,Unmapped in NRC
-positive,positive,积极正面的,Unclassified,E1_E2_Candidate,101,98,None (Not in NRC 8),,Unmapped in NRC
-surreal,surreal,超现实的 / 梦幻般的,Unclassified,E1_E2_Candidate,98,98,None (Not in NRC 8),,Unmapped in NRC
-reassuring,reassuring,令人安心放心的,Relief / Reassurance,E2_Appraisal (Stimulus/Service Attribute),97,96,None (Not in NRC 8),,Unmapped in NRC
-concern,concern,担忧 / 关切（焦虑感）,Unclassified,E1_E2_Candidate,96,91,None (Not in NRC 8),,Unmapped in NRC
-luckily,luckily,幸运地 / 幸亏,Unclassified,E1_E2_Candidate,96,93,None (Not in NRC 8),,Unmapped in NRC
-poor,poor,贫乏的 / 差劲的,Unclassified,E1_E2_Candidate,95,91,None (Not in NRC 8),,Unmapped in NRC
-scary,scary,令人害怕的 / 吓人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),94,94,None (Not in NRC 8),,Unmapped in NRC
-enthusiastic,enthusiastic,热情的 / 充满激情的,Unclassified,E1_E2_Candidate,93,90,None (Not in NRC 8),,Unmapped in NRC
-exhilarating,exhilarating,令人极为兴奋刺激的,Exhilaration / Excitement,E2_Appraisal (Stimulus/Service Attribute),90,89,None (Not in NRC 8),,Unmapped in NRC
-inaccessible,inaccessible,难以到达的 / 偏远秘境感,Unclassified,E2_Appraisal (Stimulus/Service Attribute),86,85,None (Not in NRC 8),negative,negative
-rushed,rushed,仓促的 / 匆忙的,Unclassified,E1_E2_Candidate,85,79,None (Not in NRC 8),,Unmapped in NRC
-capable,capable,有能力的 / 熟练精湛的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),84,83,None (Not in NRC 8),,Unmapped in NRC
-prone,prone,易患（晕机）的,Unclassified,E1_E2_Candidate,84,84,None (Not in NRC 8),,Unmapped in NRC
-simple,simple,简单明了的 / 省心的,Unclassified,E1_E2_Candidate,84,83,None (Not in NRC 8),,Unmapped in NRC
-fascinating,fascinating,令人入迷极具吸引力的,Fascination,E2_Appraisal (Stimulus/Service Attribute),83,82,None (Not in NRC 8),positive,positive
-wonders,wonder,惊奇 / 奇观,Amazement / Wonder,E2_Appraisal (Stimulus/Service Attribute),83,82,None (Not in NRC 8),,Unmapped in NRC
-grateful,grateful,感激的 / 感恩的,Unclassified,E1_State (Direct Internal Affective State),80,78,None (Not in NRC 8),positive,positive
-advantage,advantage,优势 / 极佳点,Unclassified,E2_Appraisal (Stimulus/Service Attribute),78,78,None (Not in NRC 8),positive,positive
-famous,famous,著名的 / 享誉的,Unclassified,E1_E2_Candidate,77,71,None (Not in NRC 8),positive,positive
-safer,safer,更安全的 / 更安心的,Unclassified,E1_E2_Candidate,77,77,None (Not in NRC 8),,Unmapped in NRC
-neat,neat,整洁的 / 干练的,Unclassified,E1_E2_Candidate,76,75,None (Not in NRC 8),,Unmapped in NRC
-coolest,coolest,最酷爽震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),75,75,None (Not in NRC 8),,Unmapped in NRC
-worthwhile,worthwhile,值得的 / 划算的,Unclassified,E1_E2_Candidate,75,74,None (Not in NRC 8),,Unmapped in NRC
-promptly,promptly,及时迅速地,Unclassified,E1_E2_Candidate,74,73,None (Not in NRC 8),,Unmapped in NRC
-concerns,concerns,担忧 / 关切,Unclassified,E1_E2_Candidate,73,71,None (Not in NRC 8),,Unmapped in NRC
-greatest,greatest,最伟大的 / 极佳的,Unclassified,E1_E2_Candidate,73,71,None (Not in NRC 8),,Unmapped in NRC
-ideal,ideal,理想的 / 完美的,Unclassified,E1_E2_Candidate,72,66,None (Not in NRC 8),,Unmapped in NRC
-fears,fears,恐惧 / 忧虑,Unclassified,E1_E2_Candidate,64,61,None (Not in NRC 8),,Unmapped in NRC
-tremendous,tremendous,震撼巨大的,Unclassified,E1_E2_Candidate,64,64,None (Not in NRC 8),,Unmapped in NRC
-conscious,conscious,有意识的 / 讲究的,Unclassified,E1_E2_Candidate,63,63,None (Not in NRC 8),,Unmapped in NRC
-pristine,pristine,原始纯净的,Unclassified,E1_E2_Candidate,62,61,None (Not in NRC 8),positive,positive
-dramatic,dramatic,戏剧性的 / 震撼的,Unclassified,E1_E2_Candidate,61,58,None (Not in NRC 8),,Unmapped in NRC
-extraordinary,extraordinary,非凡的 / 卓越的,Unclassified,E1_E2_Candidate,61,60,None (Not in NRC 8),positive,positive
-gracious,gracious,亲切和蔼的,Unclassified,E1_E2_Candidate,61,60,None (Not in NRC 8),positive,positive
-moving,moving,令人动容感人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),61,59,None (Not in NRC 8),,Unmapped in NRC
-complimentary,complimentary,赞赏的 / 赠送贴心的,Unclassified,E1_E2_Candidate,59,56,None (Not in NRC 8),,Unmapped in NRC
-convenient,convenient,便捷省心的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),59,59,None (Not in NRC 8),positive,positive
-nerves,nerves,紧张感 / 不安神经,Unclassified,E1_E2_Candidate,59,57,None (Not in NRC 8),,Unmapped in NRC
-unreal,unreal,如梦似幻的 / 震撼的,Unclassified,E1_E2_Candidate,59,56,None (Not in NRC 8),,Unmapped in NRC
-flawless,flawless,无瑕的 / 完美的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),58,58,None (Not in NRC 8),,Unmapped in NRC
-fortunately,fortunately,幸运的是,Unclassified,E1_E2_Candidate,58,58,None (Not in NRC 8),,Unmapped in NRC
-glorious,glorious,壮丽辉煌的,Unclassified,E1_E2_Candidate,56,55,None (Not in NRC 8),,Unmapped in NRC
-uncomfortable,uncomfortable,感到不适的 / 不安的,Unclassified,E1_State (Direct Internal Affective State),56,54,None (Not in NRC 8),negative,negative
-fair,fair,公道的 / 划算的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),55,55,None (Not in NRC 8),positive,positive
-caring,caring,体贴入微关怀的,Warmth / Kindness,E2_Appraisal (Stimulus/Service Attribute),53,52,None (Not in NRC 8),,Unmapped in NRC
-gentle,gentle,平稳柔和的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),52,50,None (Not in NRC 8),,Unmapped in NRC
-strong,strong,强烈的,Unclassified,E1_E2_Candidate,52,49,None (Not in NRC 8),,Unmapped in NRC
-trouble,trouble,麻烦 / 困扰,Unclassified,E1_E2_Candidate,52,51,None (Not in NRC 8),,Unmapped in NRC
-nicer,nicer,更美好/更亲切的,Unclassified,E1_E2_Candidate,51,51,None (Not in NRC 8),,Unmapped in NRC
-happier,happier,更快乐的 / 更满意的,Unclassified,E1_E2_Candidate,50,49,None (Not in NRC 8),,Unmapped in NRC
-hoping,hoping,期盼 / 希望,Unclassified,E1_E2_Candidate,50,49,None (Not in NRC 8),,Unmapped in NRC
-queasy,queasy,恶心反胃的,Unclassified,E1_E2_Candidate,49,47,None (Not in NRC 8),,Unmapped in NRC
-seamless,seamless,流畅无缝无摩擦的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),49,48,None (Not in NRC 8),,Unmapped in NRC
-genuinely,genuinely,真诚地 / 确实,Unclassified,E1_E2_Candidate,48,46,None (Not in NRC 8),,Unmapped in NRC
-easier,easier,更容易的 / 更省心的,Unclassified,E1_E2_Candidate,46,45,None (Not in NRC 8),,Unmapped in NRC
-sensitive,sensitive,敏感的,Unclassified,E1_E2_Candidate,46,44,None (Not in NRC 8),,Unmapped in NRC
-warmly,warmly,温暖地 / 热情地,Unclassified,E1_E2_Candidate,46,46,None (Not in NRC 8),,Unmapped in NRC
-decent,decent,尚可的 / 体面的,Unclassified,E1_E2_Candidate,45,42,None (Not in NRC 8),positive,positive
-loud,loud,吵闹的 / 噪音大的,Unclassified,E1_E2_Candidate,45,43,None (Not in NRC 8),,Unmapped in NRC
-relax,relax,放松 / 放轻松,Relaxation,E1_State (Direct Internal Affective State),45,45,None (Not in NRC 8),,Unmapped in NRC
-terrified,terrified,极度惊恐的,Unclassified,E1_State (Direct Internal Affective State),45,43,None (Not in NRC 8),,Unmapped in NRC
-encouraged,encouraged,深受鼓舞的,Unclassified,E1_State (Direct Internal Affective State),44,43,None (Not in NRC 8),,Unmapped in NRC
-quieter,quieter,更安静宁静的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),44,44,None (Not in NRC 8),,Unmapped in NRC
-beautifully,beautifully,优美地 / 出色地,Unclassified,E1_E2_Candidate,43,43,None (Not in NRC 8),,Unmapped in NRC
-calming,calming,令人平息平稳安心的（Calmness State）,Unclassified,E1_State (Direct Internal Affective State),42,39,None (Not in NRC 8),,Unmapped in NRC
-adventurous,adventurous,充满冒险刺激感的,Unclassified,E1_E2_Polysemous (State & Appraisal),41,39,None (Not in NRC 8),positive,positive
-charming,charming,迷人讨喜的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),40,40,None (Not in NRC 8),positive,positive
-touched,touched,深受感动的,Unclassified,E1_State (Direct Internal Affective State),40,39,None (Not in NRC 8),negative,negative
-enjoyment,enjoyment,乐趣 / 享受,Unclassified,E1_E2_Candidate,39,39,None (Not in NRC 8),,Unmapped in NRC
-handle,handle,善于处理 / 掌控感,Unclassified,E2_Appraisal (Stimulus/Service Attribute),39,38,None (Not in NRC 8),,Unmapped in NRC
-nicest,nicest,最美好的 / 最亲切的,Unclassified,E1_E2_Candidate,39,39,None (Not in NRC 8),,Unmapped in NRC
-worst,worst,最糟糕的,Unclassified,E1_E2_Candidate,39,39,None (Not in NRC 8),,Unmapped in NRC
-greater,greater,更宏大震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),38,37,None (Not in NRC 8),positive,positive
-hospitable,hospitable,殷勤好客的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),38,37,None (Not in NRC 8),,Unmapped in NRC
-pleasantly,pleasantly,令人愉快地,Unclassified,E1_E2_Candidate,38,38,None (Not in NRC 8),,Unmapped in NRC
-stress,stress,压力 / 紧张感,Unclassified,E1_E2_Candidate,38,38,None (Not in NRC 8),negative,negative
-cared,cared,得到无微不至关怀的,Unclassified,E1_State (Direct Internal Affective State),37,37,None (Not in NRC 8),,Unmapped in NRC
-hopefully,hopefully,怀着希望地,Unclassified,E1_E2_Candidate,37,37,None (Not in NRC 8),,Unmapped in NRC
-nicely,nicely,很好地 / 优雅地,Unclassified,E1_E2_Candidate,37,36,None (Not in NRC 8),,Unmapped in NRC
-bother,bother,打扰 / 烦扰,Unclassified,E1_E2_Candidate,35,34,None (Not in NRC 8),negative,negative
-humour,humour,幽默感,Unclassified,E1_E2_Candidate,35,34,None (Not in NRC 8),,Unmapped in NRC
-superior,superior,优越顶尖的,Unclassified,E1_E2_Candidate,35,34,None (Not in NRC 8),positive,positive
-airsick,airsick,晕机的,Unclassified,E1_E2_Candidate,33,32,None (Not in NRC 8),,Unmapped in NRC
-hassle,hassle,麻烦 / 烦心事,Unclassified,E1_E2_Candidate,33,33,None (Not in NRC 8),,Unmapped in NRC
-overwhelming,overwhelming,铺天盖地震撼的,Unclassified,E1_E2_Candidate,33,33,None (Not in NRC 8),positive,positive
-reassured,reassured,感到安心的,Unclassified,E1_State (Direct Internal Affective State),32,32,None (Not in NRC 8),,Unmapped in NRC
-upfront,upfront,直率透明的,Unclassified,E1_E2_Candidate,32,32,None (Not in NRC 8),,Unmapped in NRC
-cute,cute,可爱宜人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),31,30,None (Not in NRC 8),positive,positive
-economical,economical,划算实惠的,Unclassified,E1_E2_Candidate,31,31,None (Not in NRC 8),,Unmapped in NRC
-breathtakingly,breathtakingly,令人屏息震撼地（Awe/Amazement Emotion）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),30,30,None (Not in NRC 8),,Unmapped in NRC
-kindly,kindly,体贴友善地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),30,29,None (Not in NRC 8),,Unmapped in NRC
-chatty,chatty,健谈热情的,Unclassified,E1_E2_Candidate,29,29,None (Not in NRC 8),negative,negative
-gladly,gladly,乐意地 / 高兴地,Joy / Eagerness,E1_State (Direct Internal Affective State),29,29,None (Not in NRC 8),,Unmapped in NRC
-interactive,interactive,互动性强的,Unclassified,E1_E2_Candidate,29,29,None (Not in NRC 8),,Unmapped in NRC
-pure,pure,纯粹的 / 纯净震撼的,Unclassified,E1_E2_Candidate,29,29,None (Not in NRC 8),,Unmapped in NRC
-stellar,stellar,璀璨顶尖级的,Unclassified,E1_E2_Candidate,29,28,None (Not in NRC 8),positive,positive
-unbelievably,unbelievably,难以置信地,Unclassified,E1_E2_Candidate,29,29,None (Not in NRC 8),,Unmapped in NRC
-boring,boring,令人无聊乏味的,Boredom,E2_Appraisal (Stimulus/Service Attribute),28,27,None (Not in NRC 8),negative,negative
-sad,sad,悲伤的 / 遗憾痛心的,Unclassified,E1_State (Direct Internal Affective State),28,28,None (Not in NRC 8),,Unmapped in NRC
-aside,aside,撇开 / 排除,Unclassified,E1_E2_Candidate,27,27,None (Not in NRC 8),,Unmapped in NRC
-comforting,comforting,令人感到安慰抚慰的,Comfort / Relief,E2_Appraisal (Stimulus/Service Attribute),27,27,None (Not in NRC 8),,Unmapped in NRC
-regrets,regrets,遗憾 / 后悔,Unclassified,E1_E2_Candidate,27,27,None (Not in NRC 8),,Unmapped in NRC
-basic,basic,基础的 / 简陋的,Unclassified,E1_E2_Candidate,26,24,None (Not in NRC 8),,Unmapped in NRC
-cramped,cramped,拥挤狭窄不适的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),26,25,None (Not in NRC 8),negative,negative
-mesmerizing,mesmerizing,令人目眩神迷为之倾倒的,Fascination / Awe,E2_Appraisal (Stimulus/Service Attribute),26,26,None (Not in NRC 8),,Unmapped in NRC
-bump,bump,颠簸不适的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),25,24,None (Not in NRC 8),,Unmapped in NRC
-communicative,communicative,善于沟通的,Unclassified,E1_E2_Candidate,25,25,None (Not in NRC 8),positive,positive
-inclement,inclement,恶劣的气候,Unclassified,E1_E2_Candidate,24,24,None (Not in NRC 8),negative,negative
-talkative,talkative,健谈热情的,Unclassified,E1_E2_Candidate,23,23,None (Not in NRC 8),,Unmapped in NRC
-calmed,calmed,心情平静安稳下来的,Unclassified,E1_State (Direct Internal Affective State),22,22,None (Not in NRC 8),,Unmapped in NRC
-favourite,favourite,最喜爱的,Unclassified,E1_E2_Candidate,22,21,None (Not in NRC 8),,Unmapped in NRC
-lasting,lasting,持久的 / 深刻的,Unclassified,E1_E2_Candidate,22,22,None (Not in NRC 8),,Unmapped in NRC
-skeptical,skeptical,怀疑的 / 存疑的,Unclassified,E1_E2_Candidate,22,22,None (Not in NRC 8),negative,negative
-talented,talented,才华横溢精湛的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),22,22,None (Not in NRC 8),,Unmapped in NRC
-bummed,bummed,感到扫兴遗憾失落的,Unclassified,E1_State (Direct Internal Affective State),21,20,None (Not in NRC 8),,Unmapped in NRC
-mild,mild,轻微适度的（颠簸/舒适）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),21,20,None (Not in NRC 8),,Unmapped in NRC
-refreshing,refreshing,令人神清气爽耳目一新的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),21,21,None (Not in NRC 8),positive,positive
-unbeatable,unbeatable,无可比拟的 / 无敌的,Unclassified,E1_E2_Candidate,21,20,None (Not in NRC 8),,Unmapped in NRC
-astonishing,astonishing,令人惊叹的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),20,20,None (Not in NRC 8),,Unmapped in NRC
-mood,mood,心情 / 情绪,Unclassified,E1_E2_Candidate,20,19,None (Not in NRC 8),,Unmapped in NRC
-spiritual,spiritual,精神神圣的,Unclassified,E1_E2_Candidate,20,19,None (Not in NRC 8),,Unmapped in NRC
-awestruck,awestruck,充满敬畏震撼的,Unclassified,E1_State (Direct Internal Affective State),19,19,None (Not in NRC 8),,Unmapped in NRC
-chilly,chilly,寒冷不适的,Unclassified,E1_E2_Candidate,19,19,None (Not in NRC 8),negative,negative
-comfy,comfy,舒适惬意的,Unclassified,E1_E2_Candidate,19,18,None (Not in NRC 8),,Unmapped in NRC
-suitable,suitable,合适的 / 满意的,Unclassified,E1_E2_Candidate,19,19,None (Not in NRC 8),positive,positive
-touching,touching,令人动容流泪的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),19,19,None (Not in NRC 8),,Unmapped in NRC
-amazement,amazement,惊叹 / 惊奇,Unclassified,E1_E2_Candidate,18,18,None (Not in NRC 8),,Unmapped in NRC
-astounding,astounding,令人无比震撼惊叹的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,18,None (Not in NRC 8),,Unmapped in NRC
-charm,charm,顺畅 / 令人满意,Unclassified,E1_E2_Candidate,18,17,None (Not in NRC 8),positive,positive
-chill,chill,惬意轻松的,Unclassified,E1_E2_Candidate,18,18,None (Not in NRC 8),,Unmapped in NRC
-easiest,easiest,最省心的 / 最容易的,Unclassified,E1_E2_Candidate,18,18,None (Not in NRC 8),,Unmapped in NRC
-haha,haha,哈哈（欢快情绪）,Unclassified,E1_E2_Candidate,18,18,None (Not in NRC 8),,Unmapped in NRC
-handy,handy,实用的 / 贴心的,Unclassified,E1_E2_Candidate,18,17,None (Not in NRC 8),positive,positive
-keen,keen,热情的 / 敏锐的,Unclassified,E1_E2_Candidate,18,18,None (Not in NRC 8),,Unmapped in NRC
-smart,smart,聪慧的 / 明智的,Unclassified,E1_E2_Candidate,18,18,None (Not in NRC 8),,Unmapped in NRC
-wondered,wonder,感到惊奇惊叹 (动词变体),Amazement / Wonder,E1_State (Direct Internal Affective State),18,18,None (Not in NRC 8),,Unmapped in NRC
-cordial,cordial,热情亲切礼貌的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),17,17,None (Not in NRC 8),,Unmapped in NRC
-energetic,energetic,精力充沛的,Unclassified,E1_E2_Candidate,17,17,None (Not in NRC 8),positive,positive
-hopes,hopes,期盼 / 希望,Unclassified,E1_E2_Candidate,17,17,None (Not in NRC 8),,Unmapped in NRC
-valuable,valuable,珍贵的 / 有价值的,Unclassified,E1_E2_Candidate,17,17,None (Not in NRC 8),positive,positive
-claustrophobic,claustrophobic,感到幽闭恐惧压抑的,Unclassified,E1_State (Direct Internal Affective State),16,16,None (Not in NRC 8),,Unmapped in NRC
-awed,awed,感到为之肃然起敬震撼的,Awe,E1_State (Direct Internal Affective State),15,15,None (Not in NRC 8),,Unmapped in NRC
-bubbly,bubbly,活泼热情的,Unclassified,E1_E2_Candidate,15,15,None (Not in NRC 8),,Unmapped in NRC
-unprofessional,unprofessional,不专业的,Unclassified,E1_E2_Candidate,15,11,None (Not in NRC 8),,Unmapped in NRC
-warmth,warmth,温暖安心感,Warmth / Comfort,E1_State (Direct Internal Affective State),15,15,None (Not in NRC 8),,Unmapped in NRC
-bothered,bothered,困扰的 / 烦心的,Unclassified,E1_E2_Candidate,14,14,None (Not in NRC 8),,Unmapped in NRC
-frustrating,frustrating,令人挫败的 / 烦人的,Unclassified,E1_E2_Candidate,14,13,None (Not in NRC 8),,Unmapped in NRC
-glowing,glowing,极度赞赏口碑极佳的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),14,14,None (Not in NRC 8),positive,positive
-marvellous,marvellous,令人叹为观止的,Amazement / Awe,E2_Appraisal (Stimulus/Service Attribute),14,13,None (Not in NRC 8),,Unmapped in NRC
-satisfaction,satisfaction,满意感,Satisfaction,E1_State (Direct Internal Affective State),14,14,None (Not in NRC 8),,Unmapped in NRC
-trustworthy,trustworthy,值得信赖靠谱的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),14,14,None (Not in NRC 8),,Unmapped in NRC
-safest,safest,最安全平稳的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),13,13,None (Not in NRC 8),,Unmapped in NRC
-tricky,tricky,棘手不安的,Unclassified,E1_E2_Candidate,13,12,None (Not in NRC 8),,Unmapped in NRC
-vibrant,vibrant,生机勃勃色彩斑斓的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),13,13,None (Not in NRC 8),,Unmapped in NRC
-worldly,worldly,超凡脱俗的,Unclassified,E1_E2_Candidate,13,13,None (Not in NRC 8),,Unmapped in NRC
-bored,bored,感到无聊厌烦的,Boredom,E1_State (Direct Internal Affective State),12,12,None (Not in NRC 8),,Unmapped in NRC
-soaking,soaking,沉浸于（soaking in view）,Unclassified,E1_E2_Candidate,12,12,None (Not in NRC 8),,Unmapped in NRC
-stuffy,stuffy,闷热不适的（体感不适）,Unclassified,E1_E2_Candidate,12,12,None (Not in NRC 8),negative,negative
-superbly,superbly,出类拔萃完美地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),12,12,None (Not in NRC 8),,Unmapped in NRC
-wondrous,wondrous,惊叹奇妙的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),12,12,None (Not in NRC 8),positive,positive
-cheesy,cheesy,俗气的 / 劣质的,Unclassified,E1_E2_Candidate,11,11,None (Not in NRC 8),,Unmapped in NRC
-rewarding,rewarding,非常有成就感/物超所值的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11,11,None (Not in NRC 8),,Unmapped in NRC
-satisfying,satisfying,令人称心满意的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11,11,None (Not in NRC 8),,Unmapped in NRC
-sketchy,sketchy,令人不安可疑的,Unclassified,E1_E2_Candidate,11,11,None (Not in NRC 8),negative,negative
-slick,slick,熟练专业/光滑的,Unclassified,E1_E2_Candidate,11,11,None (Not in NRC 8),,Unmapped in NRC
-superlative,superlative,顶级极致赞赏的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11,11,None (Not in NRC 8),,Unmapped in NRC
-emotional,emotional,情感上的 / 动情的,Unclassified,E1_E2_Candidate,10,10,None (Not in NRC 8),,Unmapped in NRC
-friendlier,friendlier,更加亲切友好的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),10,10,None (Not in NRC 8),,Unmapped in NRC
-improving,improving,不断改善令人满意的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),10,10,None (Not in NRC 8),positive,positive
-mesmerized,mesmerized,被深深吸引迷住的,Fascination / Awe,E1_State (Direct Internal Affective State),10,10,None (Not in NRC 8),,Unmapped in NRC
-stability,stability,平稳安心感,Unclassified,E2_Appraisal (Stimulus/Service Attribute),10,10,None (Not in NRC 8),,Unmapped in NRC
-stunningly,stunningly,令人震撼地,Unclassified,E1_E2_Candidate,10,10,None (Not in NRC 8),,Unmapped in NRC
-automatically,automatically,自动地 / 自然而然,Unclassified,E1_E2_Candidate,9,9,None (Not in NRC 8),,Unmapped in NRC
-awkward,awkward,尴尬的 / 别扭的,Unclassified,E1_E2_Candidate,9,9,None (Not in NRC 8),,Unmapped in NRC
-cheerfully,cheerfully,欢快愉悦地,Unclassified,E1_State (Direct Internal Affective State),9,8,None (Not in NRC 8),,Unmapped in NRC
-claustrophobia,claustrophobia,幽闭恐惧症（密闭机舱焦虑）,Fear / Anxiety,E1_State (Direct Internal Affective State),9,9,None (Not in NRC 8),,Unmapped in NRC
-effortless,effortless,轻松平稳的,Unclassified,E1_E2_Candidate,9,9,None (Not in NRC 8),,Unmapped in NRC
-hassles,hassles,烦心事 / 摩擦,Unclassified,E1_E2_Candidate,9,9,None (Not in NRC 8),,Unmapped in NRC
-stuffed,stuffed,塞满的 / 憋闷不适的,Unclassified,E1_E2_Candidate,9,9,None (Not in NRC 8),,Unmapped in NRC
-susceptible,susceptible,易受影响脆弱的,Unclassified,E1_E2_Candidate,9,9,None (Not in NRC 8),negative,negative
-unspoiled,unspoiled,未经破坏原始纯粹的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),9,9,None (Not in NRC 8),,Unmapped in NRC
-annoyed,annoyed,感到烦恼的 / 恼火的,Unclassified,E1_State (Direct Internal Affective State),8,7,None (Not in NRC 8),,Unmapped in NRC
-grace,grace,优雅 / 良好风度,Unclassified,E2_Appraisal (Stimulus/Service Attribute),8,8,None (Not in NRC 8),positive,positive
-mindful,mindful,细心周到的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),8,8,None (Not in NRC 8),positive,positive
-nerve,nerve,紧张神经,Unclassified,E1_E2_Candidate,8,8,None (Not in NRC 8),positive,positive
-poorly,poorly,糟糕地 / 差劲地,Unclassified,E1_E2_Candidate,8,7,None (Not in NRC 8),negative,negative
-shocked,shocked,感到震惊惊吓的,Surprise / Shock,E1_State (Direct Internal Affective State),8,8,None (Not in NRC 8),,Unmapped in NRC
-spoiled,spoiled,好心情被破坏毁掉的,Unclassified,E1_State (Direct Internal Affective State),8,8,None (Not in NRC 8),,Unmapped in NRC
-yummy,yummy,美味愉悦的,Unclassified,E1_E2_Candidate,8,8,None (Not in NRC 8),,Unmapped in NRC
-alas,alas,唉 / 遗憾的是,Unclassified,E1_E2_Candidate,7,7,None (Not in NRC 8),,Unmapped in NRC
-captivated,captivated,被深深吸引着迷的,Unclassified,E1_State (Direct Internal Affective State),7,7,None (Not in NRC 8),,Unmapped in NRC
-classy,classy,高端优雅的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),7,7,None (Not in NRC 8),,Unmapped in NRC
-curious,curious,好奇求知的,Unclassified,E1_State (Direct Internal Affective State),7,7,None (Not in NRC 8),,Unmapped in NRC
-enthusiastically,enthusiastically,热情高涨地,Unclassified,E1_State (Direct Internal Affective State),7,7,None (Not in NRC 8),,Unmapped in NRC
-exhilerating,exhilarating,令人兴奋刺激酣畅地（错别字变体）,Excitement,E2_Appraisal (Stimulus/Service Attribute),7,6,None (Not in NRC 8),,Unmapped in NRC
-gushing,gushing,滔滔不绝赞赞称道的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),7,6,None (Not in NRC 8),,Unmapped in NRC
-hesitating,hesitating,犹豫顾虑（心理活动）,Unclassified,E1_State (Direct Internal Affective State),7,7,None (Not in NRC 8),,Unmapped in NRC
-relieved,relieved,宽慰的 / 松了一口气,Unclassified,E1_State (Direct Internal Affective State),7,7,None (Not in NRC 8),,Unmapped in NRC
-rudely,rudely,粗鲁地 / 无礼地,Unclassified,E1_E2_Candidate,7,6,None (Not in NRC 8),,Unmapped in NRC
-strange,strange,怪异不安的,Unclassified,E1_E2_Candidate,7,7,None (Not in NRC 8),,Unmapped in NRC
-suffered,suffered,遭受身体/晕眩痛苦,Unclassified,E1_State (Direct Internal Affective State),7,7,None (Not in NRC 8),,Unmapped in NRC
-appropriately,appropriately,恰当地 / 贴心地,Unclassified,E1_E2_Candidate,6,6,None (Not in NRC 8),,Unmapped in NRC
-blind,blind,盲目的 / 视线受阻的,Unclassified,E1_E2_Candidate,6,6,None (Not in NRC 8),negative,negative
-broad,broad,宽广的,Unclassified,E1_E2_Candidate,6,6,None (Not in NRC 8),,Unmapped in NRC
-calmer,calmer,更平静安心的,Unclassified,E1_State (Direct Internal Affective State),6,6,None (Not in NRC 8),,Unmapped in NRC
-casual,casual,随和轻松的,Unclassified,E1_E2_Candidate,6,6,None (Not in NRC 8),,Unmapped in NRC
-discouraged,discouraged,感到灰心气馁的,Unclassified,E1_State (Direct Internal Affective State),6,5,None (Not in NRC 8),,Unmapped in NRC
-enthralled,enthralled,被深深吸引迷住的,Unclassified,E1_State (Direct Internal Affective State),6,6,None (Not in NRC 8),,Unmapped in NRC
-fascinated,fascinated,深深入迷为之倾倒的,Fascination,E1_State (Direct Internal Affective State),6,6,None (Not in NRC 8),,Unmapped in NRC
-frightening,frightening,令人惊恐吓人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,6,None (Not in NRC 8),,Unmapped in NRC
-inspirational,inspirational,鼓舞人心的,Unclassified,E1_E2_Candidate,6,6,None (Not in NRC 8),,Unmapped in NRC
-precision,precision,精准靠谱的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,6,None (Not in NRC 8),positive,positive
-relief,relief,轻松如释重负感,Relief,E1_State (Direct Internal Affective State),6,6,None (Not in NRC 8),positive,positive
-sublime,sublime,崇高壮丽绝美的（Aesthetic Emotion/Awe）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,6,None (Not in NRC 8),,Unmapped in NRC
-warmest,warmest,最暖心亲切的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,6,None (Not in NRC 8),,Unmapped in NRC
-comforted,comforted,感到安慰安心的,Comfort / Relief,E1_State (Direct Internal Affective State),5,5,None (Not in NRC 8),,Unmapped in NRC
-envy,envy,羡慕 / 嫉妒,Envy,E1_State (Direct Internal Affective State),5,5,None (Not in NRC 8),,Unmapped in NRC
-intimidating,intimidating,令人胆怯令人畏惧的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),5,5,None (Not in NRC 8),,Unmapped in NRC
-jitters,jitters,忐忑不安 / 紧张发抖感,Nervousness / Anxiety,E1_State (Direct Internal Affective State),5,5,None (Not in NRC 8),,Unmapped in NRC
-overwhelmingly,overwhelmingly,压倒性震撼地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),5,5,None (Not in NRC 8),,Unmapped in NRC
-stressful,stressful,令人压力重重焦虑的（Stress/Anxiety State）,Unclassified,E1_State (Direct Internal Affective State),5,5,None (Not in NRC 8),,Unmapped in NRC
-wowed,wowed,被深深惊叹震撼的,Amazement / Awe,E1_State (Direct Internal Affective State),5,5,None (Not in NRC 8),,Unmapped in NRC
-captivating,captivating,扣人心弦引人入胜的,Fascination / Awe,E2_Appraisal (Stimulus/Service Attribute),4,4,None (Not in NRC 8),positive,positive
-disconcerting,disconcerting,令人不安的,Unclassified,E1_E2_Candidate,4,4,None (Not in NRC 8),,Unmapped in NRC
-embarrassed,embarrassed,感到尴尬难堪的,Unclassified,E1_State (Direct Internal Affective State),4,4,None (Not in NRC 8),,Unmapped in NRC
-emotion,emotion,情感 / 情绪,Unclassified,E1_E2_Candidate,4,4,None (Not in NRC 8),,Unmapped in NRC
-exhilarated,exhilarated,感到无比兴奋酣畅的,Excitement / Joy,E1_State (Direct Internal Affective State),4,4,None (Not in NRC 8),,Unmapped in NRC
-giddy,giddy,兴奋得头晕目眩欢欣的,Excitement / Joy,E1_State (Direct Internal Affective State),4,4,None (Not in NRC 8),,Unmapped in NRC
-irritated,irritated,感到恼火烦躁的,Unclassified,E1_State (Direct Internal Affective State),4,4,None (Not in NRC 8),,Unmapped in NRC
-peacefulness,peacefulness,宁静详和感,Calm / Serenity,E1_State (Direct Internal Affective State),4,4,None (Not in NRC 8),,Unmapped in NRC
-phobia,phobia,恐惧症 / 恐高心理,Fear,E1_State (Direct Internal Affective State),4,3,None (Not in NRC 8),,Unmapped in NRC
-pleasing,pleasing,令人愉悦满意的,Pleasure / Satisfaction,E2_Appraisal (Stimulus/Service Attribute),4,4,None (Not in NRC 8),,Unmapped in NRC
-profound,profound,深刻震撼的,Unclassified,E1_E2_Candidate,4,4,None (Not in NRC 8),,Unmapped in NRC
-spellbinding,spellbinding,扣人心弦迷人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),4,4,None (Not in NRC 8),,Unmapped in NRC
-spellbound,spellbound,出神为之入迷的,Fascination / Awe,E1_State (Direct Internal Affective State),4,4,None (Not in NRC 8),,Unmapped in NRC
-stoked,stoked,极为激动期待的,Excitement,E1_State (Direct Internal Affective State),4,4,None (Not in NRC 8),,Unmapped in NRC
-subtle,subtle,微妙精细的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),4,4,None (Not in NRC 8),,Unmapped in NRC
-thrills,thrills,刺激 / 快感,Unclassified,E1_E2_Candidate,4,4,None (Not in NRC 8),,Unmapped in NRC
-underwhelmed,underwhelmed,大失所望未达预期的,Disappointment,E1_State (Direct Internal Affective State),4,4,None (Not in NRC 8),,Unmapped in NRC
-unnerving,unnerving,令人发慌不安吓人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),4,4,None (Not in NRC 8),,Unmapped in NRC
-wildest,wildest,最疯狂的（狂想）,Unclassified,E1_E2_Candidate,4,4,None (Not in NRC 8),,Unmapped in NRC
-aggressively,aggressively,挑衅攻击地 / 极其恶劣地,Unclassified,E1_E2_Candidate,3,3,None (Not in NRC 8),,Unmapped in NRC
-ambivalent,ambivalent,矛盾复杂心理的,Mixed Emotion,E1_State (Direct Internal Affective State),3,3,None (Not in NRC 8),,Unmapped in NRC
-astonished,astonished,感到十分惊异惊叹的,Amazement / Surprise,E1_State (Direct Internal Affective State),3,3,None (Not in NRC 8),,Unmapped in NRC
-astounded,astounded,感到十分震惊震撼的,Amazement,E1_State (Direct Internal Affective State),3,3,None (Not in NRC 8),,Unmapped in NRC
-beneficial,beneficial,有益的 / 有帮助的,Unclassified,E1_E2_Candidate,3,3,None (Not in NRC 8),positive,positive
-carefree,carefree,无忧无虑自在的,Unclassified,E1_State (Direct Internal Affective State),3,3,None (Not in NRC 8),,Unmapped in NRC
-compassionate,compassionate,富有同理心体贴的,Compassion,E2_Appraisal (Stimulus/Service Attribute),3,3,None (Not in NRC 8),positive,positive
-daunting,daunting,令人望而生畏胆怯的,Fear / Anxiety,E2_Appraisal (Stimulus/Service Attribute),3,3,None (Not in NRC 8),,Unmapped in NRC
-dazzled,dazzled,目眩神迷震撼的,Amazement / Awe,E1_State (Direct Internal Affective State),3,3,None (Not in NRC 8),,Unmapped in NRC
-deaf,deaf,听而不闻冷漠的（fell on deaf ears）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3,3,None (Not in NRC 8),negative,negative
-dissatisfied,dissatisfied,感到不满意的,Disappointment / Dissatisfaction,E1_State (Direct Internal Affective State),3,3,None (Not in NRC 8),,Unmapped in NRC
-dreaming,dreaming,梦寐以求 / 心驰神往,Unclassified,E1_State (Direct Internal Affective State),3,3,None (Not in NRC 8),,Unmapped in NRC
-horribly,horrible,糟糕恐怖地,Disgust / Distress,E2_Appraisal (Stimulus/Service Attribute),3,3,None (Not in NRC 8),negative,negative
-incomprehensible,incomprehensible,难以理解令人困惑的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3,3,None (Not in NRC 8),negative,negative
-indulge,indulge,尽情享受 / 犒劳自己,Unclassified,E1_State (Direct Internal Affective State),3,3,None (Not in NRC 8),,Unmapped in NRC
-joking,joking,开玩笑的,Unclassified,E1_E2_Candidate,3,3,None (Not in NRC 8),positive,positive
-peacefully,peacefully,宁静和平地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3,3,None (Not in NRC 8),,Unmapped in NRC
-rickety,rickety,摇摇欲坠的,Unclassified,E1_E2_Candidate,3,3,None (Not in NRC 8),negative,negative
-securely,securely,安全平稳地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3,3,None (Not in NRC 8),,Unmapped in NRC
-spoilt,spoilt,被破坏败兴的,Unclassified,E1_E2_Candidate,3,3,None (Not in NRC 8),,Unmapped in NRC
-clever,clever,聪明睿智的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2,2,None (Not in NRC 8),positive,positive
-compliant,compliant,顺从的 / 合规安心的,Unclassified,E1_E2_Candidate,2,2,None (Not in NRC 8),positive,positive
-desperate,desperate,感到绝望迫切的,Unclassified,E1_State (Direct Internal Affective State),2,2,None (Not in NRC 8),negative,negative
-exhausting,exhausting,令人筋疲力尽的,Fatigue / Exhaustion,E2_Appraisal (Stimulus/Service Attribute),2,2,None (Not in NRC 8),,Unmapped in NRC
-favourable,favourable,有利的 / 良好的,Unclassified,E1_E2_Candidate,2,2,None (Not in NRC 8),,Unmapped in NRC
-positively,positively,积极正面地,Unclassified,E1_E2_Candidate,2,2,None (Not in NRC 8),,Unmapped in NRC
-primo,primo,一流的 / 顶级的,Unclassified,E1_E2_Candidate,2,1,None (Not in NRC 8),,Unmapped in NRC
-pumped,pumped,兴奋激动的 / 跃跃欲试,Unclassified,E1_State (Direct Internal Affective State),2,2,None (Not in NRC 8),,Unmapped in NRC
-rigid,rigid,刻板不近人情的,Unclassified,E1_E2_Candidate,2,2,None (Not in NRC 8),negative,negative
-askance,askance,怀疑斜视地（不信任）,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-bluest,bluest,最湛蓝的（极致景色）,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-bluntly,bluntly,直言不讳地,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-decency,decency,礼貌体面 / 服务缺乏礼貌体面,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1,1,None (Not in NRC 8),positive,positive
-flaky,flaky,不靠谱的 / 经常取消的,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-grandest,grandest,最宏大的 / 极其壮丽的,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-harsh,harsh,严酷恶劣的,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-immeasurable,immeasurable,无法估量的 / 极致的,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-miraculously,miraculously,奇迹般地,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-quell,quell,镇定 / 平息（恐惧）,Unclassified,E1_State (Direct Internal Affective State),1,1,None (Not in NRC 8),negative,negative
-racist,racist,种族歧视的,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-regrettably,regrettably,遗憾地 / 抱歉,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1,1,None (Not in NRC 8),,Unmapped in NRC
-wasbeautiful,wasbeautiful,美丽动人的（美感）,Unclassified,E1_E2_Candidate,1,1,None (Not in NRC 8),,Unmapped in NRC
-whelmed,whelmed,被深深震撼淹没的,Unclassified,E1_State (Direct Internal Affective State),1,1,None (Not in NRC 8),,Unmapped in NRC
-worthful,worthful,物有所值的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1,1,None (Not in NRC 8),,Unmapped in NRC
-zing,zing,刺激快感,Unclassified,E1_State (Direct Internal Affective State),1,1,None (Not in NRC 8),,Unmapped in NRC
+﻿word,canonical_lemma,chinese_translation,emotion_category,frequency_21215,review_count_21215,nrc8_emotions,nrc_polarities,nrc_all_tags
+great,great,非常棒的 / 极好的,Unclassified,11541,8445,None (Not in NRC 8),,Unmapped in NRC
+amazing,amazing,极其震撼赞叹的 / 太棒了,Unclassified,6251,5377,None (Not in NRC 8),,Unmapped in NRC
+best,best,最棒的 / 顶级的,Unclassified,3420,2977,None (Not in NRC 8),,Unmapped in NRC
+worth,worth,物有所值的 / 绝对值得的,Unclassified,2799,2678,None (Not in NRC 8),positive,positive
+awesome,awesome,太棒了 / 极为赞叹的,Unclassified,2530,2344,None (Not in NRC 8),,Unmapped in NRC
+fantastic,fantastic,奇妙太棒的,Unclassified,2026,1875,None (Not in NRC 8),,Unmapped in NRC
+nice,nice,美好的 / 良好的,Unclassified,1794,1586,None (Not in NRC 8),,Unmapped in NRC
+incredible,incredible,难以置信震撼的,Unclassified,1612,1508,None (Not in NRC 8),,Unmapped in NRC
+better,better,更好的 / 更满意的（超过预期）,Unclassified,1585,1431,None (Not in NRC 8),,Unmapped in NRC
+loved,loved,喜爱 / 热爱（体验）,Unclassified,1473,1365,None (Not in NRC 8),,Unmapped in NRC
+comfortable,comfortable,舒适的 / 安心的,Unclassified,1446,1372,None (Not in NRC 8),,Unmapped in NRC
+breathtaking,breathtaking,令人屏息震撼的,Unclassified,1346,1328,None (Not in NRC 8),,Unmapped in NRC
+interesting,interesting,引人入胜的 / 趣味盎然的,Unclassified,886,853,None (Not in NRC 8),positive,positive
+cool,cool,酷的 / 爽快的,Unclassified,652,606,None (Not in NRC 8),positive,positive
+stunning,stunning,令人目眩震撼的,Unclassified,552,546,None (Not in NRC 8),,Unmapped in NRC
+fabulous,fabulous,绝妙的 / 极好的,Unclassified,508,486,None (Not in NRC 8),,Unmapped in NRC
+enjoyable,enjoyable,令人愉快的 / 趣味盎然的,Unclassified,460,446,None (Not in NRC 8),,Unmapped in NRC
+unforgettable,unforgettable,令人难忘的 / 铭心的,Unclassified,459,455,None (Not in NRC 8),,Unmapped in NRC
+scenic,scenic,风景优美的 / 宜人的,Unclassified,400,363,None (Not in NRC 8),,Unmapped in NRC
+incredibly,incredibly,难以置信地 / 极其,Unclassified,315,301,None (Not in NRC 8),,Unmapped in NRC
+awe,awe,敬畏 / 震撼,Unclassified,304,303,None (Not in NRC 8),,Unmapped in NRC
+unbelievable,unbelievable,难以置信的 / 震撼的,Unclassified,302,298,None (Not in NRC 8),negative,negative
+funny,funny,幽默风趣的,Unclassified,301,299,None (Not in NRC 8),,Unmapped in NRC
+plenty,plenty,丰富的 / 充足的,Unclassified,298,280,None (Not in NRC 8),,Unmapped in NRC
+hard,hard,困难的 / 艰辛的,Unclassified,297,285,None (Not in NRC 8),,Unmapped in NRC
+exceptional,exceptional,卓越的 / 杰出的（顶级评价）,Unclassified,276,271,None (Not in NRC 8),,Unmapped in NRC
+calm,calm,镇定 / 平息情绪的,Calmness,259,251,None (Not in NRC 8),positive,positive
+impressed,impressed,感到深深被折服/留下深刻印象,Admiration / Impression,255,248,None (Not in NRC 8),,Unmapped in NRC
+unfortunately,unfortunately,不幸的是 / 遗憾的是,Unclassified,240,230,None (Not in NRC 8),,Unmapped in NRC
+fortunate,fortunate,幸运的 / 幸运地,Unclassified,235,231,None (Not in NRC 8),positive,positive
+welcome,welcome,受欢迎的 / 感受温暖的,Unclassified,212,208,None (Not in NRC 8),,Unmapped in NRC
+inspiring,inspiring,令人启发震慑的,Inspiration,210,209,None (Not in NRC 8),,Unmapped in NRC
+cheaper,cheaper,更实惠的 / 较便宜的,Unclassified,208,204,None (Not in NRC 8),,Unmapped in NRC
+phenomenal,phenomenal,现象级震撼的,Unclassified,200,198,None (Not in NRC 8),,Unmapped in NRC
+superb,superb,极好精湛的,Unclassified,196,189,None (Not in NRC 8),positive,positive
+fine,fine,良好的 / 优秀的,Unclassified,190,174,None (Not in NRC 8),,Unmapped in NRC
+forward,forward,期待（look forward）,Unclassified,183,178,None (Not in NRC 8),positive,positive
+reasonable,reasonable,合理的 / 公道的,Unclassified,179,179,None (Not in NRC 8),,Unmapped in NRC
+relaxed,relaxed,放松的 / 从容的,Unclassified,159,158,None (Not in NRC 8),,Unmapped in NRC
+perfectly,perfectly,完美地 / 无可挑剔地,Unclassified,155,149,None (Not in NRC 8),,Unmapped in NRC
+pleasure,pleasure,乐趣 / 愉悦,Unclassified,153,149,None (Not in NRC 8),,Unmapped in NRC
+scared,scared,感到恐惧害怕的,Fear,144,137,None (Not in NRC 8),,Unmapped in NRC
+smoother,smoother,更平稳的 / 更顺畅的,Unclassified,143,143,None (Not in NRC 8),,Unmapped in NRC
+wrong,wrong,出差错的 / 错误的（负面体验）,Unclassified,137,132,None (Not in NRC 8),negative,negative
+cheap,cheap,便宜的 / 廉价的,Unclassified,134,132,None (Not in NRC 8),negative,negative
+safely,safely,安全平稳地,Unclassified,132,129,None (Not in NRC 8),,Unmapped in NRC
+exactly,exactly,精准地 / 正是,Unclassified,130,126,None (Not in NRC 8),,Unmapped in NRC
+impressive,impressive,令人印象深刻的,Unclassified,130,129,None (Not in NRC 8),,Unmapped in NRC
+humor,humor,幽默感,Unclassified,125,124,None (Not in NRC 8),,Unmapped in NRC
+dream,dream,梦寐以求的,Unclassified,124,118,None (Not in NRC 8),,Unmapped in NRC
+sorry,sorry,感到抱歉遗憾的,Pity / Regret,123,123,None (Not in NRC 8),,Unmapped in NRC
+relaxing,relaxing,令人放松惬意的,Relaxation / Calmness,122,119,None (Not in NRC 8),,Unmapped in NRC
+wonder,wonder,惊奇 / 赞叹,Amazement / Wonder,121,117,None (Not in NRC 8),,Unmapped in NRC
+amazed,amazed,感到吃惊惊叹的,Amazement,120,119,None (Not in NRC 8),,Unmapped in NRC
+thrilled,thrilled,极度兴奋的,Unclassified,113,112,None (Not in NRC 8),,Unmapped in NRC
+honestly,honestly,老实说 / 真诚地,Unclassified,111,109,None (Not in NRC 8),,Unmapped in NRC
+willing,willing,乐意的 / 愿意的,Unclassified,108,104,None (Not in NRC 8),,Unmapped in NRC
+smoothest,smoothest,最平稳的,Unclassified,105,105,None (Not in NRC 8),,Unmapped in NRC
+positive,positive,积极正面的,Unclassified,101,98,None (Not in NRC 8),,Unmapped in NRC
+surreal,surreal,超现实的 / 梦幻般的,Unclassified,98,98,None (Not in NRC 8),,Unmapped in NRC
+reassuring,reassuring,令人安心放心的,Relief / Reassurance,97,96,None (Not in NRC 8),,Unmapped in NRC
+concern,concern,担忧 / 关切（焦虑感）,Unclassified,96,91,None (Not in NRC 8),,Unmapped in NRC
+luckily,luckily,幸运地 / 幸亏,Unclassified,96,93,None (Not in NRC 8),,Unmapped in NRC
+poor,poor,贫乏的 / 差劲的,Unclassified,95,91,None (Not in NRC 8),,Unmapped in NRC
+scary,scary,令人害怕的 / 吓人的,Unclassified,94,94,None (Not in NRC 8),,Unmapped in NRC
+enthusiastic,enthusiastic,热情的 / 充满激情的,Unclassified,93,90,None (Not in NRC 8),,Unmapped in NRC
+exhilarating,exhilarating,令人极为兴奋刺激的,Exhilaration / Excitement,90,89,None (Not in NRC 8),,Unmapped in NRC
+inaccessible,inaccessible,难以到达的 / 偏远秘境感,Unclassified,86,85,None (Not in NRC 8),negative,negative
+rushed,rushed,仓促的 / 匆忙的,Unclassified,85,79,None (Not in NRC 8),,Unmapped in NRC
+capable,capable,有能力的 / 熟练精湛的,Unclassified,84,83,None (Not in NRC 8),,Unmapped in NRC
+prone,prone,易患（晕机）的,Unclassified,84,84,None (Not in NRC 8),,Unmapped in NRC
+simple,simple,简单明了的 / 省心的,Unclassified,84,83,None (Not in NRC 8),,Unmapped in NRC
+fascinating,fascinating,令人入迷极具吸引力的,Fascination,83,82,None (Not in NRC 8),positive,positive
+wonders,wonder,惊奇 / 奇观,Amazement / Wonder,83,82,None (Not in NRC 8),,Unmapped in NRC
+grateful,grateful,感激的 / 感恩的,Unclassified,80,78,None (Not in NRC 8),positive,positive
+advantage,advantage,优势 / 极佳点,Unclassified,78,78,None (Not in NRC 8),positive,positive
+famous,famous,著名的 / 享誉的,Unclassified,77,71,None (Not in NRC 8),positive,positive
+safer,safer,更安全的 / 更安心的,Unclassified,77,77,None (Not in NRC 8),,Unmapped in NRC
+neat,neat,整洁的 / 干练的,Unclassified,76,75,None (Not in NRC 8),,Unmapped in NRC
+coolest,coolest,最酷爽震撼的,Unclassified,75,75,None (Not in NRC 8),,Unmapped in NRC
+worthwhile,worthwhile,值得的 / 划算的,Unclassified,75,74,None (Not in NRC 8),,Unmapped in NRC
+promptly,promptly,及时迅速地,Unclassified,74,73,None (Not in NRC 8),,Unmapped in NRC
+concerns,concerns,担忧 / 关切,Unclassified,73,71,None (Not in NRC 8),,Unmapped in NRC
+greatest,greatest,最伟大的 / 极佳的,Unclassified,73,71,None (Not in NRC 8),,Unmapped in NRC
+ideal,ideal,理想的 / 完美的,Unclassified,72,66,None (Not in NRC 8),,Unmapped in NRC
+fears,fears,恐惧 / 忧虑,Unclassified,64,61,None (Not in NRC 8),,Unmapped in NRC
+tremendous,tremendous,震撼巨大的,Unclassified,64,64,None (Not in NRC 8),,Unmapped in NRC
+conscious,conscious,有意识的 / 讲究的,Unclassified,63,63,None (Not in NRC 8),,Unmapped in NRC
+pristine,pristine,原始纯净的,Unclassified,62,61,None (Not in NRC 8),positive,positive
+dramatic,dramatic,戏剧性的 / 震撼的,Unclassified,61,58,None (Not in NRC 8),,Unmapped in NRC
+extraordinary,extraordinary,非凡的 / 卓越的,Unclassified,61,60,None (Not in NRC 8),positive,positive
+gracious,gracious,亲切和蔼的,Unclassified,61,60,None (Not in NRC 8),positive,positive
+moving,moving,令人动容感人的,Unclassified,61,59,None (Not in NRC 8),,Unmapped in NRC
+complimentary,complimentary,赞赏的 / 赠送贴心的,Unclassified,59,56,None (Not in NRC 8),,Unmapped in NRC
+convenient,convenient,便捷省心的,Unclassified,59,59,None (Not in NRC 8),positive,positive
+nerves,nerves,紧张感 / 不安神经,Unclassified,59,57,None (Not in NRC 8),,Unmapped in NRC
+unreal,unreal,如梦似幻的 / 震撼的,Unclassified,59,56,None (Not in NRC 8),,Unmapped in NRC
+flawless,flawless,无瑕的 / 完美的,Unclassified,58,58,None (Not in NRC 8),,Unmapped in NRC
+fortunately,fortunately,幸运的是,Unclassified,58,58,None (Not in NRC 8),,Unmapped in NRC
+glorious,glorious,壮丽辉煌的,Unclassified,56,55,None (Not in NRC 8),,Unmapped in NRC
+uncomfortable,uncomfortable,感到不适的 / 不安的,Unclassified,56,54,None (Not in NRC 8),negative,negative
+fair,fair,公道的 / 划算的,Unclassified,55,55,None (Not in NRC 8),positive,positive
+caring,caring,体贴入微关怀的,Warmth / Kindness,53,52,None (Not in NRC 8),,Unmapped in NRC
+gentle,gentle,平稳柔和的,Unclassified,52,50,None (Not in NRC 8),,Unmapped in NRC
+strong,strong,强烈的,Unclassified,52,49,None (Not in NRC 8),,Unmapped in NRC
+trouble,trouble,麻烦 / 困扰,Unclassified,52,51,None (Not in NRC 8),,Unmapped in NRC
+nicer,nicer,更美好/更亲切的,Unclassified,51,51,None (Not in NRC 8),,Unmapped in NRC
+happier,happier,更快乐的 / 更满意的,Unclassified,50,49,None (Not in NRC 8),,Unmapped in NRC
+hoping,hoping,期盼 / 希望,Unclassified,50,49,None (Not in NRC 8),,Unmapped in NRC
+queasy,queasy,恶心反胃的,Unclassified,49,47,None (Not in NRC 8),,Unmapped in NRC
+seamless,seamless,流畅无缝无摩擦的,Unclassified,49,48,None (Not in NRC 8),,Unmapped in NRC
+genuinely,genuinely,真诚地 / 确实,Unclassified,48,46,None (Not in NRC 8),,Unmapped in NRC
+easier,easier,更容易的 / 更省心的,Unclassified,46,45,None (Not in NRC 8),,Unmapped in NRC
+sensitive,sensitive,敏感的,Unclassified,46,44,None (Not in NRC 8),,Unmapped in NRC
+warmly,warmly,温暖地 / 热情地,Unclassified,46,46,None (Not in NRC 8),,Unmapped in NRC
+decent,decent,尚可的 / 体面的,Unclassified,45,42,None (Not in NRC 8),positive,positive
+loud,loud,吵闹的 / 噪音大的,Unclassified,45,43,None (Not in NRC 8),,Unmapped in NRC
+relax,relax,放松 / 放轻松,Relaxation,45,45,None (Not in NRC 8),,Unmapped in NRC
+terrified,terrified,极度惊恐的,Unclassified,45,43,None (Not in NRC 8),,Unmapped in NRC
+encouraged,encouraged,深受鼓舞的,Unclassified,44,43,None (Not in NRC 8),,Unmapped in NRC
+quieter,quieter,更安静宁静的,Unclassified,44,44,None (Not in NRC 8),,Unmapped in NRC
+beautifully,beautifully,优美地 / 出色地,Unclassified,43,43,None (Not in NRC 8),,Unmapped in NRC
+calming,calming,令人平息平稳安心的（Calmness State）,Unclassified,42,39,None (Not in NRC 8),,Unmapped in NRC
+adventurous,adventurous,充满冒险刺激感的,Unclassified,41,39,None (Not in NRC 8),positive,positive
+charming,charming,迷人讨喜的,Unclassified,40,40,None (Not in NRC 8),positive,positive
+touched,touched,深受感动的,Unclassified,40,39,None (Not in NRC 8),negative,negative
+enjoyment,enjoyment,乐趣 / 享受,Unclassified,39,39,None (Not in NRC 8),,Unmapped in NRC
+handle,handle,善于处理 / 掌控感,Unclassified,39,38,None (Not in NRC 8),,Unmapped in NRC
+nicest,nicest,最美好的 / 最亲切的,Unclassified,39,39,None (Not in NRC 8),,Unmapped in NRC
+worst,worst,最糟糕的,Unclassified,39,39,None (Not in NRC 8),,Unmapped in NRC
+greater,greater,更宏大震撼的,Unclassified,38,37,None (Not in NRC 8),positive,positive
+hospitable,hospitable,殷勤好客的,Unclassified,38,37,None (Not in NRC 8),,Unmapped in NRC
+pleasantly,pleasantly,令人愉快地,Unclassified,38,38,None (Not in NRC 8),,Unmapped in NRC
+stress,stress,压力 / 紧张感,Unclassified,38,38,None (Not in NRC 8),negative,negative
+cared,cared,得到无微不至关怀的,Unclassified,37,37,None (Not in NRC 8),,Unmapped in NRC
+hopefully,hopefully,怀着希望地,Unclassified,37,37,None (Not in NRC 8),,Unmapped in NRC
+nicely,nicely,很好地 / 优雅地,Unclassified,37,36,None (Not in NRC 8),,Unmapped in NRC
+bother,bother,打扰 / 烦扰,Unclassified,35,34,None (Not in NRC 8),negative,negative
+humour,humour,幽默感,Unclassified,35,34,None (Not in NRC 8),,Unmapped in NRC
+superior,superior,优越顶尖的,Unclassified,35,34,None (Not in NRC 8),positive,positive
+airsick,airsick,晕机的,Unclassified,33,32,None (Not in NRC 8),,Unmapped in NRC
+hassle,hassle,麻烦 / 烦心事,Unclassified,33,33,None (Not in NRC 8),,Unmapped in NRC
+overwhelming,overwhelming,铺天盖地震撼的,Unclassified,33,33,None (Not in NRC 8),positive,positive
+reassured,reassured,感到安心的,Unclassified,32,32,None (Not in NRC 8),,Unmapped in NRC
+upfront,upfront,直率透明的,Unclassified,32,32,None (Not in NRC 8),,Unmapped in NRC
+cute,cute,可爱宜人的,Unclassified,31,30,None (Not in NRC 8),positive,positive
+economical,economical,划算实惠的,Unclassified,31,31,None (Not in NRC 8),,Unmapped in NRC
+breathtakingly,breathtakingly,令人屏息震撼地（Awe/Amazement Emotion）,Unclassified,30,30,None (Not in NRC 8),,Unmapped in NRC
+kindly,kindly,体贴友善地,Unclassified,30,29,None (Not in NRC 8),,Unmapped in NRC
+chatty,chatty,健谈热情的,Unclassified,29,29,None (Not in NRC 8),negative,negative
+gladly,gladly,乐意地 / 高兴地,Joy / Eagerness,29,29,None (Not in NRC 8),,Unmapped in NRC
+interactive,interactive,互动性强的,Unclassified,29,29,None (Not in NRC 8),,Unmapped in NRC
+pure,pure,纯粹的 / 纯净震撼的,Unclassified,29,29,None (Not in NRC 8),,Unmapped in NRC
+stellar,stellar,璀璨顶尖级的,Unclassified,29,28,None (Not in NRC 8),positive,positive
+unbelievably,unbelievably,难以置信地,Unclassified,29,29,None (Not in NRC 8),,Unmapped in NRC
+boring,boring,令人无聊乏味的,Boredom,28,27,None (Not in NRC 8),negative,negative
+sad,sad,悲伤的 / 遗憾痛心的,Unclassified,28,28,None (Not in NRC 8),,Unmapped in NRC
+aside,aside,撇开 / 排除,Unclassified,27,27,None (Not in NRC 8),,Unmapped in NRC
+comforting,comforting,令人感到安慰抚慰的,Comfort / Relief,27,27,None (Not in NRC 8),,Unmapped in NRC
+regrets,regrets,遗憾 / 后悔,Unclassified,27,27,None (Not in NRC 8),,Unmapped in NRC
+basic,basic,基础的 / 简陋的,Unclassified,26,24,None (Not in NRC 8),,Unmapped in NRC
+cramped,cramped,拥挤狭窄不适的,Unclassified,26,25,None (Not in NRC 8),negative,negative
+mesmerizing,mesmerizing,令人目眩神迷为之倾倒的,Fascination / Awe,26,26,None (Not in NRC 8),,Unmapped in NRC
+bump,bump,颠簸不适的,Unclassified,25,24,None (Not in NRC 8),,Unmapped in NRC
+communicative,communicative,善于沟通的,Unclassified,25,25,None (Not in NRC 8),positive,positive
+inclement,inclement,恶劣的气候,Unclassified,24,24,None (Not in NRC 8),negative,negative
+talkative,talkative,健谈热情的,Unclassified,23,23,None (Not in NRC 8),,Unmapped in NRC
+calmed,calmed,心情平静安稳下来的,Unclassified,22,22,None (Not in NRC 8),,Unmapped in NRC
+favourite,favourite,最喜爱的,Unclassified,22,21,None (Not in NRC 8),,Unmapped in NRC
+lasting,lasting,持久的 / 深刻的,Unclassified,22,22,None (Not in NRC 8),,Unmapped in NRC
+skeptical,skeptical,怀疑的 / 存疑的,Unclassified,22,22,None (Not in NRC 8),negative,negative
+talented,talented,才华横溢精湛的,Unclassified,22,22,None (Not in NRC 8),,Unmapped in NRC
+bummed,bummed,感到扫兴遗憾失落的,Unclassified,21,20,None (Not in NRC 8),,Unmapped in NRC
+mild,mild,轻微适度的（颠簸/舒适）,Unclassified,21,20,None (Not in NRC 8),,Unmapped in NRC
+refreshing,refreshing,令人神清气爽耳目一新的,Unclassified,21,21,None (Not in NRC 8),positive,positive
+unbeatable,unbeatable,无可比拟的 / 无敌的,Unclassified,21,20,None (Not in NRC 8),,Unmapped in NRC
+astonishing,astonishing,令人惊叹的,Unclassified,20,20,None (Not in NRC 8),,Unmapped in NRC
+mood,mood,心情 / 情绪,Unclassified,20,19,None (Not in NRC 8),,Unmapped in NRC
+spiritual,spiritual,精神神圣的,Unclassified,20,19,None (Not in NRC 8),,Unmapped in NRC
+awestruck,awestruck,充满敬畏震撼的,Unclassified,19,19,None (Not in NRC 8),,Unmapped in NRC
+chilly,chilly,寒冷不适的,Unclassified,19,19,None (Not in NRC 8),negative,negative
+comfy,comfy,舒适惬意的,Unclassified,19,18,None (Not in NRC 8),,Unmapped in NRC
+suitable,suitable,合适的 / 满意的,Unclassified,19,19,None (Not in NRC 8),positive,positive
+touching,touching,令人动容流泪的,Unclassified,19,19,None (Not in NRC 8),,Unmapped in NRC
+amazement,amazement,惊叹 / 惊奇,Unclassified,18,18,None (Not in NRC 8),,Unmapped in NRC
+astounding,astounding,令人无比震撼惊叹的,Unclassified,18,18,None (Not in NRC 8),,Unmapped in NRC
+charm,charm,顺畅 / 令人满意,Unclassified,18,17,None (Not in NRC 8),positive,positive
+chill,chill,惬意轻松的,Unclassified,18,18,None (Not in NRC 8),,Unmapped in NRC
+easiest,easiest,最省心的 / 最容易的,Unclassified,18,18,None (Not in NRC 8),,Unmapped in NRC
+haha,haha,哈哈（欢快情绪）,Unclassified,18,18,None (Not in NRC 8),,Unmapped in NRC
+handy,handy,实用的 / 贴心的,Unclassified,18,17,None (Not in NRC 8),positive,positive
+keen,keen,热情的 / 敏锐的,Unclassified,18,18,None (Not in NRC 8),,Unmapped in NRC
+smart,smart,聪慧的 / 明智的,Unclassified,18,18,None (Not in NRC 8),,Unmapped in NRC
+wondered,wonder,感到惊奇惊叹 (动词变体),Amazement / Wonder,18,18,None (Not in NRC 8),,Unmapped in NRC
+cordial,cordial,热情亲切礼貌的,Unclassified,17,17,None (Not in NRC 8),,Unmapped in NRC
+energetic,energetic,精力充沛的,Unclassified,17,17,None (Not in NRC 8),positive,positive
+hopes,hopes,期盼 / 希望,Unclassified,17,17,None (Not in NRC 8),,Unmapped in NRC
+valuable,valuable,珍贵的 / 有价值的,Unclassified,17,17,None (Not in NRC 8),positive,positive
+claustrophobic,claustrophobic,感到幽闭恐惧压抑的,Unclassified,16,16,None (Not in NRC 8),,Unmapped in NRC
+awed,awed,感到为之肃然起敬震撼的,Awe,15,15,None (Not in NRC 8),,Unmapped in NRC
+bubbly,bubbly,活泼热情的,Unclassified,15,15,None (Not in NRC 8),,Unmapped in NRC
+unprofessional,unprofessional,不专业的,Unclassified,15,11,None (Not in NRC 8),,Unmapped in NRC
+warmth,warmth,温暖安心感,Warmth / Comfort,15,15,None (Not in NRC 8),,Unmapped in NRC
+bothered,bothered,困扰的 / 烦心的,Unclassified,14,14,None (Not in NRC 8),,Unmapped in NRC
+frustrating,frustrating,令人挫败的 / 烦人的,Unclassified,14,13,None (Not in NRC 8),,Unmapped in NRC
+glowing,glowing,极度赞赏口碑极佳的,Unclassified,14,14,None (Not in NRC 8),positive,positive
+marvellous,marvellous,令人叹为观止的,Amazement / Awe,14,13,None (Not in NRC 8),,Unmapped in NRC
+satisfaction,satisfaction,满意感,Satisfaction,14,14,None (Not in NRC 8),,Unmapped in NRC
+trustworthy,trustworthy,值得信赖靠谱的,Unclassified,14,14,None (Not in NRC 8),,Unmapped in NRC
+safest,safest,最安全平稳的,Unclassified,13,13,None (Not in NRC 8),,Unmapped in NRC
+tricky,tricky,棘手不安的,Unclassified,13,12,None (Not in NRC 8),,Unmapped in NRC
+vibrant,vibrant,生机勃勃色彩斑斓的,Unclassified,13,13,None (Not in NRC 8),,Unmapped in NRC
+worldly,worldly,超凡脱俗的,Unclassified,13,13,None (Not in NRC 8),,Unmapped in NRC
+bored,bored,感到无聊厌烦的,Boredom,12,12,None (Not in NRC 8),,Unmapped in NRC
+soaking,soaking,沉浸于（soaking in view）,Unclassified,12,12,None (Not in NRC 8),,Unmapped in NRC
+stuffy,stuffy,闷热不适的（体感不适）,Unclassified,12,12,None (Not in NRC 8),negative,negative
+superbly,superbly,出类拔萃完美地,Unclassified,12,12,None (Not in NRC 8),,Unmapped in NRC
+wondrous,wondrous,惊叹奇妙的,Unclassified,12,12,None (Not in NRC 8),positive,positive
+cheesy,cheesy,俗气的 / 劣质的,Unclassified,11,11,None (Not in NRC 8),,Unmapped in NRC
+rewarding,rewarding,非常有成就感/物超所值的,Unclassified,11,11,None (Not in NRC 8),,Unmapped in NRC
+satisfying,satisfying,令人称心满意的,Unclassified,11,11,None (Not in NRC 8),,Unmapped in NRC
+sketchy,sketchy,令人不安可疑的,Unclassified,11,11,None (Not in NRC 8),negative,negative
+slick,slick,熟练专业/光滑的,Unclassified,11,11,None (Not in NRC 8),,Unmapped in NRC
+superlative,superlative,顶级极致赞赏的,Unclassified,11,11,None (Not in NRC 8),,Unmapped in NRC
+emotional,emotional,情感上的 / 动情的,Unclassified,10,10,None (Not in NRC 8),,Unmapped in NRC
+friendlier,friendlier,更加亲切友好的,Unclassified,10,10,None (Not in NRC 8),,Unmapped in NRC
+improving,improving,不断改善令人满意的,Unclassified,10,10,None (Not in NRC 8),positive,positive
+mesmerized,mesmerized,被深深吸引迷住的,Fascination / Awe,10,10,None (Not in NRC 8),,Unmapped in NRC
+stability,stability,平稳安心感,Unclassified,10,10,None (Not in NRC 8),,Unmapped in NRC
+stunningly,stunningly,令人震撼地,Unclassified,10,10,None (Not in NRC 8),,Unmapped in NRC
+automatically,automatically,自动地 / 自然而然,Unclassified,9,9,None (Not in NRC 8),,Unmapped in NRC
+awkward,awkward,尴尬的 / 别扭的,Unclassified,9,9,None (Not in NRC 8),,Unmapped in NRC
+cheerfully,cheerfully,欢快愉悦地,Unclassified,9,8,None (Not in NRC 8),,Unmapped in NRC
+claustrophobia,claustrophobia,幽闭恐惧症（密闭机舱焦虑）,Fear / Anxiety,9,9,None (Not in NRC 8),,Unmapped in NRC
+effortless,effortless,轻松平稳的,Unclassified,9,9,None (Not in NRC 8),,Unmapped in NRC
+hassles,hassles,烦心事 / 摩擦,Unclassified,9,9,None (Not in NRC 8),,Unmapped in NRC
+stuffed,stuffed,塞满的 / 憋闷不适的,Unclassified,9,9,None (Not in NRC 8),,Unmapped in NRC
+susceptible,susceptible,易受影响脆弱的,Unclassified,9,9,None (Not in NRC 8),negative,negative
+unspoiled,unspoiled,未经破坏原始纯粹的,Unclassified,9,9,None (Not in NRC 8),,Unmapped in NRC
+annoyed,annoyed,感到烦恼的 / 恼火的,Unclassified,8,7,None (Not in NRC 8),,Unmapped in NRC
+grace,grace,优雅 / 良好风度,Unclassified,8,8,None (Not in NRC 8),positive,positive
+mindful,mindful,细心周到的,Unclassified,8,8,None (Not in NRC 8),positive,positive
+nerve,nerve,紧张神经,Unclassified,8,8,None (Not in NRC 8),positive,positive
+poorly,poorly,糟糕地 / 差劲地,Unclassified,8,7,None (Not in NRC 8),negative,negative
+shocked,shocked,感到震惊惊吓的,Surprise / Shock,8,8,None (Not in NRC 8),,Unmapped in NRC
+spoiled,spoiled,好心情被破坏毁掉的,Unclassified,8,8,None (Not in NRC 8),,Unmapped in NRC
+yummy,yummy,美味愉悦的,Unclassified,8,8,None (Not in NRC 8),,Unmapped in NRC
+alas,alas,唉 / 遗憾的是,Unclassified,7,7,None (Not in NRC 8),,Unmapped in NRC
+captivated,captivated,被深深吸引着迷的,Unclassified,7,7,None (Not in NRC 8),,Unmapped in NRC
+classy,classy,高端优雅的,Unclassified,7,7,None (Not in NRC 8),,Unmapped in NRC
+curious,curious,好奇求知的,Unclassified,7,7,None (Not in NRC 8),,Unmapped in NRC
+enthusiastically,enthusiastically,热情高涨地,Unclassified,7,7,None (Not in NRC 8),,Unmapped in NRC
+exhilerating,exhilarating,令人兴奋刺激酣畅地（错别字变体）,Excitement,7,6,None (Not in NRC 8),,Unmapped in NRC
+gushing,gushing,滔滔不绝赞赞称道的,Unclassified,7,6,None (Not in NRC 8),,Unmapped in NRC
+hesitating,hesitating,犹豫顾虑（心理活动）,Unclassified,7,7,None (Not in NRC 8),,Unmapped in NRC
+relieved,relieved,宽慰的 / 松了一口气,Unclassified,7,7,None (Not in NRC 8),,Unmapped in NRC
+rudely,rudely,粗鲁地 / 无礼地,Unclassified,7,6,None (Not in NRC 8),,Unmapped in NRC
+strange,strange,怪异不安的,Unclassified,7,7,None (Not in NRC 8),,Unmapped in NRC
+suffered,suffered,遭受身体/晕眩痛苦,Unclassified,7,7,None (Not in NRC 8),,Unmapped in NRC
+appropriately,appropriately,恰当地 / 贴心地,Unclassified,6,6,None (Not in NRC 8),,Unmapped in NRC
+blind,blind,盲目的 / 视线受阻的,Unclassified,6,6,None (Not in NRC 8),negative,negative
+broad,broad,宽广的,Unclassified,6,6,None (Not in NRC 8),,Unmapped in NRC
+calmer,calmer,更平静安心的,Unclassified,6,6,None (Not in NRC 8),,Unmapped in NRC
+casual,casual,随和轻松的,Unclassified,6,6,None (Not in NRC 8),,Unmapped in NRC
+discouraged,discouraged,感到灰心气馁的,Unclassified,6,5,None (Not in NRC 8),,Unmapped in NRC
+enthralled,enthralled,被深深吸引迷住的,Unclassified,6,6,None (Not in NRC 8),,Unmapped in NRC
+fascinated,fascinated,深深入迷为之倾倒的,Fascination,6,6,None (Not in NRC 8),,Unmapped in NRC
+frightening,frightening,令人惊恐吓人的,Unclassified,6,6,None (Not in NRC 8),,Unmapped in NRC
+inspirational,inspirational,鼓舞人心的,Unclassified,6,6,None (Not in NRC 8),,Unmapped in NRC
+precision,precision,精准靠谱的,Unclassified,6,6,None (Not in NRC 8),positive,positive
+relief,relief,轻松如释重负感,Relief,6,6,None (Not in NRC 8),positive,positive
+sublime,sublime,崇高壮丽绝美的（Aesthetic Emotion/Awe）,Unclassified,6,6,None (Not in NRC 8),,Unmapped in NRC
+warmest,warmest,最暖心亲切的,Unclassified,6,6,None (Not in NRC 8),,Unmapped in NRC
+comforted,comforted,感到安慰安心的,Comfort / Relief,5,5,None (Not in NRC 8),,Unmapped in NRC
+envy,envy,羡慕 / 嫉妒,Envy,5,5,None (Not in NRC 8),,Unmapped in NRC
+intimidating,intimidating,令人胆怯令人畏惧的,Unclassified,5,5,None (Not in NRC 8),,Unmapped in NRC
+jitters,jitters,忐忑不安 / 紧张发抖感,Nervousness / Anxiety,5,5,None (Not in NRC 8),,Unmapped in NRC
+overwhelmingly,overwhelmingly,压倒性震撼地,Unclassified,5,5,None (Not in NRC 8),,Unmapped in NRC
+stressful,stressful,令人压力重重焦虑的（Stress/Anxiety State）,Unclassified,5,5,None (Not in NRC 8),,Unmapped in NRC
+wowed,wowed,被深深惊叹震撼的,Amazement / Awe,5,5,None (Not in NRC 8),,Unmapped in NRC
+captivating,captivating,扣人心弦引人入胜的,Fascination / Awe,4,4,None (Not in NRC 8),positive,positive
+disconcerting,disconcerting,令人不安的,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+embarrassed,embarrassed,感到尴尬难堪的,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+emotion,emotion,情感 / 情绪,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+exhilarated,exhilarated,感到无比兴奋酣畅的,Excitement / Joy,4,4,None (Not in NRC 8),,Unmapped in NRC
+giddy,giddy,兴奋得头晕目眩欢欣的,Excitement / Joy,4,4,None (Not in NRC 8),,Unmapped in NRC
+irritated,irritated,感到恼火烦躁的,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+peacefulness,peacefulness,宁静详和感,Calm / Serenity,4,4,None (Not in NRC 8),,Unmapped in NRC
+phobia,phobia,恐惧症 / 恐高心理,Fear,4,3,None (Not in NRC 8),,Unmapped in NRC
+pleasing,pleasing,令人愉悦满意的,Pleasure / Satisfaction,4,4,None (Not in NRC 8),,Unmapped in NRC
+profound,profound,深刻震撼的,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+spellbinding,spellbinding,扣人心弦迷人的,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+spellbound,spellbound,出神为之入迷的,Fascination / Awe,4,4,None (Not in NRC 8),,Unmapped in NRC
+stoked,stoked,极为激动期待的,Excitement,4,4,None (Not in NRC 8),,Unmapped in NRC
+subtle,subtle,微妙精细的,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+thrills,thrills,刺激 / 快感,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+underwhelmed,underwhelmed,大失所望未达预期的,Disappointment,4,4,None (Not in NRC 8),,Unmapped in NRC
+unnerving,unnerving,令人发慌不安吓人的,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+wildest,wildest,最疯狂的（狂想）,Unclassified,4,4,None (Not in NRC 8),,Unmapped in NRC
+aggressively,aggressively,挑衅攻击地 / 极其恶劣地,Unclassified,3,3,None (Not in NRC 8),,Unmapped in NRC
+ambivalent,ambivalent,矛盾复杂心理的,Mixed Emotion,3,3,None (Not in NRC 8),,Unmapped in NRC
+astonished,astonished,感到十分惊异惊叹的,Amazement / Surprise,3,3,None (Not in NRC 8),,Unmapped in NRC
+astounded,astounded,感到十分震惊震撼的,Amazement,3,3,None (Not in NRC 8),,Unmapped in NRC
+beneficial,beneficial,有益的 / 有帮助的,Unclassified,3,3,None (Not in NRC 8),positive,positive
+carefree,carefree,无忧无虑自在的,Unclassified,3,3,None (Not in NRC 8),,Unmapped in NRC
+compassionate,compassionate,富有同理心体贴的,Compassion,3,3,None (Not in NRC 8),positive,positive
+daunting,daunting,令人望而生畏胆怯的,Fear / Anxiety,3,3,None (Not in NRC 8),,Unmapped in NRC
+dazzled,dazzled,目眩神迷震撼的,Amazement / Awe,3,3,None (Not in NRC 8),,Unmapped in NRC
+deaf,deaf,听而不闻冷漠的（fell on deaf ears）,Unclassified,3,3,None (Not in NRC 8),negative,negative
+dissatisfied,dissatisfied,感到不满意的,Disappointment / Dissatisfaction,3,3,None (Not in NRC 8),,Unmapped in NRC
+dreaming,dreaming,梦寐以求 / 心驰神往,Unclassified,3,3,None (Not in NRC 8),,Unmapped in NRC
+horribly,horrible,糟糕恐怖地,Disgust / Distress,3,3,None (Not in NRC 8),negative,negative
+incomprehensible,incomprehensible,难以理解令人困惑的,Unclassified,3,3,None (Not in NRC 8),negative,negative
+indulge,indulge,尽情享受 / 犒劳自己,Unclassified,3,3,None (Not in NRC 8),,Unmapped in NRC
+joking,joking,开玩笑的,Unclassified,3,3,None (Not in NRC 8),positive,positive
+peacefully,peacefully,宁静和平地,Unclassified,3,3,None (Not in NRC 8),,Unmapped in NRC
+rickety,rickety,摇摇欲坠的,Unclassified,3,3,None (Not in NRC 8),negative,negative
+securely,securely,安全平稳地,Unclassified,3,3,None (Not in NRC 8),,Unmapped in NRC
+spoilt,spoilt,被破坏败兴的,Unclassified,3,3,None (Not in NRC 8),,Unmapped in NRC
+clever,clever,聪明睿智的,Unclassified,2,2,None (Not in NRC 8),positive,positive
+compliant,compliant,顺从的 / 合规安心的,Unclassified,2,2,None (Not in NRC 8),positive,positive
+desperate,desperate,感到绝望迫切的,Unclassified,2,2,None (Not in NRC 8),negative,negative
+exhausting,exhausting,令人筋疲力尽的,Fatigue / Exhaustion,2,2,None (Not in NRC 8),,Unmapped in NRC
+favourable,favourable,有利的 / 良好的,Unclassified,2,2,None (Not in NRC 8),,Unmapped in NRC
+positively,positively,积极正面地,Unclassified,2,2,None (Not in NRC 8),,Unmapped in NRC
+primo,primo,一流的 / 顶级的,Unclassified,2,1,None (Not in NRC 8),,Unmapped in NRC
+pumped,pumped,兴奋激动的 / 跃跃欲试,Unclassified,2,2,None (Not in NRC 8),,Unmapped in NRC
+rigid,rigid,刻板不近人情的,Unclassified,2,2,None (Not in NRC 8),negative,negative
+askance,askance,怀疑斜视地（不信任）,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+bluest,bluest,最湛蓝的（极致景色）,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+bluntly,bluntly,直言不讳地,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+decency,decency,礼貌体面 / 服务缺乏礼貌体面,Unclassified,1,1,None (Not in NRC 8),positive,positive
+flaky,flaky,不靠谱的 / 经常取消的,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+grandest,grandest,最宏大的 / 极其壮丽的,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+harsh,harsh,严酷恶劣的,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+immeasurable,immeasurable,无法估量的 / 极致的,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+miraculously,miraculously,奇迹般地,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+quell,quell,镇定 / 平息（恐惧）,Unclassified,1,1,None (Not in NRC 8),negative,negative
+racist,racist,种族歧视的,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+regrettably,regrettably,遗憾地 / 抱歉,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+wasbeautiful,wasbeautiful,美丽动人的（美感）,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+whelmed,whelmed,被深深震撼淹没的,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+worthful,worthful,物有所值的,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
+zing,zing,刺激快感,Unclassified,1,1,None (Not in NRC 8),,Unmapped in NRC
