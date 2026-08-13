@@ -675,8 +675,11 @@ conscientious,认真负责的,E1_E2_Candidate,conscientious,ADJ,1,1,review_8939f
 conscious,有意识的 / 讲究的,E1_E2_Candidate,conscious,ADJ,1,1,"review_5429f4ef0478bae9255d337b :: Everyone at Talkeetna Air Taxi was efficient, safety conscious and so helpful."
 danger,危险 / 威胁,E1_E2_Candidate,danger,NOUN,1,1,"review_4d079dc9f26b22e5cee4dac8 :: He took us right up close to some cliffs,mountains,waterfalls,valleys and beaches without any kind of danger."
 darling,可爱的 / 亲切的,E1_E2_Candidate,darling,ADJ,1,1,review_e8ba09c98f233e51030cc9c3 :: we even stopped at the famous El Tovar Hotel and were treated to Hopi Indian dances featuring a darling 3-4 year old I'll never be able to repay my friend for her generosity as this was truly a day I'll always remember ✈️
+deaf,听而不闻冷漠的（fell on deaf ears）,E2_Appraisal (Stimulus/Service Attribute),deaf,NOUN,1,1,review_1a1601cda603ad2706af1666 :: I mentioned it to the pilot but it fell on deaf ears literally.
+decency,礼貌体面 / 服务缺乏礼貌体面,E2_Appraisal (Stimulus/Service Attribute),decency,NOUN,1,1,"review_af08902c4c1b7326756e9e93 :: At the end of the flight, he didn't even have the decency to say goodbye and went about doing his own stuff with the airplane."
 decent,尚可的 / 体面的,E1_E2_Candidate,decent,ADJ,1,1,"review_bed38cb5492cc85e5a6942a8 :: As several reviewers have pointed out, if you are an average male you should expect to be in the rear seat and if you are in the middle dont expect to capture any decent photos."
 delighted,高高兴兴的,E1_State (Direct Internal Affective State),delighted,VERB,1,1,review_50d0c427181c796477638983 :: All of us were delighted with the trip.
+disappointment,失望 / 遗憾失落情绪,E1_State (Direct Internal Affective State),disappointment,VERB,1,1,"review_371d97ab086d05f4b8dd720f :: Much to our and our kids' disappointment, our morning flight was initially cancelled because of smoke from forest fires."
 disconcerting,令人不安的,E1_E2_Candidate,disconcerting,ADJ,1,1,review_6c48905d4d285a3a633a9e12 :: Helicopter had a lot of vibration that was a little disconcerting.
 disrespectful,无礼的 / 冒犯的,E1_E2_Candidate,disrespectful,ADJ,1,1,review_cbe4d099bc688920d0a3a2b9 :: It was incredibly rude and disrespectful of her to treat me in such a manner and I let her know.
 eager,热切的 / 渴望的,E1_E2_Candidate,eager,ADJ,1,1,review_f32161287cbdcd87c87a048a :: They are eager to book (W/ Glacier Landing) any one of 4 Denali flightseeing trips.
