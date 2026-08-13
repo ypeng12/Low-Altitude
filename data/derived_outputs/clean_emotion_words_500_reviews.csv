@@ -1,0 +1,801 @@
+﻿word,chinese_translation,affect_type,frequency,review_count,example_context
+great,极好的 / 太棒了,E1_E2_Candidate,235,172,"review_85b1ad0d6eac5eebd570b607 :: Outstanding trip - weather was great.
+review_b76e6c2bc278477c91d37c62 :: Spencer was great, and he figured out a way to allow us to book a second trip so we could still all participate, though this doubled our cost.
+review_b79c6cfcd7b2a3c981b7475b :: We took our tour on a DeHavilland Beaver, and from the very start, our guide was great- he even carried me out to the plane so I wouldn't get my shoes wet!
+review_8b4c172e7b644d8c4b931cc0 :: It’s a risk but if you are flexible this is a great option.
+review_8b4c172e7b644d8c4b931cc0 :: Our pilot Forest was extremely professional and provided a great commentary."
+best,极佳的 / 顶尖的,E1_E2_Candidate,77,70,"review_b76e6c2bc278477c91d37c62 :: We made the best of a pretty disappointing and unexpectedly expensive situation, but we will not be trusting TripAdvisor descriptions in the future.
+review_353636e7a5b2962a9d433033 :: The front seat is most definitely the best view but they navigate the plane in a way where everyone gets a chance to see everything.
+review_7e2201b48b681475df75ef1a :: This is really the best way to see both Denali the mountain as well as the park.
+review_7610caa1138d8b33b74c4e88 :: Taking the whole scene in by air is maybe the best way to understand the size and majesty of the canyon.
+review_f5f9cfcb1ff8c9e809596258 :: We took the flight tour with the mountain landing and it was one of the best vacation experiences we have ever had."
+friendly,友好的 / 亲切的,E1_E2_Candidate,73,69,"review_606c51f8ee10965aa9c59bca :: the pilot was fun and friendly and was a decision we are glad we made.
+review_6c89ecdf05add32f2e5cb9a7 :: My pilot and guide Chris was knowledgeable, accommodating, skilled, and very friendly - his steady piloting and narration throughout the trip added to an already amazing trip.
+review_221283419e26d28fca58af8a :: Friendly service and well worth it.
+review_082e1f27aa3bb895882c5db8 :: The receptionist was very friendly and helpful.
+review_082e1f27aa3bb895882c5db8 :: The girl working in the office was very friendly and also the pilots daughter."
+knowledgeable,博学的 / 专业的,E1_E2_Candidate,72,69,"review_51d3d1bdd73dc48dd25270e7 :: Not only was the pilot exceptionally knowledgeable of San Fran but the entire experience represented excellent value for money where we were able to see the city from above over a 30 minute period (which is more than enough time).
+review_6c89ecdf05add32f2e5cb9a7 :: My pilot and guide Chris was knowledgeable, accommodating, skilled, and very friendly - his steady piloting and narration throughout the trip added to an already amazing trip.
+review_082e1f27aa3bb895882c5db8 :: The pilot was nice, friendly, funny and best of all knowledgeable.
+review_ced58d8c691f443c16cbfe37 :: The pilot was very knowledgeable about glaciers.
+review_10e68422b6a984d268d5ab67 :: Our pilot was very competent and very knowledgeable - turning the aircraft to allow views of everything regardless of the side of the plane where you're seating."
+nice,美好的 / 良好的,E1_E2_Candidate,69,60,"review_353636e7a5b2962a9d433033 :: The flight was amazing, pilot Phillip was so nice and informative.
+review_6156ccd88f392b21de3b4908 :: It was the best experience of all my trips, as Shane's staff greeted my party of 10 at the airport with a very nice van for the short ride to the Sea Port.
+review_6156ccd88f392b21de3b4908 :: The check in was very easy and the waiting room was decorated very nice with all kinds of memorabilia.
+review_6156ccd88f392b21de3b4908 :: The pilot was very good at his job and extremely nice.
+review_606c51f8ee10965aa9c59bca :: We did this as a spur of the moment thing, and as it was a nice day we are glad that we did."
+wonderful,精彩的 / 极好的,E2_Appraisal (Stimulus/Service Attribute),65,57,"review_b76e6c2bc278477c91d37c62 :: I first want to state that our pilot Spencer was wonderful in every way.
+review_291988db94de25fedef72be3 :: He gave a wonderful description of everything we flew over.
+review_7b76705a2666fc9f007a68b5 :: The wonderful staffed talked us in to taking the flight and WOW, what an experience!
+review_7e2201b48b681475df75ef1a :: The company was fantastic to deal with and the actual flight was wonderful!
+review_c6388dc2ce0d1b794c18df93 :: Great ground crew, a wonderful pilot and guide, and a memorable flight!"
+fantastic,太棒了 / 绝妙的,E1_E2_Candidate,54,50,"review_85b1ad0d6eac5eebd570b607 :: Pilot did an excellent job of providing views from every angle for every passenger - fantastic landing on the glacier.
+review_7e2201b48b681475df75ef1a :: The company was fantastic to deal with and the actual flight was wonderful!
+review_8f5e0f00afe0371683965f83 :: I've never taken a small plane tour before so I didn't know what to expect, but it was a fantastic way to see the island and it wasn't scary at all!
+review_4ed9789654d1231bc278b4e3 :: Our pilot was fantastic -- superb flyer and provided knowledgeable commentary.
+review_4af2d9822d8f9626565e416d :: It was our daughter’s 16th birthday trip and what a fantastic way to see Denali."
+better,更好的 / 更满意的（超过预期）,E1_E2_Candidate,51,44,"review_082e1f27aa3bb895882c5db8 :: What better way to see an island for the first time than seeing the entire island.
+review_bd821a97ad719aeeebde185a :: Bruce informed us there was some haze and checked the weather to see if the next few days would offer better viewing.
+review_4af2d9822d8f9626565e416d :: Everything about the flight was even better than we had hoped.
+review_4af2d9822d8f9626565e416d :: We couldn’t have asked for a better adventure for our family.
+review_a49c3b4b417661efc807e243 :: Seeing the Napali coast by air turned out to be far better than by water, and having gracious, genuine hosts for our tour made it that much better."
+spectacular,壮观的 / 震撼的,E2_Appraisal (Stimulus/Service Attribute),38,35,"review_9876556ef47117a9c27fced8 :: On a clear day it is a pretty spectacular 30 minutes.
+review_606c51f8ee10965aa9c59bca :: The views and scenery were spectacular and the view to Mt McKinley was amazing.
+review_f1afb11c14a20df3c0e654e1 :: The Glacier landing was spectacular!
+review_123bf9f58334923a62ba4371 :: Wings Over Kauai offers a comfortable air tour of the entire island with spectacular views of the most popular and breathtaking sites the island has to offer, including: waterfalls, coastlines, Waimea Canyon, the inner island, sugar plantations, resort areas, and open sea.
+review_26666fb5871f5009a89cc1e1 :: The views and the spectacular colors of the sunset truly need to be experienced from the air."
+easy,轻松的 / 省心的,E1_E2_Candidate,34,31,"review_353636e7a5b2962a9d433033 :: I get motion sickness pretty easy but this was not an issue for me.
+review_6156ccd88f392b21de3b4908 :: The check in was very easy and the waiting room was decorated very nice with all kinds of memorabilia.
+review_bd821a97ad719aeeebde185a :: The reservation process was easy and they were very flexible in order to accommodate our schedule.
+review_123bf9f58334923a62ba4371 :: The flight leaves from the Lihue airport - very easy to find their hanger, just past the main terminal.
+review_30ccaf6bc2fd2b6926aa389d :: They were also easy to get a hold of via phone."
+perfect,完美的 / 无可挑剔的,E1_E2_Candidate,34,31,"review_b79c6cfcd7b2a3c981b7475b :: I've been wanting to fly on a seaplane for ages, and when my parents came to visit it seemed like a perfect time to check it off the list.
+review_347a597fb8c019adff981117 :: The entire day was perfect.
+review_3e49c04ea9e77e714a81cdfb :: It was all green, the water was blue, everything was perfect.
+review_3e49c04ea9e77e714a81cdfb :: It was perfect.
+review_e265784b06b03e9657bda9ff :: Everywhere I looked was a picture perfect frame."
+loved,热爱 / 极为喜爱,E1_State (Direct Internal Affective State),33,32,"review_7e2201b48b681475df75ef1a :: It was clear he loved his job!
+review_f0ee2cd886f1308d732e265f :: My husband loved the experience in the small 1965 plane and my teens took tons of photos!
+review_6857382b853cc9b1e8671ff9 :: We loved every minute of this!
+review_f1afb11c14a20df3c0e654e1 :: We loved our K2 experience!
+review_4af2d9822d8f9626565e416d :: We all loved every minute of our time."
+comfortable,舒适的 / 安心的,E1_E2_Polysemous (State & Appraisal),32,29,"review_fd7ebcc7f5e93d96ece3c7ac :: I was a little nervous, never flown in a small plane but Kim was great, made us all very comfortable.
+review_082e1f27aa3bb895882c5db8 :: He was so personable that he made us feel comfortable and relaxed (definitely helped me because I easily get motion-sickness).
+review_123bf9f58334923a62ba4371 :: Wings Over Kauai offers a comfortable air tour of the entire island with spectacular views of the most popular and breathtaking sites the island has to offer, including: waterfalls, coastlines, Waimea Canyon, the inner island, sugar plantations, resort areas, and open sea.
+review_a49c3b4b417661efc807e243 :: You will always get a window seat on this flight, and you will get to see everything there is to see in Kauai on a very comfortable, easy flight.
+review_3be86b281748fcad0f0f0b34 :: The office is very nice with comfortable seating, gift shop, snack bar, clean restrooms."
+incredible,不可思议的 / 惊叹的,E2_Appraisal (Stimulus/Service Attribute),29,27,"review_1b882aa7c72201a6725b9fe7 :: Incredible views of Denali and other peaks.
+review_6857382b853cc9b1e8671ff9 :: It was incredible!
+review_f1afb11c14a20df3c0e654e1 :: an incredible memory that you will always remember.
+review_f1afb11c14a20df3c0e654e1 :: It was incredible.
+review_98e74ad69a88380b69ce727c :: With his incredible skill, we were able to witness the sea cliff from an impeccable perspective."
+enjoyed,享受 / 感到喜爱,E1_State (Direct Internal Affective State),24,24,"review_8f5e0f00afe0371683965f83 :: I really enjoyed the experience, especially the unexpected ginger chews, kukui nut lei, and photographs they gave us!
+review_d780f91654b1c9f99a2a236a :: We so enjoyed doing some Christmas shopping in downtown Moab!
+review_e4cd1a8f00e8148f6f1f053c :: I was a little nervous about going on a small plane, but once we got started I forgot all that and enjoyed the ride.
+review_e19f4508602ecbfcd0a59754 :: I really enjoyed the tour!
+review_993985c342753f81a2cd36de :: We totally enjoyed the kindness and trust in Bruce and Ellen."
+lovely,令人愉悦的 / 可爱的,E1_E2_Candidate,20,17,"review_cbe4d099bc688920d0a3a2b9 :: My two sisters and I planned a lovely, activity filled Christmas in Kauai.
+review_3b2f354df3d8b44c9d34a54a :: We had a lovely time with Bruce.
+review_123bf9f58334923a62ba4371 :: Wings Over Kauai also gifts you with a lovely DVD as a thank you gift for taking their flight.
+review_e2dc2a31bed85af6df3536af :: It was a lovely sunny day.
+review_71241e031e521f6c6963b901 :: As I walked into the airport a lovely lady who worked there greeted us and I started crying I was that scared."
+nervous,紧张的 / 焦虑不安的,E1_State (Direct Internal Affective State),17,15,"review_fd7ebcc7f5e93d96ece3c7ac :: I was a little nervous, never flown in a small plane but Kim was great, made us all very comfortable.
+review_a7368b502923fca015488011 :: My boyfriend and I went together, he’s 6’8 and we were a little nervous about his size, but he fit perfectly and we had the best time!
+review_bd821a97ad719aeeebde185a :: This is a great alternative for people who are nervous about helicopters (like me) or who have weight limits and cannot take a helicopter.
+review_2a211e66566d9506094042c7 :: I admit I was a bit nervous as flying can bring anxiety sometimes but Billy - our pilot was GREAT!
+review_af6e91837198d33f81e2790e :: If you ever felt nervous about turbulence on a big commerical plane you will contemplate your existence bouncing around in turbulence in a 8 seater, especially over the canyon."
+kind,亲切的 / 友善的,E1_E2_Candidate,16,16,"review_353636e7a5b2962a9d433033 :: Before boarding the flight, I asked if I could sit up front and the pilot said yes saying ""its kind of a 'whoever asks first' can sit in the front"".
+review_7b8fca9fb1b20483fadf5af6 :: This was my first experience of this kind.
+review_4af2d9822d8f9626565e416d :: Our pilot, Leanne, was so kind and friendly and told us so many cool things about Alaska and the beautiful scenery and mountain exploration.
+review_5af0aa2ddab59ab12c933bdc :: Gina was very kind and helpful in the office.
+review_50ad674985c5646672bc62e8 :: They kind of look at you and tell you where to sit in the plane based on your size but everyone had a primo seat - that way the plane flies flat and straight, they say."
+enjoyable,令人愉快的 / 趣味盎然的,E1_E2_Candidate,15,15,"review_2e2fd5b9ad85c6bccb8fcda5 :: Very enjoyable in an 8-seater plane allowing everyone to have a window seat.
+review_bc5587ba8b5a0ff184eedaa0 :: He takes time to get to know the people on the flight and really makes the experience that much more enjoyable.
+review_41e89b2bd2015171811a3aad :: Our pilot Eddie provided a detailed explanation of everything we were viewing and made the flight really enjoyable.
+review_4252c374520394a13c38d9d5 :: His courteous and easy going style made this trip enjoyable, interesting, and fun.
+review_337148ea4fdca09d1b9bbdc9 :: Thanks to Jill for working with us and to Nate for his very enjoyable trip!"
+expensive,昂贵的 / 价格偏高的,E1_E2_Candidate,15,13,"review_b76e6c2bc278477c91d37c62 :: We made the best of a pretty disappointing and unexpectedly expensive situation, but we will not be trusting TripAdvisor descriptions in the future.
+review_36ec0ca30c015a4a8e0e9330 :: Expensive but definitely worth it!
+review_f1afb11c14a20df3c0e654e1 :: The trip is expensive for sure.
+review_f1afb11c14a20df3c0e654e1 :: Yes, this is expensive.
+review_5d1ed7c73f280b31c37e8a26 :: Was it expensive?"
+sick,晕机的 / 身体不适的,E1_E2_Candidate,15,13,"review_082e1f27aa3bb895882c5db8 :: Saw they used those small prop planes (good for those that get motion-sick) and then I saw they had a combo tour.
+review_3a07e05594205653b0fa7e73 :: Before getting on a Cessna, so worried about airplane sick,,,.
+review_f486131a76d495cf9d39fbf2 :: We did not get sick but the flight was bumpy at times due to the wind.
+review_cd27921d3895fc595fd53af3 :: There was a little turbulence in the air but not so much that it made anyone sick and one in our group was prone to the that.
+review_6e1b32b84859070da88e0d06 :: If you get motion sick easily, you may find the ride too much, but not people wouldn't be bothered at all."
+special,特别的 / 珍贵的,E1_E2_Candidate,15,15,"review_a16674769364bddb39438f8b :: By the end of this very special day, I couldn’t believe the dent I had put in my Bucket List.
+review_082e1f27aa3bb895882c5db8 :: I wanted to do something special for my girlfriend's birthday.
+review_c0eca4e9ffc9c70d92b13055 :: This was a flight for our Anniversary and what a special flight it was!
+review_123bf9f58334923a62ba4371 :: My spouse and I will be watching our videos (both theirs and those that we took in flight) many times to remember this special trip.
+review_5c8c6ffd9af021cbb4bdebd5 :: Envi Adventures truly has something special going on."
+cool,酷的 / 爽快的,E1_E2_Candidate,14,13,"review_4af2d9822d8f9626565e416d :: Our pilot, Leanne, was so kind and friendly and told us so many cool things about Alaska and the beautiful scenery and mountain exploration.
+review_0007fe1c2b3216a8645c4245 :: It was a cool experience - but a bit disappointing.
+review_30a4fe165d7e3a55f8e3db95 :: Landing on the glacier was really cool, as was walking around in a couple of feet of snow on the most quiet and serene place I've ever been.
+review_064c82589dc9f15ceb99ed00 :: It’s such a cool perspective on the gorge.
+review_064c82589dc9f15ceb99ed00 :: The pilot was so friendly with cool facts about the area."
+happy,高兴的 / 快乐的,E1_State (Direct Internal Affective State),14,14,"review_bd821a97ad719aeeebde185a :: Since there was some rain in the forecast we decided to go that day, and we were happy we did.
+review_4e12b4a1176793651a28a048 :: We were happy because we did want to have a glacier landing and we didn’t even ask, it was automatically done!
+review_50ad674985c5646672bc62e8 :: Much cheaper and really easy to do, they are really easy to deal with directly and are happy to answer your email questions.
+review_df128e035c2e2f5109e3638c :: My husband and I did this tour something we’ve wanted to do and are so happy we did it!
+review_6a37a276cde42d2608622f3e :: There is a 30 minute flight available too but we were very happy with the longer flight."
+disappointed,感到失望的 / 遗憾的,E1_State (Direct Internal Affective State),13,13,"review_1a179dde846fef68cb4332b2 :: I particularly wanted to fly in one of these radial engined Beavers and I wasn't disappointed.
+review_942191570bc6c27e6f1ef0b4 :: I was extremely disappointed at this and had went to the office to file a complaint immediately after we got off.
+review_867c2a2af7cf3033fc36828a :: Was disappointed that our pilot didn't give us any narration or information about the history and geography of the land and we were unable to ask or communicate with him as mics were not active.
+review_9a6426dc1c3d9f04489aec57 :: I was disappointed at the overall blasé attitude of the pilot.
+review_12906dbaf85aa756684ce4cf :: We wasn't disappointed."
+unfortunately,不幸的是 / 遗憾的是,E1_E2_Candidate,13,12,"review_7e2201b48b681475df75ef1a :: Unfortunately, the morning of our tour it was rainy with low clouds.
+review_c39dc7379a12552fa62d8ddd :: Unfortunately on the day of our trip temperatures at the base of the Canyon hit 47 degrees and the helicopter and boat trip had to be cancelled as it was too hot for the copters to gain the lift needed to take off.
+review_6bbc264bc4a808a43fe95ceb :: Unfortunately, cloud cover prevented us from seeing any of the canyon as well as the ""Jurassic Park"" waterfalls.
+review_4e12b4a1176793651a28a048 :: Unfortunately, the weather was not great on the day of our tour so they called us to tell us it was cancelled.
+review_4e12b4a1176793651a28a048 :: Unfortunately, Denali was hiding in the clouds but the views of the other mountains was spectacular."
+hard,困难的 / 艰辛的,E1_E2_Candidate,11,11,"review_391296b7cc0f06b72663511f :: Each seat has a window and the pilot provides commentary and answers questions that are hard t pose as the mikes on the headsets don't work.
+review_d885e5c4d3d84166ffc7048f :: It was raining really hard and super cloudy and they made no circumstances.
+review_a6ad668389d1d7c4c1ecda23 :: It's hard to imagine another way to so fully appreciate the size of the canyon, and our pilot was able to point out a variety of interesting facts while answering questions throughout.
+review_53ff5143a41d862350d136a5 :: We also learned the hard way, that it's sometimes difficult to extract yourself from the clutches of these agents, if they get even the slightest sniff of possibility that you might take your wallet or your credit card out.
+review_83fe4d7e7dc015a14d52be74 :: The flight scenery is hard to convey with words."
+thanks,感谢 / 致谢,E1_E2_Candidate,11,11,"review_c6388dc2ce0d1b794c18df93 :: Thanks to you all.
+review_2323283c585daf50d725d5e4 :: Thanks to the pilot Matt extra and so nice.
+review_001714a98a28507f72d8be7d :: Thanks to the staff at Air Ventures for a great trip.
+review_43ea85710b6216e626dd2867 :: Thanks Harry for a smooth flight and delightful information about the island.
+review_4a193749e12297241be1dc4e :: Big big thanks to Everett at the office, a nice person who is always open to help tourists."
+unique,独一无二的 / 独特的,E1_E2_Candidate,11,10,"review_a16674769364bddb39438f8b :: If you've ever wanted to enjoy a truly unique way to enjoy the magnificence of the Grand Canyon, Westwind is the way to go!
+review_c42ba42468c6eebef97f3663 :: The landscape was so unique and IMHO is best appreciated from the air.
+review_6498ce79fc0b9213c772e5fc :: The mixture of rain and sun brought out rainbows time and time again, including a circular rainbow which was so neat and unique.
+review_910f36995494e03bebd4a468 :: The most unique aspect was Bruce's perspective on the flora, due to his extensive background in Agronomy.
+review_bc094451a516daefa055857a :: This was one of the most unique experiences I have ever had!"
+incredibly,难以置信地 / 极其,E1_E2_Candidate,10,10,"review_cbe4d099bc688920d0a3a2b9 :: It was incredibly rude and disrespectful of her to treat me in such a manner and I let her know.
+review_f1afb11c14a20df3c0e654e1 :: The K2 Staff is incredibly relaxed, courteous, and well organized.
+review_4ed9789654d1231bc278b4e3 :: We got to know her a little bit when she stepped in to drop us off at our hotel as her staff was incredibly busy (short staffed due to current COVID related issues).
+review_232a87a44ddf7a8ae2f7daab :: We flew from the Grand Canyon airport and everything went like clockwork, BJ checked if he had anyone on board that was afraid of heights, and the trip was incredibly smooth, the helicopter had good visibility and seated 7 passengers though we only had 5 on our trip, an excellent insight into the canyon for our first glimpse.
+review_942965db6b3bbf8f44f75b47 :: Also worth noting was office crew –they were incredibly organized from booking to drop off and even scheduled van pick up from my cruise ship."
+pleasant,令人愉快的 / 宜人的,E1_E2_Candidate,10,10,"review_4899b603a9d2f1beb416a798 :: This company does not deliver pleasant experiences.
+review_e68e4472a8fa5075641e96df :: The trip was pleasant.
+review_c42ba42468c6eebef97f3663 :: The entire staff could not have been more pleasant.
+review_7fa1e7da0ca539d45251b2af :: Our pilot, Max, was fantastic - very pleasant, informative, and professional.
+review_48c09089c16a76a76a7c28b4 :: Professional and pleasant."
+bad,糟糕的 / 坏的,E1_E2_Candidate,9,8,"review_07b74d25ca8cca39cb34a0be :: I did this excursion today on 06/20/2013 and I had a bad experience on this ride which I would like to share especially from the pilot of of our float plane.
+review_07b74d25ca8cca39cb34a0be :: I forgot the name of the pilot but he was the oldest pilot in their team and it was my bad luck that I had to fly with him.
+review_a56c790aee69c2829442e4c8 :: Turns out the clouds weren't as bad as they thought and we got to land.
+review_e8603e3c4890b91887eed92a :: The trip was canceled due to bad weather on 13 Sep.
+review_45e52ad80d6513a8e9531767 :: Highly recommended because my friends who did this trip from Las Vegas by driving themselves told me they spent a lot of time driving in bad highways stressed and they had to book a hotel inside the park to have time to visit it, nevertheless if you go by plane or helicopter you will arrive faster and enjoy one entire day with the best views of Grand Canyon."
+fabulous,绝妙的 / 极好的,E1_E2_Candidate,9,9,"review_6342f02236b5c440463f7a38 :: Absolutely amazing and our pilot was fabulous.
+review_53ff5143a41d862350d136a5 :: It was a fabulous journey which also took in the Hoover Dam and it's new road bridge, as well as Lake Mead.
+review_cee3f2a03829a94fe1a6a788 :: It turned out to be fabulous!
+review_6466b9ab383b5a4f1fdda53c :: Our recent Seaplane Adventure was fabulous!
+review_2618b3d35d2154378d6e24e5 :: It was a fabulous day for weather."
+funny,幽默风趣的,E1_E2_Candidate,9,9,"review_082e1f27aa3bb895882c5db8 :: The pilot was nice, friendly, funny and best of all knowledgeable.
+review_6a37a276cde42d2608622f3e :: He was knowledgeable, funny and made the flight extra memorable.
+review_3a562693d0a814861060b2cf :: Our tour guide was funny, informative and very knowledgeable!
+review_d6633755ab0fe56676302484 :: Bryan, our pilot, was funny and a pleasure and Pua in reception was very sweet and helpful.
+review_ef54bc7bc3c4866c7f29937f :: Tour guide was energetic, informative and funny!"
+unforgettable,令人难忘的 / 铭心的,E1_E2_Candidate,9,9,"review_26666fb5871f5009a89cc1e1 :: From start to end, Laura (our pilot) made our sunset flight an unforgettable experience.
+review_2323283c585daf50d725d5e4 :: We keep an unforgettable memory
+review_a70969c5180dcff4b504e3f5 :: Unforgettable scenery.
+review_6fbeaf457ee807a3d63481cd :: Thanks for an unforgettable experience!
+review_00deb5b5ce64791d3809151f :: Treat yourself to unforgettable views and book a tour."
+interested,感兴趣的 / 充满好奇的,E1_E2_Candidate,8,8,"review_3ba1137cb1b4e9207840a231 :: I would highly recoomend this compant to any interested in a float plane trip out of Talkeetna.
+review_af08902c4c1b7326756e9e93 :: We could see other pilots escorting their customers right upto the office however our pilot was simply not interested.
+review_feb8e8b8f877bcebb986186f :: If you're interested in seeing how the Iditarod really works this is absolutely the best thing you can do outside of volunteering and being part of the race yourself.
+review_01947c281697b80abc4bbfae :: Both Gy and Ellen make you feel very welcome and they are genuinely interested in each passenger.
+review_f636b160dcd5b8cb35245d33 :: They were very patient with our 13 yr old who was more interested in flying than the views and although he took more time chatting they happily accommodated him."
+plenty,丰富的 / 充足的,E1_E2_Candidate,8,8,"review_10e68422b6a984d268d5ab67 :: the tour I wanted - as a solo traveler got to sit in the right-hand seat with two other couples behind us - after departing the airport you do a (general) clockwise circle around the island affording plenty of opportunities to see Kipu Kai (the beach from the film ""Six Days and Seven Nights""), the Jurassic Park waterfall & Hanapepe Valley, Wiamea Canyon & the Na Pali Coastline, and Hanalei Bay.
+review_4e12b4a1176793651a28a048 :: We had plenty of time to walk on the glacier and take pictures.
+review_6695b050bf998824d236b151 :: There are plenty of other taxi services in Talkeetna.
+review_e83a9bc682b158918ad0f243 :: Despite arriving 30 mins late we were made to feel very relaxed, and despite having originally booked a 90 minute flight, due to the late arrival it was reduced to 60 mins with no charge and it was still plenty of time to see all the sights.
+review_4f85017b72dc884c2686a906 :: The hosting center at Tolkeetna airport is spacious, new, comfortable with plenty of bathrooms."
+relaxed,放松的 / 从容的,E1_State (Direct Internal Affective State),8,8,"review_082e1f27aa3bb895882c5db8 :: He was so personable that he made us feel comfortable and relaxed (definitely helped me because I easily get motion-sickness).
+review_da8299d8fba78458a1318905 :: This is the relaxed, scenic way to raft the river.
+review_f1afb11c14a20df3c0e654e1 :: The K2 Staff is incredibly relaxed, courteous, and well organized.
+review_a56c790aee69c2829442e4c8 :: Everyone we met seemed to love their job and it makes you feel relaxed seeing that.
+review_e83a9bc682b158918ad0f243 :: Despite arriving 30 mins late we were made to feel very relaxed, and despite having originally booked a 90 minute flight, due to the late arrival it was reduced to 60 mins with no charge and it was still plenty of time to see all the sights."
+scenic,风景优美的 / 宜人的,E1_E2_Candidate,8,8,"review_da8299d8fba78458a1318905 :: This is the relaxed, scenic way to raft the river.
+review_a158a996fb85a211763435ea :: The flight itself is really scenic.
+review_5c8c6ffd9af021cbb4bdebd5 :: We did the wonderful waterfalls scenic flight in early February and could not recommend it more.
+review_176ad8eab21eb292f98accba :: Along with a smooth and scenic flight, he provided commentary on the landmarks and history of the area.
+review_f120ba1026156b2d093f0ad2 :: Small plane scenic tour on the Hawaii Island of Kauai was one of the highlights of our cruise around the Islands in March 2019."
+unable,无法的 / 无能为力的,E1_E2_Candidate,8,7,"review_8b4c172e7b644d8c4b931cc0 :: Apparently they sell what the cruise lines have been unable to sell, so are able to sell unsold seats at a discount.
+review_772ff94294876fd4aa1756db :: We were unable to land on the glacier and a credit was already there.
+review_867c2a2af7cf3033fc36828a :: Was disappointed that our pilot didn't give us any narration or information about the history and geography of the land and we were unable to ask or communicate with him as mics were not active.
+review_07a4d180b1c3927f6d90e08e :: They offered times later in the day but we had so little warning that we were unable to make the last minute schedule change.
+review_92db6c4ddc4f03ed93a04bac :: We did the Scenic Flight with Glacier Landing however due to the weather we were unable to do the Glacier Landing which was absolutely devastating."
+concern,担忧 / 关切（焦虑感）,E1_E2_Candidate,7,6,"review_f1afb11c14a20df3c0e654e1 :: So weather was a possible concern.
+review_30a4fe165d7e3a55f8e3db95 :: There was never a concern for safety.
+review_d6633755ab0fe56676302484 :: The views were awe inspiring, the narration extremely informative, comfort and safety an utmost concern.
+review_53ff5143a41d862350d136a5 :: It clearly caused some concern with those waiting further along the Strip to be collected.
+review_14fb1c381a6cd986fd64e61c :: I can tell safety is there top concern and that says it all."
+exceptional,卓越的 / 杰出的（顶级评价）,E1_E2_Candidate,7,7,"review_4ed9789654d1231bc278b4e3 :: Exceptional sights of majestic peaks and valleys.
+review_2323283c585daf50d725d5e4 :: Exceptional flight!
+review_5c8c6ffd9af021cbb4bdebd5 :: Was an absolute amazing experience, with an exceptional staff.
+review_59ec924af29a17c8a5e20d17 :: Kevin did an exceptional job at pointing out various landmarks and giving the history of the island.
+review_9b9e6f556431a38c9b5abc2d :: It is worth it because the landscapes are exceptional and spectacular."
+grateful,感激的 / 感恩的,E1_State (Direct Internal Affective State),7,6,"review_2a211e66566d9506094042c7 :: The time went by so quickly and we are grateful we had the opportunity to experience these mountains upclose and see the glaciers from above.
+review_4c3059afbf351cb362a2bb8e :: It was hands down one of the most splendid and stunning adventures I have had in my long lifetime and I am grateful for having taken it with Air Ventures.
+review_9a6426dc1c3d9f04489aec57 :: I realize that these pilots probably do this four times a day and I am grateful for the technical expertise, but for us it was a “once in a lifetime trip” .
+review_7279b58725f75f922479856e :: ee whether it would clear but when the weather become worse (in fact it made the press here in the UK as a weather phenomenon) they swiftly got us up in the air to view the Grand Canyon and we are so grateful that we got to experience the Canyon from this angle.
+review_08a1266019d5bdefaaae7598 :: So grateful for this tour."
+magnificent,壮丽的 / 宏伟震撼的（Awe）,E2_Appraisal (Stimulus/Service Attribute),7,7,"review_8b4c172e7b644d8c4b931cc0 :: From here it was a magnificent early morning flight to a floating pontoon in the Tongrass National Forest.
+review_1a40b7366c1df323a2059968 :: The views were stunning and truly magnificent.
+review_fea58727faaa3a0887fe14ea :: Of course the views were absolutely magnificent.
+review_4ec20f3edcbca09024bdd5ca :: Landed at a location with magnificent views of McKinley.
+review_53ff5143a41d862350d136a5 :: It was utterly magnificent."
+comfort,舒适 / 宽慰安心,E1_E2_Candidate,6,6,"review_7e4c769eacb09e8be1a32d03 :: accomodative to our needs - its been a great comfort to work with them - from extra time flying over city highlights, to circling whales when they show up on our route, to scheduling times - we appreciate their personal, family approach Todd
+review_d6633755ab0fe56676302484 :: The views were awe inspiring, the narration extremely informative, comfort and safety an utmost concern.
+review_794213f1ad4da1e5287e8990 :: He really does keep the passenger's comfort and enjoyment in mind at all times and knows the island very well.
+review_4252c374520394a13c38d9d5 :: Before leaving the ground, the flight operator/pilot's main focus was safety and comfort.
+review_f513ccad486e4e6b27890911 :: Unsurpassed professionals guiding you to a ""once in a lifetime opportunity"" to see both Sedona and The Grand Canyon from the comfort of an airplane."
+fully,完全地 / 充分地,E1_E2_Candidate,6,6,"review_71241e031e521f6c6963b901 :: After I checked in she came back, sat down next to me, explained that the plane is very safe, the pilots are fully qualified, if the conditions aren't safe they won't fly etc.
+review_a6ad668389d1d7c4c1ecda23 :: It's hard to imagine another way to so fully appreciate the size of the canyon, and our pilot was able to point out a variety of interesting facts while answering questions throughout.
+review_008c37b18048f594b5fa1fe9 :: Fully recommend to everyone!
+review_0f50928b644eab8e69fd4905 :: The grand tour was good but it would be nicer if the pilot would narrate the navigation during fly as it was depicted on their website pages how would be the navigation and what mountains and peaks would be covered as well as an handly print out of this navigation so customer can enjoy the total journey fully instead of just seeing white glaciers from the top.
+review_d0404a95bc0e1d80125e1421 :: Fully recommending everyone who want spend time in the sky with love of your life with glass of champagne."
+grand,宏大的 / 壮丽的,E1_E2_Candidate,6,6,"review_5a026e7a079885b0a8041d9e :: My husband and I booked the grand Denali tour.
+review_b4e21de5e1f75713d8c046cc :: It really helped us to understand how massive the area is and how small we are in the grand skeem of things.
+review_2550a6c834378febe4d83d9e :: The 45 min flight through the grand canyon is mind blowing.
+review_0f50928b644eab8e69fd4905 :: The grand tour was good but it would be nicer if the pilot would narrate the navigation during fly as it was depicted on their website pages how would be the navigation and what mountains and peaks would be covered as well as an handly print out of this navigation so customer can enjoy the total journey fully instead of just seeing white glaciers from the top.
+review_bf1fb727261e898751e14529 :: We took the 830am grand Denali trip."
+perfectly,完美地 / 无可挑剔地,E1_E2_Candidate,6,6,"review_a7368b502923fca015488011 :: My boyfriend and I went together, he’s 6’8 and we were a little nervous about his size, but he fit perfectly and we had the best time!
+review_c39dc7379a12552fa62d8ddd :: I had to change the dates of our trip twice following a knee injury and the telephone staff handled this perfectly.
+review_1abcbc85e601f91ee16e3669 :: The weather was perfectly clear.
+review_a15b565f6bbac9f317cc2336 :: Everything worked perfectly- from start to finish.
+review_e260da5ed867253b4fc60778 :: We turned back to Canyonlands airport, and after the weather had cleared we flew back up there and had a perfectly smooth landing."
+quiet,宁静的 / 幽雅安静的,E1_E2_Candidate,6,6,"review_30a4fe165d7e3a55f8e3db95 :: Landing on the glacier was really cool, as was walking around in a couple of feet of snow on the most quiet and serene place I've ever been.
+review_da9fe4b5f3a172a9954785e5 :: Our pilot, Quincy, allayed all my fears with his quiet confidence and then very obvious expertise,
+review_ff7d45e6c2089a81ec29f19b :: The flight itself was spectacular with sights that pictures simply cannot do justice and the chance to spend some quiet moments on a small island in what must be one of the most pristine and beautiful places on the planet is beyond words.
+review_a158a996fb85a211763435ea :: but he was very quiet.
+review_b143c99b79aada9945f9276a :: As my husband and I waited for our flight another group from a different tour company returned from a flight and they were very quiet and no real interaction with each other."
+ready,准备就绪的 / 心安的,E1_E2_Candidate,6,6,"review_082e1f27aa3bb895882c5db8 :: We waited a few minutes for the pilot to get the plane ready and we were off.
+review_feb8e8b8f877bcebb986186f :: Once everyone was ready we were taken out to an Otter plane and could pick out the seats we wanted.
+review_f486131a76d495cf9d39fbf2 :: She then got us ready in the plane (cooler with drinks, seat belt, window etc).
+review_fe616bc09c7b1a7ab721c000 :: The day of the tour, thankfully, was nice just when we were ready to go out and the views are seriously breathtaking.
+review_6e1b32b84859070da88e0d06 :: The terminal/main building is very nice and it is a comfortable easy place to relax until your ride is ready."
+welcome,受欢迎的 / 感受温暖的,E1_E2_Candidate,6,6,"review_cbe4d099bc688920d0a3a2b9 :: I did not feel at all welcome or like they wanted or appreciated our business, unfortunate but true.
+review_6d08b9c9f2dcd66a514602fa :: From the time that we arrived, the staff did everything possible to make us welcome and comfortable.
+review_01947c281697b80abc4bbfae :: Both Gy and Ellen make you feel very welcome and they are genuinely interested in each passenger.
+review_b143c99b79aada9945f9276a :: The ladies get a lovely necklace and flower as a welcome gift.
+review_9b9e6f556431a38c9b5abc2d :: The welcome made by a lovely lady and a very professional Jeff pilot, kind and reassuring."
+wrong,出差错的 / 错误的（负面体验）,E1_E2_Candidate,6,6,"review_782108ad97fa0d3252690e48 :: Acidently bookex yhe wrong mouth.
+review_26ab44db3f0b749f3156aee3 :: You can't go wrong with K2.
+review_59aead5d2d7f0e535744a9c6 :: We recently went on the this tour and our gps for Uber sent us completely in the wrong way so important in Miami to put every detail of the address!
+review_9f9d62b99552657a136a55ab :: There was an error made in our reservation that had the wrong return date, which we didn't realize until they called us to see why we didn't show up.
+review_dc71022ec47fe7e7dad91e8d :: They have given me a 50% refund, but still blame me for having the ""wrong expectations"", and my spine is still painful."
+awe,敬畏 / 震撼,E1_State (Direct Internal Affective State),5,5,"review_7b76705a2666fc9f007a68b5 :: The flight up to and around Denali was awe-inspiring, we saw all of the glaciers and Chris, our pilot, pointed out the trail that the climbers use and much more.
+review_d6633755ab0fe56676302484 :: The views were awe inspiring, the narration extremely informative, comfort and safety an utmost concern.
+review_fab70dd8dd9c0a8097ecceea :: The glacier landing was definitely a must do and I was definitely in awe.
+review_e8dd7bda2152a71502ffa8b8 :: Sunny, warm, awe inspiring trip!
+review_50087c058cc38daa21b82926 :: ” No words can appropriately describe this awe inspiring experience."
+cheaper,更实惠的 / 较便宜的,E1_E2_Candidate,5,5,"review_8f5e0f00afe0371683965f83 :: :) And the $120 price point was much cheaper than the price point the helicopter tours were charging.
+review_bfe1fe6daa085ed9bbdf7cc7 :: My family and I decided to go with Wings over Kauai mainly because it was cheaper.
+review_50ad674985c5646672bc62e8 :: Much cheaper and really easy to do, they are really easy to deal with directly and are happy to answer your email questions.
+review_c3f460d4aaa80dae038e0054 :: The price point was great cheaper than a helicopter and not so noisy.
+review_526dbe35e33d3c3d784cc127 :: This was significantly cheaper than comparable but shorter helicopter flight I have been on with better viewing (my opinion) and more relaxed atmosphere."
+courteous,礼貌的 / 谦逊有礼的,E1_E2_Candidate,5,5,"review_f1afb11c14a20df3c0e654e1 :: The K2 Staff is incredibly relaxed, courteous, and well organized.
+review_c39dc7379a12552fa62d8ddd :: The ground staff were exceptionally professional and courteous and we were given a full refund on the unused portion.
+review_4252c374520394a13c38d9d5 :: His courteous and easy going style made this trip enjoyable, interesting, and fun.
+review_020573619527477a45cf4db3 :: The company runs a first class business and all the staff is friendly and courteous as well as very professional!
+review_664738e3d114edf745798f44 :: courteous service, nice plane, safe, spectacular views!"
+exactly,精准地 / 正是,E1_E2_Candidate,5,5,"review_a16674769364bddb39438f8b :: But when I was recently surprised with a Westwind adventure to the Grand Canyon, that’s exactly what happened.
+review_10e68422b6a984d268d5ab67 :: Exactly the tour I wanted - as a solo traveler got to sit in the right-hand seat with two other couples behind us - after departing the airport you do a (general) clockwise circle around the island affording
+review_ca8ea4ee597e5bcde73dd076 :: Little windy and a little bumpy, but he explained exactly where and when we would experience turbulence.
+review_5acad42fcb96595910c9a410 :: We booked directly on Mavericks website and paid the retail price exactly so this would not happen, even scheduled at the very beginning of our 2 day trip in case something happened and a reschedule was necessary.
+review_53ff5143a41d862350d136a5 :: What it is exactly that takes 20 minutes, I'll never know !"
+excited,兴奋的 / 激动的,E1_State (Direct Internal Affective State),5,5,"review_291988db94de25fedef72be3 :: We were so excited to be doing this flight, but Kevin made it even more exciting for us.
+review_aad1475f0d24f59cc1b5bc8b :: I booked a flight with Friday Harbor Seaplanes from San Juan Island to Seattle, I was excited for the adventure & thought a flight on a seaplane would be a fun way to end my trip to the San Juan Islands, it turned out to be 1 of the highlights of my trip!
+review_a56c790aee69c2829442e4c8 :: He was just as excited as the rest of us.
+review_767bec68b932ffbf60702af0 :: The day of our flight was finally here and we were excited.
+review_8bad3b1acba5cdfb503049e9 :: 2 children were very excited."
+flexible,灵活的 / 弹性的,E1_E2_Candidate,5,5,"review_8b4c172e7b644d8c4b931cc0 :: It’s a risk but if you are flexible this is a great option.
+review_bd821a97ad719aeeebde185a :: The reservation process was easy and they were very flexible in order to accommodate our schedule.
+review_d91761b1b401f84f5f5072f8 :: Need to be flexible or understand that the weather can change and your trip will be canceled.
+review_3d455acb96b23304d8dd0f88 :: We knew that we would have to be flexible with the weather but we were hopeful things would work out.
+review_b000df598ef420c3db6a55b4 :: I really appreciate how flexible and accommodating they were in this uncertain travel time that we are living in with Covid."
+forward,期待（look forward）,E1_E2_Candidate,5,5,"review_52acbf242c938fb33187635a :: Over all I highly recommend K2 Aviation and look forward to flying with them again on a return visit to Alaksa!
+review_6c89ecdf05add32f2e5cb9a7 :: I can't recommend this highly enough - I'll remember my flight for the rest of my life and am already looking forward to a future opportunity to re-live it.
+review_0007fe1c2b3216a8645c4245 :: After being in Alaska for about a week, we were really looking forward to our float plane ride - as we had already seen so many fly by.
+review_4511d8eaf3229db4ead0a471 :: We were very much looking forward to this tour when we booked it from Holland America.
+review_b7057b38356e6f4a373a9626 :: I found the tour on trip adviser and after a couple of emails back and forward between Australia and Arizona we knew that this was the trip of a lifetime."
+honest,诚实的 / 坦诚的,E1_E2_Candidate,5,4,"review_767bec68b932ffbf60702af0 :: When we arrived for check in, they were extremely honest, that the weather was deteriorating, and they could not fly the flight we had booked.
+review_767bec68b932ffbf60702af0 :: They offered an alternate flight for a reduced rate but were very honest of what we would or would not be able to see.
+review_65d0a54805e601aa5a524fcc :: Our initial conversation during the data gathering and reservation was candid, honest and direct without any high-pressure sales.
+review_b6566a20ab2c573fdf5f18b8 :: She was honest and forthcoming.
+review_58ba87f9326f017e0b3399ae :: I am sure there are other much better companies that would provide honest and safe services."
+impossible,不可能的 / 难以置信的,E1_E2_Candidate,5,5,"review_fd7ebcc7f5e93d96ece3c7ac :: The colors of the rocks and formations are just impossible to describe, go see it!
+review_bbf12aaf52ffd1f8f514701a :: K2 and Chris gave us a phenomenal experience, so good that even my young adult children who are impossible to impress were blown away.
+review_0f3f96f0d8ddde5849fdb605 :: I don t arrive to Las Vegas till Sept 27 --- Thus impossible to make the reservation on the 23rd.
+review_53ff5143a41d862350d136a5 :: It's impossible to convey the sheer scale and magnitude and it was so humbling to fly over it, through it and around it.
+review_e260da5ed867253b4fc60778 :: This particular morning was quite challenging in terms of the weather conditions and the extreme crosswinds made it impossible to land and made for quite a bumpy ride."
+impressive,令人印象深刻的,E1_E2_Candidate,5,5,"review_a7368b502923fca015488011 :: Also Eric was the best overall and his landing and knowledge was impressive!
+review_254f46e4a5fb0f6c7e0c50cd :: I feel like more time could have been spent around west Maui , Molokai/Lanai and Molokini rather than Hanna, which is comparatively not that impressive.
+review_19d221a29f91600b819edc7d :: The helicopter vantage is one that is impressive.
+review_ada23e30e9050b395a5e4949 :: It is impressive to see their facility as they appear to be running a very successful tour company, I was disappointed to find out that the 2 hour tour, was not 2 hours flying, but rather 2 hours from the start of the shuttle at the port to return to the port.
+review_54ae5b5d8364deffe47809c6 :: The walk up to the ptyroglyphs is eh, well, a few carvings on rock- not that impressive- but history I understand."
+patient,耐心的 / 体贴的,E1_E2_Candidate,5,5,"review_98e74ad69a88380b69ce727c :: The tour guide Eric was not only friendly, knowledgeable, and patient, but also a skillful pilot.
+review_af08902c4c1b7326756e9e93 :: He needs to be more patient and show more tolerance towards non-caucasian folks.
+review_f636b160dcd5b8cb35245d33 :: They were very patient with our 13 yr old who was more interested in flying than the views and although he took more time chatting they happily accommodated him.
+review_8fc519c90267d549394edbcc :: He was very patient and we never felt rushed during the entire flight.
+review_f63c57ac2ae27b8085da9201 :: Professional, engaging, humorous and patient."
+terrific,极好的 / 太棒了,E1_E2_Candidate,5,4,"review_79b833d433db85183bfe559d :: Cannot remember the pilot, but he just had twins, so congrats and thanks for a terrific day and experience!
+review_371d97ab086d05f4b8dd720f :: Our pilot patiently answered my nine-year-old's questions on the flight and took terrific pictures of us on the glacier.
+review_ae2ecce2195633184719de13 :: Thank You Capt Anderson for being a terrific Pilot.
+review_54ae5b5d8364deffe47809c6 :: The early morning plane ride was terrific, and as we had read before, it’s best to sit on the left side of the plane for the best views!
+review_54ae5b5d8364deffe47809c6 :: Our rafting guide, Jerod, was really terrific; super knowledgeable and kept all the younger kids on the boat engaged!"
+willing,乐意的 / 愿意的,E1_E2_Candidate,5,5,"review_6156ccd88f392b21de3b4908 :: I have been to the same resort 8 years in a row and we have flew into Vancouver then flew in from there to the resort by float plane and we have had issues in the past with planes, times,or just not willing to fly in if the weather/cloud ceilings were low.
+review_f1afb11c14a20df3c0e654e1 :: They are certainly willing to spend time with you via email, over the phone,
+review_585fd4de71474864f99ab2f5 :: The pilot had a terrible and rude attitude and was not willing to provide any conversation.
+review_b4bead6114e21d906db86f66 :: My daughter got a little airsick and Steve was even willing to fly us to another spot if needed so she could, uh, take care of business with no one else around.
+review_d18422a17e8d2b9406c1af63 :: Grand Canyon airlines picked us up from the hotel, and took us to the Boulder airport, the company is ridiculously well organized and every thing went flawless, once we landed at the Grand Canyon airport Jerry, the bus driver/tour guide was great, and more than willing to help out with pictures."
+attentive,细心的 / 周到的,E1_E2_Candidate,4,3,"review_50d0c427181c796477638983 :: All of the tour's employees were attentive, knowledgeable, and friendly.
+review_6b1f41d7d9376e30f1be6051 :: Very responsive and very attentive (I think Trish).
+review_6b1f41d7d9376e30f1be6051 :: One more thing, we had one child and Eric was very attentive to everyone.
+review_69da5429c1af91d3cc871e44 :: The pilot was very attentive."
+cheap,便宜的 / 廉价的,E1_E2_Candidate,4,4,"review_61b1eca7654fb6e6ba4eee2b :: All the prices were pretty comparable - not cheap, but once in a lifetime event.
+review_f513ccad486e4e6b27890911 :: Not cheap, however, do the math between your time, mileage, food, lodging, navigation issues and crowd interference.
+review_6b104787c651e67fd89f534f :: They were all fun and the views were cool, but it wasn't cheap.
+review_8526d5406704b59e5a5405e4 :: Yes it is not cheap but is something you will remember all your life."
+confidence,信心 / 确信,E1_E2_Candidate,4,3,"review_da9fe4b5f3a172a9954785e5 :: Our pilot, Quincy, allayed all my fears with his quiet confidence and then very obvious expertise,
+review_26ab44db3f0b749f3156aee3 :: I had total confidence in him and was 100% certain We would have a successful flight.
+review_dc71022ec47fe7e7dad91e8d :: My family is in aviation, and I had confidence in Josh, the young pilot, to fly but not in his decision on the seating, and no confidence in the manager, Brad, who bullied me for complaining and requesting a refund."
+confident,自信的 / 确信的,E1_E2_Candidate,4,4,"review_3ba1137cb1b4e9207840a231 :: The weather was challenging for the pilot,but he was smart and confident and overcome the winds on the lake.
+review_b560092bfc34feb15f983896 :: Our pilot Aaron, was clearly very skilled, confident and experienced in flying the plane.
+review_4a193749e12297241be1dc4e :: We were so confident with him.
+review_5be4c5863c9f7e80dd250c6c :: Thoroughly enjoyed the flight, felt confident and st ease with our pilot ."
+efficient,高效省心的,E1_E2_Candidate,4,4,"review_5429f4ef0478bae9255d337b :: Everyone at Talkeetna Air Taxi was efficient, safety conscious and so helpful.
+review_a158a996fb85a211763435ea :: When you first get off the bus, be sure to go right in and sit down for the safety video and hold off on going to the restroom until after because they like to be efficient.
+review_03a8176b0cded4dbc878970a :: They are extremely professional and have a very efficient and accurate system for reservations and disseminating information needed to prepare for the flight.
+review_442bd14270e4cf874af0ab43 :: The checkin and safety briefing process was thorough, yet efficient (quick)."
+expert,专家级的 / 娴熟的,E1_E2_Candidate,4,3,"review_a16674769364bddb39438f8b :: We departed Phoenix on our private 9-passenger plane with our expert guide and pilot, Captain Ron.
+review_a70969c5180dcff4b504e3f5 :: The flyover was smooth all the way and the pilot was expert, friendly, and highly knowledgeable on the history and geology of the area.
+review_442bd14270e4cf874af0ab43 :: And Mark also provided expert commentary on plants and wildlife that we encountered on the hike.
+review_442bd14270e4cf874af0ab43 :: Taquan runs a great airline, they employ an enthusiastic and knowledgeable staff (including expert guides), and our safety was their priority from start to finish."
+fine,良好的 / 优秀的,E1_E2_Candidate,4,4,"review_8f5e0f00afe0371683965f83 :: I popped a Dramamine an hour before the flight, but I probably would have been fine without it since pur pilot, Bruce, flew and landed the plane super smoothly--all while giving us lots of trivia and facts about Kauai!
+review_0f50928b644eab8e69fd4905 :: So I need to choose only Denali Grand tour without Glacier landing which is fine cause they can not land on hard ice or weather contsraints.
+review_f13d690b80448a831089b15d :: We had a small amount of turbulence, but we did fine.
+review_2b9c272ff392f8ee6495f4ba :: If you are afraid of heights or prone to nausea, take a dramamine (gravol) tablet, but I was fine without it!"
+fortunate,幸运的 / 幸运地,E1_E2_Candidate,4,4,"review_e2dc2a31bed85af6df3536af :: Again there was only the two of us, which was fortunate, because it was a bit cool outside and normally everyone would be in open seats on the back, but because there wa only the two of us, we asked to sit in with the guide, which was worth it because he was able to talk to us, keep us informed, and answer our questions about the Navaho culture.
+review_bab9df7e8bd9919aeef4816d :: Those fortunate enough to have been allocated front row seats had unrestricted views.
+review_b560092bfc34feb15f983896 :: We happened to be flying on the last day of the Americas Cup race and being one of only three airborne vehicles (the other two being media helicopters) made the experience even more special, our pilot making the most of this occasion for his fortunate passengers.
+review_f513ccad486e4e6b27890911 :: We were fortunate enough to have a private tour from Sedona to the Grand Canyon and back."
+gorgeous,极其漂亮的 / 绚丽的,E1_E2_Candidate,4,4,"review_7b76705a2666fc9f007a68b5 :: As we all stood and absorbed the gorgeous sights and listened to the glaciers sounding in the distance, all was right with the world!
+review_1fc8f0c15a6fbe4082544da9 :: We saw a gorgeous ground rainbow as we were coming in for a landing.
+review_8f77d9be32b5ec0139d85201 :: The view of the mountains were gorgeous and the plane captain provided humorous and knowledgeable commentary throughout the trip.
+review_683e95f01306eac2d85eff49 :: We had a gorgeous clear day to see Mt McKinley in all its glory."
+magical,神奇的 / 魔幻般的,E1_E2_Candidate,4,4,"review_4e12b4a1176793651a28a048 :: It was magical!
+review_c42ba42468c6eebef97f3663 :: Flying over Misty Fjords was simply magical.
+review_4a193749e12297241be1dc4e :: Fantastic flight moment with Devin who proposed us a very safety and magical discovering of the Canyon.
+review_e01e7e33a2e53a8b8dad0eb6 :: The trip was magical."
+majestic,雄伟的 / 壮丽的,E1_E2_Candidate,4,4,"review_4ed9789654d1231bc278b4e3 :: Exceptional sights of majestic peaks and valleys.
+review_5429f4ef0478bae9255d337b :: Words don’t describe the majestic beauty.
+review_c285c2b8df79ecf7769b2695 :: While a little surprised at the noise level, I was awed at the majestic view.
+review_ff53fc07f1b4dad74f413aa0 :: The feeling of being so close to these majestic mountains that were so far away from our hotel is amazing."
+neat,整洁的 / 干练的,E1_E2_Candidate,4,4,"review_ced58d8c691f443c16cbfe37 :: Some of it was so technical I couldn't follow along but it was really neat.
+review_6498ce79fc0b9213c772e5fc :: The mixture of rain and sun brought out rainbows time and time again, including a circular rainbow which was so neat and unique.
+review_f486131a76d495cf9d39fbf2 :: We hiked a few trials and saw some of the sights earlier during the week and it was really neat to see the same sights from air: the Na Pali coast (via Kalalau trail), the Hanalei bay (via Alaka'i Swamp trail), the Waipo'o falls (via canyon trail).
+review_bbdca525e695fbe2a6739745 :: And we got to see more of the Kaibab forest so that was neat."
+nicely,很好地 / 优雅地,E1_E2_Candidate,4,4,"review_da8299d8fba78458a1318905 :: The food provided was good-- overall, this is a nicely comprehensive day and a great trio of ways to experience the Grand Canyon and around.
+review_b27a5b6f0ee0a61ed67119b2 :: He should have mentioned nicely rather rudely.
+review_bc094451a516daefa055857a :: This tour really allowed us to see something unique and fit into our travel plans nicely.
+review_b000df598ef420c3db6a55b4 :: Their equipment is maintained nicely."
+phenomenal,现象级震撼的 / 极佳的,E1_E2_Candidate,4,3,"review_bbf12aaf52ffd1f8f514701a :: K2 was phenomenal at staying in communication with me when inclement conditions threatened our adventure.
+review_bbf12aaf52ffd1f8f514701a :: K2 and Chris gave us a phenomenal experience, so good that even my young adult children who are impossible to impress were blown away.
+review_50087c058cc38daa21b82926 :: The plane only holds 8 passengers, each with a phenomenal view.
+review_ed42ef9dc4fa813cfcacdfdb :: Our pilot Mark was phenomenal; very skilled in flying, knowledgeable on the geography of the Grand Canyon, and entertaining."
+pleasure,乐趣 / 愉悦,E1_E2_Candidate,4,4,"review_bbf12aaf52ffd1f8f514701a :: It was a pleasure flying with him.
+review_d6633755ab0fe56676302484 :: Bryan, our pilot, was funny and a pleasure and Pua in reception was very sweet and helpful.
+review_cdfb30308f4301fae846c380 :: We traveled to Friday Harbor and back to Seattle with Friday Harbor Seaplanes and they were accommodating and such a pleasure to deal with from start to finish.
+review_f71dcbf52b93eb6e5b772372 :: It was such a pleasure dealing with Lesley."
+polite,礼貌的 / 客气的,E1_E2_Candidate,4,4,"review_cbe4d099bc688920d0a3a2b9 :: I will say that Marcus was polite, professional and his landing was one of the softess I've ever experienced.
+review_a49c3b4b417661efc807e243 :: Firstly, making a reservation by phone or online via their website is easy, painless, and Ellen replies promptly with the most polite and genuine response.
+review_e7eff18ff9d70537c7037589 :: But then everything went great, he was very polite, and super fun
+review_9685d4336920d0bca9a54784 :: From the moment I called them, they were helpful, polite and easy to schedule."
+poor,贫乏的 / 差劲的,E1_E2_Candidate,4,4,"review_c97195f47230668478751e71 :: Because of poor weather our flight was delayed for 48 hours bu are we glad that eventually the weather improved and we could take up the seaplane tour of Miami.
+review_b8ab433b6add39f65bbcf6a9 :: This excursion is a once in a lifetime event and should have been a wonderful memory, instead it was an expensive and poor experience.
+review_442bd14270e4cf874af0ab43 :: However, due to our ship's limited time in port last year, along with poor tidal conditions, we were not able to actually get to the trail head and take our tour.
+review_8c560b94d6af138e94a9483a :: They originally bumped our reservation due to poor weather (safety conditions) and we were given the option for rescheduling or getting a full refund."
+prone,易患（晕机）的,E1_E2_Candidate,4,4,"review_f486131a76d495cf9d39fbf2 :: We were concerned about the weather as it has been windy the whole week and my husband was prone to motion sickness.
+review_cd27921d3895fc595fd53af3 :: There was a little turbulence in the air but not so much that it made anyone sick and one in our group was prone to the that.
+review_1fc8f0c15a6fbe4082544da9 :: If you are prone to air sickness, it is highly recommended that you take some medication prior to boarding the plane.
+review_2b9c272ff392f8ee6495f4ba :: If you are afraid of heights or prone to nausea, take a dramamine (gravol) tablet, but I was fine without it!"
+rushed,仓促的 / 匆忙的,E1_E2_Candidate,4,4,"review_f1afb11c14a20df3c0e654e1 :: The flight, smooth all the way, and not rushed.
+review_75cdb4112994bd19ab8118d1 :: Due to being late the tour was rushed.
+review_8fc519c90267d549394edbcc :: He was very patient and we never felt rushed during the entire flight.
+review_856d2aa6a78e7be940af3eac :: - overall seemed a bit rushed."
+steady,平稳的 / 稳健的,E1_E2_Candidate,4,4,"review_6c89ecdf05add32f2e5cb9a7 :: My pilot and guide Chris was knowledgeable, accommodating, skilled, and very friendly - his steady piloting and narration throughout the trip added to an already amazing trip.
+review_a49c3b4b417661efc807e243 :: There are fantastic photo ops, which is beneficial because the flight is slower and steady, and you are up in the air for around 70 minutes.
+review_72fc1a6808ccb03c5b86fa0a :: We didn't necessarily want all the ups and downs the choppers take, and enjoyed the steady and amazing flight our pilot Marcus provided.
+review_b000df598ef420c3db6a55b4 :: He kept up a nice steady commentary of what we were seeing and interesting facts."
+afraid,害怕的 / 恐惧的,E1_State (Direct Internal Affective State),3,3,"review_232a87a44ddf7a8ae2f7daab :: We flew from the Grand Canyon airport and everything went like clockwork, BJ checked if he had anyone on board that was afraid of heights, and the trip was incredibly smooth, the helicopter had good visibility and seated 7 passengers though we only had 5 on our trip, an excellent insight into the canyon for our first glimpse.
+review_a261345648e411dbe1e79210 :: I am afraid to fly but the flight and landings were so smooth.
+review_2b9c272ff392f8ee6495f4ba :: If you are afraid of heights or prone to nausea, take a dramamine (gravol) tablet, but I was fine without it!"
+apprehensive,忧虑的 / 不安的,E1_E2_Candidate,3,3,"review_b26468480071052891dda30e :: Our pilot put my apprehensive wife at ease by making her his ""co-pilot"" and having her sit next to him.
+review_8de5093de03f104bbd286daa :: I'm a nervous flyer so I was a little apprehensive about booking a helicopter flight but there was nothing to worry about.
+review_683e95f01306eac2d85eff49 :: My sister was a little bit apprehensive about the flight in such a small plane but she was pleasantly surprised that it was not an issue at all."
+blessed,感到有福的 / 幸运的,E1_State (Direct Internal Affective State),3,3,"review_2a211e66566d9506094042c7 :: We were blessed with a cloudless and BEAUTIFUL day.
+review_b3ad77a1bb49a5eb337a6bd2 :: We were blessed with a clear blue sky and a unlimited viewing of the ice fields and mountains in Denali.
+review_a59dc67812b2608297900b5b :: We were blessed with clear skies and a great pilot."
+bothered,困扰的 / 烦心的,E1_E2_Candidate,3,3,"review_bab9df7e8bd9919aeef4816d :: In summary we did not consider back row middle seats were value for money and wished we had not bothered with the Helicopter Flight and spent more time enjoying the spectacular scenery on the ground.
+review_6e1b32b84859070da88e0d06 :: If you get motion sick easily, you may find the ride too much, but not people wouldn't be bothered at all.
+review_7bf3c13d8543ec467282785d :: The tour was awesome, great views of inner Alaska, the float plane was awesome, our pilot seemed bothered when we would ask a few questions, glad he knew how to fly the plane."
+communicative,善于沟通的,E1_E2_Candidate,3,3,"review_7e2201b48b681475df75ef1a :: Talkeetna Air Taxi was extremely communicative with us that morning and offered us a variety of options for rebooking.
+review_e2845ef5222541befc6c35f8 :: Our pilot was very communicative and informative.
+review_a656c6b756028f860463f7a4 :: She was very communicative and helped me make sure we'd make the absolute most of our trip."
+competent,称职的 / 有能力的,E1_E2_Candidate,3,3,"review_10e68422b6a984d268d5ab67 :: Our pilot was very competent and very knowledgeable - turning the aircraft to allow views of everything regardless of the side of the plane where you're seating.
+review_60fecab112df9bcc1a6c31f3 :: Piper was competent and knowledgeable.
+review_9709658ca472693848c0fd99 :: From my initial contact by phone to the perfect smooth landing back at the Talkteena airstrip, everyone was super nice and competent."
+disappointing,令人失望的,E1_E2_Candidate,3,3,"review_b76e6c2bc278477c91d37c62 :: We made the best of a pretty disappointing and unexpectedly expensive situation, but we will not be trusting TripAdvisor descriptions in the future.
+review_0007fe1c2b3216a8645c4245 :: It was a cool experience - but a bit disappointing.
+review_5acad42fcb96595910c9a410 :: So disappointing when you travel far from home."
+enthusiastic,热情的 / 充满激情的,E1_E2_Candidate,3,3,"review_da8299d8fba78458a1318905 :: Everyone on this tour, from the pilot to the river guide to the bus driver who took us to our car at the end of the day, was enthusiastic and friendly.
+review_f636b160dcd5b8cb35245d33 :: Although he probably had done this in the morning he was enthusiastic as if we were his first party of the day.
+review_442bd14270e4cf874af0ab43 :: Taquan runs a great airline, they employ an enthusiastic and knowledgeable staff (including expert guides), and our safety was their priority from start to finish."
+excitement,兴奋 / 激动情绪,E1_E2_Candidate,3,2,"review_291988db94de25fedef72be3 :: To add some excitement to our flight, and because we asked him to, he did a flight maneuver with us!
+review_291988db94de25fedef72be3 :: All we good was giggle with excitement!
+review_a16674769364bddb39438f8b :: From the moment we arrived and were greeted by Gayle Lurenz, we felt like VIPs and our excitement began to build."
+famous,著名的 / 享誉的,E1_E2_Candidate,3,3,"review_e8ba09c98f233e51030cc9c3 :: we even stopped at the famous El Tovar Hotel and were treated to Hopi Indian dances featuring a darling 3-4 year old I'll never be able to repay my friend for her generosity as this was truly a day I'll always remember ✈️
+review_342e110195857bea58aeaba7 :: We saw the whole island, the coffee plantations, Waimea (Grand) Canyon, the famous waterfalls in Jurassic Park, the Na Pali Coast, the beaches and golf courses, Julia Robert's house and even a whale slapping the water with his fluke.
+review_6817a71966166352425fc30b :: Our flight circled the Taro fields and waters of Hanalei Bay, where our pilot pointed out some of the homes of the wealthy and famous."
+flawless,无瑕的 / 完美的,E2_Appraisal (Stimulus/Service Attribute),3,3,"review_5e434da02b38cf19550a807e :: I wasn't necessarily expecting a bumpy ride but I also never expected it to be so flawless.
+review_d18422a17e8d2b9406c1af63 :: Grand Canyon airlines picked us up from the hotel, and took us to the Boulder airport, the company is ridiculously well organized and every thing went flawless, once we landed at the Grand Canyon airport Jerry, the bus driver/tour guide was great, and more than willing to help out with pictures.
+review_f71dcbf52b93eb6e5b772372 :: We were group of 14 and the entire flightseeing tour of Misty Fjords was flawless."
+genuine,真诚的 / 地道的,E1_E2_Candidate,3,2,"review_93b20d34356a3ffa721dd249 :: Bruce was very informative and genuine in his love for what he does - fly people to see some of the most stunning places on the island.
+review_a49c3b4b417661efc807e243 :: Firstly, making a reservation by phone or online via their website is easy, painless, and Ellen replies promptly with the most polite and genuine response.
+review_a49c3b4b417661efc807e243 :: Seeing the Napali coast by air turned out to be far better than by water, and having gracious, genuine hosts for our tour made it that much better."
+handy,实用的 / 贴心的,E1_E2_Candidate,3,2,"review_e55f985b9a9c0b8f6f16b85a :: He was very handy when we met a mother and cubs on the path both times!
+review_e55f985b9a9c0b8f6f16b85a :: Great tour and informative and friendly guide who was handy for close to encounters of the bear kind!
+review_f63c57ac2ae27b8085da9201 :: We had a back-pack to stuff items in and it came in handy."
+happily,快乐地 / 欣然,E1_E2_Candidate,3,3,"review_6a37a276cde42d2608622f3e :: We appreciated Maverick's caution and happily drove 2 hours the next day to check this item off our Bucket List.
+review_f636b160dcd5b8cb35245d33 :: They were very patient with our 13 yr old who was more interested in flying than the views and although he took more time chatting they happily accommodated him.
+review_b560092bfc34feb15f983896 :: We were picked up efficiently and on time from Pier 39, by a friendly and engaging driver, who happily pointed out local sights for us both on the way to Mill Valley, where the seaplane is based and back again."
+hoping,期盼 / 希望,E1_E2_Candidate,3,3,"review_fa5c178f0540c8c621211eb6 :: We were hoping for a landing on glacier, but due to the weather conditions it was not possible.
+review_d3aa33b2ada8580a5b5a3b5d :: We took an 8pm flight in late July hoping to catch a nice sunset in addition to the falls and we were not disappointed (I’m sure it’s getting even better as the days get shorter)!
+review_14fb1c381a6cd986fd64e61c :: We spent two days in Talkeetna hoping to do a flight around Mt."
+ideal,理想的 / 完美的,E1_E2_Candidate,3,3,"review_2550a6c834378febe4d83d9e :: Bad Luck: My friend and I catched the seats on the back which did not provide an ideal view - I wished this would have been mentioned in advance and would have been taken into acaount in the pricing.
+review_0f50928b644eab8e69fd4905 :: However, as a Company they should have keep the statistics or records when was the last glacier landing or the ideal time of Glacier landing chances so customer can plan accordingly.
+review_0feea62cebd439414c25d6fc :: Keep in mind this is in the midst of Covid so flying on a plane with 7 strangers who NONE INCLUDING THE PILOT WERE WEARING MASKS is not ideal."
+interactive,互动性强的,E1_E2_Candidate,3,3,"review_7b8fca9fb1b20483fadf5af6 :: Capt Josh was very informative and ensured that we all engaged in an interactive conversation.
+review_3e1abc7ed002a345eb9524ce :: It could have been more informational and valuable if our pilot was more interactive.
+review_da5906a18a3d4524aa1c151f :: The flight was interactive, as if we were flying the plane, Eric informed us on history, geography, and cultural importance on the island."
+lasting,持久的 / 深刻的,E1_E2_Candidate,3,3,"review_1a179dde846fef68cb4332b2 :: I booked a 45 minute sightseeing flight with Seaplane Adventures, as a birthday surprise for my wife and to round off our Californian vacation with a lasting memory.
+review_a8e08d3e333554d846e6a0c3 :: Whilst sitting on the lake the tranquility left us with a lasting memory of a wonderful experience.
+review_2618b3d35d2154378d6e24e5 :: I took over 200 pictures during the hour which will provide lasting memories of our air tour."
+loud,吵闹的 / 噪音大的,E1_E2_Candidate,3,2,"review_ae3359d7d7cf2f75db2d5d31 :: Helicopters are loud and I was concerned that my kids would get scared so chose the plane.
+review_ae3359d7d7cf2f75db2d5d31 :: Well the plane is also loud but the kids got this sound reducing ear muffs which for some reason my kids liked and kept on.
+review_856d2aa6a78e7be940af3eac :: - the hummer tour is really nice and interesting, but really loud."
+ominous,不详的 / 不妙的,E1_E2_Candidate,3,2,"review_f1afb11c14a20df3c0e654e1 :: Tony, our pilot, carefully watched an ominous low hanging cloud just over the peak.
+review_f1afb11c14a20df3c0e654e1 :: But that ominous cloud never brought any dramatic, sudden weather changes to our location.
+review_123bf9f58334923a62ba4371 :: Be aware that harsh weather will sometimes interrupt the tours, so it's a good idea to call ahead if the weather looks ominous."
+pleased,感到满意的,E1_E2_Candidate,3,3,"review_9183ae73c73cf93258cee460 :: I am very pleased with the experience.
+review_3a562693d0a814861060b2cf :: But after the tour we couldn't have been more pleased.
+review_208f19d09967b7a1a0022825 :: Overall I was very pleased with this experience and would do it again in a heart-beat!"
+reasonable,合理的 / 公道的,E1_E2_Candidate,3,3,"review_7610caa1138d8b33b74c4e88 :: The crew was professional, aircraft was top notch (nothing rickety here) and the cost was reasonable compared to other air tours we have done in different parts of the country.
+review_6b104787c651e67fd89f534f :: It was such a good time and the price was completely reasonable.
+review_2f2fabf3ad89d81f441b1162 :: I would suggest anyone looking for a great experience at a reasonable cost this is the one to choose."
+safer,更安全的 / 更安心的,E1_E2_Candidate,3,3,"review_e83a9bc682b158918ad0f243 :: Also, I suspect, much safer that the helicopter tours.
+review_65d0a54805e601aa5a524fcc :: Given that, an Airplane ride is a safer choice rather than a helicopter ride as they tend to change altitude much more rapidly.
+review_ae3359d7d7cf2f75db2d5d31 :: I felt safer with him than on my Delta flight into Kauai."
+scary,令人害怕的 / 吓人的,E2_Appraisal (Stimulus/Service Attribute),3,3,"review_8f5e0f00afe0371683965f83 :: I've never taken a small plane tour before so I didn't know what to expect, but it was a fantastic way to see the island and it wasn't scary at all!
+review_664738e3d114edf745798f44 :: Otherwise is safe, not scary and worth the money.
+review_300f9baf05912fc8f616fd90 :: Bit scary/ sketchy because the plane is pretty old."
+simple,简单明了的 / 省心的,E1_E2_Candidate,3,3,"review_a49c3b4b417661efc807e243 :: In addition, they could have allowed someone else to reserve those seats, so if you aren't going to show, please provide common courtesy and make a simple phone call.
+review_254f46e4a5fb0f6c7e0c50cd :: These are simple things to fix.
+review_af98c8cc4e2124c9b58818f6 :: Getting to the airport is easy, checking in was quick, and the prep fort he trip was simple."
+skillful,技术精湛的,E1_E2_Candidate,3,3,"review_98e74ad69a88380b69ce727c :: The tour guide Eric was not only friendly, knowledgeable, and patient, but also a skillful pilot.
+review_254f46e4a5fb0f6c7e0c50cd :: The pilot, Eric, was skillful and we felt safe.
+review_5fdb3a60ad9ea663161e0520 :: Captain Chip was skillful and informative, everything about the K 2 operation was top flight - no pun intended,"
+stress,压力 / 紧张感,E1_E2_Candidate,3,3,"review_353636e7a5b2962a9d433033 :: K2 made our experience super relaxing and stress free.
+review_cdfb30308f4301fae846c380 :: When I called Friday Harbor Seaplanes, they were able to easily put us on a later flight out to Friday Harbor and cut our stress level down to zero!
+review_b35e4044551b93f5c155c9df :: Aunt Jill and our pilot Kamaka were fantastic, and made the experience completely stress-free."
+surreal,超现实的 / 梦幻般的,E1_E2_Candidate,3,3,"review_6c89ecdf05add32f2e5cb9a7 :: Flying over and around the mountains was an almost surreal experience, even after having spent 8 days backpacking through the wilderness just north of the same mountains.
+review_b6566a20ab2c573fdf5f18b8 :: Landed on a glacier which was surreal.
+review_af98c8cc4e2124c9b58818f6 :: That experience of being on, taking a bathroom break on, and eating of the glacier was surreal."
+terrible,可怕的 / 糟糕的,E1_E2_Candidate,3,3,"review_585fd4de71474864f99ab2f5 :: The pilot had a terrible and rude attitude and was not willing to provide any conversation.
+review_4f51f3465ac0bd137a98f9eb :: This is a terrible way to treat people.
+review_f5ff83b24533166f9a04eddb :: Terrible experience, don’t recommend."
+thorough,细致周到的,E1_E2_Candidate,3,3,"review_60fecab112df9bcc1a6c31f3 :: Piper started with a thorough safety check and ended with a nice landing with some cross wind.
+review_6817a71966166352425fc30b :: I would highly recommend this flight as one of your first activities on Kauai as it provides not only a visual feast, but a brief yet thorough education on what sets the Garden Isle apart from the others.
+review_442bd14270e4cf874af0ab43 :: The checkin and safety briefing process was thorough, yet efficient (quick)."
+thrill,刺激 / 震慑感,E1_E2_Candidate,3,3,"review_3be86b281748fcad0f0f0b34 :: What a freakin thrill.
+review_17e1e5a0467c1f5d4bc7b3e1 :: Not much for narration from pilot and actually flew a loop so we saw some things twice - thrill.
+review_b325673fa4f50bc87605ad68 :: a thrill of a life time!"
+thrilled,极度兴奋的,E1_State (Direct Internal Affective State),3,3,"review_123bf9f58334923a62ba4371 :: On our last trip, we were thrilled to see several pods of whales swimming in the open sea from the air.
+review_3a562693d0a814861060b2cf :: My husband and I were thrilled and 100% satisfied!
+review_ae3359d7d7cf2f75db2d5d31 :: My husband has a fear of small planes so he was not so thrilled."
+unbelievable,难以置信的 / 震撼的,E2_Appraisal (Stimulus/Service Attribute),3,3,"review_02b014d08d902c0147918b81 :: Most unbelievable thing you have ever seen.
+review_f5ca1940bb4b3b4a6ade99fa :: The time we spent there was unbelievable watching the bears in the water fishing salmon out of the stream and some even fighting over their catches.
+review_020573619527477a45cf4db3 :: Landing and stepping out onto a glacier was incredibly unbelievable with such magnificent views."
+unfair,不公平的 / 冤枉的,E1_E2_Candidate,3,2,"review_b8ab433b6add39f65bbcf6a9 :: It is highly unfair that the people at the front had panoramic views and I had to try to see past the people either side of me and look through their windows.
+review_bed38cb5492cc85e5a6942a8 :: Its very unfair that Maverick charge the same price whether you are in the front or the back of this helicopter.
+review_bed38cb5492cc85e5a6942a8 :: Sorry Maverick, but this is grossly unfair."
+annoyed,感到烦恼的 / 恼火的,E1_State (Direct Internal Affective State),2,1,"review_92db6c4ddc4f03ed93a04bac :: I think i was a little more annoyed as the pilot just announced to us in such a casual manner ""yeah so it doesn't look like we'll be landing today sorry folks"" so blaze.
+review_92db6c4ddc4f03ed93a04bac :: There was no heartfelt emotion behind that which really annoyed me."
+anxiety,焦虑 / 不安,E1_E2_Candidate,2,2,"review_2a211e66566d9506094042c7 :: I admit I was a bit nervous as flying can bring anxiety sometimes but Billy - our pilot was GREAT!
+review_2b5ddfd68cfd60efccca161d :: Our daughter sat in the copilot seat on the way out, and although she has Asperger's and has a lot of social anxiety, it did not matter to Leighan in the least."
+awful,极其糟糕的,E1_E2_Candidate,2,2,"review_942191570bc6c27e6f1ef0b4 :: My experience was awful.
+review_58ba87f9326f017e0b3399ae :: We did so and she provided pretty awful customer service."
+beautifully,优美地 / 出色地,E1_E2_Candidate,2,2,"review_a49c3b4b417661efc807e243 :: She immediately gave me the option to go later in the day which we chose to do, but the skies cleared beautifully anyway shortly thereafter.
+review_35a01d10809cfed0c3b71f5b :: We were first in the air the day we went - it was a beautifully sunny morning and the ride was so smooth."
+bother,打扰 / 烦扰,E1_E2_Candidate,2,2,"review_cbe4d099bc688920d0a3a2b9 :: She didn't bother to look at me or include me in that conversation.
+review_b8ab433b6add39f65bbcf6a9 :: My advice is don't bother - there is no guarantee that you will get a good view."
+cloudless,万里无云的（晴朗美感）,E1_E2_Candidate,2,2,"review_2a211e66566d9506094042c7 :: We were blessed with a cloudless and BEAUTIFUL day.
+review_2b9c272ff392f8ee6495f4ba :: We were able to see all of the island on a cloudless day and the 1 hour spent in the air was just enough to go all the way around."
+comfy,舒适惬意的,E1_E2_Candidate,2,2,"review_79b833d433db85183bfe559d :: At $549 per person, 8 of us got into a very comfy tiny plane and flew over Sedona, flagstaff and the Grand Canyon.
+review_54ae5b5d8364deffe47809c6 :: Nice comfy AC bus back."
+dangerous,危险的,E1_E2_Candidate,2,2,"review_d4fa1a7a54b252b2583388d6 :: I asked her to get back so she could hold onto something as what she was doing was dangerous.
+review_e260da5ed867253b4fc60778 :: I appreciated Kim's extensive experience in flying that helped keep us safe, and he exercised the appropriate amount of caution and decided that it was best to turn back and not to try and force ourselves into a dangerous situation."
+delightful,令人欢欣的,E1_E2_Candidate,2,2,"review_43ea85710b6216e626dd2867 :: Thanks Harry for a smooth flight and delightful information about the island.
+review_024ec55872d9cd2b4775d0f8 :: When we arrived in their office after being picked up we were greeted by Beverly, who was delightful, very knowledgeable and helpful."
+difficult,困难的 / 令人头疼的,E1_E2_Candidate,2,2,"review_43ea85710b6216e626dd2867 :: My only compliant was my setting, near the wing and supports; it was difficult to get some shots with out including them.
+review_53ff5143a41d862350d136a5 :: We also learned the hard way, that it's sometimes difficult to extract yourself from the clutches of these agents, if they get even the slightest sniff of possibility that you might take your wallet or your credit card out."
+dramatic,戏剧性的 / 震撼的,E1_E2_Candidate,2,2,"review_f1afb11c14a20df3c0e654e1 :: But that ominous cloud never brought any dramatic, sudden weather changes to our location.
+review_4e12b4a1176793651a28a048 :: For those who have never traveled to Alaska, the weather changes daily and can be dramatic as well."
+dream,梦寐以求的,E1_E2_Candidate,2,2,"review_7e2201b48b681475df75ef1a :: It was a dream come true for him.
+review_683e95f01306eac2d85eff49 :: It has always been my dream to take a flight seeing tour with a glacier landing and man-oh-man did K2 deliver!"
+easier,更容易的 / 更省心的,E1_E2_Candidate,2,2,"review_65d0a54805e601aa5a524fcc :: This makes shopping far more easier.
+review_8004c02b664a326a3d504152 :: The last one is the smallest but its easier to avoid the wings in your photos from that seat."
+energetic,精力充沛的,E1_E2_Candidate,2,2,"review_b2bb2560cd98db474ce2cbd6 :: The pilot was energetic and offered tons of information about the island (I am always impressed when people can maintain a high level of energy, even though they probably do the same exact tour every day).
+review_ef54bc7bc3c4866c7f29937f :: Tour guide was energetic, informative and funny!"
+enthusiasm,热情 / 积极性,E1_E2_Candidate,2,2,"review_9a6426dc1c3d9f04489aec57 :: At the end of it all I was left with the impression that this company knows their stuff and is technically very good, but they did not show any level of enthusiasm for what they do.
+review_b143c99b79aada9945f9276a :: When we arrived we were greeted with enthusiasm."
+favourite,最喜爱的,E1_E2_Candidate,2,1,"review_b7057b38356e6f4a373a9626 :: It’s hard to pick a favourite bit of the tour as the scenery was awesome from start to finish, our Pilot/ tour guide Henry was fantastic and we loved his sense of humour.
+review_b7057b38356e6f4a373a9626 :: The food for lunch was probably my least favourite part, but who could argue with the view while eating it."
+fearful,恐惧的 / 担心的,E1_E2_Candidate,2,2,"review_4899b603a9d2f1beb416a798 :: This company makes guest violently ill and then act aggressively toward the guest in a hostile manner causing the guest to become fearful of their personal safety.
+review_af98c8cc4e2124c9b58818f6 :: And while everything in Alaska was amazing, nothing beat this (and that sentiment includes my sister who is fearful of flying)."
+fears,恐惧 / 忧虑,E1_E2_Candidate,2,2,"review_da9fe4b5f3a172a9954785e5 :: Our pilot, Quincy, allayed all my fears with his quiet confidence and then very obvious expertise,
+review_41d65926ab60faa93ac4a301 :: A nice lady behind the desk reassured me and eased my fears."
+frustrating,令人挫败的 / 烦人的,E1_E2_Candidate,2,2,"review_b4bead6114e21d906db86f66 :: There was clearly a miscommunication with our pickup and I had to call them to see where they were, we were picked up about 30-45 min late and then had to wait a bit when we got to the dock so that got a little frustrating.
+review_bed38cb5492cc85e5a6942a8 :: Very frustrating when three of the passengers are whooping with joy as they board."
+generous,大方的 / 慷慨的,E1_E2_Candidate,2,2,"review_b76e6c2bc278477c91d37c62 :: I'm being generous by saying ""average,"" simply because I hate to reflect badly on him in any way.
+review_0491630540c44d4ef26eee75 :: Seaplane Adventures staff were kind and generous from the start to the end."
+genuinely,真诚地 / 确实,E1_E2_Candidate,2,2,"review_01947c281697b80abc4bbfae :: Both Gy and Ellen make you feel very welcome and they are genuinely interested in each passenger.
+review_f225a6425587ab65f3221474 :: Bruce often referred to us by name and genuinely seemed interested in learning more about us."
+gloomy,阴沉的 / 沮丧的,E1_E2_Candidate,2,1,"review_a49c3b4b417661efc807e243 :: For us, on the day of our planned tour, the skies from Princeville looked gloomy and there were scattered showers, so I called Ellen because I was concerned.
+review_a49c3b4b417661efc807e243 :: As an aside though, I saw several helicopters flying through rainy and gloomy skies that morning, which would have really stunk for the money they charge."
+gracious,亲切和蔼的,E1_E2_Candidate,2,2,"review_a49c3b4b417661efc807e243 :: Seeing the Napali coast by air turned out to be far better than by water, and having gracious, genuine hosts for our tour made it that much better.
+review_b3ad77a1bb49a5eb337a6bd2 :: The pilot was gracious and accomplished."
+greatest,最伟大的 / 极佳的,E1_E2_Candidate,2,2,"review_7b76705a2666fc9f007a68b5 :: This experience was not only the highlight of our trip, it was one of my greatest experiences of all time!
+review_a59dc67812b2608297900b5b :: Incredible views of one of God's greatest creations."
+happier,更快乐的 / 更满意的,E1_E2_Candidate,2,2,"review_ff7d45e6c2089a81ec29f19b :: We could not have been happier or more impressed with this family-run company.
+review_b10746883a2b8480528b3cec :: I booked this trip for my husband's birthday and I couldn't be happier!"
+honestly,老实说 / 真诚地,E1_E2_Candidate,2,2,"review_d885e5c4d3d84166ffc7048f :: Honestly very upsetting.
+review_6b104787c651e67fd89f534f :: I can honestly say that the experience is not just worth every penny, but we got way more out of this flight than we did in Vegas and the Grand Canyon."
+hopeful,怀抱希望的,E1_E2_Candidate,2,2,"review_a56c790aee69c2829442e4c8 :: On the flight up Daniel was telling us what we were seeing and saying he was still hopeful for a landing.
+review_3d455acb96b23304d8dd0f88 :: We knew that we would have to be flexible with the weather but we were hopeful things would work out."
+humor,幽默感,E1_E2_Candidate,2,2,"review_bc5587ba8b5a0ff184eedaa0 :: He has a great sense of humor and you can tell that he loves what he does!
+review_8939fd8604bce70a3b1b8fc9 :: very conscientious with a great sense of humor!"
+humorous,幽默风趣的,E1_E2_Candidate,2,2,"review_8f77d9be32b5ec0139d85201 :: The view of the mountains were gorgeous and the plane captain provided humorous and knowledgeable commentary throughout the trip.
+review_f63c57ac2ae27b8085da9201 :: Professional, engaging, humorous and patient."
+insane,疯狂震撼的 / 极端的,E1_E2_Candidate,2,2,"review_e7eff18ff9d70537c7037589 :: But waaaaaay expensive $150 per person for a 30 minute ride is just insane.
+review_5bc1dd064ce1bf7325638ddb :: You would have to be insane to trust your money, time and safety to them to professionally conduct a tour."
+joy,喜悦 / 快乐,E1_State (Direct Internal Affective State),2,2,"review_9406c0f7b673118b01c4a820 :: I really can't express the sheer joy of seeing the inside of of the mountain and the many glaciers.
+review_bed38cb5492cc85e5a6942a8 :: Very frustrating when three of the passengers are whooping with joy as they board."
+nauseous,恶心晕车的,E1_E2_Candidate,2,2,"review_351247b5823eb714bd001af5 :: Half way both us got nauseous.
+review_208f19d09967b7a1a0022825 :: My husband thought he would be ok because he doesn't have a problem in bigger planes but ended up feeling nauseous in the smaller plane."
+nicer,更美好/更亲切的,E1_E2_Candidate,2,2,"review_9a11f9cee33a76f2968df167 :: The commuter terminal where they are located, is about a 5-6 minute walk from the regular airport and Val, who met us at the front desk, could not have been any nicer.
+review_0f50928b644eab8e69fd4905 :: The grand tour was good but it would be nicer if the pilot would narrate the navigation during fly as it was depicted on their website pages how would be the navigation and what mountains and peaks would be covered as well as an handly print out of this navigation so customer can enjoy the total journey fully instead of just seeing white glaciers from the top."
+painful,痛苦的 / 令人难受的,E1_E2_Candidate,2,1,"review_dc71022ec47fe7e7dad91e8d :: "" So, beware, they're either lying about this to me or they're regularly putting guests in that painful position, for hours.
+review_dc71022ec47fe7e7dad91e8d :: They have given me a 50% refund, but still blame me for having the ""wrong expectations"", and my spine is still painful."
+picturesque,风景如画的,E1_E2_Candidate,2,2,"review_b4bead6114e21d906db86f66 :: We landed on a dock in the middle of the one of the lakes which was very picturesque.
+review_f513ccad486e4e6b27890911 :: Then you circle around Sedona's famed canyons and Red Rocks before a picturesque landing on to the Airport Mesa."
+pleasantly,令人愉快地,E1_E2_Candidate,2,2,"review_683e95f01306eac2d85eff49 :: My sister was a little bit apprehensive about the flight in such a small plane but she was pleasantly surprised that it was not an issue at all.
+review_b000df598ef420c3db6a55b4 :: I’m usually really picky about my photos and end up deleting most of them but I was pleasantly surprised with how perfect the photos he took were!"
+poorly,糟糕地 / 差劲地,E1_E2_Candidate,2,1,"review_5bc1dd064ce1bf7325638ddb :: The scenery was great but the tour was poorly organised.
+review_5bc1dd064ce1bf7325638ddb :: I have travelled all over the world and this is my 3rd time to the Grand Canyon and never have I enountered a poorly organised tour or service this bad - even in 3rd world countries."
+primo,一流的 / 顶级的,E1_E2_Candidate,2,1,"review_50ad674985c5646672bc62e8 :: Apparently this company only do window seats except me, the solid one on the plane got to sit in the primo co pilot seat and was assigned the job of lowering the landing gear for landing!
+review_50ad674985c5646672bc62e8 :: They kind of look at you and tell you where to sit in the plane based on your size but everyone had a primo seat - that way the plane flies flat and straight, they say."
+pristine,原始纯净的,E1_E2_Candidate,2,2,"review_d2d26abfcff50fb9547c2882 :: The snow was pristine as we were the first flight to land on the snow that fell the night below.
+review_ff7d45e6c2089a81ec29f19b :: The flight itself was spectacular with sights that pictures simply cannot do justice and the chance to spend some quiet moments on a small island in what must be one of the most pristine and beautiful places on the planet is beyond words."
+prompt,及时迅速的,E1_E2_Candidate,2,2,"review_9a6426dc1c3d9f04489aec57 :: They were very professsional, prompt in their responses when arranging the tour.
+review_8fc519c90267d549394edbcc :: They were very prompt in their responses right from the time of booking till end of flight."
+promptly,及时迅速地,E1_E2_Candidate,2,2,"review_a49c3b4b417661efc807e243 :: Firstly, making a reservation by phone or online via their website is easy, painless, and Ellen replies promptly with the most polite and genuine response.
+review_23cf34800c98795a842db371 :: They answered the phone promptly, had our Groupon codes down and sent us a boarding pass for 2 flights as we split into two parties as we take turn to look after a young baby."
+pure,纯粹的 / 纯净震撼的,E1_E2_Candidate,2,2,"review_8bad3b1acba5cdfb503049e9 :: And the glacier landing, the pure snow and calm atmasphere while Mt McKinley was there with sunlight on it.
+review_a0e5554c9ea393f975ce70db :: I felt as though we had landed one level shy of Heaven -- total silence, pure white snow with diamond crystals, the bluest of skies, white fluffy clouds."
+queasy,恶心反胃的,E1_E2_Candidate,2,2,"review_391296b7cc0f06b72663511f :: Well worth it and the flight was even and calm, important for queasy fliers.
+review_b143c99b79aada9945f9276a :: The plane was very comfortable and they included a small cooler with drinks, wet towels in case you got a little queasy and mints to help as well."
+responsive,积极回应的 / 贴心的,E1_E2_Candidate,2,2,"review_6b1f41d7d9376e30f1be6051 :: Very responsive and very attentive (I think Trish).
+review_38eecdc173deef13e67fc314 :: When I talked to the lady there she was not responsive."
+ridiculous,荒谬的 / 离谱的,E1_E2_Candidate,2,2,"review_a158a996fb85a211763435ea :: Flight was also chilly, not that I expected it to be heated but there was a gap along the door that let in a ridiculous amount of cold air so be sure to bundle up.
+review_342e110195857bea58aeaba7 :: But the wait was ridiculous."
+rudely,粗鲁地 / 无礼地,E1_E2_Candidate,2,1,"review_b27a5b6f0ee0a61ed67119b2 :: Then the pilot raised his voice spoke to her very rudely Infront of all passengers.
+review_b27a5b6f0ee0a61ed67119b2 :: He should have mentioned nicely rather rudely."
+sadly,令人遗憾地 / 悲伤地,E1_E2_Candidate,2,2,"review_f513ccad486e4e6b27890911 :: Then sadly the tour ends and you still can't believe all that you have seen.
+review_5bc1dd064ce1bf7325638ddb :: It was not until we made quite a scene that the even tried to get us an earlier flight (to no avail) - customer service was sadly lacking."
+secure,安全的 / 安心的,E1_State (Direct Internal Affective State),2,2,"review_2a211e66566d9506094042c7 :: Once outside by the plane, we had additional instructions and it made us all feel quite secure.
+review_6a37a276cde42d2608622f3e :: We felt very secure with Maverick Helicopters."
+stuffy,闷热不适的（体感不适）,E1_E2_Candidate,2,2,"review_53ff5143a41d862350d136a5 :: Cameras, spare batteries and memory card, cash (for the coffee shop / gift store), sunglasses, water (it can get pretty stuffy if the bus is full).
+review_9685d4336920d0bca9a54784 :: Plane is a little stuffy, need more air circulating around, but its probably the same with any small aircraft."
+successful,成功的 / 满意的,E1_E2_Candidate,2,2,"review_26ab44db3f0b749f3156aee3 :: I had total confidence in him and was 100% certain We would have a successful flight.
+review_ada23e30e9050b395a5e4949 :: It is impressive to see their facility as they appear to be running a very successful tour company, I was disappointed to find out that the 2 hour tour, was not 2 hours flying, but rather 2 hours from the start of the shuttle at the port to return to the port."
+sudden,突然的 / 猝不及防的,E1_E2_Candidate,2,2,"review_f1afb11c14a20df3c0e654e1 :: But that ominous cloud never brought any dramatic, sudden weather changes to our location.
+review_ef7bbe16ce33d90360beda5a :: Although we had very clear sky during the flight, there were sudden small sharp drops in altitude here and there."
+sweet,甜蜜的 / 甜美的,E1_E2_Candidate,2,2,"review_d6633755ab0fe56676302484 :: Bryan, our pilot, was funny and a pleasure and Pua in reception was very sweet and helpful.
+review_d3aa33b2ada8580a5b5a3b5d :: Too sweet!"
+terrified,极度惊恐的,E1_State (Direct Internal Affective State),2,1,"review_71241e031e521f6c6963b901 :: I am terrified of flying and was really dreading the Grand Canyon tour.
+review_71241e031e521f6c6963b901 :: As we drove to Boulder airport I was becoming more and more terrified."
+tranquility,宁静 / 平和,E1_E2_Candidate,2,2,"review_8b4c172e7b644d8c4b931cc0 :: Words cannot do justice to the scenery and the tranquility felt during our short stay on the pontoon.
+review_a8e08d3e333554d846e6a0c3 :: Whilst sitting on the lake the tranquility left us with a lasting memory of a wonderful experience."
+trouble,麻烦 / 困扰,E1_E2_Candidate,2,2,"review_082e1f27aa3bb895882c5db8 :: Was no trouble at all.
+review_2c1a37640a6578dcad237166 :: From the time we arrived ALL of you guy's were very welcoming and friendly and nothing seemed to much trouble, your counter staff we met on arrival took the time to show us a map of were we would fly, told us of features we should keep an eye out for and so MUCH more."
+unbeatable,无可比拟的 / 无敌的,E1_E2_Candidate,2,2,"review_3a562693d0a814861060b2cf :: After booking with Air Ventures we were a bit skeptical because their price is unbeatable!
+review_8a2e45237fce19ebec74d4f5 :: Smooth ride, absolutely stunning views of the island, and an unbeatable price."
+unbelievably,难以置信地,E1_E2_Candidate,2,2,"review_feb8e8b8f877bcebb986186f :: Seeing the teams come into the Rainy Pass, check in, take care of their dogs, talk to the vets and answer our questions was unbelievably nice.
+review_f4707f9a700067a778a5ea66 :: The fjords are just unbelievably beautiful."
+uncomfortable,感到不适的 / 不安的,E1_State (Direct Internal Affective State),2,1,"review_af08902c4c1b7326756e9e93 :: Basically he made us very uncomfortable during the flight to the point where we just wanted the flight to be over and done with.
+review_af08902c4c1b7326756e9e93 :: I will certainly not recommend K2 due to this extremely uncomfortable experience due to the pilot's very obvious rude behaviour."
+understanding,体谅的 / 理解的,E1_E2_Candidate,2,2,"review_32807464806a96254ea2ceff :: This was a great way to see this very scenic island and added enormously to our understanding of the island as a whole.
+review_b000df598ef420c3db6a55b4 :: We moved the cruise to a later date and I called Talkeetna Air Taxi to tell them and to ask if I could switch the excursion to the new date on my cruise and they were so helpful and understanding and made the change with no problem."
+unreal,如梦似幻的 / 震撼的,E1_E2_Candidate,2,2,"review_6e26cab593dc66b15f99cf0a :: Stepping onto a glacier was unreal!
+review_6e1b32b84859070da88e0d06 :: Beautiful flight and unreal views."
+upfront,直率透明的,E1_E2_Candidate,2,2,"review_bbf12aaf52ffd1f8f514701a :: I am so thankful for the upfront, clear, and continued communication from the staff.
+review_595866657b926f8591d80cf2 :: Myr tour was done in smaller 4 seater airplane - I rode upfront with pilot with wife and child in back seat."
+valuable,珍贵的 / 有价值的,E1_E2_Candidate,2,2,"review_3e1abc7ed002a345eb9524ce :: It could have been more informational and valuable if our pilot was more interactive.
+review_6c48905d4d285a3a633a9e12 :: Acted as if my booking through a ""third party=trip advisor"" made my business less valuable to them."
+warmly,温暖地 / 热情地,E1_E2_Candidate,2,2,"review_65d0a54805e601aa5a524fcc :: This is followed by the first in-person conversation where they Bruce and Ellen warmly invited us into their office to collect additional information and address other flying logistics, rather than dealing with the customer at the counter.
+review_2f2fabf3ad89d81f441b1162 :: We got there early and were warmly greeted and told we could leave early."
+wildest,最疯狂的（狂想）,E1_E2_Candidate,2,2,"review_f1afb11c14a20df3c0e654e1 :: It is the grandest adventure beyond your wildest
+review_83fe4d7e7dc015a14d52be74 :: The entire experience was beyond our wildest expectations."
+worst,最糟糕的,E1_E2_Candidate,2,2,"review_e6b750a0b2d4a111abb60937 :: The two interior seats of the back row have the worst views.
+review_5bc1dd064ce1bf7325638ddb :: 30pm and they could not care less - in fact the insolence and rudeness of the staff would have to be the worst i have ever encountered."
+worthwhile,值得的 / 划算的,E1_E2_Candidate,2,2,"review_f486131a76d495cf9d39fbf2 :: That made the trip really worthwhile.
+review_9f9d62b99552657a136a55ab :: Absolutely worthwhile to travel this way."
+aggressively,挑衅攻击地 / 极其恶劣地,E1_E2_Candidate,1,1,review_4899b603a9d2f1beb416a798 :: This company makes guest violently ill and then act aggressively toward the guest in a hostile manner causing the guest to become fearful of their personal safety.
+agreeable,宜人的 / 令人满意的,E1_E2_Candidate,1,1,review_e260da5ed867253b4fc60778 :: Kim is a great pilot and made sure that we stayed safe even when Mother Nature wasn't being agreeable.
+airsick,晕机的,E1_E2_Candidate,1,1,"review_b4bead6114e21d906db86f66 :: My daughter got a little airsick and Steve was even willing to fly us to another spot if needed so she could, uh, take care of business with no one else around."
+alas,唉 / 遗憾的是,E1_E2_Candidate,1,1,"review_5acad42fcb96595910c9a410 :: Well, after checking the lady confirmed indeed we had booked directly thru Maverick, but alas SORRY our seats are still were not available and the only seating option was three days later AFTER we leave."
+amazement,惊叹 / 惊奇,E1_E2_Candidate,1,1,review_50087c058cc38daa21b82926 :: At one time I found myself with my hand over my heart or on my cheer just in amazement.
+animated,生动的 / 活力充沛的,E1_E2_Candidate,1,1,"review_9a6426dc1c3d9f04489aec57 :: Also, a more animated clear narration while in the air would also have been good."
+appropriately,恰当地 / 贴心地,E1_E2_Candidate,1,1,review_50087c058cc38daa21b82926 :: ” No words can appropriately describe this awe inspiring experience.
+aside,撇开 / 排除,E1_E2_Candidate,1,1,"review_6466b9ab383b5a4f1fdda53c :: Aside from the novelty of taking off an landing on water we were treated to a sightseeing adventure along the Marin County coastline, past the Golden Gate Bridge, along the San Francisco waterfront, over the Bay Bridge, over Giant's stadium, and over Alcatraz."
+askance,怀疑斜视地（不信任）,E1_E2_Candidate,1,1,"review_cbe4d099bc688920d0a3a2b9 :: In fact, his demeanor was such that both my sister and I looked at each other in askance."
+authentic,地道的 / 真实无伪的,E1_E2_Candidate,1,1,"review_a8e08d3e333554d846e6a0c3 :: If you have never experienced flying in an authentic, historic float plane (sea plane) then you should not miss this trip out to the misty fjords."
+automatically,自动地 / 自然而然,E1_E2_Candidate,1,1,"review_4e12b4a1176793651a28a048 :: We were happy because we did want to have a glacier landing and we didn’t even ask, it was automatically done!"
+awkward,尴尬的 / 别扭的,E1_E2_Candidate,1,1,"review_0f50928b644eab8e69fd4905 :: When I asked a front desk person, when was the last glacier landing, she did not able to answer me which is quite awkward whereas K2 Aviation giving advertisement always with Glacier landing."
+badly,严重地 / 糟糕地,E1_E2_Candidate,1,1,"review_b76e6c2bc278477c91d37c62 :: I'm being generous by saying ""average,"" simply because I hate to reflect badly on him in any way."
+bang,物超所值（bang for buck）,E1_E2_Candidate,1,1,"review_da8299d8fba78458a1318905 :: However, I do think this particular tour option gives you the most ""bang for the buck""."
+basic,基础的 / 简陋的,E1_E2_Candidate,1,1,review_5e434da02b38cf19550a807e :: We did the most basic flight but added the glacier landing and it was everything we could've dreamed.
+beneficial,有益的 / 有帮助的,E1_E2_Candidate,1,1,"review_a49c3b4b417661efc807e243 :: There are fantastic photo ops, which is beneficial because the flight is slower and steady, and you are up in the air for around 70 minutes."
+blind,盲目的 / 视线受阻的,E1_E2_Candidate,1,1,"review_442bd14270e4cf874af0ab43 :: When we arrived at the bear viewing area, Mark helped us get signed up quickly so that we could get a slot in the bear viewing blind, and Mark continued to provide awesome commentary about different bears and occurrences that we saw when we were up at the viewing platform."
+bluest,最湛蓝的（极致景色）,E1_E2_Candidate,1,1,"review_a0e5554c9ea393f975ce70db :: I felt as though we had landed one level shy of Heaven -- total silence, pure white snow with diamond crystals, the bluest of skies, white fluffy clouds."
+bluntly,直言不讳地,E1_E2_Candidate,1,1,"review_23cf34800c98795a842db371 :: "" When I told him, he said bluntly ""That is not customary."
+brilliant,璀璨的 / 出色的,E1_E2_Candidate,1,1,"review_979ebaf5ccd3b94c095ddf1a :: We picked Kauia destination for our honeymoon, but as far as we wanted to make the trip brilliant we came to Kauai un prepared about doing an Air tour !"
+broad,宽广的,E1_E2_Candidate,1,1,review_53ff5143a41d862350d136a5 :: com who have a broad spectrum of both helicopter and airplane options available.
+bubbly,活泼热情的,E1_E2_Candidate,1,1,"review_bea011d24dcf4997edde8188 :: Our pilot ""Piper"" was an amazing lady - bubbly,informative, wrote down some turtle spotting tips for us afterward, and yet still professional in all her dealings with other aircraft and air traffic control."
+candid,坦率真诚的,E1_E2_Candidate,1,1,"review_65d0a54805e601aa5a524fcc :: Our initial conversation during the data gathering and reservation was candid, honest and direct without any high-pressure sales."
+casual,随和轻松的,E1_E2_Candidate,1,1,"review_92db6c4ddc4f03ed93a04bac :: I think i was a little more annoyed as the pilot just announced to us in such a casual manner ""yeah so it doesn't look like we'll be landing today sorry folks"" so blaze."
+charm,顺畅 / 令人满意,E1_E2_Candidate,1,1,review_fea58727faaa3a0887fe14ea :: Everything worked out like a charm.
+chatty,健谈热情的,E1_E2_Candidate,1,1,review_8de5093de03f104bbd286daa :: The pilot we had was named BJ and he was very chatty and helpful throughout the flight telling facts about the canyon and answering any questions we had.
+cheer,振奋 / 欢呼,E1_E2_Candidate,1,1,review_50087c058cc38daa21b82926 :: At one time I found myself with my hand over my heart or on my cheer just in amazement.
+cheesy,俗气的 / 劣质的,E1_E2_Candidate,1,1,"review_53ff5143a41d862350d136a5 :: We had headsets that alternated between playing an audio travel guide with useful information on the area, and a cheesy soundtrack that I reckon was taken from ""Blazing saddles"" !"
+chill,惬意轻松的,E1_E2_Candidate,1,1,review_4e12b4a1176793651a28a048 :: Super chill and greeted us wearing jeans and a t-shirt.
+chilly,寒冷不适的,E1_E2_Candidate,1,1,"review_a158a996fb85a211763435ea :: Flight was also chilly, not that I expected it to be heated but there was a gap along the door that let in a ridiculous amount of cold air so be sure to bundle up."
+compliant,顺从的 / 合规安心的,E1_E2_Candidate,1,1,"review_43ea85710b6216e626dd2867 :: My only compliant was my setting, near the wing and supports; it was difficult to get some shots with out including them."
+complimentary,赞赏的 / 赠送贴心的,E1_E2_Candidate,1,1,"review_417440d433c62ab1d44cb99c :: The pilot was so nice and the staff including the shuttle driver went the extra mile in helpfulness and showed their generosity by celebrating our anniversary with complimentary ""Alaska Beers"" !"
+concerns,担忧 / 关切,E1_E2_Candidate,1,1,review_f1afb11c14a20df3c0e654e1 :: or in person answering all your questions and addressing your concerns.
+confusion,困惑 / 混乱,E1_E2_Candidate,1,1,review_0feea62cebd439414c25d6fc :: When we reached out thinking there was confusion we were told they got booked on her day off.
+conscientious,认真负责的,E1_E2_Candidate,1,1,review_8939fd8604bce70a3b1b8fc9 :: very conscientious with a great sense of humor!
+conscious,有意识的 / 讲究的,E1_E2_Candidate,1,1,"review_5429f4ef0478bae9255d337b :: Everyone at Talkeetna Air Taxi was efficient, safety conscious and so helpful."
+danger,危险 / 威胁,E1_E2_Candidate,1,1,"review_4d079dc9f26b22e5cee4dac8 :: He took us right up close to some cliffs,mountains,waterfalls,valleys and beaches without any kind of danger."
+darling,可爱的 / 亲切的,E1_E2_Candidate,1,1,review_e8ba09c98f233e51030cc9c3 :: we even stopped at the famous El Tovar Hotel and were treated to Hopi Indian dances featuring a darling 3-4 year old I'll never be able to repay my friend for her generosity as this was truly a day I'll always remember ✈️
+decent,尚可的 / 体面的,E1_E2_Candidate,1,1,"review_bed38cb5492cc85e5a6942a8 :: As several reviewers have pointed out, if you are an average male you should expect to be in the rear seat and if you are in the middle dont expect to capture any decent photos."
+delighted,高高兴兴的,E1_State (Direct Internal Affective State),1,1,review_50d0c427181c796477638983 :: All of us were delighted with the trip.
+disconcerting,令人不安的,E1_E2_Candidate,1,1,review_6c48905d4d285a3a633a9e12 :: Helicopter had a lot of vibration that was a little disconcerting.
+disrespectful,无礼的 / 冒犯的,E1_E2_Candidate,1,1,review_cbe4d099bc688920d0a3a2b9 :: It was incredibly rude and disrespectful of her to treat me in such a manner and I let her know.
+eager,热切的 / 渴望的,E1_E2_Candidate,1,1,review_f32161287cbdcd87c87a048a :: They are eager to book (W/ Glacier Landing) any one of 4 Denali flightseeing trips.
+easiest,最省心的 / 最容易的,E1_E2_Candidate,1,1,review_53ff5143a41d862350d136a5 :: Not the easiest time in the morning to rise after a night of Mojitos and Margueritas !
+economical,划算实惠的,E1_E2_Candidate,1,1,review_dd13be75c4e20e2ce06840f8 :: This is a smaller business and the price is more economical than the commercial helicoptor rides.
+ecstatic,狂喜的 / 极度兴奋的,E1_E2_Candidate,1,1,review_7b76705a2666fc9f007a68b5 :: Everyone on board including Chris was ecstatic!
+effective,有效划算的,E1_E2_Candidate,1,1,review_d3344afb3778097e79588e15 :: Also FYI much more cost effective and smooth ride than a helicopter.
+effortless,轻松平稳的,E1_E2_Candidate,1,1,review_5e434da02b38cf19550a807e :: The take-off and landing were almost effortless.
+emotion,情感 / 情绪,E1_E2_Candidate,1,1,review_92db6c4ddc4f03ed93a04bac :: There was no heartfelt emotion behind that which really annoyed me.
+emotional,情感上的 / 动情的,E1_E2_Candidate,1,1,"review_5d1ed7c73f280b31c37e8a26 :: My wife and I both agreed that because the power and the beauty were so intense, there were times when it was very emotional and even spiritual."
+enjoyment,乐趣 / 享受,E1_E2_Candidate,1,1,review_794213f1ad4da1e5287e8990 :: He really does keep the passenger's comfort and enjoyment in mind at all times and knows the island very well.
+exquisite,精美的 / 绝妙的,E1_E2_Candidate,1,1,review_99803732bf820023c1852422 :: The ride was relaxing with exquisite views with highlights pointed out along the route by the pilot.
+extraordinary,非凡的 / 卓越的,E1_E2_Candidate,1,1,review_82389ed0329e407b94318d6e :: Seeing the mountains that close was extraordinary and beautiful.
+favourable,有利的 / 良好的,E1_E2_Candidate,1,1,"review_088122d77a9ff92ab3462c97 :: Everyone we dealt with at the company were lovely ,even advising us to change our flight from 24 Nov to 25 Nov as they believed the weather would be more favourable."
+flaky,不靠谱的 / 经常取消的,E1_E2_Candidate,1,1,review_07a4d180b1c3927f6d90e08e :: We spoke to some Grand Canyon park employees and they said they frequently heard complaints about Grand Canyon Scenic Airlines being flaky and dropping reservations with little warning.
+fortunately,幸运的是,E1_E2_Candidate,1,1,"review_b4bead6114e21d906db86f66 :: Fortunately we had enough time in port that it wasn't really an issue, just an inconvenience."
+friendliness,友善 / 亲和力,E1_E2_Candidate,1,1,review_cee3f2a03829a94fe1a6a788 :: full of friendliness and information.
+frustrated,感到沮丧的 / 挫败的,E1_State (Direct Internal Affective State),1,1,"review_ed42ef9dc4fa813cfcacdfdb :: I could tell my son started getting a little frustrated because he couldn't follow all of the pilot's information pointed out, but I was able to tell him to just relax and enjoy, there is no quiz afterwards, and he was much better after that just soaking in the sights."
+frustration,挫败感 / 烦恼,E1_E2_Candidate,1,1,review_b27a5b6f0ee0a61ed67119b2 :: I understand his frustration because of federal aviation rules.
+fuss,大惊小怪 / 争吵骚动,E1_E2_Candidate,1,1,review_07b74d25ca8cca39cb34a0be :: The reason I did not create a fuss on the spot was because that was the last tour and my ship was leaving in 1 hour and there was no other tour available so us it as an advice and if you book it through Taquan air make sure to ask at the counter that they are not asking you to sit in the back.
+glorious,壮丽辉煌的,E1_E2_Candidate,1,1,review_4e12b4a1176793651a28a048 :: Ruth glacier is huge and glorious in the air.
+grandest,最宏大的 / 极其壮丽的,E1_E2_Candidate,1,1,review_f1afb11c14a20df3c0e654e1 :: It is the grandest adventure beyond your wildest
+gratitude,感激 / 感恩,E1_E2_Candidate,1,1,review_2c1a37640a6578dcad237166 :: Again thanks and much gratitude from two very impressed Aussie's
+grumpy,脾气暴躁的 / 不悦的,E1_E2_Candidate,1,1,review_0007fe1c2b3216a8645c4245 :: Our pilot was grumpy and not personable.
+haha,哈哈（欢快情绪）,E1_E2_Candidate,1,1,"review_98e74ad69a88380b69ce727c :: With his patience, we were given multiple chances to take pictures, haha."
+harsh,严酷恶劣的,E1_E2_Candidate,1,1,"review_123bf9f58334923a62ba4371 :: Be aware that harsh weather will sometimes interrupt the tours, so it's a good idea to call ahead if the weather looks ominous."
+hassle,麻烦 / 烦心事,E1_E2_Candidate,1,1,review_9f9d62b99552657a136a55ab :: Their office worked it out with no hassle to get us on a flight back the next day the way we wanted.
+hassles,烦心事 / 摩擦,E1_E2_Candidate,1,1,"review_442bd14270e4cf874af0ab43 :: If you remember any tip from this review, it is this: if you want to avoid the potential hassles and delays of low-tide arrivals at Anan Creek by float plane, make sure ahead of time that your pilot knows to putter into the entrance of the creek where the water is deep enough (even at low tide) for any float plane to drop off passengers just below the ranger briefing station."
+hazardous,危险的 / 有隐患的,E1_E2_Candidate,1,1,review_5bc1dd064ce1bf7325638ddb :: No clear path or directions marked on the hazardous trail.
+heartfelt,真挚的 / 出自内心的,E1_E2_Candidate,1,1,review_92db6c4ddc4f03ed93a04bac :: There was no heartfelt emotion behind that which really annoyed me.
+hopefully,怀着希望地,E1_E2_Candidate,1,1,review_300f9baf05912fc8f616fd90 :: Just hopefully their timing is better.
+hopes,期盼 / 希望,E1_E2_Candidate,1,1,"review_58ba87f9326f017e0b3399ae :: I hate to write a review in the midst of COVID for a small business, but unfortunately due to our experience I’m writing this in hopes that nobody else has the same experience."
+hostile,敌意的 / 恶劣的,E1_E2_Candidate,1,1,review_4899b603a9d2f1beb416a798 :: This company makes guest violently ill and then act aggressively toward the guest in a hostile manner causing the guest to become fearful of their personal safety.
+hug,拥抱 / 温暖关怀,E1_E2_Candidate,1,1,"review_71241e031e521f6c6963b901 :: She was so lovely, she gave me a hug and some vouchers for a free drink and a souvenir photo."
+humour,幽默感,E1_E2_Candidate,1,1,"review_b7057b38356e6f4a373a9626 :: It’s hard to pick a favourite bit of the tour as the scenery was awesome from start to finish, our Pilot/ tour guide Henry was fantastic and we loved his sense of humour."
+hungry,贪婪的（money hungry）,E1_E2_Candidate,1,1,review_782108ad97fa0d3252690e48 :: Money hungry corporate.
+ill,生病的 / 恶心呕吐的,E1_E2_Candidate,1,1,review_4899b603a9d2f1beb416a798 :: This company makes guest violently ill and then act aggressively toward the guest in a hostile manner causing the guest to become fearful of their personal safety.
+immeasurable,无法估量的 / 极致的,E1_E2_Candidate,1,1,"review_83fe4d7e7dc015a14d52be74 :: Landing on a glacier, high up on Denali itself was an unforgettable and immeasurable experience."
+impeccable,无可挑剔的,E1_E2_Candidate,1,1,"review_98e74ad69a88380b69ce727c :: With his incredible skill, we were able to witness the sea cliff from an impeccable perspective."
+inclement,恶劣的气候,E1_E2_Candidate,1,1,review_bbf12aaf52ffd1f8f514701a :: K2 was phenomenal at staying in communication with me when inclement conditions threatened our adventure.
+inspirational,鼓舞人心的,E1_E2_Candidate,1,1,"review_4ec20f3edcbca09024bdd5ca :: We did the McKinley base camp flight and it was breathtaking, inspirational, beautiful flight."
+joking,开玩笑的,E1_E2_Candidate,1,1,"review_53ff5143a41d862350d136a5 :: This was particularly pleasing as it made a mockery of those who had raced off the bus to be first in line, shouldering children and elderly folk out of the way to get the best seats - I'm joking of course but there was a stampede to be first in line !"
+keen,热情的 / 敏锐的,E1_E2_Candidate,1,1,review_e83a9bc682b158918ad0f243 :: Having taken a couple trial flying lessons before I was also keen to have the opportunity to take the controls.
+laughter,欢笑 / 笑声,E1_E2_Candidate,1,1,review_b143c99b79aada9945f9276a :: The laughter and ease with this group and the crew spoke volumes and told me right away that we had chosen well.
+luckily,幸运地 / 幸亏,E1_E2_Candidate,1,1,"review_ed42ef9dc4fa813cfcacdfdb :: The only thing I would have prepped my kids with prior is that we were assigned seats once we got outside to the helicopter (they were happy and luckily we had no issues) and that once we're flying, we had to talk via the headsets."
+mad,发怒的 / 生气的,E1_E2_Candidate,1,1,"review_e7eff18ff9d70537c7037589 :: At first i was a little mad, we had a tour booked at 10am and the pilot showed up late"
+marvelous,绝妙的 / 令人惊叹的,E1_E2_Candidate,1,1,review_6a37a276cde42d2608622f3e :: This flight is a marvelous way to see the Grand Canyon.
+miraculously,奇迹般地,E1_E2_Candidate,1,1,review_f32161287cbdcd87c87a048a :: 1) our flight was not full and there were miraculously 2 seats left on the flight we were offered.
+miserable,极度痛苦糟糕的,E1_State (Direct Internal Affective State),1,1,"review_dc71022ec47fe7e7dad91e8d :: Instead, I was crouched over on a hard bench to see out of the scratched windows, and it was miserable."
+mood,心情 / 情绪,E1_E2_Candidate,1,1,review_82386bb91c344ca8b5ec8dd0 :: From the first moment Tony put us in a relaxed mood
+nasty,令人厌恶的 / 恶劣的,E1_E2_Candidate,1,1,review_af08902c4c1b7326756e9e93 :: At one point during the flight our 6 year old daughter who was sitting behind the pilot's seat ACCIDENTLY kicked his chair and he gave her a nasty look.
+nerve,紧张神经,E1_E2_Candidate,1,1,"review_bc094451a516daefa055857a :: The flight from Phoenix to the Canyon was a bit nerve wracking, due to the small aircraft."
+nerves,紧张感 / 不安神经,E1_E2_Candidate,1,1,review_8de5093de03f104bbd286daa :: There was also music on in the helicopter which really helped to calm my nerves.
+nicest,最美好的 / 最亲切的,E1_E2_Candidate,1,1,review_3be86b281748fcad0f0f0b34 :: I must say the young men who answered the phone had some of the nicest manners I have heard in a while.
+noisy,喧闹吵杂的,E1_E2_Candidate,1,1,review_c3f460d4aaa80dae038e0054 :: The price point was great cheaper than a helicopter and not so noisy.
+offensive,冒犯的 / 令人不适的,E1_E2_Candidate,1,1,review_942191570bc6c27e6f1ef0b4 :: It was an extremely unprofessional and outrageously offensive behavior for a tour company.
+overwhelming,铺天盖地震撼的,E1_E2_Candidate,1,1,review_9773b7ee16f20be92466f8f1 :: But the helicopter ride over the Grand Canyon is overwhelming!
+passion,热情 / 激情,E1_E2_Candidate,1,1,"review_00deb5b5ce64791d3809151f :: You had the sense that this was not just a job, but a passion - sharing his love for the island."
+peace,宁静 / 和平,E1_E2_Candidate,1,1,"review_f513ccad486e4e6b27890911 :: The peace, serenity and unsurpassed beauty and wonder will remain with us for a lifetime."
+peaceful,平和宁静的,E1_E2_Candidate,1,1,review_cd27921d3895fc595fd53af3 :: The pilot had great commentary on the fjords and the background music was very peaceful and perfect for the setting.
+pleasurable,令人愉快的,E1_E2_Candidate,1,1,"review_0d83a2c8c71d477e19742e49 :: As I am also a pilot, I did the flying and he managed the radio and navigation so it was a very relaxed and pleasurable experience."
+positive,积极正面的,E1_E2_Candidate,1,1,review_b143c99b79aada9945f9276a :: Everything positive we read about Wings Over Kauai was absolutely true.
+positively,积极正面地,E1_E2_Candidate,1,1,review_536e18c70c45f6079ab4ba5b :: Trip was amazing Eric was wonderful positively wonderful take this trip.
+powerful,强烈的 / 感人的,E1_E2_Candidate,1,1,review_812312f6cb44d7e3c4fdfa1b :: Words/pictures can not explain how powerful.
+priceless,无价的 / 极为珍贵的,E1_E2_Candidate,1,1,"review_bc094451a516daefa055857a :: I would highly recommend this to others if you are looking for a once in a lifetime experience to see the Grand Canyon from above, the views were priceless!"
+pricey,昂贵的 / 偏贵的,E1_E2_Candidate,1,1,review_f5ca1940bb4b3b4a6ade99fa :: It was a bit pricey but we expected it because you’re flying in a floatplane Believe me when I say we all agreed it was definitely worth the money.
+profound,深刻震撼的,E1_E2_Candidate,1,1,review_82389ed0329e407b94318d6e :: A profound experience!
+racist,种族歧视的,E1_E2_Candidate,1,1,review_585fd4de71474864f99ab2f5 :: In addition he also seemed to be a bit racist (we are Indians) and insulting to our family.
+reassured,感到安心的,E1_State (Direct Internal Affective State),1,1,review_41d65926ab60faa93ac4a301 :: A nice lady behind the desk reassured me and eased my fears.
+regrets,遗憾 / 后悔,E1_E2_Candidate,1,1,"review_bbf12aaf52ffd1f8f514701a :: I hope I get to go back someday, and if I don’t, no regrets."
+reliable,可靠的 / 可信赖的,E1_E2_Candidate,1,1,review_9a6426dc1c3d9f04489aec57 :: I would not use them again if another reliable option is available
+reputable,信誉良好的,E1_E2_Candidate,1,1,"review_f5ff83b24533166f9a04eddb :: Don’t waste your time here, find yourself a reputable company"
+respectful,充满敬意的,E1_E2_Candidate,1,1,review_ba9020f58a998f8c58e088b9 :: It was easy to arrange the tour and everyone with whom we met from this company was respectful and had smiles on their faces (it makes a big difference when communicating with someone with a friendly smile and demeanor!
+responsible,负责任的,E1_E2_Candidate,1,1,review_06eb3f971b46e3be6f1a0796 :: Incredible views and a great responsible pilot.
+rickety,摇摇欲坠的,E1_E2_Candidate,1,1,"review_7610caa1138d8b33b74c4e88 :: The crew was professional, aircraft was top notch (nothing rickety here) and the cost was reasonable compared to other air tours we have done in different parts of the country."
+rigid,刻板不近人情的,E1_E2_Candidate,1,1,review_4e12b4a1176793651a28a048 :: The other companies had a much more rigid refund policy.
+safely,安全地 / 平安地,E1_E2_Candidate,1,1,"review_442bd14270e4cf874af0ab43 :: At one point as we got near Anan Creek, we encountered a rain squall, and Mark and Eric communicated and made some adjustments which ultimately allowed us to safely land at the Anan Creek landing site."
+sensitive,敏感的,E1_E2_Candidate,1,1,"review_cbe4d099bc688920d0a3a2b9 :: As African-Americans we are the both of us very aware, observant and sensitive to our surroundings and peoples' energy."
+sentiment,情感 / 情绪,E1_E2_Candidate,1,1,"review_af98c8cc4e2124c9b58818f6 :: And while everything in Alaska was amazing, nothing beat this (and that sentiment includes my sister who is fearful of flying)."
+serene,宁静祥和的,E1_E2_Candidate,1,1,"review_30a4fe165d7e3a55f8e3db95 :: Landing on the glacier was really cool, as was walking around in a couple of feet of snow on the most quiet and serene place I've ever been."
+serenity,宁静 / 祥和,E1_E2_Candidate,1,1,"review_f513ccad486e4e6b27890911 :: The peace, serenity and unsurpassed beauty and wonder will remain with us for a lifetime."
+shady,可疑不诚信的,E1_E2_Candidate,1,1,"review_54ae5b5d8364deffe47809c6 :: The rafting was super hot, but lemonade and water are provided, and he put the boat in the shady areas as much as possible when we were stationary hearing about the canyon."
+skeptical,怀疑的 / 存疑的,E1_E2_Candidate,1,1,review_3a562693d0a814861060b2cf :: After booking with Air Ventures we were a bit skeptical because their price is unbeatable!
+sketchy,令人不安可疑的,E1_E2_Candidate,1,1,review_300f9baf05912fc8f616fd90 :: Bit scary/ sketchy because the plane is pretty old.
+slick,熟练专业/光滑的,E1_E2_Candidate,1,1,review_f636b160dcd5b8cb35245d33 :: Maverick tours are a very slick and professional company.
+smart,聪慧的 / 明智的,E1_E2_Candidate,1,1,"review_3ba1137cb1b4e9207840a231 :: The weather was challenging for the pilot,but he was smart and confident and overcome the winds on the lake."
+smoother,更平稳的 / 更顺畅的,E1_E2_Candidate,1,1,"review_f5ca1940bb4b3b4a6ade99fa :: The takeoffs and landings and even the flight itself were all smooth, actually smoother than we thought they’d be."
+smoothest,最平稳的,E1_E2_Candidate,1,1,"review_5e434da02b38cf19550a807e :: ) Our pilot, Chris, gave us one of the smoothest flights I have ever been on (sorry Delta)."
+soaking,沉浸于（soaking in view）,E1_E2_Candidate,1,1,"review_ed42ef9dc4fa813cfcacdfdb :: I could tell my son started getting a little frustrated because he couldn't follow all of the pilot's information pointed out, but I was able to tell him to just relax and enjoy, there is no quiz afterwards, and he was much better after that just soaking in the sights."
+spiritual,精神神圣的,E1_E2_Candidate,1,1,"review_5d1ed7c73f280b31c37e8a26 :: My wife and I both agreed that because the power and the beauty were so intense, there were times when it was very emotional and even spiritual."
+spoilt,被破坏败兴的,E1_E2_Candidate,1,1,review_b7057b38356e6f4a373a9626 :: I think we were a little spoilt because it was just the four of us and apart from the queue for lunch and the queue for photos on the airwalk we were straight into everything.
+stellar,璀璨顶尖级的,E1_E2_Candidate,1,1,review_45b67bfe46ceac2e8567f12e :: I have flown with them twice- very professional and a stellar view of the canyon.
+strange,怪异不安的,E1_E2_Candidate,1,1,"review_254f46e4a5fb0f6c7e0c50cd :: Again, I think the pilot is a nice guy and I have nothing against him, but both my wife and I noticed this and thought it was strange."
+strong,强烈的,E1_E2_Candidate,1,1,review_f1afb11c14a20df3c0e654e1 :: At that elevation the sun was very strong.
+stuffed,塞满的 / 憋闷不适的,E1_E2_Candidate,1,1,review_27ad520dc013ab28760c6c05 :: Our 2 y/o and a 6 y/o were greeted with stuffed bears as well.
+stunningly,令人震撼地,E1_E2_Candidate,1,1,review_82386bb91c344ca8b5ec8dd0 :: Everglades park was stunningly remote with a local guide from Native stock our Airboat trip was full of thrills and wildlife.
+suitable,合适的 / 满意的,E1_E2_Candidate,1,1,"review_6817a71966166352425fc30b :: Took a 70 minute flight with my two young daughters, the Gippsland GA8 (airvan) is a comfortable aircraft, each passenger has a bubble window suitable for photography, and cold bottled water is available throughout the flight."
+superior,优越顶尖的,E1_E2_Candidate,1,1,"review_7279b58725f75f922479856e :: Mavericks helicopters are far superior to their competitors and well worth the money, our pilot was lots of fun and taught us lots about the Canyon too, an excellent way to end our trip."
+susceptible,易受影响脆弱的,E1_E2_Candidate,1,1,review_8939fd8604bce70a3b1b8fc9 :: Take your Dramamine if you are susceptible to motion sickness though!
+talkative,健谈热情的,E1_E2_Candidate,1,1,review_46247e5fecb1a54a289ccadb :: Pilot not very talkative but the view was spectacular.
+terribly,极度负面地 / 抱歉,E1_E2_Candidate,1,1,"review_f1afb11c14a20df3c0e654e1 :: The air was cold, but not terribly so."
+thankful,感激的 / 感恩的,E1_State (Direct Internal Affective State),1,1,"review_bbf12aaf52ffd1f8f514701a :: I am so thankful for the upfront, clear, and continued communication from the staff."
+thrills,刺激 / 快感,E1_E2_Candidate,1,1,review_82386bb91c344ca8b5ec8dd0 :: Everglades park was stunningly remote with a local guide from Native stock our Airboat trip was full of thrills and wildlife.
+tough,严苛倒霉的,E1_E2_Candidate,1,1,review_5bc1dd064ce1bf7325638ddb :: We explained this would mean we would miss our shows that night and we were told in the shorted possible way by the company representative that was 'tough luck' and they would do nothing about.
+tremendous,震撼巨大的,E1_E2_Candidate,1,1,review_8526d5406704b59e5a5405e4 :: Our pilot was tremendous and full of great knowledge in historical information.
+trepidation,惊恐战栗 / 不安,E1_E2_Candidate,1,1,review_03a8176b0cded4dbc878970a :: He was an excellent pilot with a very reassuring manner to ease any trepidation first time flyers might have.
+tricky,棘手不安的,E1_E2_Candidate,1,1,review_f1afb11c14a20df3c0e654e1 :: The weather in Alaska is tricky and constantly changing.
+truthful,真实可信的,E1_E2_Candidate,1,1,review_f32161287cbdcd87c87a048a :: I would have rated a 5 if they would have been truthful about Glacier landing.
+turbulent,颠簸不安的,E1_E2_Candidate,1,1,"review_fe616bc09c7b1a7ab721c000 :: The take off and landing in the small plan were really fun, and the ride was pretty much turbulent free."
+uncertain,不确定的 / 顾虑的,E1_E2_Candidate,1,1,review_b000df598ef420c3db6a55b4 :: I really appreciate how flexible and accommodating they were in this uncertain travel time that we are living in with Covid.
+unexpected,意想不到的惊喜,E1_E2_Candidate,1,1,"review_8f5e0f00afe0371683965f83 :: I really enjoyed the experience, especially the unexpected ginger chews, kukui nut lei, and photographs they gave us!"
+unfortunate,不幸遗憾的,E1_E2_Candidate,1,1,"review_cbe4d099bc688920d0a3a2b9 :: I did not feel at all welcome or like they wanted or appreciated our business, unfortunate but true."
+unfriendly,不友善的,E1_E2_Candidate,1,1,review_dea6554bb253c3a9200497a0 :: The person on the phone was super unfriendly and hung up the phone on us.
+ungodly,糟糕恶劣的,E1_E2_Candidate,1,1,"review_53ff5143a41d862350d136a5 :: Having negotiated this minor hurdle, we then discovered that our pick-up time would be at an ungodly 4am !"
+unhappy,不高兴不满意的,E1_State (Direct Internal Affective State),1,1,review_5bc1dd064ce1bf7325638ddb :: I am one very unhappy customer as are my travelling companions.
+unprofessional,不专业的,E1_E2_Candidate,1,1,review_942191570bc6c27e6f1ef0b4 :: It was an extremely unprofessional and outrageously offensive behavior for a tour company.
+unwell,身体不适的,E1_E2_Candidate,1,1,review_ced58d8c691f443c16cbfe37 :: I get motion sickness and I did not feel unwell on the flight.
+wary,警惕顾虑的,E1_E2_Candidate,1,1,"review_53ff5143a41d862350d136a5 :: This is something else to be wary of, although you have no control over it."
+wasbeautiful,美丽动人的（美感）,E1_E2_Candidate,1,1,review_e2dc2a31bed85af6df3536af :: The Monument Valley wasbeautiful as expected - took lots of photos.
+worldly,超凡脱俗的,E1_E2_Candidate,1,1,review_6857382b853cc9b1e8671ff9 :: It was other-worldly.
+worse,更糟糕的,E1_E2_Candidate,1,1,"review_7279b58725f75f922479856e :: hour tour we had arranged and that our flight would have to be reduced from an hour to 30 minutes, Maverick agreed to let us wait for an hour to see whether it would clear but when the weather become worse (in fact it made the press here in the UK as a weather phenomenon) they swiftly got us up in the air to view the Grand Canyon and we are so grateful that we got to experience the Canyon from this ang"
+yummy,美味愉悦的,E1_E2_Candidate,1,1,"review_e8ba09c98f233e51030cc9c3 :: We had few hours of jeep tour, which includes yummy lunch, then back on flights for more wonderful views of the canyon and history and tales of the area."
