@@ -1,4 +1,11 @@
-# Low-Altitude Air Tourism NLP & Emotion Analysis
+#!/usr/bin/env python3
+"""Rewrite README.md into the ultimate high-impact, concise, 100% accurate English research overview."""
+
+from pathlib import Path
+
+readme_path = Path("README.md")
+
+master_readme = """# Low-Altitude Air Tourism NLP & Emotion Analysis
 
 An end-to-end NLP and econometric research pipeline analyzing **21,215 canonical English TripAdvisor reviews** across **46 helicopter, fixed-wing, and floatplane sightseeing products**.
 
@@ -11,7 +18,7 @@ An end-to-end NLP and econometric research pipeline analyzing **21,215 canonical
 
 ## 🌟 Key Research Contributions
 
-- **Cleaned & Deduplicated Corpus**: Filtered 28,918 raw reviews down to **22,235 deduplicated master reviews** ($N=21,238$ language-detected English reviews $ightarrow$ **21,215 canonical English reviews** after final validation).
+- **Cleaned & Deduplicated Corpus**: Filtered 28,918 raw reviews down to **22,235 deduplicated master reviews** ($N=21,238$ language-detected English reviews $\rightarrow$ **21,215 canonical English reviews** after final validation).
 - **Corpus-Derived Gold Emotion Lexicon ($N=630$)**: Constructed a 630-word human-adjudicated domain emotion codebook via multi-stage sampling, achieving a 100% zero-overlap partition against **8,096 purged non-emotion terms**.
 - **Generic Lexicon Failure & NRC Benchmark Audit**: Benchmarked against NRC v0.92, revealing that generic lexicons completely miss **43.17% ($N=272$)** of domain emotion terms across 3 core failure classes (Morphological Variants, Web 2.0 Colloquial Superlatives, and Low-Altitude Domain-Specific Lexicon).
 - **Emotion-Rating Incongruence & Feature Engineering**: Engineered **11 domain-specific binary indicators**, VADER sentiment scores, geographic tourist origins, and touchpoint features to analyze emotion-rating mismatch.
@@ -42,7 +49,7 @@ An end-to-end NLP and econometric research pipeline analyzing **21,215 canonical
 ### 1. Sample Reconciliation & Number Consistency
 - **Raw Universe**: 28,918 observations scraped across 46 air tour products.
 - **Cross-Listing Deduplication**: TripAdvisor cross-lists reviews across vendor pages (23.1% duplicate rate). Fingerprint deduplication removed **6,683 duplicate copies** (`deleted_duplicates_audit.csv`), retaining **22,235 clean master reviews**.
-- **Corpus Reconciliation**: 21,238 language-detected English reviews $ightarrow$ **21,215 canonical English reviews** after final text validation ($N=997$ non-English reviews exported separately to `non_english_reviews.csv`).
+- **Corpus Reconciliation**: 21,238 language-detected English reviews $\rightarrow$ **21,215 canonical English reviews** after final text validation ($N=997$ non-English reviews exported separately to `non_english_reviews.csv`).
 
 ### 2. Feature Engineering (11 Domain Binary Indicators)
 Extracted domain-specific binary indicators using regular expression matching:
@@ -57,12 +64,12 @@ Extracted domain-specific binary indicators using regular expression matching:
 Generic lexicons fail in low-altitude air tourism. We built a **630-word Master Gold Emotion Codebook** across the **21,215 canonical English reviews**:
 
 ### 1. Induction & Adjudication Protocol
-- **Multi-Stage Sampling**: $N=500$ Discovery Sample (372 terms) $ightarrow$ $N=2,000$ Gold Expansion Sample (+173 terms) $ightarrow$ $N=18,901$ Full Corpus Completion (+63 terms). *(For complete sampling logs, see [`RESEARCH_NOTES.md`](file:///Users/yuliangpeng/Desktop/Low-Altitude/RESEARCH_NOTES.md)).*
-- **Canonical Lemma Normalization (`canonical_lemma`)**: Standardized spelling typos (`suprised` $ightarrow$ `surprised`, `exhilerating` $ightarrow$ `exhilarating`) and inflections (`worries` $ightarrow$ `worry`, `surprises` $ightarrow$ `surprise`).
+- **Multi-Stage Sampling**: $N=500$ Discovery Sample (372 terms) $\rightarrow$ $N=2,000$ Gold Expansion Sample (+173 terms) $\rightarrow$ $N=18,901$ Full Corpus Completion (+63 terms). *(For complete sampling logs, see [`RESEARCH_NOTES.md`](file:///Users/yuliangpeng/Desktop/Low-Altitude/RESEARCH_NOTES.md)).*
+- **Canonical Lemma Normalization (`canonical_lemma`)**: Standardized spelling typos (`suprised` $\rightarrow$ `surprised`, `exhilerating` $\rightarrow$ `exhilarating`) and inflections (`worries` $\rightarrow$ `worry`, `surprises` $\rightarrow$ `surprise`).
 - **Retained vs. Purged Boundary Rules**:
   - ✅ **Retained (630 Gold Words)**: Experiencer Affective States ($E_1$: *nervous, afraid, scared, relief, thrilled, tranquil, calming, annoying*), Stimulus Appraisals ($E_2$: *scary, spectacular, smooth, professional, great, amazing, awesome*), and Aerial Aesthetic Emotions (*breathtakingly, sublime*).
   - ❌ **Purged (8,096 Purged Log)**: Physical Entities (*grand, helicopter, glacier, canyon*), Price (*expensive, overpriced*), Procedural Service (*informative, timely*), and Interjections (*wow, yay*).
-- **Mathematical Partition**: $630 	ext{ Gold Words} \cap 8,096 	ext{ Purged Words} = 0$ (100% Zero-Overlap Guaranteed Partition).
+- **Mathematical Partition**: $630 \text{ Gold Words} \cap 8,096 \text{ Purged Words} = 0$ (100% Zero-Overlap Guaranteed Partition).
 
 ---
 
@@ -87,8 +94,8 @@ Master Gold Emotion Codebook (N = 630 Words)
         (e.g., great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
 ```
 
-$$	ext{Total NRC Vocabulary Coverage (358)} = 286 	ext{ (8-Emotions)} + 72 	ext{ (Polarity Only)}$$
-$$	ext{Total Master Gold Codebook (630)} = 358 	ext{ (Total NRC Covered)} + 272 	ext{ (Completely Missed by NRC)}$$
+$$\text{Total NRC Vocabulary Coverage (358)} = 286 \text{ (8-Emotions)} + 72 \text{ (Polarity Only)}$$
+$$\text{Total Master Gold Codebook (630)} = 358 \text{ (Total NRC Covered)} + 272 \text{ (Completely Missed by NRC)}$$
 
 ---
 
@@ -139,3 +146,7 @@ Low-Altitude/
 # Run full data processing, deduplication, and feature engineering pipeline:
 python run_data_pipeline.py
 ```
+"""
+
+readme_path.write_text(master_readme, encoding="utf-8")
+print("Successfully updated README.md into high-impact, concise, 100% accurate English research overview!")
