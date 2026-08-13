@@ -102,17 +102,17 @@ $$	ext{Total Master Gold Codebook (630)} = 358 	ext{ (Total NRC Covered)} + 272 
 
 ### 2. 3 Core Classes of Generic NRC Lexicon Gaps ($N=272$ Missed Words)
 
-- **Class 1: Participle & Morphological Derivation Gaps (127 Words, 46.69%)**:
-  - *Terms*: *loved (1,473), impressed (255), inspiring (210), relaxed (159), scared (144), amazed (120), thrilled (113), better (1,585), cheaper (208), perfectly (155), smoother (143), safely (132)*.
-  - *Finding*: 48.82% (62 words) have base dictionary roots in NRC, but static string matching omits **88.7% (15,581 review mentions)** of emotional expressions due to lack of morphological derivation rules.
+📌 **Class 1: Participle & Morphological Derivation Gaps (127 Words, 46.69%)**:
+- **Key Terms**: *loved (1,473), impressed (255), inspiring (210), relaxed (159), scared (144), amazed (120), thrilled (113), better (1,585), cheaper (208), perfectly (155), smoother (143), safely (132)*.
+- **Empirical Finding**: 48.82% (62 words) have base dictionary roots in NRC, but static string matching omits **88.7% (15,581 review mentions)** of emotional expressions due to lack of morphological derivation rules.
 
-- **Class 2: Omission of Modern Online Tourism Colloquial Superlatives & Base Terms (128 Words, 47.06%)**:
-  - *Terms*: *great (11,541), awesome (2,530), fantastic (2,026), nice (1,794), incredible (1,612), comfortable (1,446), fabulous (508), enjoyable (460), unforgettable (459), funny (301), phenomenal (200)*.
-  - *Finding*: 100% absent from NRC even after root lemmatization. **10 top high-frequency colloquial superlatives account for 20,549 mentions (73.2% of Class 2 frequency, and 42.08% of total missed review frequency)** due to formal written seed vocabulary bias.
+📌 **Class 2: Omission of Modern Online Tourism Colloquial Superlatives & Base Terms (128 Words, 47.06%)**:
+- **Key Terms**: *great (11,541), awesome (2,530), fantastic (2,026), nice (1,794), incredible (1,612), comfortable (1,446), fabulous (508), enjoyable (460), unforgettable (459), funny (301), phenomenal (200)*.
+- **Empirical Finding**: 100% absent from NRC even after root lemmatization. **10 top high-frequency colloquial superlatives account for 20,549 mentions (73.2% of Class 2 frequency, and 42.08% of total missed review frequency)** due to formal written seed vocabulary bias in 2012 NRC.
 
-- **Class 3: Low-Altitude Air Tourism Domain-Specific Lexicon (17 Words, 6.25%)**:
-  - *Sub-dimension A (Aerial Visual Awe)*: *breathtaking (1,346), stunning (552), scenic (400), awe (304), surreal (98), breathtakingly (30), mesmerizing (26), awed (15), sublime (6), spellbinding (4)* — 0 tags in NRC (2,791 review mentions omitted).
-  - *Sub-dimension B (Somatic Flight Risk)*: *airsick (33), claustrophobic (16), claustrophobia (9), jitters (5), unnerving (4), phobia (4)* — 0 tags in NRC (71 review mentions omitted).
+📌 **Class 3: Low-Altitude Air Tourism Domain-Specific Lexicon (17 Words, 6.25%)**:
+- **Sub-dimension A (Aerial Visual Awe & Aesthetic Emotion)**: *breathtaking (1,346), stunning (552), scenic (400), awe (304), surreal (98), breathtakingly (30), mesmerizing (26), awed (15), sublime (6), spellbinding (4)* — 0 tags in NRC (2,791 review mentions omitted).
+- **Sub-dimension B (Somatic Flight Risk & Perceived Anxiety)**: *airsick (33), claustrophobic (16), claustrophobia (9), jitters (5), unnerving (4), phobia (4)* — 0 tags in NRC (71 review mentions omitted).
 
 ---
 
