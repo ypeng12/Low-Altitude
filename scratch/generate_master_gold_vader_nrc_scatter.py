@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate iconic VADER Score vs. Tourist Star Rating Scatter Plot for Master Gold Emotion Words (632 words)."""
+"""Generate iconic VADER Score vs. Tourist Star Rating Scatter Plot for Master Gold Emotion Words (Rating 0 to 5)."""
 
 import shutil
 from pathlib import Path
@@ -145,15 +145,18 @@ except Exception as e:
         ax.annotate(row.word, (row.vader_score, row.mean_rating), xytext=(3, 3), textcoords="offset points", fontsize=8.5, weight="bold")
 
 ax.set_title(
-    "Master Gold Emotion Lexicon Scatter Plot: VADER Valence (-4.0 to +4.0) vs. Mean Tourist Star Rating (1.0 to 5.0)\n"
+    "Master Gold Emotion Lexicon Scatter Plot: VADER Valence (-4.0 to +4.0) vs. Mean Tourist Star Rating (0.0 to 5.0 Stars)\n"
     "[Color Coded by NRC 8 Emotion Categories & Domain-Specific Awe Misses; Bubble Size = Review Count]",
     fontsize=14, fontweight="bold", pad=15, color="#0F172A"
 )
 ax.set_xlabel("VADER Lexicon Word Valence Score (-4.0 to +4.0)", fontsize=12, fontweight="bold", color="#1E293B")
-ax.set_ylabel("Mean Tourist Star Rating of Reviews Containing the Word (1.0 to 5.0 Stars)", fontsize=12, fontweight="bold", color="#1E293B")
+ax.set_ylabel("Mean Tourist Star Rating of Reviews Containing the Word (0.0 to 5.0 Stars)", fontsize=12, fontweight="bold", color="#1E293B")
 
+# Set Y-axis strictly 0.0 to 5.2
 ax.set_xlim(-4.2, 4.2)
-ax.set_ylim(1.0, 5.1)
+ax.set_ylim(0.0, 5.2)
+ax.set_yticks([0.0, 1.0, 2.0, 3.0, 4.0, 5.0])
+
 ax.legend(loc="lower left", fontsize=9.5, framealpha=0.95)
 
 plt.tight_layout()
@@ -164,6 +167,6 @@ plt.close()
 # Copy to data/analyze/
 shutil.copy2(out_fig, analyze_dir / "master_gold_vader_nrc_scatter.png")
 
-print(f"Successfully generated master scatter plot at:")
+print(f"Successfully generated master scatter plot (Rating 0 to 5) at:")
 print(f"  - {out_fig}")
 print(f"  - {analyze_dir / 'master_gold_vader_nrc_scatter.png'}")
