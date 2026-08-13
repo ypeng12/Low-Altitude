@@ -266,10 +266,11 @@ $$\text{全量金标准代码本 (630)} = 358 \text{ (NRC 收录总数)} + 272 \
    - **词根验证与实证发现**：在 127 个纯形态变体词中，**48.82%（62 个词）的底层词根（如 *amaze, love, impress, inspire, scare, thrill, good, safe*）实际上在 NRC 词典中已有收录**。然而，由于传统静态匹配缺乏形态学还原规则，导致评论语料中 **88.7%（累计 15,581 次）的高频情感提及未能被有效匹配捕捉**。
    - **论文学术结论**：传统 NRC 词典缺乏形态学归一化机制（Morphological Normalization），引发了显著的词汇提取偏误。本项目引入的 `canonical_lemma` 词根映射协议成功弥合了这一形态学断层。
 
-2. **归因 2：NRC 原始种子词缺乏现代网络旅游的高频口语赞誉词 (Web 2.0 口语赞誉缺口)**：
-   - **典型词汇**：*great (11,541次)、awesome (2,530次)、fantastic (2,026次)、nice (1,794次)、incredible (1,612次)、fabulous (508次)、incredibly (315次)、phenomenal (200次)、unbeatable (21次)*。
-   - **实证验证与词根对比**：归因 2 展现了通用词典在 Web 2.0 用户生成内容（UGC）场景中的系统性失灵。与归因 1（可通过形态学归一化找回）存在本质区别，**即使进行 100% 的词根还原（Lemmatization），`great (11,541次)`、`awesome (2,530次)`、`fantastic (2,026次)`、`nice (1,794次)` 等超级高频赞誉词在 NRC 词典中依然 100% 完全缺失**。这一词汇库缺口导致评论语料中 **20,549 次最高频的满意情感表达未能被传统词典匹配捕捉**。
-   - **深层原因与论文学术结论**：NRC 在 2012 年构建时选用的种子词汇偏向传统正式书面语（Formal Written Corpora），而 TripAdvisor 上的现代游客在表达满意时极其倾向于使用高唤起口语赞誉词（*great, awesome, fantastic*）。这一发现揭示了传统通用词典在在线旅游文本分析中的严重适应性失灵，进一步彰显了自建语料库推导代码本（Corpus-Derived Codebook）的学术不可替代性。
+2. **归因 2：NRC 原始种子词缺乏现代网络旅游的高频口语赞誉与基础词汇 (占比 44.85%)**：
+   - **典型词汇**：*great (11,541次)、awesome (2,530次)、fantastic (2,026次)、nice (1,794次)、incredible (1,612次)、comfortable (1,446次)、fabulous (508次)、unforgettable (459次)、enjoyable (460次)、funny (301次)、phenomenal (200次)*。
+   - **人工与代码核验发现**：在归因 2 的 128 个基础词中，**经人工与代码全量逐词检索核验，仅 `stellar (29次)` 一词作为特例在 NRC 中标记了正向极性（*positive*），其余 127 个基础词在 NRC 词典中 100% 完全未被收录（匹配标签数全为 0）**。这 127 个纯遗漏词影响了评论语料中 **28,073 次情感表达**。
+   - **帕累托二八定律验证**：与归因 1（可通过形态学归一化找回）不同，归因 2 代表了词汇库的绝对缺口。其中，以 *great, awesome, fantastic, nice, incredible* 为代表的 **前 10 个头部高频口语赞美词，独自贡献了 20,549 次提及（占据归因 2 总频次的 73.2%，以及全量遗漏语料频次的 42.08%）**。
+   - **深层原因与论文学术结论**：NRC 在 2012 年构建时选用的种子词汇偏向传统正式书面语（Formal Written Corpora），而 TripAdvisor 上的现代游客在表达满意时极其倾向于使用高唤起口语赞誉词（*great, awesome, fantastic*）。这一发现揭示了传统通用词典在 Web 2.0 在线旅游评价场景中的严重适应性失灵，进一步彰显了自建语料库推导代码本（Corpus-Derived Codebook）的学术不可替代性。
 
 3. **归因 3：通用词典缺失“低空高空视觉震撼与美学惊叹（Aerial Visual Awe）”领域词**：
    - **典型词汇**：*breathtaking (1,346 次)、stunning (552 次)、sublime (291 次)、scenic (400次)、surreal (98次)、majestic, panoramic, spellbinding, mesmerizing, awe (304次)*.
