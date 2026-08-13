@@ -272,18 +272,15 @@ $$\text{全量金标准代码本 (630)} = 358 \text{ (NRC 收录总数)} + 272 \
    - **帕累托二八定律验证**：与归因 1（可通过形态学归一化找回）不同，归因 2 代表了词汇库的绝对缺口。其中，以 *great, awesome, fantastic, nice, incredible* 为代表的 **前 10 个头部高频口语赞美词，独自贡献了 20,549 次提及（占据归因 2 总频次的 73.2%，以及全量遗漏语料频次的 42.08%）**。
    - **深层原因与论文学术结论**：NRC 在 2012 年构建时选用的种子词汇偏向传统正式书面语（Formal Written Corpora），而 TripAdvisor 上的现代游客在表达满意时极其倾向于使用高唤起口语赞誉词（*great, awesome, fantastic*）。这一发现揭示了传统通用词典在 Web 2.0 在线旅游评价场景中的严重适应性失灵，进一步彰显了自建语料库推导代码本（Corpus-Derived Codebook）的学术不可替代性。
 
-3. **归因 3：通用词典缺失“低空高空视觉震撼与美学惊叹（Aerial Visual Awe）”领域词**：
-   - **典型词汇**：*breathtaking (1,346 次)、stunning (552 次)、sublime (291 次)、scenic (400次)、surreal (98次)、majestic, panoramic, spellbinding, mesmerizing, awe (304次)*.
-   - **深层原因**：低空观光旅游的核心体验是**“空中俯瞰带来的高唤起美学惊叹与视觉冲击（Awe / Aesthetic Emotion）”**。通用 NRC 词典完全没有针对该维度进行设计。
+3. **归因 3：通用词典缺失“低空高空视觉震撼与美学惊叹 (Aerial Visual Awe)”领域词 (占比 3.31%)**：
+   - **典型词汇**：*breathtaking (1,346次)、stunning (552次)、scenic (400次)、awe (304次)、surreal (98次)、breathtakingly (30次)、mesmerizing (26次)、awed (15次)、sublime (6次)、spellbinding (4次)*。
+   - **实证验证与核验发现**：归因 3 的 11 个美学震撼词在 NRC 词典中 **100% 未被收录（匹配标签数全为 0）**，导致评论语料中 **2,791 次高空美学情感表达未能被传统词典捕捉**。
+   - **深层原因与论文学术结论**：低空观光旅游（直升机/水上飞机/观光飞行）的核心体验是**“空中俯瞰带来的高唤起美学惊叹与视觉冲击（Aerial Visual Awe / Aesthetic Emotion）”**。这种情感极其专一且高度依赖特定场景（景致宏大、冰川大峡谷高空视角），在通用新闻或日常对话文本中出现频率极低，因此通用 NRC 词典完全没有针对该维度进行设计。
 
-4. **归因 4：低空飞行感知风险与身体/心理躯体化症状词**：
-   - **典型词汇**：*claustrophobia (幽闭恐惧)、jitters (忐忑颤抖)、airsick (晕机)、phobia (恐高症)、unnerving (让人发慌)*.
-   - **深层原因**：颠簸、密闭舱室与高空悬浮引发游客独特的感知风险（Perceived Risk）与躯体化焦虑反应。
-
-### 7. Master 金标准代码本 VADER 极性 vs. 游客星级散点图 (0.0 to 5.0 Stars)
-
-![Master Gold VADER NRC Scatter Plot](data/analyze/master_gold_vader_nrc_scatter.png)
-
+4. **归因 4：低空飞行感知风险与身体/心理躯体化症状词 (占比 1.84%)**：
+   - **典型词汇**：*airsick (33次，晕机躯体症状)、claustrophobic (16次)、claustrophobia (9次，密闭舱室幽闭恐惧)、jitters (5次，飞行前紧张抖抖)、unnerving (4次，心理发慌不安)、phobia (4次，恐高症)*。
+   - **实证验证与核验发现**：归因 4 的 6 个飞行感知风险词在 NRC 词典中 **100% 未被收录（匹配标签数全为 0）**，导致评论语料中 **71 次垂直领域躯体化风险表述未能被有效捕获**。
+   - **深层原因与论文学术结论**：气流颠簸（Turbulence）、密闭机舱空间与高空悬浮会引发游客独特的**感知风险（Perceived Risk）与躯体化焦虑反应**。这些词汇专属于低空飞行垂直场景，通用情感词典完全无法捕捉此类特定生理/心理症状表达。
 
 ## 📈 四、 步骤 6：N-Gram 挖掘与学术图表产出
 

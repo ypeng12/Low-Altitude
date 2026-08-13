@@ -389,14 +389,15 @@ $$\text{Total Master Gold Codebook (630)} = 358 \text{ (Total NRC Covered)} + 27
    - **Pareto Principle Validation**: Unlike Cause 1 (recoverable via Lemmatization), Cause 2 represents a complete dictionary seed gap. Remarkably, just **10 top high-frequency colloquial superlatives** (*great, awesome, fantastic, nice, incredible, etc.*) account for **20,549 mentions (73.2% of Cause 2 frequency, and 42.08% of total missed review frequency)**.
    - *Deep Cause & Finding*: NRC 2012 seed vocabulary prioritized formal written English corpora. Modern TripAdvisor reviewers rely heavily on colloquial high-arousal superlatives (*great, awesome, fantastic*), causing widespread generic lexicon failure in Web 2.0 online review contexts and highlighting the necessity of domain-specific codebooks.
 
-3. **Absence of Low-Altitude Aerial Visual Awe & Aesthetic Emotions (3.31% of Misses)**:
-   - **Key Terms**: *breathtaking (1,346), stunning (552), sublime (291), scenic (400), surreal (98), majestic, panoramic, spellbinding, mesmerizing, awe (304)*.
-   - *Deep Cause*: Low-altitude air tourism is uniquely defined by **Aerial Visual Awe**, a domain-specific aesthetic emotion completely absent from generic news or conversational lexicons.
+3. **Absence of Low-Altitude Aerial Visual Awe & Aesthetic Emotions (Domain Awe Gap, 3.31% of Misses)**:
+   - **Key Terms**: *breathtaking (1,346), stunning (552), scenic (400), awe (304), surreal (98), breathtakingly (30), mesmerizing (26), awed (15), sublime (6), spellbinding (4)*.
+   - **Empirical Validation**: All 11 awe terms have **0 tags in NRC (100% unmapped)**, omitting **2,791 review mentions**.
+   - *Deep Cause & Finding*: Low-altitude air tourism is uniquely defined by **Aerial Visual Awe**, a domain-specific aesthetic emotion completely absent from generic news or conversational lexicons.
 
-4. **Absence of Flight Perceived Risk & Somatic Symptoms (1.84% of Misses)**:
-   - **Key Terms**: *claustrophobia, jitters, airsick, phobia, unnerving*.
-   - *Deep Cause*: Flight vibration, confined cabin space, and altitude suspense trigger somatic anxiety and perceived risk reactions specific to aviation tourism.
-
+4. **Absence of Flight Perceived Risk & Somatic Symptoms (Aviation Risk Gap, 1.84% of Misses)**:
+   - **Key Terms**: *airsick (33), claustrophobic (16), claustrophobia (9), jitters (5), unnerving (4), phobia (4)*.
+   - **Empirical Validation**: All 6 flight risk terms have **0 tags in NRC (100% unmapped)**, omitting **71 review mentions**.
+   - *Deep Cause & Finding*: Flight vibration, confined cabin space, and altitude suspense trigger somatic anxiety and perceived risk reactions specific to aviation tourism that generic sentiment dictionaries fail to capture.
 
 ## 📈 Summary Data & Empirical Metrics Ledger
 
