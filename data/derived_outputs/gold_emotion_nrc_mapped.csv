@@ -1,0 +1,633 @@
+﻿word,canonical_lemma,chinese_translation,our_emotion_category,affect_type,frequency_21215,in_nrc_lexicon,nrc_8_emotions,nrc_polarities,nrc_raw_list
+great,great,非常棒的 / 极好的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11541,False,Unmapped in NRC,Unmapped in NRC,[]
+amazing,amazing,极其震撼赞叹的 / 太棒了,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6251,False,Unmapped in NRC,Unmapped in NRC,[]
+beautiful,beautiful,美丽绝伦的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3485,True,joy,positive,"['joy', 'positive']"
+best,best,最棒的 / 顶级的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3420,False,Unmapped in NRC,Unmapped in NRC,[]
+friendly,friendly,友好的 / 亲切的,Unclassified,E1_E2_Candidate,3416,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+worth,worth,物有所值的 / 绝对值得的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2799,True,Unmapped in NRC,positive,['positive']
+wonderful,wonderful,精彩美妙的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2677,True,"joy, surprise, trust",positive,"['joy', 'positive', 'surprise', 'trust']"
+good,good,良好的 / 棒的（服务与体验）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2635,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+grand,grand,宏大的 / 壮丽的,Unclassified,E1_E2_Candidate,2534,False,Unmapped in NRC,Unmapped in NRC,[]
+awesome,awesome,太棒了 / 极为赞叹的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2530,False,Unmapped in NRC,Unmapped in NRC,[]
+excellent,excellent,卓越极佳的 / 顶级的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2284,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+fantastic,fantastic,奇妙太棒的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2026,False,Unmapped in NRC,Unmapped in NRC,[]
+nice,nice,美好的 / 良好的,Unclassified,E1_E2_Candidate,1794,False,Unmapped in NRC,Unmapped in NRC,[]
+fun,fun,乐趣十足的 / 充满乐趣的,Unclassified,E1_E2_Polysemous (State & Appraisal),1729,True,"anticipation, joy",positive,"['anticipation', 'joy', 'positive']"
+spectacular,spectacular,壮观震撼的（高空景观）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1616,True,"anticipation, surprise",Unmapped in NRC,"['anticipation', 'surprise']"
+incredible,incredible,难以置信震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1612,False,Unmapped in NRC,Unmapped in NRC,[]
+better,better,更好的 / 更满意的（超过预期）,Unclassified,E1_E2_Candidate,1585,False,Unmapped in NRC,Unmapped in NRC,[]
+perfect,perfect,完美的 / 无瑕的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1474,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+loved,loved,喜爱 / 热爱（体验）,Unclassified,E1_State (Direct Internal Affective State),1473,False,Unmapped in NRC,Unmapped in NRC,[]
+comfortable,comfortable,舒适的 / 安心的,Unclassified,E1_E2_Polysemous (State & Appraisal),1446,False,Unmapped in NRC,Unmapped in NRC,[]
+breathtaking,breathtaking,令人屏息震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1346,False,Unmapped in NRC,Unmapped in NRC,[]
+helpful,helpful,热心有帮助的 / 周到解说,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1157,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+glad,glad,感到高兴放心的,Joy / Happiness,E1_State (Direct Internal Affective State),897,True,"anticipation, joy",positive,"['anticipation', 'joy', 'positive']"
+interesting,interesting,引人入胜的 / 趣味盎然的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),886,True,Unmapped in NRC,positive,['positive']
+cool,cool,酷的 / 爽快的,Unclassified,E1_E2_Candidate,652,True,Unmapped in NRC,positive,['positive']
+special,special,特别的 / 珍贵的,Unclassified,E1_E2_Candidate,631,True,joy,positive,"['joy', 'positive']"
+lucky,lucky,感到幸运的,Good Fortune / Joy,E1_State (Direct Internal Affective State),607,True,"joy, surprise",positive,"['joy', 'positive', 'surprise']"
+kind,kind,亲切的 / 友善的,Unclassified,E1_E2_Candidate,587,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+memorable,memorable,令人终生难忘的,Memorability / Joy,E1_State (Direct Internal Affective State),580,True,"joy, surprise, trust",positive,"['joy', 'positive', 'surprise', 'trust']"
+happy,happy,高兴的 / 快乐的,Unclassified,E1_State (Direct Internal Affective State),555,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+stunning,stunning,令人目眩震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),552,False,Unmapped in NRC,Unmapped in NRC,[]
+expensive,expensive,昂贵的 / 价格偏高的,Unclassified,E1_E2_Candidate,529,False,Unmapped in NRC,Unmapped in NRC,[]
+nervous,nervous,紧张的 / 焦虑不安的,Unclassified,E1_State (Direct Internal Affective State),513,True,"anticipation, fear",negative,"['anticipation', 'fear', 'negative']"
+fabulous,fabulous,绝妙的 / 极好的,Unclassified,E1_E2_Candidate,508,False,Unmapped in NRC,Unmapped in NRC,[]
+disappointed,disappointed,感到失望的 / 遗憾的,Unclassified,E1_State (Direct Internal Affective State),488,True,"anger, disgust, sadness",negative,"['anger', 'disgust', 'negative', 'sadness']"
+outstanding,outstanding,杰出出色的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),462,True,joy,"negative, positive","['joy', 'negative', 'positive']"
+enjoyable,enjoyable,令人愉快的 / 趣味盎然的,Unclassified,E1_E2_Candidate,460,False,Unmapped in NRC,Unmapped in NRC,[]
+unforgettable,unforgettable,令人难忘的 / 铭心的,Unclassified,E1_E2_Candidate,459,False,Unmapped in NRC,Unmapped in NRC,[]
+love,love,喜爱 / 极度热爱的,Love / Affection,E1_State (Direct Internal Affective State),450,True,joy,positive,"['joy', 'positive']"
+unique,unique,独一无二的 / 独特的,Unclassified,E1_E2_Candidate,435,True,surprise,positive,"['positive', 'surprise']"
+gorgeous,gorgeous,极其漂亮的 / 绚丽的,Unclassified,E1_E2_Candidate,414,True,joy,positive,"['joy', 'positive']"
+scenic,scenic,风景优美的 / 宜人的,Unclassified,E1_E2_Candidate,400,False,Unmapped in NRC,Unmapped in NRC,[]
+bad,bad,糟糕的 / 坏的,Unclassified,E1_E2_Candidate,373,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+exciting,exciting,令人兴奋刺激的,Excitement,E2_Appraisal (Stimulus/Service Attribute),324,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+incredibly,incredibly,难以置信地 / 极其,Unclassified,E1_E2_Candidate,315,False,Unmapped in NRC,Unmapped in NRC,[]
+pleasant,pleasant,令人愉快的 / 宜人的,Unclassified,E1_E2_Candidate,306,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+awe,awe,敬畏 / 震撼,Unclassified,E1_State (Direct Internal Affective State),304,False,Unmapped in NRC,Unmapped in NRC,[]
+unbelievable,unbelievable,难以置信的 / 震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),302,True,Unmapped in NRC,negative,['negative']
+funny,funny,幽默风趣的,Unclassified,E1_E2_Candidate,301,False,Unmapped in NRC,Unmapped in NRC,[]
+plenty,plenty,丰富的 / 充足的,Unclassified,E1_E2_Candidate,298,False,Unmapped in NRC,Unmapped in NRC,[]
+hard,hard,困难的 / 艰辛的,Unclassified,E1_E2_Candidate,297,False,Unmapped in NRC,Unmapped in NRC,[]
+regret,regret,遗憾 / 后悔,Regret,E1_State (Direct Internal Affective State),293,True,sadness,negative,"['negative', 'sadness']"
+magnificent,magnificent,壮丽的 / 宏伟震撼的（Awe）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),282,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+exceptional,exceptional,卓越的 / 杰出的（顶级评价）,Unclassified,E1_E2_Candidate,276,False,Unmapped in NRC,Unmapped in NRC,[]
+sick,sick,晕机的 / 身体不适的,Unclassified,E1_E2_Candidate,274,True,"disgust, sadness",negative,"['disgust', 'negative', 'sadness']"
+lovely,lovely,令人愉悦的 / 可爱的,Unclassified,E1_E2_Candidate,266,True,"anticipation, joy, sadness, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'sadness', 'surprise', 'trust']"
+terrific,terrific,极好的 / 太棒了,Unclassified,E1_E2_Candidate,260,True,sadness,Unmapped in NRC,['sadness']
+calm,calm,镇定 / 平息情绪的,Calmness,E1_State (Direct Internal Affective State),259,True,Unmapped in NRC,positive,['positive']
+impressed,impressed,感到深深被折服/留下深刻印象,Admiration / Impression,E1_State (Direct Internal Affective State),255,False,Unmapped in NRC,Unmapped in NRC,[]
+unfortunately,unfortunately,不幸的是 / 遗憾的是,Unclassified,E1_E2_Candidate,240,False,Unmapped in NRC,Unmapped in NRC,[]
+fortunate,fortunate,幸运的 / 幸运地,Unclassified,E1_E2_Candidate,235,True,Unmapped in NRC,positive,['positive']
+efficient,efficient,高效省心的,Unclassified,E1_E2_Candidate,215,True,"anticipation, trust",positive,"['anticipation', 'positive', 'trust']"
+welcome,welcome,受欢迎的 / 感受温暖的,Unclassified,E1_E2_Candidate,212,False,Unmapped in NRC,Unmapped in NRC,[]
+entertaining,entertaining,引人入胜生动有趣的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),210,True,"anticipation, joy",positive,"['anticipation', 'joy', 'positive']"
+inspiring,inspiring,令人启发震慑的,Inspiration,E2_Appraisal (Stimulus/Service Attribute),210,False,Unmapped in NRC,Unmapped in NRC,[]
+cheaper,cheaper,更实惠的 / 较便宜的,Unclassified,E1_E2_Candidate,208,False,Unmapped in NRC,Unmapped in NRC,[]
+phenomenal,phenomenal,现象级震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),200,False,Unmapped in NRC,Unmapped in NRC,[]
+superb,superb,极好精湛的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),196,True,Unmapped in NRC,positive,['positive']
+surprised,surprised,感到惊喜惊讶的,Unclassified,E1_State (Direct Internal Affective State),196,True,surprise,Unmapped in NRC,['surprise']
+surprise,surprise,惊喜 / 意料之外的喜悦,Unclassified,E1_State (Direct Internal Affective State),195,True,"fear, joy, surprise",positive,"['fear', 'joy', 'positive', 'surprise']"
+fine,fine,良好的 / 优秀的,Unclassified,E1_E2_Candidate,190,False,Unmapped in NRC,Unmapped in NRC,[]
+brilliant,brilliant,璀璨的 / 出色的,Unclassified,E1_E2_Candidate,184,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+forward,forward,期待（look forward）,Unclassified,E1_E2_Candidate,183,True,Unmapped in NRC,positive,['positive']
+reasonable,reasonable,合理的 / 公道的,Unclassified,E1_E2_Candidate,179,False,Unmapped in NRC,Unmapped in NRC,[]
+ready,ready,准备就绪的 / 心安的,Unclassified,E1_E2_Candidate,171,True,anticipation,Unmapped in NRC,['anticipation']
+excited,excited,兴奋的 / 激动的,Unclassified,E1_State (Direct Internal Affective State),167,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+majestic,majestic,雄伟的 / 壮丽的,Unclassified,E1_E2_Candidate,165,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+competent,competent,称职的 / 有能力的,Unclassified,E1_E2_Candidate,163,True,trust,positive,"['positive', 'trust']"
+quiet,quiet,宁静的 / 幽雅安静的,Unclassified,E1_E2_Candidate,161,True,sadness,positive,"['positive', 'sadness']"
+hope,hope,希望 / 期盼,Hope,E1_State (Direct Internal Affective State),159,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+relaxed,relaxed,放松的 / 从容的,Unclassified,E1_State (Direct Internal Affective State),159,False,Unmapped in NRC,Unmapped in NRC,[]
+concerned,concern,感到担心的,Worry / Concern,E1_State (Direct Internal Affective State),155,True,"fear, sadness",Unmapped in NRC,"['fear', 'sadness']"
+perfectly,perfectly,完美地 / 无可挑剔地,Unclassified,E1_E2_Candidate,155,False,Unmapped in NRC,Unmapped in NRC,[]
+interested,interested,感兴趣的 / 充满好奇的,Unclassified,E1_E2_Candidate,153,True,"disgust, sadness",positive,"['disgust', 'positive', 'sadness']"
+pleasure,pleasure,乐趣 / 愉悦,Unclassified,E1_E2_Candidate,153,False,Unmapped in NRC,Unmapped in NRC,[]
+magical,magical,神奇的 / 魔幻般的,Unclassified,E1_E2_Candidate,152,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+afraid,afraid,害怕的 / 恐惧的,Unclassified,E1_State (Direct Internal Affective State),150,True,fear,negative,"['fear', 'negative']"
+worried,worried,感到担心的,Unclassified,E1_State (Direct Internal Affective State),149,True,sadness,negative,"['negative', 'sadness']"
+scared,scared,感到恐惧害怕的,Fear,E1_State (Direct Internal Affective State),144,False,Unmapped in NRC,Unmapped in NRC,[]
+fully,fully,完全地 / 充分地,Unclassified,E1_E2_Candidate,143,True,trust,positive,"['positive', 'trust']"
+smoother,smoother,更平稳的 / 更顺畅的,Unclassified,E1_E2_Candidate,143,False,Unmapped in NRC,Unmapped in NRC,[]
+wrong,wrong,出差错的 / 错误的（负面体验）,Unclassified,E1_E2_Candidate,137,True,Unmapped in NRC,negative,['negative']
+cheap,cheap,便宜的 / 廉价的,Unclassified,E1_E2_Candidate,134,True,Unmapped in NRC,negative,['negative']
+blessed,blessed,感到有福的 / 幸运的,Unclassified,E1_State (Direct Internal Affective State),133,True,joy,positive,"['joy', 'positive']"
+pleased,pleased,感到满意的,Unclassified,E1_E2_Candidate,132,True,joy,positive,"['joy', 'positive']"
+safely,safely,安全平稳地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),132,False,Unmapped in NRC,Unmapped in NRC,[]
+exactly,exactly,精准地 / 正是,Unclassified,E1_E2_Candidate,130,False,Unmapped in NRC,Unmapped in NRC,[]
+impressive,impressive,令人印象深刻的,Unclassified,E1_E2_Candidate,130,False,Unmapped in NRC,Unmapped in NRC,[]
+thrill,thrill,刺激 / 震慑感,Unclassified,E1_E2_Candidate,129,True,"anticipation, fear, joy, surprise",positive,"['anticipation', 'fear', 'joy', 'positive', 'surprise']"
+thrilling,thrilling,令人惊险刺激酣畅的,Excitement / Thrill,E2_Appraisal (Stimulus/Service Attribute),126,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+humor,humor,幽默感,Unclassified,E1_E2_Candidate,125,False,Unmapped in NRC,Unmapped in NRC,[]
+dream,dream,梦寐以求的,Unclassified,E1_E2_Candidate,124,False,Unmapped in NRC,Unmapped in NRC,[]
+sorry,sorry,感到抱歉遗憾的,Pity / Regret,E1_State (Direct Internal Affective State),123,False,Unmapped in NRC,Unmapped in NRC,[]
+relaxing,relaxing,令人放松惬意的,Relaxation / Calmness,E2_Appraisal (Stimulus/Service Attribute),122,False,Unmapped in NRC,Unmapped in NRC,[]
+comfort,comfort,舒适 / 宽慰安心,Unclassified,E1_E2_Candidate,121,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+disappoint,disappoint,使失望,Disappointment,E1_State (Direct Internal Affective State),121,True,"anger, disgust, sadness",negative,"['anger', 'disgust', 'negative', 'sadness']"
+wonder,wonder,惊奇 / 赞叹,Amazement / Wonder,E2_Appraisal (Stimulus/Service Attribute),121,False,Unmapped in NRC,Unmapped in NRC,[]
+amazed,amazed,感到吃惊惊叹的,Amazement,E1_State (Direct Internal Affective State),120,False,Unmapped in NRC,Unmapped in NRC,[]
+fear,fear,恐惧 / 害怕,Fear,E1_State (Direct Internal Affective State),120,True,"anger, fear",negative,"['anger', 'fear', 'negative']"
+unable,unable,无法的 / 无能为力的,Unclassified,E1_E2_Candidate,114,True,sadness,negative,"['negative', 'sadness']"
+thrilled,thrilled,极度兴奋的,Unclassified,E1_State (Direct Internal Affective State),113,False,Unmapped in NRC,Unmapped in NRC,[]
+confidence,confidence,信心 / 确信,Unclassified,E1_E2_Candidate,112,True,"fear, joy, trust",positive,"['fear', 'joy', 'positive', 'trust']"
+difficult,difficult,困难的 / 令人头疼的,Unclassified,E1_E2_Candidate,112,True,fear,Unmapped in NRC,['fear']
+expert,expert,专家级的 / 娴熟的,Unclassified,E1_E2_Candidate,112,True,trust,positive,"['positive', 'trust']"
+honestly,honestly,老实说 / 真诚地,Unclassified,E1_E2_Candidate,111,False,Unmapped in NRC,Unmapped in NRC,[]
+confident,confident,自信的 / 确信的,Unclassified,E1_E2_Candidate,109,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+willing,willing,乐意的 / 愿意的,Unclassified,E1_E2_Candidate,108,False,Unmapped in NRC,Unmapped in NRC,[]
+worry,worry,担心 / 忧虑感,Anxiety / Worry,E1_State (Direct Internal Affective State),106,True,"anticipation, fear, sadness",negative,"['anticipation', 'fear', 'negative', 'sadness']"
+smoothest,smoothest,最平稳的,Unclassified,E1_E2_Candidate,105,False,Unmapped in NRC,Unmapped in NRC,[]
+positive,positive,积极正面的,Unclassified,E1_E2_Candidate,101,False,Unmapped in NRC,Unmapped in NRC,[]
+surreal,surreal,超现实的 / 梦幻般的,Unclassified,E1_E2_Candidate,98,False,Unmapped in NRC,Unmapped in NRC,[]
+reassuring,reassuring,令人安心放心的,Relief / Reassurance,E2_Appraisal (Stimulus/Service Attribute),97,False,Unmapped in NRC,Unmapped in NRC,[]
+sweet,sweet,甜蜜的 / 甜美的,Unclassified,E1_E2_Candidate,97,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+concern,concern,担忧 / 关切（焦虑感）,Unclassified,E1_E2_Candidate,96,False,Unmapped in NRC,Unmapped in NRC,[]
+luckily,luckily,幸运地 / 幸亏,Unclassified,E1_E2_Candidate,96,False,Unmapped in NRC,Unmapped in NRC,[]
+poor,poor,贫乏的 / 差劲的,Unclassified,E1_E2_Candidate,95,False,Unmapped in NRC,Unmapped in NRC,[]
+scary,scary,令人害怕的 / 吓人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),94,False,Unmapped in NRC,Unmapped in NRC,[]
+enthusiastic,enthusiastic,热情的 / 充满激情的,Unclassified,E1_E2_Candidate,93,False,Unmapped in NRC,Unmapped in NRC,[]
+apprehensive,apprehensive,忧虑的 / 不安的,Unclassified,E1_E2_Candidate,92,True,"anticipation, fear",negative,"['anticipation', 'fear', 'negative']"
+exhilarating,exhilarating,令人极为兴奋刺激的,Exhilaration / Excitement,E2_Appraisal (Stimulus/Service Attribute),90,False,Unmapped in NRC,Unmapped in NRC,[]
+honest,honest,诚实的 / 坦诚的,Unclassified,E1_E2_Candidate,88,True,"anger, disgust, fear, joy, sadness, trust",positive,"['anger', 'disgust', 'fear', 'joy', 'positive', 'sadness', 'trust']"
+inaccessible,inaccessible,难以到达的 / 偏远秘境感,Unclassified,E2_Appraisal (Stimulus/Service Attribute),86,True,Unmapped in NRC,negative,['negative']
+lucked,lucky,幸运地 (动词变体),Good Fortune / Joy,E1_State (Direct Internal Affective State),86,True,"joy, surprise",positive,"['joy', 'positive', 'surprise']"
+rushed,rushed,仓促的 / 匆忙的,Unclassified,E1_E2_Candidate,85,False,Unmapped in NRC,Unmapped in NRC,[]
+capable,capable,有能力的 / 熟练精湛的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),84,False,Unmapped in NRC,Unmapped in NRC,[]
+prone,prone,易患（晕机）的,Unclassified,E1_E2_Candidate,84,False,Unmapped in NRC,Unmapped in NRC,[]
+simple,simple,简单明了的 / 省心的,Unclassified,E1_E2_Candidate,84,False,Unmapped in NRC,Unmapped in NRC,[]
+fascinating,fascinating,令人入迷极具吸引力的,Fascination,E2_Appraisal (Stimulus/Service Attribute),83,True,Unmapped in NRC,positive,['positive']
+wonders,wonder,惊奇 / 奇观,Amazement / Wonder,E2_Appraisal (Stimulus/Service Attribute),83,False,Unmapped in NRC,Unmapped in NRC,[]
+delightful,delightful,令人欢欣的,Unclassified,E1_E2_Candidate,80,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+grateful,grateful,感激的 / 感恩的,Unclassified,E1_State (Direct Internal Affective State),80,True,Unmapped in NRC,positive,['positive']
+advantage,advantage,优势 / 极佳点,Unclassified,E2_Appraisal (Stimulus/Service Attribute),78,True,Unmapped in NRC,positive,['positive']
+assured,assured,安抚 / 确信,Unclassified,E1_State (Direct Internal Affective State),78,True,trust,positive,"['positive', 'trust']"
+famous,famous,著名的 / 享誉的,Unclassified,E1_E2_Candidate,77,True,Unmapped in NRC,positive,['positive']
+pride,pride,自豪 / 骄傲,Unclassified,E1_State (Direct Internal Affective State),77,True,joy,positive,"['joy', 'positive']"
+safer,safer,更安全的 / 更安心的,Unclassified,E1_E2_Candidate,77,False,Unmapped in NRC,Unmapped in NRC,[]
+neat,neat,整洁的 / 干练的,Unclassified,E1_E2_Candidate,76,False,Unmapped in NRC,Unmapped in NRC,[]
+coolest,coolest,最酷爽震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),75,False,Unmapped in NRC,Unmapped in NRC,[]
+stable,stable,平稳安心的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),75,True,trust,positive,"['positive', 'trust']"
+worthwhile,worthwhile,值得的 / 划算的,Unclassified,E1_E2_Candidate,75,False,Unmapped in NRC,Unmapped in NRC,[]
+promptly,promptly,及时迅速地,Unclassified,E1_E2_Candidate,74,False,Unmapped in NRC,Unmapped in NRC,[]
+concerns,concerns,担忧 / 关切,Unclassified,E1_E2_Candidate,73,False,Unmapped in NRC,Unmapped in NRC,[]
+greatest,greatest,最伟大的 / 极佳的,Unclassified,E1_E2_Candidate,73,False,Unmapped in NRC,Unmapped in NRC,[]
+ideal,ideal,理想的 / 完美的,Unclassified,E1_E2_Candidate,72,False,Unmapped in NRC,Unmapped in NRC,[]
+peaceful,peaceful,平和宁静的,Unclassified,E1_E2_Candidate,72,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+understanding,understanding,体谅的 / 理解的,Unclassified,E1_E2_Candidate,70,True,trust,positive,"['positive', 'trust']"
+impossible,impossible,不可能的 / 难以置信的,Unclassified,E1_E2_Candidate,65,True,sadness,negative,"['negative', 'sadness']"
+fears,fears,恐惧 / 忧虑,Unclassified,E1_E2_Candidate,64,False,Unmapped in NRC,Unmapped in NRC,[]
+passion,passion,热情 / 激情,Unclassified,E1_E2_Candidate,64,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+tremendous,tremendous,震撼巨大的,Unclassified,E1_E2_Candidate,64,False,Unmapped in NRC,Unmapped in NRC,[]
+conscious,conscious,有意识的 / 讲究的,Unclassified,E1_E2_Candidate,63,False,Unmapped in NRC,Unmapped in NRC,[]
+pristine,pristine,原始纯净的,Unclassified,E1_E2_Candidate,62,True,Unmapped in NRC,positive,['positive']
+dramatic,dramatic,戏剧性的 / 震撼的,Unclassified,E1_E2_Candidate,61,False,Unmapped in NRC,Unmapped in NRC,[]
+extraordinary,extraordinary,非凡的 / 卓越的,Unclassified,E1_E2_Candidate,61,True,Unmapped in NRC,positive,['positive']
+gracious,gracious,亲切和蔼的,Unclassified,E1_E2_Candidate,61,True,Unmapped in NRC,positive,['positive']
+moving,moving,令人动容感人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),61,False,Unmapped in NRC,Unmapped in NRC,[]
+passionate,passionate,充满激情的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),61,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+considerate,considerate,体贴周到的,Kindness / Reassurance,E2_Appraisal (Stimulus/Service Attribute),60,True,trust,positive,"['positive', 'trust']"
+entertained,entertained,感到深受愉悦娱乐的,Joy / Amusement,E1_State (Direct Internal Affective State),60,True,joy,positive,"['joy', 'positive']"
+joy,joy,喜悦 / 快乐,Unclassified,E1_State (Direct Internal Affective State),60,True,joy,positive,"['joy', 'positive']"
+complimentary,complimentary,赞赏的 / 赠送贴心的,Unclassified,E1_E2_Candidate,59,False,Unmapped in NRC,Unmapped in NRC,[]
+convenient,convenient,便捷省心的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),59,True,Unmapped in NRC,positive,['positive']
+excitement,excitement,兴奋 / 激动情绪,Unclassified,E1_E2_Candidate,59,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+intimate,intimate,温馨亲切的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),59,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+nerves,nerves,紧张感 / 不安神经,Unclassified,E1_E2_Candidate,59,False,Unmapped in NRC,Unmapped in NRC,[]
+unreal,unreal,如梦似幻的 / 震撼的,Unclassified,E1_E2_Candidate,59,False,Unmapped in NRC,Unmapped in NRC,[]
+disappointing,disappointing,令人失望的,Unclassified,E1_E2_Candidate,58,True,sadness,negative,"['negative', 'sadness']"
+flawless,flawless,无瑕的 / 完美的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),58,False,Unmapped in NRC,Unmapped in NRC,[]
+fortunately,fortunately,幸运的是,Unclassified,E1_E2_Candidate,58,False,Unmapped in NRC,Unmapped in NRC,[]
+lush,lush,郁郁葱葱宜人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),57,True,"disgust, sadness",negative,"['disgust', 'negative', 'sadness']"
+negative,negative,负面体验 / 消极评价,Unclassified,E2_Appraisal (Stimulus/Service Attribute),57,True,sadness,negative,"['negative', 'sadness']"
+thankful,thankful,感激的 / 感恩的,Unclassified,E1_State (Direct Internal Affective State),57,True,joy,positive,"['joy', 'positive']"
+thoughtful,thoughtful,贴心周到的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),57,True,trust,positive,"['positive', 'trust']"
+glorious,glorious,壮丽辉煌的,Unclassified,E1_E2_Candidate,56,False,Unmapped in NRC,Unmapped in NRC,[]
+uncomfortable,uncomfortable,感到不适的 / 不安的,Unclassified,E1_State (Direct Internal Affective State),56,True,Unmapped in NRC,negative,['negative']
+fair,fair,公道的 / 划算的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),55,True,Unmapped in NRC,positive,['positive']
+noisy,noisy,喧闹吵杂的,Unclassified,E1_E2_Candidate,55,True,anger,negative,"['anger', 'negative']"
+cherish,cherish,珍视 / 珍惜铭记,Unclassified,E1_State (Direct Internal Affective State),54,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+genuine,genuine,真诚的 / 地道的,Unclassified,E1_E2_Candidate,54,True,trust,positive,"['positive', 'trust']"
+remarkable,remarkable,卓越令人瞩目的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),54,True,"joy, surprise, trust",positive,"['joy', 'positive', 'surprise', 'trust']"
+caring,caring,体贴入微关怀的,Warmth / Kindness,E2_Appraisal (Stimulus/Service Attribute),53,False,Unmapped in NRC,Unmapped in NRC,[]
+appreciation,appreciation,感激 / 欣赏,Unclassified,E1_State (Direct Internal Affective State),52,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+enthusiasm,enthusiasm,热情 / 积极性,Unclassified,E1_E2_Candidate,52,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+gentle,gentle,平稳柔和的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),52,False,Unmapped in NRC,Unmapped in NRC,[]
+strong,strong,强烈的,Unclassified,E1_E2_Candidate,52,False,Unmapped in NRC,Unmapped in NRC,[]
+trouble,trouble,麻烦 / 困扰,Unclassified,E1_E2_Candidate,52,False,Unmapped in NRC,Unmapped in NRC,[]
+disappointment,disappointment,失望 / 遗憾失落情绪,Unclassified,E1_State (Direct Internal Affective State),51,True,"disgust, sadness",negative,"['disgust', 'negative', 'sadness']"
+nicer,nicer,更美好/更亲切的,Unclassified,E1_E2_Candidate,51,False,Unmapped in NRC,Unmapped in NRC,[]
+happier,happier,更快乐的 / 更满意的,Unclassified,E1_E2_Candidate,50,False,Unmapped in NRC,Unmapped in NRC,[]
+hoping,hoping,期盼 / 希望,Unclassified,E1_E2_Candidate,50,False,Unmapped in NRC,Unmapped in NRC,[]
+queasy,queasy,恶心反胃的,Unclassified,E1_E2_Candidate,49,False,Unmapped in NRC,Unmapped in NRC,[]
+satisfied,satisfied,感到满意的,Satisfaction / Contentment,E1_State (Direct Internal Affective State),49,True,joy,positive,"['joy', 'positive']"
+seamless,seamless,流畅无缝无摩擦的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),49,False,Unmapped in NRC,Unmapped in NRC,[]
+delight,delight,欣喜 / 愉快,Unclassified,E1_State (Direct Internal Affective State),48,True,"anticipation, joy",positive,"['anticipation', 'joy', 'positive']"
+genuinely,genuinely,真诚地 / 确实,Unclassified,E1_E2_Candidate,48,False,Unmapped in NRC,Unmapped in NRC,[]
+steady,steady,平稳的 / 稳健的,Unclassified,E1_E2_Candidate,48,True,"surprise, trust",Unmapped in NRC,"['surprise', 'trust']"
+easier,easier,更容易的 / 更省心的,Unclassified,E1_E2_Candidate,46,False,Unmapped in NRC,Unmapped in NRC,[]
+sensitive,sensitive,敏感的,Unclassified,E1_E2_Candidate,46,False,Unmapped in NRC,Unmapped in NRC,[]
+terrible,terrible,可怕的 / 糟糕的,Unclassified,E1_E2_Candidate,46,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+unexpected,unexpected,意想不到的惊喜,Unclassified,E1_E2_Candidate,46,True,"anticipation, fear, joy, surprise","negative, positive","['anticipation', 'fear', 'joy', 'negative', 'positive', 'surprise']"
+warmly,warmly,温暖地 / 热情地,Unclassified,E1_E2_Candidate,46,False,Unmapped in NRC,Unmapped in NRC,[]
+decent,decent,尚可的 / 体面的,Unclassified,E1_E2_Candidate,45,True,Unmapped in NRC,positive,['positive']
+friendliness,friendliness,友善 / 亲和力,Unclassified,E1_E2_Candidate,45,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+loud,loud,吵闹的 / 噪音大的,Unclassified,E1_E2_Candidate,45,False,Unmapped in NRC,Unmapped in NRC,[]
+relax,relax,放松 / 放轻松,Relaxation,E1_State (Direct Internal Affective State),45,False,Unmapped in NRC,Unmapped in NRC,[]
+terrified,terrified,极度惊恐的,Unclassified,E1_State (Direct Internal Affective State),45,False,Unmapped in NRC,Unmapped in NRC,[]
+encouraged,encouraged,深受鼓舞的,Unclassified,E1_State (Direct Internal Affective State),44,False,Unmapped in NRC,Unmapped in NRC,[]
+happily,happily,快乐地 / 欣然,Unclassified,E1_E2_Candidate,44,True,joy,positive,"['joy', 'positive']"
+quieter,quieter,更安静宁静的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),44,False,Unmapped in NRC,Unmapped in NRC,[]
+beautifully,beautifully,优美地 / 出色地,Unclassified,E1_E2_Candidate,43,False,Unmapped in NRC,Unmapped in NRC,[]
+calming,calming,令人平息平稳安心的（Calmness State）,Unclassified,E1_State (Direct Internal Affective State),42,False,Unmapped in NRC,Unmapped in NRC,[]
+adventurous,adventurous,充满冒险刺激感的,Unclassified,E1_E2_Polysemous (State & Appraisal),41,True,Unmapped in NRC,positive,['positive']
+charming,charming,迷人讨喜的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),40,True,Unmapped in NRC,positive,['positive']
+responsive,responsive,积极回应的 / 贴心的,Unclassified,E1_E2_Candidate,40,True,"anticipation, trust",positive,"['anticipation', 'positive', 'trust']"
+touched,touched,深受感动的,Unclassified,E1_State (Direct Internal Affective State),40,True,Unmapped in NRC,negative,['negative']
+enjoyment,enjoyment,乐趣 / 享受,Unclassified,E1_E2_Candidate,39,False,Unmapped in NRC,Unmapped in NRC,[]
+handle,handle,善于处理 / 掌控感,Unclassified,E2_Appraisal (Stimulus/Service Attribute),39,False,Unmapped in NRC,Unmapped in NRC,[]
+nicest,nicest,最美好的 / 最亲切的,Unclassified,E1_E2_Candidate,39,False,Unmapped in NRC,Unmapped in NRC,[]
+unsafe,unsafe,感觉不安全的 / 担惊受怕的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),39,True,fear,negative,"['fear', 'negative']"
+worst,worst,最糟糕的,Unclassified,E1_E2_Candidate,39,False,Unmapped in NRC,Unmapped in NRC,[]
+greater,greater,更宏大震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),38,True,Unmapped in NRC,positive,['positive']
+hospitable,hospitable,殷勤好客的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),38,False,Unmapped in NRC,Unmapped in NRC,[]
+pleasantly,pleasantly,令人愉快地,Unclassified,E1_E2_Candidate,38,False,Unmapped in NRC,Unmapped in NRC,[]
+stress,stress,压力 / 紧张感,Unclassified,E1_E2_Candidate,38,True,Unmapped in NRC,negative,['negative']
+wonderfully,wonderfully,极其出色绝妙地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),38,True,"joy, surprise",positive,"['joy', 'positive', 'surprise']"
+worries,worry,担忧 / 挂虑,Anxiety / Worry,E1_State (Direct Internal Affective State),38,True,"anticipation, fear, sadness",negative,"['anticipation', 'fear', 'negative', 'sadness']"
+cared,cared,得到无微不至关怀的,Unclassified,E1_State (Direct Internal Affective State),37,False,Unmapped in NRC,Unmapped in NRC,[]
+delicious,delicious,美味愉悦的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),37,True,joy,positive,"['joy', 'positive']"
+hopefully,hopefully,怀着希望地,Unclassified,E1_E2_Candidate,37,False,Unmapped in NRC,Unmapped in NRC,[]
+nicely,nicely,很好地 / 优雅地,Unclassified,E1_E2_Candidate,37,False,Unmapped in NRC,Unmapped in NRC,[]
+marvelous,marvelous,绝妙的 / 令人惊叹的,Unclassified,E1_E2_Candidate,36,True,joy,positive,"['joy', 'positive']"
+nauseous,nauseous,恶心晕车的,Unclassified,E1_E2_Candidate,36,True,"disgust, sadness",negative,"['disgust', 'negative', 'sadness']"
+reliable,reliable,可靠的 / 可信赖的,Unclassified,E1_E2_Candidate,36,True,trust,positive,"['positive', 'trust']"
+anxious,anxious,焦虑不安的 / 挂虑的,Unclassified,E1_State (Direct Internal Affective State),35,True,"anticipation, fear",negative,"['anticipation', 'fear', 'negative']"
+bother,bother,打扰 / 烦扰,Unclassified,E1_E2_Candidate,35,True,Unmapped in NRC,negative,['negative']
+humorous,humorous,幽默风趣的,Unclassified,E1_E2_Candidate,35,True,joy,positive,"['joy', 'positive']"
+humour,humour,幽默感,Unclassified,E1_E2_Candidate,35,False,Unmapped in NRC,Unmapped in NRC,[]
+picturesque,picturesque,风景如画的,Unclassified,E1_E2_Candidate,35,True,joy,positive,"['joy', 'positive']"
+superior,superior,优越顶尖的,Unclassified,E1_E2_Candidate,35,True,Unmapped in NRC,positive,['positive']
+surprisingly,surprisingly,出乎意料赞叹地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),35,True,"anticipation, surprise",Unmapped in NRC,"['anticipation', 'surprise']"
+anxiety,anxiety,焦虑 / 不安,Unclassified,E1_E2_Candidate,34,True,"anger, anticipation, fear, sadness",negative,"['anger', 'anticipation', 'fear', 'negative', 'sadness']"
+generous,generous,大方的 / 慷慨的,Unclassified,E1_E2_Candidate,34,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+romantic,romantic,浪漫惬意的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),34,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+sadly,sadly,令人遗憾地 / 悲伤地,Unclassified,E1_E2_Candidate,34,True,sadness,negative,"['negative', 'sadness']"
+worse,worse,更糟糕的,Unclassified,E1_E2_Candidate,34,True,"fear, sadness",negative,"['fear', 'negative', 'sadness']"
+airsick,airsick,晕机的,Unclassified,E1_E2_Candidate,33,False,Unmapped in NRC,Unmapped in NRC,[]
+hassle,hassle,麻烦 / 烦心事,Unclassified,E1_E2_Candidate,33,False,Unmapped in NRC,Unmapped in NRC,[]
+overwhelming,overwhelming,铺天盖地震撼的,Unclassified,E1_E2_Candidate,33,True,Unmapped in NRC,positive,['positive']
+reassured,reassured,感到安心的,Unclassified,E1_State (Direct Internal Affective State),32,False,Unmapped in NRC,Unmapped in NRC,[]
+skillful,skillful,技术精湛的,Unclassified,E1_E2_Candidate,32,True,trust,positive,"['positive', 'trust']"
+turbulent,turbulent,颠簸不安的,Unclassified,E1_E2_Candidate,32,True,fear,negative,"['fear', 'negative']"
+upfront,upfront,直率透明的,Unclassified,E1_E2_Candidate,32,False,Unmapped in NRC,Unmapped in NRC,[]
+cute,cute,可爱宜人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),31,True,Unmapped in NRC,positive,['positive']
+economical,economical,划算实惠的,Unclassified,E1_E2_Candidate,31,False,Unmapped in NRC,Unmapped in NRC,[]
+breathtakingly,breathtakingly,令人屏息震撼地（Awe/Amazement Emotion）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),30,False,Unmapped in NRC,Unmapped in NRC,[]
+kindly,kindly,体贴友善地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),30,False,Unmapped in NRC,Unmapped in NRC,[]
+chatty,chatty,健谈热情的,Unclassified,E1_E2_Candidate,29,True,Unmapped in NRC,negative,['negative']
+convinced,convinced,深信不疑的 / 心服口服,Unclassified,E1_State (Direct Internal Affective State),29,True,trust,Unmapped in NRC,['trust']
+delighted,delighted,高高兴兴的,Unclassified,E1_State (Direct Internal Affective State),29,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+gladly,gladly,乐意地 / 高兴地,Joy / Eagerness,E1_State (Direct Internal Affective State),29,False,Unmapped in NRC,Unmapped in NRC,[]
+interactive,interactive,互动性强的,Unclassified,E1_E2_Candidate,29,False,Unmapped in NRC,Unmapped in NRC,[]
+pure,pure,纯粹的 / 纯净震撼的,Unclassified,E1_E2_Candidate,29,False,Unmapped in NRC,Unmapped in NRC,[]
+stellar,stellar,璀璨顶尖级的,Unclassified,E1_E2_Candidate,29,True,Unmapped in NRC,positive,['positive']
+unbelievably,unbelievably,难以置信地,Unclassified,E1_E2_Candidate,29,False,Unmapped in NRC,Unmapped in NRC,[]
+boring,boring,令人无聊乏味的,Boredom,E2_Appraisal (Stimulus/Service Attribute),28,True,Unmapped in NRC,negative,['negative']
+sad,sad,悲伤的 / 遗憾痛心的,Unclassified,E1_State (Direct Internal Affective State),28,False,Unmapped in NRC,Unmapped in NRC,[]
+serene,serene,宁静祥和的,Unclassified,E1_E2_Candidate,28,True,trust,negative,"['negative', 'trust']"
+aside,aside,撇开 / 排除,Unclassified,E1_E2_Candidate,27,False,Unmapped in NRC,Unmapped in NRC,[]
+comforting,comforting,令人感到安慰抚慰的,Comfort / Relief,E2_Appraisal (Stimulus/Service Attribute),27,False,Unmapped in NRC,Unmapped in NRC,[]
+eager,eager,热切的 / 渴望的,Unclassified,E1_E2_Candidate,27,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+peace,peace,宁静 / 和平,Unclassified,E1_E2_Candidate,27,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+regrets,regrets,遗憾 / 后悔,Unclassified,E1_E2_Candidate,27,False,Unmapped in NRC,Unmapped in NRC,[]
+splendor,splendor,壮丽辉煌的奇观,Unclassified,E2_Appraisal (Stimulus/Service Attribute),27,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+bang,bang,物超所值（bang for buck）,Unclassified,E1_E2_Candidate,26,True,"anger, disgust, fear, sadness, surprise",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness', 'surprise']"
+basic,basic,基础的 / 简陋的,Unclassified,E1_E2_Candidate,26,False,Unmapped in NRC,Unmapped in NRC,[]
+cramped,cramped,拥挤狭窄不适的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),26,True,Unmapped in NRC,negative,['negative']
+hate,hate,憎恨 / 讨厌,Hate / Dislike,E1_State (Direct Internal Affective State),26,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+mesmerizing,mesmerizing,令人目眩神迷为之倾倒的,Fascination / Awe,E2_Appraisal (Stimulus/Service Attribute),26,False,Unmapped in NRC,Unmapped in NRC,[]
+upset,upset,感到沮丧难过的,Distress / Sadness,E1_State (Direct Internal Affective State),26,True,"anger, sadness",negative,"['anger', 'negative', 'sadness']"
+bump,bump,颠簸不适的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),25,False,Unmapped in NRC,Unmapped in NRC,[]
+communicative,communicative,善于沟通的,Unclassified,E1_E2_Candidate,25,True,Unmapped in NRC,positive,['positive']
+dangerous,dangerous,危险的,Unclassified,E1_E2_Candidate,25,True,fear,negative,"['fear', 'negative']"
+ill,ill,生病的 / 恶心呕吐的,Unclassified,E1_E2_Candidate,25,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+laughing,laughing,欢声笑语 / 开心大笑,Unclassified,E1_State (Direct Internal Affective State),25,True,joy,positive,"['joy', 'positive']"
+inclement,inclement,恶劣的气候,Unclassified,E1_E2_Candidate,24,True,Unmapped in NRC,negative,['negative']
+magnificence,magnificence,壮丽震撼感,Awe / Grandeur,E2_Appraisal (Stimulus/Service Attribute),24,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+horrible,horrible,极度糟糕可怕的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),23,True,"anger, disgust, fear",negative,"['anger', 'disgust', 'fear', 'negative']"
+impeccable,impeccable,无可挑剔的,Unclassified,E1_E2_Candidate,23,True,trust,positive,"['positive', 'trust']"
+talkative,talkative,健谈热情的,Unclassified,E1_E2_Candidate,23,False,Unmapped in NRC,Unmapped in NRC,[]
+calmed,calmed,心情平静安稳下来的,Unclassified,E1_State (Direct Internal Affective State),22,False,Unmapped in NRC,Unmapped in NRC,[]
+favourite,favourite,最喜爱的,Unclassified,E1_E2_Candidate,22,False,Unmapped in NRC,Unmapped in NRC,[]
+fearful,fearful,恐惧的 / 担心的,Unclassified,E1_E2_Candidate,22,True,"fear, sadness",negative,"['fear', 'negative', 'sadness']"
+lasting,lasting,持久的 / 深刻的,Unclassified,E1_E2_Candidate,22,False,Unmapped in NRC,Unmapped in NRC,[]
+shining,shining,璀璨夺目的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),22,True,"anticipation, joy",positive,"['anticipation', 'joy', 'positive']"
+skeptical,skeptical,怀疑的 / 存疑的,Unclassified,E1_E2_Candidate,22,True,Unmapped in NRC,negative,['negative']
+talented,talented,才华横溢精湛的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),22,False,Unmapped in NRC,Unmapped in NRC,[]
+tough,tough,严苛倒霉的,Unclassified,E1_E2_Candidate,22,True,sadness,negative,"['negative', 'sadness']"
+bummed,bummed,感到扫兴遗憾失落的,Unclassified,E1_State (Direct Internal Affective State),21,False,Unmapped in NRC,Unmapped in NRC,[]
+mild,mild,轻微适度的（颠簸/舒适）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),21,False,Unmapped in NRC,Unmapped in NRC,[]
+refreshing,refreshing,令人神清气爽耳目一新的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),21,True,Unmapped in NRC,positive,['positive']
+spoil,spoil,破坏 / 毁掉（好心情）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),21,True,disgust,negative,"['disgust', 'negative']"
+surprises,surprise,惊喜 / 意料之外,Surprise,E2_Appraisal (Stimulus/Service Attribute),21,True,"fear, joy, surprise",positive,"['fear', 'joy', 'positive', 'surprise']"
+unbeatable,unbeatable,无可比拟的 / 无敌的,Unclassified,E1_E2_Candidate,21,False,Unmapped in NRC,Unmapped in NRC,[]
+amusing,amusing,风趣风趣令人发笑的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),20,True,joy,positive,"['joy', 'positive']"
+astonishing,astonishing,令人惊叹的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),20,False,Unmapped in NRC,Unmapped in NRC,[]
+cheerful,cheerful,欢快愉悦的,Joy,E1_State (Direct Internal Affective State),20,True,"joy, surprise",positive,"['joy', 'positive', 'surprise']"
+mood,mood,心情 / 情绪,Unclassified,E1_E2_Candidate,20,False,Unmapped in NRC,Unmapped in NRC,[]
+spiritual,spiritual,精神神圣的,Unclassified,E1_E2_Candidate,20,False,Unmapped in NRC,Unmapped in NRC,[]
+successful,successful,成功的 / 满意的,Unclassified,E1_E2_Candidate,20,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+awestruck,awestruck,充满敬畏震撼的,Unclassified,E1_State (Direct Internal Affective State),19,False,Unmapped in NRC,Unmapped in NRC,[]
+chilly,chilly,寒冷不适的,Unclassified,E1_E2_Candidate,19,True,Unmapped in NRC,negative,['negative']
+comfy,comfy,舒适惬意的,Unclassified,E1_E2_Candidate,19,False,Unmapped in NRC,Unmapped in NRC,[]
+exquisite,exquisite,精美的 / 绝妙的,Unclassified,E1_E2_Candidate,19,True,joy,positive,"['joy', 'positive']"
+inspired,inspired,灵感大发 / 深受震撼的,Unclassified,E1_State (Direct Internal Affective State),19,True,"joy, surprise, trust",positive,"['joy', 'positive', 'surprise', 'trust']"
+suitable,suitable,合适的 / 满意的,Unclassified,E1_E2_Candidate,19,True,Unmapped in NRC,positive,['positive']
+touching,touching,令人动容流泪的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),19,False,Unmapped in NRC,Unmapped in NRC,[]
+amazement,amazement,惊叹 / 惊奇,Unclassified,E1_E2_Candidate,18,False,Unmapped in NRC,Unmapped in NRC,[]
+astounding,astounding,令人无比震撼惊叹的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,False,Unmapped in NRC,Unmapped in NRC,[]
+charm,charm,顺畅 / 令人满意,Unclassified,E1_E2_Candidate,18,True,Unmapped in NRC,positive,['positive']
+chill,chill,惬意轻松的,Unclassified,E1_E2_Candidate,18,False,Unmapped in NRC,Unmapped in NRC,[]
+danger,danger,危险 / 威胁,Unclassified,E1_E2_Candidate,18,True,"fear, sadness",negative,"['fear', 'negative', 'sadness']"
+easiest,easiest,最省心的 / 最容易的,Unclassified,E1_E2_Candidate,18,False,Unmapped in NRC,Unmapped in NRC,[]
+effective,effective,有效划算的,Unclassified,E1_E2_Candidate,18,True,trust,positive,"['positive', 'trust']"
+haha,haha,哈哈（欢快情绪）,Unclassified,E1_E2_Candidate,18,False,Unmapped in NRC,Unmapped in NRC,[]
+handy,handy,实用的 / 贴心的,Unclassified,E1_E2_Candidate,18,True,Unmapped in NRC,positive,['positive']
+honesty,honesty,真诚 / 诚信解说,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,True,trust,positive,"['positive', 'trust']"
+keen,keen,热情的 / 敏锐的,Unclassified,E1_E2_Candidate,18,False,Unmapped in NRC,Unmapped in NRC,[]
+marvel,marvel,惊叹 / 奇迹,Amazement / Awe,E2_Appraisal (Stimulus/Service Attribute),18,True,surprise,positive,"['positive', 'surprise']"
+secret,secret,秘境 / 私密独享感,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,True,trust,Unmapped in NRC,['trust']
+smart,smart,聪慧的 / 明智的,Unclassified,E1_E2_Candidate,18,False,Unmapped in NRC,Unmapped in NRC,[]
+soothing,soothing,舒缓抚慰人心的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+witty,witty,风趣幽默的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),18,True,joy,positive,"['joy', 'positive']"
+wondered,wonder,感到惊奇惊叹 (动词变体),Amazement / Wonder,E1_State (Direct Internal Affective State),18,False,Unmapped in NRC,Unmapped in NRC,[]
+cordial,cordial,热情亲切礼貌的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),17,False,Unmapped in NRC,Unmapped in NRC,[]
+discomfort,discomfort,身体/心理不适感,Unclassified,E1_State (Direct Internal Affective State),17,True,sadness,negative,"['negative', 'sadness']"
+energetic,energetic,精力充沛的,Unclassified,E1_E2_Candidate,17,True,Unmapped in NRC,positive,['positive']
+hopes,hopes,期盼 / 希望,Unclassified,E1_E2_Candidate,17,False,Unmapped in NRC,Unmapped in NRC,[]
+overwhelmed,overwhelmed,被震撼/感动深深淹没的,Unclassified,E1_State (Direct Internal Affective State),17,True,sadness,negative,"['negative', 'sadness']"
+valuable,valuable,珍贵的 / 有价值的,Unclassified,E1_E2_Candidate,17,True,Unmapped in NRC,positive,['positive']
+claustrophobic,claustrophobic,感到幽闭恐惧压抑的,Unclassified,E1_State (Direct Internal Affective State),16,False,Unmapped in NRC,Unmapped in NRC,[]
+insane,insane,疯狂震撼的 / 极端的,Unclassified,E1_E2_Candidate,16,True,"anger, fear",negative,"['anger', 'fear', 'negative']"
+leery,leery,提防警惕 / 顾虑重重的,Unclassified,E1_State (Direct Internal Affective State),16,True,surprise,Unmapped in NRC,['surprise']
+loving,loving,热爱的 / 充满了爱的,Love / Affection,E1_State (Direct Internal Affective State),16,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+sensational,sensational,绝佳轰动震撼的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),16,True,joy,positive,"['joy', 'positive']"
+sudden,sudden,突然的 / 猝不及防的,Unclassified,E1_E2_Candidate,16,True,surprise,Unmapped in NRC,['surprise']
+uncertain,uncertain,不确定的 / 顾虑的,Unclassified,E1_E2_Candidate,16,True,"anger, disgust, fear, surprise",negative,"['anger', 'disgust', 'fear', 'negative', 'surprise']"
+worthy,worthy,非常值的 / 值得的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),16,True,trust,positive,"['positive', 'trust']"
+annoying,annoying,令人烦躁恼火的（Annoyance/Irritation Emotion）,Unclassified,E1_State (Direct Internal Affective State),15,True,anger,negative,"['anger', 'negative']"
+awed,awed,感到为之肃然起敬震撼的,Awe,E1_State (Direct Internal Affective State),15,False,Unmapped in NRC,Unmapped in NRC,[]
+awful,awful,极其糟糕的,Unclassified,E1_E2_Candidate,15,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+bubbly,bubbly,活泼热情的,Unclassified,E1_E2_Candidate,15,False,Unmapped in NRC,Unmapped in NRC,[]
+fuss,fuss,大惊小怪 / 争吵骚动,Unclassified,E1_E2_Candidate,15,True,"anger, sadness",negative,"['anger', 'negative', 'sadness']"
+hilarious,hilarious,爆笑幽默搞笑的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),15,True,"joy, surprise",positive,"['joy', 'positive', 'surprise']"
+immaculate,immaculate,完美无瑕洁净的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),15,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+respectful,respectful,充满敬意的,Unclassified,E1_E2_Candidate,15,True,trust,positive,"['positive', 'trust']"
+unprofessional,unprofessional,不专业的,Unclassified,E1_E2_Candidate,15,False,Unmapped in NRC,Unmapped in NRC,[]
+warmth,warmth,温暖安心感,Warmth / Comfort,E1_State (Direct Internal Affective State),15,False,Unmapped in NRC,Unmapped in NRC,[]
+authentic,authentic,地道的 / 真实无伪的,Unclassified,E1_E2_Candidate,14,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+bothered,bothered,困扰的 / 烦心的,Unclassified,E1_E2_Candidate,14,False,Unmapped in NRC,Unmapped in NRC,[]
+frustrating,frustrating,令人挫败的 / 烦人的,Unclassified,E1_E2_Candidate,14,False,Unmapped in NRC,Unmapped in NRC,[]
+glowing,glowing,极度赞赏口碑极佳的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),14,True,Unmapped in NRC,positive,['positive']
+intrusive,intrusive,突兀扰人的 / 煞风景的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),14,True,"anger, disgust, fear, surprise",negative,"['anger', 'disgust', 'fear', 'negative', 'surprise']"
+marvellous,marvellous,令人叹为观止的,Amazement / Awe,E2_Appraisal (Stimulus/Service Attribute),14,False,Unmapped in NRC,Unmapped in NRC,[]
+praise,praise,称赞 / 高度赞扬,Unclassified,E2_Appraisal (Stimulus/Service Attribute),14,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+proud,proud,感到自豪骄傲的,Pride,E1_State (Direct Internal Affective State),14,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+ruined,ruined,毁掉行程的 / 扫兴糟心的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),14,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+satisfaction,satisfaction,满意感,Satisfaction,E1_State (Direct Internal Affective State),14,False,Unmapped in NRC,Unmapped in NRC,[]
+trustworthy,trustworthy,值得信赖靠谱的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),14,False,Unmapped in NRC,Unmapped in NRC,[]
+apologetic,apologetic,诚恳抱歉致歉的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),13,True,trust,positive,"['positive', 'trust']"
+pleasurable,pleasurable,令人愉快的,Unclassified,E1_E2_Candidate,13,True,joy,positive,"['joy', 'positive']"
+precious,precious,弥足珍贵的 memory,Unclassified,E2_Appraisal (Stimulus/Service Attribute),13,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+responsible,responsible,负责任的,Unclassified,E1_E2_Candidate,13,True,trust,positive,"['positive', 'trust']"
+safest,safest,最安全平稳的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),13,False,Unmapped in NRC,Unmapped in NRC,[]
+tricky,tricky,棘手不安的,Unclassified,E1_E2_Candidate,13,False,Unmapped in NRC,Unmapped in NRC,[]
+uneasy,uneasy,心神不宁感到不安的,Unclassified,E1_State (Direct Internal Affective State),13,True,"disgust, fear",negative,"['disgust', 'fear', 'negative']"
+vibrant,vibrant,生机勃勃色彩斑斓的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),13,False,Unmapped in NRC,Unmapped in NRC,[]
+worldly,worldly,超凡脱俗的,Unclassified,E1_E2_Candidate,13,False,Unmapped in NRC,Unmapped in NRC,[]
+bored,bored,感到无聊厌烦的,Boredom,E1_State (Direct Internal Affective State),12,False,Unmapped in NRC,Unmapped in NRC,[]
+soaking,soaking,沉浸于（soaking in view）,Unclassified,E1_E2_Candidate,12,False,Unmapped in NRC,Unmapped in NRC,[]
+stuffy,stuffy,闷热不适的（体感不适）,Unclassified,E1_E2_Candidate,12,True,Unmapped in NRC,negative,['negative']
+superbly,superbly,出类拔萃完美地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),12,False,Unmapped in NRC,Unmapped in NRC,[]
+wondrous,wondrous,惊叹奇妙的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),12,True,Unmapped in NRC,positive,['positive']
+admire,admire,钦佩赞赏,Admiration,E1_State (Direct Internal Affective State),11,True,trust,positive,"['positive', 'trust']"
+cheesy,cheesy,俗气的 / 劣质的,Unclassified,E1_E2_Candidate,11,False,Unmapped in NRC,Unmapped in NRC,[]
+inviting,inviting,引人入胜令人愉悦的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+mad,mad,发怒的 / 生气的,Unclassified,E1_E2_Candidate,11,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+nervousness,nervousness,紧张不安的情绪,Unclassified,E1_State (Direct Internal Affective State),11,True,fear,Unmapped in NRC,['fear']
+rewarding,rewarding,非常有成就感/物超所值的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11,False,Unmapped in NRC,Unmapped in NRC,[]
+satisfying,satisfying,令人称心满意的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11,False,Unmapped in NRC,Unmapped in NRC,[]
+sketchy,sketchy,令人不安可疑的,Unclassified,E1_E2_Candidate,11,True,Unmapped in NRC,negative,['negative']
+slick,slick,熟练专业/光滑的,Unclassified,E1_E2_Candidate,11,False,Unmapped in NRC,Unmapped in NRC,[]
+superlative,superlative,顶级极致赞赏的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),11,False,Unmapped in NRC,Unmapped in NRC,[]
+surprising,surprising,令人出乎意料惊喜的,Surprise,E2_Appraisal (Stimulus/Service Attribute),11,True,surprise,Unmapped in NRC,['surprise']
+trepidation,trepidation,惊恐战栗 / 不安,Unclassified,E1_E2_Candidate,11,True,"anticipation, fear, surprise",negative,"['anticipation', 'fear', 'negative', 'surprise']"
+wary,wary,警惕顾虑的,Unclassified,E1_E2_Candidate,11,True,fear,Unmapped in NRC,['fear']
+badly,badly,严重地 / 糟糕地,Unclassified,E1_E2_Candidate,10,True,sadness,negative,"['negative', 'sadness']"
+conscientious,conscientious,认真负责的,Unclassified,E1_E2_Candidate,10,True,trust,positive,"['positive', 'trust']"
+ecstatic,ecstatic,狂喜的 / 极度兴奋的,Unclassified,E1_E2_Candidate,10,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+emotional,emotional,情感上的 / 动情的,Unclassified,E1_E2_Candidate,10,False,Unmapped in NRC,Unmapped in NRC,[]
+friendlier,friendlier,更加亲切友好的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),10,False,Unmapped in NRC,Unmapped in NRC,[]
+improvement,improvement,体验改善 / 提升,Unclassified,E2_Appraisal (Stimulus/Service Attribute),10,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+improving,improving,不断改善令人满意的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),10,True,Unmapped in NRC,positive,['positive']
+jealous,jealous,令人羡慕嫉妒的,Unclassified,E1_State (Direct Internal Affective State),10,True,"anger, disgust",negative,"['anger', 'disgust', 'negative']"
+mesmerized,mesmerized,被深深吸引迷住的,Fascination / Awe,E1_State (Direct Internal Affective State),10,False,Unmapped in NRC,Unmapped in NRC,[]
+quaint,quaint,古朴宜人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),10,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+raving,raving,赞不绝口极力推荐的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),10,True,"anger, anticipation, fear, joy, surprise",negative,"['anger', 'anticipation', 'fear', 'joy', 'negative', 'surprise']"
+stability,stability,平稳安心感,Unclassified,E2_Appraisal (Stimulus/Service Attribute),10,False,Unmapped in NRC,Unmapped in NRC,[]
+stunned,stunned,感到目瞪口呆震撼的,Surprise / Amazement,E1_State (Direct Internal Affective State),10,True,"fear, surprise",negative,"['fear', 'negative', 'surprise']"
+stunningly,stunningly,令人震撼地,Unclassified,E1_E2_Candidate,10,False,Unmapped in NRC,Unmapped in NRC,[]
+unfortunate,unfortunate,不幸遗憾的,Unclassified,E1_E2_Candidate,10,True,sadness,negative,"['negative', 'sadness']"
+wonderfull,wonderful,令人惊叹绝妙的 (错别字变体),Joy / Wonder,E2_Appraisal (Stimulus/Service Attribute),10,True,"joy, surprise, trust",positive,"['joy', 'positive', 'surprise', 'trust']"
+automatically,automatically,自动地 / 自然而然,Unclassified,E1_E2_Candidate,9,False,Unmapped in NRC,Unmapped in NRC,[]
+awkward,awkward,尴尬的 / 别扭的,Unclassified,E1_E2_Candidate,9,False,Unmapped in NRC,Unmapped in NRC,[]
+bummer,bummer,令人扫兴扫兴的事,Unclassified,E2_Appraisal (Stimulus/Service Attribute),9,True,"anger, disgust",negative,"['anger', 'disgust', 'negative']"
+cheerfully,cheerfully,欢快愉悦地,Unclassified,E1_State (Direct Internal Affective State),9,False,Unmapped in NRC,Unmapped in NRC,[]
+claustrophobia,claustrophobia,幽闭恐惧症（密闭机舱焦虑）,Fear / Anxiety,E1_State (Direct Internal Affective State),9,False,Unmapped in NRC,Unmapped in NRC,[]
+compliment,compliment,赞美 / 赞赏评价,Unclassified,E2_Appraisal (Stimulus/Service Attribute),9,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+effortless,effortless,轻松平稳的,Unclassified,E1_E2_Candidate,9,False,Unmapped in NRC,Unmapped in NRC,[]
+hassles,hassles,烦心事 / 摩擦,Unclassified,E1_E2_Candidate,9,False,Unmapped in NRC,Unmapped in NRC,[]
+miserable,miserable,极度痛苦糟糕的,Unclassified,E1_State (Direct Internal Affective State),9,True,"anger, disgust, sadness",negative,"['anger', 'disgust', 'negative', 'sadness']"
+stuffed,stuffed,塞满的 / 憋闷不适的,Unclassified,E1_E2_Candidate,9,False,Unmapped in NRC,Unmapped in NRC,[]
+susceptible,susceptible,易受影响脆弱的,Unclassified,E1_E2_Candidate,9,True,Unmapped in NRC,negative,['negative']
+terribly,terribly,极度负面地 / 抱歉,Unclassified,E1_E2_Candidate,9,True,sadness,Unmapped in NRC,['sadness']
+unspoiled,unspoiled,未经破坏原始纯粹的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),9,False,Unmapped in NRC,Unmapped in NRC,[]
+annoyed,annoyed,感到烦恼的 / 恼火的,Unclassified,E1_State (Direct Internal Affective State),8,False,Unmapped in NRC,Unmapped in NRC,[]
+cherished,cherish,珍视铭记的,Love / Affection,E1_State (Direct Internal Affective State),8,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+dissapointed,disappointed,感到失望的（错别字变体）,Disappointment,E1_State (Direct Internal Affective State),8,True,"anger, disgust, sadness",negative,"['anger', 'disgust', 'negative', 'sadness']"
+exhausted,exhausted,精疲力竭极为疲惫的,Unclassified,E1_State (Direct Internal Affective State),8,True,sadness,negative,"['negative', 'sadness']"
+exhilaration,exhilaration,极度兴奋快感,Unclassified,E1_State (Direct Internal Affective State),8,True,"joy, surprise",positive,"['joy', 'positive', 'surprise']"
+frightened,frightened,感到受惊吓害怕的,Fear,E1_State (Direct Internal Affective State),8,True,"fear, surprise",negative,"['fear', 'negative', 'surprise']"
+frustration,frustration,挫败感 / 烦恼,Unclassified,E1_E2_Candidate,8,True,anger,negative,"['anger', 'negative']"
+grace,grace,优雅 / 良好风度,Unclassified,E2_Appraisal (Stimulus/Service Attribute),8,True,Unmapped in NRC,positive,['positive']
+mindful,mindful,细心周到的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),8,True,Unmapped in NRC,positive,['positive']
+nerve,nerve,紧张神经,Unclassified,E1_E2_Candidate,8,True,Unmapped in NRC,positive,['positive']
+poorly,poorly,糟糕地 / 差劲地,Unclassified,E1_E2_Candidate,8,True,Unmapped in NRC,negative,['negative']
+shocked,shocked,感到震惊惊吓的,Surprise / Shock,E1_State (Direct Internal Affective State),8,False,Unmapped in NRC,Unmapped in NRC,[]
+spoiled,spoiled,好心情被破坏毁掉的,Unclassified,E1_State (Direct Internal Affective State),8,False,Unmapped in NRC,Unmapped in NRC,[]
+unstable,unstable,不稳定摇晃令人担心的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),8,True,"fear, surprise",negative,"['fear', 'negative', 'surprise']"
+yummy,yummy,美味愉悦的,Unclassified,E1_E2_Candidate,8,False,Unmapped in NRC,Unmapped in NRC,[]
+alas,alas,唉 / 遗憾的是,Unclassified,E1_E2_Candidate,7,False,Unmapped in NRC,Unmapped in NRC,[]
+captivated,captivated,被深深吸引着迷的,Unclassified,E1_State (Direct Internal Affective State),7,False,Unmapped in NRC,Unmapped in NRC,[]
+classy,classy,高端优雅的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),7,False,Unmapped in NRC,Unmapped in NRC,[]
+confusion,confusion,困惑 / 混乱,Unclassified,E1_E2_Candidate,7,True,"anger, fear",negative,"['anger', 'fear', 'negative']"
+curious,curious,好奇求知的,Unclassified,E1_State (Direct Internal Affective State),7,False,Unmapped in NRC,Unmapped in NRC,[]
+enthusiastically,enthusiastically,热情高涨地,Unclassified,E1_State (Direct Internal Affective State),7,False,Unmapped in NRC,Unmapped in NRC,[]
+exhilerating,exhilarating,令人兴奋刺激酣畅地（错别字变体）,Excitement,E2_Appraisal (Stimulus/Service Attribute),7,False,Unmapped in NRC,Unmapped in NRC,[]
+gushing,gushing,滔滔不绝赞赞称道的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),7,False,Unmapped in NRC,Unmapped in NRC,[]
+hesitating,hesitating,犹豫顾虑（心理活动）,Unclassified,E1_State (Direct Internal Affective State),7,False,Unmapped in NRC,Unmapped in NRC,[]
+hopeful,hopeful,怀抱希望的,Unclassified,E1_E2_Candidate,7,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+laughter,laughter,欢笑 / 笑声,Unclassified,E1_E2_Candidate,7,True,"anticipation, joy, surprise",positive,"['anticipation', 'joy', 'positive', 'surprise']"
+painful,painful,痛苦的 / 令人难受的,Unclassified,E1_E2_Candidate,7,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+panic,panic,恐慌 / 惊恐状态,Fear / Panic,E1_State (Direct Internal Affective State),7,True,fear,negative,"['fear', 'negative']"
+powerful,powerful,强烈的 / 感人的,Unclassified,E1_E2_Candidate,7,True,"anger, anticipation, disgust, fear, joy, trust",positive,"['anger', 'anticipation', 'disgust', 'fear', 'joy', 'positive', 'trust']"
+relieved,relieved,宽慰的 / 松了一口气,Unclassified,E1_State (Direct Internal Affective State),7,False,Unmapped in NRC,Unmapped in NRC,[]
+reputable,reputable,信誉良好的,Unclassified,E1_E2_Candidate,7,True,trust,positive,"['positive', 'trust']"
+ridiculous,ridiculous,荒谬的 / 离谱的,Unclassified,E1_E2_Candidate,7,True,"anger, disgust",negative,"['anger', 'disgust', 'negative']"
+rudely,rudely,粗鲁地 / 无礼地,Unclassified,E1_E2_Candidate,7,False,Unmapped in NRC,Unmapped in NRC,[]
+serenity,serenity,宁静 / 祥和,Unclassified,E1_E2_Candidate,7,True,"anticipation, joy, trust",positive,"['anticipation', 'joy', 'positive', 'trust']"
+strange,strange,怪异不安的,Unclassified,E1_E2_Candidate,7,False,Unmapped in NRC,Unmapped in NRC,[]
+suffered,suffered,遭受身体/晕眩痛苦,Unclassified,E1_State (Direct Internal Affective State),7,False,Unmapped in NRC,Unmapped in NRC,[]
+unhappy,unhappy,不高兴不满意的,Unclassified,E1_State (Direct Internal Affective State),7,True,"anger, disgust, sadness",negative,"['anger', 'disgust', 'negative', 'sadness']"
+unpleasant,unpleasant,令人不快令人难受的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),7,True,"disgust, sadness",negative,"['disgust', 'negative', 'sadness']"
+weird,weird,古怪令人不安的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),7,True,disgust,negative,"['disgust', 'negative']"
+worrying,worry,令人担心的,Anxiety / Worry,E2_Appraisal (Stimulus/Service Attribute),7,True,"anticipation, fear, sadness",negative,"['anticipation', 'fear', 'negative', 'sadness']"
+amaze,amaze,使惊叹 / 惊奇,Amazement,E2_Appraisal (Stimulus/Service Attribute),6,True,surprise,Unmapped in NRC,['surprise']
+appropriately,appropriately,恰当地 / 贴心地,Unclassified,E1_E2_Candidate,6,False,Unmapped in NRC,Unmapped in NRC,[]
+blind,blind,盲目的 / 视线受阻的,Unclassified,E1_E2_Candidate,6,True,Unmapped in NRC,negative,['negative']
+broad,broad,宽广的,Unclassified,E1_E2_Candidate,6,False,Unmapped in NRC,Unmapped in NRC,[]
+calmer,calmer,更平静安心的,Unclassified,E1_State (Direct Internal Affective State),6,False,Unmapped in NRC,Unmapped in NRC,[]
+casual,casual,随和轻松的,Unclassified,E1_E2_Candidate,6,False,Unmapped in NRC,Unmapped in NRC,[]
+discouraged,discouraged,感到灰心气馁的,Unclassified,E1_State (Direct Internal Affective State),6,False,Unmapped in NRC,Unmapped in NRC,[]
+enthralled,enthralled,被深深吸引迷住的,Unclassified,E1_State (Direct Internal Affective State),6,False,Unmapped in NRC,Unmapped in NRC,[]
+fascinated,fascinated,深深入迷为之倾倒的,Fascination,E1_State (Direct Internal Affective State),6,False,Unmapped in NRC,Unmapped in NRC,[]
+frightening,frightening,令人惊恐吓人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,False,Unmapped in NRC,Unmapped in NRC,[]
+gratitude,gratitude,感激 / 感恩,Unclassified,E1_E2_Candidate,6,True,joy,positive,"['joy', 'positive']"
+hug,hug,拥抱 / 温暖关怀,Unclassified,E1_E2_Candidate,6,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+inspirational,inspirational,鼓舞人心的,Unclassified,E1_E2_Candidate,6,False,Unmapped in NRC,Unmapped in NRC,[]
+jovial,jovial,欢快风趣的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,True,joy,positive,"['joy', 'positive']"
+precision,precision,精准靠谱的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,True,Unmapped in NRC,positive,['positive']
+reassurance,reassurance,令人放心的安抚感,Relief / Reassurance,E1_State (Direct Internal Affective State),6,True,trust,positive,"['positive', 'trust']"
+relief,relief,轻松如释重负感,Relief,E1_State (Direct Internal Affective State),6,True,Unmapped in NRC,positive,['positive']
+sublime,sublime,崇高壮丽绝美的（Aesthetic Emotion/Awe）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,False,Unmapped in NRC,Unmapped in NRC,[]
+timid,timid,胆怯害羞的,Fear / Nervousness,E1_State (Direct Internal Affective State),6,True,"fear, sadness",negative,"['fear', 'negative', 'sadness']"
+warmest,warmest,最暖心亲切的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),6,False,Unmapped in NRC,Unmapped in NRC,[]
+apprehension,apprehension,忧虑 / 疑虑不安,Anxiety / Fear,E1_State (Direct Internal Affective State),5,True,fear,negative,"['fear', 'negative']"
+comforted,comforted,感到安慰安心的,Comfort / Relief,E1_State (Direct Internal Affective State),5,False,Unmapped in NRC,Unmapped in NRC,[]
+envy,envy,羡慕 / 嫉妒,Envy,E1_State (Direct Internal Affective State),5,False,Unmapped in NRC,Unmapped in NRC,[]
+faultless,faultless,无可挑剔完美的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),5,True,trust,positive,"['positive', 'trust']"
+gloomy,gloomy,阴沉的 / 沮丧的,Unclassified,E1_E2_Candidate,5,True,sadness,negative,"['negative', 'sadness']"
+hated,hate,讨厌 / 极为憎恶的,Anger / Dislike,E1_State (Direct Internal Affective State),5,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+hates,hate,厌恶 / 讨厌,Anger / Dislike,E1_State (Direct Internal Affective State),5,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+intimidating,intimidating,令人胆怯令人畏惧的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),5,False,Unmapped in NRC,Unmapped in NRC,[]
+jitters,jitters,忐忑不安 / 紧张发抖感,Nervousness / Anxiety,E1_State (Direct Internal Affective State),5,False,Unmapped in NRC,Unmapped in NRC,[]
+joyful,joyful,充满喜悦欢快的,Unclassified,E1_State (Direct Internal Affective State),5,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+luscious,luscious,秀美令人心旷神怡的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),5,True,"anticipation, joy",positive,"['anticipation', 'joy', 'positive']"
+marveled,marvel,惊叹赞赏的,Wonder / Awe,E1_State (Direct Internal Affective State),5,True,surprise,positive,"['positive', 'surprise']"
+overwhelmingly,overwhelmingly,压倒性震撼地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),5,False,Unmapped in NRC,Unmapped in NRC,[]
+pity,pity,遗憾 / 同情怜悯,Pity / Sadness,E1_State (Direct Internal Affective State),5,True,sadness,Unmapped in NRC,['sadness']
+scare,scare,吓人 / 引发恐慌的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),5,True,"anger, anticipation, fear, surprise",negative,"['anger', 'anticipation', 'fear', 'negative', 'surprise']"
+shock,shock,震惊 / 冲击,Surprise / Shock,E1_State (Direct Internal Affective State),5,True,"anger, fear, surprise",negative,"['anger', 'fear', 'negative', 'surprise']"
+stressful,stressful,令人压力重重焦虑的（Stress/Anxiety State）,Unclassified,E1_State (Direct Internal Affective State),5,False,Unmapped in NRC,Unmapped in NRC,[]
+suprise,surprise,惊喜 / 意料之外（错别字变体）,Surprise,E1_State (Direct Internal Affective State),5,True,"fear, joy, surprise",positive,"['fear', 'joy', 'positive', 'surprise']"
+wowed,wowed,被深深惊叹震撼的,Amazement / Awe,E1_State (Direct Internal Affective State),5,False,Unmapped in NRC,Unmapped in NRC,[]
+captivating,captivating,扣人心弦引人入胜的,Fascination / Awe,E2_Appraisal (Stimulus/Service Attribute),4,True,Unmapped in NRC,positive,['positive']
+disconcerting,disconcerting,令人不安的,Unclassified,E1_E2_Candidate,4,False,Unmapped in NRC,Unmapped in NRC,[]
+dreaded,dread,令人害怕恐惧的 / 提心吊胆,Fear / Dread,E1_State (Direct Internal Affective State),4,True,"anticipation, fear",negative,"['anticipation', 'fear', 'negative']"
+dreading,dread,感到十分恐惧担心的,Fear / Dread,E1_State (Direct Internal Affective State),4,True,"anticipation, fear",negative,"['anticipation', 'fear', 'negative']"
+embarrassed,embarrassed,感到尴尬难堪的,Unclassified,E1_State (Direct Internal Affective State),4,False,Unmapped in NRC,Unmapped in NRC,[]
+emotion,emotion,情感 / 情绪,Unclassified,E1_E2_Candidate,4,False,Unmapped in NRC,Unmapped in NRC,[]
+exhilarated,exhilarated,感到无比兴奋酣畅的,Excitement / Joy,E1_State (Direct Internal Affective State),4,False,Unmapped in NRC,Unmapped in NRC,[]
+frustrated,frustrated,感到沮丧的 / 挫败的,Unclassified,E1_State (Direct Internal Affective State),4,True,anger,negative,"['anger', 'negative']"
+giddy,giddy,兴奋得头晕目眩欢欣的,Excitement / Joy,E1_State (Direct Internal Affective State),4,False,Unmapped in NRC,Unmapped in NRC,[]
+hungry,hungry,贪婪的（money hungry）,Unclassified,E1_E2_Candidate,4,True,anticipation,negative,"['anticipation', 'negative']"
+irritated,irritated,感到恼火烦躁的,Unclassified,E1_State (Direct Internal Affective State),4,False,Unmapped in NRC,Unmapped in NRC,[]
+irritating,irritating,令人烦躁恼火的,Annoyance / Irritation,E2_Appraisal (Stimulus/Service Attribute),4,True,"anger, disgust",negative,"['anger', 'disgust', 'negative']"
+nasty,nasty,令人厌恶的 / 恶劣的,Unclassified,E1_E2_Candidate,4,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+ominous,ominous,不详的 / 不妙的,Unclassified,E1_E2_Candidate,4,True,"anticipation, fear",negative,"['anticipation', 'fear', 'negative']"
+peacefulness,peacefulness,宁静详和感,Calm / Serenity,E1_State (Direct Internal Affective State),4,False,Unmapped in NRC,Unmapped in NRC,[]
+phobia,phobia,恐惧症 / 恐高心理,Fear,E1_State (Direct Internal Affective State),4,False,Unmapped in NRC,Unmapped in NRC,[]
+pleasing,pleasing,令人愉悦满意的,Pleasure / Satisfaction,E2_Appraisal (Stimulus/Service Attribute),4,False,Unmapped in NRC,Unmapped in NRC,[]
+profound,profound,深刻震撼的,Unclassified,E1_E2_Candidate,4,False,Unmapped in NRC,Unmapped in NRC,[]
+regretting,regret,感到后悔遗憾的,Regret,E1_State (Direct Internal Affective State),4,True,sadness,negative,"['negative', 'sadness']"
+spellbinding,spellbinding,扣人心弦迷人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),4,False,Unmapped in NRC,Unmapped in NRC,[]
+spellbound,spellbound,出神为之入迷的,Fascination / Awe,E1_State (Direct Internal Affective State),4,False,Unmapped in NRC,Unmapped in NRC,[]
+stoked,stoked,极为激动期待的,Excitement,E1_State (Direct Internal Affective State),4,False,Unmapped in NRC,Unmapped in NRC,[]
+subtle,subtle,微妙精细的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),4,False,Unmapped in NRC,Unmapped in NRC,[]
+suprised,surprised,感到惊喜惊讶的（错别字变体）,Surprise,E1_State (Direct Internal Affective State),4,True,surprise,Unmapped in NRC,['surprise']
+thrills,thrills,刺激 / 快感,Unclassified,E1_E2_Candidate,4,False,Unmapped in NRC,Unmapped in NRC,[]
+tranquil,tranquil,清幽宁静的（Calmness/Serenity State）,Unclassified,E1_State (Direct Internal Affective State),4,True,joy,positive,"['joy', 'positive']"
+tranquility,tranquility,宁静 / 平和,Unclassified,E1_E2_Candidate,4,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+underwhelmed,underwhelmed,大失所望未达预期的,Disappointment,E1_State (Direct Internal Affective State),4,False,Unmapped in NRC,Unmapped in NRC,[]
+unfair,unfair,不公平的 / 冤枉的,Unclassified,E1_E2_Candidate,4,True,"anger, disgust, sadness",negative,"['anger', 'disgust', 'negative', 'sadness']"
+unfriendly,unfriendly,不友善的,Unclassified,E1_E2_Candidate,4,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+unnerving,unnerving,令人发慌不安吓人的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),4,False,Unmapped in NRC,Unmapped in NRC,[]
+wicked,wicked,太棒了 / 绝妙的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),4,True,fear,negative,"['fear', 'negative']"
+wildest,wildest,最疯狂的（狂想）,Unclassified,E1_E2_Candidate,4,False,Unmapped in NRC,Unmapped in NRC,[]
+aggressively,aggressively,挑衅攻击地 / 极其恶劣地,Unclassified,E1_E2_Candidate,3,False,Unmapped in NRC,Unmapped in NRC,[]
+ambivalent,ambivalent,矛盾复杂心理的,Mixed Emotion,E1_State (Direct Internal Affective State),3,False,Unmapped in NRC,Unmapped in NRC,[]
+apprehensions,apprehension,顾虑 / 忧虑不安,Anxiety / Fear,E1_State (Direct Internal Affective State),3,True,fear,negative,"['fear', 'negative']"
+aprehensive,apprehensive,感到忧虑不安的（错别字变体）,Anxiety / Fear,E1_State (Direct Internal Affective State),3,True,"anticipation, fear",negative,"['anticipation', 'fear', 'negative']"
+astonished,astonished,感到十分惊异惊叹的,Amazement / Surprise,E1_State (Direct Internal Affective State),3,False,Unmapped in NRC,Unmapped in NRC,[]
+astounded,astounded,感到十分震惊震撼的,Amazement,E1_State (Direct Internal Affective State),3,False,Unmapped in NRC,Unmapped in NRC,[]
+beneficial,beneficial,有益的 / 有帮助的,Unclassified,E1_E2_Candidate,3,True,Unmapped in NRC,positive,['positive']
+candid,candid,坦率真诚的,Unclassified,E1_E2_Candidate,3,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+carefree,carefree,无忧无虑自在的,Unclassified,E1_State (Direct Internal Affective State),3,False,Unmapped in NRC,Unmapped in NRC,[]
+cheer,cheer,振奋 / 欢呼,Unclassified,E1_E2_Candidate,3,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+compassion,compassion,同理心 / 关切,Compassion,E1_State (Direct Internal Affective State),3,True,fear,positive,"['fear', 'positive']"
+compassionate,compassionate,富有同理心体贴的,Compassion,E2_Appraisal (Stimulus/Service Attribute),3,True,Unmapped in NRC,positive,['positive']
+curiosity,curiosity,好奇心 / 探索欲,Unclassified,E1_State (Direct Internal Affective State),3,True,"anticipation, surprise",positive,"['anticipation', 'positive', 'surprise']"
+daunting,daunting,令人望而生畏胆怯的,Fear / Anxiety,E2_Appraisal (Stimulus/Service Attribute),3,False,Unmapped in NRC,Unmapped in NRC,[]
+dazzled,dazzled,目眩神迷震撼的,Amazement / Awe,E1_State (Direct Internal Affective State),3,False,Unmapped in NRC,Unmapped in NRC,[]
+deaf,deaf,听而不闻冷漠的（fell on deaf ears）,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3,True,Unmapped in NRC,negative,['negative']
+disappointingly,disappointed,令人失望地,Disappointment,E2_Appraisal (Stimulus/Service Attribute),3,True,"anger, disgust, sadness",negative,"['anger', 'disgust', 'negative', 'sadness']"
+dissatisfied,dissatisfied,感到不满意的,Disappointment / Dissatisfaction,E1_State (Direct Internal Affective State),3,False,Unmapped in NRC,Unmapped in NRC,[]
+dreaming,dreaming,梦寐以求 / 心驰神往,Unclassified,E1_State (Direct Internal Affective State),3,False,Unmapped in NRC,Unmapped in NRC,[]
+ecstasy,ecstasy,狂喜 / 极乐状态,Intense Joy,E1_State (Direct Internal Affective State),3,True,"anticipation, joy",positive,"['anticipation', 'joy', 'positive']"
+guilty,guilty,内疚内疚感,Guilt,E1_State (Direct Internal Affective State),3,True,"anger, sadness",negative,"['anger', 'negative', 'sadness']"
+happiness,happiness,幸福快乐感,Unclassified,E1_State (Direct Internal Affective State),3,True,"anticipation, joy",positive,"['anticipation', 'joy', 'positive']"
+harrowing,harrowing,令人触目惊心惊恐的,Fear / Dread,E2_Appraisal (Stimulus/Service Attribute),3,True,fear,negative,"['fear', 'negative']"
+heartfelt,heartfelt,真挚的 / 出自内心的,Unclassified,E1_E2_Candidate,3,True,"joy, sadness, trust",positive,"['joy', 'positive', 'sadness', 'trust']"
+horribly,horrible,糟糕恐怖地,Disgust / Distress,E2_Appraisal (Stimulus/Service Attribute),3,True,Unmapped in NRC,negative,['negative']
+incomprehensible,incomprehensible,难以理解令人困惑的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3,True,Unmapped in NRC,negative,['negative']
+indulge,indulge,尽情享受 / 犒劳自己,Unclassified,E1_State (Direct Internal Affective State),3,False,Unmapped in NRC,Unmapped in NRC,[]
+joking,joking,开玩笑的,Unclassified,E1_E2_Candidate,3,True,Unmapped in NRC,positive,['positive']
+marvelously,marvelously,奇妙极其出色地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3,True,joy,positive,"['joy', 'positive']"
+overjoyed,overjoyed,欣喜若狂的,Joy,E1_State (Direct Internal Affective State),3,True,joy,positive,"['joy', 'positive']"
+peacefully,peacefully,宁静和平地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3,False,Unmapped in NRC,Unmapped in NRC,[]
+reassure,reassure,使人感到安心放心的,Relief / Reassurance,E2_Appraisal (Stimulus/Service Attribute),3,True,trust,positive,"['positive', 'trust']"
+remorse,remorse,懊悔 / 悔恨,Regret / Guilt,E1_State (Direct Internal Affective State),3,True,sadness,negative,"['negative', 'sadness']"
+rickety,rickety,摇摇欲坠的,Unclassified,E1_E2_Candidate,3,True,Unmapped in NRC,negative,['negative']
+scaring,scare,使人害怕恐惧的,Fear,E2_Appraisal (Stimulus/Service Attribute),3,True,"anger, anticipation, fear, surprise",negative,"['anger', 'anticipation', 'fear', 'negative', 'surprise']"
+securely,securely,安全平稳地,Unclassified,E2_Appraisal (Stimulus/Service Attribute),3,False,Unmapped in NRC,Unmapped in NRC,[]
+sickening,sickening,令人作呕恶心的,Disgust,E2_Appraisal (Stimulus/Service Attribute),3,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+spoilt,spoilt,被破坏败兴的,Unclassified,E1_E2_Candidate,3,False,Unmapped in NRC,Unmapped in NRC,[]
+sympathy,sympathy,同情 / 体谅,Sympathy,E1_State (Direct Internal Affective State),3,True,sadness,positive,"['positive', 'sadness']"
+uneasiness,uneasiness,不安 / 忐忑感,Anxiety,E1_State (Direct Internal Affective State),3,True,"anticipation, sadness",negative,"['anticipation', 'negative', 'sadness']"
+unsettled,unsettled,心神不宁忐忑的,Uneasiness / Anxiety,E1_State (Direct Internal Affective State),3,True,"anger, disgust, fear",negative,"['anger', 'disgust', 'fear', 'negative']"
+agreeable,agreeable,宜人的 / 令人满意的,Unclassified,E1_E2_Candidate,2,True,trust,positive,"['positive', 'trust']"
+animated,animated,生动的 / 活力充沛的,Unclassified,E1_E2_Candidate,2,True,joy,positive,"['joy', 'positive']"
+bothering,bothering,打扰令人烦心的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2,True,"anger, sadness",negative,"['anger', 'negative', 'sadness']"
+clever,clever,聪明睿智的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2,True,Unmapped in NRC,positive,['positive']
+compliant,compliant,顺从的 / 合规安心的,Unclassified,E1_E2_Candidate,2,True,Unmapped in NRC,positive,['positive']
+darling,darling,可爱的 / 亲切的,Unclassified,E1_E2_Candidate,2,True,"joy, trust",positive,"['joy', 'positive', 'trust']"
+desperate,desperate,感到绝望迫切的,Unclassified,E1_State (Direct Internal Affective State),2,True,Unmapped in NRC,negative,['negative']
+exhausting,exhausting,令人筋疲力尽的,Fatigue / Exhaustion,E2_Appraisal (Stimulus/Service Attribute),2,False,Unmapped in NRC,Unmapped in NRC,[]
+favourable,favourable,有利的 / 良好的,Unclassified,E1_E2_Candidate,2,False,Unmapped in NRC,Unmapped in NRC,[]
+humility,humility,谦逊贴心,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2,True,trust,positive,"['positive', 'trust']"
+offensive,offensive,冒犯的 / 令人不适的,Unclassified,E1_E2_Candidate,2,True,"anger, disgust",negative,"['anger', 'disgust', 'negative']"
+positively,positively,积极正面地,Unclassified,E1_E2_Candidate,2,False,Unmapped in NRC,Unmapped in NRC,[]
+primo,primo,一流的 / 顶级的,Unclassified,E1_E2_Candidate,2,False,Unmapped in NRC,Unmapped in NRC,[]
+pumped,pumped,兴奋激动的 / 跃跃欲试,Unclassified,E1_State (Direct Internal Affective State),2,False,Unmapped in NRC,Unmapped in NRC,[]
+rigid,rigid,刻板不近人情的,Unclassified,E1_E2_Candidate,2,True,Unmapped in NRC,negative,['negative']
+squeamish,squeamish,胆怯恶心体质易受惊的,Unclassified,E1_State (Direct Internal Affective State),2,True,"disgust, fear",negative,"['disgust', 'fear', 'negative']"
+suffering,suffering,受苦受难不适,Unclassified,E1_State (Direct Internal Affective State),2,True,"disgust, fear, sadness",negative,"['disgust', 'fear', 'negative', 'sadness']"
+threaten,threaten,受到威胁/令人不安的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),2,True,"anger, anticipation, fear",negative,"['anger', 'anticipation', 'fear', 'negative']"
+askance,askance,怀疑斜视地（不信任）,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+bluest,bluest,最湛蓝的（极致景色）,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+bluntly,bluntly,直言不讳地,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+decency,decency,礼貌体面 / 服务缺乏礼貌体面,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1,True,Unmapped in NRC,positive,['positive']
+dismay,dismay,感到沮丧吃惊,Disappointment / Distress,E1_State (Direct Internal Affective State),1,True,"anger, anticipation, fear, sadness, surprise",negative,"['anger', 'anticipation', 'fear', 'negative', 'sadness', 'surprise']"
+disrespectful,disrespectful,无礼的 / 冒犯的,Unclassified,E1_E2_Candidate,1,True,"anger, disgust, fear, sadness",negative,"['anger', 'disgust', 'fear', 'negative', 'sadness']"
+flaky,flaky,不靠谱的 / 经常取消的,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+gloom,gloom,阴郁忧伤,Sadness / Gloom,E1_State (Direct Internal Affective State),1,True,sadness,negative,"['negative', 'sadness']"
+grandest,grandest,最宏大的 / 极其壮丽的,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+grumpy,grumpy,脾气暴躁的 / 不悦的,Unclassified,E1_E2_Candidate,1,True,"anger, disgust, sadness",negative,"['anger', 'disgust', 'negative', 'sadness']"
+harsh,harsh,严酷恶劣的,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+hazardous,hazardous,危险的 / 有隐患的,Unclassified,E1_E2_Candidate,1,True,fear,negative,"['fear', 'negative']"
+hostile,hostile,敌意的 / 恶劣的,Unclassified,E1_E2_Candidate,1,True,"anger, disgust, fear",negative,"['anger', 'disgust', 'fear', 'negative']"
+immeasurable,immeasurable,无法估量的 / 极致的,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+miraculously,miraculously,奇迹般地,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+quell,quell,镇定 / 平息（恐惧）,Unclassified,E1_State (Direct Internal Affective State),1,True,Unmapped in NRC,negative,['negative']
+racist,racist,种族歧视的,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+regrettably,regrettably,遗憾地 / 抱歉,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1,False,Unmapped in NRC,Unmapped in NRC,[]
+reward,reward,赏心悦目的奖赏体验,Unclassified,E1_State (Direct Internal Affective State),1,True,"anticipation, joy, surprise, trust",positive,"['anticipation', 'joy', 'positive', 'surprise', 'trust']"
+shady,shady,可疑不诚信的,Unclassified,E1_E2_Candidate,1,True,fear,negative,"['fear', 'negative']"
+truthful,truthful,真实可信的,Unclassified,E1_E2_Candidate,1,True,trust,Unmapped in NRC,['trust']
+ungodly,ungodly,糟糕恶劣的,Unclassified,E1_E2_Candidate,1,True,sadness,negative,"['negative', 'sadness']"
+unwell,unwell,身体不适的,Unclassified,E1_E2_Candidate,1,True,sadness,negative,"['negative', 'sadness']"
+wasbeautiful,wasbeautiful,美丽动人的（美感）,Unclassified,E1_E2_Candidate,1,False,Unmapped in NRC,Unmapped in NRC,[]
+whelmed,whelmed,被深深震撼淹没的,Unclassified,E1_State (Direct Internal Affective State),1,False,Unmapped in NRC,Unmapped in NRC,[]
+worthful,worthful,物有所值的,Unclassified,E2_Appraisal (Stimulus/Service Attribute),1,False,Unmapped in NRC,Unmapped in NRC,[]
+zing,zing,刺激快感,Unclassified,E1_State (Direct Internal Affective State),1,False,Unmapped in NRC,Unmapped in NRC,[]

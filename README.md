@@ -381,3 +381,24 @@ python run_data_pipeline.py
 # Step 2: Generate figures and extract N-gram frequency tables
 python run_analysis_and_plots.py
 ```
+
+### 📊 7. NRC Emotion Lexicon Mapping & Comparative Audit ($N=632$ Words)
+
+To validate the theoretical superiority of our **Corpus-Derived Gold Emotion Lexicon** over generic off-the-shelf lexicons, we mapped all **632 Master Gold Emotion Terms** against the **NRC Emotion Lexicon** (Mohammad & Turney):
+
+![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
+
+#### Key Empirical Findings & NRC Lexicon Gaps:
+1. **Low Coverage Rate of Generic Lexicons (43.35% Miss Rate)**:
+   - Out of 632 domain-specific Gold Emotion terms, **NRC Lexicon only covers 358 words (56.65%)**.
+   - **274 words (43.35%) are completely MISSED by NRC**, including critical high-frequency low-altitude air tourism emotions: *amazing* (6,251 mentions), *awesome* (2,530 mentions), *fantastic* (2,026 mentions), *incredible* (1,612 mentions), *breathtaking* (1,346 mentions), *stunning* (552 mentions), *unforgettable* (459 mentions), and *awe* (304 mentions).
+
+2. **NRC 8 Basic Emotions Distribution across Gold Lexicon**:
+   - **Joy**: 119 words (18.83%)
+   - **Trust**: 93 words (14.72%)
+   - **Anticipation**: 79 words (12.50%)
+   - **Fear**: 75 words (11.87%)
+   - **Sadness**: 72 words (7.28%)
+   - **Surprise**: 69 words (10.92%)
+   - **Anger**: 53 words (8.39%)
+   - **Disgust**: 46 words (7.28%)
