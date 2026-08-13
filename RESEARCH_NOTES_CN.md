@@ -90,7 +90,8 @@
 ##### 1️⃣ 错别字归一化与形态变体映射协议 (`canonical_lemma`)
 针对游客评论中约 0.8% 的拼写错误与形态变体，建立标准化字典词根双索引映射 (`word` $\rightarrow$ `canonical_lemma`)：
 - **错别字归一化**：`suprised` (4次) $\rightarrow$ `surprised`、`suprise` (5次) $\rightarrow$ `surprise`、`exhilerating` (7次) $\rightarrow$ `exhilarating`、`aprehensive` (3次) $\rightarrow$ `apprehensive`、`dissapointed` (8次) $\rightarrow$ `disappointed`、`wonderfull` (10次) $\rightarrow$ `wonderful`。
-- **形态变体归一化**：`worries` (38次) $\rightarrow$ `worry`、`surprises` (21次) $\rightarrow$ `surprise`、`cherished` (8次) $\rightarrow$ `cherish`、`hates` (5次) $\rightarrow$ `hate`、`dreaded` (4次) $\rightarrow$ `dread`、`scariest` $ightarrow$ `scary`。
+- **形态变体归一化**：`worries` (38次) $\rightarrow$ `worry`、`surprises` (21次) $\rightarrow$ `surprise`、`cherished` (8次) $\rightarrow$ `cherish`、`hates` (5次) $\rightarrow$ `hate`、`dreaded` (4次) $\rightarrow$ `dread`、`scariest` $
+ightarrow$ `scary`。
 
 ##### 2️⃣ 保留项法则：Master 金标准代码本 (630 个纯正情感实词)
 - **体验者直接心理情绪 ($E_1$)**：游客内部心理状态（*nervous, afraid, scared, terrified, worried, claustrophobia, jitters, relief, happy, thrilled, exhilarated, tranquil, calming, annoying, stressful*）。
@@ -144,30 +145,30 @@ $$\text{Master 金标准代码本 (630)} \cap \text{Master 剔除词日志 (8,09
 
 ## 📊 第二阶段：通用词典套入对比实验与 NRC 理论框架归类分析 (数据分析阶段)
 
-在 **第二阶段数据分析**（主要在 `data/analyze/` 目录下完成）中，我们将定稿的 **630 个 Master 金标准情感实词** 全量套入经典的 **NRC Emotion Lexicon**（Mohammad & Turney）中进行了对比映射与理论归类。
+在 **第二阶段数据分析**（主要在 `data/analyze/` 目录下完成）中，我们将定稿的 **630 个 Master 金标准情感实词** (`data/analyze/gold_emotion_master.csv`) 全量套入经典的 **NRC Emotion Lexicon v0.92**（包含 14,182 个官方词汇宇宙）中进行了对比映射与理论归类。
 
 ![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
 
-### 1. NRC 理论框架归类分析与结构分布 ($N=630$ 个金标准词)
+---
 
-```text
-Master 金标准情感代码本 (全量 N = 630 个词)
-│
-├── 1️⃣ 开启词根归一化比对 (Lemma Normalized Match) ── 286 词 (45.40%) ⭐ (学术推荐使用)
-│       (将复数、分词与错别字变体还原为字典词根后再比对，救回了 17 个真正具备 8 大情绪的词！)
-│
-├── 2️⃣ 只有 Positive / Negative 极性标记的词 ───────── 72 词 (11.43%)
-│       (如: worth, interesting, cool, calm, fortunate, grateful, pristine)
-│
-└── 3️⃣ 完全不在 NRC 词库里的领域专属词 ───────────── 272 词 (43.17%)
-        (如: great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
-```
+### 1. 第二阶段代码目录、审计脚本与导出文件直达链接
 
-$$\text{全量金标准代码本 (630)} = 286 \text{ (8大情绪)} + 72 \text{ (仅正负极性)} + 272 \text{ (都不在 NRC)}$$
+第二阶段的所有计算脚本、导出的 CSV/Excel 表格及绘图产物均严谨地存储于项目中：
+
+| 核心文件与脚本名称 | 文件相对路径 | 脚本与文件的具体功能用途 | 直达链接 |
+| :--- | :--- | :--- | :---: |
+| **输入代码本主文件** | `data/analyze/gold_emotion_master.csv` | 包含全部 630 个 Master 金标准情感词及 `canonical_lemma` 映射的基础表。 | 👉 [`gold_emotion_master.csv`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/gold_emotion_master.csv) |
+| **树状归类校验脚本** | `scratch/audit_gold_630_nrc_tree.py` | **核心可执行 Python 校验脚本**，运行即得出 286 / 72 / 358 / 272 精确数据。 | 👉 [`audit_gold_630_nrc_tree.py`](file:///Users/yuliangpeng/Desktop/Low-Altitude/scratch/audit_gold_630_nrc_tree.py) |
+| **全量 NRC 归类合并表** | `data/analyze/gold_emotion_nrc_combined.xlsx` | 包含 630 个金标准词映射 NRC 8 大情绪及正负极性标签的全量合并表格。 | 👉 [`gold_emotion_nrc_combined.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/gold_emotion_nrc_combined.xlsx) |
+| **NRC 已收录词汇表** | `data/analyze/nrc_words_included.xlsx` | 导出的 NRC 覆盖的 **358 个词汇表**（包含 286 个 8-Emotion 词 + 72 个极性词）。 | 👉 [`nrc_words_included.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/nrc_words_included.xlsx) |
+| **NRC 彻底遗漏词汇表** | `data/analyze/nrc_words_missed.xlsx` | 导出的 NRC 彻底遗漏的 **272 个领域专属情感词表**（按词频排序）。 | 👉 [`nrc_words_missed.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/nrc_words_missed.xlsx) |
+| **VADER-NRC 散点图** | `data/analyze/master_gold_vader_nrc_scatter.png` | 630 个金标准词在 VADER 情感极性与游客星级评分维度下的学术散点图。 | 👉 [`master_gold_vader_nrc_scatter.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/master_gold_vader_nrc_scatter.png) |
 
 ---
 
-### 2. 双层匹配代码逻辑：原始字符串匹配 (Raw Match) vs. 词根归一化匹配 (Canonical Lemma Match)
+### 2. 计算步骤、Python 代码实现与复现命令
+
+运行脚本 [`scratch/audit_gold_630_nrc_tree.py`](file:///Users/yuliangpeng/Desktop/Low-Altitude/scratch/audit_gold_630_nrc_tree.py) 可一步直接复现核心数据：
 
 ```python
 import pandas as pd
@@ -178,12 +179,51 @@ df_gold = pd.read_csv("data/analyze/gold_emotion_master.csv")
 nrc_dict = NRCLex().__lexicon__
 NRC8 = {"anger", "anticipation", "disgust", "fear", "joy", "sadness", "surprise", "trust"}
 
-# 2. 原始字符串匹配 (Raw Exact String Match)
-raw_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
+cnt_8_emotion = 0
+cnt_polarity_only = 0
+cnt_missed = 0
 
-# 3. 开启 canonical_lemma 词根归一化匹配 (Canonical Lemma Match)
-lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.canonical_lemma).lower().strip(), [])) & NRC8) > 0 or len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
+# 2. 遍历 630 个词，结合 canonical_lemma 进行映射计算
+for row in df_gold.itertuples():
+    w = str(row.word).lower().strip()
+    lemma = str(row.canonical_lemma).lower().strip()
+    nrc_tags = nrc_dict.get(w, []) or nrc_dict.get(lemma, [])
+    
+    if len(set(nrc_tags) & NRC8) > 0:
+        cnt_8_emotion += 1        # 类别 1: 包含 NRC 8 大情绪至少一种 -> 286 个词 (45.40%)
+    elif len(nrc_tags) > 0:
+        cnt_polarity_only += 1    # 类别 2: 无 8 大情绪，但包含正负极性 -> 72 个词 (11.43%)
+    else:
+        cnt_missed += 1           # 类别 3: 完全不在 NRC 词库中 -> 272 个词 (43.17%)
+
+cnt_covered_total = cnt_8_emotion + cnt_polarity_only  # NRC 词库收录总数 -> 358 个词 (56.83%)
 ```
+
+---
+
+### 3. NRC 理论框架归类分析与结构分布 ($N=630$ 个金标准词)
+
+```text
+Master 金标准情感代码本 (全量 N = 630 个词)
+│
+├── 1️⃣ 能够在 NRC 词库中找到的总词数 (Covered in NRC Vocabulary) ──── 358 词 (56.83%)
+│   │
+│   ├── 1a. 能够映射到 8 大 Emotion 情绪分类的词 ──────────────── 286 词 (45.40%) ⭐ (推荐使用)
+│   │       (如: beautiful, friendly, wonderful, happy, nervous, disappointed)
+│   │
+│   └── 1b. 只有 Positive / Negative 极性标记的词 ────────────── 72 词 (11.43%)
+│           (如: worth, interesting, cool, calm, fortunate, grateful, pristine)
+│
+└── 2️⃣ 完全不在 NRC 词库里的领域专属词 (Completely Missed by NRC) ────── 272 词 (43.17%)
+        (如: great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
+```
+
+$$\text{NRC 词库收录总数 (358)} = 286 \text{ (8大情绪)} + 72 \text{ (仅正负极性)}$$
+$$\text{全量金标准代码本 (630)} = 358 \text{ (NRC 收录总数)} + 272 \text{ (都不在 NRC)}$$
+
+---
+
+### 4. 双层匹配代码逻辑：原始字符串匹配 (Raw Match) vs. 词根归一化匹配 (Canonical Lemma Match)
 
 | 匹配协议维度 | NRC 8 大情绪匹配词数 | 仅正负极性词数 | 彻底遗漏词数 | 代码本总词数 | 方法论对比结论 |
 | :--- | :---: | :---: | :---: | :---: | :--- |
@@ -192,7 +232,7 @@ lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.
 
 ---
 
-### 3. 通过 `canonical_lemma` 词根归一化协议救回的 17 个核心情感词
+### 5. 通过 `canonical_lemma` 词根归一化协议救回的 17 个核心情感词
 
 | 游客原始评论词 (`word`) | 归一化字典词根 (`canonical_lemma`) | 21,215 词频 | 被 NRC 提取出的真实 8 大情绪标签 | 为什么 Raw Match 会漏掉？ |
 | :--- | :--- | :---: | :--- | :--- |
@@ -216,7 +256,7 @@ lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.
 
 ---
 
-### 4. NRC 通用词典发生遗漏的 4 大根本原因审定 ($N=272$ 个遗漏词)
+### 6. NRC 通用词典发生遗漏的 4 大根本原因审定 ($N=272$ 个遗漏词)
 
 1. **原因 1：静态词典对现代语法形态变体（Morphological Variants）补全严重不足 (占比 50.00%)**：
    - **分词形式 (-ing / -ed)**：78 个词 (28.68%)。如 *amazing, loved, breathtaking, stunning, impressed, inspiring, relaxed, scared, thrilling*.
@@ -237,7 +277,7 @@ lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.
 
 ---
 
-### 5. Master 金标准代码本 VADER 极性 vs. 游客星级散点图 (0.0 to 5.0 Stars)
+### 7. Master 金标准代码本 VADER 极性 vs. 游客星级散点图 (0.0 to 5.0 Stars)
 
 ![Master Gold VADER NRC Scatter Plot](data/analyze/master_gold_vader_nrc_scatter.png)
 

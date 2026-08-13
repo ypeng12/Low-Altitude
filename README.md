@@ -262,57 +262,96 @@ python3 run_data_pipeline.py
 python3 run_incongruence_econometrics.py
 ```
 
-## 📊 Stage 2: Generic Lexicon Audit & NRC Framework Classification (Data Analysis & Comparative Audit)
+## 📊 Stage 2: Generic Lexicon Audit & NRC Framework Classification (Data Analysis & Reproducibility)
 
-In **Stage 2 Data Analysis** (conducted in `data/analyze/`), we mapped our **630 Master Gold Emotion Terms** against the **NRC Emotion Lexicon** (Mohammad & Turney) to evaluate generic lexicon coverage gaps and categorize our domain codebook under the NRC theoretical framework.
+In **Stage 2 Data Analysis** (conducted in `data/analyze/`), we mapped our **630 Master Gold Emotion Terms** (`data/analyze/gold_emotion_master.csv`) against the **NRC Emotion Lexicon v0.92** (14,182 vocabulary universe) to evaluate generic lexicon coverage gaps and categorize our domain codebook under the NRC theoretical framework.
 
 ![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
 
-### 1. NRC Theoretical Framework Classification & Structural Breakdown ($N=630$ Words)
+---
 
-```text
-Master Gold Emotion Codebook (N = 630 Words)
-│
-├── 1️⃣ Mapped to NRC 8-Emotion Categories ────────── 286 words (45.40%) ⭐ (Recommended)
-│       (via Canonical Lemma Normalization, rescuing 17 inflected/typo words)
-│
-├── 2️⃣ Mapped to Positive/Negative Polarity Only ─── 72 words (11.43%)
-│       (e.g., worth, interesting, cool, calm, fortunate, pristine)
-│
-└── 3️⃣ Completely MISSED by NRC Lexicon ────────── 272 words (43.17%)
-        (e.g., great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
-```
+### 1. File Directory, Script Locations & Direct Artifact Links
 
-$$\text{Total Master Gold Codebook (630)} = 286 \text{ (8-Emotions)} + 72 \text{ (Polarity Only)} + 272 \text{ (NRC Misses)}$$
+All scripts and derived outputs for Stage 2 are transparently stored in the repository:
+
+| Stage 2 Core Component | File Path / Command | Description & Operational Purpose | Direct Link |
+| :--- | :--- | :--- | :---: |
+| **Input Master Gold Codebook** | `data/analyze/gold_emotion_master.csv` | Primary input file containing all 630 Master Gold Emotion Terms with `canonical_lemma` mapping. | 👉 [`gold_emotion_master.csv`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/gold_emotion_master.csv) |
+| **Audit Verification Script** | `scratch/audit_gold_630_nrc_tree.py` | Executable python audit script that reads NRC lexicon and calculates the exact 3-level tree breakdown. | 👉 [`audit_gold_630_nrc_tree.py`](file:///Users/yuliangpeng/Desktop/Low-Altitude/scratch/audit_gold_630_nrc_tree.py) |
+| **Full NRC Combined Output** | `data/analyze/gold_emotion_nrc_combined.xlsx` | Combined dataset merging 630 Gold words with NRC 8-emotion tags and polarity labels. | 👉 [`gold_emotion_nrc_combined.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/gold_emotion_nrc_combined.xlsx) |
+| **NRC Included Words Table** | `data/analyze/nrc_words_included.xlsx` | Exported Excel table containing **358 words** covered by NRC (286 8-emotion + 72 polarity). | 👉 [`nrc_words_included.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/nrc_words_included.xlsx) |
+| **NRC Missed Words Table** | `data/analyze/nrc_words_missed.xlsx` | Exported Excel table containing **272 words** completely missed by NRC lexicon. | 👉 [`nrc_words_missed.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/nrc_words_missed.xlsx) |
+| **VADER-NRC Scatter Plot** | `data/analyze/master_gold_vader_nrc_scatter.png` | Scatter plot visualization mapping 630 Gold words across VADER valence vs. star ratings. | 👉 [`master_gold_vader_nrc_scatter.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/master_gold_vader_nrc_scatter.png) |
 
 ---
 
-### 2. Dual-Layer Matching Protocol: Raw Exact Match vs. Canonical Lemma Match
+### 2. Step-by-Step Calculation Logic & Python Implementation
+
+To obtain the exact numbers (**286**, **72**, **358**, and **272**), execute the audit script [`scratch/audit_gold_630_nrc_tree.py`](file:///Users/yuliangpeng/Desktop/Low-Altitude/scratch/audit_gold_630_nrc_tree.py):
 
 ```python
 import pandas as pd
 from nrclex import NRCLex
 
-# Load 630 Master Gold Emotion Codebook
+# 1. Load Master Gold Codebook (630 words)
 df_gold = pd.read_csv("data/analyze/gold_emotion_master.csv")
 nrc_dict = NRCLex().__lexicon__
 NRC8 = {"anger", "anticipation", "disgust", "fear", "joy", "sadness", "surprise", "trust"}
 
-# 1. Raw Exact String Match (Unnormalized)
-raw_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
+# 2. Iterate through all 630 words using canonical_lemma mapping
+cnt_8_emotion = 0
+cnt_polarity_only = 0
+cnt_missed = 0
 
-# 2. Canonical Lemma Match (Normalized via canonical_lemma)
-lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.canonical_lemma).lower().strip(), [])) & NRC8) > 0 or len(set(nrc_dict.get(str(row.word).lower().strip(), [])) & NRC8) > 0)
+for row in df_gold.itertuples():
+    w = str(row.word).lower().strip()
+    lemma = str(row.canonical_lemma).lower().strip()
+    nrc_tags = nrc_dict.get(w, []) or nrc_dict.get(lemma, [])
+    
+    if len(set(nrc_tags) & NRC8) > 0:
+        cnt_8_emotion += 1        # Category 1: Has at least 1 of 8 NRC emotions (286 words)
+    elif len(nrc_tags) > 0:
+        cnt_polarity_only += 1    # Category 2: Has NO 8 emotions, but has Positive/Negative (72 words)
+    else:
+        cnt_missed += 1           # Category 3: NOT in NRC lexicon at all (272 words)
+
+cnt_covered_total = cnt_8_emotion + cnt_polarity_only  # Total Covered by NRC (358 words)
 ```
 
-| Matching Protocol | NRC 8-Emotion Match Count | Only Polarity Count | Completely Missed Count | Total Codebook Universe | Key Methodological Takeaway |
+---
+
+### 3. NRC Theoretical Framework Classification & Structural Breakdown ($N=630$ Words)
+
+```text
+Master Gold Emotion Codebook (N = 630 Words)
+│
+├── 1️⃣ Total Mapped into NRC Vocabulary Universe (在 NRC 词库里的总词数) ── 358 words (56.83%)
+│   │
+│   ├── 1a. Mapped to NRC 8-Emotion Categories ────────────────── 286 words (45.40%) ⭐ (Recommended)
+│   │       (via Canonical Lemma Normalization, rescuing 17 inflected/typo words)
+│   │
+│   └── 1b. Mapped to Positive / Negative Polarity Only ──────── 72 words (11.43%)
+│           (e.g., worth, interesting, cool, calm, fortunate, grateful, pristine)
+│
+└── 2️⃣ Completely MISSED by NRC Lexicon (不在 NRC 词库里的领域词) ────── 272 words (43.17%)
+        (e.g., great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
+```
+
+$$\text{Total NRC Vocabulary Coverage (358)} = 286 \text{ (8-Emotions)} + 72 \text{ (Polarity Only)}$$
+$$\text{Total Master Gold Codebook (630)} = 358 \text{ (Total NRC Covered)} + 272 \text{ (Completely Missed by NRC)}$$
+
+---
+
+### 4. Dual-Layer Matching Protocol: Raw Exact Match vs. Canonical Lemma Match
+
+| Matching Protocol | NRC 8-Emotion Match Count | Only Polarity Count | Completely Missed Count | Total Codebook Universe | Methodological Takeaway |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **Raw Exact Match (Unnormalized)** | 269 words (42.70%) | 72 words (11.43%) | 289 words (45.87%) | 630 words | Plurals (-s), past participles (-ed), and typos are lost as "unmapped". |
 | **Canonical Lemma Match (Normalized)** ⭐ | **286 words (45.40%)** | **72 words (11.43%)** | **272 words (43.17%)** | **630 words** | **Rescues 17 true 8-emotion terms via lemma root mapping! (Recommended)** |
 
 ---
 
-### 3. 17 Rescued Emotion Terms via Canonical Lemma Normalization
+### 5. 17 Rescued Emotion Terms via Canonical Lemma Normalization
 
 | Raw Token in Review (`word`) | Normalized Root Lemma (`canonical_lemma`) | Review Freq ($N=21,215$) | Rescued NRC 8-Emotion Categories | Why Raw String Matching Failed |
 | :--- | :--- | :---: | :--- | :--- |
@@ -336,7 +375,7 @@ lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.
 
 ---
 
-### 4. 4 Root Causes of Generic NRC Lexicon Gaps ($N=272$ Missed Words)
+### 6. 4 Root Causes of Generic NRC Lexicon Gaps ($N=272$ Missed Words)
 
 1. **Morphological & Participle Omissions (50.00% of Misses)**:
    - **Participle Forms (-ing / -ed)**: 78 words (28.68%), e.g., *amazing, loved, breathtaking, stunning, impressed, inspiring, relaxed, scared, thrilling*.
@@ -355,11 +394,6 @@ lemma_8 = sum(1 for row in df_gold.itertuples() if len(set(nrc_dict.get(str(row.
    - **Key Terms**: *claustrophobia, jitters, airsick, phobia, unnerving*.
    - *Deep Cause*: Flight vibration, confined cabin space, and altitude suspense trigger somatic anxiety and perceived risk reactions specific to aviation tourism.
 
----
-
-### 5. Master Gold Emotion Lexicon Scatter Plot (VADER Valence vs. Tourist Rating)
-
-![Master Gold VADER NRC Scatter Plot](data/analyze/master_gold_vader_nrc_scatter.png)
 
 ## 📈 Summary Data & Empirical Metrics Ledger
 
