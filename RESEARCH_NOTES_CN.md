@@ -256,26 +256,26 @@ $$\text{全量金标准代码本 (630)} = 358 \text{ (NRC 收录总数)} + 272 \
 
 ---
 
-### 6. NRC 通用词典发生遗漏的 4 大根本原因审定 ($N=272$ 个遗漏词)
+### 6. NRC 通用词典发生遗漏的 4 大归因审定 ($N=272$ 个遗漏词)
 
-1. **原因 1：静态词典对现代语法形态变体（Morphological Variants）补全严重不足 (占比 50.00%)**：
-   - **分词形式 (-ing / -ed)**：78 个词 (28.68%)。如 *amazing, loved, breathtaking, stunning, impressed, inspiring, relaxed, scared, thrilling*.
-   - **副词与比较级/最高级 (-ly, -est, -er)**：58 个词 (21.32%)。如 *best (3,420次), better (1,585次), incredibly (315次), perfectly (175次), cheaper, smoother, safely, regrettably*.
+为了保证学术分类的严谨性，全量 **272 个遗漏词** 被划分为 4 个**互斥零重叠（Mutually Exclusive）**的归因维度：
+
+1. **归因 1：纯粹语法形态与分词变体补全严重不足 (Morphological Variants)**：
+   - **分词形式 (-ing / -ed)**：如 *loved (1,473次), impressed (255次), inspiring (210次), relaxed (159次), scared (144次), amazed (120次), thrilled (113次), reassuring (97次)*。
+   - **副词与比较级/最高级 (-ly, -est, -er)**：如 *better (1,585次), cheaper (208次), perfectly (155次), smoother (143次), safely (132次), smoothest (105次), luckily (96次)*。
    - **论文结论**：传统 NRC 词典的词汇库缺乏形态学归一化机制，导致大批衍生情感形容词被漏掉。
 
-2. **原因 2：NRC 原始种子词缺乏现代网络旅游的高频口语赞誉词 (占比 44.85%)**：
-   - **典型词汇**：*great (11,541 次)、awesome (2,530 次)、fantastic (2,026 次)、incredible (1,612 次)、nice (1,794 次)、fabulous, phenomenal, unbeatable, top-notch*.
+2. **归因 2：NRC 原始种子词缺乏现代网络旅游的高频口语赞誉词**：
+   - **典型词汇**：*great (11,541 次)、awesome (2,530 次)、fantastic (2,026 次)、incredible (1,612 次)、nice (1,794 次)、incredibly (315次)、fabulous, phenomenal, unbeatable, top-notch*.
    - **深层原因**：NRC 选词偏向传统正式书面语，而 TripAdvisor 上的现代游客在表达满意时极其倾向于使用现代口语高唤起赞誉词（*great, awesome, fantastic*），导致 NRC 在现代在线评论场景中发生大规模失效！
 
-3. **原因 3：通用词典缺失“低空高空视觉震撼与美学惊叹（Aerial Visual Awe）”领域词 (占比 3.31%)**：
-   - **典型词汇**：*breathtaking (1,346 次)、stunning (552 次)、sublime (291 次)、scenic (400次), surreal (98次), majestic, panoramic, spellbinding, mesmerizing, awe (304次)*.
+3. **归因 3：通用词典缺失“低空高空视觉震撼与美学惊叹（Aerial Visual Awe）”领域词**：
+   - **典型词汇**：*breathtaking (1,346 次)、stunning (552 次)、sublime (291 次)、scenic (400次)、surreal (98次)、majestic, panoramic, spellbinding, mesmerizing, awe (304次)*.
    - **深层原因**：低空观光旅游的核心体验是**“空中俯瞰带来的高唤起美学惊叹与视觉冲击（Awe / Aesthetic Emotion）”**。通用 NRC 词典完全没有针对该维度进行设计。
 
-4. **原因 4：低空飞行感知风险与身体/心理躯体化症状词 (占比 1.84%)**：
+4. **归因 4：低空飞行感知风险与身体/心理躯体化症状词**：
    - **典型词汇**：*claustrophobia (幽闭恐惧)、jitters (忐忑颤抖)、airsick (晕机)、phobia (恐高症)、unnerving (让人发慌)*.
    - **深层原因**：颠簸、密闭舱室与高空悬浮引发游客独特的感知风险（Perceived Risk）与躯体化焦虑反应。
-
----
 
 ### 7. Master 金标准代码本 VADER 极性 vs. 游客星级散点图 (0.0 to 5.0 Stars)
 
