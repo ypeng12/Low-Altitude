@@ -383,9 +383,10 @@ $$\text{Total Master Gold Codebook (630)} = 358 \text{ (Total NRC Covered)} + 27
    - **Empirical Validation**: Among the 127 pure morphological variant words, **48.82% (62 words) have base dictionary roots (e.g., *amaze, love, impress, inspire, scare, thrill, good, safe*) already present in NRC**. However, static string matching fails to capture them, omitting **88.7% (15,581 review mentions)** of high-frequency emotional expressions.
    - *Finding*: Generic NRC lexicons lack morphological derivation rules, causing significant classification omissions.
 
-2. **Omission of Modern Online Tourism Colloquial Superlatives (44.85% of Misses)**:
-   - **Key Terms**: *great (11,541), awesome (2,530), fantastic (2,026), incredible (1,612), nice (1,794), fabulous, phenomenal, unbeatable, top-notch*.
-   - *Deep Cause*: NRC 2012 seed vocabulary prioritized formal written English. Modern TripAdvisor reviewers rely heavily on colloquial high-arousal superlatives (*great, awesome, fantastic*), causing widespread generic lexicon failure in online review contexts.
+2. **Omission of Modern Online Tourism Colloquial Superlatives (Web 2.0 UGC Gap)**:
+   - **Key Terms**: *great (11,541), awesome (2,530), fantastic (2,026), nice (1,794), incredible (1,612), fabulous (508), incredibly (315), phenomenal (200), unbeatable (21)*.
+   - **Empirical Validation**: Unlike Cause 1 (which recovers roots via Lemmatization), **even after 100% Lemmatization root mapping, top colloquial terms such as `great` (11,541), `awesome` (2,530), `fantastic` (2,026), and `nice` (1,794) remain 100% ABSENT from NRC**. This omission impacts **20,578 review mentions** across N=21,215 reviews.
+   - *Deep Cause*: NRC 2012 seed vocabulary prioritized formal written English. Modern TripAdvisor reviewers rely heavily on colloquial high-arousal superlatives (*great, awesome, fantastic*), causing widespread generic lexicon failure in Web 2.0 online review contexts.
 
 3. **Absence of Low-Altitude Aerial Visual Awe & Aesthetic Emotions (3.31% of Misses)**:
    - **Key Terms**: *breathtaking (1,346), stunning (552), sublime (291), scenic (400), surreal (98), majestic, panoramic, spellbinding, mesmerizing, awe (304)*.
