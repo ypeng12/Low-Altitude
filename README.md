@@ -154,7 +154,7 @@ To capture these domain-specific emotional dynamics with rigorous academic trans
 │ Phase 4: Human-in-the-Loop Fine Adjudication & Typo Normalization (canonical_lemma)                              │
 │ - Typo Normalization: suprised->surprised, exhilerating->exhilarating, aprehensive->apprehensive                    │
 │ - Strict Rule Purging: Purged interjections (yay), procedural (timely), physical vibration (choppy), price     │
-│ - Outcome: 632 Master Gold Emotion Words | 8,118 Master Purged Non-Emotion Terms (100% Zero Overlap)           │
+│ - Outcome: 632 Master Gold Emotion Words | 8,094 Master Purged Non-Emotion Terms (100% Zero Overlap)           │
 └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -178,7 +178,7 @@ To capture these domain-specific emotional dynamics with rigorous academic trans
 #### 📍 Phase 2: Gold Expansion & Vocabulary Scaling ($N=2,000$ Sample)
 - **Sampling Strategy**: Executed a secondary stratified random sample ($N=2,000$, Seed 100, incorporating 1,814 unique new unsampled reviews).
 - **Process**: Evaluated candidate terms against the Stage 1 vocabulary to uncover novel, lower-frequency emotion terms.
-- **Discoveries**: Added **173 new clean emotion terms**. Combined with Stage 1, the 2,500-review sample established a **4,513-word candidate universe** (545 Gold Emotion Terms + 3,968 Purged Non-Emotion Terms).
+- **Discoveries**: Added **173 new clean emotion terms**. Combined with Stage 1, the 2,500-review sample established a **4,513-word candidate universe** (632 Words Emotion Terms + 3,968 Purged Non-Emotion Terms).
 - **Rule Refinement**: Formulated explicit purging criteria for social courtesy phrases (*thanks*, *thank*, *thankyou*), geographic entities (*talkeetna*, *maui*, *mckinley*), and cognitive stance words (*think*, *assume*).
 
 #### 📍 Phase 3: Corpus-Wide Completion ($N=18,901$ Unsampled Reviews)
@@ -227,7 +227,7 @@ Adjudication was executed by evaluating every candidate term **in its actual rev
 2. **Stimulus / Service Appraisals ($E_2$)**: Subjective evaluations of air tour experience quality (*scary*, *spectacular*, *smooth*, *professional*, *flawless*, *hostile*, *nerve-wracking*, *great*, *amazing*, *good*, *awesome*, *excellent*, *captivating*, *daunting*, *harrowing*).
 3. **Aesthetic Emotions & High-Arousal Awe**: *breathtakingly* (expressing intense awe/amazement in aerial view context), *sublime* (aesthetic awe over glacier landscapes).
 
-#### ❌ PURGED (Master Removed Non-Emotion Log: 8,118 Words)
+#### ❌ PURGED (Master Removed Non-Emotion Log: 8,094 Words)
 
 > [!NOTE]
 > **Methodological Rationale on Emotive Interjections, Punctuation & Emojis**:
@@ -257,8 +257,8 @@ Adjudication was executed by evaluating every candidate term **in its actual rev
 ---
 
 ### 5. Mathematical Partition Completeness
-$$\text{Total Screened Vocabulary Universe (8,726)} = \text{Master Gold Lexicon (608)} + \text{Master Removed Log (8,118)}$$
-$$\text{Master Gold Lexicon (608)} \cap \text{Master Removed Log (8,118)} = 0 \quad (\text{100% Zero-Overlap Guaranteed Partition})$$
+$$\text{Total Screened Vocabulary Universe (8,726)} = \text{Master Gold Lexicon (608)} + \text{Master Removed Log (8,094)}$$
+$$\text{Master Gold Lexicon (608)} \cap \text{Master Removed Log (8,094)} = 0 \quad (\text{100% Zero-Overlap Guaranteed Partition})$$
 
 ---
 
@@ -267,7 +267,7 @@ $$\text{Master Gold Lexicon (608)} \cap \text{Master Removed Log (8,118)} = 0 \q
 | Artifact Name | File Format | Record Count | Description & Purpose | Direct File Link |
 | :--- | :---: | :---: | :--- | :--- |
 | **Master Gold Emotion Lexicon Codebook** | **Excel / CSV** | **632 Words** | **Primary Master Codebook** containing all 608 pure emotion & appraisal terms across N=21,215 reviews, with canonical lemma normalization and emotion categories. | 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) |
-| **Master Removed Non-Emotion Log** | **Excel / CSV** | **8,118 Words** | **Primary Master Audit Log** containing all purged non-emotion, entity, and procedural terms. | 👉 [`removed_non_emotion_words_log.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx) |
+| **Master Removed Non-Emotion Log** | **Excel / CSV** | **8,094 Words** | **Primary Master Audit Log** containing all purged non-emotion, entity, and procedural terms. | 👉 [`removed_non_emotion_words_log.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx) |
 | **Stage 1 Discovery Emotion Lexicon** | Excel / CSV | 372 Words | Clean emotion terms discovered in Stage 1 ($N=500$). | 👉 [`clean_emotion_words_500_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx) |
 | **Stage 2 Expansion Emotion Lexicon** | Excel / CSV | 173 Words | New clean emotion terms expanded in Stage 2 ($N=2,000$). | 👉 [`clean_emotion_words_2000_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx) |
 | **Stage Final Clean New Emotion Words** | Excel / CSV | 65 Words | New clean emotion terms identified in Stage Final ($N=18,901$). | 👉 [`clean_new_emotion_words_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/clean_new_emotion_words_18901.xlsx) |
