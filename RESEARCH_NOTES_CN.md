@@ -304,23 +304,55 @@ python run_incongruence_econometrics.py
 - **校验代码**：[run_deep_research_audit.py](file:///Users/yuliangpeng/Desktop/Low-Altitude/run_deep_research_audit.py)
 - **校验输出 CSV**：[deep_research_audit_verification.csv](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/deep_research_audit_verification.csv)
 
-### 📊 八、 NRC 情感词典套入对比实验与学术审计 (N=630 个金标准词)
+
+### 📊 八、 NRC 情感词典套入对比实验、词根救回与 4 大归因审定 (N=630 个金标准词)
 
 为实证验证本项目自建的**语料库推导金标准情感代码本**相较于传统通用词典（如 NRC Emotion Lexicon）的学术优越性，我们将 **630 个 Master 金标准情感实词** 全量套入 **NRC 词典**（Mohammad & Turney）进行映射与对比：
 
 ![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
 
-#### 核心实证发现与通用 NRC 词典的重大缺陷：
-1. **通用词典的低覆盖率与严重遗漏（43.35% 遗漏率）**：
-   - 在 630 个低空观光领域专属情感词中，**NRC 词典仅能覆盖 358 个词（56.65%）**。
-   - **高达 274 个核心情感词（43.35%）被 NRC 彻底遗漏**！其中包括低空观光最核心的高频震撼词：*amazing*（6,251次）、*awesome*（2,530次）、*fantastic*（2,026次）、*incredible*（1,612次）、*breathtaking*（1,346次）、*stunning*（552次）、*unforgettable*（459次）、*awe*（304次）。这直接证明了盲目套用通用 NRC 词典会导致大量高价值游客情绪信号缺失！
+#### 🌲 Master 金标准情感代码本 ($N=630$) 在 NRC 中的结构分布：
 
-2. **NRC 8 大基础情绪在金标准代码本中的分布**：
-   - **喜悦 (Joy)**：119 个词 (18.83%)
-   - **信任 (Trust)**：93 个词 (14.72%)
-   - **期盼 (Anticipation)**：79 个词 (12.50%)
-   - **恐惧 (Fear)**：75 个词 (11.87%)
-   - **悲伤 (Sadness)**：72 个词 (11.39%)
-   - **惊喜 (Surprise)**：69 个词 (10.92%)
-   - **愤怒 (Anger)**：53 个词 (8.39%)
-   - **厌恶 (Disgust)**：46 个词 (7.28%)
+```text
+Master 金标准情感代码本 (全量 N = 630 个词)
+│
+├── 1️⃣ 开启词根归一化比对 (Lemma Normalized Match) ── 286 词 (45.40%) 【推荐使用！】
+│   │  (将复数、分词与错别字变体还原为字典词根后再比对，救回了 17 个真正具备 8 大情绪的词！)
+│   │
+│   ├── 1a. 在 8 大 Emotion 情绪分类里的词：286 个词 (45.40%)
+│   │       (如: beautiful, friendly, wonderful, happy, nervous, disappointed)
+│   │
+│   └── 1b. 只有 Positive / Negative 极性标记的词：72 个词 (11.43%)
+│           (如: worth, interesting, cool, calm, fortunate, grateful, pristine)
+│
+└── 2️⃣ 完全不在 NRC 词库里的词 (Completely Missed by NRC)：272 个词 (43.17%)
+    (如: great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
+```
+
+$$\text{全量金标准代码本 (630)} = 286 \text{ (8大情绪)} + 72 \text{ (仅正负极性)} + 272 \text{ (都不在 NRC)}$$
+
+---
+
+#### 💡 通过 `canonical_lemma` 词根归一化协议救回的 17 个核心情感词：
+通过建立 **`canonical_lemma` 词根归一化协议**，我们将 17 个复数变体、过去分词与错别字变体（如 *worries $\rightarrow$ worry*, *surprises $\rightarrow$ surprise*, *cherished $\rightarrow$ cherish*, *hates $\rightarrow$ hate*, *dreaded $\rightarrow$ dread*, *suprise $\rightarrow$ surprise*）成功还原映射回字典词根，把这 17 个原本会被原始字符串匹配漏掉的 8 大情绪标签完整救了回来！
+
+---
+
+#### 🔍 NRC 通用词典发生遗漏的 4 大根本原因审定 ($N=272$ 个遗漏词)：
+
+1. **原因 1：静态词典对现代语法形态变体（Morphological Variants）补全严重不足 (占比 50.00%)**：
+   - **分词形式 (-ing / -ed)**：78 个词 (28.68%)。NRC 词典构建于 2012 年，主要收集基础动词/名词词根（如收录了 *amaze*），但对游客在评论中大量使用的过去分词与现在分词（如 *amazing, loved, breathtaking, stunning, impressed, inspiring, relaxed, scared, thrilling*）完全没有做变体映射！
+   - **副词与比较级/最高级 (-ly, -est, -er)**：58 个词 (21.32%)。如 *best (3,420次), better (1,585次), incredibly (315次), perfectly (175次), cheaper, smoother, safely, regrettably*。
+   - **论文结论**：传统 NRC 词典的词汇库缺乏形态学归一化机制，导致大批衍生情感形容词被漏掉。
+
+2. **原因 2：NRC 原始种子词缺乏现代网络旅游的高频口语赞誉词 (占比 44.85%)**：
+   - **典型词汇**：*great (11,541 次)、awesome (2,530 次)、fantastic (2,026 次)、incredible (1,612 次)、nice (1,794 次)、fabulous, phenomenal, unbeatable, top-notch*.
+   - **深层原因**：NRC 在 2012 年使用 Amazon Mechanical Turk 众包标注时，选用的种子词表偏向传统正式书面语（通用大英词典选词）。而 TripAdvisor 上的现代游客在表达满意时，极其倾向于使用这些现代口语高唤起赞誉词（*great, awesome, fantastic*），导致 NRC 在现代在线评论场景中发生大规模失效！
+
+3. **原因 3：通用词典缺失“低空高空视觉震撼与美学惊叹（Aerial Visual Awe）”领域词 (占比 3.31%)**：
+   - **典型词汇**：*breathtaking (1,346 次)、stunning (552 次)、sublime (291 次)、scenic (400次), surreal (98次), majestic, panoramic, spellbinding, mesmerizing, awe (304次)*.
+   - **深层原因**：低空观光旅游（直升机/水上飞机/观光飞行）的核心体验是**“空中俯瞰带来的高唤起美学惊叹与视觉冲击（Awe / Aesthetic Emotion）”**。这种情感极其专一且高度依赖特定场景（景致宏大、冰川大峡谷高空视角），在通用新闻或日常对话文本中出现频率低，因此通用 NRC 词典完全没有针对该维度进行设计。
+
+4. **原因 4：低空飞行感知风险与身体/心理躯体化症状词 (占比 1.84%)**：
+   - **典型词汇**：*claustrophobia (幽闭恐惧)、jitters (忐忑颤抖)、airsick (晕机)、phobia (恐高症)、unnerving (让人发慌)*.
+   - **深层原因**：颠簸（turbulence）、密闭舱室与高空悬浮会引发游客独特的感知风险（Perceived Risk）与躯体化焦虑反应。这些词汇专属于低空飞行场景，通用情感词典无法捕捉此类垂直行业的特定生理/心理症状表达。

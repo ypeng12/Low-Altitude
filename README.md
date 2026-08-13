@@ -382,23 +382,42 @@ python run_data_pipeline.py
 python run_analysis_and_plots.py
 ```
 
-### 📊 7. NRC Emotion Lexicon Mapping & Comparative Audit ($N=630$ Words)
+
+### 📊 7. NRC Lexicon Mapping & Comparative Audit ($N=630$ Words)
 
 To validate the theoretical superiority of our **Corpus-Derived Gold Emotion Lexicon** over generic off-the-shelf lexicons, we mapped all **630 Master Gold Emotion Terms** against the **NRC Emotion Lexicon** (Mohammad & Turney):
 
 ![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
 
-#### Key Empirical Findings & NRC Lexicon Gaps:
-1. **Low Coverage Rate of Generic Lexicons (43.35% Miss Rate)**:
-   - Out of 630 domain-specific Gold Emotion terms, **NRC Lexicon only covers 358 words (56.65%)**.
-   - **274 words (43.35%) are completely MISSED by NRC**, including critical high-frequency low-altitude air tourism emotions: *amazing* (6,251 mentions), *awesome* (2,530 mentions), *fantastic* (2,026 mentions), *incredible* (1,612 mentions), *breathtaking* (1,346 mentions), *stunning* (552 mentions), *unforgettable* (459 mentions), and *awe* (304 mentions).
+#### 🌲 Master Gold Emotion Codebook ($N=630$) NRC Structural Breakdown:
+- **Mapped to NRC 8-Emotion Categories**: **286 words (45.40%)** *(via Canonical Lemma Normalization, rescuing 17 inflected/typo words)*
+- **Mapped to Positive/Negative Polarity Only**: **72 words (11.43%)** *(e.g., worth, interesting, cool, calm, fortunate, pristine)*
+- **Completely MISSED by NRC Lexicon**: **272 words (43.17%)** *(Domain-specific low-altitude awe & high-frequency appraisals)*
 
-2. **NRC 8 Basic Emotions Distribution across Gold Lexicon**:
-   - **Joy**: 119 words (18.83%)
-   - **Trust**: 93 words (14.72%)
-   - **Anticipation**: 79 words (12.50%)
-   - **Fear**: 75 words (11.87%)
-   - **Sadness**: 72 words (7.28%)
-   - **Surprise**: 69 words (10.92%)
-   - **Anger**: 53 words (8.39%)
-   - **Disgust**: 46 words (7.28%)
+$$\text{Total Master Gold Codebook (630)} = 286 \text{ (8-Emotions)} + 72 \text{ (Polarity Only)} + 272 \text{ (NRC Misses)}$$
+
+---
+
+#### 💡 17 Rescued Words via Canonical Lemma Normalization Protocol:
+By instituting our **Canonical Lemma Normalization Protocol**, 17 inflected plurals, past participles, and typo variants were mapped back to their dictionary root lemmas (e.g., *worries $\rightarrow$ worry*, *surprises $\rightarrow$ surprise*, *cherished $\rightarrow$ cherish*, *hates $\rightarrow$ hate*, *dreaded $\rightarrow$ dread*, *suprise $\rightarrow$ surprise*), successfully recovering their 8-emotion tags that would otherwise be missed by raw exact string matching.
+
+---
+
+#### 🔍 4 Root Causes of NRC Generic Lexicon Gaps ($N=272$ Missed Words):
+
+1. **Morphological & Participle Omissions (50.00% of Misses)**:
+   - **Participle Forms (-ing / -ed)**: 78 words (28.68%), e.g., *amazing, loved, breathtaking, stunning, impressed, inspiring, relaxed, scared, thrilling*.
+   - **Adverbs & Superlatives (-ly, -est, -er)**: 58 words (21.32%), e.g., *best (3,420), better (1,585), incredibly (315), perfectly (175), cheaper, smoother, safely*.
+   - *Finding*: Generic NRC lexicons lack morphological derivation rules, causing massive loss of participle emotion adjectives.
+
+2. **Omission of Modern Online Tourism Colloquial Superlatives (44.85% of Misses)**:
+   - **Key Terms**: *great (11,541), awesome (2,530), fantastic (2,026), incredible (1,612), nice (1,794), fabulous, phenomenal, unbeatable, top-notch*.
+   - *Deep Cause*: NRC 2012 seed vocabulary prioritized formal written English. Modern TripAdvisor reviewers rely heavily on colloquial high-arousal superlatives (*great, awesome, fantastic*), causing widespread generic lexicon failure in online review contexts.
+
+3. **Absence of Low-Altitude Aerial Visual Awe & Aesthetic Emotions (3.31% of Misses)**:
+   - **Key Terms**: *breathtaking (1,346), stunning (552), sublime (291), scenic (400), surreal (98), majestic, panoramic, spellbinding, mesmerizing, awe (304)*.
+   - *Deep Cause*: Low-altitude air tourism is uniquely defined by **Aerial Visual Awe**, a domain-specific aesthetic emotion completely absent from generic news or conversational lexicons.
+
+4. **Absence of Flight Perceived Risk & Somatic Symptoms (1.84% of Misses)**:
+   - **Key Terms**: *claustrophobia, jitters, airsick, phobia, unnerving*.
+   - *Deep Cause*: Flight vibration, confined cabin space, and altitude suspense trigger somatic anxiety and perceived risk reactions specific to aviation tourism.
