@@ -1,0 +1,288 @@
+﻿word,canonical_lemma,chinese_translation,frequency_21215,anger,anticipation,disgust,fear,joy,sadness,surprise,trust
+beautiful,beautiful,美丽绝伦的,3485,0,0,0,0,1,0,0,0
+friendly,friendly,友好的 / 亲切的,3416,0,1,0,0,1,0,0,1
+wonderful,wonderful,精彩美妙的,2677,0,0,0,0,1,0,1,1
+good,good,良好的 / 棒的（服务与体验）,2635,0,1,0,0,1,0,1,1
+excellent,excellent,卓越极佳的 / 顶级的,2284,0,0,0,0,1,0,0,1
+fun,fun,乐趣十足的 / 充满乐趣的,1729,0,1,0,0,1,0,0,0
+spectacular,spectacular,壮观震撼的（高空景观）,1616,0,1,0,0,0,0,1,0
+perfect,perfect,完美的 / 无瑕的,1474,0,1,0,0,1,0,0,1
+helpful,helpful,热心有帮助的 / 周到解说,1157,0,0,0,0,1,0,0,1
+glad,glad,感到高兴放心的,897,0,1,0,0,1,0,0,0
+special,special,特别的 / 珍贵的,631,0,0,0,0,1,0,0,0
+lucky,lucky,感到幸运的,607,0,0,0,0,1,0,1,0
+kind,kind,亲切的 / 友善的,587,0,0,0,0,1,0,0,1
+memorable,memorable,令人终生难忘的,580,0,0,0,0,1,0,1,1
+happy,happy,高兴的 / 快乐的,555,0,1,0,0,1,0,0,1
+nervous,nervous,紧张的 / 焦虑不安的,513,0,1,0,1,0,0,0,0
+disappointed,disappointed,感到失望的 / 遗憾的,488,1,0,1,0,0,1,0,0
+outstanding,outstanding,杰出出色的,462,0,0,0,0,1,0,0,0
+love,love,喜爱 / 极度热爱的,450,0,0,0,0,1,0,0,0
+unique,unique,独一无二的 / 独特的,435,0,0,0,0,0,0,1,0
+gorgeous,gorgeous,极其漂亮的 / 绚丽的,414,0,0,0,0,1,0,0,0
+bad,bad,糟糕的 / 坏的,373,1,0,1,1,0,1,0,0
+exciting,exciting,令人兴奋刺激的,324,0,1,0,0,1,0,1,0
+pleasant,pleasant,令人愉快的 / 宜人的,306,0,1,0,0,1,0,1,1
+regret,regret,遗憾 / 后悔,293,0,0,0,0,0,1,0,0
+magnificent,magnificent,壮丽的 / 宏伟震撼的（Awe）,282,0,1,0,0,1,0,1,1
+sick,sick,晕机的 / 身体不适的,274,0,0,1,0,0,1,0,0
+lovely,lovely,令人愉悦的 / 可爱的,266,0,1,0,0,1,1,1,1
+terrific,terrific,极好的 / 太棒了,260,0,0,0,0,0,1,0,0
+efficient,efficient,高效省心的,215,0,1,0,0,0,0,0,1
+entertaining,entertaining,引人入胜生动有趣的,210,0,1,0,0,1,0,0,0
+surprised,surprised,感到惊喜惊讶的,196,0,0,0,0,0,0,1,0
+surprise,surprise,惊喜 / 意料之外的喜悦,195,0,0,0,1,1,0,1,0
+brilliant,brilliant,璀璨的 / 出色的,184,0,1,0,0,1,0,0,1
+ready,ready,准备就绪的 / 心安的,171,0,1,0,0,0,0,0,0
+excited,excited,兴奋的 / 激动的,167,0,1,0,0,1,0,1,1
+majestic,majestic,雄伟的 / 壮丽的,165,0,1,0,0,1,0,1,1
+competent,competent,称职的 / 有能力的,163,0,0,0,0,0,0,0,1
+quiet,quiet,宁静的 / 幽雅安静的,161,0,0,0,0,0,1,0,0
+hope,hope,希望 / 期盼,159,0,1,0,0,1,0,1,1
+concerned,concern,感到担心的,155,0,0,0,1,0,1,0,0
+interested,interested,感兴趣的 / 充满好奇的,153,0,0,1,0,0,1,0,0
+magical,magical,神奇的 / 魔幻般的,152,0,1,0,0,1,0,1,0
+afraid,afraid,害怕的 / 恐惧的,150,0,0,0,1,0,0,0,0
+worried,worried,感到担心的,149,0,0,0,0,0,1,0,0
+fully,fully,完全地 / 充分地,143,0,0,0,0,0,0,0,1
+blessed,blessed,感到有福的 / 幸运的,133,0,0,0,0,1,0,0,0
+pleased,pleased,感到满意的,132,0,0,0,0,1,0,0,0
+thrill,thrill,刺激 / 震慑感,129,0,1,0,1,1,0,1,0
+thrilling,thrilling,令人惊险刺激酣畅的,126,0,1,0,0,1,0,1,0
+comfort,comfort,舒适 / 宽慰安心,121,0,1,0,0,1,0,0,1
+disappoint,disappoint,使失望,121,1,0,1,0,0,1,0,0
+fear,fear,恐惧 / 害怕,120,1,0,0,1,0,0,0,0
+unable,unable,无法的 / 无能为力的,114,0,0,0,0,0,1,0,0
+confidence,confidence,信心 / 确信,112,0,0,0,1,1,0,0,1
+difficult,difficult,困难的 / 令人头疼的,112,0,0,0,1,0,0,0,0
+expert,expert,专家级的 / 娴熟的,112,0,0,0,0,0,0,0,1
+confident,confident,自信的 / 确信的,109,0,0,0,0,1,0,0,1
+worry,worry,担心 / 忧虑感,106,0,1,0,1,0,1,0,0
+sweet,sweet,甜蜜的 / 甜美的,97,0,1,0,0,1,0,1,1
+apprehensive,apprehensive,忧虑的 / 不安的,92,0,1,0,1,0,0,0,0
+honest,honest,诚实的 / 坦诚的,88,1,0,1,1,1,1,0,1
+lucked,lucky,幸运地 (动词变体),86,0,0,0,0,1,0,1,0
+delightful,delightful,令人欢欣的,80,0,1,0,0,1,0,0,1
+assured,assured,安抚 / 确信,78,0,0,0,0,0,0,0,1
+pride,pride,自豪 / 骄傲,77,0,0,0,0,1,0,0,0
+stable,stable,平稳安心的,75,0,0,0,0,0,0,0,1
+peaceful,peaceful,平和宁静的,72,0,1,0,0,1,0,1,1
+understanding,understanding,体谅的 / 理解的,70,0,0,0,0,0,0,0,1
+impossible,impossible,不可能的 / 难以置信的,65,0,0,0,0,0,1,0,0
+passion,passion,热情 / 激情,64,0,1,0,0,1,0,0,1
+passionate,passionate,充满激情的,61,0,1,0,0,1,0,0,1
+considerate,considerate,体贴周到的,60,0,0,0,0,0,0,0,1
+entertained,entertained,感到深受愉悦娱乐的,60,0,0,0,0,1,0,0,0
+joy,joy,喜悦 / 快乐,60,0,0,0,0,1,0,0,0
+excitement,excitement,兴奋 / 激动情绪,59,0,1,0,0,1,0,1,0
+intimate,intimate,温馨亲切的,59,0,1,0,0,1,0,0,1
+disappointing,disappointing,令人失望的,58,0,0,0,0,0,1,0,0
+lush,lush,郁郁葱葱宜人的,57,0,0,1,0,0,1,0,0
+negative,negative,负面体验 / 消极评价,57,0,0,0,0,0,1,0,0
+thankful,thankful,感激的 / 感恩的,57,0,0,0,0,1,0,0,0
+thoughtful,thoughtful,贴心周到的,57,0,0,0,0,0,0,0,1
+noisy,noisy,喧闹吵杂的,55,1,0,0,0,0,0,0,0
+cherish,cherish,珍视 / 珍惜铭记,54,0,1,0,0,1,0,1,1
+genuine,genuine,真诚的 / 地道的,54,0,0,0,0,0,0,0,1
+remarkable,remarkable,卓越令人瞩目的,54,0,0,0,0,1,0,1,1
+appreciation,appreciation,感激 / 欣赏,52,0,0,0,0,1,0,0,1
+enthusiasm,enthusiasm,热情 / 积极性,52,0,1,0,0,1,0,1,0
+disappointment,disappointment,失望 / 遗憾失落情绪,51,0,0,1,0,0,1,0,0
+satisfied,satisfied,感到满意的,49,0,0,0,0,1,0,0,0
+delight,delight,欣喜 / 愉快,48,0,1,0,0,1,0,0,0
+steady,steady,平稳的 / 稳健的,48,0,0,0,0,0,0,1,1
+unexpected,unexpected,意想不到的惊喜,46,0,1,0,1,1,0,1,0
+terrible,terrible,可怕的 / 糟糕的,46,1,0,1,1,0,1,0,0
+friendliness,friendliness,友善 / 亲和力,45,0,0,0,0,1,0,0,1
+happily,happily,快乐地 / 欣然,44,0,0,0,0,1,0,0,0
+responsive,responsive,积极回应的 / 贴心的,40,0,1,0,0,0,0,0,1
+unsafe,unsafe,感觉不安全的 / 担惊受怕的,39,0,0,0,1,0,0,0,0
+wonderfully,wonderfully,极其出色绝妙地,38,0,0,0,0,1,0,1,0
+worries,worry,担忧 / 挂虑,38,0,1,0,1,0,1,0,0
+delicious,delicious,美味愉悦的,37,0,0,0,0,1,0,0,0
+reliable,reliable,可靠的 / 可信赖的,36,0,0,0,0,0,0,0,1
+marvelous,marvelous,绝妙的 / 令人惊叹的,36,0,0,0,0,1,0,0,0
+nauseous,nauseous,恶心晕车的,36,0,0,1,0,0,1,0,0
+surprisingly,surprisingly,出乎意料赞叹地,35,0,1,0,0,0,0,1,0
+humorous,humorous,幽默风趣的,35,0,0,0,0,1,0,0,0
+anxious,anxious,焦虑不安的 / 挂虑的,35,0,1,0,1,0,0,0,0
+picturesque,picturesque,风景如画的,35,0,0,0,0,1,0,0,0
+anxiety,anxiety,焦虑 / 不安,34,1,1,0,1,0,1,0,0
+generous,generous,大方的 / 慷慨的,34,0,0,0,0,1,0,0,1
+romantic,romantic,浪漫惬意的,34,0,1,0,0,1,0,0,1
+sadly,sadly,令人遗憾地 / 悲伤地,34,0,0,0,0,0,1,0,0
+worse,worse,更糟糕的,34,0,0,0,1,0,1,0,0
+skillful,skillful,技术精湛的,32,0,0,0,0,0,0,0,1
+turbulent,turbulent,颠簸不安的,32,0,0,0,1,0,0,0,0
+convinced,convinced,深信不疑的 / 心服口服,29,0,0,0,0,0,0,0,1
+delighted,delighted,高高兴兴的,29,0,1,0,0,1,0,1,0
+serene,serene,宁静祥和的,28,0,0,0,0,0,0,0,1
+eager,eager,热切的 / 渴望的,27,0,1,0,0,1,0,1,1
+splendor,splendor,壮丽辉煌的奇观,27,0,1,0,0,1,0,1,0
+peace,peace,宁静 / 和平,27,0,1,0,0,1,0,0,1
+bang,bang,物超所值（bang for buck）,26,1,0,1,1,0,1,1,0
+hate,hate,憎恨 / 讨厌,26,1,0,1,1,0,1,0,0
+upset,upset,感到沮丧难过的,26,1,0,0,0,0,1,0,0
+dangerous,dangerous,危险的,25,0,0,0,1,0,0,0,0
+ill,ill,生病的 / 恶心呕吐的,25,1,0,1,1,0,1,0,0
+laughing,laughing,欢声笑语 / 开心大笑,25,0,0,0,0,1,0,0,0
+magnificence,magnificence,壮丽震撼感,24,0,1,0,0,1,0,0,1
+horrible,horrible,极度糟糕可怕的,23,1,0,1,1,0,0,0,0
+impeccable,impeccable,无可挑剔的,23,0,0,0,0,0,0,0,1
+tough,tough,严苛倒霉的,22,0,0,0,0,0,1,0,0
+shining,shining,璀璨夺目的,22,0,1,0,0,1,0,0,0
+fearful,fearful,恐惧的 / 担心的,22,0,0,0,1,0,1,0,0
+spoil,spoil,破坏 / 毁掉（好心情）,21,0,0,1,0,0,0,0,0
+surprises,surprise,惊喜 / 意料之外,21,0,0,0,1,1,0,1,0
+cheerful,cheerful,欢快愉悦的,20,0,0,0,0,1,0,1,0
+amusing,amusing,风趣风趣令人发笑的,20,0,0,0,0,1,0,0,0
+successful,successful,成功的 / 满意的,20,0,1,0,0,1,0,0,1
+inspired,inspired,灵感大发 / 深受震撼的,19,0,0,0,0,1,0,1,1
+exquisite,exquisite,精美的 / 绝妙的,19,0,0,0,0,1,0,0,0
+effective,effective,有效划算的,18,0,0,0,0,0,0,0,1
+danger,danger,危险 / 威胁,18,0,0,0,1,0,1,0,0
+honesty,honesty,真诚 / 诚信解说,18,0,0,0,0,0,0,0,1
+marvel,marvel,惊叹 / 奇迹,18,0,0,0,0,0,0,1,0
+secret,secret,秘境 / 私密独享感,18,0,0,0,0,0,0,0,1
+soothing,soothing,舒缓抚慰人心的,18,0,0,0,0,1,0,0,1
+witty,witty,风趣幽默的,18,0,0,0,0,1,0,0,0
+discomfort,discomfort,身体/心理不适感,17,0,0,0,0,0,1,0,0
+overwhelmed,overwhelmed,被震撼/感动深深淹没的,17,0,0,0,0,0,1,0,0
+insane,insane,疯狂震撼的 / 极端的,16,1,0,0,1,0,0,0,0
+leery,leery,提防警惕 / 顾虑重重的,16,0,0,0,0,0,0,1,0
+loving,loving,热爱的 / 充满了爱的,16,0,0,0,0,1,0,0,1
+sensational,sensational,绝佳轰动震撼的,16,0,0,0,0,1,0,0,0
+sudden,sudden,突然的 / 猝不及防的,16,0,0,0,0,0,0,1,0
+uncertain,uncertain,不确定的 / 顾虑的,16,1,0,1,1,0,0,1,0
+worthy,worthy,非常值的 / 值得的,16,0,0,0,0,0,0,0,1
+annoying,annoying,令人烦躁恼火的（Annoyance/Irritation Emotion）,15,1,0,0,0,0,0,0,0
+awful,awful,极其糟糕的,15,1,0,1,1,0,1,0,0
+fuss,fuss,大惊小怪 / 争吵骚动,15,1,0,0,0,0,1,0,0
+hilarious,hilarious,爆笑幽默搞笑的,15,0,0,0,0,1,0,1,0
+immaculate,immaculate,完美无瑕洁净的,15,0,0,0,0,1,0,0,1
+respectful,respectful,充满敬意的,15,0,0,0,0,0,0,0,1
+intrusive,intrusive,突兀扰人的 / 煞风景的,14,1,0,1,1,0,0,1,0
+authentic,authentic,地道的 / 真实无伪的,14,0,0,0,0,1,0,0,1
+proud,proud,感到自豪骄傲的,14,0,1,0,0,1,0,0,1
+ruined,ruined,毁掉行程的 / 扫兴糟心的,14,1,0,1,1,0,1,0,0
+praise,praise,称赞 / 高度赞扬,14,0,0,0,0,1,0,0,1
+apologetic,apologetic,诚恳抱歉致歉的,13,0,0,0,0,0,0,0,1
+pleasurable,pleasurable,令人愉快的,13,0,0,0,0,1,0,0,0
+responsible,responsible,负责任的,13,0,0,0,0,0,0,0,1
+precious,precious,弥足珍贵的 memory,13,0,1,0,0,1,0,1,0
+uneasy,uneasy,心神不宁感到不安的,13,0,0,1,1,0,0,0,0
+admire,admire,钦佩赞赏,11,0,0,0,0,0,0,0,1
+inviting,inviting,引人入胜令人愉悦的,11,0,1,0,0,1,0,1,1
+mad,mad,发怒的 / 生气的,11,1,0,1,1,0,1,0,0
+nervousness,nervousness,紧张不安的情绪,11,0,0,0,1,0,0,0,0
+surprising,surprising,令人出乎意料惊喜的,11,0,0,0,0,0,0,1,0
+trepidation,trepidation,惊恐战栗 / 不安,11,0,1,0,1,0,0,1,0
+wary,wary,警惕顾虑的,11,0,0,0,1,0,0,0,0
+jealous,jealous,令人羡慕嫉妒的,10,1,0,1,0,0,0,0,0
+conscientious,conscientious,认真负责的,10,0,0,0,0,0,0,0,1
+ecstatic,ecstatic,狂喜的 / 极度兴奋的,10,0,1,0,0,1,0,1,0
+improvement,improvement,体验改善 / 提升,10,0,0,0,0,1,0,0,1
+badly,badly,严重地 / 糟糕地,10,0,0,0,0,0,1,0,0
+wonderfull,wonderful,令人惊叹绝妙的 (错别字变体),10,0,0,0,0,1,0,1,1
+quaint,quaint,古朴宜人的,10,0,0,0,0,1,0,0,1
+raving,raving,赞不绝口极力推荐的,10,1,1,0,1,1,0,1,0
+stunned,stunned,感到目瞪口呆震撼的,10,0,0,0,1,0,0,1,0
+unfortunate,unfortunate,不幸遗憾的,10,0,0,0,0,0,1,0,0
+bummer,bummer,令人扫兴扫兴的事,9,1,0,1,0,0,0,0,0
+compliment,compliment,赞美 / 赞赏评价,9,0,1,0,0,1,0,1,1
+miserable,miserable,极度痛苦糟糕的,9,1,0,1,0,0,1,0,0
+terribly,terribly,极度负面地 / 抱歉,9,0,0,0,0,0,1,0,0
+frustration,frustration,挫败感 / 烦恼,8,1,0,0,0,0,0,0,0
+cherished,cherish,珍视铭记的,8,0,1,0,0,1,0,1,1
+dissapointed,disappointed,感到失望的（错别字变体）,8,1,0,1,0,0,1,0,0
+exhausted,exhausted,精疲力竭极为疲惫的,8,0,0,0,0,0,1,0,0
+exhilaration,exhilaration,极度兴奋快感,8,0,0,0,0,1,0,1,0
+frightened,frightened,感到受惊吓害怕的,8,0,0,0,1,0,0,1,0
+unstable,unstable,不稳定摇晃令人担心的,8,0,0,0,1,0,0,1,0
+hopeful,hopeful,怀抱希望的,7,0,1,0,0,1,0,1,1
+laughter,laughter,欢笑 / 笑声,7,0,1,0,0,1,0,1,0
+confusion,confusion,困惑 / 混乱,7,1,0,0,1,0,0,0,0
+panic,panic,恐慌 / 惊恐状态,7,0,0,0,1,0,0,0,0
+weird,weird,古怪令人不安的,7,0,0,1,0,0,0,0,0
+painful,painful,痛苦的 / 令人难受的,7,1,0,1,1,0,1,0,0
+worrying,worry,令人担心的,7,0,1,0,1,0,1,0,0
+powerful,powerful,强烈的 / 感人的,7,1,1,1,1,1,0,0,1
+unpleasant,unpleasant,令人不快令人难受的,7,0,0,1,0,0,1,0,0
+unhappy,unhappy,不高兴不满意的,7,1,0,1,0,0,1,0,0
+serenity,serenity,宁静 / 祥和,7,0,1,0,0,1,0,0,1
+ridiculous,ridiculous,荒谬的 / 离谱的,7,1,0,1,0,0,0,0,0
+reputable,reputable,信誉良好的,7,0,0,0,0,0,0,0,1
+amaze,amaze,使惊叹 / 惊奇,6,0,0,0,0,0,0,1,0
+reassurance,reassurance,令人放心的安抚感,6,0,0,0,0,0,0,0,1
+hug,hug,拥抱 / 温暖关怀,6,0,0,0,0,1,0,0,1
+gratitude,gratitude,感激 / 感恩,6,0,0,0,0,1,0,0,0
+jovial,jovial,欢快风趣的,6,0,0,0,0,1,0,0,0
+timid,timid,胆怯害羞的,6,0,0,0,1,0,1,0,0
+pity,pity,遗憾 / 同情怜悯,5,0,0,0,0,0,1,0,0
+apprehension,apprehension,忧虑 / 疑虑不安,5,0,0,0,1,0,0,0,0
+faultless,faultless,无可挑剔完美的,5,0,0,0,0,0,0,0,1
+hated,hate,讨厌 / 极为憎恶的,5,1,0,1,1,0,1,0,0
+hates,hate,厌恶 / 讨厌,5,1,0,1,1,0,1,0,0
+gloomy,gloomy,阴沉的 / 沮丧的,5,0,0,0,0,0,1,0,0
+luscious,luscious,秀美令人心旷神怡的,5,0,1,0,0,1,0,0,0
+scare,scare,吓人 / 引发恐慌的,5,1,1,0,1,0,0,1,0
+shock,shock,震惊 / 冲击,5,1,0,0,1,0,0,1,0
+suprise,surprise,惊喜 / 意料之外（错别字变体）,5,0,0,0,1,1,0,1,0
+joyful,joyful,充满喜悦欢快的,5,0,0,0,0,1,0,0,1
+marveled,marvel,惊叹赞赏的,5,0,0,0,0,0,0,1,0
+dreaded,dread,令人害怕恐惧的 / 提心吊胆,4,0,1,0,1,0,0,0,0
+dreading,dread,感到十分恐惧担心的,4,0,1,0,1,0,0,0,0
+irritating,irritating,令人烦躁恼火的,4,1,0,1,0,0,0,0,0
+hungry,hungry,贪婪的（money hungry）,4,0,1,0,0,0,0,0,0
+ominous,ominous,不详的 / 不妙的,4,0,1,0,1,0,0,0,0
+frustrated,frustrated,感到沮丧的 / 挫败的,4,1,0,0,0,0,0,0,0
+wicked,wicked,太棒了 / 绝妙的,4,0,0,0,1,0,0,0,0
+nasty,nasty,令人厌恶的 / 恶劣的,4,1,0,1,1,0,1,0,0
+tranquil,tranquil,清幽宁静的（Calmness/Serenity State）,4,0,0,0,0,1,0,0,0
+regretting,regret,感到后悔遗憾的,4,0,0,0,0,0,1,0,0
+suprised,surprised,感到惊喜惊讶的（错别字变体）,4,0,0,0,0,0,0,1,0
+tranquility,tranquility,宁静 / 平和,4,0,0,0,0,1,0,0,1
+unfair,unfair,不公平的 / 冤枉的,4,1,0,1,0,0,1,0,0
+unfriendly,unfriendly,不友善的,4,1,0,1,1,0,1,0,0
+ecstasy,ecstasy,狂喜 / 极乐状态,3,0,1,0,0,1,0,0,0
+apprehensions,apprehension,顾虑 / 忧虑不安,3,0,0,0,1,0,0,0,0
+aprehensive,apprehensive,感到忧虑不安的（错别字变体）,3,0,1,0,1,0,0,0,0
+candid,candid,坦率真诚的,3,0,1,0,0,1,0,1,1
+cheer,cheer,振奋 / 欢呼,3,0,1,0,0,1,0,1,1
+compassion,compassion,同理心 / 关切,3,0,0,0,1,0,0,0,0
+disappointingly,disappointed,令人失望地,3,1,0,1,0,0,1,0,0
+guilty,guilty,内疚内疚感,3,1,0,0,0,0,1,0,0
+scaring,scare,使人害怕恐惧的,3,1,1,0,1,0,0,1,0
+curiosity,curiosity,好奇心 / 探索欲,3,0,1,0,0,0,0,1,0
+harrowing,harrowing,令人触目惊心惊恐的,3,0,0,0,1,0,0,0,0
+reassure,reassure,使人感到安心放心的,3,0,0,0,0,0,0,0,1
+heartfelt,heartfelt,真挚的 / 出自内心的,3,0,0,0,0,1,1,0,1
+horribly,horrible,糟糕恐怖地,3,1,0,1,1,0,0,0,0
+marvelously,marvelously,奇妙极其出色地,3,0,0,0,0,1,0,0,0
+overjoyed,overjoyed,欣喜若狂的,3,0,0,0,0,1,0,0,0
+sympathy,sympathy,同情 / 体谅,3,0,0,0,0,0,1,0,0
+happiness,happiness,幸福快乐感,3,0,1,0,0,1,0,0,0
+remorse,remorse,懊悔 / 悔恨,3,0,0,0,0,0,1,0,0
+uneasiness,uneasiness,不安 / 忐忑感,3,0,1,0,0,0,1,0,0
+unsettled,unsettled,心神不宁忐忑的,3,1,0,1,1,0,0,0,0
+sickening,sickening,令人作呕恶心的,3,1,0,1,1,0,1,0,0
+agreeable,agreeable,宜人的 / 令人满意的,2,0,0,0,0,0,0,0,1
+animated,animated,生动的 / 活力充沛的,2,0,0,0,0,1,0,0,0
+bothering,bothering,打扰令人烦心的,2,1,0,0,0,0,1,0,0
+darling,darling,可爱的 / 亲切的,2,0,0,0,0,1,0,0,1
+squeamish,squeamish,胆怯恶心体质易受惊的,2,0,0,1,1,0,0,0,0
+suffering,suffering,受苦受难不适,2,0,0,1,1,0,1,0,0
+threaten,threaten,受到威胁/令人不安的,2,1,1,0,1,0,0,0,0
+humility,humility,谦逊贴心,2,0,0,0,0,0,0,0,1
+offensive,offensive,冒犯的 / 令人不适的,2,1,0,1,0,0,0,0,0
+hazardous,hazardous,危险的 / 有隐患的,1,0,0,0,1,0,0,0,0
+gloom,gloom,阴郁忧伤,1,0,0,0,0,0,1,0,0
+disrespectful,disrespectful,无礼的 / 冒犯的,1,1,0,1,1,0,1,0,0
+dismay,dismay,感到沮丧吃惊,1,1,1,0,1,0,1,1,0
+grumpy,grumpy,脾气暴躁的 / 不悦的,1,1,0,1,0,0,1,0,0
+hostile,hostile,敌意的 / 恶劣的,1,1,0,1,1,0,0,0,0
+unwell,unwell,身体不适的,1,0,0,0,0,0,1,0,0
+ungodly,ungodly,糟糕恶劣的,1,0,0,0,0,0,1,0,0
+truthful,truthful,真实可信的,1,0,0,0,0,0,0,0,1
+reward,reward,赏心悦目的奖赏体验,1,0,1,0,0,1,0,1,1
+shady,shady,可疑不诚信的,1,0,0,0,1,0,0,0,0
