@@ -228,6 +228,12 @@ Adjudication was executed by evaluating every candidate term **in its actual rev
 3. **Aesthetic Emotions & High-Arousal Awe**: *breathtakingly* (expressing intense awe/amazement in aerial view context), *sublime* (aesthetic awe over glacier landscapes).
 
 #### ❌ PURGED (Master Removed Non-Emotion Log: 8,118 Words)
+
+> [!NOTE]
+> **Methodological Rationale on Emotive Interjections, Punctuation & Emojis**:
+> Although informal emotive interjections such as `wow` (476 mentions across 415 reviews) and `yay` (12 mentions) express high visual arousal, they operate as **expressive structural cues** (analogous to exclamation marks `!`, question marks `?`, or emojis) rather than formal lexical emotion terms (Nouns or Adjectives describing internal states $E_1$ or service appraisals $E_2$).
+> To maintain strict lexical purity and prevent blurring the boundary between unigram dictionary entries and structural features, all informal interjections are excluded from the Gold Emotion Lexicon Codebook and logged in the Removed Log. Structural emotional arousal is controlled separately in Level 2 feature engineering via `exclamation_count` and continuous VADER scoring. Formal verbal usages such as **`wowed`** (*"the pilot wowed us"*) remain retained in the Gold Lexicon.
+
 1. **Interjections & Emotive Exclamations**: `yay` (purged as an informal interjection rather than a formal emotion noun/adjective).
 2. **Temporal & Procedural Performance**: `timely` (purged as objective time/punctuality control).
 3. **Physical Vibration & Ride Sensation**: `choppy` (purged as physical flight turbulence sensation rather than internal emotion).
