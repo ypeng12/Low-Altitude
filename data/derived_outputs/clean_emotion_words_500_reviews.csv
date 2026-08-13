@@ -69,6 +69,16 @@ review_082e1f27aa3bb895882c5db8 :: He was so personable that he made us feel com
 review_123bf9f58334923a62ba4371 :: Wings Over Kauai offers a comfortable air tour of the entire island with spectacular views of the most popular and breathtaking sites the island has to offer, including: waterfalls, coastlines, Waimea Canyon, the inner island, sugar plantations, resort areas, and open sea.
 review_a49c3b4b417661efc807e243 :: You will always get a window seat on this flight, and you will get to see everything there is to see in Kauai on a very comfortable, easy flight.
 review_3be86b281748fcad0f0f0b34 :: The office is very nice with comfortable seating, gift shop, snack bar, clean restrooms."
+safe,安全放心的 / 感到安心平稳,E1_State (Direct Internal Affective State),safe,ADJ/NOUN,32,27,"review_7b76705a2666fc9f007a68b5 :: This very professional company goes out of their way to satisfy customers while still being safe.
+review_de10a083dc11cad2e6d64839 :: Felt safe.
+review_254f46e4a5fb0f6c7e0c50cd :: The pilot, Eric, was skillful and we felt safe.
+review_254f46e4a5fb0f6c7e0c50cd :: Again, it was safe, but the plane could at least use a new coat of paint, the seats need to be re-upholstered and the interior needs a good cleaning/vacuuming and wipe down.
+review_71241e031e521f6c6963b901 :: After I checked in she came back, sat down next to me, explained that the plane is very safe, the pilots are fully qualified, if the conditions aren't safe they won't fly etc."
+safety,安全保障 / 信任与安心感,E1_State (Direct Internal Affective State),safety,ADJ/NOUN,30,24,"review_8b4c172e7b644d8c4b931cc0 :: After a safety briefing we met our pilot and boarded our sea plane.
+review_4899b603a9d2f1beb416a798 :: This company makes guest violently ill and then act aggressively toward the guest in a hostile manner causing the guest to become fearful of their personal safety.
+review_f1afb11c14a20df3c0e654e1 :: The safety of their customers has the highest importance.
+review_772ff94294876fd4aa1756db :: All about safety.
+review_50ad674985c5646672bc62e8 :: They came picked us up and took us out to their base about ten minutes away where we got a short safety briefing and then we were off -Misty Fjords here we come."
 incredible,不可思议的 / 惊叹的,E2_Appraisal (Stimulus/Service Attribute),incredible,ADJ,29,27,"review_1b882aa7c72201a6725b9fe7 :: Incredible views of Denali and other peaks.
 review_6857382b853cc9b1e8671ff9 :: It was incredible!
 review_f1afb11c14a20df3c0e654e1 :: an incredible memory that you will always remember.
@@ -771,7 +781,7 @@ respectful,充满敬意的,E1_E2_Candidate,respectful,ADJ,1,1,review_ba9020f58a9
 responsible,负责任的,E1_E2_Candidate,responsible,ADJ,1,1,review_06eb3f971b46e3be6f1a0796 :: Incredible views and a great responsible pilot.
 rickety,摇摇欲坠的,E1_E2_Candidate,rickety,NOUN,1,1,"review_7610caa1138d8b33b74c4e88 :: The crew was professional, aircraft was top notch (nothing rickety here) and the cost was reasonable compared to other air tours we have done in different parts of the country."
 rigid,刻板不近人情的,E1_E2_Candidate,rigid,ADJ,1,1,review_4e12b4a1176793651a28a048 :: The other companies had a much more rigid refund policy.
-safely,安全地 / 平安地,E1_E2_Candidate,safely,ADV,1,1,"review_442bd14270e4cf874af0ab43 :: At one point as we got near Anan Creek, we encountered a rain squall, and Mark and Eric communicated and made some adjustments which ultimately allowed us to safely land at the Anan Creek landing site."
+safely,安全平稳地,E2_Appraisal (Stimulus/Service Attribute),safely,ADV,1,1,"review_442bd14270e4cf874af0ab43 :: At one point as we got near Anan Creek, we encountered a rain squall, and Mark and Eric communicated and made some adjustments which ultimately allowed us to safely land at the Anan Creek landing site."
 sensitive,敏感的,E1_E2_Candidate,sensitive,ADJ,1,1,"review_cbe4d099bc688920d0a3a2b9 :: As African-Americans we are the both of us very aware, observant and sensitive to our surroundings and peoples' energy."
 sentiment,情感 / 情绪,E1_E2_Candidate,sentiment,NOUN,1,1,"review_af98c8cc4e2124c9b58818f6 :: And while everything in Alaska was amazing, nothing beat this (and that sentiment includes my sister who is fearful of flying)."
 serene,宁静祥和的,E1_E2_Candidate,serene,ADJ,1,1,"review_30a4fe165d7e3a55f8e3db95 :: Landing on the glacier was really cool, as was walking around in a couple of feet of snow on the most quiet and serene place I've ever been."
