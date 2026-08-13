@@ -1,10 +1,20 @@
 ﻿word,chinese_translation,affect_type,surface_forms,coarse_pos,frequency,review_count,example_context
-great,极好的 / 太棒了,E1_E2_Candidate,great,ADJ,235,172,"review_85b1ad0d6eac5eebd570b607 :: Outstanding trip - weather was great.
+great,非常棒的 / 极好的,E2_Appraisal (Stimulus/Service Attribute),great,ADJ,235,172,"review_85b1ad0d6eac5eebd570b607 :: Outstanding trip - weather was great.
 review_b76e6c2bc278477c91d37c62 :: Spencer was great, and he figured out a way to allow us to book a second trip so we could still all participate, though this doubled our cost.
 review_b79c6cfcd7b2a3c981b7475b :: We took our tour on a DeHavilland Beaver, and from the very start, our guide was great- he even carried me out to the plane so I wouldn't get my shoes wet!
 review_8b4c172e7b644d8c4b931cc0 :: It’s a risk but if you are flexible this is a great option.
 review_8b4c172e7b644d8c4b931cc0 :: Our pilot Forest was extremely professional and provided a great commentary."
-best,极佳的 / 顶尖的,E1_E2_Candidate,best,ADJ|ADV,77,70,"review_b76e6c2bc278477c91d37c62 :: We made the best of a pretty disappointing and unexpectedly expensive situation, but we will not be trusting TripAdvisor descriptions in the future.
+amazing,极其震撼赞叹的 / 太棒了,E2_Appraisal (Stimulus/Service Attribute),amazing,ADJ,108,94,"review_353636e7a5b2962a9d433033 :: The flight was amazing, pilot Phillip was so nice and informative.
+review_353636e7a5b2962a9d433033 :: He even took some amazing photos of us in front of the plane.
+review_49afe959e23ac2c2b1cde5bd :: Are the views amazing?
+review_52acbf242c938fb33187635a :: Both flights were amazing and totally different experiences.
+review_606c51f8ee10965aa9c59bca :: The views and scenery were spectacular and the view to Mt McKinley was amazing."
+good,良好的 / 棒的（服务与体验）,E2_Appraisal (Stimulus/Service Attribute),good,ADJ,89,70,"review_291988db94de25fedef72be3 :: All we good was giggle with excitement!
+review_5a026e7a079885b0a8041d9e :: We were lucky, the weather was good.
+review_5a026e7a079885b0a8041d9e :: And we got very good views, total ride time was 2 hrs.
+review_5a026e7a079885b0a8041d9e :: I would say it’s worth the amount, it’s a good memory for us.
+review_6156ccd88f392b21de3b4908 :: The pilot was very good at his job and extremely nice."
+best,最棒的 / 顶级的,E2_Appraisal (Stimulus/Service Attribute),best,ADJ|ADV,77,70,"review_b76e6c2bc278477c91d37c62 :: We made the best of a pretty disappointing and unexpectedly expensive situation, but we will not be trusting TripAdvisor descriptions in the future.
 review_353636e7a5b2962a9d433033 :: The front seat is most definitely the best view but they navigate the plane in a way where everyone gets a chance to see everything.
 review_7e2201b48b681475df75ef1a :: This is really the best way to see both Denali the mountain as well as the park.
 review_7610caa1138d8b33b74c4e88 :: Taking the whole scene in by air is maybe the best way to understand the size and majesty of the canyon.
@@ -24,16 +34,31 @@ review_6156ccd88f392b21de3b4908 :: It was the best experience of all my trips, a
 review_6156ccd88f392b21de3b4908 :: The check in was very easy and the waiting room was decorated very nice with all kinds of memorabilia.
 review_6156ccd88f392b21de3b4908 :: The pilot was very good at his job and extremely nice.
 review_606c51f8ee10965aa9c59bca :: We did this as a spur of the moment thing, and as it was a nice day we are glad that we did."
-wonderful,精彩的 / 极好的,E2_Appraisal (Stimulus/Service Attribute),wonderful,ADJ|NOUN,65,57,"review_b76e6c2bc278477c91d37c62 :: I first want to state that our pilot Spencer was wonderful in every way.
+wonderful,精彩美妙的,E2_Appraisal (Stimulus/Service Attribute),wonderful,ADJ|NOUN,65,57,"review_b76e6c2bc278477c91d37c62 :: I first want to state that our pilot Spencer was wonderful in every way.
 review_291988db94de25fedef72be3 :: He gave a wonderful description of everything we flew over.
 review_7b76705a2666fc9f007a68b5 :: The wonderful staffed talked us in to taking the flight and WOW, what an experience!
 review_7e2201b48b681475df75ef1a :: The company was fantastic to deal with and the actual flight was wonderful!
 review_c6388dc2ce0d1b794c18df93 :: Great ground crew, a wonderful pilot and guide, and a memorable flight!"
-fantastic,太棒了 / 绝妙的,E1_E2_Candidate,fantastic,ADJ,54,50,"review_85b1ad0d6eac5eebd570b607 :: Pilot did an excellent job of providing views from every angle for every passenger - fantastic landing on the glacier.
+awesome,太棒了 / 极为赞叹的,E2_Appraisal (Stimulus/Service Attribute),awesome,ADJ,55,40,"review_347a597fb8c019adff981117 :: Our pilot, Max, was awesome!
+review_3e49c04ea9e77e714a81cdfb :: Bring your friends, make some awesome memories and take some beautiful photos.
+review_082e1f27aa3bb895882c5db8 :: It's family-owned so they take real good care of you and make sure that you have an awesome experience.
+review_bd821a97ad719aeeebde185a :: And the sights were awesome.
+review_50ad674985c5646672bc62e8 :: I was having such an awesome time i have no idea how long we flew before we landed on a deep blue lake high in the mountains."
+fantastic,奇妙太棒的,E2_Appraisal (Stimulus/Service Attribute),fantastic,ADJ,54,50,"review_85b1ad0d6eac5eebd570b607 :: Pilot did an excellent job of providing views from every angle for every passenger - fantastic landing on the glacier.
 review_7e2201b48b681475df75ef1a :: The company was fantastic to deal with and the actual flight was wonderful!
 review_8f5e0f00afe0371683965f83 :: I've never taken a small plane tour before so I didn't know what to expect, but it was a fantastic way to see the island and it wasn't scary at all!
 review_4ed9789654d1231bc278b4e3 :: Our pilot was fantastic -- superb flyer and provided knowledgeable commentary.
 review_4af2d9822d8f9626565e416d :: It was our daughter’s 16th birthday trip and what a fantastic way to see Denali."
+beautiful,美丽绝伦的,E2_Appraisal (Stimulus/Service Attribute),beautiful,ADJ,53,47,"review_b79c6cfcd7b2a3c981b7475b :: The scenery was beautiful and covered a lot of ground (and sea, ha!
+review_3e49c04ea9e77e714a81cdfb :: Absolutely beautiful.
+review_3e49c04ea9e77e714a81cdfb :: Bring your friends, make some awesome memories and take some beautiful photos.
+review_7b8fca9fb1b20483fadf5af6 :: The hidden falls, canyon and Na'pali coast line are just few spots that are insanely beautiful that you should see from up in the sky!
+review_f0ee2cd886f1308d732e265f :: The flight was great and seeing the glaciers from the sky was beautiful."
+excellent,卓越极佳的 / 顶级的,E2_Appraisal (Stimulus/Service Attribute),excellent,ADJ,52,48,"review_85b1ad0d6eac5eebd570b607 :: Pilot did an excellent job of providing views from every angle for every passenger - fantastic landing on the glacier.
+review_85b1ad0d6eac5eebd570b607 :: Excellent trip.
+review_b76e6c2bc278477c91d37c62 :: He was very invested in our experience from start to finish, and my rating would be ""excellent"" if it only pertained to him.
+review_7610caa1138d8b33b74c4e88 :: Each seat had excellent views of the Grand Canyon.
+review_7b8fca9fb1b20483fadf5af6 :: The crew ( Capt Josh, Ellen and Ciera) was excellent."
 better,更好的 / 更满意的（超过预期）,E1_E2_Candidate,better,ADJ|ADV,51,44,"review_082e1f27aa3bb895882c5db8 :: What better way to see an island for the first time than seeing the entire island.
 review_bd821a97ad719aeeebde185a :: Bruce informed us there was some haze and checked the weather to see if the next few days would offer better viewing.
 review_4af2d9822d8f9626565e416d :: Everything about the flight was even better than we had hoped.
@@ -49,7 +74,7 @@ review_291988db94de25fedef72be3 :: I cannot say enough about how fun and interes
 review_aad1475f0d24f59cc1b5bc8b :: I booked a flight with Friday Harbor Seaplanes from San Juan Island to Seattle, I was excited for the adventure & thought a flight on a seaplane would be a fun way to end my trip to the San Juan Islands, it turned out to be 1 of the highlights of my trip!
 review_606c51f8ee10965aa9c59bca :: the pilot was fun and friendly and was a decision we are glad we made.
 review_4af2d9822d8f9626565e416d :: She made the whole tour fun and exciting!"
-spectacular,壮观的 / 震撼的,E2_Appraisal (Stimulus/Service Attribute),spectacular,ADJ|ADV,38,35,"review_9876556ef47117a9c27fced8 :: On a clear day it is a pretty spectacular 30 minutes.
+spectacular,壮观震撼的（高空景观）,E2_Appraisal (Stimulus/Service Attribute),spectacular,ADJ|ADV,38,35,"review_9876556ef47117a9c27fced8 :: On a clear day it is a pretty spectacular 30 minutes.
 review_606c51f8ee10965aa9c59bca :: The views and scenery were spectacular and the view to Mt McKinley was amazing.
 review_f1afb11c14a20df3c0e654e1 :: The Glacier landing was spectacular!
 review_123bf9f58334923a62ba4371 :: Wings Over Kauai offers a comfortable air tour of the entire island with spectacular views of the most popular and breathtaking sites the island has to offer, including: waterfalls, coastlines, Waimea Canyon, the inner island, sugar plantations, resort areas, and open sea.
@@ -69,12 +94,17 @@ review_6156ccd88f392b21de3b4908 :: The check in was very easy and the waiting ro
 review_bd821a97ad719aeeebde185a :: The reservation process was easy and they were very flexible in order to accommodate our schedule.
 review_123bf9f58334923a62ba4371 :: The flight leaves from the Lihue airport - very easy to find their hanger, just past the main terminal.
 review_30ccaf6bc2fd2b6926aa389d :: They were also easy to get a hold of via phone."
-perfect,完美的 / 无可挑剔的,E1_E2_Candidate,perfect,ADJ|NOUN,34,31,"review_b79c6cfcd7b2a3c981b7475b :: I've been wanting to fly on a seaplane for ages, and when my parents came to visit it seemed like a perfect time to check it off the list.
+perfect,完美的 / 无瑕的,E2_Appraisal (Stimulus/Service Attribute),perfect,ADJ|NOUN,34,31,"review_b79c6cfcd7b2a3c981b7475b :: I've been wanting to fly on a seaplane for ages, and when my parents came to visit it seemed like a perfect time to check it off the list.
 review_347a597fb8c019adff981117 :: The entire day was perfect.
 review_3e49c04ea9e77e714a81cdfb :: It was all green, the water was blue, everything was perfect.
 review_3e49c04ea9e77e714a81cdfb :: It was perfect.
 review_e265784b06b03e9657bda9ff :: Everywhere I looked was a picture perfect frame."
-loved,热爱 / 极为喜爱,E1_State (Direct Internal Affective State),loved,VERB,33,32,"review_7e2201b48b681475df75ef1a :: It was clear he loved his job!
+breathtaking,令人屏息震撼的,E2_Appraisal (Stimulus/Service Attribute),breathtaking,ADJ,33,33,"review_52acbf242c938fb33187635a :: McKinley and it was breathtaking!
+review_da8299d8fba78458a1318905 :: ) and the breathtaking interior of Upper Antelope Canyon which is open only by reserved tour (you can't just walk in yourself-- you have to have a guide).
+review_2a211e66566d9506094042c7 :: Seeing Denali up close was breathtaking.
+review_123bf9f58334923a62ba4371 :: Wings Over Kauai offers a comfortable air tour of the entire island with spectacular views of the most popular and breathtaking sites the island has to offer, including: waterfalls, coastlines, Waimea Canyon, the inner island, sugar plantations, resort areas, and open sea.
+review_4e12b4a1176793651a28a048 :: As we left the Denali mountain range, we could see views of the Talkeetna valley and various rivers which were breathtaking!"
+loved,喜爱 / 热爱（体验）,E1_State (Direct Internal Affective State),loved,VERB,33,32,"review_7e2201b48b681475df75ef1a :: It was clear he loved his job!
 review_f0ee2cd886f1308d732e265f :: My husband loved the experience in the small 1965 plane and my teens took tons of photos!
 review_6857382b853cc9b1e8671ff9 :: We loved every minute of this!
 review_f1afb11c14a20df3c0e654e1 :: We loved our K2 experience!
@@ -94,12 +124,12 @@ review_4899b603a9d2f1beb416a798 :: This company makes guest violently ill and th
 review_f1afb11c14a20df3c0e654e1 :: The safety of their customers has the highest importance.
 review_772ff94294876fd4aa1756db :: All about safety.
 review_50ad674985c5646672bc62e8 :: They came picked us up and took us out to their base about ten minutes away where we got a short safety briefing and then we were off -Misty Fjords here we come."
-incredible,不可思议的 / 惊叹的,E2_Appraisal (Stimulus/Service Attribute),incredible,ADJ,29,27,"review_1b882aa7c72201a6725b9fe7 :: Incredible views of Denali and other peaks.
+incredible,难以置信震撼的,E2_Appraisal (Stimulus/Service Attribute),incredible,ADJ,29,27,"review_1b882aa7c72201a6725b9fe7 :: Incredible views of Denali and other peaks.
 review_6857382b853cc9b1e8671ff9 :: It was incredible!
 review_f1afb11c14a20df3c0e654e1 :: an incredible memory that you will always remember.
 review_f1afb11c14a20df3c0e654e1 :: It was incredible.
 review_98e74ad69a88380b69ce727c :: With his incredible skill, we were able to witness the sea cliff from an impeccable perspective."
-enjoyed,享受 / 感到喜爱,E1_State (Direct Internal Affective State),enjoyed,VERB,24,24,"review_8f5e0f00afe0371683965f83 :: I really enjoyed the experience, especially the unexpected ginger chews, kukui nut lei, and photographs they gave us!
+enjoyed,享受 / 乐在其中,E1_State (Direct Internal Affective State),enjoyed,VERB,24,24,"review_8f5e0f00afe0371683965f83 :: I really enjoyed the experience, especially the unexpected ginger chews, kukui nut lei, and photographs they gave us!
 review_d780f91654b1c9f99a2a236a :: We so enjoyed doing some Christmas shopping in downtown Moab!
 review_e4cd1a8f00e8148f6f1f053c :: I was a little nervous about going on a small plane, but once we got started I forgot all that and enjoyed the ride.
 review_e19f4508602ecbfcd0a59754 :: I really enjoyed the tour!
@@ -114,6 +144,11 @@ review_3b2f354df3d8b44c9d34a54a :: We had a lovely time with Bruce.
 review_123bf9f58334923a62ba4371 :: Wings Over Kauai also gifts you with a lovely DVD as a thank you gift for taking their flight.
 review_e2dc2a31bed85af6df3536af :: It was a lovely sunny day.
 review_71241e031e521f6c6963b901 :: As I walked into the airport a lovely lady who worked there greeted us and I started crying I was that scared."
+stunning,令人目眩震撼的,E2_Appraisal (Stimulus/Service Attribute),stunning,ADJ,19,18,"review_a16674769364bddb39438f8b :: The views became more and more stunning as we landed on the mesa in Sedona.
+review_a16674769364bddb39438f8b :: As if that weren’t enough, we ended our adventure with lunch and even more stunning views from the Skywalk Bridge.
+review_f5f9cfcb1ff8c9e809596258 :: The views on the Denali range and the national park were stunning.
+review_6857382b853cc9b1e8671ff9 :: The views from the air were stunning and the flight was so smooth.
+review_1a40b7366c1df323a2059968 :: The views were stunning and truly magnificent."
 nervous,紧张的 / 焦虑不安的,E1_State (Direct Internal Affective State),nervous,ADJ,17,15,"review_fd7ebcc7f5e93d96ece3c7ac :: I was a little nervous, never flown in a small plane but Kim was great, made us all very comfortable.
 review_a7368b502923fca015488011 :: My boyfriend and I went together, he’s 6’8 and we were a little nervous about his size, but he fit perfectly and we had the best time!
 review_bd821a97ad719aeeebde185a :: This is a great alternative for people who are nervous about helicopters (like me) or who have weight limits and cannot take a helicopter.
@@ -169,6 +204,11 @@ review_d885e5c4d3d84166ffc7048f :: It was raining really hard and super cloudy a
 review_a6ad668389d1d7c4c1ecda23 :: It's hard to imagine another way to so fully appreciate the size of the canyon, and our pilot was able to point out a variety of interesting facts while answering questions throughout.
 review_53ff5143a41d862350d136a5 :: We also learned the hard way, that it's sometimes difficult to extract yourself from the clutches of these agents, if they get even the slightest sniff of possibility that you might take your wallet or your credit card out.
 review_83fe4d7e7dc015a14d52be74 :: The flight scenery is hard to convey with words."
+outstanding,杰出出色的,E2_Appraisal (Stimulus/Service Attribute),outstanding,ADJ,11,11,"review_85b1ad0d6eac5eebd570b607 :: Outstanding trip - weather was great.
+review_e7562e1f4891b86d7653e19d :: The pilot was a wealth of knowledge, the views looking at the mountains and various glaciers was just outstanding.
+review_910f36995494e03bebd4a468 :: He is an outstanding pilot and tour guide.
+review_feb8e8b8f877bcebb986186f :: Talkeetna Air didn't an outstanding job from the 1st time we came to south central Alaska and we've loved every trip.
+review_f4707f9a700067a778a5ea66 :: Our pilot Mike was an excellent tour guide giving great detail behind the outstanding visual scenery."
 thanks,感谢 / 致谢,E1_E2_Candidate,thanks,NOUN,11,11,"review_c6388dc2ce0d1b794c18df93 :: Thanks to you all.
 review_2323283c585daf50d725d5e4 :: Thanks to the pilot Matt extra and so nice.
 review_001714a98a28507f72d8be7d :: Thanks to the staff at Air Ventures for a great trip.
@@ -410,7 +450,7 @@ nicely,很好地 / 优雅地,E1_E2_Candidate,nicely,ADV,4,4,"review_da8299d8fba7
 review_b27a5b6f0ee0a61ed67119b2 :: He should have mentioned nicely rather rudely.
 review_bc094451a516daefa055857a :: This tour really allowed us to see something unique and fit into our travel plans nicely.
 review_b000df598ef420c3db6a55b4 :: Their equipment is maintained nicely."
-phenomenal,现象级震撼的 / 极佳的,E1_E2_Candidate,phenomenal,ADJ,4,3,"review_bbf12aaf52ffd1f8f514701a :: K2 was phenomenal at staying in communication with me when inclement conditions threatened our adventure.
+phenomenal,现象级震撼的,E2_Appraisal (Stimulus/Service Attribute),phenomenal,ADJ,4,3,"review_bbf12aaf52ffd1f8f514701a :: K2 was phenomenal at staying in communication with me when inclement conditions threatened our adventure.
 review_bbf12aaf52ffd1f8f514701a :: K2 and Chris gave us a phenomenal experience, so good that even my young adult children who are impossible to impress were blown away.
 review_50087c058cc38daa21b82926 :: The plane only holds 8 passengers, each with a phenomenal view.
 review_ed42ef9dc4fa813cfcacdfdb :: Our pilot Mark was phenomenal; very skilled in flying, knowledgeable on the geography of the Grand Canyon, and entertaining."
@@ -647,6 +687,8 @@ successful,成功的 / 满意的,E1_E2_Candidate,successful,ADJ,2,2,"review_26ab
 review_ada23e30e9050b395a5e4949 :: It is impressive to see their facility as they appear to be running a very successful tour company, I was disappointed to find out that the 2 hour tour, was not 2 hours flying, but rather 2 hours from the start of the shuttle at the port to return to the port."
 sudden,突然的 / 猝不及防的,E1_E2_Candidate,sudden,ADJ,2,2,"review_f1afb11c14a20df3c0e654e1 :: But that ominous cloud never brought any dramatic, sudden weather changes to our location.
 review_ef7bbe16ce33d90360beda5a :: Although we had very clear sky during the flight, there were sudden small sharp drops in altitude here and there."
+superb,极好精湛的,E2_Appraisal (Stimulus/Service Attribute),superb,ADJ,2,2,"review_4ed9789654d1231bc278b4e3 :: Our pilot was fantastic -- superb flyer and provided knowledgeable commentary.
+review_c97195f47230668478751e71 :: Our pilot was superb."
 sweet,甜蜜的 / 甜美的,E1_E2_Candidate,sweet,ADJ,2,2,"review_d6633755ab0fe56676302484 :: Bryan, our pilot, was funny and a pleasure and Pua in reception was very sweet and helpful.
 review_d3aa33b2ada8580a5b5a3b5d :: Too sweet!"
 terrified,极度惊恐的,E1_State (Direct Internal Affective State),terrified,VERB|ADJ,2,1,"review_71241e031e521f6c6963b901 :: I am terrified of flying and was really dreading the Grand Canyon tour.
