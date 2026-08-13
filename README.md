@@ -162,6 +162,14 @@ To capture these domain-specific emotional dynamics with rigorous academic trans
 
 ### 1. Step-by-Step Evolution & Methodology
 
+> [!IMPORTANT]
+> **Gold Emotion Lexicon Composition & Addition Formula Across Stages**:
+> 1. **Initial 2,500-Review Sample Gold Lexicon ($N=2,500$)**:
+>    $$\text{Stage 1 Discovery (500 Reviews: 372 Words)} + \text{Stage 2 Expansion (2,000 Reviews: 173 Words)} = \mathbf{545 \text{ Gold Words}}$$
+> 2. **Master Full-Corpus Gold Lexicon ($N=21,215$)**:
+>    $$\text{Initial 2,500 Sample Gold Lexicon (545 Words)} + \text{Stage Final New Words (18,901 Reviews: 63 Words)} = \mathbf{608 \text{ Master Gold Words}}$$
+
+
 #### 📍 Phase 1: Initial Discovery Induction ($N=500$ Sample)
 - **Sampling Strategy**: Conducted stratified random sampling ($N=500$, Seed 42) across 46 air tour products, star rating tiers ($1–5$ stars), aircraft types (fixed-wing, helicopter, floatplane), and review length quartiles.
 - **Process**: Tokenized text, removed standard NLTK stop words, and calculated term frequencies. Every unique term was inspected within its original review sentence context (`example_context`).
