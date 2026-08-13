@@ -1,0 +1,60 @@
+{
+  "description": "Config-driven Emotion & Appraisal Rules for Stage Final Lexicon Induction",
+  "version": "1.0.0",
+  "affect_classifications": {
+    "beyond": {
+      "chinese_translation": "超越预期的（beyond expectations/nice）",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "mahalo": {
+      "chinese_translation": "夏威夷热忱感激之意",
+      "affect_type": "E1_State (Direct Internal Affective State)"
+    },
+    "heartbeat": {
+      "chinese_translation": "毫不犹豫极赞体验的（in a heartbeat）",
+      "affect_type": "E1_State (Direct Internal Affective State)"
+    },
+    "calming": {
+      "chinese_translation": "令人平息平稳安心的",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "breathtakingly": {
+      "chinese_translation": "令人屏息震撼地",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "annoying": {
+      "chinese_translation": "令人烦躁恼火的",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "overpriced": {
+      "chinese_translation": "价格偏高离谱的",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "seamlessly": {
+      "chinese_translation": "无缝顺畅地",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "invaluable": {
+      "chinese_translation": "弥足珍贵的",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "sublime": {
+      "chinese_translation": "崇高壮丽绝美的",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "stressful": {
+      "chinese_translation": "令人压力重重焦虑的",
+      "affect_type": "E2_Appraisal (Stimulus/Service Attribute)"
+    },
+    "tranquil": {
+      "chinese_translation": "清幽宁静的",
+      "affect_type": "E1_State (Direct Internal Affective State)"
+    }
+  },
+  "nlp_heuristics": {
+    "state_keywords": ["feel", "felt", "was", "were", "made us", "scared", "afraid", "worried", "nervous", "grateful", "happy", "sick", "thrilled", "surprised"],
+    "appraisal_keywords": ["tour", "flight", "pilot", "view", "views", "scenery", "landscape", "service", "plane", "helicopter", "crew", "commentary"],
+    "positive_morphemes": ["ful", "ous", "able", "ible", "ive", "ingly", "ly"],
+    "negative_morphemes": ["less", "un", "dis", "in", "im", "ir"]
+  }
+}
