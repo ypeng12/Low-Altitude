@@ -256,30 +256,22 @@ $$\text{全量金标准代码本 (630)} = 358 \text{ (NRC 收录总数)} + 272 \
 
 ---
 
-### 6. NRC 通用词典发生遗漏的 4 大归因审定 ($N=272$ 个遗漏词)
+### 6. NRC 通用词典发生遗漏的 3 大归因类别 ($N=272$ 个遗漏词)
 
-为了保证学术分类的严谨性，全量 **272 个遗漏词** 被系统构建为双层学术归因架构：
+全量 **272 个遗漏词** 被系统梳理划分为 3 大清晰的归因类别：
 
-#### 🔷 第一层：通用词典技术与覆盖性失灵 (Generic Lexicon Technical Failures)
-1. **归因 1：纯粹语法形态与分词变体补全不足 (Morphological Variants, 占比 50.00%)**：
-   - **分词形式 (-ing / -ed)**：如 *loved (1,473次), impressed (255次), inspiring (210次), relaxed (159次), scared (144次), amazed (120次), thrilled (113次), reassuring (97次)*。
-   - **副词与比较级/最高级 (-ly, -est, -er)**：如 *better (1,585次), cheaper (208次), perfectly (155次), smoother (143次), safely (132次), smoothest (105次), luckily (96次)*。
-   - **词根验证与实证发现**：在 127 个纯形态变体词中，**48.82%（62 个词）的底层词根实际上在 NRC 中已有收录**。由于缺乏形态学还原规则，导致评论语料中 **88.7%（累计 15,581 次）的高频情感提及未能被有效匹配捕捉**。
+1. **第 1 类：语法分词与形态衍生词 (Participle & Morphological Variants, 127 个词, 占比 46.69%)**：
+   - **分词形式 (-ing / -ed)** 与 **副词/比较级 (-ly, -est, -er)**：如 *loved (1,473次), impressed (255次), inspiring (210次), relaxed (159次), scared (144次), amazed (120次), thrilled (113次), better (1,585次), cheaper (208次), perfectly (155次), smoother (143次), safely (132次)*。
+   - **词根验证与实证发现**：在 127 个形态变体词中，**48.82%（62 个词）的底层词根（如 *amaze, love, impress, inspire, scare, thrill, good, safe*）实际上在 NRC 中已有收录**。由于缺乏形态学还原规则，导致评论语料中 **88.7%（累计 15,581 次）的高频情感提及未能被有效匹配捕捉**。
 
-2. **归因 2：NRC 原始种子词缺乏现代网络旅游的高频口语赞誉与基础词汇 (Web 2.0 UGC Gap, 占比 44.85%)**：
-   - **典型词汇**：*great (11,541次)、awesome (2,530次)、fantastic (2,026次)、nice (1,794次)、incredible (1,612次)、comfortable (1,446次)、fabulous (508次)、unforgettable (459次)、enjoyable (460次)*。
-   - **帕累托二八定律验证**：与归因 1 不同，归因 2 代表了词汇库的绝对缺口。即使做 100% 词根还原，`great, awesome, fantastic` 等词在 NRC 中依然 100% 完全缺失。前 10 个头部口语赞美词独自贡献了 **20,549 次提及（占据归因 2 频次的 73.2%，以及全量遗漏语料频次的 42.08%）**。
+2. **第 2 类：NRC 缺失的现代网络游客高频口语赞誉与基础词汇 (Modern Online Tourism Colloquial Superlatives, 128 个词, 占比 47.06%)**：
+   - **典型词汇**：*great (11,541次)、awesome (2,530次)、fantastic (2,026次)、nice (1,794次)、incredible (1,612次)、comfortable (1,446次)、fabulous (508次)、unforgettable (459次)、enjoyable (460次)、funny (301次)、phenomenal (200次)*。
+   - **实证验证**：与第 1 类不同，即使做 100% 词根还原，`great, awesome, fantastic, nice` 等词在 NRC 中依然 100% 完全缺失。前 10 个头部口语赞美词独自贡献了 **20,549 次提及（占据第 2 类频次的 73.2%，以及全量遗漏语料频次的 42.08%）**。
 
----
-
-#### 🔶 第二层：低空观光旅游垂直领域特有词汇 (Domain-Specific Low-Altitude Tourism Lexicon)
-3. **归因 3：低空高空视觉震撼与美学惊叹领域词 (Aerial Visual Awe Dimension, 占比 3.31%)**：
-   - **典型词汇**：*breathtaking (1,346次)、stunning (552次)、scenic (400次)、awe (304次)、surreal (98次)、breathtakingly (30次)、mesmerizing (26次)、awed (15次)、sublime (6次)、spellbinding (4次)*。
-   - **实证验证**：11 个美学震撼词在 NRC 中 **100% 未被收录（标签全为 0）**，导致 **2,791 次高空美学表达遗漏**。空中俯瞰引发的高唤起美学惊叹（Aesthetic Emotion）依赖特定场景，通用对话语料完全未设计该维度。
-
-4. **归因 4：低空飞行感知风险与身体/心理躯体化症状词 (Somatic Flight Risk Dimension, 占比 1.84%)**：
-   - **典型词汇**：*airsick (33次，晕机躯体症状)、claustrophobic (16次)、claustrophobia (9次，密闭舱室幽闭恐惧)、jitters (5次，飞行前紧张抖抖)、unnerving (4次，心理发慌不安)、phobia (4次，恐高症)*。
-   - **实证验证**：6 个飞行感知风险词在 NRC 中 **100% 未被收录（标签全为 0）**，导致 **71 次垂直风险表述遗漏**。机舱密闭、气流颠簸与高空悬浮诱发的躯体化焦虑反应为低空观光所特有。
+3. **第 3 类：低空观光旅游垂直领域特有词汇 (Low-Altitude Air Tourism Domain-Specific Lexicon, 17 个词, 占比 6.25%)**：
+   - **空中高空美学视觉震撼词**：*breathtaking (1,346次)、stunning (552次)、scenic (400次)、awe (304次)、surreal (98次)、breathtakingly (30次)、mesmerizing (26次)、awed (15次)、sublime (6次)、spellbinding (4次)*。
+   - **低空飞行感知风险与身体/心理躯体化症状词**：*airsick (33次，晕机躯体症状)、claustrophobic (16次)、claustrophobia (9次，密闭舱室幽闭恐惧)、jitters (5次，飞行前紧张抖抖)、unnerving (4次，心理发慌不安)、phobia (4次，恐高症)*。
+   - **实证验证与核验发现**：全量 17 个低空特有词在 NRC 词典中 **100% 未被收录（匹配标签数全为 0）**，导致评论语料中 **2,862 次低空观光领域专属情感表达未能被传统词典捕捉**。空中俯瞰引发的高唤起美学惊叹（Awe）与机舱密闭颠簸引发的躯体化风险（Somatic Risk）专属于低空飞行垂直场景。
 
 ## 📈 四、 步骤 6：N-Gram 挖掘与学术图表产出
 
