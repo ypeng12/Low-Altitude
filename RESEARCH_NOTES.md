@@ -81,6 +81,41 @@ $$\text{Master Gold Lexicon (630)} \cap \text{Master Removed Log (8,096)} = 0 \q
 
 ---
 
+
+
+---
+
+### 3. Step 2 Exhaustive Retrospective: Human Adjudication & Exclusion Rationale
+
+#### A. Initial State & Problem Statement
+Prior to manual adjudication, candidate term extraction from raw tourist reviews yielded 8,726 unique vocabulary terms containing non-emotion words, entity names, courtesy greetings, procedural service ratings, and physical flight sensations. Simple regex or frequency counts produced severe false positives.
+
+#### B. Theoretical & Methodological Debates (What We Discussed & Evaluated)
+1. **Experiencer Affect ($E_1$) vs. Stimulus Appraisal ($E_2$)**:
+   - We debated whether to include only direct internal emotional states felt by tourists ($E_1$: *nervous, afraid, scared, thrilled, tranquil*) or also subjective evaluations of air tour attributes ($E_2$: *scary, spectacular, smooth, professional, flawless*).
+   - *Decision*: Both $E_1$ and $E_2$ were retained as core dimensions of emotion and appraisal in tourism experiences, following established hospitality NLP frameworks.
+2. **Purging Boundary Rule 1: Courtesy Greetings & Interjections**:
+   - We examined informal interjections (*wow, yay*) and courtesy greetings (*thanks, thank, thankyou*).
+   - *Decision*: Purged as social formality greetings and emotive exclamations rather than formal emotion nouns/adjectives.
+3. **Purging Boundary Rule 2: Geographic & Physical Entity Names**:
+   - Words like *grand* (frequently referring to Grand Canyon), *maui*, *helicopter*, *glacier*, *canyon*, *water*, *blue* were initially extracted due to high frequency.
+   - *Decision*: Purged all 8,096 non-emotion physical, spatial, and brand entity terms.
+4. **Purging Boundary Rule 3: Monetary Cost & Economic Price Attributes**:
+   - Terms like *expensive, overpriced, cheap, price, cost* were evaluated.
+   - *Decision*: Purged as economic cost evaluations, shifting them to independent control variables (`price_value_mention`).
+5. **Purging Boundary Rule 4: Operational Performance & Procedural Service**:
+   - Terms like *informative, timely, seamless, knowledgeable* reflect cognitive stance or objective service efficiency.
+   - *Decision*: Purged as operational performance metrics.
+6. **Purging Boundary Rule 5: Physical Vibration & Ride Sensation**:
+   - Terms like *choppy* (flight turbulence) reflect physical motion sensations rather than internal psychological affect.
+   - *Decision*: Purged as physical vibration indicators.
+
+#### C. Manual Adjudication & Calibration Summary
+- **Original Candidate Universe**: 8,726 unique terms screened across N=21,215 reviews.
+- **Retained Master Gold Emotion Codebook**: **630 Words** (`gold_emotion_lexicon_codebook.xlsx`).
+- **Master Purged Non-Emotion Audit Log**: **8,096 Words** (`removed_non_emotion_words_log.xlsx`).
+- **Zero-Overlap Partition Check**: $630 	ext{ Gold Words} \cap 8,096 	ext{ Purged Words} = 0$ (100% Zero Overlap).
+
 ## 📊 Section 3: Step 3 — Generic Lexicon Audit & 3-Class Failure Gap Taxonomy
 
 In Step 3, we mapped our **630 Master Gold Emotion Terms** (`data/analyze/gold_emotion_master.csv`) against the **NRC Emotion Lexicon v0.92** (14,182 vocabulary entries) using the python audit script [`scratch/audit_gold_630_nrc_tree.py`](file:///Users/yuliangpeng/Desktop/Low-Altitude/scratch/audit_gold_630_nrc_tree.py):
@@ -99,8 +134,14 @@ Master Gold Emotion Codebook (N = 630 Words)
 │   └── 1b. Mapped to Positive / Negative Polarity Only ──────── 72 words (11.43%)
 │           (e.g., worth, interesting, cool, calm, fortunate, grateful, pristine)
 │
-└── 2️⃣ Completely MISSED by NRC Lexicon (Domain Gaps) ────────────── 272 words (43.17%)
-        (e.g., great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
+└── 2️⃣ Completely MISSED by NRC Lexicon (3 Core Miss Classes) ──── 272 words (43.17%) ⭐ (CORE FOCUS)
+    ├── 2a. Class 1: Participle & Morphological Derivation Gaps ─ 127 words (46.69% of misses | 17,565 mentions)
+    │       (e.g., loved, impressed, inspiring, relaxed, scared, amazed, thrilled, better, safer)
+    ├── 2b. Class 2: Colloquial Superlatives & Base Terms ─────── 128 words (47.06% of misses | 28,401 mentions)
+    │       (e.g., great, awesome, fantastic, nice, incredible, comfortable, fabulous, enjoyable)
+    └── 2c. Class 3: Low-Altitude Air Tourism Domain Lexicon ──── 17 words (6.25% of misses | 2,862 mentions) ⭐
+            ├── Sub-A: Aerial Visual Awe (breathtaking, stunning, scenic, awe, surreal, sublime)
+            └── Sub-B: Flight Perceived Risk & Somatic Symptoms (airsick, claustrophobic, jitters, phobia)
 ```
 
 $$\text{Total NRC Vocabulary Coverage (358)} = 286 \text{ (8-Emotions)} + 72 \text{ (Polarity Only)}$$
@@ -242,6 +283,35 @@ for row in df_gold.itertuples():
 #### C. Cause 2 Pareto 80/20 Script (`scratch/verify_two_percentages.py`)
 - **Logic**: Programmatically computed unique word count % ($10/272 = 3.68\%$) vs review mention frequency % ($20,549/48,828 = 42.08\%$).
 - **Result**: Proved that top 10 colloquial superlatives (*great, awesome, fantastic, nice, incredible*) dominate 42.08% of total missed review mentions.
+
+
+
+##### 🌟 Comprehensive Breakdown Table of Class 3 Domain Lexicon ($N=17$ Words)
+
+###### Sub-dimension A: Low-Altitude Aerial Visual Awe & Aesthetic Emotions (11 Word Variants, 2,791 Mentions)
+| Raw Word (`word`) | Root Lemma (`canonical_lemma`) | Corpus Freq ($N=21,215$) | Chinese Translation | NRC Tag Status | Theoretical & Empirical Finding |
+| :--- | :--- | :---: | :--- | :---: | :--- |
+| **`breathtaking`** | **`breathtaking`** | **1,346** | 令人屏息震撼的 | ❌ 0 Tags | Dominant aerial awe descriptor in glacier/canyon flights. |
+| **`stunning`** | **`stunning`** | **552** | 令人目眩震撼的 | ❌ 0 Tags | High-arousal visual shock from altitude perspective. |
+| **`scenic`** | **`scenic`** | **400** | 风景优美的 / 宜人的 | ❌ 0 Tags | Landscape aesthetic appreciation. |
+| **`awe`** | **`awe`** | **304** | 敬畏 / 震撼 | ❌ 0 Tags | Core aesthetic emotion (Awe/Keltner & Haidt 2003). |
+| **`surreal`** | **`surreal`** | **98** | 超现实的 / 梦幻般的 | ❌ 0 Tags | Dreamlike floating sensation over natural wonders. |
+| **`breathtakingly`**| **`breathtakingly`**| **30** | 令人屏息震撼地 | ❌ 0 Tags | Adverbial intensity modifier of visual awe. |
+| **`mesmerizing`** | **`mesmerizing`** | **26** | 令人目眩神迷为之倾倒的 | ❌ 0 Tags | Hypnotic aesthetic absorption in aerial views. |
+| **`awed`** | **`awed`** | **15** | 感到肃然起敬震撼的 | ❌ 0 Tags | Passive affect state of experiencing aerial awe. |
+| **`stunningly`** | **`stunningly`** | **10** | 令人震撼地 | ❌ 0 Tags | Adverbial visual shock modifier. |
+| **`sublime`** | **`sublime`** | **6** | 崇高壮丽绝美的 | ❌ 0 Tags | Kantian aesthetic sublimity in high-altitude landscape. |
+| **`spellbinding`** | **`spellbinding`** | **4** | 扣人心弦迷人的 | ❌ 0 Tags | Intense captive attention during sightseeing. |
+
+###### Sub-dimension B: Flight Perceived Risk & Somatic Symptoms (6 Word Variants, 71 Mentions)
+| Raw Word (`word`) | Root Lemma (`canonical_lemma`) | Corpus Freq ($N=21,215$) | Chinese Translation | NRC Tag Status | Theoretical & Empirical Finding |
+| :--- | :--- | :---: | :--- | :---: | :--- |
+| **`airsick`** | **`airsick`** | **33** | 晕机的 *(生理躯体反应)* | ❌ 0 Tags | Somatic motion sickness reaction in small aircraft. |
+| **`claustrophobic`**| **`claustrophobic`**| **16** | 感到幽闭恐惧压抑的 | ❌ 0 Tags | Spatial anxiety in small helicopter/plane cabins. |
+| **`claustrophobia`**| **`claustrophobia`**| **9** | 幽闭恐惧症 | ❌ 0 Tags | Clinical/perceived panic in enclosed flight space. |
+| **`jitters`** | **`jitters`** | **5** | 忐忑不安 / 紧张发抖感 | ❌ 0 Tags | Pre-flight somatic trembling and suspense. |
+| **`unnerving`** | **`unnerving`** | **4** | 令人发慌不安吓人的 | ❌ 0 Tags | Psychological loss of control during flight turbulence. |
+| **`phobia`** | **`phobia`** | **4** | 恐惧症 / 恐高心理 | ❌ 0 Tags | Acrophobia / altitude fear reaction. |
 
 ## 📈 Section 4: File Directory & Execution Commands
 

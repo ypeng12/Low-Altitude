@@ -3,9 +3,6 @@
 An end-to-end NLP and econometric research pipeline analyzing **21,215 canonical English TripAdvisor reviews** across **46 helicopter, fixed-wing, and floatplane sightseeing products**.
 
 > 🌐 **Project Repository**: [https://github.com/ypeng12/Low-Altitude](https://github.com/ypeng12/Low-Altitude)  
-> 📄 **Detailed Documentation**:
-> - 🇬🇧 **Detailed Methodology & Sampling Log**: [`RESEARCH_NOTES.md`](file:///Users/yuliangpeng/Desktop/Low-Altitude/RESEARCH_NOTES.md)
-> - 🇨🇳 **Comprehensive Lab Notes**: [`RESEARCH_NOTES_CN.md`](file:///Users/yuliangpeng/Desktop/Low-Altitude/RESEARCH_NOTES_CN.md)
 
 ---
 
@@ -32,7 +29,7 @@ ightarrow$ **21,215 canonical English reviews** after final validation).
 ┌─────────────────────────┐    ┌─────────────────────────┐    ┌─────────────────────────┐
 │ Econometric Modeling    │    │ 11 Binary Indicators    │    │ Step 3: NRC Benchmark   │
 │ Emotion Incongruence &  │◄───│  Touchpoints, Safety,   │◄───│  358 Covered (56.8%)    │
-│   Rating Misalignment   │    │  Weather, Value & Scenery│    │  272 Missed (43.2%)     │
+│   Rating Misalignment   │    │  Weather, Value & Scenery│    │  272 Domain Gaps (43.2%)     │
 └─────────────────────────┘    └─────────────────────────┘    └─────────────────────────┘
 ```
 
@@ -54,25 +51,32 @@ Extracted domain-specific binary indicators using regular expression matching:
 
 ---
 
-## 📍 Step 2: Corpus-Derived Master Gold Emotion Lexicon ($N=630$ Words)
+## 📍 Step 2: Corpus-Derived Master Gold Emotion Lexicon ($N=630$ Words) ⭐ (PRIMARY FOCUS)
 
-Generic lexicons fail in low-altitude air tourism. We built a **630-word Master Gold Emotion Codebook** across the **21,215 canonical English reviews**:
+Generic sentiment lexicons (NRC, VADER) fail in specialized experiential domains like Low-Altitude Tourism. To build a domain-specific codebook with rigorous academic transparency, we executed a 3-stage induction methodology across all **21,215 clean English reviews**:
 
-### 1. Induction & Adjudication Protocol
-- **Multi-Stage Sampling**: $N=500$ Discovery Sample (372 terms) $
-ightarrow$ $N=2,000$ Gold Expansion Sample (+173 terms) $
-ightarrow$ $N=18,901$ Full Corpus Completion (+63 terms). *(For complete sampling logs, see [`RESEARCH_NOTES.md`](file:///Users/yuliangpeng/Desktop/Low-Altitude/RESEARCH_NOTES.md)).*
-- **Canonical Lemma Normalization (`canonical_lemma`)**: Standardized spelling typos (`suprised` $
-ightarrow$ `surprised`, `exhilerating` $
-ightarrow$ `exhilarating`) and inflections (`worries` $
-ightarrow$ `worry`, `surprises` $
-ightarrow$ `surprise`).
-- **Retained vs. Purged Boundary Rules**:
-  - ✅ **Retained (630 Gold Words)**: Experiencer Affective States ($E_1$: *nervous, afraid, scared, relief, thrilled, tranquil, calming, annoying*), Stimulus Appraisals ($E_2$: *scary, spectacular, smooth, professional, great, amazing, awesome*), and Aerial Aesthetic Emotions (*breathtakingly, sublime*).
-  - ❌ **Purged (8,096 Purged Log)**: Physical Entities (*grand, helicopter, glacier, canyon*), Price (*expensive, overpriced*), Procedural Service (*informative, timely*), and Interjections (*wow, yay*).
-- **Mathematical Partition**: $630 	ext{ Gold Words} \cap 8,096 	ext{ Purged Words} = 0$ (100% Zero-Overlap Guaranteed Partition).
+### 1. Step-by-Step Multi-Stage Lexicon Induction Process
 
----
+#### 📍 Stage 1: Discovery Induction Sample ($N=500$ Reviews)
+- **Sampling Protocol**: Stratified random sampling ($N=500$, Seed 42) balanced across rating tiers ($1–5$ stars), 46 air tour products, aircraft types (helicopters, fixed-wing, floatplanes), and review length quartiles.
+- **Process & Discoveries**: Evaluated candidates in sentence context (`example_context`). Extracted **372 clean emotion terms** and 1,855 purged non-emotion terms. Uncovered the co-occurrence mechanism between fear/anxiety terms (*nervous, afraid, scared*) and safety reassurance terms (*safe, smooth, reassuring*).
+- **Artifact File**: 👉 [`clean_emotion_words_500_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_discovery_500/clean_emotion_words_500_reviews.xlsx) (372 Words).
+
+#### 📍 Stage 2: Gold Candidate Expansion Sample ($N=2,000$ Reviews)
+- **Sampling Protocol**: Secondary stratified random sampling ($N=2,000$, Seed 100, incorporating 1,814 unique new unsampled reviews).
+- **Process & Discoveries**: Screened candidates against Stage 1 vocabulary to uncover lower-frequency emotion terms (*pristine, calm, exhilarated*). Formulated strict purging rules to eliminate courtesy greetings (*thanks*), geographic entities (*talkeetna, maui*), and cognitive stance verbs (*think*). Added **173 new clean emotion terms** (545 cumulative sample gold words out of 4,513 candidate terms).
+- **Artifact File**: 👉 [`clean_emotion_words_2000_reviews.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_gold_2000/clean_emotion_words_2000_reviews.xlsx) (+173 Words).
+
+#### 📍 Stage 3: Full Corpus Completion ($N=18,901$ Unsampled Reviews)
+- **Sampling Protocol**: Scanned all remaining 18,901 unsampled reviews ($21,215 - 2,314 = 18,901$) to eliminate sampling oversight.
+- **Process & Discoveries**: Filtered 4,213 candidate terms (frequency $\ge 3$) using automated WordNet POS tagging heuristics and JSON rule engine (`stage_final_affect_rules.json`). Identified **63 new clean emotion terms** unique to the tail corpus (*calming, breathtakingly, annoying, sublime, stressful, tranquil*).
+- **Artifact Files**: 👉 [`clean_new_emotion_words_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/clean_new_emotion_words_18901.xlsx) (+63 Words) & [`purged_new_candidates_18901.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/stage_final/purged_new_candidates_18901.xlsx) (4,150 Purged Terms).
+
+#### 📍 Codebook Synthesis & Normalization Protocol (`canonical_lemma`)
+- **Combined Synthesis**: $372 \text{ (Stage 1)} + 173 \text{ (Stage 2)} + 63 \text{ (Stage 3)} = 608 \text{ pure emotion words}$ + 22 fine-grained calibration adjustments $\rightarrow$ **630 Master Gold Emotion Words** vs **8,096 Master Purged Non-Emotion Terms**.
+- **Canonical Lemma Normalization**: Standardized spelling typos (`suprised` $\rightarrow$ `surprised`, `exhilerating` $\rightarrow$ `exhilarating`) and inflections (`worries` $\rightarrow$ `worry`, `surprises` $\rightarrow$ `surprise`, `cherished` $\rightarrow$ `cherish`).
+- **Mathematical Partition Completeness**: $630 \text{ Gold Words} \cap 8,096 \text{ Purged Words} = 0$ (100% Zero-Overlap Guaranteed Partition).
+- **Master Artifacts**: 👉 [`gold_emotion_lexicon_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/gold_emotion_lexicon_codebook.xlsx) (630 Gold Words) & [`removed_non_emotion_words_log.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/derived_outputs/removed_non_emotion_words_log.xlsx) (8,096 Purged Log).
 
 ## 📍 Step 3: NRC Benchmark Comparative Audit & 3 Core Classes of Misses
 
@@ -91,8 +95,14 @@ Master Gold Emotion Codebook (N = 630 Words)
 │   └── 1b. Mapped to Positive / Negative Polarity Only ──────── 72 words (11.43%)
 │           (e.g., worth, interesting, cool, calm, fortunate, grateful, pristine)
 │
-└── 2️⃣ Completely MISSED by NRC Lexicon (Domain Gaps) ────────────── 272 words (43.17%)
-        (e.g., great, amazing, best, awesome, fantastic, incredible, breathtaking, stunning, awe)
+└── 2️⃣ Completely MISSED by NRC Lexicon (3 Core Miss Classes) ──── 272 words (43.17%) ⭐ (CORE FOCUS)
+    ├── 2a. Class 1: Participle & Morphological Derivation Gaps ─ 127 words (46.69% of misses | 17,565 mentions)
+    │       (e.g., loved, impressed, inspiring, relaxed, scared, amazed, thrilled, better, safer)
+    ├── 2b. Class 2: Colloquial Superlatives & Base Terms ─────── 128 words (47.06% of misses | 28,401 mentions)
+    │       (e.g., great, awesome, fantastic, nice, incredible, comfortable, fabulous, enjoyable)
+    └── 2c. Class 3: Low-Altitude Air Tourism Domain Lexicon ──── 17 words (6.25% of misses | 2,862 mentions) ⭐
+            ├── Sub-A: Aerial Visual Awe (breathtaking, stunning, scenic, awe, surreal, sublime)
+            └── Sub-B: Flight Perceived Risk & Somatic Symptoms (airsick, claustrophobic, jitters, phobia)
 ```
 
 $$	ext{Total NRC Vocabulary Coverage (358)} = 286 	ext{ (8-Emotions)} + 72 	ext{ (Polarity Only)}$$
@@ -110,9 +120,13 @@ $$	ext{Total Master Gold Codebook (630)} = 358 	ext{ (Total NRC Covered)} + 272 
 - **Key Terms**: *great (11,541), awesome (2,530), fantastic (2,026), nice (1,794), incredible (1,612), comfortable (1,446), fabulous (508), enjoyable (460), unforgettable (459), funny (301), phenomenal (200)*.
 - **Empirical Finding**: 100% absent from NRC even after root lemmatization. **10 top high-frequency colloquial superlatives account for 20,549 mentions (73.2% of Class 2 frequency, and 42.08% of total missed review frequency)** due to formal written seed vocabulary bias in 2012 NRC.
 
-📌 **Class 3: Low-Altitude Air Tourism Domain-Specific Lexicon (17 Words, 6.25%)**:
-- **Sub-dimension A (Aerial Visual Awe & Aesthetic Emotion)**: *breathtaking (1,346), stunning (552), scenic (400), awe (304), surreal (98), breathtakingly (30), mesmerizing (26), awed (15), sublime (6), spellbinding (4)* — 0 tags in NRC (2,791 review mentions omitted).
-- **Sub-dimension B (Somatic Flight Risk & Perceived Anxiety)**: *airsick (33), claustrophobic (16), claustrophobia (9), jitters (5), unnerving (4), phobia (4)* — 0 tags in NRC (71 review mentions omitted).
+📌 **Class 3: Low-Altitude Air Tourism Domain-Specific Lexicon (17 Words, 6.25% of Misses | 2,862 Review Mentions)** ⭐ *(CORE PAPER CONTRIBUTION)*:
+- **Sub-dimension A: Low-Altitude Aerial Visual Awe & Aesthetic Emotions (11 Words, 2,791 Mentions)**:
+  - *Key Terms*: **`breathtaking`** (1,346), **`stunning`** (552), **`scenic`** (400), **`awe`** (304), **`surreal`** (98), **`breathtakingly`** (30), **`mesmerizing`** (26), **`awed`** (15), **`stunningly`** (10), **`sublime`** (6), **`spellbinding`** (4).
+  - *Finding*: 100% UNMAPPED in NRC (0 emotion/polarity tags). Low-altitude flight creates high-arousal visual awe over canyons and glaciers, an aesthetic emotion dimension completely absent from generic written lexicons.
+- **Sub-dimension B: Flight Perceived Risk & Somatic Symptoms (6 Words, 71 Mentions)**:
+  - *Key Terms*: **`airsick`** (33), **`claustrophobic`** (16), **`claustrophobia`** (9), **`jitters`** (5), **`unnerving`** (4), **`phobia`** (4).
+  - *Finding*: 100% UNMAPPED in NRC (0 emotion/polarity tags). Flight vibration, confined cabin space, and altitude suspense trigger somatic anxiety reactions unique to aviation tourism.
 
 ---
 
@@ -145,8 +159,6 @@ Low-Altitude/
 │
 ├── run_data_pipeline.py                  # 🚀 Master Data Pipeline Runner
 ├── README.md                             # 📄 High-Impact Executive Overview (100% English)
-├── RESEARCH_NOTES.md                     # 📝 Exhaustive English Methodology & Sampling Log
-└── RESEARCH_NOTES_CN.md                  # 📘 Comprehensive Chinese Lab Notes
 ```
 
 ## 💻 Quick Reproduction Guide
