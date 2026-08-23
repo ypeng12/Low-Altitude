@@ -265,3 +265,20 @@ python scratch/run_sentence_emotion_dynamics.py
 # Run full data processing, deduplication, and feature engineering pipeline:
 python run_data_pipeline.py
 ```
+
+
+## 📉 扎根理论低分评论（< 3.0 分）归因编码矩阵 (Grounded Theory Low-Rating Matrix, N=295)
+
+在 21,215 篇全量语料中，评价低于 3.0 星的低分评论共 295 篇（占 1.39%）。通过规范的扎根理论三级编码，归纳出 9 大核心主轴低分因素：
+
+| 排名 | 三级选择范畴 (*Selective Category*) | 二级主轴范畴/因素 (*Axial Category*) | 一级开放编码原生典例词 (*Open Code*) | 低分中精确记录频次 (*N*) | 低言占比 (%) |
+| :---: | :--- | :--- | :--- | :---: | :---: |
+| 1️⃣ | 范畴 1：服务履约失误 | 1.1 天气取消与无法登顶/改签摩擦 | canceled, weather, fog, rain, reschedule | **117 篇** | **39.66%** |
+| 2️⃣ | 范畴 1：服务履约失误 | 1.3 地面接驳拉车延误与长时等待 | bus, drive, shuttle, wait, late, delayed | **96 篇** | **32.54%** |
+| 3️⃣ | 范畴 2：价格退款摩擦 | 2.1 严苛退款条款与退费纠纷 | refund, money back, deposit, policy | **68 篇** | **23.05%** |
+| 4️⃣ | 范畴 1：服务履约失误 | 1.2 航空配重强行分座/拆散伴侣 | seat, weight, split, couple, middle seat | **53 篇** | **17.97%** |
+| 5️⃣ | 范畴 2：价格退款摩擦 | 2.2 隐形收费与性价比感知低 | rip off, expensive, waste of money, fee | **43 篇** | **14.58%** |
+| 6️⃣ | 范畴 4：人际态度失误 | 4.1 地勤/客服态度冷漠恶劣 | rude, unprofessional, unhelpful, attitude | **38 篇** | **12.88%** |
+| 7️⃣ | 范畴 3：体验落差限制 | 3.1 飞行距离太远/看不够近/限制 | far, distance, too high, restricted view | **33 篇** | **11.19%** |
+| 8️⃣ | 范畴 3：体验落差限制 | 3.2 严重晕机/身体极度不适 | sick, airsick, nausea, vomit, dizzy | **10 篇** | **3.39%** |
+| 9️⃣ | 范畴 4：人际态度失误 | 4.2 飞行员缺乏互动/讲解粗糙 | rushed, quiet pilot, no commentary | **7 篇** | **2.37%** |
