@@ -166,12 +166,12 @@ $$\text{Uncovered Domain Gaps (145)} = 128 \text{ (Class 2 Colloquial)} + 17 \te
 
 ---
 
-### 4. Multi-Stage Low-Altitude Domain Lexicon Discovery Pipeline ($N=17$ Core Words) ⭐ *(CORE PAPER CONTRIBUTION)*
+### 4. Multi-Stage Low-Altitude Domain Lexicon Discovery Pipeline ($N=16$ Core Words) ⭐ *(CORE PAPER CONTRIBUTION)*
 
 To extract pure domain-specific emotion and somatic experience expressions unique to low-altitude air tourism, we established a **4-Stage Analytical Discovery Pipeline**:
 
 ```text
-Full Master Gold Emotion Codebook (N = 630 Words)
+Full Master Gold Emotion Codebook (N = 620 Words)
 │
 ├── 📍 Stage 1: Unrescued Domain Gap Universe ────────────────────────── 145 words (23.02%)
 │              (128 Class 2 Colloquial Terms + 17 Class 3 Domain Terms)
@@ -179,22 +179,23 @@ Full Master Gold Emotion Codebook (N = 630 Words)
 ├── 📍 Stage 2: VADER Cross-Lexicon Audit ────────────────────────────── 26 words
 │              (Filtering out generic words with VADER entries, isolating 26 Dual-Lexicon Misses)
 │
-├── 📍 Stage 3: Expert Manual Quality & Domain Filter ────────────────── -9 words
-│              (Manual removal of 9 general evaluative terms: unforgettable, unique, incredibly, plenty, cheaper, smoother, convenient, handy, forward)
+├── 📍 Stage 3: Expert Manual Quality & Domain Filter ────────────────── -10 words
+│              (Manual removal of 10 general evaluative terms: unforgettable, unique, incredibly, plenty, cheaper, smoother, convenient, handy, forward, reasonable)
 │
-└── 🏆 Stage 4: Final Core Low-Altitude Domain Discovery Lexicon ──────── 17 words ⭐ (CORE DISCOVERY)
+└── 🏆 Stage 4: Final Core Low-Altitude Domain Discovery Lexicon ──────── 16 words ⭐ (CORE DISCOVERY)
                ├── 🏞️ Aerial Visual Awe (13 words): spectacular, incredible, scenic, awe, exceptional, phenomenal, majestic, surreal, breathtakingly, mesmerizing, awed, stunningly, sublime
-               ├── 🚁 Flight Motion & Somatic State (3 words): airsick, claustrophobic, claustrophobia
-               └── 💰 Booking & Expectation Match (1 word): reasonable
+               └── 🚁 Flight Motion & Somatic State (3 words): airsick, claustrophobic, claustrophobia
 ```
 
-$$\mathbf{145 \text{ (Stage 1 Gaps)}} \xrightarrow{\text{VADER Audit}} 26 \text{ (Dual Misses)} \xrightarrow{\text{Expert Manual Filter}} \mathbf{17 \text{ Core Discovery Words}}$$
+$$\mathbf{145 \text{ (Stage 1 Gaps)}} \xrightarrow{\text{VADER Audit}} 26 \text{ (Dual Misses)} \xrightarrow{\text{Expert Manual Filter}} \mathbf{16 \text{ Core Discovery Words}}$$
 
 ---
 
 ### 📂 Official Saved Dataset Artifacts:
-* 👉 **Master 17 Low-Altitude Domain Discovery Lexicon (Excel)**: [`data/analyze/final_17_domain_discovery_words.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/final_17_domain_discovery_words.xlsx)
-* 👉 **Master 17 Low-Altitude Domain Discovery Lexicon (CSV)**: [`data/analyze/final_17_domain_discovery_words.csv`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/final_17_domain_discovery_words.csv)
+* 👉 **Master 620 Codebook Dataset (Excel)**: [`data/analyze/post_rescued_nrc_620_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/post_rescued_nrc_620_codebook.xlsx)
+* 👉 **Master 620 Codebook Dataset (CSV)**: [`data/analyze/post_rescued_nrc_620_codebook.csv`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/post_rescued_nrc_620_codebook.csv)
+* 👉 **Master 16 Low-Altitude Domain Discovery Lexicon (Excel)**: [`data/analyze/final_16_domain_discovery_words.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/final_16_domain_discovery_words.xlsx)
+* 👉 **Master 16 Low-Altitude Domain Discovery Lexicon (CSV)**: [`data/analyze/final_16_domain_discovery_words.csv`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/final_16_domain_discovery_words.csv)
 
 ---
 
