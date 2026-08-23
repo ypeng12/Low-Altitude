@@ -1,0 +1,4 @@
+destination,total_reviews,low_rating_count,low_rating_rate_pct,primary_cause_1,primary_cause_2,primary_cause_3
+Alaska,4986,53,1.06,天气取消/恶劣气候与无法登顶,退款纠纷/隐形收费/物不所值,地面接驳长途拉车/延误等待
+Hawaii,6809,34,0.5,座位安排/配重分座拆散伴侣,地面接驳长途拉车/延误等待,天气取消/恶劣气候与无法登顶
+Grand Canyon,2539,81,3.19,座位安排/配重分座拆散伴侣,退款纠纷/隐形收费/物不所值,地面接驳长途拉车/延误等待
