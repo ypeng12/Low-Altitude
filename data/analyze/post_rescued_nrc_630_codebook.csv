@@ -1,631 +1,631 @@
-word,canonical_lemma,frequency_21215,chinese_translation,polarity,nrc_emotion,category_taxonomy,vader_score
-great,great,11541,非常棒的 / 极好的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,3.1
-amazing,amazing,6251,极其震撼赞叹的 / 太棒了,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.8
-beautiful,beautiful,3485,美丽绝伦的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.9
-best,best,3420,最棒的 / 顶级的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,3.2
-friendly,friendly,3416,友好的 / 亲切的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.2
-worth,worth,2799,物有所值的 / 绝对值得的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.9
-wonderful,wonderful,2677,精彩美妙的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.7
-good,good,2635,良好的 / 棒的（服务与体验）,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.9
-awesome,awesome,2530,太棒了 / 极为赞叹的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,3.1
-excellent,excellent,2284,卓越极佳的 / 顶级的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.7
-fantastic,fantastic,2026,奇妙太棒的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.6
-nice,nice,1794,美好的 / 良好的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.8
-fun,fun,1729,乐趣十足的 / 充满乐趣的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.3
-spectacular,spectacular,1616,壮观震撼的（高空景观）,Zero / Neutral (V = 0),Surprise,1a. Directly Mapped 8-Emotions,0.0
-incredible,incredible,1612,难以置信震撼的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-better,better,1585,更好的 / 更满意的（超过预期）,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-perfect,perfect,1474,完美的 / 无瑕的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.7
-loved,loved,1473,喜爱 / 热爱（体验）,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.9
-comfortable,comfortable,1446,舒适的 / 安心的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.3
-breathtaking,breathtaking,1346,令人屏息震撼的,Positive (V > 0),CATE (Low-Altitude Domain Lexicon),1a. Directly Mapped 8-Emotions,2.0
-helpful,helpful,1157,热心有帮助的 / 周到解说,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.8
-glad,glad,897,感到高兴放心的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.0
-interesting,interesting,886,引人入胜的 / 趣味盎然的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.7
-cool,cool,652,酷的 / 爽快的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.3
-special,special,631,特别的 / 珍贵的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.7
-lucky,lucky,607,感到幸运的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.8
-kind,kind,587,亲切的 / 友善的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.4
-memorable,memorable,580,令人终生难忘的,Zero / Neutral (V = 0),Joy,1a. Directly Mapped 8-Emotions,0.0
-happy,happy,555,高兴的 / 快乐的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.7
-stunning,stunning,552,令人目眩震撼的,Positive (V > 0),CATE (Low-Altitude Domain Lexicon),1a. Directly Mapped 8-Emotions,1.6
-nervous,nervous,513,紧张的 / 焦虑不安的,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-1.1
-fabulous,fabulous,508,绝妙的 / 极好的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.4
-disappointed,disappointed,488,感到失望的 / 遗憾的,Negative (V < 0),Sadness,1a. Directly Mapped 8-Emotions,-2.1
-outstanding,outstanding,462,杰出出色的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,3.0
-enjoyable,enjoyable,460,令人愉快的 / 趣味盎然的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-unforgettable,unforgettable,459,令人难忘的 / 铭心的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-love,love,450,喜爱 / 极度热爱的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,3.2
-unique,unique,435,独一无二的 / 独特的,Zero / Neutral (V = 0),Surprise,1a. Directly Mapped 8-Emotions,0.0
-gorgeous,gorgeous,414,极其漂亮的 / 绚丽的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,3.0
-scenic,scenic,400,风景优美的 / 宜人的,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),1a. Directly Mapped 8-Emotions,0.0
-bad,bad,373,糟糕的 / 坏的,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-2.5
-exciting,exciting,324,令人兴奋刺激的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.2
-incredibly,incredibly,315,难以置信地 / 极其,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-pleasant,pleasant,306,令人愉快的 / 宜人的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.3
-awe,awe,304,敬畏 / 震撼,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),1a. Directly Mapped 8-Emotions,0.0
-unbelievable,unbelievable,302,难以置信的 / 震撼的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.8
-funny,funny,301,幽默风趣的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-plenty,plenty,298,丰富的 / 充足的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-hard,hard,297,困难的 / 艰辛的,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-0.4
-regret,regret,293,遗憾 / 后悔,Negative (V < 0),Sadness,1a. Directly Mapped 8-Emotions,-1.8
-magnificent,magnificent,282,壮丽的 / 宏伟震撼的（Awe）,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.9
-exceptional,exceptional,276,卓越的 / 杰出的（顶级评价）,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-sick,sick,274,晕机的 / 身体不适的,Negative (V < 0),Sadness,1a. Directly Mapped 8-Emotions,-2.3
-lovely,lovely,266,令人愉悦的 / 可爱的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.8
-terrific,terrific,260,极好的 / 太棒了,Positive (V > 0),Sadness,1a. Directly Mapped 8-Emotions,2.1
-calm,calm,259,镇定 / 平息情绪的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.3
-impressed,impressed,255,感到深深被折服/留下深刻印象,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.1
-unfortunately,unfortunately,240,不幸的是 / 遗憾的是,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-1.4
-fortunate,fortunate,235,幸运的 / 幸运地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-efficient,efficient,215,高效省心的,Positive (V > 0),Trust,1a. Directly Mapped 8-Emotions,1.8
-welcome,welcome,212,受欢迎的 / 感受温暖的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.0
-entertaining,entertaining,210,引人入胜生动有趣的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.9
-inspiring,inspiring,210,令人启发震慑的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.8
-cheaper,cheaper,208,更实惠的 / 较便宜的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-phenomenal,phenomenal,200,现象级震撼的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-superb,superb,196,极好精湛的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,3.1
-surprised,surprised,196,感到惊喜惊讶的,Positive (V > 0),Surprise,1a. Directly Mapped 8-Emotions,0.9
-surprise,surprise,195,惊喜 / 意料之外的喜悦,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.1
-fine,fine,190,良好的 / 优秀的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.8
-brilliant,brilliant,184,璀璨的 / 出色的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.8
-forward,forward,183,期待（look forward）,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-reasonable,reasonable,179,合理的 / 公道的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-ready,ready,171,准备就绪的 / 心安的,Positive (V > 0),Anticipation,1a. Directly Mapped 8-Emotions,1.5
-excited,excited,167,兴奋的 / 激动的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.4
-majestic,majestic,165,雄伟的 / 壮丽的,Zero / Neutral (V = 0),Joy,1a. Directly Mapped 8-Emotions,0.0
-competent,competent,163,称职的 / 有能力的,Positive (V > 0),Trust,1a. Directly Mapped 8-Emotions,1.3
-quiet,quiet,161,宁静的 / 幽雅安静的,Zero / Neutral (V = 0),Sadness,1a. Directly Mapped 8-Emotions,0.0
-relaxed,relaxed,159,放松的 / 从容的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.2
-hope,hope,159,希望 / 期盼,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.9
-perfectly,perfectly,155,完美地 / 无可挑剔地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,3.2
-concerned,concern,155,感到担心的,Zero / Neutral (V = 0),Fear,1a. Directly Mapped 8-Emotions,0.0
-interested,interested,153,感兴趣的 / 充满好奇的,Positive (V > 0),Sadness,1a. Directly Mapped 8-Emotions,1.7
-pleasure,pleasure,153,乐趣 / 愉悦,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.7
-magical,magical,152,神奇的 / 魔幻般的,Zero / Neutral (V = 0),Joy,1a. Directly Mapped 8-Emotions,0.0
-afraid,afraid,150,害怕的 / 恐惧的,Zero / Neutral (V = 0),Fear,1a. Directly Mapped 8-Emotions,0.0
-worried,worried,149,感到担心的,Negative (V < 0),Sadness,1a. Directly Mapped 8-Emotions,-1.2
-scared,scared,144,感到恐惧害怕的,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-1.9
-smoother,smoother,143,更平稳的 / 更顺畅的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-fully,fully,143,完全地 / 充分地,Zero / Neutral (V = 0),Trust,1a. Directly Mapped 8-Emotions,0.0
-wrong,wrong,137,出差错的 / 错误的（负面体验）,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-2.1
-cheap,cheap,134,便宜的 / 廉价的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-blessed,blessed,133,感到有福的 / 幸运的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.9
-pleased,pleased,132,感到满意的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.9
-safely,safely,132,安全平稳地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.2
-exactly,exactly,130,精准地 / 正是,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-impressive,impressive,130,令人印象深刻的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.3
-thrill,thrill,129,刺激 / 震慑感,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.5
-thrilling,thrilling,126,令人惊险刺激酣畅的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.1
-humor,humor,125,幽默感,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.1
-dream,dream,124,梦寐以求的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.0
-sorry,sorry,123,感到抱歉遗憾的,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-0.3
-relaxing,relaxing,122,令人放松惬意的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.2
-comfort,comfort,121,舒适 / 宽慰安心,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.5
-disappoint,disappoint,121,使失望,Negative (V < 0),Sadness,1a. Directly Mapped 8-Emotions,-1.7
-wonder,wonder,121,惊奇 / 赞叹,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-amazed,amazed,120,感到吃惊惊叹的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.2
-fear,fear,120,恐惧 / 害怕,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-2.2
-unable,unable,114,无法的 / 无能为力的,Zero / Neutral (V = 0),Sadness,1a. Directly Mapped 8-Emotions,0.0
-thrilled,thrilled,113,极度兴奋的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-confidence,confidence,112,信心 / 确信,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.3
-difficult,difficult,112,困难的 / 令人头疼的,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-1.5
-expert,expert,112,专家级的 / 娴熟的,Zero / Neutral (V = 0),Trust,1a. Directly Mapped 8-Emotions,0.0
-honestly,honestly,111,老实说 / 真诚地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.0
-confident,confident,109,自信的 / 确信的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.2
-willing,willing,108,乐意的 / 愿意的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-worry,worry,106,担心 / 忧虑感,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-1.9
-smoothest,smoothest,105,最平稳的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-positive,positive,101,积极正面的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.6
-surreal,surreal,98,超现实的 / 梦幻般的,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),1a. Directly Mapped 8-Emotions,0.0
-reassuring,reassuring,97,令人安心放心的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.7
-sweet,sweet,97,甜蜜的 / 甜美的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.0
-concern,concern,96,担忧 / 关切（焦虑感）,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-luckily,luckily,96,幸运地 / 幸亏,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.3
-poor,poor,95,贫乏的 / 差劲的,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-2.1
-scary,scary,94,令人害怕的 / 吓人的,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-2.2
-enthusiastic,enthusiastic,93,热情的 / 充满激情的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.2
-apprehensive,apprehensive,92,忧虑的 / 不安的,Zero / Neutral (V = 0),Fear,1a. Directly Mapped 8-Emotions,0.0
-exhilarating,exhilarating,90,令人极为兴奋刺激的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.7
-honest,honest,88,诚实的 / 坦诚的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.3
-inaccessible,inaccessible,86,难以到达的 / 偏远秘境感,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-lucked,lucky,86,幸运地 (动词变体),Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.9
-rushed,rushed,85,仓促的 / 匆忙的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-capable,capable,84,有能力的 / 熟练精湛的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.6
-prone,prone,84,易患（晕机）的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-simple,simple,84,简单明了的 / 省心的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-wonders,wonder,83,惊奇 / 奇观,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-fascinating,fascinating,83,令人入迷极具吸引力的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.5
-grateful,grateful,80,感激的 / 感恩的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.0
-delightful,delightful,80,令人欢欣的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.8
-advantage,advantage,78,优势 / 极佳点,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.0
-assured,assured,78,安抚 / 确信,Positive (V > 0),Trust,1a. Directly Mapped 8-Emotions,1.5
-famous,famous,77,著名的 / 享誉的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-pride,pride,77,自豪 / 骄傲,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.4
-safer,safer,77,更安全的 / 更安心的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.8
-neat,neat,76,整洁的 / 干练的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.0
-worthwhile,worthwhile,75,值得的 / 划算的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.4
-coolest,coolest,75,最酷爽震撼的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-stable,stable,75,平稳安心的,Positive (V > 0),Trust,1a. Directly Mapped 8-Emotions,1.2
-promptly,promptly,74,及时迅速地,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-concerns,concerns,73,担忧 / 关切,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-greatest,greatest,73,最伟大的 / 极佳的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,3.2
-ideal,ideal,72,理想的 / 完美的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.4
-peaceful,peaceful,72,平和宁静的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.2
-understanding,understanding,70,体谅的 / 理解的,Zero / Neutral (V = 0),Trust,1a. Directly Mapped 8-Emotions,0.0
-impossible,impossible,65,不可能的 / 难以置信的,Zero / Neutral (V = 0),Sadness,1a. Directly Mapped 8-Emotions,0.0
-tremendous,tremendous,64,震撼巨大的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-passion,passion,64,热情 / 激情,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.0
-fears,fears,64,恐惧 / 忧虑,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-1.8
-conscious,conscious,63,有意识的 / 讲究的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-pristine,pristine,62,原始纯净的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-dramatic,dramatic,61,戏剧性的 / 震撼的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-extraordinary,extraordinary,61,非凡的 / 卓越的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-gracious,gracious,61,亲切和蔼的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.6
-moving,moving,61,令人动容感人的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-passionate,passionate,61,充满激情的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.4
-considerate,considerate,60,体贴周到的,Positive (V > 0),Trust,1a. Directly Mapped 8-Emotions,1.9
-joy,joy,60,喜悦 / 快乐,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.8
-entertained,entertained,60,感到深受愉悦娱乐的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.7
-complimentary,complimentary,59,赞赏的 / 赠送贴心的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-convenient,convenient,59,便捷省心的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-excitement,excitement,59,兴奋 / 激动情绪,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.2
-intimate,intimate,59,温馨亲切的,Zero / Neutral (V = 0),Joy,1a. Directly Mapped 8-Emotions,0.0
-nerves,nerves,59,紧张感 / 不安神经,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-0.4
-unreal,unreal,59,如梦似幻的 / 震撼的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-flawless,flawless,58,无瑕的 / 完美的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.3
-fortunately,fortunately,58,幸运的是,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-disappointing,disappointing,58,令人失望的,Negative (V < 0),Sadness,1a. Directly Mapped 8-Emotions,-2.2
-lush,lush,57,郁郁葱葱宜人的,Zero / Neutral (V = 0),Sadness,1a. Directly Mapped 8-Emotions,0.0
-negative,negative,57,负面体验 / 消极评价,Negative (V < 0),Sadness,1a. Directly Mapped 8-Emotions,-2.7
-thankful,thankful,57,感激的 / 感恩的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.7
-thoughtful,thoughtful,57,贴心周到的,Positive (V > 0),Trust,1a. Directly Mapped 8-Emotions,1.6
-glorious,glorious,56,壮丽辉煌的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,3.2
-uncomfortable,uncomfortable,56,感到不适的 / 不安的,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-1.6
-fair,fair,55,公道的 / 划算的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.3
-noisy,noisy,55,喧闹吵杂的,Negative (V < 0),Anger,1a. Directly Mapped 8-Emotions,-0.7
-remarkable,remarkable,54,卓越令人瞩目的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.6
-genuine,genuine,54,真诚的 / 地道的,Zero / Neutral (V = 0),Trust,1a. Directly Mapped 8-Emotions,0.0
-cherish,cherish,54,珍视 / 珍惜铭记,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.6
-caring,caring,53,体贴入微关怀的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.2
-appreciation,appreciation,52,感激 / 欣赏,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.3
-enthusiasm,enthusiasm,52,热情 / 积极性,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.9
-gentle,gentle,52,平稳柔和的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-strong,strong,52,强烈的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.3
-trouble,trouble,52,麻烦 / 困扰,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-1.7
-disappointment,disappointment,51,失望 / 遗憾失落情绪,Negative (V < 0),Sadness,1a. Directly Mapped 8-Emotions,-2.3
-nicer,nicer,51,更美好/更亲切的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-hoping,hoping,50,期盼 / 希望,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.8
-happier,happier,50,更快乐的 / 更满意的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.4
-queasy,queasy,49,恶心反胃的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-seamless,seamless,49,流畅无缝无摩擦的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-satisfied,satisfied,49,感到满意的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.8
-delight,delight,48,欣喜 / 愉快,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.9
-genuinely,genuinely,48,真诚地 / 确实,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-steady,steady,48,平稳的 / 稳健的,Zero / Neutral (V = 0),Trust,1a. Directly Mapped 8-Emotions,0.0
-terrible,terrible,46,可怕的 / 糟糕的,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-2.1
-warmly,warmly,46,温暖地 / 热情地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.7
-unexpected,unexpected,46,意想不到的惊喜,Zero / Neutral (V = 0),Joy,1a. Directly Mapped 8-Emotions,0.0
-sensitive,sensitive,46,敏感的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-easier,easier,46,更容易的 / 更省心的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.8
-decent,decent,45,尚可的 / 体面的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-friendliness,friendliness,45,友善 / 亲和力,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.0
-loud,loud,45,吵闹的 / 噪音大的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-relax,relax,45,放松 / 放轻松,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-terrified,terrified,45,极度惊恐的,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-3.0
-encouraged,encouraged,44,深受鼓舞的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.5
-happily,happily,44,快乐地 / 欣然,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.6
-quieter,quieter,44,更安静宁静的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-beautifully,beautifully,43,优美地 / 出色地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.7
-calming,calming,42,令人平息平稳安心的（Calmness State）,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.7
-adventurous,adventurous,41,充满冒险刺激感的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.4
-charming,charming,40,迷人讨喜的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.8
-responsive,responsive,40,积极回应的 / 贴心的,Positive (V > 0),Trust,1a. Directly Mapped 8-Emotions,1.5
-touched,touched,40,深受感动的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-nicest,nicest,39,最美好的 / 最亲切的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.2
-unsafe,unsafe,39,感觉不安全的 / 担惊受怕的,Zero / Neutral (V = 0),Fear,1a. Directly Mapped 8-Emotions,0.0
-worst,worst,39,最糟糕的,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-3.1
-handle,handle,39,善于处理 / 掌控感,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-enjoyment,enjoyment,39,乐趣 / 享受,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.6
-greater,greater,38,更宏大震撼的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.5
-hospitable,hospitable,38,殷勤好客的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-pleasantly,pleasantly,38,令人愉快地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.1
-stress,stress,38,压力 / 紧张感,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-1.8
-wonderfully,wonderfully,38,极其出色绝妙地,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.9
-worries,worry,38,担忧 / 挂虑,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-1.8
-hopefully,hopefully,37,怀着希望地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.7
-nicely,nicely,37,很好地 / 优雅地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.9
-cared,cared,37,得到无微不至关怀的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.8
-delicious,delicious,37,美味愉悦的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.7
-nauseous,nauseous,36,恶心晕车的,Zero / Neutral (V = 0),Sadness,1a. Directly Mapped 8-Emotions,0.0
-reliable,reliable,36,可靠的 / 可信赖的,Zero / Neutral (V = 0),Trust,1a. Directly Mapped 8-Emotions,0.0
-marvelous,marvelous,36,绝妙的 / 令人惊叹的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.9
-humour,humour,35,幽默感,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.1
-superior,superior,35,优越顶尖的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.5
-picturesque,picturesque,35,风景如画的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.6
-surprisingly,surprisingly,35,出乎意料赞叹地,Positive (V > 0),Surprise,1a. Directly Mapped 8-Emotions,1.2
-humorous,humorous,35,幽默风趣的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.6
-bother,bother,35,打扰 / 烦扰,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-1.4
-anxious,anxious,35,焦虑不安的 / 挂虑的,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-1.0
-anxiety,anxiety,34,焦虑 / 不安,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-0.7
-generous,generous,34,大方的 / 慷慨的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.3
-romantic,romantic,34,浪漫惬意的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.7
-sadly,sadly,34,令人遗憾地 / 悲伤地,Negative (V < 0),Sadness,1a. Directly Mapped 8-Emotions,-1.8
-worse,worse,34,更糟糕的,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-2.1
-airsick,airsick,33,晕机的,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,0.0
-hassle,hassle,33,麻烦 / 烦心事,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-overwhelming,overwhelming,33,铺天盖地震撼的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-turbulent,turbulent,32,颠簸不安的,Zero / Neutral (V = 0),Fear,1a. Directly Mapped 8-Emotions,0.0
-upfront,upfront,32,直率透明的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-skillful,skillful,32,技术精湛的,Zero / Neutral (V = 0),Trust,1a. Directly Mapped 8-Emotions,0.0
-reassured,reassured,32,感到安心的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.7
-cute,cute,31,可爱宜人的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.0
-economical,economical,31,划算实惠的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-breathtakingly,breathtakingly,30,令人屏息震撼地（Awe/Amazement Emotion）,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),1a. Directly Mapped 8-Emotions,0.0
-kindly,kindly,30,体贴友善地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,2.2
-unbelievably,unbelievably,29,难以置信地,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-stellar,stellar,29,璀璨顶尖级的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-pure,pure,29,纯粹的 / 纯净震撼的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-interactive,interactive,29,互动性强的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-delighted,delighted,29,高高兴兴的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.3
-convinced,convinced,29,深信不疑的 / 心服口服,Positive (V > 0),Trust,1a. Directly Mapped 8-Emotions,1.7
-chatty,chatty,29,健谈热情的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-gladly,gladly,29,乐意地 / 高兴地,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.4
-boring,boring,28,令人无聊乏味的,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-1.3
-sad,sad,28,悲伤的 / 遗憾痛心的,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-2.1
-serene,serene,28,宁静祥和的,Positive (V > 0),Trust,1a. Directly Mapped 8-Emotions,2.0
-splendor,splendor,27,壮丽辉煌的奇观,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,3.0
-peace,peace,27,宁静 / 和平,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,2.5
-regrets,regrets,27,遗憾 / 后悔,Negative (V < 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,-1.5
-aside,aside,27,撇开 / 排除,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-eager,eager,27,热切的 / 渴望的,Positive (V > 0),Joy,1a. Directly Mapped 8-Emotions,1.5
-comforting,comforting,27,令人感到安慰抚慰的,Positive (V > 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,1.7
-bang,bang,26,物超所值（bang for buck）,Zero / Neutral (V = 0),Fear,1a. Directly Mapped 8-Emotions,0.0
-basic,basic,26,基础的 / 简陋的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-cramped,cramped,26,拥挤狭窄不适的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1a. Directly Mapped 8-Emotions,0.0
-hate,hate,26,憎恨 / 讨厌,Negative (V < 0),Fear,1a. Directly Mapped 8-Emotions,-2.7
-mesmerizing,mesmerizing,26,令人目眩神迷为之倾倒的,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),1a. Directly Mapped 8-Emotions,0.0
-upset,upset,26,感到沮丧难过的,Negative (V < 0),Sadness,1b. Directly Mapped Polarity Only,-1.6
-bump,bump,25,颠簸不适的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-communicative,communicative,25,善于沟通的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-dangerous,dangerous,25,危险的,Negative (V < 0),Fear,1b. Directly Mapped Polarity Only,-2.1
-ill,ill,25,生病的 / 恶心呕吐的,Negative (V < 0),Fear,1b. Directly Mapped Polarity Only,-1.8
-laughing,laughing,25,欢声笑语 / 开心大笑,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,2.2
-inclement,inclement,24,恶劣的气候,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-magnificence,magnificence,24,壮丽震撼感,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,2.4
-impeccable,impeccable,23,无可挑剔的,Zero / Neutral (V = 0),Trust,1b. Directly Mapped Polarity Only,0.0
-talkative,talkative,23,健谈热情的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-horrible,horrible,23,极度糟糕可怕的,Negative (V < 0),Fear,1b. Directly Mapped Polarity Only,-2.5
-shining,shining,22,璀璨夺目的,Zero / Neutral (V = 0),Joy,1b. Directly Mapped Polarity Only,0.0
-calmed,calmed,22,心情平静安稳下来的,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,1.6
-talented,talented,22,才华横溢精湛的,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,2.3
-skeptical,skeptical,22,怀疑的 / 存疑的,Negative (V < 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,-1.3
-tough,tough,22,严苛倒霉的,Negative (V < 0),Sadness,1b. Directly Mapped Polarity Only,-0.5
-lasting,lasting,22,持久的 / 深刻的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-fearful,fearful,22,恐惧的 / 担心的,Negative (V < 0),Fear,1b. Directly Mapped Polarity Only,-2.2
-favourite,favourite,22,最喜爱的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-bummed,bummed,21,感到扫兴遗憾失落的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-mild,mild,21,轻微适度的（颠簸/舒适）,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-refreshing,refreshing,21,令人神清气爽耳目一新的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-spoil,spoil,21,破坏 / 毁掉（好心情）,Zero / Neutral (V = 0),Disgust,1b. Directly Mapped Polarity Only,0.0
-surprises,surprise,21,惊喜 / 意料之外,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,0.9
-unbeatable,unbeatable,21,无可比拟的 / 无敌的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-successful,successful,20,成功的 / 满意的,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,2.8
-mood,mood,20,心情 / 情绪,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-spiritual,spiritual,20,精神神圣的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-cheerful,cheerful,20,欢快愉悦的,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,2.5
-amusing,amusing,20,风趣风趣令人发笑的,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,1.6
-astonishing,astonishing,20,令人惊叹的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-exquisite,exquisite,19,精美的 / 绝妙的,Zero / Neutral (V = 0),Joy,1b. Directly Mapped Polarity Only,0.0
-suitable,suitable,19,合适的 / 满意的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-inspired,inspired,19,灵感大发 / 深受震撼的,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,2.2
-touching,touching,19,令人动容流泪的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-comfy,comfy,19,舒适惬意的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-chilly,chilly,19,寒冷不适的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-awestruck,awestruck,19,充满敬畏震撼的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-handy,handy,18,实用的 / 贴心的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-wondered,wonder,18,感到惊奇惊叹 (动词变体),Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-witty,witty,18,风趣幽默的,Zero / Neutral (V = 0),Joy,1b. Directly Mapped Polarity Only,0.0
-soothing,soothing,18,舒缓抚慰人心的,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,1.3
-secret,secret,18,秘境 / 私密独享感,Zero / Neutral (V = 0),Trust,1b. Directly Mapped Polarity Only,0.0
-marvel,marvel,18,惊叹 / 奇迹,Positive (V > 0),Surprise,1b. Directly Mapped Polarity Only,1.8
-keen,keen,18,热情的 / 敏锐的,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,1.5
-honesty,honesty,18,真诚 / 诚信解说,Positive (V > 0),Trust,1b. Directly Mapped Polarity Only,2.2
-smart,smart,18,聪慧的 / 明智的,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,1.7
-haha,haha,18,哈哈（欢快情绪）,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,2.0
-easiest,easiest,18,最省心的 / 最容易的,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,1.8
-danger,danger,18,危险 / 威胁,Negative (V < 0),Fear,1b. Directly Mapped Polarity Only,-2.4
-amazement,amazement,18,惊叹 / 惊奇,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,2.5
-chill,chill,18,惬意轻松的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-charm,charm,18,顺畅 / 令人满意,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,1.7
-astounding,astounding,18,令人无比震撼惊叹的,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,1.8
-effective,effective,18,有效划算的,Positive (V > 0),Trust,1b. Directly Mapped Polarity Only,2.1
-hopes,hopes,17,期盼 / 希望,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,1.8
-overwhelmed,overwhelmed,17,被震撼/感动深深淹没的,Positive (V > 0),Sadness,1b. Directly Mapped Polarity Only,0.2
-valuable,valuable,17,珍贵的 / 有价值的,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,2.1
-energetic,energetic,17,精力充沛的,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,1.9
-discomfort,discomfort,17,身体/心理不适感,Negative (V < 0),Sadness,1b. Directly Mapped Polarity Only,-1.8
-cordial,cordial,17,热情亲切礼貌的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,0.0
-claustrophobic,claustrophobic,16,感到幽闭恐惧压抑的,Negative (V < 0),Fear,1b. Directly Mapped Polarity Only,0.0
-insane,insane,16,疯狂震撼的 / 极端的,Negative (V < 0),Fear,1b. Directly Mapped Polarity Only,-1.7
-leery,leery,16,提防警惕 / 顾虑重重的,Zero / Neutral (V = 0),Surprise,1b. Directly Mapped Polarity Only,0.0
-loving,loving,16,热爱的 / 充满了爱的,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,2.9
-sensational,sensational,16,绝佳轰动震撼的,Zero / Neutral (V = 0),Joy,1b. Directly Mapped Polarity Only,0.0
-sudden,sudden,16,突然的 / 猝不及防的,Zero / Neutral (V = 0),Surprise,1b. Directly Mapped Polarity Only,0.0
-uncertain,uncertain,16,不确定的 / 顾虑的,Negative (V < 0),Fear,1b. Directly Mapped Polarity Only,-1.2
-worthy,worthy,16,非常值的 / 值得的,Positive (V > 0),Trust,1b. Directly Mapped Polarity Only,1.9
-hilarious,hilarious,15,爆笑幽默搞笑的,Positive (V > 0),Joy,1b. Directly Mapped Polarity Only,1.7
-warmth,warmth,15,温暖安心感,Positive (V > 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,2.0
-unprofessional,unprofessional,15,不专业的,Negative (V < 0),Positive/Negative Polarity Only,1b. Directly Mapped Polarity Only,-2.3
-respectful,respectful,15,充满敬意的,Positive (V > 0),Trust,1c. Morphological Rescued (respectful -> respectful),2.0
-immaculate,immaculate,15,完美无瑕洁净的,Zero / Neutral (V = 0),Joy,1c. Morphological Rescued (immaculate -> immaculate),0.0
-annoying,annoying,15,令人烦躁恼火的（Annoyance/Irritation Emotion）,Negative (V < 0),Anger,1c. Morphological Rescued (annoying -> annoying),-1.7
-fuss,fuss,15,大惊小怪 / 争吵骚动,Zero / Neutral (V = 0),Sadness,1c. Morphological Rescued (fuss -> fuss),0.0
-awful,awful,15,极其糟糕的,Negative (V < 0),Fear,1c. Morphological Rescued (awful -> awful),-2.0
-awed,awed,15,感到为之肃然起敬震撼的,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),1c. Morphological Rescued (awed -> awed),0.0
-bubbly,bubbly,15,活泼热情的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (bubbly -> bubbly),0.0
-praise,praise,14,称赞 / 高度赞扬,Positive (V > 0),Joy,1c. Morphological Rescued (praise -> praise),2.6
-trustworthy,trustworthy,14,值得信赖靠谱的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (trustworthy -> trustworthy),2.6
-satisfaction,satisfaction,14,满意感,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (satisfaction -> satisfaction),1.9
-ruined,ruined,14,毁掉行程的 / 扫兴糟心的,Negative (V < 0),Fear,1c. Morphological Rescued (ruined -> ruined),-2.1
-proud,proud,14,感到自豪骄傲的,Positive (V > 0),Joy,1c. Morphological Rescued (proud -> proud),2.1
-marvellous,marvellous,14,令人叹为观止的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (marvellous -> marvellous),0.0
-intrusive,intrusive,14,突兀扰人的 / 煞风景的,Zero / Neutral (V = 0),Fear,1c. Morphological Rescued (intrusive -> intrusive),0.0
-glowing,glowing,14,极度赞赏口碑极佳的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (glowing -> glowing),0.0
-frustrating,frustrating,14,令人挫败的 / 烦人的,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (frustrating -> frustrating),-1.9
-bothered,bothered,14,困扰的 / 烦心的,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (bothered -> bothered),-1.3
-authentic,authentic,14,地道的 / 真实无伪的,Zero / Neutral (V = 0),Joy,1c. Morphological Rescued (authentic -> authentic),0.0
-tricky,tricky,13,棘手不安的,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (tricky -> tricky),-0.6
-worldly,worldly,13,超凡脱俗的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (worldly -> worldly),0.0
-vibrant,vibrant,13,生机勃勃色彩斑斓的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (vibrant -> vibrant),2.4
-uneasy,uneasy,13,心神不宁感到不安的,Negative (V < 0),Fear,1c. Morphological Rescued (uneasy -> uneasy),-1.6
-precious,precious,13,弥足珍贵的 memory,Positive (V > 0),Joy,1c. Morphological Rescued (precious -> precious),2.7
-safest,safest,13,最安全平稳的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (safest -> safest),1.7
-responsible,responsible,13,负责任的,Positive (V > 0),Trust,1c. Morphological Rescued (responsible -> responsible),1.3
-pleasurable,pleasurable,13,令人愉快的,Positive (V > 0),Joy,1c. Morphological Rescued (pleasurable -> pleasurable),2.4
-apologetic,apologetic,13,诚恳抱歉致歉的,Zero / Neutral (V = 0),Trust,1c. Morphological Rescued (apologetic -> apologetic),0.0
-bored,bored,12,感到无聊厌烦的,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (bored -> bored),-1.1
-soaking,soaking,12,沉浸于（soaking in view）,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (soaking -> soaking),0.0
-stuffy,stuffy,12,闷热不适的（体感不适）,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (stuffy -> stuffy),0.0
-superbly,superbly,12,出类拔萃完美地,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (superbly -> superbly),0.0
-wondrous,wondrous,12,惊叹奇妙的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (wondrous -> wondrous),0.0
-satisfying,satisfying,11,令人称心满意的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (satisfying -> satisfying),2.0
-wary,wary,11,警惕顾虑的,Zero / Neutral (V = 0),Fear,1c. Morphological Rescued (wary -> wary),0.0
-trepidation,trepidation,11,惊恐战栗 / 不安,Zero / Neutral (V = 0),Fear,1c. Morphological Rescued (trepidation -> trepidation),0.0
-surprising,surprising,11,令人出乎意料惊喜的,Positive (V > 0),Surprise,1c. Morphological Rescued (surprising -> surprising),1.1
-superlative,superlative,11,顶级极致赞赏的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (superlative -> superlative),0.0
-sketchy,sketchy,11,令人不安可疑的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (sketchy -> sketchy),0.0
-slick,slick,11,熟练专业/光滑的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (slick -> slick),0.0
-rewarding,rewarding,11,非常有成就感/物超所值的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (rewarding -> rewarding),2.4
-nervousness,nervousness,11,紧张不安的情绪,Negative (V < 0),Fear,1c. Morphological Rescued (nervousness -> nervousness),-1.2
-mad,mad,11,发怒的 / 生气的,Negative (V < 0),Fear,1c. Morphological Rescued (mad -> mad),-2.2
-inviting,inviting,11,引人入胜令人愉悦的,Positive (V > 0),Joy,1c. Morphological Rescued (inviting -> inviting),1.3
-cheesy,cheesy,11,俗气的 / 劣质的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (cheesy -> cheesy),0.0
-admire,admire,11,钦佩赞赏,Positive (V > 0),Trust,1c. Morphological Rescued (admire -> admire),2.1
-mesmerized,mesmerized,10,被深深吸引迷住的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (mesmerized -> mesmerized),0.0
-unfortunate,unfortunate,10,不幸遗憾的,Negative (V < 0),Sadness,1c. Morphological Rescued (unfortunate -> unfortunate),-2.0
-stunningly,stunningly,10,令人震撼地,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),1c. Morphological Rescued (stunningly -> stunningly),0.0
-stunned,stunned,10,感到目瞪口呆震撼的,Negative (V < 0),Fear,1c. Morphological Rescued (stunned -> stunned),-0.4
-stability,stability,10,平稳安心感,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (stability -> stability),0.0
-raving,raving,10,赞不绝口极力推荐的,Zero / Neutral (V = 0),Joy,1c. Morphological Rescued (raving -> raving),0.0
-quaint,quaint,10,古朴宜人的,Zero / Neutral (V = 0),Joy,1c. Morphological Rescued (quaint -> quaint),0.0
-wonderfull,wonderful,10,令人惊叹绝妙的 (错别字变体),Positive (V > 0),Joy,1c. Morphological Rescued (wonderfull -> wonderful),2.7
-jealous,jealous,10,令人羡慕嫉妒的,Negative (V < 0),Disgust,1c. Morphological Rescued (jealous -> jealous),-2.0
-improving,improving,10,不断改善令人满意的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (improving -> improving),1.8
-improvement,improvement,10,体验改善 / 提升,Positive (V > 0),Joy,1c. Morphological Rescued (improvement -> improvement),2.0
-friendlier,friendlier,10,更加亲切友好的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (friendlier -> friendlier),2.0
-emotional,emotional,10,情感上的 / 动情的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (emotional -> emotional),0.6
-ecstatic,ecstatic,10,狂喜的 / 极度兴奋的,Positive (V > 0),Joy,1c. Morphological Rescued (ecstatic -> ecstatic),2.3
-conscientious,conscientious,10,认真负责的,Zero / Neutral (V = 0),Trust,1c. Morphological Rescued (conscientious -> conscientious),0.0
-badly,badly,10,严重地 / 糟糕地,Negative (V < 0),Sadness,1c. Morphological Rescued (badly -> badly),-2.1
-unspoiled,unspoiled,9,未经破坏原始纯粹的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (unspoiled -> unspoiled),0.0
-terribly,terribly,9,极度负面地 / 抱歉,Negative (V < 0),Sadness,1c. Morphological Rescued (terribly -> terribly),-2.6
-susceptible,susceptible,9,易受影响脆弱的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (susceptible -> susceptible),0.0
-stuffed,stuffed,9,塞满的 / 憋闷不适的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (stuffed -> stuffed),0.0
-miserable,miserable,9,极度痛苦糟糕的,Negative (V < 0),Sadness,1c. Morphological Rescued (miserable -> miserable),-2.2
-hassles,hassles,9,烦心事 / 摩擦,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (hassles -> hassles),0.0
-effortless,effortless,9,轻松平稳的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (effortless -> effortless),0.0
-compliment,compliment,9,赞美 / 赞赏评价,Positive (V > 0),Joy,1c. Morphological Rescued (compliment -> compliment),2.1
-claustrophobia,claustrophobia,9,幽闭恐惧症（密闭机舱焦虑）,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),1c. Morphological Rescued (claustrophobia -> claustrophobia),0.0
-cheerfully,cheerfully,9,欢快愉悦地,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (cheerfully -> cheerfully),2.1
-bummer,bummer,9,令人扫兴扫兴的事,Negative (V < 0),Disgust,1c. Morphological Rescued (bummer -> bummer),-1.6
-awkward,awkward,9,尴尬的 / 别扭的,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (awkward -> awkward),-0.6
-automatically,automatically,9,自动地 / 自然而然,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (automatically -> automatically),0.0
-mindful,mindful,8,细心周到的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (mindful -> mindful),0.0
-yummy,yummy,8,美味愉悦的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (yummy -> yummy),2.4
-unstable,unstable,8,不稳定摇晃令人担心的,Negative (V < 0),Fear,1c. Morphological Rescued (unstable -> unstable),-1.5
-spoiled,spoiled,8,好心情被破坏毁掉的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (spoiled -> spoiled),0.0
-shocked,shocked,8,感到震惊惊吓的,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (shocked -> shocked),-1.3
-poorly,poorly,8,糟糕地 / 差劲地,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (poorly -> poorly),0.0
-nerve,nerve,8,紧张神经,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (nerve -> nerve),0.0
-grace,grace,8,优雅 / 良好风度,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (grace -> grace),1.8
-frustration,frustration,8,挫败感 / 烦恼,Negative (V < 0),Anger,1c. Morphological Rescued (frustration -> frustration),-2.1
-frightened,frightened,8,感到受惊吓害怕的,Negative (V < 0),Fear,1c. Morphological Rescued (frightened -> frightened),-1.9
-exhilaration,exhilaration,8,极度兴奋快感,Zero / Neutral (V = 0),Joy,1c. Morphological Rescued (exhilaration -> exhilaration),0.0
-exhausted,exhausted,8,精疲力竭极为疲惫的,Negative (V < 0),Sadness,1c. Morphological Rescued (exhausted -> exhausted),-1.5
-dissapointed,disappointed,8,感到失望的（错别字变体）,Negative (V < 0),Sadness,1c. Morphological Rescued (dissapointed -> disappointed),-2.1
-cherished,cherish,8,珍视铭记的,Positive (V > 0),Joy,1c. Morphological Rescued (cherished -> cherish),2.3
-annoyed,annoyed,8,感到烦恼的 / 恼火的,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (annoyed -> annoyed),-1.6
-strange,strange,7,怪异不安的,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (strange -> strange),-0.8
-reputable,reputable,7,信誉良好的,Zero / Neutral (V = 0),Trust,1c. Morphological Rescued (reputable -> reputable),0.0
-ridiculous,ridiculous,7,荒谬的 / 离谱的,Negative (V < 0),Disgust,1c. Morphological Rescued (ridiculous -> ridiculous),-1.5
-rudely,rudely,7,粗鲁地 / 无礼地,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (rudely -> rudely),-2.2
-serenity,serenity,7,宁静 / 祥和,Zero / Neutral (V = 0),Joy,1c. Morphological Rescued (serenity -> serenity),0.0
-relieved,relieved,7,宽慰的 / 松了一口气,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (relieved -> relieved),1.6
-suffered,suffered,7,遭受身体/晕眩痛苦,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (suffered -> suffered),-2.2
-unhappy,unhappy,7,不高兴不满意的,Negative (V < 0),Sadness,1c. Morphological Rescued (unhappy -> unhappy),-1.8
-unpleasant,unpleasant,7,令人不快令人难受的,Negative (V < 0),Sadness,1c. Morphological Rescued (unpleasant -> unpleasant),-2.1
-powerful,powerful,7,强烈的 / 感人的,Positive (V > 0),Joy,1c. Morphological Rescued (powerful -> powerful),1.8
-worrying,worry,7,令人担心的,Negative (V < 0),Fear,1c. Morphological Rescued (worrying -> worry),-1.4
-weird,weird,7,古怪令人不安的,Negative (V < 0),Disgust,1c. Morphological Rescued (weird -> weird),-0.7
-painful,painful,7,痛苦的 / 令人难受的,Negative (V < 0),Fear,1c. Morphological Rescued (painful -> painful),-1.9
-panic,panic,7,恐慌 / 惊恐状态,Negative (V < 0),Fear,1c. Morphological Rescued (panic -> panic),-2.3
-laughter,laughter,7,欢笑 / 笑声,Positive (V > 0),Joy,1c. Morphological Rescued (laughter -> laughter),2.2
-hopeful,hopeful,7,怀抱希望的,Positive (V > 0),Joy,1c. Morphological Rescued (hopeful -> hopeful),2.3
-hesitating,hesitating,7,犹豫顾虑（心理活动）,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (hesitating -> hesitating),-1.4
-gushing,gushing,7,滔滔不绝赞赞称道的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (gushing -> gushing),0.0
-exhilerating,exhilarating,7,令人兴奋刺激酣畅地（错别字变体）,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (exhilerating -> exhilarating),1.7
-enthusiastically,enthusiastically,7,热情高涨地,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (enthusiastically -> enthusiastically),2.6
-curious,curious,7,好奇求知的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (curious -> curious),1.3
-confusion,confusion,7,困惑 / 混乱,Negative (V < 0),Fear,1c. Morphological Rescued (confusion -> confusion),-1.2
-classy,classy,7,高端优雅的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (classy -> classy),1.9
-captivated,captivated,7,被深深吸引着迷的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (captivated -> captivated),1.6
-alas,alas,7,唉 / 遗憾的是,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (alas -> alas),-1.1
-reassurance,reassurance,6,令人放心的安抚感,Positive (V > 0),Trust,1c. Morphological Rescued (reassurance -> reassurance),1.5
-inspirational,inspirational,6,鼓舞人心的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (inspirational -> inspirational),2.3
-jovial,jovial,6,欢快风趣的,Positive (V > 0),Joy,1c. Morphological Rescued (jovial -> jovial),1.9
-precision,precision,6,精准靠谱的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,1c. Morphological Rescued (precision -> precision),0.0
-gratitude,gratitude,6,感激 / 感恩,Positive (V > 0),Joy,1c. Morphological Rescued (gratitude -> gratitude),2.3
-relief,relief,6,轻松如释重负感,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (relief -> relief),2.1
-sublime,sublime,6,崇高壮丽绝美的（Aesthetic Emotion/Awe）,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),1c. Morphological Rescued (sublime -> sublime),0.0
-timid,timid,6,胆怯害羞的,Negative (V < 0),Fear,1c. Morphological Rescued (timid -> timid),-1.0
-warmest,warmest,6,最暖心亲切的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (warmest -> warmest),1.7
-hug,hug,6,拥抱 / 温暖关怀,Positive (V > 0),Joy,1c. Morphological Rescued (hug -> hug),2.1
-amaze,amaze,6,使惊叹 / 惊奇,Positive (V > 0),Surprise,1c. Morphological Rescued (amaze -> amaze),2.5
-frightening,frightening,6,令人惊恐吓人的,Negative (V < 0),Positive/Negative Polarity Only,1c. Morphological Rescued (frightening -> frightening),-2.2
-calmer,calmer,6,更平静安心的,Positive (V > 0),Positive/Negative Polarity Only,1c. Morphological Rescued (calmer -> calmer),1.5
-appropriately,appropriately,6,恰当地 / 贴心地,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-blind,blind,6,盲目的 / 视线受阻的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-1.7
-broad,broad,6,宽广的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-fascinated,fascinated,6,深深入迷为之倾倒的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,2.1
-casual,casual,6,随和轻松的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.8
-discouraged,discouraged,6,感到灰心气馁的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-1.7
-enthralled,enthralled,6,被深深吸引迷住的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-joyful,joyful,5,充满喜悦欢快的,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,2.9
-wowed,wowed,5,被深深惊叹震撼的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,2.6
-suprise,surprise,5,惊喜 / 意料之外（错别字变体）,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,1.1
-stressful,stressful,5,令人压力重重焦虑的（Stress/Anxiety State）,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-2.3
-shock,shock,5,震惊 / 冲击,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-1.6
-scare,scare,5,吓人 / 引发恐慌的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-2.2
-overwhelmingly,overwhelmingly,5,压倒性震撼地,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-0.5
-marveled,marvel,5,惊叹赞赏的,Positive (V > 0),Surprise,2a. Class 2 Colloquial Superlatives,1.8
-luscious,luscious,5,秀美令人心旷神怡的,Zero / Neutral (V = 0),Joy,2a. Class 2 Colloquial Superlatives,0.0
-pity,pity,5,遗憾 / 同情怜悯,Negative (V < 0),Sadness,2a. Class 2 Colloquial Superlatives,-1.2
-jitters,jitters,5,忐忑不安 / 紧张发抖感,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,0.0
-hates,hate,5,厌恶 / 讨厌,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-1.9
-hated,hate,5,讨厌 / 极为憎恶的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-3.2
-gloomy,gloomy,5,阴沉的 / 沮丧的,Negative (V < 0),Sadness,2a. Class 2 Colloquial Superlatives,-0.6
-faultless,faultless,5,无可挑剔完美的,Positive (V > 0),Trust,2a. Class 2 Colloquial Superlatives,2.0
-envy,envy,5,羡慕 / 嫉妒,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-1.1
-comforted,comforted,5,感到安慰安心的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,1.8
-apprehension,apprehension,5,忧虑 / 疑虑不安,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-2.1
-intimidating,intimidating,5,令人胆怯令人畏惧的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-1.9
-tranquil,tranquil,4,清幽宁静的（Calmness/Serenity State）,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,0.2
-spellbinding,spellbinding,4,扣人心弦迷人的,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),2a. Class 2 Colloquial Superlatives,0.0
-spellbound,spellbound,4,出神为之入迷的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-stoked,stoked,4,极为激动期待的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-subtle,subtle,4,微妙精细的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-suprised,surprised,4,感到惊喜惊讶的（错别字变体）,Positive (V > 0),Surprise,2a. Class 2 Colloquial Superlatives,0.9
-thrills,thrills,4,刺激 / 快感,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,1.5
-unnerving,unnerving,4,令人发慌不安吓人的,Zero / Neutral (V = 0),CATE (Low-Altitude Domain Lexicon),2a. Class 2 Colloquial Superlatives,0.0
-tranquility,tranquility,4,宁静 / 平和,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,1.8
-underwhelmed,underwhelmed,4,大失所望未达预期的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-unfair,unfair,4,不公平的 / 冤枉的,Negative (V < 0),Sadness,2a. Class 2 Colloquial Superlatives,-2.1
-unfriendly,unfriendly,4,不友善的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-1.5
-wicked,wicked,4,太棒了 / 绝妙的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-2.4
-wildest,wildest,4,最疯狂的（狂想）,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-profound,profound,4,深刻震撼的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-regretting,regret,4,感到后悔遗憾的,Negative (V < 0),Sadness,2a. Class 2 Colloquial Superlatives,-1.7
-nasty,nasty,4,令人厌恶的 / 恶劣的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-2.6
-pleasing,pleasing,4,令人愉悦满意的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,2.4
-frustrated,frustrated,4,感到沮丧的 / 挫败的,Negative (V < 0),Anger,2a. Class 2 Colloquial Superlatives,-2.4
-captivating,captivating,4,扣人心弦引人入胜的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-phobia,phobia,4,恐惧症 / 恐高心理,Negative (V < 0),CATE (Low-Altitude Domain Lexicon),2a. Class 2 Colloquial Superlatives,-1.6
-disconcerting,disconcerting,4,令人不安的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-dreaded,dread,4,令人害怕恐惧的 / 提心吊胆,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-2.7
-dreading,dread,4,感到十分恐惧担心的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-2.4
-emotion,emotion,4,情感 / 情绪,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-exhilarated,exhilarated,4,感到无比兴奋酣畅的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,3.0
-embarrassed,embarrassed,4,感到尴尬难堪的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-1.5
-giddy,giddy,4,兴奋得头晕目眩欢欣的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-0.6
-hungry,hungry,4,贪婪的（money hungry）,Zero / Neutral (V = 0),Anticipation,2a. Class 2 Colloquial Superlatives,0.0
-irritated,irritated,4,感到恼火烦躁的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-2.0
-irritating,irritating,4,令人烦躁恼火的,Negative (V < 0),Disgust,2a. Class 2 Colloquial Superlatives,-2.0
-ominous,ominous,4,不详的 / 不妙的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-1.4
-peacefulness,peacefulness,4,宁静详和感,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,2.1
-reassure,reassure,3,使人感到安心放心的,Positive (V > 0),Trust,2a. Class 2 Colloquial Superlatives,1.4
-heartfelt,heartfelt,3,真挚的 / 出自内心的,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,2.5
-horribly,horrible,3,糟糕恐怖地,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-2.4
-incomprehensible,incomprehensible,3,难以理解令人困惑的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-indulge,indulge,3,尽情享受 / 犒劳自己,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-joking,joking,3,开玩笑的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.9
-marvelously,marvelously,3,奇妙极其出色地,Zero / Neutral (V = 0),Joy,2a. Class 2 Colloquial Superlatives,0.0
-overjoyed,overjoyed,3,欣喜若狂的,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,2.7
-peacefully,peacefully,3,宁静和平地,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,2.4
-sympathy,sympathy,3,同情 / 体谅,Positive (V > 0),Sadness,2a. Class 2 Colloquial Superlatives,1.5
-remorse,remorse,3,懊悔 / 悔恨,Negative (V < 0),Sadness,2a. Class 2 Colloquial Superlatives,-1.1
-rickety,rickety,3,摇摇欲坠的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-scaring,scare,3,使人害怕恐惧的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-1.9
-securely,securely,3,安全平稳地,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,1.4
-sickening,sickening,3,令人作呕恶心的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-2.4
-spoilt,spoilt,3,被破坏败兴的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-uneasiness,uneasiness,3,不安 / 忐忑感,Negative (V < 0),Sadness,2a. Class 2 Colloquial Superlatives,-1.6
-unsettled,unsettled,3,心神不宁忐忑的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-1.3
-happiness,happiness,3,幸福快乐感,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,2.6
-harrowing,harrowing,3,令人触目惊心惊恐的,Zero / Neutral (V = 0),Fear,2a. Class 2 Colloquial Superlatives,0.0
-curiosity,curiosity,3,好奇心 / 探索欲,Zero / Neutral (V = 0),Surprise,2a. Class 2 Colloquial Superlatives,0.0
-guilty,guilty,3,内疚内疚感,Negative (V < 0),Sadness,2a. Class 2 Colloquial Superlatives,-1.8
-carefree,carefree,3,无忧无虑自在的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,1.7
-ecstasy,ecstasy,3,狂喜 / 极乐状态,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,2.9
-aggressively,aggressively,3,挑衅攻击地 / 极其恶劣地,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-1.3
-ambivalent,ambivalent,3,矛盾复杂心理的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.5
-apprehensions,apprehension,3,顾虑 / 忧虑不安,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-0.9
-aprehensive,apprehensive,3,感到忧虑不安的（错别字变体）,Zero / Neutral (V = 0),Fear,2a. Class 2 Colloquial Superlatives,0.0
-astonished,astonished,3,感到十分惊异惊叹的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,1.6
-beneficial,beneficial,3,有益的 / 有帮助的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,1.9
-candid,candid,3,坦率真诚的,Zero / Neutral (V = 0),Joy,2a. Class 2 Colloquial Superlatives,0.0
-astounded,astounded,3,感到十分震惊震撼的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,1.8
-cheer,cheer,3,振奋 / 欢呼,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,2.3
-deaf,deaf,3,听而不闻冷漠的（fell on deaf ears）,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-dreaming,dreaming,3,梦寐以求 / 心驰神往,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-compassion,compassion,3,同理心 / 关切,Positive (V > 0),Fear,2a. Class 2 Colloquial Superlatives,2.0
-disappointingly,disappointed,3,令人失望地,Negative (V < 0),Sadness,2a. Class 2 Colloquial Superlatives,-1.9
-dissatisfied,dissatisfied,3,感到不满意的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-1.6
-dazzled,dazzled,3,目眩神迷震撼的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-daunting,daunting,3,令人望而生畏胆怯的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-compassionate,compassionate,3,富有同理心体贴的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,2.2
-humility,humility,2,谦逊贴心,Zero / Neutral (V = 0),Trust,2a. Class 2 Colloquial Superlatives,0.0
-threaten,threaten,2,受到威胁/令人不安的,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-1.6
-suffering,suffering,2,受苦受难不适,Negative (V < 0),Fear,2a. Class 2 Colloquial Superlatives,-2.1
-squeamish,squeamish,2,胆怯恶心体质易受惊的,Zero / Neutral (V = 0),Fear,2a. Class 2 Colloquial Superlatives,0.0
-rigid,rigid,2,刻板不近人情的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-0.5
-pumped,pumped,2,兴奋激动的 / 跃跃欲试,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-positively,positively,2,积极正面地,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,2.4
-offensive,offensive,2,冒犯的 / 令人不适的,Negative (V < 0),Disgust,2a. Class 2 Colloquial Superlatives,-2.0
-primo,primo,2,一流的 / 顶级的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-favourable,favourable,2,有利的 / 良好的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-desperate,desperate,2,感到绝望迫切的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-1.3
-darling,darling,2,可爱的 / 亲切的,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,2.8
-compliant,compliant,2,顺从的 / 合规安心的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-clever,clever,2,聪明睿智的,Positive (V > 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,2.0
-bothering,bothering,2,打扰令人烦心的,Negative (V < 0),Sadness,2a. Class 2 Colloquial Superlatives,-1.6
-animated,animated,2,生动的 / 活力充沛的,Zero / Neutral (V = 0),Joy,2a. Class 2 Colloquial Superlatives,0.0
-agreeable,agreeable,2,宜人的 / 令人满意的,Positive (V > 0),Trust,2a. Class 2 Colloquial Superlatives,1.8
-exhausting,exhausting,2,令人筋疲力尽的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-1.5
-shady,shady,1,可疑不诚信的,Zero / Neutral (V = 0),Fear,2a. Class 2 Colloquial Superlatives,0.0
-quell,quell,1,镇定 / 平息（恐惧）,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-racist,racist,1,种族歧视的,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-3.0
-regrettably,regrettably,1,遗憾地 / 抱歉,Negative (V < 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,-2.0
-reward,reward,1,赏心悦目的奖赏体验,Positive (V > 0),Joy,2a. Class 2 Colloquial Superlatives,2.7
-wasbeautiful,wasbeautiful,1,美丽动人的（美感）,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-truthful,truthful,1,真实可信的,Positive (V > 0),Trust,2a. Class 2 Colloquial Superlatives,2.0
-ungodly,ungodly,1,糟糕恶劣的,Zero / Neutral (V = 0),Sadness,2a. Class 2 Colloquial Superlatives,0.0
-unwell,unwell,1,身体不适的,Zero / Neutral (V = 0),Sadness,2a. Class 2 Colloquial Superlatives,0.0
-immeasurable,immeasurable,1,无法估量的 / 极致的,Zero / Neutral (V = 0),CATE (Colloquial Superlative),2a. Class 2 Colloquial Superlatives,0.0
-whelmed,whelmed,1,被深深震撼淹没的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,0.0
-worthful,worthful,1,物有所值的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,0.0
-miraculously,miraculously,1,奇迹般地,Zero / Neutral (V = 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,0.0
-grumpy,grumpy,1,脾气暴躁的 / 不悦的,Zero / Neutral (V = 0),Sadness,2b. Class 3 Domain Lexicon,0.0
-hostile,hostile,1,敌意的 / 恶劣的,Negative (V < 0),Fear,2b. Class 3 Domain Lexicon,-1.6
-hazardous,hazardous,1,危险的 / 有隐患的,Zero / Neutral (V = 0),Fear,2b. Class 3 Domain Lexicon,0.0
-harsh,harsh,1,严酷恶劣的,Negative (V < 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,-1.9
-grandest,grandest,1,最宏大的 / 极其壮丽的,Positive (V > 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,2.4
-gloom,gloom,1,阴郁忧伤,Negative (V < 0),Sadness,2b. Class 3 Domain Lexicon,-2.6
-flaky,flaky,1,不靠谱的 / 经常取消的,Zero / Neutral (V = 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,0.0
-disrespectful,disrespectful,1,无礼的 / 冒犯的,Zero / Neutral (V = 0),Fear,2b. Class 3 Domain Lexicon,0.0
-dismay,dismay,1,感到沮丧吃惊,Negative (V < 0),Fear,2b. Class 3 Domain Lexicon,-1.8
-decency,decency,1,礼貌体面 / 服务缺乏礼貌体面,Zero / Neutral (V = 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,0.0
-bluntly,bluntly,1,直言不讳地,Zero / Neutral (V = 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,0.0
-bluest,bluest,1,最湛蓝的（极致景色）,Zero / Neutral (V = 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,0.0
-askance,askance,1,怀疑斜视地（不信任）,Zero / Neutral (V = 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,0.0
-zing,zing,1,刺激快感,Zero / Neutral (V = 0),Positive/Negative Polarity Only,2b. Class 3 Domain Lexicon,0.0
+word,canonical_lemma,frequency_21215,chinese_translation,polarity,nrc_emotion,class_taxonomy,vader_score
+great,great,11541,非常棒的 / 极好的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.1
+amazing,amazing,6251,极其震撼赞叹的 / 太棒了,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.8
+beautiful,beautiful,3485,美丽绝伦的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.9
+best,best,3420,最棒的 / 顶级的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.2
+friendly,friendly,3416,友好的 / 亲切的,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+worth,worth,2799,物有所值的 / 绝对值得的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.9
+wonderful,wonderful,2677,精彩美妙的,Positive (正向),"Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.7
+good,good,2635,良好的 / 棒的（服务与体验）,Positive (正向),"Anticipation, Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+awesome,awesome,2530,太棒了 / 极为赞叹的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.1
+excellent,excellent,2284,卓越极佳的 / 顶级的,Positive (正向),"Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.7
+fantastic,fantastic,2026,奇妙太棒的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.6
+nice,nice,1794,美好的 / 良好的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+fun,fun,1729,乐趣十足的 / 充满乐趣的,Positive (正向),"Anticipation, Joy",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+spectacular,spectacular,1616,壮观震撼的（高空景观）,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+incredible,incredible,1612,难以置信震撼的,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+better,better,1585,更好的 / 更满意的（超过预期）,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+perfect,perfect,1474,完美的 / 无瑕的,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.7
+loved,loved,1473,喜爱 / 热爱（体验）,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.9
+comfortable,comfortable,1446,舒适的 / 安心的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+breathtaking,breathtaking,1346,令人屏息震撼的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+helpful,helpful,1157,热心有帮助的 / 周到解说,Positive (正向),"Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+glad,glad,897,感到高兴放心的,Positive (正向),"Anticipation, Joy",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+interesting,interesting,886,引人入胜的 / 趣味盎然的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+cool,cool,652,酷的 / 爽快的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.3
+special,special,631,特别的 / 珍贵的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+lucky,lucky,607,感到幸运的,Positive (正向),"Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+kind,kind,587,亲切的 / 友善的,Positive (正向),"Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.4
+memorable,memorable,580,令人终生难忘的,Zero / Neutral (中性),"Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+happy,happy,555,高兴的 / 快乐的,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.7
+stunning,stunning,552,令人目眩震撼的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.6
+nervous,nervous,513,紧张的 / 焦虑不安的,Negative (负向),"Anticipation, Fear",1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.1
+fabulous,fabulous,508,绝妙的 / 极好的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.4
+disappointed,disappointed,488,感到失望的 / 遗憾的,Negative (负向),"Anger, Disgust, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.1
+outstanding,outstanding,462,杰出出色的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.0
+enjoyable,enjoyable,460,令人愉快的 / 趣味盎然的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+unforgettable,unforgettable,459,令人难忘的 / 铭心的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+love,love,450,喜爱 / 极度热爱的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.2
+unique,unique,435,独一无二的 / 独特的,Zero / Neutral (中性),Surprise,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+gorgeous,gorgeous,414,极其漂亮的 / 绚丽的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.0
+scenic,scenic,400,风景优美的 / 宜人的,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+bad,bad,373,糟糕的 / 坏的,Negative (负向),"Anger, Disgust, Fear, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.5
+exciting,exciting,324,令人兴奋刺激的,Positive (正向),"Anticipation, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+incredibly,incredibly,315,难以置信地 / 极其,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+pleasant,pleasant,306,令人愉快的 / 宜人的,Positive (正向),"Anticipation, Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+awe,awe,304,敬畏 / 震撼,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+unbelievable,unbelievable,302,难以置信的 / 震撼的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.8
+funny,funny,301,幽默风趣的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+plenty,plenty,298,丰富的 / 充足的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+hard,hard,297,困难的 / 艰辛的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-0.4
+regret,regret,293,遗憾 / 后悔,Negative (负向),Sadness,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.8
+magnificent,magnificent,282,壮丽的 / 宏伟震撼的（Awe）,Positive (正向),"Anticipation, Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.9
+exceptional,exceptional,276,卓越的 / 杰出的（顶级评价）,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+sick,sick,274,晕机的 / 身体不适的,Negative (负向),"Disgust, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.3
+lovely,lovely,266,令人愉悦的 / 可爱的,Positive (正向),"Anticipation, Joy, Sadness, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.8
+terrific,terrific,260,极好的 / 太棒了,Positive (正向),Sadness,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.1
+calm,calm,259,镇定 / 平息情绪的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.3
+impressed,impressed,255,感到深深被折服/留下深刻印象,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.1
+unfortunately,unfortunately,240,不幸的是 / 遗憾的是,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.4
+fortunate,fortunate,235,幸运的 / 幸运地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+efficient,efficient,215,高效省心的,Positive (正向),"Anticipation, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+welcome,welcome,212,受欢迎的 / 感受温暖的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+entertaining,entertaining,210,引人入胜生动有趣的,Positive (正向),"Anticipation, Joy",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+inspiring,inspiring,210,令人启发震慑的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+cheaper,cheaper,208,更实惠的 / 较便宜的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+phenomenal,phenomenal,200,现象级震撼的,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+superb,superb,196,极好精湛的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.1
+surprised,surprised,196,感到惊喜惊讶的,Positive (正向),Surprise,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.9
+surprise,surprise,195,惊喜 / 意料之外的喜悦,Positive (正向),"Fear, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.1
+fine,fine,190,良好的 / 优秀的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.8
+brilliant,brilliant,184,璀璨的 / 出色的,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.8
+forward,forward,183,期待（look forward）,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+reasonable,reasonable,179,合理的 / 公道的,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+ready,ready,171,准备就绪的 / 心安的,Positive (正向),Anticipation,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.5
+excited,excited,167,兴奋的 / 激动的,Positive (正向),"Anticipation, Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.4
+majestic,majestic,165,雄伟的 / 壮丽的,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+competent,competent,163,称职的 / 有能力的,Positive (正向),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.3
+quiet,quiet,161,宁静的 / 幽雅安静的,Zero / Neutral (中性),Sadness,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+relaxed,relaxed,159,放松的 / 从容的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+hope,hope,159,希望 / 期盼,Positive (正向),"Anticipation, Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+perfectly,perfectly,155,完美地 / 无可挑剔地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.2
+concerned,concern,155,感到担心的,Zero / Neutral (中性),"Fear, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+interested,interested,153,感兴趣的 / 充满好奇的,Positive (正向),"Disgust, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+pleasure,pleasure,153,乐趣 / 愉悦,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.7
+magical,magical,152,神奇的 / 魔幻般的,Zero / Neutral (中性),"Anticipation, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+afraid,afraid,150,害怕的 / 恐惧的,Zero / Neutral (中性),Fear,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+worried,worried,149,感到担心的,Negative (负向),Sadness,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.2
+scared,scared,144,感到恐惧害怕的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.9
+smoother,smoother,143,更平稳的 / 更顺畅的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+fully,fully,143,完全地 / 充分地,Zero / Neutral (中性),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+wrong,wrong,137,出差错的 / 错误的（负面体验）,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.1
+cheap,cheap,134,便宜的 / 廉价的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+blessed,blessed,133,感到有福的 / 幸运的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.9
+pleased,pleased,132,感到满意的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+safely,safely,132,安全平稳地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+exactly,exactly,130,精准地 / 正是,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+impressive,impressive,130,令人印象深刻的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+thrill,thrill,129,刺激 / 震慑感,Positive (正向),"Anticipation, Fear, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.5
+thrilling,thrilling,126,令人惊险刺激酣畅的,Positive (正向),"Anticipation, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.1
+humor,humor,125,幽默感,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.1
+dream,dream,124,梦寐以求的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.0
+sorry,sorry,123,感到抱歉遗憾的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-0.3
+relaxing,relaxing,122,令人放松惬意的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+comfort,comfort,121,舒适 / 宽慰安心,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.5
+disappoint,disappoint,121,使失望,Negative (负向),"Anger, Disgust, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.7
+wonder,wonder,121,惊奇 / 赞叹,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+amazed,amazed,120,感到吃惊惊叹的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+fear,fear,120,恐惧 / 害怕,Negative (负向),"Anger, Fear",1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.2
+unable,unable,114,无法的 / 无能为力的,Zero / Neutral (中性),Sadness,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+thrilled,thrilled,113,极度兴奋的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+confidence,confidence,112,信心 / 确信,Positive (正向),"Fear, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+difficult,difficult,112,困难的 / 令人头疼的,Negative (负向),Fear,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.5
+expert,expert,112,专家级的 / 娴熟的,Zero / Neutral (中性),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+honestly,honestly,111,老实说 / 真诚地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+confident,confident,109,自信的 / 确信的,Positive (正向),"Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+willing,willing,108,乐意的 / 愿意的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+worry,worry,106,担心 / 忧虑感,Negative (负向),"Anticipation, Fear, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.9
+smoothest,smoothest,105,最平稳的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+positive,positive,101,积极正面的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.6
+surreal,surreal,98,超现实的 / 梦幻般的,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+reassuring,reassuring,97,令人安心放心的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+sweet,sweet,97,甜蜜的 / 甜美的,Positive (正向),"Anticipation, Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+concern,concern,96,担忧 / 关切（焦虑感）,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+luckily,luckily,96,幸运地 / 幸亏,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+poor,poor,95,贫乏的 / 差劲的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.1
+scary,scary,94,令人害怕的 / 吓人的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.2
+enthusiastic,enthusiastic,93,热情的 / 充满激情的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+apprehensive,apprehensive,92,忧虑的 / 不安的,Zero / Neutral (中性),"Anticipation, Fear",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+exhilarating,exhilarating,90,令人极为兴奋刺激的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+honest,honest,88,诚实的 / 坦诚的,Positive (正向),"Anger, Disgust, Fear, Joy, Sadness, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+inaccessible,inaccessible,86,难以到达的 / 偏远秘境感,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+lucked,lucky,86,幸运地 (动词变体),Positive (正向),"Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+rushed,rushed,85,仓促的 / 匆忙的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+capable,capable,84,有能力的 / 熟练精湛的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.6
+prone,prone,84,易患（晕机）的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+simple,simple,84,简单明了的 / 省心的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+wonders,wonder,83,惊奇 / 奇观,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+fascinating,fascinating,83,令人入迷极具吸引力的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.5
+grateful,grateful,80,感激的 / 感恩的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+delightful,delightful,80,令人欢欣的,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.8
+advantage,advantage,78,优势 / 极佳点,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.0
+assured,assured,78,安抚 / 确信,Positive (正向),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.5
+famous,famous,77,著名的 / 享誉的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+pride,pride,77,自豪 / 骄傲,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.4
+safer,safer,77,更安全的 / 更安心的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+neat,neat,76,整洁的 / 干练的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+worthwhile,worthwhile,75,值得的 / 划算的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.4
+coolest,coolest,75,最酷爽震撼的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+stable,stable,75,平稳安心的,Positive (正向),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.2
+promptly,promptly,74,及时迅速地,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+concerns,concerns,73,担忧 / 关切,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+greatest,greatest,73,最伟大的 / 极佳的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.2
+ideal,ideal,72,理想的 / 完美的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.4
+peaceful,peaceful,72,平和宁静的,Positive (正向),"Anticipation, Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+understanding,understanding,70,体谅的 / 理解的,Zero / Neutral (中性),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+impossible,impossible,65,不可能的 / 难以置信的,Zero / Neutral (中性),Sadness,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+tremendous,tremendous,64,震撼巨大的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+passion,passion,64,热情 / 激情,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+fears,fears,64,恐惧 / 忧虑,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.8
+conscious,conscious,63,有意识的 / 讲究的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+pristine,pristine,62,原始纯净的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+dramatic,dramatic,61,戏剧性的 / 震撼的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+extraordinary,extraordinary,61,非凡的 / 卓越的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+gracious,gracious,61,亲切和蔼的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.6
+moving,moving,61,令人动容感人的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+passionate,passionate,61,充满激情的,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.4
+considerate,considerate,60,体贴周到的,Positive (正向),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+joy,joy,60,喜悦 / 快乐,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.8
+entertained,entertained,60,感到深受愉悦娱乐的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+complimentary,complimentary,59,赞赏的 / 赠送贴心的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+convenient,convenient,59,便捷省心的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+excitement,excitement,59,兴奋 / 激动情绪,Positive (正向),"Anticipation, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+intimate,intimate,59,温馨亲切的,Zero / Neutral (中性),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+nerves,nerves,59,紧张感 / 不安神经,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-0.4
+unreal,unreal,59,如梦似幻的 / 震撼的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+flawless,flawless,58,无瑕的 / 完美的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+fortunately,fortunately,58,幸运的是,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+disappointing,disappointing,58,令人失望的,Negative (负向),Sadness,1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.2
+lush,lush,57,郁郁葱葱宜人的,Zero / Neutral (中性),"Disgust, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+negative,negative,57,负面体验 / 消极评价,Negative (负向),Sadness,1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.7
+thankful,thankful,57,感激的 / 感恩的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.7
+thoughtful,thoughtful,57,贴心周到的,Positive (正向),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.6
+glorious,glorious,56,壮丽辉煌的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),3.2
+uncomfortable,uncomfortable,56,感到不适的 / 不安的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.6
+fair,fair,55,公道的 / 划算的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.3
+noisy,noisy,55,喧闹吵杂的,Negative (负向),Anger,1a. NRC 原生 8大情绪涵盖词 (286 Words),-0.7
+remarkable,remarkable,54,卓越令人瞩目的,Positive (正向),"Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.6
+genuine,genuine,54,真诚的 / 地道的,Zero / Neutral (中性),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+cherish,cherish,54,珍视 / 珍惜铭记,Positive (正向),"Anticipation, Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.6
+caring,caring,53,体贴入微关怀的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+appreciation,appreciation,52,感激 / 欣赏,Positive (正向),"Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+enthusiasm,enthusiasm,52,热情 / 积极性,Positive (正向),"Anticipation, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+gentle,gentle,52,平稳柔和的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+strong,strong,52,强烈的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+trouble,trouble,52,麻烦 / 困扰,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.7
+disappointment,disappointment,51,失望 / 遗憾失落情绪,Negative (负向),"Disgust, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.3
+nicer,nicer,51,更美好/更亲切的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+hoping,hoping,50,期盼 / 希望,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+happier,happier,50,更快乐的 / 更满意的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.4
+queasy,queasy,49,恶心反胃的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+seamless,seamless,49,流畅无缝无摩擦的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+satisfied,satisfied,49,感到满意的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+delight,delight,48,欣喜 / 愉快,Positive (正向),"Anticipation, Joy",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.9
+genuinely,genuinely,48,真诚地 / 确实,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+steady,steady,48,平稳的 / 稳健的,Zero / Neutral (中性),"Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+terrible,terrible,46,可怕的 / 糟糕的,Negative (负向),"Anger, Disgust, Fear, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.1
+warmly,warmly,46,温暖地 / 热情地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+unexpected,unexpected,46,意想不到的惊喜,Zero / Neutral (中性),"Anticipation, Fear, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+sensitive,sensitive,46,敏感的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+easier,easier,46,更容易的 / 更省心的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+decent,decent,45,尚可的 / 体面的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+friendliness,friendliness,45,友善 / 亲和力,Positive (正向),"Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+loud,loud,45,吵闹的 / 噪音大的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+relax,relax,45,放松 / 放轻松,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+terrified,terrified,45,极度惊恐的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-3.0
+encouraged,encouraged,44,深受鼓舞的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.5
+happily,happily,44,快乐地 / 欣然,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.6
+quieter,quieter,44,更安静宁静的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+beautifully,beautifully,43,优美地 / 出色地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.7
+calming,calming,42,令人平息平稳安心的（Calmness State）,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+adventurous,adventurous,41,充满冒险刺激感的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.4
+charming,charming,40,迷人讨喜的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.8
+responsive,responsive,40,积极回应的 / 贴心的,Positive (正向),"Anticipation, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.5
+touched,touched,40,深受感动的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+nicest,nicest,39,最美好的 / 最亲切的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+unsafe,unsafe,39,感觉不安全的 / 担惊受怕的,Zero / Neutral (中性),Fear,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+worst,worst,39,最糟糕的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-3.1
+handle,handle,39,善于处理 / 掌控感,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+enjoyment,enjoyment,39,乐趣 / 享受,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.6
+greater,greater,38,更宏大震撼的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.5
+hospitable,hospitable,38,殷勤好客的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+pleasantly,pleasantly,38,令人愉快地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.1
+stress,stress,38,压力 / 紧张感,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.8
+wonderfully,wonderfully,38,极其出色绝妙地,Positive (正向),"Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.9
+worries,worry,38,担忧 / 挂虑,Negative (负向),"Anticipation, Fear, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.8
+hopefully,hopefully,37,怀着希望地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+nicely,nicely,37,很好地 / 优雅地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.9
+cared,cared,37,得到无微不至关怀的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.8
+delicious,delicious,37,美味愉悦的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.7
+nauseous,nauseous,36,恶心晕车的,Zero / Neutral (中性),"Disgust, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+reliable,reliable,36,可靠的 / 可信赖的,Zero / Neutral (中性),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+marvelous,marvelous,36,绝妙的 / 令人惊叹的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.9
+humour,humour,35,幽默感,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.1
+superior,superior,35,优越顶尖的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.5
+picturesque,picturesque,35,风景如画的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.6
+surprisingly,surprisingly,35,出乎意料赞叹地,Positive (正向),"Anticipation, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.2
+humorous,humorous,35,幽默风趣的,Positive (正向),Joy,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.6
+bother,bother,35,打扰 / 烦扰,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.4
+anxious,anxious,35,焦虑不安的 / 挂虑的,Negative (负向),"Anticipation, Fear",1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.0
+anxiety,anxiety,34,焦虑 / 不安,Negative (负向),"Anger, Anticipation, Fear, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-0.7
+generous,generous,34,大方的 / 慷慨的,Positive (正向),"Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+romantic,romantic,34,浪漫惬意的,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+sadly,sadly,34,令人遗憾地 / 悲伤地,Negative (负向),Sadness,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.8
+worse,worse,34,更糟糕的,Negative (负向),"Fear, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.1
+airsick,airsick,33,晕机的,Negative (负向),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+hassle,hassle,33,麻烦 / 烦心事,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+overwhelming,overwhelming,33,铺天盖地震撼的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+turbulent,turbulent,32,颠簸不安的,Zero / Neutral (中性),Fear,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+upfront,upfront,32,直率透明的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+skillful,skillful,32,技术精湛的,Zero / Neutral (中性),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+reassured,reassured,32,感到安心的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+cute,cute,31,可爱宜人的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+economical,economical,31,划算实惠的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+breathtakingly,breathtakingly,30,令人屏息震撼地（Awe/Amazement Emotion）,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+kindly,kindly,30,体贴友善地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.2
+unbelievably,unbelievably,29,难以置信地,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+stellar,stellar,29,璀璨顶尖级的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+pure,pure,29,纯粹的 / 纯净震撼的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+interactive,interactive,29,互动性强的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+delighted,delighted,29,高高兴兴的,Positive (正向),"Anticipation, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.3
+convinced,convinced,29,深信不疑的 / 心服口服,Positive (正向),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+chatty,chatty,29,健谈热情的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+gladly,gladly,29,乐意地 / 高兴地,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.4
+boring,boring,28,令人无聊乏味的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.3
+sad,sad,28,悲伤的 / 遗憾痛心的,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.1
+serene,serene,28,宁静祥和的,Positive (正向),Trust,1a. NRC 原生 8大情绪涵盖词 (286 Words),2.0
+splendor,splendor,27,壮丽辉煌的奇观,Positive (正向),"Anticipation, Joy, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),3.0
+peace,peace,27,宁静 / 和平,Positive (正向),"Anticipation, Joy, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),2.5
+regrets,regrets,27,遗憾 / 后悔,Negative (负向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),-1.5
+aside,aside,27,撇开 / 排除,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+eager,eager,27,热切的 / 渴望的,Positive (正向),"Anticipation, Joy, Surprise, Trust",1a. NRC 原生 8大情绪涵盖词 (286 Words),1.5
+comforting,comforting,27,令人感到安慰抚慰的,Positive (正向),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),1.7
+bang,bang,26,物超所值（bang for buck）,Zero / Neutral (中性),"Anger, Disgust, Fear, Sadness, Surprise",1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+basic,basic,26,基础的 / 简陋的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+cramped,cramped,26,拥挤狭窄不适的,Zero / Neutral (中性),Joy / Positive,1a. NRC 原生 8大情绪涵盖词 (286 Words),0.0
+hate,hate,26,憎恨 / 讨厌,Negative (负向),"Anger, Disgust, Fear, Sadness",1a. NRC 原生 8大情绪涵盖词 (286 Words),-2.7
+mesmerizing,mesmerizing,26,令人目眩神迷为之倾倒的,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+upset,upset,26,感到沮丧难过的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-1.6
+bump,bump,25,颠簸不适的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+communicative,communicative,25,善于沟通的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+dangerous,dangerous,25,危险的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-2.1
+ill,ill,25,生病的 / 恶心呕吐的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-1.8
+laughing,laughing,25,欢声笑语 / 开心大笑,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.2
+inclement,inclement,24,恶劣的气候,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+magnificence,magnificence,24,壮丽震撼感,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.4
+impeccable,impeccable,23,无可挑剔的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+talkative,talkative,23,健谈热情的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+horrible,horrible,23,极度糟糕可怕的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-2.5
+shining,shining,22,璀璨夺目的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+calmed,calmed,22,心情平静安稳下来的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.6
+talented,talented,22,才华横溢精湛的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.3
+skeptical,skeptical,22,怀疑的 / 存疑的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-1.3
+tough,tough,22,严苛倒霉的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-0.5
+lasting,lasting,22,持久的 / 深刻的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+fearful,fearful,22,恐惧的 / 担心的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-2.2
+favourite,favourite,22,最喜爱的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+bummed,bummed,21,感到扫兴遗憾失落的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+mild,mild,21,轻微适度的（颠簸/舒适）,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+refreshing,refreshing,21,令人神清气爽耳目一新的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+spoil,spoil,21,破坏 / 毁掉（好心情）,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+surprises,surprise,21,惊喜 / 意料之外,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.9
+unbeatable,unbeatable,21,无可比拟的 / 无敌的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+successful,successful,20,成功的 / 满意的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.8
+mood,mood,20,心情 / 情绪,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+spiritual,spiritual,20,精神神圣的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+cheerful,cheerful,20,欢快愉悦的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.5
+amusing,amusing,20,风趣风趣令人发笑的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.6
+astonishing,astonishing,20,令人惊叹的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+exquisite,exquisite,19,精美的 / 绝妙的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+suitable,suitable,19,合适的 / 满意的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+inspired,inspired,19,灵感大发 / 深受震撼的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.2
+touching,touching,19,令人动容流泪的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+comfy,comfy,19,舒适惬意的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+chilly,chilly,19,寒冷不适的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+awestruck,awestruck,19,充满敬畏震撼的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+handy,handy,18,实用的 / 贴心的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+wondered,wonder,18,感到惊奇惊叹 (动词变体),Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+witty,witty,18,风趣幽默的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+soothing,soothing,18,舒缓抚慰人心的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.3
+secret,secret,18,秘境 / 私密独享感,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+marvel,marvel,18,惊叹 / 奇迹,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.8
+keen,keen,18,热情的 / 敏锐的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.5
+honesty,honesty,18,真诚 / 诚信解说,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.2
+smart,smart,18,聪慧的 / 明智的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.7
+haha,haha,18,哈哈（欢快情绪）,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.0
+easiest,easiest,18,最省心的 / 最容易的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.8
+danger,danger,18,危险 / 威胁,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-2.4
+amazement,amazement,18,惊叹 / 惊奇,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.5
+chill,chill,18,惬意轻松的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+charm,charm,18,顺畅 / 令人满意,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.7
+astounding,astounding,18,令人无比震撼惊叹的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.8
+effective,effective,18,有效划算的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.1
+hopes,hopes,17,期盼 / 希望,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.8
+overwhelmed,overwhelmed,17,被震撼/感动深深淹没的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.2
+valuable,valuable,17,珍贵的 / 有价值的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.1
+energetic,energetic,17,精力充沛的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.9
+discomfort,discomfort,17,身体/心理不适感,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-1.8
+cordial,cordial,17,热情亲切礼貌的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+claustrophobic,claustrophobic,16,感到幽闭恐惧压抑的,Negative (负向),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+insane,insane,16,疯狂震撼的 / 极端的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-1.7
+leery,leery,16,提防警惕 / 顾虑重重的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+loving,loving,16,热爱的 / 充满了爱的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.9
+sensational,sensational,16,绝佳轰动震撼的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+sudden,sudden,16,突然的 / 猝不及防的,Zero / Neutral (中性),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),0.0
+uncertain,uncertain,16,不确定的 / 顾虑的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-1.2
+worthy,worthy,16,非常值的 / 值得的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.9
+hilarious,hilarious,15,爆笑幽默搞笑的,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),1.7
+warmth,warmth,15,温暖安心感,Positive (正向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),2.0
+unprofessional,unprofessional,15,不专业的,Negative (负向),NRC Polarity Only (Positive/Negative),1b. NRC 原生 仅极性涵盖词 (72 Words),-2.3
+respectful,respectful,15,充满敬意的,Positive (正向),Trust,1c. Class 1 语法变形拯救归纳词 (respectful -> respectful),2.0
+immaculate,immaculate,15,完美无瑕洁净的,Zero / Neutral (中性),"Joy, Trust",1c. Class 1 语法变形拯救归纳词 (immaculate -> immaculate),0.0
+annoying,annoying,15,令人烦躁恼火的（Annoyance/Irritation Emotion）,Negative (负向),Anger,1c. Class 1 语法变形拯救归纳词 (annoying -> annoying),-1.7
+fuss,fuss,15,大惊小怪 / 争吵骚动,Zero / Neutral (中性),"Anger, Sadness",1c. Class 1 语法变形拯救归纳词 (fuss -> fuss),0.0
+awful,awful,15,极其糟糕的,Negative (负向),"Anger, Disgust, Fear, Sadness",1c. Class 1 语法变形拯救归纳词 (awful -> awful),-2.0
+awed,awed,15,感到为之肃然起敬震撼的,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+bubbly,bubbly,15,活泼热情的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (bubbly -> bubbly),0.0
+praise,praise,14,称赞 / 高度赞扬,Positive (正向),"Joy, Trust",1c. Class 1 语法变形拯救归纳词 (praise -> praise),2.6
+trustworthy,trustworthy,14,值得信赖靠谱的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (trustworthy -> trustworthy),2.6
+satisfaction,satisfaction,14,满意感,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (satisfaction -> satisfaction),1.9
+ruined,ruined,14,毁掉行程的 / 扫兴糟心的,Negative (负向),"Anger, Disgust, Fear, Sadness",1c. Class 1 语法变形拯救归纳词 (ruined -> ruined),-2.1
+proud,proud,14,感到自豪骄傲的,Positive (正向),"Anticipation, Joy, Trust",1c. Class 1 语法变形拯救归纳词 (proud -> proud),2.1
+marvellous,marvellous,14,令人叹为观止的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (marvellous -> marvellous),0.0
+intrusive,intrusive,14,突兀扰人的 / 煞风景的,Zero / Neutral (中性),"Anger, Disgust, Fear, Surprise",1c. Class 1 语法变形拯救归纳词 (intrusive -> intrusive),0.0
+glowing,glowing,14,极度赞赏口碑极佳的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (glowing -> glowing),0.0
+frustrating,frustrating,14,令人挫败的 / 烦人的,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (frustrating -> frustrating),-1.9
+bothered,bothered,14,困扰的 / 烦心的,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (bothered -> bothered),-1.3
+authentic,authentic,14,地道的 / 真实无伪的,Zero / Neutral (中性),"Joy, Trust",1c. Class 1 语法变形拯救归纳词 (authentic -> authentic),0.0
+tricky,tricky,13,棘手不安的,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (tricky -> tricky),-0.6
+worldly,worldly,13,超凡脱俗的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (worldly -> worldly),0.0
+vibrant,vibrant,13,生机勃勃色彩斑斓的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (vibrant -> vibrant),2.4
+uneasy,uneasy,13,心神不宁感到不安的,Negative (负向),"Disgust, Fear",1c. Class 1 语法变形拯救归纳词 (uneasy -> uneasy),-1.6
+precious,precious,13,弥足珍贵的 memory,Positive (正向),"Anticipation, Joy, Surprise",1c. Class 1 语法变形拯救归纳词 (precious -> precious),2.7
+safest,safest,13,最安全平稳的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (safest -> safest),1.7
+responsible,responsible,13,负责任的,Positive (正向),Trust,1c. Class 1 语法变形拯救归纳词 (responsible -> responsible),1.3
+pleasurable,pleasurable,13,令人愉快的,Positive (正向),Joy,1c. Class 1 语法变形拯救归纳词 (pleasurable -> pleasurable),2.4
+apologetic,apologetic,13,诚恳抱歉致歉的,Zero / Neutral (中性),Trust,1c. Class 1 语法变形拯救归纳词 (apologetic -> apologetic),0.0
+bored,bored,12,感到无聊厌烦的,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (bored -> bored),-1.1
+soaking,soaking,12,沉浸于（soaking in view）,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (soaking -> soaking),0.0
+stuffy,stuffy,12,闷热不适的（体感不适）,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (stuffy -> stuffy),0.0
+superbly,superbly,12,出类拔萃完美地,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (superbly -> superbly),0.0
+wondrous,wondrous,12,惊叹奇妙的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (wondrous -> wondrous),0.0
+satisfying,satisfying,11,令人称心满意的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (satisfying -> satisfying),2.0
+wary,wary,11,警惕顾虑的,Zero / Neutral (中性),Fear,1c. Class 1 语法变形拯救归纳词 (wary -> wary),0.0
+trepidation,trepidation,11,惊恐战栗 / 不安,Zero / Neutral (中性),"Anticipation, Fear, Surprise",1c. Class 1 语法变形拯救归纳词 (trepidation -> trepidation),0.0
+surprising,surprising,11,令人出乎意料惊喜的,Positive (正向),Surprise,1c. Class 1 语法变形拯救归纳词 (surprising -> surprising),1.1
+superlative,superlative,11,顶级极致赞赏的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (superlative -> superlative),0.0
+sketchy,sketchy,11,令人不安可疑的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (sketchy -> sketchy),0.0
+slick,slick,11,熟练专业/光滑的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (slick -> slick),0.0
+rewarding,rewarding,11,非常有成就感/物超所值的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (rewarding -> rewarding),2.4
+nervousness,nervousness,11,紧张不安的情绪,Negative (负向),Fear,1c. Class 1 语法变形拯救归纳词 (nervousness -> nervousness),-1.2
+mad,mad,11,发怒的 / 生气的,Negative (负向),"Anger, Disgust, Fear, Sadness",1c. Class 1 语法变形拯救归纳词 (mad -> mad),-2.2
+inviting,inviting,11,引人入胜令人愉悦的,Positive (正向),"Anticipation, Joy, Surprise, Trust",1c. Class 1 语法变形拯救归纳词 (inviting -> inviting),1.3
+cheesy,cheesy,11,俗气的 / 劣质的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (cheesy -> cheesy),0.0
+admire,admire,11,钦佩赞赏,Positive (正向),Trust,1c. Class 1 语法变形拯救归纳词 (admire -> admire),2.1
+mesmerized,mesmerized,10,被深深吸引迷住的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (mesmerized -> mesmerized),0.0
+unfortunate,unfortunate,10,不幸遗憾的,Negative (负向),Sadness,1c. Class 1 语法变形拯救归纳词 (unfortunate -> unfortunate),-2.0
+stunningly,stunningly,10,令人震撼地,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+stunned,stunned,10,感到目瞪口呆震撼的,Negative (负向),"Fear, Surprise",1c. Class 1 语法变形拯救归纳词 (stunned -> stunned),-0.4
+stability,stability,10,平稳安心感,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (stability -> stability),0.0
+raving,raving,10,赞不绝口极力推荐的,Zero / Neutral (中性),"Anger, Anticipation, Fear, Joy, Surprise",1c. Class 1 语法变形拯救归纳词 (raving -> raving),0.0
+quaint,quaint,10,古朴宜人的,Zero / Neutral (中性),"Joy, Trust",1c. Class 1 语法变形拯救归纳词 (quaint -> quaint),0.0
+wonderfull,wonderful,10,令人惊叹绝妙的 (错别字变体),Positive (正向),"Joy, Surprise, Trust",1c. Class 1 语法变形拯救归纳词 (wonderfull -> wonderful),2.7
+jealous,jealous,10,令人羡慕嫉妒的,Negative (负向),"Anger, Disgust",1c. Class 1 语法变形拯救归纳词 (jealous -> jealous),-2.0
+improving,improving,10,不断改善令人满意的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (improving -> improving),1.8
+improvement,improvement,10,体验改善 / 提升,Positive (正向),"Joy, Trust",1c. Class 1 语法变形拯救归纳词 (improvement -> improvement),2.0
+friendlier,friendlier,10,更加亲切友好的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (friendlier -> friendlier),2.0
+emotional,emotional,10,情感上的 / 动情的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (emotional -> emotional),0.6
+ecstatic,ecstatic,10,狂喜的 / 极度兴奋的,Positive (正向),"Anticipation, Joy, Surprise",1c. Class 1 语法变形拯救归纳词 (ecstatic -> ecstatic),2.3
+conscientious,conscientious,10,认真负责的,Zero / Neutral (中性),Trust,1c. Class 1 语法变形拯救归纳词 (conscientious -> conscientious),0.0
+badly,badly,10,严重地 / 糟糕地,Negative (负向),Sadness,1c. Class 1 语法变形拯救归纳词 (badly -> badly),-2.1
+unspoiled,unspoiled,9,未经破坏原始纯粹的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (unspoiled -> unspoiled),0.0
+terribly,terribly,9,极度负面地 / 抱歉,Negative (负向),Sadness,1c. Class 1 语法变形拯救归纳词 (terribly -> terribly),-2.6
+susceptible,susceptible,9,易受影响脆弱的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (susceptible -> susceptible),0.0
+stuffed,stuffed,9,塞满的 / 憋闷不适的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (stuffed -> stuffed),0.0
+miserable,miserable,9,极度痛苦糟糕的,Negative (负向),"Anger, Disgust, Sadness",1c. Class 1 语法变形拯救归纳词 (miserable -> miserable),-2.2
+hassles,hassles,9,烦心事 / 摩擦,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (hassles -> hassles),0.0
+effortless,effortless,9,轻松平稳的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (effortless -> effortless),0.0
+compliment,compliment,9,赞美 / 赞赏评价,Positive (正向),"Anticipation, Joy, Surprise, Trust",1c. Class 1 语法变形拯救归纳词 (compliment -> compliment),2.1
+claustrophobia,claustrophobia,9,幽闭恐惧症（密闭机舱焦虑）,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+cheerfully,cheerfully,9,欢快愉悦地,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (cheerfully -> cheerfully),2.1
+bummer,bummer,9,令人扫兴扫兴的事,Negative (负向),"Anger, Disgust",1c. Class 1 语法变形拯救归纳词 (bummer -> bummer),-1.6
+awkward,awkward,9,尴尬的 / 别扭的,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (awkward -> awkward),-0.6
+automatically,automatically,9,自动地 / 自然而然,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (automatically -> automatically),0.0
+mindful,mindful,8,细心周到的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (mindful -> mindful),0.0
+yummy,yummy,8,美味愉悦的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (yummy -> yummy),2.4
+unstable,unstable,8,不稳定摇晃令人担心的,Negative (负向),"Fear, Surprise",1c. Class 1 语法变形拯救归纳词 (unstable -> unstable),-1.5
+spoiled,spoiled,8,好心情被破坏毁掉的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (spoiled -> spoiled),0.0
+shocked,shocked,8,感到震惊惊吓的,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (shocked -> shocked),-1.3
+poorly,poorly,8,糟糕地 / 差劲地,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (poorly -> poorly),0.0
+nerve,nerve,8,紧张神经,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (nerve -> nerve),0.0
+grace,grace,8,优雅 / 良好风度,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (grace -> grace),1.8
+frustration,frustration,8,挫败感 / 烦恼,Negative (负向),Anger,1c. Class 1 语法变形拯救归纳词 (frustration -> frustration),-2.1
+frightened,frightened,8,感到受惊吓害怕的,Negative (负向),"Fear, Surprise",1c. Class 1 语法变形拯救归纳词 (frightened -> frightened),-1.9
+exhilaration,exhilaration,8,极度兴奋快感,Zero / Neutral (中性),"Joy, Surprise",1c. Class 1 语法变形拯救归纳词 (exhilaration -> exhilaration),0.0
+exhausted,exhausted,8,精疲力竭极为疲惫的,Negative (负向),Sadness,1c. Class 1 语法变形拯救归纳词 (exhausted -> exhausted),-1.5
+dissapointed,disappointed,8,感到失望的（错别字变体）,Negative (负向),"Anger, Disgust, Sadness",1c. Class 1 语法变形拯救归纳词 (dissapointed -> disappointed),-2.1
+cherished,cherish,8,珍视铭记的,Positive (正向),"Anticipation, Joy, Surprise, Trust",1c. Class 1 语法变形拯救归纳词 (cherished -> cherish),2.3
+annoyed,annoyed,8,感到烦恼的 / 恼火的,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (annoyed -> annoyed),-1.6
+strange,strange,7,怪异不安的,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (strange -> strange),-0.8
+reputable,reputable,7,信誉良好的,Zero / Neutral (中性),Trust,1c. Class 1 语法变形拯救归纳词 (reputable -> reputable),0.0
+ridiculous,ridiculous,7,荒谬的 / 离谱的,Negative (负向),"Anger, Disgust",1c. Class 1 语法变形拯救归纳词 (ridiculous -> ridiculous),-1.5
+rudely,rudely,7,粗鲁地 / 无礼地,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (rudely -> rudely),-2.2
+serenity,serenity,7,宁静 / 祥和,Zero / Neutral (中性),"Anticipation, Joy, Trust",1c. Class 1 语法变形拯救归纳词 (serenity -> serenity),0.0
+relieved,relieved,7,宽慰的 / 松了一口气,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (relieved -> relieved),1.6
+suffered,suffered,7,遭受身体/晕眩痛苦,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (suffered -> suffered),-2.2
+unhappy,unhappy,7,不高兴不满意的,Negative (负向),"Anger, Disgust, Sadness",1c. Class 1 语法变形拯救归纳词 (unhappy -> unhappy),-1.8
+unpleasant,unpleasant,7,令人不快令人难受的,Negative (负向),"Disgust, Sadness",1c. Class 1 语法变形拯救归纳词 (unpleasant -> unpleasant),-2.1
+powerful,powerful,7,强烈的 / 感人的,Positive (正向),"Anger, Anticipation, Disgust, Fear, Joy, Trust",1c. Class 1 语法变形拯救归纳词 (powerful -> powerful),1.8
+worrying,worry,7,令人担心的,Negative (负向),"Anticipation, Fear, Sadness",1c. Class 1 语法变形拯救归纳词 (worrying -> worry),-1.4
+weird,weird,7,古怪令人不安的,Negative (负向),Disgust,1c. Class 1 语法变形拯救归纳词 (weird -> weird),-0.7
+painful,painful,7,痛苦的 / 令人难受的,Negative (负向),"Anger, Disgust, Fear, Sadness",1c. Class 1 语法变形拯救归纳词 (painful -> painful),-1.9
+panic,panic,7,恐慌 / 惊恐状态,Negative (负向),Fear,1c. Class 1 语法变形拯救归纳词 (panic -> panic),-2.3
+laughter,laughter,7,欢笑 / 笑声,Positive (正向),"Anticipation, Joy, Surprise",1c. Class 1 语法变形拯救归纳词 (laughter -> laughter),2.2
+hopeful,hopeful,7,怀抱希望的,Positive (正向),"Anticipation, Joy, Surprise, Trust",1c. Class 1 语法变形拯救归纳词 (hopeful -> hopeful),2.3
+hesitating,hesitating,7,犹豫顾虑（心理活动）,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (hesitating -> hesitating),-1.4
+gushing,gushing,7,滔滔不绝赞赞称道的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (gushing -> gushing),0.0
+exhilerating,exhilarating,7,令人兴奋刺激酣畅地（错别字变体）,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (exhilerating -> exhilarating),1.7
+enthusiastically,enthusiastically,7,热情高涨地,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (enthusiastically -> enthusiastically),2.6
+curious,curious,7,好奇求知的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (curious -> curious),1.3
+confusion,confusion,7,困惑 / 混乱,Negative (负向),"Anger, Fear",1c. Class 1 语法变形拯救归纳词 (confusion -> confusion),-1.2
+classy,classy,7,高端优雅的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (classy -> classy),1.9
+captivated,captivated,7,被深深吸引着迷的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (captivated -> captivated),1.6
+alas,alas,7,唉 / 遗憾的是,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (alas -> alas),-1.1
+reassurance,reassurance,6,令人放心的安抚感,Positive (正向),Trust,1c. Class 1 语法变形拯救归纳词 (reassurance -> reassurance),1.5
+inspirational,inspirational,6,鼓舞人心的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (inspirational -> inspirational),2.3
+jovial,jovial,6,欢快风趣的,Positive (正向),Joy,1c. Class 1 语法变形拯救归纳词 (jovial -> jovial),1.9
+precision,precision,6,精准靠谱的,Zero / Neutral (中性),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (precision -> precision),0.0
+gratitude,gratitude,6,感激 / 感恩,Positive (正向),Joy,1c. Class 1 语法变形拯救归纳词 (gratitude -> gratitude),2.3
+relief,relief,6,轻松如释重负感,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (relief -> relief),2.1
+sublime,sublime,6,崇高壮丽绝美的（Aesthetic Emotion/Awe）,Zero / Neutral (中性),CATE (Low-Altitude Air Tourism Domain Discovery),2b. Class 3 低空观光领域专有采掘词 (17 Words),0.0
+timid,timid,6,胆怯害羞的,Negative (负向),"Fear, Sadness",1c. Class 1 语法变形拯救归纳词 (timid -> timid),-1.0
+warmest,warmest,6,最暖心亲切的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (warmest -> warmest),1.7
+hug,hug,6,拥抱 / 温暖关怀,Positive (正向),"Joy, Trust",1c. Class 1 语法变形拯救归纳词 (hug -> hug),2.1
+amaze,amaze,6,使惊叹 / 惊奇,Positive (正向),Surprise,1c. Class 1 语法变形拯救归纳词 (amaze -> amaze),2.5
+frightening,frightening,6,令人惊恐吓人的,Negative (负向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (frightening -> frightening),-2.2
+calmer,calmer,6,更平静安心的,Positive (正向),Morphological Rescued,1c. Class 1 语法变形拯救归纳词 (calmer -> calmer),1.5
+appropriately,appropriately,6,恰当地 / 贴心地,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+blind,blind,6,盲目的 / 视线受阻的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.7
+broad,broad,6,宽广的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+fascinated,fascinated,6,深深入迷为之倾倒的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.1
+casual,casual,6,随和轻松的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.8
+discouraged,discouraged,6,感到灰心气馁的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.7
+enthralled,enthralled,6,被深深吸引迷住的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+joyful,joyful,5,充满喜悦欢快的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.9
+wowed,wowed,5,被深深惊叹震撼的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.6
+suprise,surprise,5,惊喜 / 意料之外（错别字变体）,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.1
+stressful,stressful,5,令人压力重重焦虑的（Stress/Anxiety State）,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.3
+shock,shock,5,震惊 / 冲击,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.6
+scare,scare,5,吓人 / 引发恐慌的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.2
+overwhelmingly,overwhelmingly,5,压倒性震撼地,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-0.5
+marveled,marvel,5,惊叹赞赏的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.8
+luscious,luscious,5,秀美令人心旷神怡的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+pity,pity,5,遗憾 / 同情怜悯,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.2
+jitters,jitters,5,忐忑不安 / 紧张发抖感,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+hates,hate,5,厌恶 / 讨厌,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.9
+hated,hate,5,讨厌 / 极为憎恶的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-3.2
+gloomy,gloomy,5,阴沉的 / 沮丧的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-0.6
+faultless,faultless,5,无可挑剔完美的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.0
+envy,envy,5,羡慕 / 嫉妒,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.1
+comforted,comforted,5,感到安慰安心的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.8
+apprehension,apprehension,5,忧虑 / 疑虑不安,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.1
+intimidating,intimidating,5,令人胆怯令人畏惧的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.9
+tranquil,tranquil,4,清幽宁静的（Calmness/Serenity State）,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.2
+spellbinding,spellbinding,4,扣人心弦迷人的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+spellbound,spellbound,4,出神为之入迷的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+stoked,stoked,4,极为激动期待的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+subtle,subtle,4,微妙精细的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+suprised,surprised,4,感到惊喜惊讶的（错别字变体）,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.9
+thrills,thrills,4,刺激 / 快感,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.5
+unnerving,unnerving,4,令人发慌不安吓人的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+tranquility,tranquility,4,宁静 / 平和,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.8
+underwhelmed,underwhelmed,4,大失所望未达预期的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+unfair,unfair,4,不公平的 / 冤枉的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.1
+unfriendly,unfriendly,4,不友善的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.5
+wicked,wicked,4,太棒了 / 绝妙的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.4
+wildest,wildest,4,最疯狂的（狂想）,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+profound,profound,4,深刻震撼的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+regretting,regret,4,感到后悔遗憾的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.7
+nasty,nasty,4,令人厌恶的 / 恶劣的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.6
+pleasing,pleasing,4,令人愉悦满意的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.4
+frustrated,frustrated,4,感到沮丧的 / 挫败的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.4
+captivating,captivating,4,扣人心弦引人入胜的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+phobia,phobia,4,恐惧症 / 恐高心理,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.6
+disconcerting,disconcerting,4,令人不安的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+dreaded,dread,4,令人害怕恐惧的 / 提心吊胆,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.7
+dreading,dread,4,感到十分恐惧担心的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.4
+emotion,emotion,4,情感 / 情绪,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+exhilarated,exhilarated,4,感到无比兴奋酣畅的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),3.0
+embarrassed,embarrassed,4,感到尴尬难堪的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.5
+giddy,giddy,4,兴奋得头晕目眩欢欣的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-0.6
+hungry,hungry,4,贪婪的（money hungry）,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+irritated,irritated,4,感到恼火烦躁的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.0
+irritating,irritating,4,令人烦躁恼火的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.0
+ominous,ominous,4,不详的 / 不妙的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.4
+peacefulness,peacefulness,4,宁静详和感,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.1
+reassure,reassure,3,使人感到安心放心的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.4
+heartfelt,heartfelt,3,真挚的 / 出自内心的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.5
+horribly,horrible,3,糟糕恐怖地,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.4
+incomprehensible,incomprehensible,3,难以理解令人困惑的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+indulge,indulge,3,尽情享受 / 犒劳自己,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+joking,joking,3,开玩笑的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.9
+marvelously,marvelously,3,奇妙极其出色地,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+overjoyed,overjoyed,3,欣喜若狂的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.7
+peacefully,peacefully,3,宁静和平地,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.4
+sympathy,sympathy,3,同情 / 体谅,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.5
+remorse,remorse,3,懊悔 / 悔恨,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.1
+rickety,rickety,3,摇摇欲坠的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+scaring,scare,3,使人害怕恐惧的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.9
+securely,securely,3,安全平稳地,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.4
+sickening,sickening,3,令人作呕恶心的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.4
+spoilt,spoilt,3,被破坏败兴的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+uneasiness,uneasiness,3,不安 / 忐忑感,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.6
+unsettled,unsettled,3,心神不宁忐忑的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.3
+happiness,happiness,3,幸福快乐感,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.6
+harrowing,harrowing,3,令人触目惊心惊恐的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+curiosity,curiosity,3,好奇心 / 探索欲,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+guilty,guilty,3,内疚内疚感,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.8
+carefree,carefree,3,无忧无虑自在的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.7
+ecstasy,ecstasy,3,狂喜 / 极乐状态,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.9
+aggressively,aggressively,3,挑衅攻击地 / 极其恶劣地,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.3
+ambivalent,ambivalent,3,矛盾复杂心理的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.5
+apprehensions,apprehension,3,顾虑 / 忧虑不安,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-0.9
+aprehensive,apprehensive,3,感到忧虑不安的（错别字变体）,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+astonished,astonished,3,感到十分惊异惊叹的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.6
+beneficial,beneficial,3,有益的 / 有帮助的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.9
+candid,candid,3,坦率真诚的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+astounded,astounded,3,感到十分震惊震撼的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.8
+cheer,cheer,3,振奋 / 欢呼,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.3
+deaf,deaf,3,听而不闻冷漠的（fell on deaf ears）,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+dreaming,dreaming,3,梦寐以求 / 心驰神往,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+compassion,compassion,3,同理心 / 关切,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.0
+disappointingly,disappointed,3,令人失望地,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.9
+dissatisfied,dissatisfied,3,感到不满意的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.6
+dazzled,dazzled,3,目眩神迷震撼的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+daunting,daunting,3,令人望而生畏胆怯的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+compassionate,compassionate,3,富有同理心体贴的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.2
+humility,humility,2,谦逊贴心,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+threaten,threaten,2,受到威胁/令人不安的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.6
+suffering,suffering,2,受苦受难不适,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.1
+squeamish,squeamish,2,胆怯恶心体质易受惊的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+rigid,rigid,2,刻板不近人情的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-0.5
+pumped,pumped,2,兴奋激动的 / 跃跃欲试,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+positively,positively,2,积极正面地,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.4
+offensive,offensive,2,冒犯的 / 令人不适的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.0
+primo,primo,2,一流的 / 顶级的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+favourable,favourable,2,有利的 / 良好的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+desperate,desperate,2,感到绝望迫切的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.3
+darling,darling,2,可爱的 / 亲切的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.8
+compliant,compliant,2,顺从的 / 合规安心的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+clever,clever,2,聪明睿智的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.0
+bothering,bothering,2,打扰令人烦心的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.6
+animated,animated,2,生动的 / 活力充沛的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+agreeable,agreeable,2,宜人的 / 令人满意的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),1.8
+exhausting,exhausting,2,令人筋疲力尽的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.5
+shady,shady,1,可疑不诚信的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+quell,quell,1,镇定 / 平息（恐惧）,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+racist,racist,1,种族歧视的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-3.0
+regrettably,regrettably,1,遗憾地 / 抱歉,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.0
+reward,reward,1,赏心悦目的奖赏体验,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.7
+wasbeautiful,wasbeautiful,1,美丽动人的（美感）,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+truthful,truthful,1,真实可信的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.0
+ungodly,ungodly,1,糟糕恶劣的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+unwell,unwell,1,身体不适的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+immeasurable,immeasurable,1,无法估量的 / 极致的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+whelmed,whelmed,1,被深深震撼淹没的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+worthful,worthful,1,物有所值的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+miraculously,miraculously,1,奇迹般地,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+grumpy,grumpy,1,脾气暴躁的 / 不悦的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+hostile,hostile,1,敌意的 / 恶劣的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.6
+hazardous,hazardous,1,危险的 / 有隐患的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+harsh,harsh,1,严酷恶劣的,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.9
+grandest,grandest,1,最宏大的 / 极其壮丽的,Positive (正向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),2.4
+gloom,gloom,1,阴郁忧伤,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-2.6
+flaky,flaky,1,不靠谱的 / 经常取消的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+disrespectful,disrespectful,1,无礼的 / 冒犯的,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+dismay,dismay,1,感到沮丧吃惊,Negative (负向),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),-1.8
+decency,decency,1,礼貌体面 / 服务缺乏礼貌体面,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+bluntly,bluntly,1,直言不讳地,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+bluest,bluest,1,最湛蓝的（极致景色）,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+askance,askance,1,怀疑斜视地（不信任）,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
+zing,zing,1,刺激快感,Zero / Neutral (中性),Web 2.0 General Evaluative Term,2a. Class 2 Web 2.0 口语极致形容与评价词 (128 Words),0.0
