@@ -1,631 +1,631 @@
-word,canonical_lemma,frequency_21215,chinese_translation,category_and_emotion
-great,great,11541,非常棒的 / 极好的,1a. 原生 NRC 8大情绪词
-amazing,amazing,6251,极其震撼赞叹的 / 太棒了,1a. 原生 NRC 8大情绪词
-beautiful,beautiful,3485,美丽绝伦的,1a. 原生 NRC 8大情绪词
-best,best,3420,最棒的 / 顶级的,1a. 原生 NRC 8大情绪词
-friendly,friendly,3416,友好的 / 亲切的,1a. 原生 NRC 8大情绪词
-worth,worth,2799,物有所值的 / 绝对值得的,1a. 原生 NRC 8大情绪词
-wonderful,wonderful,2677,精彩美妙的,1a. 原生 NRC 8大情绪词
-good,good,2635,良好的 / 棒的（服务与体验）,1a. 原生 NRC 8大情绪词
-awesome,awesome,2530,太棒了 / 极为赞叹的,1a. 原生 NRC 8大情绪词
-excellent,excellent,2284,卓越极佳的 / 顶级的,1a. 原生 NRC 8大情绪词
-fantastic,fantastic,2026,奇妙太棒的,1a. 原生 NRC 8大情绪词
-nice,nice,1794,美好的 / 良好的,1a. 原生 NRC 8大情绪词
-fun,fun,1729,乐趣十足的 / 充满乐趣的,1a. 原生 NRC 8大情绪词
-spectacular,spectacular,1616,壮观震撼的（高空景观）,1a. 原生 NRC 8大情绪词
-incredible,incredible,1612,难以置信震撼的,1a. 原生 NRC 8大情绪词
-better,better,1585,更好的 / 更满意的（超过预期）,1a. 原生 NRC 8大情绪词
-perfect,perfect,1474,完美的 / 无瑕的,1a. 原生 NRC 8大情绪词
-loved,loved,1473,喜爱 / 热爱（体验）,1a. 原生 NRC 8大情绪词
-comfortable,comfortable,1446,舒适的 / 安心的,1a. 原生 NRC 8大情绪词
-breathtaking,breathtaking,1346,令人屏息震撼的,1a. 原生 NRC 8大情绪词
-helpful,helpful,1157,热心有帮助的 / 周到解说,1a. 原生 NRC 8大情绪词
-glad,glad,897,感到高兴放心的,1a. 原生 NRC 8大情绪词
-interesting,interesting,886,引人入胜的 / 趣味盎然的,1a. 原生 NRC 8大情绪词
-cool,cool,652,酷的 / 爽快的,1a. 原生 NRC 8大情绪词
-special,special,631,特别的 / 珍贵的,1a. 原生 NRC 8大情绪词
-lucky,lucky,607,感到幸运的,1a. 原生 NRC 8大情绪词
-kind,kind,587,亲切的 / 友善的,1a. 原生 NRC 8大情绪词
-memorable,memorable,580,令人终生难忘的,1a. 原生 NRC 8大情绪词
-happy,happy,555,高兴的 / 快乐的,1a. 原生 NRC 8大情绪词
-stunning,stunning,552,令人目眩震撼的,1a. 原生 NRC 8大情绪词
-nervous,nervous,513,紧张的 / 焦虑不安的,1a. 原生 NRC 8大情绪词
-fabulous,fabulous,508,绝妙的 / 极好的,1a. 原生 NRC 8大情绪词
-disappointed,disappointed,488,感到失望的 / 遗憾的,1a. 原生 NRC 8大情绪词
-outstanding,outstanding,462,杰出出色的,1a. 原生 NRC 8大情绪词
-enjoyable,enjoyable,460,令人愉快的 / 趣味盎然的,1a. 原生 NRC 8大情绪词
-unforgettable,unforgettable,459,令人难忘的 / 铭心的,1a. 原生 NRC 8大情绪词
-love,love,450,喜爱 / 极度热爱的,1a. 原生 NRC 8大情绪词
-unique,unique,435,独一无二的 / 独特的,1a. 原生 NRC 8大情绪词
-gorgeous,gorgeous,414,极其漂亮的 / 绚丽的,1a. 原生 NRC 8大情绪词
-scenic,scenic,400,风景优美的 / 宜人的,1a. 原生 NRC 8大情绪词
-bad,bad,373,糟糕的 / 坏的,1a. 原生 NRC 8大情绪词
-exciting,exciting,324,令人兴奋刺激的,1a. 原生 NRC 8大情绪词
-incredibly,incredibly,315,难以置信地 / 极其,1a. 原生 NRC 8大情绪词
-pleasant,pleasant,306,令人愉快的 / 宜人的,1a. 原生 NRC 8大情绪词
-awe,awe,304,敬畏 / 震撼,1a. 原生 NRC 8大情绪词
-unbelievable,unbelievable,302,难以置信的 / 震撼的,1a. 原生 NRC 8大情绪词
-funny,funny,301,幽默风趣的,1a. 原生 NRC 8大情绪词
-plenty,plenty,298,丰富的 / 充足的,1a. 原生 NRC 8大情绪词
-hard,hard,297,困难的 / 艰辛的,1a. 原生 NRC 8大情绪词
-regret,regret,293,遗憾 / 后悔,1a. 原生 NRC 8大情绪词
-magnificent,magnificent,282,壮丽的 / 宏伟震撼的（Awe）,1a. 原生 NRC 8大情绪词
-exceptional,exceptional,276,卓越的 / 杰出的（顶级评价）,1a. 原生 NRC 8大情绪词
-sick,sick,274,晕机的 / 身体不适的,1a. 原生 NRC 8大情绪词
-lovely,lovely,266,令人愉悦的 / 可爱的,1a. 原生 NRC 8大情绪词
-terrific,terrific,260,极好的 / 太棒了,1a. 原生 NRC 8大情绪词
-calm,calm,259,镇定 / 平息情绪的,1a. 原生 NRC 8大情绪词
-impressed,impressed,255,感到深深被折服/留下深刻印象,1a. 原生 NRC 8大情绪词
-unfortunately,unfortunately,240,不幸的是 / 遗憾的是,1a. 原生 NRC 8大情绪词
-fortunate,fortunate,235,幸运的 / 幸运地,1a. 原生 NRC 8大情绪词
-efficient,efficient,215,高效省心的,1a. 原生 NRC 8大情绪词
-welcome,welcome,212,受欢迎的 / 感受温暖的,1a. 原生 NRC 8大情绪词
-entertaining,entertaining,210,引人入胜生动有趣的,1a. 原生 NRC 8大情绪词
-inspiring,inspiring,210,令人启发震慑的,1a. 原生 NRC 8大情绪词
-cheaper,cheaper,208,更实惠的 / 较便宜的,1a. 原生 NRC 8大情绪词
-phenomenal,phenomenal,200,现象级震撼的,1a. 原生 NRC 8大情绪词
-superb,superb,196,极好精湛的,1a. 原生 NRC 8大情绪词
-surprised,surprised,196,感到惊喜惊讶的,1a. 原生 NRC 8大情绪词
-surprise,surprise,195,惊喜 / 意料之外的喜悦,1a. 原生 NRC 8大情绪词
-fine,fine,190,良好的 / 优秀的,1a. 原生 NRC 8大情绪词
-brilliant,brilliant,184,璀璨的 / 出色的,1a. 原生 NRC 8大情绪词
-forward,forward,183,期待（look forward）,1a. 原生 NRC 8大情绪词
-reasonable,reasonable,179,合理的 / 公道的,1a. 原生 NRC 8大情绪词
-ready,ready,171,准备就绪的 / 心安的,1a. 原生 NRC 8大情绪词
-excited,excited,167,兴奋的 / 激动的,1a. 原生 NRC 8大情绪词
-majestic,majestic,165,雄伟的 / 壮丽的,1a. 原生 NRC 8大情绪词
-competent,competent,163,称职的 / 有能力的,1a. 原生 NRC 8大情绪词
-quiet,quiet,161,宁静的 / 幽雅安静的,1a. 原生 NRC 8大情绪词
-relaxed,relaxed,159,放松的 / 从容的,1a. 原生 NRC 8大情绪词
-hope,hope,159,希望 / 期盼,1a. 原生 NRC 8大情绪词
-perfectly,perfectly,155,完美地 / 无可挑剔地,1a. 原生 NRC 8大情绪词
-concerned,concern,155,感到担心的,1a. 原生 NRC 8大情绪词
-interested,interested,153,感兴趣的 / 充满好奇的,1a. 原生 NRC 8大情绪词
-pleasure,pleasure,153,乐趣 / 愉悦,1a. 原生 NRC 8大情绪词
-magical,magical,152,神奇的 / 魔幻般的,1a. 原生 NRC 8大情绪词
-afraid,afraid,150,害怕的 / 恐惧的,1a. 原生 NRC 8大情绪词
-worried,worried,149,感到担心的,1a. 原生 NRC 8大情绪词
-scared,scared,144,感到恐惧害怕的,1a. 原生 NRC 8大情绪词
-smoother,smoother,143,更平稳的 / 更顺畅的,1a. 原生 NRC 8大情绪词
-fully,fully,143,完全地 / 充分地,1a. 原生 NRC 8大情绪词
-wrong,wrong,137,出差错的 / 错误的（负面体验）,1a. 原生 NRC 8大情绪词
-cheap,cheap,134,便宜的 / 廉价的,1a. 原生 NRC 8大情绪词
-blessed,blessed,133,感到有福的 / 幸运的,1a. 原生 NRC 8大情绪词
-pleased,pleased,132,感到满意的,1a. 原生 NRC 8大情绪词
-safely,safely,132,安全平稳地,1a. 原生 NRC 8大情绪词
-exactly,exactly,130,精准地 / 正是,1a. 原生 NRC 8大情绪词
-impressive,impressive,130,令人印象深刻的,1a. 原生 NRC 8大情绪词
-thrill,thrill,129,刺激 / 震慑感,1a. 原生 NRC 8大情绪词
-thrilling,thrilling,126,令人惊险刺激酣畅的,1a. 原生 NRC 8大情绪词
-humor,humor,125,幽默感,1a. 原生 NRC 8大情绪词
-dream,dream,124,梦寐以求的,1a. 原生 NRC 8大情绪词
-sorry,sorry,123,感到抱歉遗憾的,1a. 原生 NRC 8大情绪词
-relaxing,relaxing,122,令人放松惬意的,1a. 原生 NRC 8大情绪词
-comfort,comfort,121,舒适 / 宽慰安心,1a. 原生 NRC 8大情绪词
-disappoint,disappoint,121,使失望,1a. 原生 NRC 8大情绪词
-wonder,wonder,121,惊奇 / 赞叹,1a. 原生 NRC 8大情绪词
-amazed,amazed,120,感到吃惊惊叹的,1a. 原生 NRC 8大情绪词
-fear,fear,120,恐惧 / 害怕,1a. 原生 NRC 8大情绪词
-unable,unable,114,无法的 / 无能为力的,1a. 原生 NRC 8大情绪词
-thrilled,thrilled,113,极度兴奋的,1a. 原生 NRC 8大情绪词
-confidence,confidence,112,信心 / 确信,1a. 原生 NRC 8大情绪词
-difficult,difficult,112,困难的 / 令人头疼的,1a. 原生 NRC 8大情绪词
-expert,expert,112,专家级的 / 娴熟的,1a. 原生 NRC 8大情绪词
-honestly,honestly,111,老实说 / 真诚地,1a. 原生 NRC 8大情绪词
-confident,confident,109,自信的 / 确信的,1a. 原生 NRC 8大情绪词
-willing,willing,108,乐意的 / 愿意的,1a. 原生 NRC 8大情绪词
-worry,worry,106,担心 / 忧虑感,1a. 原生 NRC 8大情绪词
-smoothest,smoothest,105,最平稳的,1a. 原生 NRC 8大情绪词
-positive,positive,101,积极正面的,1a. 原生 NRC 8大情绪词
-surreal,surreal,98,超现实的 / 梦幻般的,1a. 原生 NRC 8大情绪词
-reassuring,reassuring,97,令人安心放心的,1a. 原生 NRC 8大情绪词
-sweet,sweet,97,甜蜜的 / 甜美的,1a. 原生 NRC 8大情绪词
-concern,concern,96,担忧 / 关切（焦虑感）,1a. 原生 NRC 8大情绪词
-luckily,luckily,96,幸运地 / 幸亏,1a. 原生 NRC 8大情绪词
-poor,poor,95,贫乏的 / 差劲的,1a. 原生 NRC 8大情绪词
-scary,scary,94,令人害怕的 / 吓人的,1a. 原生 NRC 8大情绪词
-enthusiastic,enthusiastic,93,热情的 / 充满激情的,1a. 原生 NRC 8大情绪词
-apprehensive,apprehensive,92,忧虑的 / 不安的,1a. 原生 NRC 8大情绪词
-exhilarating,exhilarating,90,令人极为兴奋刺激的,1a. 原生 NRC 8大情绪词
-honest,honest,88,诚实的 / 坦诚的,1a. 原生 NRC 8大情绪词
-inaccessible,inaccessible,86,难以到达的 / 偏远秘境感,1a. 原生 NRC 8大情绪词
-lucked,lucky,86,幸运地 (动词变体),1a. 原生 NRC 8大情绪词
-rushed,rushed,85,仓促的 / 匆忙的,1a. 原生 NRC 8大情绪词
-capable,capable,84,有能力的 / 熟练精湛的,1a. 原生 NRC 8大情绪词
-prone,prone,84,易患（晕机）的,1a. 原生 NRC 8大情绪词
-simple,simple,84,简单明了的 / 省心的,1a. 原生 NRC 8大情绪词
-wonders,wonder,83,惊奇 / 奇观,1a. 原生 NRC 8大情绪词
-fascinating,fascinating,83,令人入迷极具吸引力的,1a. 原生 NRC 8大情绪词
-grateful,grateful,80,感激的 / 感恩的,1a. 原生 NRC 8大情绪词
-delightful,delightful,80,令人欢欣的,1a. 原生 NRC 8大情绪词
-advantage,advantage,78,优势 / 极佳点,1a. 原生 NRC 8大情绪词
-assured,assured,78,安抚 / 确信,1a. 原生 NRC 8大情绪词
-famous,famous,77,著名的 / 享誉的,1a. 原生 NRC 8大情绪词
-pride,pride,77,自豪 / 骄傲,1a. 原生 NRC 8大情绪词
-safer,safer,77,更安全的 / 更安心的,1a. 原生 NRC 8大情绪词
-neat,neat,76,整洁的 / 干练的,1a. 原生 NRC 8大情绪词
-worthwhile,worthwhile,75,值得的 / 划算的,1a. 原生 NRC 8大情绪词
-coolest,coolest,75,最酷爽震撼的,1a. 原生 NRC 8大情绪词
-stable,stable,75,平稳安心的,1a. 原生 NRC 8大情绪词
-promptly,promptly,74,及时迅速地,1a. 原生 NRC 8大情绪词
-concerns,concerns,73,担忧 / 关切,1a. 原生 NRC 8大情绪词
-greatest,greatest,73,最伟大的 / 极佳的,1a. 原生 NRC 8大情绪词
-ideal,ideal,72,理想的 / 完美的,1a. 原生 NRC 8大情绪词
-peaceful,peaceful,72,平和宁静的,1a. 原生 NRC 8大情绪词
-understanding,understanding,70,体谅的 / 理解的,1a. 原生 NRC 8大情绪词
-impossible,impossible,65,不可能的 / 难以置信的,1a. 原生 NRC 8大情绪词
-tremendous,tremendous,64,震撼巨大的,1a. 原生 NRC 8大情绪词
-passion,passion,64,热情 / 激情,1a. 原生 NRC 8大情绪词
-fears,fears,64,恐惧 / 忧虑,1a. 原生 NRC 8大情绪词
-conscious,conscious,63,有意识的 / 讲究的,1a. 原生 NRC 8大情绪词
-pristine,pristine,62,原始纯净的,1a. 原生 NRC 8大情绪词
-dramatic,dramatic,61,戏剧性的 / 震撼的,1a. 原生 NRC 8大情绪词
-extraordinary,extraordinary,61,非凡的 / 卓越的,1a. 原生 NRC 8大情绪词
-gracious,gracious,61,亲切和蔼的,1a. 原生 NRC 8大情绪词
-moving,moving,61,令人动容感人的,1a. 原生 NRC 8大情绪词
-passionate,passionate,61,充满激情的,1a. 原生 NRC 8大情绪词
-considerate,considerate,60,体贴周到的,1a. 原生 NRC 8大情绪词
-joy,joy,60,喜悦 / 快乐,1a. 原生 NRC 8大情绪词
-entertained,entertained,60,感到深受愉悦娱乐的,1a. 原生 NRC 8大情绪词
-complimentary,complimentary,59,赞赏的 / 赠送贴心的,1a. 原生 NRC 8大情绪词
-convenient,convenient,59,便捷省心的,1a. 原生 NRC 8大情绪词
-excitement,excitement,59,兴奋 / 激动情绪,1a. 原生 NRC 8大情绪词
-intimate,intimate,59,温馨亲切的,1a. 原生 NRC 8大情绪词
-nerves,nerves,59,紧张感 / 不安神经,1a. 原生 NRC 8大情绪词
-unreal,unreal,59,如梦似幻的 / 震撼的,1a. 原生 NRC 8大情绪词
-flawless,flawless,58,无瑕的 / 完美的,1a. 原生 NRC 8大情绪词
-fortunately,fortunately,58,幸运的是,1a. 原生 NRC 8大情绪词
-disappointing,disappointing,58,令人失望的,1a. 原生 NRC 8大情绪词
-lush,lush,57,郁郁葱葱宜人的,1a. 原生 NRC 8大情绪词
-negative,negative,57,负面体验 / 消极评价,1a. 原生 NRC 8大情绪词
-thankful,thankful,57,感激的 / 感恩的,1a. 原生 NRC 8大情绪词
-thoughtful,thoughtful,57,贴心周到的,1a. 原生 NRC 8大情绪词
-glorious,glorious,56,壮丽辉煌的,1a. 原生 NRC 8大情绪词
-uncomfortable,uncomfortable,56,感到不适的 / 不安的,1a. 原生 NRC 8大情绪词
-fair,fair,55,公道的 / 划算的,1a. 原生 NRC 8大情绪词
-noisy,noisy,55,喧闹吵杂的,1a. 原生 NRC 8大情绪词
-remarkable,remarkable,54,卓越令人瞩目的,1a. 原生 NRC 8大情绪词
-genuine,genuine,54,真诚的 / 地道的,1a. 原生 NRC 8大情绪词
-cherish,cherish,54,珍视 / 珍惜铭记,1a. 原生 NRC 8大情绪词
-caring,caring,53,体贴入微关怀的,1a. 原生 NRC 8大情绪词
-appreciation,appreciation,52,感激 / 欣赏,1a. 原生 NRC 8大情绪词
-enthusiasm,enthusiasm,52,热情 / 积极性,1a. 原生 NRC 8大情绪词
-gentle,gentle,52,平稳柔和的,1a. 原生 NRC 8大情绪词
-strong,strong,52,强烈的,1a. 原生 NRC 8大情绪词
-trouble,trouble,52,麻烦 / 困扰,1a. 原生 NRC 8大情绪词
-disappointment,disappointment,51,失望 / 遗憾失落情绪,1a. 原生 NRC 8大情绪词
-nicer,nicer,51,更美好/更亲切的,1a. 原生 NRC 8大情绪词
-hoping,hoping,50,期盼 / 希望,1a. 原生 NRC 8大情绪词
-happier,happier,50,更快乐的 / 更满意的,1a. 原生 NRC 8大情绪词
-queasy,queasy,49,恶心反胃的,1a. 原生 NRC 8大情绪词
-seamless,seamless,49,流畅无缝无摩擦的,1a. 原生 NRC 8大情绪词
-satisfied,satisfied,49,感到满意的,1a. 原生 NRC 8大情绪词
-delight,delight,48,欣喜 / 愉快,1a. 原生 NRC 8大情绪词
-genuinely,genuinely,48,真诚地 / 确实,1a. 原生 NRC 8大情绪词
-steady,steady,48,平稳的 / 稳健的,1a. 原生 NRC 8大情绪词
-terrible,terrible,46,可怕的 / 糟糕的,1a. 原生 NRC 8大情绪词
-warmly,warmly,46,温暖地 / 热情地,1a. 原生 NRC 8大情绪词
-unexpected,unexpected,46,意想不到的惊喜,1a. 原生 NRC 8大情绪词
-sensitive,sensitive,46,敏感的,1a. 原生 NRC 8大情绪词
-easier,easier,46,更容易的 / 更省心的,1a. 原生 NRC 8大情绪词
-decent,decent,45,尚可的 / 体面的,1a. 原生 NRC 8大情绪词
-friendliness,friendliness,45,友善 / 亲和力,1a. 原生 NRC 8大情绪词
-loud,loud,45,吵闹的 / 噪音大的,1a. 原生 NRC 8大情绪词
-relax,relax,45,放松 / 放轻松,1a. 原生 NRC 8大情绪词
-terrified,terrified,45,极度惊恐的,1a. 原生 NRC 8大情绪词
-encouraged,encouraged,44,深受鼓舞的,1a. 原生 NRC 8大情绪词
-happily,happily,44,快乐地 / 欣然,1a. 原生 NRC 8大情绪词
-quieter,quieter,44,更安静宁静的,1a. 原生 NRC 8大情绪词
-beautifully,beautifully,43,优美地 / 出色地,1a. 原生 NRC 8大情绪词
-calming,calming,42,令人平息平稳安心的（Calmness State）,1a. 原生 NRC 8大情绪词
-adventurous,adventurous,41,充满冒险刺激感的,1a. 原生 NRC 8大情绪词
-charming,charming,40,迷人讨喜的,1a. 原生 NRC 8大情绪词
-responsive,responsive,40,积极回应的 / 贴心的,1a. 原生 NRC 8大情绪词
-touched,touched,40,深受感动的,1a. 原生 NRC 8大情绪词
-nicest,nicest,39,最美好的 / 最亲切的,1a. 原生 NRC 8大情绪词
-unsafe,unsafe,39,感觉不安全的 / 担惊受怕的,1a. 原生 NRC 8大情绪词
-worst,worst,39,最糟糕的,1a. 原生 NRC 8大情绪词
-handle,handle,39,善于处理 / 掌控感,1a. 原生 NRC 8大情绪词
-enjoyment,enjoyment,39,乐趣 / 享受,1a. 原生 NRC 8大情绪词
-greater,greater,38,更宏大震撼的,1a. 原生 NRC 8大情绪词
-hospitable,hospitable,38,殷勤好客的,1a. 原生 NRC 8大情绪词
-pleasantly,pleasantly,38,令人愉快地,1a. 原生 NRC 8大情绪词
-stress,stress,38,压力 / 紧张感,1a. 原生 NRC 8大情绪词
-wonderfully,wonderfully,38,极其出色绝妙地,1a. 原生 NRC 8大情绪词
-worries,worry,38,担忧 / 挂虑,1a. 原生 NRC 8大情绪词
-hopefully,hopefully,37,怀着希望地,1a. 原生 NRC 8大情绪词
-nicely,nicely,37,很好地 / 优雅地,1a. 原生 NRC 8大情绪词
-cared,cared,37,得到无微不至关怀的,1a. 原生 NRC 8大情绪词
-delicious,delicious,37,美味愉悦的,1a. 原生 NRC 8大情绪词
-nauseous,nauseous,36,恶心晕车的,1a. 原生 NRC 8大情绪词
-reliable,reliable,36,可靠的 / 可信赖的,1a. 原生 NRC 8大情绪词
-marvelous,marvelous,36,绝妙的 / 令人惊叹的,1a. 原生 NRC 8大情绪词
-humour,humour,35,幽默感,1a. 原生 NRC 8大情绪词
-superior,superior,35,优越顶尖的,1a. 原生 NRC 8大情绪词
-picturesque,picturesque,35,风景如画的,1a. 原生 NRC 8大情绪词
-surprisingly,surprisingly,35,出乎意料赞叹地,1a. 原生 NRC 8大情绪词
-humorous,humorous,35,幽默风趣的,1a. 原生 NRC 8大情绪词
-bother,bother,35,打扰 / 烦扰,1a. 原生 NRC 8大情绪词
-anxious,anxious,35,焦虑不安的 / 挂虑的,1a. 原生 NRC 8大情绪词
-anxiety,anxiety,34,焦虑 / 不安,1a. 原生 NRC 8大情绪词
-generous,generous,34,大方的 / 慷慨的,1a. 原生 NRC 8大情绪词
-romantic,romantic,34,浪漫惬意的,1a. 原生 NRC 8大情绪词
-sadly,sadly,34,令人遗憾地 / 悲伤地,1a. 原生 NRC 8大情绪词
-worse,worse,34,更糟糕的,1a. 原生 NRC 8大情绪词
-airsick,airsick,33,晕机的,1a. 原生 NRC 8大情绪词
-hassle,hassle,33,麻烦 / 烦心事,1a. 原生 NRC 8大情绪词
-overwhelming,overwhelming,33,铺天盖地震撼的,1a. 原生 NRC 8大情绪词
-turbulent,turbulent,32,颠簸不安的,1a. 原生 NRC 8大情绪词
-upfront,upfront,32,直率透明的,1a. 原生 NRC 8大情绪词
-skillful,skillful,32,技术精湛的,1a. 原生 NRC 8大情绪词
-reassured,reassured,32,感到安心的,1a. 原生 NRC 8大情绪词
-cute,cute,31,可爱宜人的,1a. 原生 NRC 8大情绪词
-economical,economical,31,划算实惠的,1a. 原生 NRC 8大情绪词
-breathtakingly,breathtakingly,30,令人屏息震撼地（Awe/Amazement Emotion）,1a. 原生 NRC 8大情绪词
-kindly,kindly,30,体贴友善地,1a. 原生 NRC 8大情绪词
-unbelievably,unbelievably,29,难以置信地,1a. 原生 NRC 8大情绪词
-stellar,stellar,29,璀璨顶尖级的,1a. 原生 NRC 8大情绪词
-pure,pure,29,纯粹的 / 纯净震撼的,1a. 原生 NRC 8大情绪词
-interactive,interactive,29,互动性强的,1a. 原生 NRC 8大情绪词
-delighted,delighted,29,高高兴兴的,1a. 原生 NRC 8大情绪词
-convinced,convinced,29,深信不疑的 / 心服口服,1a. 原生 NRC 8大情绪词
-chatty,chatty,29,健谈热情的,1a. 原生 NRC 8大情绪词
-gladly,gladly,29,乐意地 / 高兴地,1a. 原生 NRC 8大情绪词
-boring,boring,28,令人无聊乏味的,1a. 原生 NRC 8大情绪词
-sad,sad,28,悲伤的 / 遗憾痛心的,1a. 原生 NRC 8大情绪词
-serene,serene,28,宁静祥和的,1a. 原生 NRC 8大情绪词
-splendor,splendor,27,壮丽辉煌的奇观,1a. 原生 NRC 8大情绪词
-peace,peace,27,宁静 / 和平,1a. 原生 NRC 8大情绪词
-regrets,regrets,27,遗憾 / 后悔,1a. 原生 NRC 8大情绪词
-aside,aside,27,撇开 / 排除,1a. 原生 NRC 8大情绪词
-eager,eager,27,热切的 / 渴望的,1a. 原生 NRC 8大情绪词
-comforting,comforting,27,令人感到安慰抚慰的,1a. 原生 NRC 8大情绪词
-bang,bang,26,物超所值（bang for buck）,1a. 原生 NRC 8大情绪词
-basic,basic,26,基础的 / 简陋的,1a. 原生 NRC 8大情绪词
-cramped,cramped,26,拥挤狭窄不适的,1a. 原生 NRC 8大情绪词
-hate,hate,26,憎恨 / 讨厌,1a. 原生 NRC 8大情绪词
-mesmerizing,mesmerizing,26,令人目眩神迷为之倾倒的,1a. 原生 NRC 8大情绪词
-upset,upset,26,感到沮丧难过的,1b. 原生 NRC 极性词
-bump,bump,25,颠簸不适的,1b. 原生 NRC 极性词
-communicative,communicative,25,善于沟通的,1b. 原生 NRC 极性词
-dangerous,dangerous,25,危险的,1b. 原生 NRC 极性词
-ill,ill,25,生病的 / 恶心呕吐的,1b. 原生 NRC 极性词
-laughing,laughing,25,欢声笑语 / 开心大笑,1b. 原生 NRC 极性词
-inclement,inclement,24,恶劣的气候,1b. 原生 NRC 极性词
-magnificence,magnificence,24,壮丽震撼感,1b. 原生 NRC 极性词
-impeccable,impeccable,23,无可挑剔的,1b. 原生 NRC 极性词
-talkative,talkative,23,健谈热情的,1b. 原生 NRC 极性词
-horrible,horrible,23,极度糟糕可怕的,1b. 原生 NRC 极性词
-shining,shining,22,璀璨夺目的,1b. 原生 NRC 极性词
-calmed,calmed,22,心情平静安稳下来的,1b. 原生 NRC 极性词
-talented,talented,22,才华横溢精湛的,1b. 原生 NRC 极性词
-skeptical,skeptical,22,怀疑的 / 存疑的,1b. 原生 NRC 极性词
-tough,tough,22,严苛倒霉的,1b. 原生 NRC 极性词
-lasting,lasting,22,持久的 / 深刻的,1b. 原生 NRC 极性词
-fearful,fearful,22,恐惧的 / 担心的,1b. 原生 NRC 极性词
-favourite,favourite,22,最喜爱的,1b. 原生 NRC 极性词
-bummed,bummed,21,感到扫兴遗憾失落的,1b. 原生 NRC 极性词
-mild,mild,21,轻微适度的（颠簸/舒适）,1b. 原生 NRC 极性词
-refreshing,refreshing,21,令人神清气爽耳目一新的,1b. 原生 NRC 极性词
-spoil,spoil,21,破坏 / 毁掉（好心情）,1b. 原生 NRC 极性词
-surprises,surprise,21,惊喜 / 意料之外,1b. 原生 NRC 极性词
-unbeatable,unbeatable,21,无可比拟的 / 无敌的,1b. 原生 NRC 极性词
-successful,successful,20,成功的 / 满意的,1b. 原生 NRC 极性词
-mood,mood,20,心情 / 情绪,1b. 原生 NRC 极性词
-spiritual,spiritual,20,精神神圣的,1b. 原生 NRC 极性词
-cheerful,cheerful,20,欢快愉悦的,1b. 原生 NRC 极性词
-amusing,amusing,20,风趣风趣令人发笑的,1b. 原生 NRC 极性词
-astonishing,astonishing,20,令人惊叹的,1b. 原生 NRC 极性词
-exquisite,exquisite,19,精美的 / 绝妙的,1b. 原生 NRC 极性词
-suitable,suitable,19,合适的 / 满意的,1b. 原生 NRC 极性词
-inspired,inspired,19,灵感大发 / 深受震撼的,1b. 原生 NRC 极性词
-touching,touching,19,令人动容流泪的,1b. 原生 NRC 极性词
-comfy,comfy,19,舒适惬意的,1b. 原生 NRC 极性词
-chilly,chilly,19,寒冷不适的,1b. 原生 NRC 极性词
-awestruck,awestruck,19,充满敬畏震撼的,1b. 原生 NRC 极性词
-handy,handy,18,实用的 / 贴心的,1b. 原生 NRC 极性词
-wondered,wonder,18,感到惊奇惊叹 (动词变体),1b. 原生 NRC 极性词
-witty,witty,18,风趣幽默的,1b. 原生 NRC 极性词
-soothing,soothing,18,舒缓抚慰人心的,1b. 原生 NRC 极性词
-secret,secret,18,秘境 / 私密独享感,1b. 原生 NRC 极性词
-marvel,marvel,18,惊叹 / 奇迹,1b. 原生 NRC 极性词
-keen,keen,18,热情的 / 敏锐的,1b. 原生 NRC 极性词
-honesty,honesty,18,真诚 / 诚信解说,1b. 原生 NRC 极性词
-smart,smart,18,聪慧的 / 明智的,1b. 原生 NRC 极性词
-haha,haha,18,哈哈（欢快情绪）,1b. 原生 NRC 极性词
-easiest,easiest,18,最省心的 / 最容易的,1b. 原生 NRC 极性词
-danger,danger,18,危险 / 威胁,1b. 原生 NRC 极性词
-amazement,amazement,18,惊叹 / 惊奇,1b. 原生 NRC 极性词
-chill,chill,18,惬意轻松的,1b. 原生 NRC 极性词
-charm,charm,18,顺畅 / 令人满意,1b. 原生 NRC 极性词
-astounding,astounding,18,令人无比震撼惊叹的,1b. 原生 NRC 极性词
-effective,effective,18,有效划算的,1b. 原生 NRC 极性词
-hopes,hopes,17,期盼 / 希望,1b. 原生 NRC 极性词
-overwhelmed,overwhelmed,17,被震撼/感动深深淹没的,1b. 原生 NRC 极性词
-valuable,valuable,17,珍贵的 / 有价值的,1b. 原生 NRC 极性词
-energetic,energetic,17,精力充沛的,1b. 原生 NRC 极性词
-discomfort,discomfort,17,身体/心理不适感,1b. 原生 NRC 极性词
-cordial,cordial,17,热情亲切礼貌的,1b. 原生 NRC 极性词
-claustrophobic,claustrophobic,16,感到幽闭恐惧压抑的,1b. 原生 NRC 极性词
-insane,insane,16,疯狂震撼的 / 极端的,1b. 原生 NRC 极性词
-leery,leery,16,提防警惕 / 顾虑重重的,1b. 原生 NRC 极性词
-loving,loving,16,热爱的 / 充满了爱的,1b. 原生 NRC 极性词
-sensational,sensational,16,绝佳轰动震撼的,1b. 原生 NRC 极性词
-sudden,sudden,16,突然的 / 猝不及防的,1b. 原生 NRC 极性词
-uncertain,uncertain,16,不确定的 / 顾虑的,1b. 原生 NRC 极性词
-worthy,worthy,16,非常值的 / 值得的,1b. 原生 NRC 极性词
-hilarious,hilarious,15,爆笑幽默搞笑的,1b. 原生 NRC 极性词
-warmth,warmth,15,温暖安心感,1b. 原生 NRC 极性词
-unprofessional,unprofessional,15,不专业的,1b. 原生 NRC 极性词
-respectful,respectful,15,充满敬意的,1c. 语法变形拯救词 (respectful -> respectful)
-immaculate,immaculate,15,完美无瑕洁净的,1c. 语法变形拯救词 (immaculate -> immaculate)
-annoying,annoying,15,令人烦躁恼火的（Annoyance/Irritation Emotion）,1c. 语法变形拯救词 (annoying -> annoying)
-fuss,fuss,15,大惊小怪 / 争吵骚动,1c. 语法变形拯救词 (fuss -> fuss)
-awful,awful,15,极其糟糕的,1c. 语法变形拯救词 (awful -> awful)
-awed,awed,15,感到为之肃然起敬震撼的,1c. 语法变形拯救词 (awed -> awed)
-bubbly,bubbly,15,活泼热情的,1c. 语法变形拯救词 (bubbly -> bubbly)
-praise,praise,14,称赞 / 高度赞扬,1c. 语法变形拯救词 (praise -> praise)
-trustworthy,trustworthy,14,值得信赖靠谱的,1c. 语法变形拯救词 (trustworthy -> trustworthy)
-satisfaction,satisfaction,14,满意感,1c. 语法变形拯救词 (satisfaction -> satisfaction)
-ruined,ruined,14,毁掉行程的 / 扫兴糟心的,1c. 语法变形拯救词 (ruined -> ruined)
-proud,proud,14,感到自豪骄傲的,1c. 语法变形拯救词 (proud -> proud)
-marvellous,marvellous,14,令人叹为观止的,1c. 语法变形拯救词 (marvellous -> marvellous)
-intrusive,intrusive,14,突兀扰人的 / 煞风景的,1c. 语法变形拯救词 (intrusive -> intrusive)
-glowing,glowing,14,极度赞赏口碑极佳的,1c. 语法变形拯救词 (glowing -> glowing)
-frustrating,frustrating,14,令人挫败的 / 烦人的,1c. 语法变形拯救词 (frustrating -> frustrating)
-bothered,bothered,14,困扰的 / 烦心的,1c. 语法变形拯救词 (bothered -> bothered)
-authentic,authentic,14,地道的 / 真实无伪的,1c. 语法变形拯救词 (authentic -> authentic)
-tricky,tricky,13,棘手不安的,1c. 语法变形拯救词 (tricky -> tricky)
-worldly,worldly,13,超凡脱俗的,1c. 语法变形拯救词 (worldly -> worldly)
-vibrant,vibrant,13,生机勃勃色彩斑斓的,1c. 语法变形拯救词 (vibrant -> vibrant)
-uneasy,uneasy,13,心神不宁感到不安的,1c. 语法变形拯救词 (uneasy -> uneasy)
-precious,precious,13,弥足珍贵的 memory,1c. 语法变形拯救词 (precious -> precious)
-safest,safest,13,最安全平稳的,1c. 语法变形拯救词 (safest -> safest)
-responsible,responsible,13,负责任的,1c. 语法变形拯救词 (responsible -> responsible)
-pleasurable,pleasurable,13,令人愉快的,1c. 语法变形拯救词 (pleasurable -> pleasurable)
-apologetic,apologetic,13,诚恳抱歉致歉的,1c. 语法变形拯救词 (apologetic -> apologetic)
-bored,bored,12,感到无聊厌烦的,1c. 语法变形拯救词 (bored -> bored)
-soaking,soaking,12,沉浸于（soaking in view）,1c. 语法变形拯救词 (soaking -> soaking)
-stuffy,stuffy,12,闷热不适的（体感不适）,1c. 语法变形拯救词 (stuffy -> stuffy)
-superbly,superbly,12,出类拔萃完美地,1c. 语法变形拯救词 (superbly -> superbly)
-wondrous,wondrous,12,惊叹奇妙的,1c. 语法变形拯救词 (wondrous -> wondrous)
-satisfying,satisfying,11,令人称心满意的,1c. 语法变形拯救词 (satisfying -> satisfying)
-wary,wary,11,警惕顾虑的,1c. 语法变形拯救词 (wary -> wary)
-trepidation,trepidation,11,惊恐战栗 / 不安,1c. 语法变形拯救词 (trepidation -> trepidation)
-surprising,surprising,11,令人出乎意料惊喜的,1c. 语法变形拯救词 (surprising -> surprising)
-superlative,superlative,11,顶级极致赞赏的,1c. 语法变形拯救词 (superlative -> superlative)
-sketchy,sketchy,11,令人不安可疑的,1c. 语法变形拯救词 (sketchy -> sketchy)
-slick,slick,11,熟练专业/光滑的,1c. 语法变形拯救词 (slick -> slick)
-rewarding,rewarding,11,非常有成就感/物超所值的,1c. 语法变形拯救词 (rewarding -> rewarding)
-nervousness,nervousness,11,紧张不安的情绪,1c. 语法变形拯救词 (nervousness -> nervousness)
-mad,mad,11,发怒的 / 生气的,1c. 语法变形拯救词 (mad -> mad)
-inviting,inviting,11,引人入胜令人愉悦的,1c. 语法变形拯救词 (inviting -> inviting)
-cheesy,cheesy,11,俗气的 / 劣质的,1c. 语法变形拯救词 (cheesy -> cheesy)
-admire,admire,11,钦佩赞赏,1c. 语法变形拯救词 (admire -> admire)
-mesmerized,mesmerized,10,被深深吸引迷住的,1c. 语法变形拯救词 (mesmerized -> mesmerized)
-unfortunate,unfortunate,10,不幸遗憾的,1c. 语法变形拯救词 (unfortunate -> unfortunate)
-stunningly,stunningly,10,令人震撼地,1c. 语法变形拯救词 (stunningly -> stunningly)
-stunned,stunned,10,感到目瞪口呆震撼的,1c. 语法变形拯救词 (stunned -> stunned)
-stability,stability,10,平稳安心感,1c. 语法变形拯救词 (stability -> stability)
-raving,raving,10,赞不绝口极力推荐的,1c. 语法变形拯救词 (raving -> raving)
-quaint,quaint,10,古朴宜人的,1c. 语法变形拯救词 (quaint -> quaint)
-wonderfull,wonderful,10,令人惊叹绝妙的 (错别字变体),1c. 语法变形拯救词 (wonderfull -> wonderful)
-jealous,jealous,10,令人羡慕嫉妒的,1c. 语法变形拯救词 (jealous -> jealous)
-improving,improving,10,不断改善令人满意的,1c. 语法变形拯救词 (improving -> improving)
-improvement,improvement,10,体验改善 / 提升,1c. 语法变形拯救词 (improvement -> improvement)
-friendlier,friendlier,10,更加亲切友好的,1c. 语法变形拯救词 (friendlier -> friendlier)
-emotional,emotional,10,情感上的 / 动情的,1c. 语法变形拯救词 (emotional -> emotional)
-ecstatic,ecstatic,10,狂喜的 / 极度兴奋的,1c. 语法变形拯救词 (ecstatic -> ecstatic)
-conscientious,conscientious,10,认真负责的,1c. 语法变形拯救词 (conscientious -> conscientious)
-badly,badly,10,严重地 / 糟糕地,1c. 语法变形拯救词 (badly -> badly)
-unspoiled,unspoiled,9,未经破坏原始纯粹的,1c. 语法变形拯救词 (unspoiled -> unspoiled)
-terribly,terribly,9,极度负面地 / 抱歉,1c. 语法变形拯救词 (terribly -> terribly)
-susceptible,susceptible,9,易受影响脆弱的,1c. 语法变形拯救词 (susceptible -> susceptible)
-stuffed,stuffed,9,塞满的 / 憋闷不适的,1c. 语法变形拯救词 (stuffed -> stuffed)
-miserable,miserable,9,极度痛苦糟糕的,1c. 语法变形拯救词 (miserable -> miserable)
-hassles,hassles,9,烦心事 / 摩擦,1c. 语法变形拯救词 (hassles -> hassles)
-effortless,effortless,9,轻松平稳的,1c. 语法变形拯救词 (effortless -> effortless)
-compliment,compliment,9,赞美 / 赞赏评价,1c. 语法变形拯救词 (compliment -> compliment)
-claustrophobia,claustrophobia,9,幽闭恐惧症（密闭机舱焦虑）,1c. 语法变形拯救词 (claustrophobia -> claustrophobia)
-cheerfully,cheerfully,9,欢快愉悦地,1c. 语法变形拯救词 (cheerfully -> cheerfully)
-bummer,bummer,9,令人扫兴扫兴的事,1c. 语法变形拯救词 (bummer -> bummer)
-awkward,awkward,9,尴尬的 / 别扭的,1c. 语法变形拯救词 (awkward -> awkward)
-automatically,automatically,9,自动地 / 自然而然,1c. 语法变形拯救词 (automatically -> automatically)
-mindful,mindful,8,细心周到的,1c. 语法变形拯救词 (mindful -> mindful)
-yummy,yummy,8,美味愉悦的,1c. 语法变形拯救词 (yummy -> yummy)
-unstable,unstable,8,不稳定摇晃令人担心的,1c. 语法变形拯救词 (unstable -> unstable)
-spoiled,spoiled,8,好心情被破坏毁掉的,1c. 语法变形拯救词 (spoiled -> spoiled)
-shocked,shocked,8,感到震惊惊吓的,1c. 语法变形拯救词 (shocked -> shocked)
-poorly,poorly,8,糟糕地 / 差劲地,1c. 语法变形拯救词 (poorly -> poorly)
-nerve,nerve,8,紧张神经,1c. 语法变形拯救词 (nerve -> nerve)
-grace,grace,8,优雅 / 良好风度,1c. 语法变形拯救词 (grace -> grace)
-frustration,frustration,8,挫败感 / 烦恼,1c. 语法变形拯救词 (frustration -> frustration)
-frightened,frightened,8,感到受惊吓害怕的,1c. 语法变形拯救词 (frightened -> frightened)
-exhilaration,exhilaration,8,极度兴奋快感,1c. 语法变形拯救词 (exhilaration -> exhilaration)
-exhausted,exhausted,8,精疲力竭极为疲惫的,1c. 语法变形拯救词 (exhausted -> exhausted)
-dissapointed,disappointed,8,感到失望的（错别字变体）,1c. 语法变形拯救词 (dissapointed -> disappointed)
-cherished,cherish,8,珍视铭记的,1c. 语法变形拯救词 (cherished -> cherish)
-annoyed,annoyed,8,感到烦恼的 / 恼火的,1c. 语法变形拯救词 (annoyed -> annoyed)
-strange,strange,7,怪异不安的,1c. 语法变形拯救词 (strange -> strange)
-reputable,reputable,7,信誉良好的,1c. 语法变形拯救词 (reputable -> reputable)
-ridiculous,ridiculous,7,荒谬的 / 离谱的,1c. 语法变形拯救词 (ridiculous -> ridiculous)
-rudely,rudely,7,粗鲁地 / 无礼地,1c. 语法变形拯救词 (rudely -> rudely)
-serenity,serenity,7,宁静 / 祥和,1c. 语法变形拯救词 (serenity -> serenity)
-relieved,relieved,7,宽慰的 / 松了一口气,1c. 语法变形拯救词 (relieved -> relieved)
-suffered,suffered,7,遭受身体/晕眩痛苦,1c. 语法变形拯救词 (suffered -> suffered)
-unhappy,unhappy,7,不高兴不满意的,1c. 语法变形拯救词 (unhappy -> unhappy)
-unpleasant,unpleasant,7,令人不快令人难受的,1c. 语法变形拯救词 (unpleasant -> unpleasant)
-powerful,powerful,7,强烈的 / 感人的,1c. 语法变形拯救词 (powerful -> powerful)
-worrying,worry,7,令人担心的,1c. 语法变形拯救词 (worrying -> worry)
-weird,weird,7,古怪令人不安的,1c. 语法变形拯救词 (weird -> weird)
-painful,painful,7,痛苦的 / 令人难受的,1c. 语法变形拯救词 (painful -> painful)
-panic,panic,7,恐慌 / 惊恐状态,1c. 语法变形拯救词 (panic -> panic)
-laughter,laughter,7,欢笑 / 笑声,1c. 语法变形拯救词 (laughter -> laughter)
-hopeful,hopeful,7,怀抱希望的,1c. 语法变形拯救词 (hopeful -> hopeful)
-hesitating,hesitating,7,犹豫顾虑（心理活动）,1c. 语法变形拯救词 (hesitating -> hesitating)
-gushing,gushing,7,滔滔不绝赞赞称道的,1c. 语法变形拯救词 (gushing -> gushing)
-exhilerating,exhilarating,7,令人兴奋刺激酣畅地（错别字变体）,1c. 语法变形拯救词 (exhilerating -> exhilarating)
-enthusiastically,enthusiastically,7,热情高涨地,1c. 语法变形拯救词 (enthusiastically -> enthusiastically)
-curious,curious,7,好奇求知的,1c. 语法变形拯救词 (curious -> curious)
-confusion,confusion,7,困惑 / 混乱,1c. 语法变形拯救词 (confusion -> confusion)
-classy,classy,7,高端优雅的,1c. 语法变形拯救词 (classy -> classy)
-captivated,captivated,7,被深深吸引着迷的,1c. 语法变形拯救词 (captivated -> captivated)
-alas,alas,7,唉 / 遗憾的是,1c. 语法变形拯救词 (alas -> alas)
-reassurance,reassurance,6,令人放心的安抚感,1c. 语法变形拯救词 (reassurance -> reassurance)
-inspirational,inspirational,6,鼓舞人心的,1c. 语法变形拯救词 (inspirational -> inspirational)
-jovial,jovial,6,欢快风趣的,1c. 语法变形拯救词 (jovial -> jovial)
-precision,precision,6,精准靠谱的,1c. 语法变形拯救词 (precision -> precision)
-gratitude,gratitude,6,感激 / 感恩,1c. 语法变形拯救词 (gratitude -> gratitude)
-relief,relief,6,轻松如释重负感,1c. 语法变形拯救词 (relief -> relief)
-sublime,sublime,6,崇高壮丽绝美的（Aesthetic Emotion/Awe）,1c. 语法变形拯救词 (sublime -> sublime)
-timid,timid,6,胆怯害羞的,1c. 语法变形拯救词 (timid -> timid)
-warmest,warmest,6,最暖心亲切的,1c. 语法变形拯救词 (warmest -> warmest)
-hug,hug,6,拥抱 / 温暖关怀,1c. 语法变形拯救词 (hug -> hug)
-amaze,amaze,6,使惊叹 / 惊奇,1c. 语法变形拯救词 (amaze -> amaze)
-frightening,frightening,6,令人惊恐吓人的,1c. 语法变形拯救词 (frightening -> frightening)
-calmer,calmer,6,更平静安心的,1c. 语法变形拯救词 (calmer -> calmer)
-appropriately,appropriately,6,恰当地 / 贴心地,2a. 网络口语极级形容词 (Class 2 Gap)
-blind,blind,6,盲目的 / 视线受阻的,2a. 网络口语极级形容词 (Class 2 Gap)
-broad,broad,6,宽广的,2a. 网络口语极级形容词 (Class 2 Gap)
-fascinated,fascinated,6,深深入迷为之倾倒的,2a. 网络口语极级形容词 (Class 2 Gap)
-casual,casual,6,随和轻松的,2a. 网络口语极级形容词 (Class 2 Gap)
-discouraged,discouraged,6,感到灰心气馁的,2a. 网络口语极级形容词 (Class 2 Gap)
-enthralled,enthralled,6,被深深吸引迷住的,2a. 网络口语极级形容词 (Class 2 Gap)
-joyful,joyful,5,充满喜悦欢快的,2a. 网络口语极级形容词 (Class 2 Gap)
-wowed,wowed,5,被深深惊叹震撼的,2a. 网络口语极级形容词 (Class 2 Gap)
-suprise,surprise,5,惊喜 / 意料之外（错别字变体）,2a. 网络口语极级形容词 (Class 2 Gap)
-stressful,stressful,5,令人压力重重焦虑的（Stress/Anxiety State）,2a. 网络口语极级形容词 (Class 2 Gap)
-shock,shock,5,震惊 / 冲击,2a. 网络口语极级形容词 (Class 2 Gap)
-scare,scare,5,吓人 / 引发恐慌的,2a. 网络口语极级形容词 (Class 2 Gap)
-overwhelmingly,overwhelmingly,5,压倒性震撼地,2a. 网络口语极级形容词 (Class 2 Gap)
-marveled,marvel,5,惊叹赞赏的,2a. 网络口语极级形容词 (Class 2 Gap)
-luscious,luscious,5,秀美令人心旷神怡的,2a. 网络口语极级形容词 (Class 2 Gap)
-pity,pity,5,遗憾 / 同情怜悯,2a. 网络口语极级形容词 (Class 2 Gap)
-jitters,jitters,5,忐忑不安 / 紧张发抖感,2a. 网络口语极级形容词 (Class 2 Gap)
-hates,hate,5,厌恶 / 讨厌,2a. 网络口语极级形容词 (Class 2 Gap)
-hated,hate,5,讨厌 / 极为憎恶的,2a. 网络口语极级形容词 (Class 2 Gap)
-gloomy,gloomy,5,阴沉的 / 沮丧的,2a. 网络口语极级形容词 (Class 2 Gap)
-faultless,faultless,5,无可挑剔完美的,2a. 网络口语极级形容词 (Class 2 Gap)
-envy,envy,5,羡慕 / 嫉妒,2a. 网络口语极级形容词 (Class 2 Gap)
-comforted,comforted,5,感到安慰安心的,2a. 网络口语极级形容词 (Class 2 Gap)
-apprehension,apprehension,5,忧虑 / 疑虑不安,2a. 网络口语极级形容词 (Class 2 Gap)
-intimidating,intimidating,5,令人胆怯令人畏惧的,2a. 网络口语极级形容词 (Class 2 Gap)
-tranquil,tranquil,4,清幽宁静的（Calmness/Serenity State）,2a. 网络口语极级形容词 (Class 2 Gap)
-spellbinding,spellbinding,4,扣人心弦迷人的,2a. 网络口语极级形容词 (Class 2 Gap)
-spellbound,spellbound,4,出神为之入迷的,2a. 网络口语极级形容词 (Class 2 Gap)
-stoked,stoked,4,极为激动期待的,2a. 网络口语极级形容词 (Class 2 Gap)
-subtle,subtle,4,微妙精细的,2a. 网络口语极级形容词 (Class 2 Gap)
-suprised,surprised,4,感到惊喜惊讶的（错别字变体）,2a. 网络口语极级形容词 (Class 2 Gap)
-thrills,thrills,4,刺激 / 快感,2a. 网络口语极级形容词 (Class 2 Gap)
-unnerving,unnerving,4,令人发慌不安吓人的,2a. 网络口语极级形容词 (Class 2 Gap)
-tranquility,tranquility,4,宁静 / 平和,2a. 网络口语极级形容词 (Class 2 Gap)
-underwhelmed,underwhelmed,4,大失所望未达预期的,2a. 网络口语极级形容词 (Class 2 Gap)
-unfair,unfair,4,不公平的 / 冤枉的,2a. 网络口语极级形容词 (Class 2 Gap)
-unfriendly,unfriendly,4,不友善的,2a. 网络口语极级形容词 (Class 2 Gap)
-wicked,wicked,4,太棒了 / 绝妙的,2a. 网络口语极级形容词 (Class 2 Gap)
-wildest,wildest,4,最疯狂的（狂想）,2a. 网络口语极级形容词 (Class 2 Gap)
-profound,profound,4,深刻震撼的,2a. 网络口语极级形容词 (Class 2 Gap)
-regretting,regret,4,感到后悔遗憾的,2a. 网络口语极级形容词 (Class 2 Gap)
-nasty,nasty,4,令人厌恶的 / 恶劣的,2a. 网络口语极级形容词 (Class 2 Gap)
-pleasing,pleasing,4,令人愉悦满意的,2a. 网络口语极级形容词 (Class 2 Gap)
-frustrated,frustrated,4,感到沮丧的 / 挫败的,2a. 网络口语极级形容词 (Class 2 Gap)
-captivating,captivating,4,扣人心弦引人入胜的,2a. 网络口语极级形容词 (Class 2 Gap)
-phobia,phobia,4,恐惧症 / 恐高心理,2a. 网络口语极级形容词 (Class 2 Gap)
-disconcerting,disconcerting,4,令人不安的,2a. 网络口语极级形容词 (Class 2 Gap)
-dreaded,dread,4,令人害怕恐惧的 / 提心吊胆,2a. 网络口语极级形容词 (Class 2 Gap)
-dreading,dread,4,感到十分恐惧担心的,2a. 网络口语极级形容词 (Class 2 Gap)
-emotion,emotion,4,情感 / 情绪,2a. 网络口语极级形容词 (Class 2 Gap)
-exhilarated,exhilarated,4,感到无比兴奋酣畅的,2a. 网络口语极级形容词 (Class 2 Gap)
-embarrassed,embarrassed,4,感到尴尬难堪的,2a. 网络口语极级形容词 (Class 2 Gap)
-giddy,giddy,4,兴奋得头晕目眩欢欣的,2a. 网络口语极级形容词 (Class 2 Gap)
-hungry,hungry,4,贪婪的（money hungry）,2a. 网络口语极级形容词 (Class 2 Gap)
-irritated,irritated,4,感到恼火烦躁的,2a. 网络口语极级形容词 (Class 2 Gap)
-irritating,irritating,4,令人烦躁恼火的,2a. 网络口语极级形容词 (Class 2 Gap)
-ominous,ominous,4,不详的 / 不妙的,2a. 网络口语极级形容词 (Class 2 Gap)
-peacefulness,peacefulness,4,宁静详和感,2a. 网络口语极级形容词 (Class 2 Gap)
-reassure,reassure,3,使人感到安心放心的,2a. 网络口语极级形容词 (Class 2 Gap)
-heartfelt,heartfelt,3,真挚的 / 出自内心的,2a. 网络口语极级形容词 (Class 2 Gap)
-horribly,horrible,3,糟糕恐怖地,2a. 网络口语极级形容词 (Class 2 Gap)
-incomprehensible,incomprehensible,3,难以理解令人困惑的,2a. 网络口语极级形容词 (Class 2 Gap)
-indulge,indulge,3,尽情享受 / 犒劳自己,2a. 网络口语极级形容词 (Class 2 Gap)
-joking,joking,3,开玩笑的,2a. 网络口语极级形容词 (Class 2 Gap)
-marvelously,marvelously,3,奇妙极其出色地,2a. 网络口语极级形容词 (Class 2 Gap)
-overjoyed,overjoyed,3,欣喜若狂的,2a. 网络口语极级形容词 (Class 2 Gap)
-peacefully,peacefully,3,宁静和平地,2a. 网络口语极级形容词 (Class 2 Gap)
-sympathy,sympathy,3,同情 / 体谅,2a. 网络口语极级形容词 (Class 2 Gap)
-remorse,remorse,3,懊悔 / 悔恨,2a. 网络口语极级形容词 (Class 2 Gap)
-rickety,rickety,3,摇摇欲坠的,2a. 网络口语极级形容词 (Class 2 Gap)
-scaring,scare,3,使人害怕恐惧的,2a. 网络口语极级形容词 (Class 2 Gap)
-securely,securely,3,安全平稳地,2a. 网络口语极级形容词 (Class 2 Gap)
-sickening,sickening,3,令人作呕恶心的,2a. 网络口语极级形容词 (Class 2 Gap)
-spoilt,spoilt,3,被破坏败兴的,2a. 网络口语极级形容词 (Class 2 Gap)
-uneasiness,uneasiness,3,不安 / 忐忑感,2a. 网络口语极级形容词 (Class 2 Gap)
-unsettled,unsettled,3,心神不宁忐忑的,2a. 网络口语极级形容词 (Class 2 Gap)
-happiness,happiness,3,幸福快乐感,2a. 网络口语极级形容词 (Class 2 Gap)
-harrowing,harrowing,3,令人触目惊心惊恐的,2a. 网络口语极级形容词 (Class 2 Gap)
-curiosity,curiosity,3,好奇心 / 探索欲,2a. 网络口语极级形容词 (Class 2 Gap)
-guilty,guilty,3,内疚内疚感,2a. 网络口语极级形容词 (Class 2 Gap)
-carefree,carefree,3,无忧无虑自在的,2a. 网络口语极级形容词 (Class 2 Gap)
-ecstasy,ecstasy,3,狂喜 / 极乐状态,2a. 网络口语极级形容词 (Class 2 Gap)
-aggressively,aggressively,3,挑衅攻击地 / 极其恶劣地,2a. 网络口语极级形容词 (Class 2 Gap)
-ambivalent,ambivalent,3,矛盾复杂心理的,2a. 网络口语极级形容词 (Class 2 Gap)
-apprehensions,apprehension,3,顾虑 / 忧虑不安,2a. 网络口语极级形容词 (Class 2 Gap)
-aprehensive,apprehensive,3,感到忧虑不安的（错别字变体）,2a. 网络口语极级形容词 (Class 2 Gap)
-astonished,astonished,3,感到十分惊异惊叹的,2a. 网络口语极级形容词 (Class 2 Gap)
-beneficial,beneficial,3,有益的 / 有帮助的,2a. 网络口语极级形容词 (Class 2 Gap)
-candid,candid,3,坦率真诚的,2a. 网络口语极级形容词 (Class 2 Gap)
-astounded,astounded,3,感到十分震惊震撼的,2a. 网络口语极级形容词 (Class 2 Gap)
-cheer,cheer,3,振奋 / 欢呼,2a. 网络口语极级形容词 (Class 2 Gap)
-deaf,deaf,3,听而不闻冷漠的（fell on deaf ears）,2a. 网络口语极级形容词 (Class 2 Gap)
-dreaming,dreaming,3,梦寐以求 / 心驰神往,2a. 网络口语极级形容词 (Class 2 Gap)
-compassion,compassion,3,同理心 / 关切,2a. 网络口语极级形容词 (Class 2 Gap)
-disappointingly,disappointed,3,令人失望地,2a. 网络口语极级形容词 (Class 2 Gap)
-dissatisfied,dissatisfied,3,感到不满意的,2a. 网络口语极级形容词 (Class 2 Gap)
-dazzled,dazzled,3,目眩神迷震撼的,2a. 网络口语极级形容词 (Class 2 Gap)
-daunting,daunting,3,令人望而生畏胆怯的,2a. 网络口语极级形容词 (Class 2 Gap)
-compassionate,compassionate,3,富有同理心体贴的,2a. 网络口语极级形容词 (Class 2 Gap)
-humility,humility,2,谦逊贴心,2a. 网络口语极级形容词 (Class 2 Gap)
-threaten,threaten,2,受到威胁/令人不安的,2a. 网络口语极级形容词 (Class 2 Gap)
-suffering,suffering,2,受苦受难不适,2a. 网络口语极级形容词 (Class 2 Gap)
-squeamish,squeamish,2,胆怯恶心体质易受惊的,2a. 网络口语极级形容词 (Class 2 Gap)
-rigid,rigid,2,刻板不近人情的,2a. 网络口语极级形容词 (Class 2 Gap)
-pumped,pumped,2,兴奋激动的 / 跃跃欲试,2a. 网络口语极级形容词 (Class 2 Gap)
-positively,positively,2,积极正面地,2a. 网络口语极级形容词 (Class 2 Gap)
-offensive,offensive,2,冒犯的 / 令人不适的,2a. 网络口语极级形容词 (Class 2 Gap)
-primo,primo,2,一流的 / 顶级的,2a. 网络口语极级形容词 (Class 2 Gap)
-favourable,favourable,2,有利的 / 良好的,2a. 网络口语极级形容词 (Class 2 Gap)
-desperate,desperate,2,感到绝望迫切的,2a. 网络口语极级形容词 (Class 2 Gap)
-darling,darling,2,可爱的 / 亲切的,2a. 网络口语极级形容词 (Class 2 Gap)
-compliant,compliant,2,顺从的 / 合规安心的,2a. 网络口语极级形容词 (Class 2 Gap)
-clever,clever,2,聪明睿智的,2a. 网络口语极级形容词 (Class 2 Gap)
-bothering,bothering,2,打扰令人烦心的,2a. 网络口语极级形容词 (Class 2 Gap)
-animated,animated,2,生动的 / 活力充沛的,2a. 网络口语极级形容词 (Class 2 Gap)
-agreeable,agreeable,2,宜人的 / 令人满意的,2a. 网络口语极级形容词 (Class 2 Gap)
-exhausting,exhausting,2,令人筋疲力尽的,2a. 网络口语极级形容词 (Class 2 Gap)
-shady,shady,1,可疑不诚信的,2a. 网络口语极级形容词 (Class 2 Gap)
-quell,quell,1,镇定 / 平息（恐惧）,2a. 网络口语极级形容词 (Class 2 Gap)
-racist,racist,1,种族歧视的,2a. 网络口语极级形容词 (Class 2 Gap)
-regrettably,regrettably,1,遗憾地 / 抱歉,2a. 网络口语极级形容词 (Class 2 Gap)
-reward,reward,1,赏心悦目的奖赏体验,2a. 网络口语极级形容词 (Class 2 Gap)
-wasbeautiful,wasbeautiful,1,美丽动人的（美感）,2a. 网络口语极级形容词 (Class 2 Gap)
-truthful,truthful,1,真实可信的,2a. 网络口语极级形容词 (Class 2 Gap)
-ungodly,ungodly,1,糟糕恶劣的,2a. 网络口语极级形容词 (Class 2 Gap)
-unwell,unwell,1,身体不适的,2a. 网络口语极级形容词 (Class 2 Gap)
-immeasurable,immeasurable,1,无法估量的 / 极致的,2a. 网络口语极级形容词 (Class 2 Gap)
-whelmed,whelmed,1,被深深震撼淹没的,2b. 低空观光领域专有词 (Class 3 Gap)
-worthful,worthful,1,物有所值的,2b. 低空观光领域专有词 (Class 3 Gap)
-miraculously,miraculously,1,奇迹般地,2b. 低空观光领域专有词 (Class 3 Gap)
-grumpy,grumpy,1,脾气暴躁的 / 不悦的,2b. 低空观光领域专有词 (Class 3 Gap)
-hostile,hostile,1,敌意的 / 恶劣的,2b. 低空观光领域专有词 (Class 3 Gap)
-hazardous,hazardous,1,危险的 / 有隐患的,2b. 低空观光领域专有词 (Class 3 Gap)
-harsh,harsh,1,严酷恶劣的,2b. 低空观光领域专有词 (Class 3 Gap)
-grandest,grandest,1,最宏大的 / 极其壮丽的,2b. 低空观光领域专有词 (Class 3 Gap)
-gloom,gloom,1,阴郁忧伤,2b. 低空观光领域专有词 (Class 3 Gap)
-flaky,flaky,1,不靠谱的 / 经常取消的,2b. 低空观光领域专有词 (Class 3 Gap)
-disrespectful,disrespectful,1,无礼的 / 冒犯的,2b. 低空观光领域专有词 (Class 3 Gap)
-dismay,dismay,1,感到沮丧吃惊,2b. 低空观光领域专有词 (Class 3 Gap)
-decency,decency,1,礼貌体面 / 服务缺乏礼貌体面,2b. 低空观光领域专有词 (Class 3 Gap)
-bluntly,bluntly,1,直言不讳地,2b. 低空观光领域专有词 (Class 3 Gap)
-bluest,bluest,1,最湛蓝的（极致景色）,2b. 低空观光领域专有词 (Class 3 Gap)
-askance,askance,1,怀疑斜视地（不信任）,2b. 低空观光领域专有词 (Class 3 Gap)
-zing,zing,1,刺激快感,2b. 低空观光领域专有词 (Class 3 Gap)
+word,canonical_lemma,frequency_21215,english_translation,category_and_emotion
+great,great,11541,非常棒的 / 极好的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+amazing,amazing,6251,极其震撼赞叹的 / 太棒了,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+beautiful,beautiful,3485,美丽绝伦的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+best,best,3420,最棒的 / 顶级的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+friendly,friendly,3416,友好的 / 亲切的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+worth,worth,2799,物有所值的 / 绝对值得的,1b. Directly Mapped to Polarity Only (72 Words)
+wonderful,wonderful,2677,精彩美妙的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+good,good,2635,良好的 / 棒的（服务与体验）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+awesome,awesome,2530,太棒了 / 极为赞叹的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+excellent,excellent,2284,卓越极佳的 / 顶级的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+fantastic,fantastic,2026,奇妙太棒的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+nice,nice,1794,美好的 / 良好的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+fun,fun,1729,乐趣十足的 / 充满乐趣的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+spectacular,spectacular,1616,壮观震撼的（高空景观）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+incredible,incredible,1612,难以置信震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+better,better,1585,更好的 / 更满意的（超过预期）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+perfect,perfect,1474,完美的 / 无瑕的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+loved,loved,1473,喜爱 / 热爱（体验）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+comfortable,comfortable,1446,舒适的 / 安心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+breathtaking,breathtaking,1346,令人屏息震撼的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+helpful,helpful,1157,热心有帮助的 / 周到解说,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+glad,glad,897,感到高兴放心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+interesting,interesting,886,引人入胜的 / 趣味盎然的,1b. Directly Mapped to Polarity Only (72 Words)
+cool,cool,652,酷的 / 爽快的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+special,special,631,特别的 / 珍贵的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+lucky,lucky,607,感到幸运的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+kind,kind,587,亲切的 / 友善的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+memorable,memorable,580,令人终生难忘的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+happy,happy,555,高兴的 / 快乐的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+stunning,stunning,552,令人目眩震撼的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+nervous,nervous,513,紧张的 / 焦虑不安的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+fabulous,fabulous,508,绝妙的 / 极好的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+disappointed,disappointed,488,感到失望的 / 遗憾的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+outstanding,outstanding,462,杰出出色的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+enjoyable,enjoyable,460,令人愉快的 / 趣味盎然的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unforgettable,unforgettable,459,令人难忘的 / 铭心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+love,love,450,喜爱 / 极度热爱的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+unique,unique,435,独一无二的 / 独特的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+gorgeous,gorgeous,414,极其漂亮的 / 绚丽的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+scenic,scenic,400,风景优美的 / 宜人的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+bad,bad,373,糟糕的 / 坏的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+exciting,exciting,324,令人兴奋刺激的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+incredibly,incredibly,315,难以置信地 / 极其,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+pleasant,pleasant,306,令人愉快的 / 宜人的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+awe,awe,304,敬畏 / 震撼,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+unbelievable,unbelievable,302,难以置信的 / 震撼的,1b. Directly Mapped to Polarity Only (72 Words)
+funny,funny,301,幽默风趣的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+plenty,plenty,298,丰富的 / 充足的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+hard,hard,297,困难的 / 艰辛的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+regret,regret,293,遗憾 / 后悔,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+magnificent,magnificent,282,壮丽的 / 宏伟震撼的（Awe）,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+exceptional,exceptional,276,卓越的 / 杰出的（顶级评价）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+sick,sick,274,晕机的 / 身体不适的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+lovely,lovely,266,令人愉悦的 / 可爱的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+terrific,terrific,260,极好的 / 太棒了,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+calm,calm,259,镇定 / 平息情绪的,1b. Directly Mapped to Polarity Only (72 Words)
+impressed,impressed,255,感到深深被折服/留下深刻印象,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unfortunately,unfortunately,240,不幸的是 / 遗憾的是,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+fortunate,fortunate,235,幸运的 / 幸运地,1b. Directly Mapped to Polarity Only (72 Words)
+efficient,efficient,215,高效省心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+welcome,welcome,212,受欢迎的 / 感受温暖的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+entertaining,entertaining,210,引人入胜生动有趣的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+inspiring,inspiring,210,令人启发震慑的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+cheaper,cheaper,208,更实惠的 / 较便宜的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+phenomenal,phenomenal,200,现象级震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+superb,superb,196,极好精湛的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+surprised,surprised,196,感到惊喜惊讶的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+surprise,surprise,195,惊喜 / 意料之外的喜悦,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+fine,fine,190,良好的 / 优秀的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+brilliant,brilliant,184,璀璨的 / 出色的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+forward,forward,183,期待（look forward）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+reasonable,reasonable,179,合理的 / 公道的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+ready,ready,171,准备就绪的 / 心安的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+excited,excited,167,兴奋的 / 激动的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+majestic,majestic,165,雄伟的 / 壮丽的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+competent,competent,163,称职的 / 有能力的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+quiet,quiet,161,宁静的 / 幽雅安静的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+relaxed,relaxed,159,放松的 / 从容的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+hope,hope,159,希望 / 期盼,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+perfectly,perfectly,155,完美地 / 无可挑剔地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+concerned,concern,155,感到担心的,1c. Class 1 Morphological Rescued (concerned -> concern)
+interested,interested,153,感兴趣的 / 充满好奇的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+pleasure,pleasure,153,乐趣 / 愉悦,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+magical,magical,152,神奇的 / 魔幻般的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+afraid,afraid,150,害怕的 / 恐惧的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+worried,worried,149,感到担心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+scared,scared,144,感到恐惧害怕的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+smoother,smoother,143,更平稳的 / 更顺畅的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+fully,fully,143,完全地 / 充分地,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+wrong,wrong,137,出差错的 / 错误的（负面体验）,1b. Directly Mapped to Polarity Only (72 Words)
+cheap,cheap,134,便宜的 / 廉价的,1b. Directly Mapped to Polarity Only (72 Words)
+blessed,blessed,133,感到有福的 / 幸运的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+pleased,pleased,132,感到满意的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+safely,safely,132,安全平稳地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+exactly,exactly,130,精准地 / 正是,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+impressive,impressive,130,令人印象深刻的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+thrill,thrill,129,刺激 / 震慑感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+thrilling,thrilling,126,令人惊险刺激酣畅的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+humor,humor,125,幽默感,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+dream,dream,124,梦寐以求的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+sorry,sorry,123,感到抱歉遗憾的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+relaxing,relaxing,122,令人放松惬意的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+comfort,comfort,121,舒适 / 宽慰安心,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+disappoint,disappoint,121,使失望,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+wonder,wonder,121,惊奇 / 赞叹,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+amazed,amazed,120,感到吃惊惊叹的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+fear,fear,120,恐惧 / 害怕,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+unable,unable,114,无法的 / 无能为力的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+thrilled,thrilled,113,极度兴奋的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+confidence,confidence,112,信心 / 确信,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+difficult,difficult,112,困难的 / 令人头疼的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+expert,expert,112,专家级的 / 娴熟的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+honestly,honestly,111,老实说 / 真诚地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+confident,confident,109,自信的 / 确信的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+willing,willing,108,乐意的 / 愿意的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+worry,worry,106,担心 / 忧虑感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+smoothest,smoothest,105,最平稳的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+positive,positive,101,积极正面的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+surreal,surreal,98,超现实的 / 梦幻般的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+reassuring,reassuring,97,令人安心放心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+sweet,sweet,97,甜蜜的 / 甜美的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+concern,concern,96,担忧 / 关切（焦虑感）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+luckily,luckily,96,幸运地 / 幸亏,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+poor,poor,95,贫乏的 / 差劲的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+scary,scary,94,令人害怕的 / 吓人的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+enthusiastic,enthusiastic,93,热情的 / 充满激情的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+apprehensive,apprehensive,92,忧虑的 / 不安的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+exhilarating,exhilarating,90,令人极为兴奋刺激的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+honest,honest,88,诚实的 / 坦诚的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+inaccessible,inaccessible,86,难以到达的 / 偏远秘境感,1b. Directly Mapped to Polarity Only (72 Words)
+lucked,lucky,86,幸运地 (动词变体),1c. Class 1 Morphological Rescued (lucked -> lucky)
+rushed,rushed,85,仓促的 / 匆忙的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+capable,capable,84,有能力的 / 熟练精湛的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+prone,prone,84,易患（晕机）的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+simple,simple,84,简单明了的 / 省心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+wonders,wonder,83,惊奇 / 奇观,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+fascinating,fascinating,83,令人入迷极具吸引力的,1b. Directly Mapped to Polarity Only (72 Words)
+grateful,grateful,80,感激的 / 感恩的,1b. Directly Mapped to Polarity Only (72 Words)
+delightful,delightful,80,令人欢欣的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+advantage,advantage,78,优势 / 极佳点,1b. Directly Mapped to Polarity Only (72 Words)
+assured,assured,78,安抚 / 确信,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+famous,famous,77,著名的 / 享誉的,1b. Directly Mapped to Polarity Only (72 Words)
+pride,pride,77,自豪 / 骄傲,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+safer,safer,77,更安全的 / 更安心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+neat,neat,76,整洁的 / 干练的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+worthwhile,worthwhile,75,值得的 / 划算的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+coolest,coolest,75,最酷爽震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+stable,stable,75,平稳安心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+promptly,promptly,74,及时迅速地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+concerns,concerns,73,担忧 / 关切,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+greatest,greatest,73,最伟大的 / 极佳的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+ideal,ideal,72,理想的 / 完美的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+peaceful,peaceful,72,平和宁静的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+understanding,understanding,70,体谅的 / 理解的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+impossible,impossible,65,不可能的 / 难以置信的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+tremendous,tremendous,64,震撼巨大的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+passion,passion,64,热情 / 激情,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+fears,fears,64,恐惧 / 忧虑,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+conscious,conscious,63,有意识的 / 讲究的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+pristine,pristine,62,原始纯净的,1b. Directly Mapped to Polarity Only (72 Words)
+dramatic,dramatic,61,戏剧性的 / 震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+extraordinary,extraordinary,61,非凡的 / 卓越的,1b. Directly Mapped to Polarity Only (72 Words)
+gracious,gracious,61,亲切和蔼的,1b. Directly Mapped to Polarity Only (72 Words)
+moving,moving,61,令人动容感人的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+passionate,passionate,61,充满激情的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+considerate,considerate,60,体贴周到的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+joy,joy,60,喜悦 / 快乐,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+entertained,entertained,60,感到深受愉悦娱乐的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+complimentary,complimentary,59,赞赏的 / 赠送贴心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+convenient,convenient,59,便捷省心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+excitement,excitement,59,兴奋 / 激动情绪,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+intimate,intimate,59,温馨亲切的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+nerves,nerves,59,紧张感 / 不安神经,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unreal,unreal,59,如梦似幻的 / 震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+flawless,flawless,58,无瑕的 / 完美的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+fortunately,fortunately,58,幸运的是,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+disappointing,disappointing,58,令人失望的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+lush,lush,57,郁郁葱葱宜人的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+negative,negative,57,负面体验 / 消极评价,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+thankful,thankful,57,感激的 / 感恩的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+thoughtful,thoughtful,57,贴心周到的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+glorious,glorious,56,壮丽辉煌的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+uncomfortable,uncomfortable,56,感到不适的 / 不安的,1b. Directly Mapped to Polarity Only (72 Words)
+fair,fair,55,公道的 / 划算的,1b. Directly Mapped to Polarity Only (72 Words)
+noisy,noisy,55,喧闹吵杂的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+remarkable,remarkable,54,卓越令人瞩目的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+genuine,genuine,54,真诚的 / 地道的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+cherish,cherish,54,珍视 / 珍惜铭记,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+caring,caring,53,体贴入微关怀的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+appreciation,appreciation,52,感激 / 欣赏,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+enthusiasm,enthusiasm,52,热情 / 积极性,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+gentle,gentle,52,平稳柔和的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+strong,strong,52,强烈的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+trouble,trouble,52,麻烦 / 困扰,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+disappointment,disappointment,51,失望 / 遗憾失落情绪,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+nicer,nicer,51,更美好/更亲切的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+hoping,hoping,50,期盼 / 希望,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+happier,happier,50,更快乐的 / 更满意的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+queasy,queasy,49,恶心反胃的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+seamless,seamless,49,流畅无缝无摩擦的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+satisfied,satisfied,49,感到满意的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+delight,delight,48,欣喜 / 愉快,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+genuinely,genuinely,48,真诚地 / 确实,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+steady,steady,48,平稳的 / 稳健的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+terrible,terrible,46,可怕的 / 糟糕的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+warmly,warmly,46,温暖地 / 热情地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unexpected,unexpected,46,意想不到的惊喜,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+sensitive,sensitive,46,敏感的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+easier,easier,46,更容易的 / 更省心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+decent,decent,45,尚可的 / 体面的,1b. Directly Mapped to Polarity Only (72 Words)
+friendliness,friendliness,45,友善 / 亲和力,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+loud,loud,45,吵闹的 / 噪音大的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+relax,relax,45,放松 / 放轻松,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+terrified,terrified,45,极度惊恐的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+encouraged,encouraged,44,深受鼓舞的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+happily,happily,44,快乐地 / 欣然,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+quieter,quieter,44,更安静宁静的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+beautifully,beautifully,43,优美地 / 出色地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+calming,calming,42,令人平息平稳安心的（Calmness State）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+adventurous,adventurous,41,充满冒险刺激感的,1b. Directly Mapped to Polarity Only (72 Words)
+charming,charming,40,迷人讨喜的,1b. Directly Mapped to Polarity Only (72 Words)
+responsive,responsive,40,积极回应的 / 贴心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+touched,touched,40,深受感动的,1b. Directly Mapped to Polarity Only (72 Words)
+nicest,nicest,39,最美好的 / 最亲切的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unsafe,unsafe,39,感觉不安全的 / 担惊受怕的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+worst,worst,39,最糟糕的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+handle,handle,39,善于处理 / 掌控感,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+enjoyment,enjoyment,39,乐趣 / 享受,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+greater,greater,38,更宏大震撼的,1b. Directly Mapped to Polarity Only (72 Words)
+hospitable,hospitable,38,殷勤好客的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+pleasantly,pleasantly,38,令人愉快地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+stress,stress,38,压力 / 紧张感,1b. Directly Mapped to Polarity Only (72 Words)
+wonderfully,wonderfully,38,极其出色绝妙地,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+worries,worry,38,担忧 / 挂虑,1c. Class 1 Morphological Rescued (worries -> worry)
+hopefully,hopefully,37,怀着希望地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+nicely,nicely,37,很好地 / 优雅地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+cared,cared,37,得到无微不至关怀的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+delicious,delicious,37,美味愉悦的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+nauseous,nauseous,36,恶心晕车的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+reliable,reliable,36,可靠的 / 可信赖的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+marvelous,marvelous,36,绝妙的 / 令人惊叹的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+humour,humour,35,幽默感,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+superior,superior,35,优越顶尖的,1b. Directly Mapped to Polarity Only (72 Words)
+picturesque,picturesque,35,风景如画的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+surprisingly,surprisingly,35,出乎意料赞叹地,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+humorous,humorous,35,幽默风趣的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+bother,bother,35,打扰 / 烦扰,1b. Directly Mapped to Polarity Only (72 Words)
+anxious,anxious,35,焦虑不安的 / 挂虑的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+anxiety,anxiety,34,焦虑 / 不安,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+generous,generous,34,大方的 / 慷慨的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+romantic,romantic,34,浪漫惬意的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+sadly,sadly,34,令人遗憾地 / 悲伤地,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+worse,worse,34,更糟糕的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+airsick,airsick,33,晕机的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+hassle,hassle,33,麻烦 / 烦心事,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+overwhelming,overwhelming,33,铺天盖地震撼的,1b. Directly Mapped to Polarity Only (72 Words)
+turbulent,turbulent,32,颠簸不安的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+upfront,upfront,32,直率透明的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+skillful,skillful,32,技术精湛的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+reassured,reassured,32,感到安心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+cute,cute,31,可爱宜人的,1b. Directly Mapped to Polarity Only (72 Words)
+economical,economical,31,划算实惠的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+breathtakingly,breathtakingly,30,令人屏息震撼地（Awe/Amazement Emotion）,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+kindly,kindly,30,体贴友善地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unbelievably,unbelievably,29,难以置信地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+stellar,stellar,29,璀璨顶尖级的,1b. Directly Mapped to Polarity Only (72 Words)
+pure,pure,29,纯粹的 / 纯净震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+interactive,interactive,29,互动性强的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+delighted,delighted,29,高高兴兴的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+convinced,convinced,29,深信不疑的 / 心服口服,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+chatty,chatty,29,健谈热情的,1b. Directly Mapped to Polarity Only (72 Words)
+gladly,gladly,29,乐意地 / 高兴地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+boring,boring,28,令人无聊乏味的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+sad,sad,28,悲伤的 / 遗憾痛心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+serene,serene,28,宁静祥和的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+splendor,splendor,27,壮丽辉煌的奇观,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+peace,peace,27,宁静 / 和平,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+regrets,regrets,27,遗憾 / 后悔,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+aside,aside,27,撇开 / 排除,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+eager,eager,27,热切的 / 渴望的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+comforting,comforting,27,令人感到安慰抚慰的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+bang,bang,26,物超所值（bang for buck）,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+basic,basic,26,基础的 / 简陋的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+cramped,cramped,26,拥挤狭窄不适的,1b. Directly Mapped to Polarity Only (72 Words)
+hate,hate,26,憎恨 / 讨厌,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+mesmerizing,mesmerizing,26,令人目眩神迷为之倾倒的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+upset,upset,26,感到沮丧难过的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+bump,bump,25,颠簸不适的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+communicative,communicative,25,善于沟通的,1b. Directly Mapped to Polarity Only (72 Words)
+dangerous,dangerous,25,危险的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+ill,ill,25,生病的 / 恶心呕吐的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+laughing,laughing,25,欢声笑语 / 开心大笑,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+inclement,inclement,24,恶劣的气候,1b. Directly Mapped to Polarity Only (72 Words)
+magnificence,magnificence,24,壮丽震撼感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+impeccable,impeccable,23,无可挑剔的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+talkative,talkative,23,健谈热情的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+horrible,horrible,23,极度糟糕可怕的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+shining,shining,22,璀璨夺目的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+calmed,calmed,22,心情平静安稳下来的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+talented,talented,22,才华横溢精湛的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+skeptical,skeptical,22,怀疑的 / 存疑的,1b. Directly Mapped to Polarity Only (72 Words)
+tough,tough,22,严苛倒霉的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+lasting,lasting,22,持久的 / 深刻的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+fearful,fearful,22,恐惧的 / 担心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+favourite,favourite,22,最喜爱的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+bummed,bummed,21,感到扫兴遗憾失落的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+mild,mild,21,轻微适度的（颠簸/舒适）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+refreshing,refreshing,21,令人神清气爽耳目一新的,1b. Directly Mapped to Polarity Only (72 Words)
+spoil,spoil,21,破坏 / 毁掉（好心情）,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+surprises,surprise,21,惊喜 / 意料之外,1c. Class 1 Morphological Rescued (surprises -> surprise)
+unbeatable,unbeatable,21,无可比拟的 / 无敌的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+successful,successful,20,成功的 / 满意的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+mood,mood,20,心情 / 情绪,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+spiritual,spiritual,20,精神神圣的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+cheerful,cheerful,20,欢快愉悦的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+amusing,amusing,20,风趣风趣令人发笑的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+astonishing,astonishing,20,令人惊叹的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+exquisite,exquisite,19,精美的 / 绝妙的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+suitable,suitable,19,合适的 / 满意的,1b. Directly Mapped to Polarity Only (72 Words)
+inspired,inspired,19,灵感大发 / 深受震撼的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+touching,touching,19,令人动容流泪的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+comfy,comfy,19,舒适惬意的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+chilly,chilly,19,寒冷不适的,1b. Directly Mapped to Polarity Only (72 Words)
+awestruck,awestruck,19,充满敬畏震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+handy,handy,18,实用的 / 贴心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+wondered,wonder,18,感到惊奇惊叹 (动词变体),2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+witty,witty,18,风趣幽默的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+soothing,soothing,18,舒缓抚慰人心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+secret,secret,18,秘境 / 私密独享感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+marvel,marvel,18,惊叹 / 奇迹,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+keen,keen,18,热情的 / 敏锐的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+honesty,honesty,18,真诚 / 诚信解说,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+smart,smart,18,聪慧的 / 明智的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+haha,haha,18,哈哈（欢快情绪）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+easiest,easiest,18,最省心的 / 最容易的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+danger,danger,18,危险 / 威胁,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+amazement,amazement,18,惊叹 / 惊奇,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+chill,chill,18,惬意轻松的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+charm,charm,18,顺畅 / 令人满意,1b. Directly Mapped to Polarity Only (72 Words)
+astounding,astounding,18,令人无比震撼惊叹的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+effective,effective,18,有效划算的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+hopes,hopes,17,期盼 / 希望,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+overwhelmed,overwhelmed,17,被震撼/感动深深淹没的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+valuable,valuable,17,珍贵的 / 有价值的,1b. Directly Mapped to Polarity Only (72 Words)
+energetic,energetic,17,精力充沛的,1b. Directly Mapped to Polarity Only (72 Words)
+discomfort,discomfort,17,身体/心理不适感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+cordial,cordial,17,热情亲切礼貌的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+claustrophobic,claustrophobic,16,感到幽闭恐惧压抑的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+insane,insane,16,疯狂震撼的 / 极端的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+leery,leery,16,提防警惕 / 顾虑重重的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+loving,loving,16,热爱的 / 充满了爱的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+sensational,sensational,16,绝佳轰动震撼的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+sudden,sudden,16,突然的 / 猝不及防的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+uncertain,uncertain,16,不确定的 / 顾虑的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+worthy,worthy,16,非常值的 / 值得的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+hilarious,hilarious,15,爆笑幽默搞笑的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+warmth,warmth,15,温暖安心感,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unprofessional,unprofessional,15,不专业的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+respectful,respectful,15,充满敬意的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+immaculate,immaculate,15,完美无瑕洁净的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+annoying,annoying,15,令人烦躁恼火的（Annoyance/Irritation Emotion）,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+fuss,fuss,15,大惊小怪 / 争吵骚动,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+awful,awful,15,极其糟糕的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+awed,awed,15,感到为之肃然起敬震撼的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+bubbly,bubbly,15,活泼热情的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+praise,praise,14,称赞 / 高度赞扬,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+trustworthy,trustworthy,14,值得信赖靠谱的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+satisfaction,satisfaction,14,满意感,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+ruined,ruined,14,毁掉行程的 / 扫兴糟心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+proud,proud,14,感到自豪骄傲的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+marvellous,marvellous,14,令人叹为观止的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+intrusive,intrusive,14,突兀扰人的 / 煞风景的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+glowing,glowing,14,极度赞赏口碑极佳的,1b. Directly Mapped to Polarity Only (72 Words)
+frustrating,frustrating,14,令人挫败的 / 烦人的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+bothered,bothered,14,困扰的 / 烦心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+authentic,authentic,14,地道的 / 真实无伪的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+tricky,tricky,13,棘手不安的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+worldly,worldly,13,超凡脱俗的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+vibrant,vibrant,13,生机勃勃色彩斑斓的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+uneasy,uneasy,13,心神不宁感到不安的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+precious,precious,13,弥足珍贵的 memory,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+safest,safest,13,最安全平稳的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+responsible,responsible,13,负责任的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+pleasurable,pleasurable,13,令人愉快的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+apologetic,apologetic,13,诚恳抱歉致歉的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+bored,bored,12,感到无聊厌烦的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+soaking,soaking,12,沉浸于（soaking in view）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+stuffy,stuffy,12,闷热不适的（体感不适）,1b. Directly Mapped to Polarity Only (72 Words)
+superbly,superbly,12,出类拔萃完美地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+wondrous,wondrous,12,惊叹奇妙的,1b. Directly Mapped to Polarity Only (72 Words)
+satisfying,satisfying,11,令人称心满意的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+wary,wary,11,警惕顾虑的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+trepidation,trepidation,11,惊恐战栗 / 不安,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+surprising,surprising,11,令人出乎意料惊喜的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+superlative,superlative,11,顶级极致赞赏的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+sketchy,sketchy,11,令人不安可疑的,1b. Directly Mapped to Polarity Only (72 Words)
+slick,slick,11,熟练专业/光滑的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+rewarding,rewarding,11,非常有成就感/物超所值的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+nervousness,nervousness,11,紧张不安的情绪,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+mad,mad,11,发怒的 / 生气的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+inviting,inviting,11,引人入胜令人愉悦的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+cheesy,cheesy,11,俗气的 / 劣质的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+admire,admire,11,钦佩赞赏,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+mesmerized,mesmerized,10,被深深吸引迷住的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unfortunate,unfortunate,10,不幸遗憾的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+stunningly,stunningly,10,令人震撼地,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+stunned,stunned,10,感到目瞪口呆震撼的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+stability,stability,10,平稳安心感,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+raving,raving,10,赞不绝口极力推荐的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+quaint,quaint,10,古朴宜人的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+wonderfull,wonderful,10,令人惊叹绝妙的 (错别字变体),1c. Class 1 Morphological Rescued (wonderfull -> wonderful)
+jealous,jealous,10,令人羡慕嫉妒的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+improving,improving,10,不断改善令人满意的,1b. Directly Mapped to Polarity Only (72 Words)
+improvement,improvement,10,体验改善 / 提升,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+friendlier,friendlier,10,更加亲切友好的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+emotional,emotional,10,情感上的 / 动情的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+ecstatic,ecstatic,10,狂喜的 / 极度兴奋的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+conscientious,conscientious,10,认真负责的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+badly,badly,10,严重地 / 糟糕地,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+unspoiled,unspoiled,9,未经破坏原始纯粹的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+terribly,terribly,9,极度负面地 / 抱歉,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+susceptible,susceptible,9,易受影响脆弱的,1b. Directly Mapped to Polarity Only (72 Words)
+stuffed,stuffed,9,塞满的 / 憋闷不适的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+miserable,miserable,9,极度痛苦糟糕的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+hassles,hassles,9,烦心事 / 摩擦,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+effortless,effortless,9,轻松平稳的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+compliment,compliment,9,赞美 / 赞赏评价,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+claustrophobia,claustrophobia,9,幽闭恐惧症（密闭机舱焦虑）,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+cheerfully,cheerfully,9,欢快愉悦地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+bummer,bummer,9,令人扫兴扫兴的事,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+awkward,awkward,9,尴尬的 / 别扭的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+automatically,automatically,9,自动地 / 自然而然,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+mindful,mindful,8,细心周到的,1b. Directly Mapped to Polarity Only (72 Words)
+yummy,yummy,8,美味愉悦的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unstable,unstable,8,不稳定摇晃令人担心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+spoiled,spoiled,8,好心情被破坏毁掉的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+shocked,shocked,8,感到震惊惊吓的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+poorly,poorly,8,糟糕地 / 差劲地,1b. Directly Mapped to Polarity Only (72 Words)
+nerve,nerve,8,紧张神经,1b. Directly Mapped to Polarity Only (72 Words)
+grace,grace,8,优雅 / 良好风度,1b. Directly Mapped to Polarity Only (72 Words)
+frustration,frustration,8,挫败感 / 烦恼,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+frightened,frightened,8,感到受惊吓害怕的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+exhilaration,exhilaration,8,极度兴奋快感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+exhausted,exhausted,8,精疲力竭极为疲惫的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+dissapointed,disappointed,8,感到失望的（错别字变体）,1c. Class 1 Morphological Rescued (dissapointed -> disappointed)
+cherished,cherish,8,珍视铭记的,1c. Class 1 Morphological Rescued (cherished -> cherish)
+annoyed,annoyed,8,感到烦恼的 / 恼火的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+strange,strange,7,怪异不安的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+reputable,reputable,7,信誉良好的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+ridiculous,ridiculous,7,荒谬的 / 离谱的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+rudely,rudely,7,粗鲁地 / 无礼地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+serenity,serenity,7,宁静 / 祥和,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+relieved,relieved,7,宽慰的 / 松了一口气,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+suffered,suffered,7,遭受身体/晕眩痛苦,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unhappy,unhappy,7,不高兴不满意的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+unpleasant,unpleasant,7,令人不快令人难受的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+powerful,powerful,7,强烈的 / 感人的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+worrying,worry,7,令人担心的,1c. Class 1 Morphological Rescued (worrying -> worry)
+weird,weird,7,古怪令人不安的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+painful,painful,7,痛苦的 / 令人难受的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+panic,panic,7,恐慌 / 惊恐状态,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+laughter,laughter,7,欢笑 / 笑声,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+hopeful,hopeful,7,怀抱希望的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+hesitating,hesitating,7,犹豫顾虑（心理活动）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+gushing,gushing,7,滔滔不绝赞赞称道的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+exhilerating,exhilarating,7,令人兴奋刺激酣畅地（错别字变体）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+enthusiastically,enthusiastically,7,热情高涨地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+curious,curious,7,好奇求知的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+confusion,confusion,7,困惑 / 混乱,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+classy,classy,7,高端优雅的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+captivated,captivated,7,被深深吸引着迷的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+alas,alas,7,唉 / 遗憾的是,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+reassurance,reassurance,6,令人放心的安抚感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+inspirational,inspirational,6,鼓舞人心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+jovial,jovial,6,欢快风趣的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+precision,precision,6,精准靠谱的,1b. Directly Mapped to Polarity Only (72 Words)
+gratitude,gratitude,6,感激 / 感恩,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+relief,relief,6,轻松如释重负感,1b. Directly Mapped to Polarity Only (72 Words)
+sublime,sublime,6,崇高壮丽绝美的（Aesthetic Emotion/Awe）,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+timid,timid,6,胆怯害羞的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+warmest,warmest,6,最暖心亲切的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+hug,hug,6,拥抱 / 温暖关怀,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+amaze,amaze,6,使惊叹 / 惊奇,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+frightening,frightening,6,令人惊恐吓人的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+calmer,calmer,6,更平静安心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+appropriately,appropriately,6,恰当地 / 贴心地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+blind,blind,6,盲目的 / 视线受阻的,1b. Directly Mapped to Polarity Only (72 Words)
+broad,broad,6,宽广的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+fascinated,fascinated,6,深深入迷为之倾倒的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+casual,casual,6,随和轻松的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+discouraged,discouraged,6,感到灰心气馁的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+enthralled,enthralled,6,被深深吸引迷住的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+joyful,joyful,5,充满喜悦欢快的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+wowed,wowed,5,被深深惊叹震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+suprise,surprise,5,惊喜 / 意料之外（错别字变体）,1c. Class 1 Morphological Rescued (suprise -> surprise)
+stressful,stressful,5,令人压力重重焦虑的（Stress/Anxiety State）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+shock,shock,5,震惊 / 冲击,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+scare,scare,5,吓人 / 引发恐慌的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+overwhelmingly,overwhelmingly,5,压倒性震撼地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+marveled,marvel,5,惊叹赞赏的,1c. Class 1 Morphological Rescued (marveled -> marvel)
+luscious,luscious,5,秀美令人心旷神怡的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+pity,pity,5,遗憾 / 同情怜悯,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+jitters,jitters,5,忐忑不安 / 紧张发抖感,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+hates,hate,5,厌恶 / 讨厌,1c. Class 1 Morphological Rescued (hates -> hate)
+hated,hate,5,讨厌 / 极为憎恶的,1c. Class 1 Morphological Rescued (hated -> hate)
+gloomy,gloomy,5,阴沉的 / 沮丧的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+faultless,faultless,5,无可挑剔完美的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+envy,envy,5,羡慕 / 嫉妒,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+comforted,comforted,5,感到安慰安心的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+apprehension,apprehension,5,忧虑 / 疑虑不安,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+intimidating,intimidating,5,令人胆怯令人畏惧的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+tranquil,tranquil,4,清幽宁静的（Calmness/Serenity State）,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+spellbinding,spellbinding,4,扣人心弦迷人的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+spellbound,spellbound,4,出神为之入迷的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+stoked,stoked,4,极为激动期待的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+subtle,subtle,4,微妙精细的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+suprised,surprised,4,感到惊喜惊讶的（错别字变体）,1c. Class 1 Morphological Rescued (suprised -> surprised)
+thrills,thrills,4,刺激 / 快感,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unnerving,unnerving,4,令人发慌不安吓人的,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+tranquility,tranquility,4,宁静 / 平和,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+underwhelmed,underwhelmed,4,大失所望未达预期的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+unfair,unfair,4,不公平的 / 冤枉的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+unfriendly,unfriendly,4,不友善的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+wicked,wicked,4,太棒了 / 绝妙的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+wildest,wildest,4,最疯狂的（狂想）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+profound,profound,4,深刻震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+regretting,regret,4,感到后悔遗憾的,1c. Class 1 Morphological Rescued (regretting -> regret)
+nasty,nasty,4,令人厌恶的 / 恶劣的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+pleasing,pleasing,4,令人愉悦满意的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+frustrated,frustrated,4,感到沮丧的 / 挫败的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+captivating,captivating,4,扣人心弦引人入胜的,1b. Directly Mapped to Polarity Only (72 Words)
+phobia,phobia,4,恐惧症 / 恐高心理,2b. Class 3 Low-Altitude Domain Lexicon (17 Words)
+disconcerting,disconcerting,4,令人不安的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+dreaded,dread,4,令人害怕恐惧的 / 提心吊胆,1c. Class 1 Morphological Rescued (dreaded -> dread)
+dreading,dread,4,感到十分恐惧担心的,1c. Class 1 Morphological Rescued (dreading -> dread)
+emotion,emotion,4,情感 / 情绪,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+exhilarated,exhilarated,4,感到无比兴奋酣畅的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+embarrassed,embarrassed,4,感到尴尬难堪的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+giddy,giddy,4,兴奋得头晕目眩欢欣的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+hungry,hungry,4,贪婪的（money hungry）,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+irritated,irritated,4,感到恼火烦躁的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+irritating,irritating,4,令人烦躁恼火的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+ominous,ominous,4,不详的 / 不妙的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+peacefulness,peacefulness,4,宁静详和感,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+reassure,reassure,3,使人感到安心放心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+heartfelt,heartfelt,3,真挚的 / 出自内心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+horribly,horrible,3,糟糕恐怖地,1c. Class 1 Morphological Rescued (horribly -> horrible)
+incomprehensible,incomprehensible,3,难以理解令人困惑的,1b. Directly Mapped to Polarity Only (72 Words)
+indulge,indulge,3,尽情享受 / 犒劳自己,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+joking,joking,3,开玩笑的,1b. Directly Mapped to Polarity Only (72 Words)
+marvelously,marvelously,3,奇妙极其出色地,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+overjoyed,overjoyed,3,欣喜若狂的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+peacefully,peacefully,3,宁静和平地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+sympathy,sympathy,3,同情 / 体谅,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+remorse,remorse,3,懊悔 / 悔恨,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+rickety,rickety,3,摇摇欲坠的,1b. Directly Mapped to Polarity Only (72 Words)
+scaring,scare,3,使人害怕恐惧的,1c. Class 1 Morphological Rescued (scaring -> scare)
+securely,securely,3,安全平稳地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+sickening,sickening,3,令人作呕恶心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+spoilt,spoilt,3,被破坏败兴的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+uneasiness,uneasiness,3,不安 / 忐忑感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+unsettled,unsettled,3,心神不宁忐忑的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+happiness,happiness,3,幸福快乐感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+harrowing,harrowing,3,令人触目惊心惊恐的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+curiosity,curiosity,3,好奇心 / 探索欲,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+guilty,guilty,3,内疚内疚感,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+carefree,carefree,3,无忧无虑自在的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+ecstasy,ecstasy,3,狂喜 / 极乐状态,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+aggressively,aggressively,3,挑衅攻击地 / 极其恶劣地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+ambivalent,ambivalent,3,矛盾复杂心理的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+apprehensions,apprehension,3,顾虑 / 忧虑不安,1c. Class 1 Morphological Rescued (apprehensions -> apprehension)
+aprehensive,apprehensive,3,感到忧虑不安的（错别字变体）,1c. Class 1 Morphological Rescued (aprehensive -> apprehensive)
+astonished,astonished,3,感到十分惊异惊叹的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+beneficial,beneficial,3,有益的 / 有帮助的,1b. Directly Mapped to Polarity Only (72 Words)
+candid,candid,3,坦率真诚的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+astounded,astounded,3,感到十分震惊震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+cheer,cheer,3,振奋 / 欢呼,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+deaf,deaf,3,听而不闻冷漠的（fell on deaf ears）,1b. Directly Mapped to Polarity Only (72 Words)
+dreaming,dreaming,3,梦寐以求 / 心驰神往,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+compassion,compassion,3,同理心 / 关切,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+disappointingly,disappointed,3,令人失望地,1c. Class 1 Morphological Rescued (disappointingly -> disappointed)
+dissatisfied,dissatisfied,3,感到不满意的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+dazzled,dazzled,3,目眩神迷震撼的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+daunting,daunting,3,令人望而生畏胆怯的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+compassionate,compassionate,3,富有同理心体贴的,1b. Directly Mapped to Polarity Only (72 Words)
+humility,humility,2,谦逊贴心,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+threaten,threaten,2,受到威胁/令人不安的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+suffering,suffering,2,受苦受难不适,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+squeamish,squeamish,2,胆怯恶心体质易受惊的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+rigid,rigid,2,刻板不近人情的,1b. Directly Mapped to Polarity Only (72 Words)
+pumped,pumped,2,兴奋激动的 / 跃跃欲试,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+positively,positively,2,积极正面地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+offensive,offensive,2,冒犯的 / 令人不适的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+primo,primo,2,一流的 / 顶级的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+favourable,favourable,2,有利的 / 良好的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+desperate,desperate,2,感到绝望迫切的,1b. Directly Mapped to Polarity Only (72 Words)
+darling,darling,2,可爱的 / 亲切的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+compliant,compliant,2,顺从的 / 合规安心的,1b. Directly Mapped to Polarity Only (72 Words)
+clever,clever,2,聪明睿智的,1b. Directly Mapped to Polarity Only (72 Words)
+bothering,bothering,2,打扰令人烦心的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+animated,animated,2,生动的 / 活力充沛的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+agreeable,agreeable,2,宜人的 / 令人满意的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+exhausting,exhausting,2,令人筋疲力尽的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+shady,shady,1,可疑不诚信的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+quell,quell,1,镇定 / 平息（恐惧）,1b. Directly Mapped to Polarity Only (72 Words)
+racist,racist,1,种族歧视的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+regrettably,regrettably,1,遗憾地 / 抱歉,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+reward,reward,1,赏心悦目的奖赏体验,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+wasbeautiful,wasbeautiful,1,美丽动人的（美感）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+truthful,truthful,1,真实可信的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+ungodly,ungodly,1,糟糕恶劣的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+unwell,unwell,1,身体不适的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+immeasurable,immeasurable,1,无法估量的 / 极致的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+whelmed,whelmed,1,被深深震撼淹没的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+worthful,worthful,1,物有所值的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+miraculously,miraculously,1,奇迹般地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+grumpy,grumpy,1,脾气暴躁的 / 不悦的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+hostile,hostile,1,敌意的 / 恶劣的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+hazardous,hazardous,1,危险的 / 有隐患的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+harsh,harsh,1,严酷恶劣的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+grandest,grandest,1,最宏大的 / 极其壮丽的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+gloom,gloom,1,阴郁忧伤,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+flaky,flaky,1,不靠谱的 / 经常取消的,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+disrespectful,disrespectful,1,无礼的 / 冒犯的,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+dismay,dismay,1,感到沮丧吃惊,1a. Directly Mapped to NRC 8-Emotions (286 Words)
+decency,decency,1,礼貌体面 / 服务缺乏礼貌体面,1b. Directly Mapped to Polarity Only (72 Words)
+bluntly,bluntly,1,直言不讳地,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+bluest,bluest,1,最湛蓝的（极致景色）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+askance,askance,1,怀疑斜视地（不信任）,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)
+zing,zing,1,刺激快感,2a. Class 2 Web 2.0 Colloquial Superlatives (128 Words)

@@ -110,52 +110,43 @@ $$	ext{Total Master Gold Codebook (630)} = 358 	ext{ (Total NRC Covered)} + 272 
 
 📌 **Class 1: Participle & Morphological Derivation Gaps (127 Words, 46.69%)**:
 - **Classification Logic**: Inflected participle forms (-ing, -ed) and adverbs/superlatives (-ly, -est, -er) whose base dictionary roots exist in NRC, but static string matching fails to capture due to lack of morphological derivation rules.
+- **Lemma Normalization Rescue**: By applying Canonical Lemma Normalization, all 127 Class 1 morphological variants (e.g., *loved -> love*, *scared -> scare*, *impressed -> impress*, *safer -> safe*) are successfully rescued back into the NRC Covered Universe, expanding total NRC coverage from 358 words (56.83%) to **485 words (76.98%)**.
 - **Key Terms**: *loved (1,473), impressed (255), inspiring (210), relaxed (159), scared (144), amazed (120), thrilled (113), better (1,585), cheaper (208), perfectly (155), smoother (143), safely (132)*.
-- **Empirical Finding**: 48.82% (62 words) have base dictionary roots (*love, impress, relax, scare, thrill, good, safe*) present in NRC, but unnormalized matching omits **88.7% (15,581 review mentions)** of emotional expressions.
 
 📌 **Class 2: Omission of Modern Online Tourism Colloquial Superlatives & Base Terms (128 Words, 47.06%)**:
 - **Classification Logic**: High-frequency base terms and colloquial superlatives widely used across Web 2.0 tourism reviews (restaurants, hotels, sights) that are omitted by NRC due to its formal written seed corpus bias (Mohammad & Turney 2012).
+- **Unfixable Lexicon Gap**: Unlike Class 1, Class 2 words (e.g., *great, awesome, fantastic*) are base roots themselves and cannot be rescued by lemma normalization. They constitute an unfixable domain gap in traditional NRC lexicons.
 - **Key Terms**: *great (11,541), awesome (2,530), fantastic (2,026), nice (1,794), incredible (1,612), comfortable (1,446), fabulous (508), enjoyable (460), unforgettable (459), funny (301), phenomenal (200)*.
-- **Empirical Finding**: Top 10 high-frequency colloquial superlatives account for **20,549 mentions (73.2% of Class 2 frequency, and 42.08% of total missed review frequency)**.
 
 📌 **Class 3: Low-Altitude Air Tourism Domain-Specific Lexicon (17 Words, 6.25% of Misses | 2,862 Review Mentions)** ⭐ *(CORE PAPER CONTRIBUTION)*:
+- **Classification Logic**: Domain-specific somatic symptoms and aesthetic awe terms unique to low-altitude aviation tourism.
+- **Sub-Categories**:
+  - **Sub-3A: Aerial Visual Awe** ($N=10$ words, 2,791 mentions): *breathtaking, stunning, scenic, awe, surreal, sublime, mesmerizing, awed, breathtakingly, stunningly*.
+  - **Sub-3B: Embodied Distress** ($N=1$ word, 33 mentions): *airsick*.
+  - **Sub-3C: Situational Flight Anxiety** ($N=6$ words, 38 mentions): *claustrophobic, claustrophobia, jitters, unnerving, phobia, spellbinding*.
 
-| Domain-Specific Category | Category Description & Theoretica| **Figure 1** | **Lexicon Coverage Comparison**: Master Gold (99.64%) vs VADER (98.12%) vs NRC (95.31%). | 👉 [`fig1_lexicon_coverage_comparison.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig1_lexicon_coverage_comparison.png) |
-| **Figure 2** | **NRC 3-Class Gap Partition**: Word count breakdown & review frequency breakdown across 272 missed words (48,828 mentions). | 👉 [`fig2_nrc_3class_gap_partition.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig2_nrc_3class_gap_partition.png) |
-| **Figure 3** | **Class 3 Domain Taxonomy Breakdown**: Distribution across Awe (2,791 mentions), Situational Anxiety (38 mentions), and Embodied Distress (33 mentions). | 👉 [`fig3_class3_domain_taxonomy.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig3_class3_domain_taxonomy.png) |
-| **Figure 4** | **Econometric Interaction Moderation Plot**: Safety Reassurance positively buffers ($\beta_4 = +0.185, p < 0.001$) tourist rating against fear/anxiety risk. | 👉 [`fig4_econometric_interaction_moderation.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig4_econometric_interaction_moderation.png) |
-| **Figure 5** | **Discrete Emotion Profile Across Aircraft Types**: Helicopter vs Fixed-Wing vs Floatplane emotion and perceived risk distributions. | 👉 [`fig5_emotion_distribution_aircraft_types.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig5_emotion_distribution_aircraft_types.png) |
-| **Figure 9** | **Full Corpus Review-Level Sentiment Scatter Plot**: All $N=21,215$ English reviews plotted with continuous Gaussian jitter ($p < 0.0001$). | 👉 [`fig9_sentence_sentiment_vs_rating_scatter.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig9_sentence_sentiment_vs_rating_scatter.png) |
-| **Figure 10** | **Sentiment Transition Trajectory vs Star Rating**: Boxplot distribution across 5 emotional arc archetypes ($N=20,727$). | 👉 [`fig10_sentiment_trajectory_vs_rating_boxplot.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig10_sentiment_trajectory_vs_rating_boxplot.png) |
-| **Figure 11** | **Sentence-by-Sentence Sentiment Trajectory Curve**: Empirical test of Kahneman (1993) Peak-End Rule and Cognitive Reappraisal. | 👉 [`fig11_idea1_fear_to_awe_trajectory_curve.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig11_idea1_fear_to_awe_trajectory_curve.png) |
-| **Figure 12** | **Dual-Dimensional Temporal Valence $V(t)$ & Arousal $A(t)$**: Excitation transfer and continuous arousal dynamics across normalized review progression ($t \in [0.0, 1.0]$). | 👉 [`fig12_dual_dimensional_valence_arousal_trajectory.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig12_dual_dimensional_valence_arousal_trajectory.png) |
-| **Figure 13** | **Russell (1980) Circumplex Emotion Transition Map**: 2D Quadrant Map illustrating the Q2 (Fear/Anxiety) $\rightarrow$ Q1 (Awe/Thrill) transition flow ($N=571$). | 👉 [`fig13_russell_circumplex_transition_map.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig13_russell_circumplex_transition_map.png) |
+- **Official Publication Figures**:
+  - 👉 [`fig3_class3_domain_taxonomy.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig3_class3_domain_taxonomy.png) (Class 3 Domain Taxonomy & Mental State Partition)
+  - 👉 [`fig9_sentence_sentiment_vs_rating_scatter.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig9_sentence_sentiment_vs_rating_scatter.png) (Full Corpus Review-Level Sentiment Density Scatter Plot)
+  - 👉 [`fig_exact_word_sentiment_scatter.png`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/figures/fig_exact_word_sentiment_scatter.png) (Word Sentiment Scatter Plot: VADER Score vs Tourist Rating)
 
 ---
 
 ## 📍 Step 5: Master 508 Sentiment Words & Tourist Experience Objects Codebook
 
-To analyze what specific tourist experience targets cause emotion transitions, we constructed the **Master 508 Sentiment Words & Objects Codebook** (`master_508_sentiment_objects_codebook.xlsx`), mapping all frequency $\ge 5$ gold emotion terms across 4 primary experience targets:
+To analyze what specific tourist experience targets cause emotion transitions, we constructed the **Master 508 Sentiment Words & Objects Codebook** (`master_508_sentiment_objects_codebook.xlsx`), mapping all frequency >= 5 gold emotion terms across 5 primary experience targets:
 
-1. **Aerial Scenery & Nature Views (高空自然景观)** ($N=17$ words): e.g., *breathtaking, stunning, scenic, spectacular, gorgeous, magnificent, awe, sublime, view, glacier, canyon, beautiful*.
-2. **Pilot, Crew & Guide Service (飞行员与解说服务)** ($N=9$ words): e.g., *friendly, pilot, helpful, informative, professional, reassuring, knowledgeable, captain, guide, staff, attentive, kind*.
-3. **Flight Riding & Aircraft Feeling (飞行体感与机型)** ($N=35$ words): e.g., *smooth, comfortable, exciting, thrill, airsick, claustrophobic, nervous, scared, terrified, turbulence, choppy, fun*.
-4. **Booking, Price & Value (行程预订与性价比)** ($N=20$ words): e.g., *worth, valuable, reasonable, expensive, delayed, canceled, refund, ruined, disappointing, horrible, terrible, awful*.
-5. **Overall Tourism Experience Appraisal (总体观光体验评价)** ($N=430$ words): e.g., *great, amazing, best, wonderful, good, awesome, excellent, fantastic, nice, incredible, memorable, happy*.
+1. **Aerial Scenery & Nature Views** ($N=17$ words): e.g., *breathtaking, stunning, scenic, spectacular, gorgeous, magnificent, awe, sublime, view, glacier, canyon, beautiful*.
+2. **Pilot, Crew & Guide Service** ($N=9$ words): e.g., *friendly, pilot, helpful, informative, professional, reassuring, knowledgeable, captain, guide, staff, attentive, kind*.
+3. **Flight Riding & Aircraft Feeling** ($N=35$ words): e.g., *smooth, comfortable, exciting, thrill, airsick, claustrophobic, nervous, scared, terrified, turbulence, choppy, fun*.
+4. **Booking, Price & Value** ($N=20$ words): e.g., *worth, valuable, reasonable, expensive, delayed, canceled, refund, ruined, disappointing, horrible, terrible, awful*.
+5. **Overall Tourism Experience Appraisal** ($N=430$ words): e.g., *great, amazing, best, wonderful, good, awesome, excellent, fantastic, nice, incredible, memorable, happy*.
 
 ---
 
 ## 📈 Key Empirical Master Artifacts & Directory Map
 
-| Artifact Name | File Format | Record Count | Description & Link |
-| :--- | :---: | :---: | :--- |
-| **Clean Master Dataset** | CSV | 22,235 Rows | Primary master dataset (`tripadvisor_processed_master.csv`) |
-| **Deleted Duplicates Audit** | CSV | 6,683 Rows | Audit log of removed cross-listing duplicates (`deleted_duplicates_audit.csv`) |
-| **Master Gold Emotion Lexicon** | Excel / CSV | 630 Words | Primary domain emotion codebook 👉 [`strict_raw_nrc_630_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/strict_raw_nrc_630_codebook.xlsx) |
-| **Master 508 Sentiment Objects Codebook** | Excel / CSV | 508 Words | Master sentiment words & experience object mapping 👉 [`master_508_sentiment_objects_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/master_508_sentiment_objects_codebook.xlsx) |
-| **Plotted 407 VADER Words Dataset** | Excel / CSV | 407 Words | Direct VADER mapped scatter dataset 👉 [`scatter_plot_407_vader_words_dataset.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/scatter_plot_407_vader_words_dataset.xlsx) |
-| **Sentence Emotion Dynamics Summary** | Excel / CSV | 20,727 Rows | Sentence-level valence & arousal dynamics master 👉 [`sentence_emotion_dynamics_summary.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/sentence_emotion_dynamics_summary.xlsx) |
-| **Sentence Sentiment Transitions Master** | Excel / CSV | 20,727 Rows | Fear-to-Awe Peak & Disappointment trajectory master 👉 [`sentence_sentiment_transitions_master.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/sentence_sentiment_transitions_master.xlsx) |
+| Artifact Name | File Format | Record Count | Description & Link | :--- | :---: | :---: | :--- | **Clean Master Dataset** | CSV | 22,235 Rows | Primary master dataset (`tripadvisor_processed_master.csv`) | **Deleted Duplicates Audit** | CSV | 6,683 Rows | Audit log of removed cross-listing duplicates (`deleted_duplicates_audit.csv`) | **Master Gold Emotion Lexicon** | Excel / CSV | 630 Words | Primary domain emotion codebook 👉 [`strict_raw_nrc_630_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/strict_raw_nrc_630_codebook.xlsx) | **Master 508 Sentiment Objects Codebook** | Excel / CSV | 508 Words | Master sentiment words & experience object mapping 👉 [`master_508_sentiment_objects_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/master_508_sentiment_objects_codebook.xlsx) | **Plotted 407 VADER Words Dataset** | Excel / CSV | 407 Words | Direct VADER mapped scatter dataset 👉 [`scatter_plot_407_vader_words_dataset.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/scatter_plot_407_vader_words_dataset.xlsx) | **Sentence Emotion Dynamics Summary** | Excel / CSV | 20,727 Rows | Sentence-level valence & arousal dynamics master 👉 [`sentence_emotion_dynamics_summary.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/sentence_emotion_dynamics_summary.xlsx) | **Sentence Sentiment Transitions Master** | Excel / CSV | 20,727 Rows | Fear-to-Awe Peak & Disappointment trajectory master 👉 [`sentence_sentiment_transitions_master.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/sentence_sentiment_transitions_master.xlsx) |
 
 ```text
 Low-Altitude/
