@@ -286,32 +286,48 @@ for row in df_gold.itertuples():
 
 
 
+
+
+
+
+##### 🌟 Summary Table of Class 3 Domain Categories
+
+| Domain-Specific Category | Category Description & Theoretical Rationale | Representative Key Terms ($N=17$ Words) |
+| :--- | :--- | :--- |
+| **Awe** | Aerial Visual Awe & Aesthetic Sublimity (敬畏 / 震撼) | *breathtaking (1,346), stunning (552), scenic (400), awe (304), surreal (98), breathtakingly (30), mesmerizing (26), awed (15), stunningly (10), sublime (6), spellbinding (4)* |
+| **Embodied Distress** | Somatic Motion Sickness & Physical Discomfort (身体化不适 / 身体性负面体验) | *airsick (33)* |
+| **Situational Anxiety** | Cabin Enclosure & Altitude Perceived Suspense (情境性焦虑) | *claustrophobic (16), claustrophobia (9), jitters (5), unnerving (4), phobia (4)* |
+
 ##### 🌟 Comprehensive Breakdown Table of Class 3 Domain Lexicon ($N=17$ Words)
 
-###### Sub-dimension A: Low-Altitude Aerial Visual Awe & Aesthetic Emotions (11 Word Variants, 2,791 Mentions)
-| Raw Word (`word`) | Root Lemma (`canonical_lemma`) | Corpus Freq ($N=21,215$) | Chinese Translation | NRC Tag Status | Theoretical & Empirical Finding |
-| :--- | :--- | :---: | :--- | :---: | :--- |
-| **`breathtaking`** | **`breathtaking`** | **1,346** | 令人屏息震撼的 | ❌ 0 Tags | Dominant aerial awe descriptor in glacier/canyon flights. |
-| **`stunning`** | **`stunning`** | **552** | 令人目眩震撼的 | ❌ 0 Tags | High-arousal visual shock from altitude perspective. |
-| **`scenic`** | **`scenic`** | **400** | 风景优美的 / 宜人的 | ❌ 0 Tags | Landscape aesthetic appreciation. |
-| **`awe`** | **`awe`** | **304** | 敬畏 / 震撼 | ❌ 0 Tags | Core aesthetic emotion (Awe/Keltner & Haidt 2003). |
-| **`surreal`** | **`surreal`** | **98** | 超现实的 / 梦幻般的 | ❌ 0 Tags | Dreamlike floating sensation over natural wonders. |
-| **`breathtakingly`**| **`breathtakingly`**| **30** | 令人屏息震撼地 | ❌ 0 Tags | Adverbial intensity modifier of visual awe. |
-| **`mesmerizing`** | **`mesmerizing`** | **26** | 令人目眩神迷为之倾倒的 | ❌ 0 Tags | Hypnotic aesthetic absorption in aerial views. |
-| **`awed`** | **`awed`** | **15** | 感到肃然起敬震撼的 | ❌ 0 Tags | Passive affect state of experiencing aerial awe. |
-| **`stunningly`** | **`stunningly`** | **10** | 令人震撼地 | ❌ 0 Tags | Adverbial visual shock modifier. |
-| **`sublime`** | **`sublime`** | **6** | 崇高壮丽绝美的 | ❌ 0 Tags | Kantian aesthetic sublimity in high-altitude landscape. |
-| **`spellbinding`** | **`spellbinding`** | **4** | 扣人心弦迷人的 | ❌ 0 Tags | Intense captive attention during sightseeing. |
+###### Sub-dimension 3A: Awe (敬畏 / 震撼 / 壮美感) [11 Word Variants, 2,791 Mentions]
+| Raw Word (`word`) | Root Lemma (`canonical_lemma`) | Corpus Freq ($N=21,215$) | Chinese Translation | Theoretical & Empirical Finding |
+| :--- | :--- | :---: | :--- | :--- |
+| **`breathtaking`** | **`breathtaking`** | **1,346** | 令人屏息震撼的 | Dominant aerial awe descriptor in glacier/canyon flights. |
+| **`stunning`** | **`stunning`** | **552** | 令人目眩震撼的 | High-arousal visual shock from altitude perspective. |
+| **`scenic`** | **`scenic`** | **400** | 风景优美的 / 宜人的 | Landscape aesthetic appreciation. |
+| **`awe`** | **`awe`** | **304** | 敬畏 / 震撼 | Core aesthetic emotion (Awe / Keltner & Haidt 2003). |
+| **`surreal`** | **`surreal`** | **98** | 超现实的 / 梦幻般的 | Dreamlike floating sensation over natural wonders. |
+| **`breathtakingly`**| **`breathtakingly`**| **30** | 令人屏息震撼地 | Adverbial intensity modifier of visual awe. |
+| **`mesmerizing`** | **`mesmerizing`** | **26** | 令人目眩神迷为之倾倒的 | Hypnotic aesthetic absorption in aerial views. |
+| **`awed`** | **`awed`** | **15** | 感到肃然起敬震撼的 | Passive affect state of experiencing aerial awe. |
+| **`stunningly`** | **`stunningly`** | **10** | 令人震撼地 | Adverbial visual shock modifier. |
+| **`sublime`** | **`sublime`** | **6** | 崇高壮丽绝美的 | Kantian aesthetic sublimity in high-altitude landscape. |
+| **`spellbinding`** | **`spellbinding`** | **4** | 扣人心弦迷人的 | Intense captive attention during sightseeing. |
 
-###### Sub-dimension B: Flight Perceived Risk & Somatic Symptoms (6 Word Variants, 71 Mentions)
-| Raw Word (`word`) | Root Lemma (`canonical_lemma`) | Corpus Freq ($N=21,215$) | Chinese Translation | NRC Tag Status | Theoretical & Empirical Finding |
-| :--- | :--- | :---: | :--- | :---: | :--- |
-| **`airsick`** | **`airsick`** | **33** | 晕机的 *(生理躯体反应)* | ❌ 0 Tags | Somatic motion sickness reaction in small aircraft. |
-| **`claustrophobic`**| **`claustrophobic`**| **16** | 感到幽闭恐惧压抑的 | ❌ 0 Tags | Spatial anxiety in small helicopter/plane cabins. |
-| **`claustrophobia`**| **`claustrophobia`**| **9** | 幽闭恐惧症 | ❌ 0 Tags | Clinical/perceived panic in enclosed flight space. |
-| **`jitters`** | **`jitters`** | **5** | 忐忑不安 / 紧张发抖感 | ❌ 0 Tags | Pre-flight somatic trembling and suspense. |
-| **`unnerving`** | **`unnerving`** | **4** | 令人发慌不安吓人的 | ❌ 0 Tags | Psychological loss of control during flight turbulence. |
-| **`phobia`** | **`phobia`** | **4** | 恐惧症 / 恐高心理 | ❌ 0 Tags | Acrophobia / altitude fear reaction. |
+###### Sub-dimension 3B: Embodied Distress (身体化不适 / 身体负性体验) [1 Word Variant in Class 3, 33 Mentions]
+| Raw Word (`word`) | Root Lemma (`canonical_lemma`) | Corpus Freq ($N=21,215$) | Chinese Translation | Theoretical & Empirical Finding |
+| :--- | :--- | :---: | :--- | :--- |
+| **`airsick`** | **`airsick`** | **33** | 晕机的 *(生理躯体反应)* | Somatic motion sickness reaction in small aircraft. |
+
+###### Sub-dimension 3C: Flight Anxiety (飞行焦虑 / 空中不安) [5 Word Variants, 38 Mentions]
+| Raw Word (`word`) | Root Lemma (`canonical_lemma`) | Corpus Freq ($N=21,215$) | Chinese Translation | Theoretical & Empirical Finding |
+| :--- | :--- | :---: | :--- | :--- |
+| **`claustrophobic`**| **`claustrophobic`**| **16** | 感到幽闭恐惧压抑的 | Spatial anxiety in small helicopter/plane cabins. |
+| **`claustrophobia`**| **`claustrophobia`**| **9** | 幽闭恐惧症 | Clinical/perceived panic in enclosed flight space. |
+| **`jitters`** | **`jitters`** | **5** | 忐忑不安 / 紧张发抖感 | Pre-flight somatic trembling and suspense. |
+| **`unnerving`** | **`unnerving`** | **4** | 令人发慌不安吓人的 | Psychological loss of control during flight turbulence. |
+| **`phobia`** | **`phobia`** | **4** | 恐惧症 / 恐高心理 | Acrophobia / altitude fear reaction. |
 
 ## 📈 Section 4: File Directory & Execution Commands
 

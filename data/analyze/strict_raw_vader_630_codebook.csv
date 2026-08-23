@@ -1,0 +1,631 @@
+word,canonical_lemma,frequency_21215,chinese_translation,raw_vader_score,raw_vader_status
+great,great,11541,非常棒的 / 极好的,3.1,Direct VADER Included
+amazing,amazing,6251,极其震撼赞叹的 / 太棒了,2.8,Direct VADER Included
+beautiful,beautiful,3485,美丽绝伦的,2.9,Direct VADER Included
+best,best,3420,最棒的 / 顶级的,3.2,Direct VADER Included
+friendly,friendly,3416,友好的 / 亲切的,2.2,Direct VADER Included
+worth,worth,2799,物有所值的 / 绝对值得的,0.9,Direct VADER Included
+wonderful,wonderful,2677,精彩美妙的,2.7,Direct VADER Included
+good,good,2635,良好的 / 棒的（服务与体验）,1.9,Direct VADER Included
+awesome,awesome,2530,太棒了 / 极为赞叹的,3.1,Direct VADER Included
+excellent,excellent,2284,卓越极佳的 / 顶级的,2.7,Direct VADER Included
+fantastic,fantastic,2026,奇妙太棒的,2.6,Direct VADER Included
+nice,nice,1794,美好的 / 良好的,1.8,Direct VADER Included
+fun,fun,1729,乐趣十足的 / 充满乐趣的,2.3,Direct VADER Included
+spectacular,spectacular,1616,壮观震撼的（高空景观）,0.0,Raw VADER Missed (0 Score)
+incredible,incredible,1612,难以置信震撼的,0.0,Raw VADER Missed (0 Score)
+better,better,1585,更好的 / 更满意的（超过预期）,1.9,Direct VADER Included
+perfect,perfect,1474,完美的 / 无瑕的,2.7,Direct VADER Included
+loved,loved,1473,喜爱 / 热爱（体验）,2.9,Direct VADER Included
+comfortable,comfortable,1446,舒适的 / 安心的,2.3,Direct VADER Included
+breathtaking,breathtaking,1346,令人屏息震撼的,2.0,Direct VADER Included
+helpful,helpful,1157,热心有帮助的 / 周到解说,1.8,Direct VADER Included
+glad,glad,897,感到高兴放心的,2.0,Direct VADER Included
+interesting,interesting,886,引人入胜的 / 趣味盎然的,1.7,Direct VADER Included
+cool,cool,652,酷的 / 爽快的,1.3,Direct VADER Included
+special,special,631,特别的 / 珍贵的,1.7,Direct VADER Included
+lucky,lucky,607,感到幸运的,1.8,Direct VADER Included
+kind,kind,587,亲切的 / 友善的,2.4,Direct VADER Included
+memorable,memorable,580,令人终生难忘的,0.0,Raw VADER Missed (0 Score)
+happy,happy,555,高兴的 / 快乐的,2.7,Direct VADER Included
+stunning,stunning,552,令人目眩震撼的,1.6,Direct VADER Included
+nervous,nervous,513,紧张的 / 焦虑不安的,-1.1,Direct VADER Included
+fabulous,fabulous,508,绝妙的 / 极好的,2.4,Direct VADER Included
+disappointed,disappointed,488,感到失望的 / 遗憾的,-2.1,Direct VADER Included
+outstanding,outstanding,462,杰出出色的,3.0,Direct VADER Included
+enjoyable,enjoyable,460,令人愉快的 / 趣味盎然的,1.9,Direct VADER Included
+unforgettable,unforgettable,459,令人难忘的 / 铭心的,0.0,Raw VADER Missed (0 Score)
+love,love,450,喜爱 / 极度热爱的,3.2,Direct VADER Included
+unique,unique,435,独一无二的 / 独特的,0.0,Raw VADER Missed (0 Score)
+gorgeous,gorgeous,414,极其漂亮的 / 绚丽的,3.0,Direct VADER Included
+scenic,scenic,400,风景优美的 / 宜人的,0.0,Raw VADER Missed (0 Score)
+bad,bad,373,糟糕的 / 坏的,-2.5,Direct VADER Included
+exciting,exciting,324,令人兴奋刺激的,2.2,Direct VADER Included
+incredibly,incredibly,315,难以置信地 / 极其,0.0,Raw VADER Missed (0 Score)
+pleasant,pleasant,306,令人愉快的 / 宜人的,2.3,Direct VADER Included
+awe,awe,304,敬畏 / 震撼,0.0,Raw VADER Missed (0 Score)
+unbelievable,unbelievable,302,难以置信的 / 震撼的,0.8,Direct VADER Included
+funny,funny,301,幽默风趣的,1.9,Direct VADER Included
+plenty,plenty,298,丰富的 / 充足的,0.0,Raw VADER Missed (0 Score)
+hard,hard,297,困难的 / 艰辛的,-0.4,Direct VADER Included
+regret,regret,293,遗憾 / 后悔,-1.8,Direct VADER Included
+magnificent,magnificent,282,壮丽的 / 宏伟震撼的（Awe）,2.9,Direct VADER Included
+exceptional,exceptional,276,卓越的 / 杰出的（顶级评价）,0.0,Raw VADER Missed (0 Score)
+sick,sick,274,晕机的 / 身体不适的,-2.3,Direct VADER Included
+lovely,lovely,266,令人愉悦的 / 可爱的,2.8,Direct VADER Included
+terrific,terrific,260,极好的 / 太棒了,2.1,Direct VADER Included
+calm,calm,259,镇定 / 平息情绪的,1.3,Direct VADER Included
+impressed,impressed,255,感到深深被折服/留下深刻印象,2.1,Direct VADER Included
+unfortunately,unfortunately,240,不幸的是 / 遗憾的是,-1.4,Direct VADER Included
+fortunate,fortunate,235,幸运的 / 幸运地,1.9,Direct VADER Included
+efficient,efficient,215,高效省心的,1.8,Direct VADER Included
+welcome,welcome,212,受欢迎的 / 感受温暖的,2.0,Direct VADER Included
+entertaining,entertaining,210,引人入胜生动有趣的,1.9,Direct VADER Included
+inspiring,inspiring,210,令人启发震慑的,1.8,Direct VADER Included
+cheaper,cheaper,208,更实惠的 / 较便宜的,0.0,Raw VADER Missed (0 Score)
+phenomenal,phenomenal,200,现象级震撼的,0.0,Raw VADER Missed (0 Score)
+superb,superb,196,极好精湛的,3.1,Direct VADER Included
+surprised,surprised,196,感到惊喜惊讶的,0.9,Direct VADER Included
+surprise,surprise,195,惊喜 / 意料之外的喜悦,1.1,Direct VADER Included
+fine,fine,190,良好的 / 优秀的,0.8,Direct VADER Included
+brilliant,brilliant,184,璀璨的 / 出色的,2.8,Direct VADER Included
+forward,forward,183,期待（look forward）,0.0,Raw VADER Missed (0 Score)
+reasonable,reasonable,179,合理的 / 公道的,0.0,Raw VADER Missed (0 Score)
+ready,ready,171,准备就绪的 / 心安的,1.5,Direct VADER Included
+excited,excited,167,兴奋的 / 激动的,1.4,Direct VADER Included
+majestic,majestic,165,雄伟的 / 壮丽的,0.0,Raw VADER Missed (0 Score)
+competent,competent,163,称职的 / 有能力的,1.3,Direct VADER Included
+quiet,quiet,161,宁静的 / 幽雅安静的,0.0,Raw VADER Missed (0 Score)
+relaxed,relaxed,159,放松的 / 从容的,2.2,Direct VADER Included
+hope,hope,159,希望 / 期盼,1.9,Direct VADER Included
+perfectly,perfectly,155,完美地 / 无可挑剔地,3.2,Direct VADER Included
+concerned,concern,155,感到担心的,0.0,Raw VADER Missed (0 Score)
+interested,interested,153,感兴趣的 / 充满好奇的,1.7,Direct VADER Included
+pleasure,pleasure,153,乐趣 / 愉悦,2.7,Direct VADER Included
+magical,magical,152,神奇的 / 魔幻般的,0.0,Raw VADER Missed (0 Score)
+afraid,afraid,150,害怕的 / 恐惧的,0.0,Raw VADER Missed (0 Score)
+worried,worried,149,感到担心的,-1.2,Direct VADER Included
+scared,scared,144,感到恐惧害怕的,-1.9,Direct VADER Included
+smoother,smoother,143,更平稳的 / 更顺畅的,0.0,Raw VADER Missed (0 Score)
+fully,fully,143,完全地 / 充分地,0.0,Raw VADER Missed (0 Score)
+wrong,wrong,137,出差错的 / 错误的（负面体验）,-2.1,Direct VADER Included
+cheap,cheap,134,便宜的 / 廉价的,0.0,Raw VADER Missed (0 Score)
+blessed,blessed,133,感到有福的 / 幸运的,2.9,Direct VADER Included
+pleased,pleased,132,感到满意的,1.9,Direct VADER Included
+safely,safely,132,安全平稳地,2.2,Direct VADER Included
+exactly,exactly,130,精准地 / 正是,0.0,Raw VADER Missed (0 Score)
+impressive,impressive,130,令人印象深刻的,2.3,Direct VADER Included
+thrill,thrill,129,刺激 / 震慑感,1.5,Direct VADER Included
+thrilling,thrilling,126,令人惊险刺激酣畅的,2.1,Direct VADER Included
+humor,humor,125,幽默感,1.1,Direct VADER Included
+dream,dream,124,梦寐以求的,1.0,Direct VADER Included
+sorry,sorry,123,感到抱歉遗憾的,-0.3,Direct VADER Included
+relaxing,relaxing,122,令人放松惬意的,2.2,Direct VADER Included
+comfort,comfort,121,舒适 / 宽慰安心,1.5,Direct VADER Included
+disappoint,disappoint,121,使失望,-1.7,Direct VADER Included
+wonder,wonder,121,惊奇 / 赞叹,0.0,Raw VADER Missed (0 Score)
+amazed,amazed,120,感到吃惊惊叹的,2.2,Direct VADER Included
+fear,fear,120,恐惧 / 害怕,-2.2,Direct VADER Included
+unable,unable,114,无法的 / 无能为力的,0.0,Raw VADER Missed (0 Score)
+thrilled,thrilled,113,极度兴奋的,1.9,Direct VADER Included
+confidence,confidence,112,信心 / 确信,2.3,Direct VADER Included
+difficult,difficult,112,困难的 / 令人头疼的,-1.5,Direct VADER Included
+expert,expert,112,专家级的 / 娴熟的,0.0,Raw VADER Missed (0 Score)
+honestly,honestly,111,老实说 / 真诚地,2.0,Direct VADER Included
+confident,confident,109,自信的 / 确信的,2.2,Direct VADER Included
+willing,willing,108,乐意的 / 愿意的,0.0,Raw VADER Missed (0 Score)
+worry,worry,106,担心 / 忧虑感,-1.9,Direct VADER Included
+smoothest,smoothest,105,最平稳的,0.0,Raw VADER Missed (0 Score)
+positive,positive,101,积极正面的,2.6,Direct VADER Included
+surreal,surreal,98,超现实的 / 梦幻般的,0.0,Raw VADER Missed (0 Score)
+reassuring,reassuring,97,令人安心放心的,1.7,Direct VADER Included
+sweet,sweet,97,甜蜜的 / 甜美的,2.0,Direct VADER Included
+concern,concern,96,担忧 / 关切（焦虑感）,0.0,Raw VADER Missed (0 Score)
+luckily,luckily,96,幸运地 / 幸亏,2.3,Direct VADER Included
+poor,poor,95,贫乏的 / 差劲的,-2.1,Direct VADER Included
+scary,scary,94,令人害怕的 / 吓人的,-2.2,Direct VADER Included
+enthusiastic,enthusiastic,93,热情的 / 充满激情的,2.2,Direct VADER Included
+apprehensive,apprehensive,92,忧虑的 / 不安的,0.0,Raw VADER Missed (0 Score)
+exhilarating,exhilarating,90,令人极为兴奋刺激的,1.7,Direct VADER Included
+honest,honest,88,诚实的 / 坦诚的,2.3,Direct VADER Included
+inaccessible,inaccessible,86,难以到达的 / 偏远秘境感,0.0,Raw VADER Missed (0 Score)
+lucked,lucky,86,幸运地 (动词变体),1.9,Direct VADER Included
+rushed,rushed,85,仓促的 / 匆忙的,0.0,Raw VADER Missed (0 Score)
+capable,capable,84,有能力的 / 熟练精湛的,1.6,Direct VADER Included
+prone,prone,84,易患（晕机）的,0.0,Raw VADER Missed (0 Score)
+simple,simple,84,简单明了的 / 省心的,0.0,Raw VADER Missed (0 Score)
+wonders,wonder,83,惊奇 / 奇观,0.0,Raw VADER Missed (0 Score)
+fascinating,fascinating,83,令人入迷极具吸引力的,2.5,Direct VADER Included
+grateful,grateful,80,感激的 / 感恩的,2.0,Direct VADER Included
+delightful,delightful,80,令人欢欣的,2.8,Direct VADER Included
+advantage,advantage,78,优势 / 极佳点,1.0,Direct VADER Included
+assured,assured,78,安抚 / 确信,1.5,Direct VADER Included
+famous,famous,77,著名的 / 享誉的,0.0,Raw VADER Missed (0 Score)
+pride,pride,77,自豪 / 骄傲,1.4,Direct VADER Included
+safer,safer,77,更安全的 / 更安心的,1.8,Direct VADER Included
+neat,neat,76,整洁的 / 干练的,2.0,Direct VADER Included
+worthwhile,worthwhile,75,值得的 / 划算的,1.4,Direct VADER Included
+coolest,coolest,75,最酷爽震撼的,0.0,Raw VADER Missed (0 Score)
+stable,stable,75,平稳安心的,1.2,Direct VADER Included
+promptly,promptly,74,及时迅速地,0.0,Raw VADER Missed (0 Score)
+concerns,concerns,73,担忧 / 关切,0.0,Raw VADER Missed (0 Score)
+greatest,greatest,73,最伟大的 / 极佳的,3.2,Direct VADER Included
+ideal,ideal,72,理想的 / 完美的,2.4,Direct VADER Included
+peaceful,peaceful,72,平和宁静的,2.2,Direct VADER Included
+understanding,understanding,70,体谅的 / 理解的,0.0,Raw VADER Missed (0 Score)
+impossible,impossible,65,不可能的 / 难以置信的,0.0,Raw VADER Missed (0 Score)
+tremendous,tremendous,64,震撼巨大的,0.0,Raw VADER Missed (0 Score)
+passion,passion,64,热情 / 激情,2.0,Direct VADER Included
+fears,fears,64,恐惧 / 忧虑,-1.8,Direct VADER Included
+conscious,conscious,63,有意识的 / 讲究的,0.0,Raw VADER Missed (0 Score)
+pristine,pristine,62,原始纯净的,0.0,Raw VADER Missed (0 Score)
+dramatic,dramatic,61,戏剧性的 / 震撼的,0.0,Raw VADER Missed (0 Score)
+extraordinary,extraordinary,61,非凡的 / 卓越的,0.0,Raw VADER Missed (0 Score)
+gracious,gracious,61,亲切和蔼的,2.6,Direct VADER Included
+moving,moving,61,令人动容感人的,0.0,Raw VADER Missed (0 Score)
+passionate,passionate,61,充满激情的,2.4,Direct VADER Included
+considerate,considerate,60,体贴周到的,1.9,Direct VADER Included
+joy,joy,60,喜悦 / 快乐,2.8,Direct VADER Included
+entertained,entertained,60,感到深受愉悦娱乐的,1.7,Direct VADER Included
+complimentary,complimentary,59,赞赏的 / 赠送贴心的,1.9,Direct VADER Included
+convenient,convenient,59,便捷省心的,0.0,Raw VADER Missed (0 Score)
+excitement,excitement,59,兴奋 / 激动情绪,2.2,Direct VADER Included
+intimate,intimate,59,温馨亲切的,0.0,Raw VADER Missed (0 Score)
+nerves,nerves,59,紧张感 / 不安神经,-0.4,Direct VADER Included
+unreal,unreal,59,如梦似幻的 / 震撼的,0.0,Raw VADER Missed (0 Score)
+flawless,flawless,58,无瑕的 / 完美的,2.3,Direct VADER Included
+fortunately,fortunately,58,幸运的是,0.0,Raw VADER Missed (0 Score)
+disappointing,disappointing,58,令人失望的,-2.2,Direct VADER Included
+lush,lush,57,郁郁葱葱宜人的,0.0,Raw VADER Missed (0 Score)
+negative,negative,57,负面体验 / 消极评价,-2.7,Direct VADER Included
+thankful,thankful,57,感激的 / 感恩的,2.7,Direct VADER Included
+thoughtful,thoughtful,57,贴心周到的,1.6,Direct VADER Included
+glorious,glorious,56,壮丽辉煌的,3.2,Direct VADER Included
+uncomfortable,uncomfortable,56,感到不适的 / 不安的,-1.6,Direct VADER Included
+fair,fair,55,公道的 / 划算的,1.3,Direct VADER Included
+noisy,noisy,55,喧闹吵杂的,-0.7,Direct VADER Included
+remarkable,remarkable,54,卓越令人瞩目的,2.6,Direct VADER Included
+genuine,genuine,54,真诚的 / 地道的,0.0,Raw VADER Missed (0 Score)
+cherish,cherish,54,珍视 / 珍惜铭记,1.6,Direct VADER Included
+caring,caring,53,体贴入微关怀的,2.2,Direct VADER Included
+appreciation,appreciation,52,感激 / 欣赏,2.3,Direct VADER Included
+enthusiasm,enthusiasm,52,热情 / 积极性,1.9,Direct VADER Included
+gentle,gentle,52,平稳柔和的,1.9,Direct VADER Included
+strong,strong,52,强烈的,2.3,Direct VADER Included
+trouble,trouble,52,麻烦 / 困扰,-1.7,Direct VADER Included
+disappointment,disappointment,51,失望 / 遗憾失落情绪,-2.3,Direct VADER Included
+nicer,nicer,51,更美好/更亲切的,1.9,Direct VADER Included
+hoping,hoping,50,期盼 / 希望,1.8,Direct VADER Included
+happier,happier,50,更快乐的 / 更满意的,2.4,Direct VADER Included
+queasy,queasy,49,恶心反胃的,0.0,Raw VADER Missed (0 Score)
+seamless,seamless,49,流畅无缝无摩擦的,0.0,Raw VADER Missed (0 Score)
+satisfied,satisfied,49,感到满意的,1.8,Direct VADER Included
+delight,delight,48,欣喜 / 愉快,2.9,Direct VADER Included
+genuinely,genuinely,48,真诚地 / 确实,0.0,Raw VADER Missed (0 Score)
+steady,steady,48,平稳的 / 稳健的,0.0,Raw VADER Missed (0 Score)
+terrible,terrible,46,可怕的 / 糟糕的,-2.1,Direct VADER Included
+warmly,warmly,46,温暖地 / 热情地,1.7,Direct VADER Included
+unexpected,unexpected,46,意想不到的惊喜,0.0,Raw VADER Missed (0 Score)
+sensitive,sensitive,46,敏感的,0.0,Raw VADER Missed (0 Score)
+easier,easier,46,更容易的 / 更省心的,1.8,Direct VADER Included
+decent,decent,45,尚可的 / 体面的,0.0,Raw VADER Missed (0 Score)
+friendliness,friendliness,45,友善 / 亲和力,2.0,Direct VADER Included
+loud,loud,45,吵闹的 / 噪音大的,0.0,Raw VADER Missed (0 Score)
+relax,relax,45,放松 / 放轻松,1.9,Direct VADER Included
+terrified,terrified,45,极度惊恐的,-3.0,Direct VADER Included
+encouraged,encouraged,44,深受鼓舞的,1.5,Direct VADER Included
+happily,happily,44,快乐地 / 欣然,2.6,Direct VADER Included
+quieter,quieter,44,更安静宁静的,0.0,Raw VADER Missed (0 Score)
+beautifully,beautifully,43,优美地 / 出色地,2.7,Direct VADER Included
+calming,calming,42,令人平息平稳安心的（Calmness State）,1.7,Direct VADER Included
+adventurous,adventurous,41,充满冒险刺激感的,1.4,Direct VADER Included
+charming,charming,40,迷人讨喜的,2.8,Direct VADER Included
+responsive,responsive,40,积极回应的 / 贴心的,1.5,Direct VADER Included
+touched,touched,40,深受感动的,0.0,Raw VADER Missed (0 Score)
+nicest,nicest,39,最美好的 / 最亲切的,2.2,Direct VADER Included
+unsafe,unsafe,39,感觉不安全的 / 担惊受怕的,0.0,Raw VADER Missed (0 Score)
+worst,worst,39,最糟糕的,-3.1,Direct VADER Included
+handle,handle,39,善于处理 / 掌控感,0.0,Raw VADER Missed (0 Score)
+enjoyment,enjoyment,39,乐趣 / 享受,2.6,Direct VADER Included
+greater,greater,38,更宏大震撼的,1.5,Direct VADER Included
+hospitable,hospitable,38,殷勤好客的,0.0,Raw VADER Missed (0 Score)
+pleasantly,pleasantly,38,令人愉快地,2.1,Direct VADER Included
+stress,stress,38,压力 / 紧张感,-1.8,Direct VADER Included
+wonderfully,wonderfully,38,极其出色绝妙地,2.9,Direct VADER Included
+worries,worry,38,担忧 / 挂虑,-1.8,Direct VADER Included
+hopefully,hopefully,37,怀着希望地,1.7,Direct VADER Included
+nicely,nicely,37,很好地 / 优雅地,1.9,Direct VADER Included
+cared,cared,37,得到无微不至关怀的,1.8,Direct VADER Included
+delicious,delicious,37,美味愉悦的,2.7,Direct VADER Included
+nauseous,nauseous,36,恶心晕车的,0.0,Raw VADER Missed (0 Score)
+reliable,reliable,36,可靠的 / 可信赖的,0.0,Raw VADER Missed (0 Score)
+marvelous,marvelous,36,绝妙的 / 令人惊叹的,2.9,Direct VADER Included
+humour,humour,35,幽默感,2.1,Direct VADER Included
+superior,superior,35,优越顶尖的,2.5,Direct VADER Included
+picturesque,picturesque,35,风景如画的,1.6,Direct VADER Included
+surprisingly,surprisingly,35,出乎意料赞叹地,1.2,Direct VADER Included
+humorous,humorous,35,幽默风趣的,1.6,Direct VADER Included
+bother,bother,35,打扰 / 烦扰,-1.4,Direct VADER Included
+anxious,anxious,35,焦虑不安的 / 挂虑的,-1.0,Direct VADER Included
+anxiety,anxiety,34,焦虑 / 不安,-0.7,Direct VADER Included
+generous,generous,34,大方的 / 慷慨的,2.3,Direct VADER Included
+romantic,romantic,34,浪漫惬意的,1.7,Direct VADER Included
+sadly,sadly,34,令人遗憾地 / 悲伤地,-1.8,Direct VADER Included
+worse,worse,34,更糟糕的,-2.1,Direct VADER Included
+airsick,airsick,33,晕机的,0.0,Raw VADER Missed (0 Score)
+hassle,hassle,33,麻烦 / 烦心事,0.0,Raw VADER Missed (0 Score)
+overwhelming,overwhelming,33,铺天盖地震撼的,0.0,Raw VADER Missed (0 Score)
+turbulent,turbulent,32,颠簸不安的,0.0,Raw VADER Missed (0 Score)
+upfront,upfront,32,直率透明的,0.0,Raw VADER Missed (0 Score)
+skillful,skillful,32,技术精湛的,0.0,Raw VADER Missed (0 Score)
+reassured,reassured,32,感到安心的,1.7,Direct VADER Included
+cute,cute,31,可爱宜人的,2.0,Direct VADER Included
+economical,economical,31,划算实惠的,0.0,Raw VADER Missed (0 Score)
+breathtakingly,breathtakingly,30,令人屏息震撼地（Awe/Amazement Emotion）,0.0,Raw VADER Missed (0 Score)
+kindly,kindly,30,体贴友善地,2.2,Direct VADER Included
+unbelievably,unbelievably,29,难以置信地,0.0,Raw VADER Missed (0 Score)
+stellar,stellar,29,璀璨顶尖级的,0.0,Raw VADER Missed (0 Score)
+pure,pure,29,纯粹的 / 纯净震撼的,0.0,Raw VADER Missed (0 Score)
+interactive,interactive,29,互动性强的,0.0,Raw VADER Missed (0 Score)
+delighted,delighted,29,高高兴兴的,2.3,Direct VADER Included
+convinced,convinced,29,深信不疑的 / 心服口服,1.7,Direct VADER Included
+chatty,chatty,29,健谈热情的,0.0,Raw VADER Missed (0 Score)
+gladly,gladly,29,乐意地 / 高兴地,1.4,Direct VADER Included
+boring,boring,28,令人无聊乏味的,-1.3,Direct VADER Included
+sad,sad,28,悲伤的 / 遗憾痛心的,-2.1,Direct VADER Included
+serene,serene,28,宁静祥和的,2.0,Direct VADER Included
+splendor,splendor,27,壮丽辉煌的奇观,3.0,Direct VADER Included
+peace,peace,27,宁静 / 和平,2.5,Direct VADER Included
+regrets,regrets,27,遗憾 / 后悔,-1.5,Direct VADER Included
+aside,aside,27,撇开 / 排除,0.0,Raw VADER Missed (0 Score)
+eager,eager,27,热切的 / 渴望的,1.5,Direct VADER Included
+comforting,comforting,27,令人感到安慰抚慰的,1.7,Direct VADER Included
+bang,bang,26,物超所值（bang for buck）,0.0,Raw VADER Missed (0 Score)
+basic,basic,26,基础的 / 简陋的,0.0,Raw VADER Missed (0 Score)
+cramped,cramped,26,拥挤狭窄不适的,0.0,Raw VADER Missed (0 Score)
+hate,hate,26,憎恨 / 讨厌,-2.7,Direct VADER Included
+mesmerizing,mesmerizing,26,令人目眩神迷为之倾倒的,0.0,Raw VADER Missed (0 Score)
+upset,upset,26,感到沮丧难过的,-1.6,Direct VADER Included
+bump,bump,25,颠簸不适的,0.0,Raw VADER Missed (0 Score)
+communicative,communicative,25,善于沟通的,0.0,Raw VADER Missed (0 Score)
+dangerous,dangerous,25,危险的,-2.1,Direct VADER Included
+ill,ill,25,生病的 / 恶心呕吐的,-1.8,Direct VADER Included
+laughing,laughing,25,欢声笑语 / 开心大笑,2.2,Direct VADER Included
+inclement,inclement,24,恶劣的气候,0.0,Raw VADER Missed (0 Score)
+magnificence,magnificence,24,壮丽震撼感,2.4,Direct VADER Included
+impeccable,impeccable,23,无可挑剔的,0.0,Raw VADER Missed (0 Score)
+talkative,talkative,23,健谈热情的,0.0,Raw VADER Missed (0 Score)
+horrible,horrible,23,极度糟糕可怕的,-2.5,Direct VADER Included
+shining,shining,22,璀璨夺目的,0.0,Raw VADER Missed (0 Score)
+calmed,calmed,22,心情平静安稳下来的,1.6,Direct VADER Included
+talented,talented,22,才华横溢精湛的,2.3,Direct VADER Included
+skeptical,skeptical,22,怀疑的 / 存疑的,-1.3,Direct VADER Included
+tough,tough,22,严苛倒霉的,-0.5,Direct VADER Included
+lasting,lasting,22,持久的 / 深刻的,0.0,Raw VADER Missed (0 Score)
+fearful,fearful,22,恐惧的 / 担心的,-2.2,Direct VADER Included
+favourite,favourite,22,最喜爱的,0.0,Raw VADER Missed (0 Score)
+bummed,bummed,21,感到扫兴遗憾失落的,0.0,Raw VADER Missed (0 Score)
+mild,mild,21,轻微适度的（颠簸/舒适）,0.0,Raw VADER Missed (0 Score)
+refreshing,refreshing,21,令人神清气爽耳目一新的,0.0,Raw VADER Missed (0 Score)
+spoil,spoil,21,破坏 / 毁掉（好心情）,0.0,Raw VADER Missed (0 Score)
+surprises,surprise,21,惊喜 / 意料之外,0.9,Direct VADER Included
+unbeatable,unbeatable,21,无可比拟的 / 无敌的,0.0,Raw VADER Missed (0 Score)
+successful,successful,20,成功的 / 满意的,2.8,Direct VADER Included
+mood,mood,20,心情 / 情绪,0.0,Raw VADER Missed (0 Score)
+spiritual,spiritual,20,精神神圣的,0.0,Raw VADER Missed (0 Score)
+cheerful,cheerful,20,欢快愉悦的,2.5,Direct VADER Included
+amusing,amusing,20,风趣风趣令人发笑的,1.6,Direct VADER Included
+astonishing,astonishing,20,令人惊叹的,0.0,Raw VADER Missed (0 Score)
+exquisite,exquisite,19,精美的 / 绝妙的,0.0,Raw VADER Missed (0 Score)
+suitable,suitable,19,合适的 / 满意的,0.0,Raw VADER Missed (0 Score)
+inspired,inspired,19,灵感大发 / 深受震撼的,2.2,Direct VADER Included
+touching,touching,19,令人动容流泪的,0.0,Raw VADER Missed (0 Score)
+comfy,comfy,19,舒适惬意的,0.0,Raw VADER Missed (0 Score)
+chilly,chilly,19,寒冷不适的,0.0,Raw VADER Missed (0 Score)
+awestruck,awestruck,19,充满敬畏震撼的,0.0,Raw VADER Missed (0 Score)
+handy,handy,18,实用的 / 贴心的,0.0,Raw VADER Missed (0 Score)
+wondered,wonder,18,感到惊奇惊叹 (动词变体),0.0,Raw VADER Missed (0 Score)
+witty,witty,18,风趣幽默的,0.0,Raw VADER Missed (0 Score)
+soothing,soothing,18,舒缓抚慰人心的,1.3,Direct VADER Included
+secret,secret,18,秘境 / 私密独享感,0.0,Raw VADER Missed (0 Score)
+marvel,marvel,18,惊叹 / 奇迹,1.8,Direct VADER Included
+keen,keen,18,热情的 / 敏锐的,1.5,Direct VADER Included
+honesty,honesty,18,真诚 / 诚信解说,2.2,Direct VADER Included
+smart,smart,18,聪慧的 / 明智的,1.7,Direct VADER Included
+haha,haha,18,哈哈（欢快情绪）,2.0,Direct VADER Included
+easiest,easiest,18,最省心的 / 最容易的,1.8,Direct VADER Included
+danger,danger,18,危险 / 威胁,-2.4,Direct VADER Included
+amazement,amazement,18,惊叹 / 惊奇,2.5,Direct VADER Included
+chill,chill,18,惬意轻松的,0.0,Raw VADER Missed (0 Score)
+charm,charm,18,顺畅 / 令人满意,1.7,Direct VADER Included
+astounding,astounding,18,令人无比震撼惊叹的,1.8,Direct VADER Included
+effective,effective,18,有效划算的,2.1,Direct VADER Included
+hopes,hopes,17,期盼 / 希望,1.8,Direct VADER Included
+overwhelmed,overwhelmed,17,被震撼/感动深深淹没的,0.2,Direct VADER Included
+valuable,valuable,17,珍贵的 / 有价值的,2.1,Direct VADER Included
+energetic,energetic,17,精力充沛的,1.9,Direct VADER Included
+discomfort,discomfort,17,身体/心理不适感,-1.8,Direct VADER Included
+cordial,cordial,17,热情亲切礼貌的,0.0,Raw VADER Missed (0 Score)
+claustrophobic,claustrophobic,16,感到幽闭恐惧压抑的,0.0,Raw VADER Missed (0 Score)
+insane,insane,16,疯狂震撼的 / 极端的,-1.7,Direct VADER Included
+leery,leery,16,提防警惕 / 顾虑重重的,0.0,Raw VADER Missed (0 Score)
+loving,loving,16,热爱的 / 充满了爱的,2.9,Direct VADER Included
+sensational,sensational,16,绝佳轰动震撼的,0.0,Raw VADER Missed (0 Score)
+sudden,sudden,16,突然的 / 猝不及防的,0.0,Raw VADER Missed (0 Score)
+uncertain,uncertain,16,不确定的 / 顾虑的,-1.2,Direct VADER Included
+worthy,worthy,16,非常值的 / 值得的,1.9,Direct VADER Included
+hilarious,hilarious,15,爆笑幽默搞笑的,1.7,Direct VADER Included
+warmth,warmth,15,温暖安心感,2.0,Direct VADER Included
+unprofessional,unprofessional,15,不专业的,-2.3,Direct VADER Included
+respectful,respectful,15,充满敬意的,2.0,Direct VADER Included
+immaculate,immaculate,15,完美无瑕洁净的,0.0,Raw VADER Missed (0 Score)
+annoying,annoying,15,令人烦躁恼火的（Annoyance/Irritation Emotion）,-1.7,Direct VADER Included
+fuss,fuss,15,大惊小怪 / 争吵骚动,0.0,Raw VADER Missed (0 Score)
+awful,awful,15,极其糟糕的,-2.0,Direct VADER Included
+awed,awed,15,感到为之肃然起敬震撼的,0.0,Raw VADER Missed (0 Score)
+bubbly,bubbly,15,活泼热情的,0.0,Raw VADER Missed (0 Score)
+praise,praise,14,称赞 / 高度赞扬,2.6,Direct VADER Included
+trustworthy,trustworthy,14,值得信赖靠谱的,2.6,Direct VADER Included
+satisfaction,satisfaction,14,满意感,1.9,Direct VADER Included
+ruined,ruined,14,毁掉行程的 / 扫兴糟心的,-2.1,Direct VADER Included
+proud,proud,14,感到自豪骄傲的,2.1,Direct VADER Included
+marvellous,marvellous,14,令人叹为观止的,0.0,Raw VADER Missed (0 Score)
+intrusive,intrusive,14,突兀扰人的 / 煞风景的,0.0,Raw VADER Missed (0 Score)
+glowing,glowing,14,极度赞赏口碑极佳的,0.0,Raw VADER Missed (0 Score)
+frustrating,frustrating,14,令人挫败的 / 烦人的,-1.9,Direct VADER Included
+bothered,bothered,14,困扰的 / 烦心的,-1.3,Direct VADER Included
+authentic,authentic,14,地道的 / 真实无伪的,0.0,Raw VADER Missed (0 Score)
+tricky,tricky,13,棘手不安的,-0.6,Direct VADER Included
+worldly,worldly,13,超凡脱俗的,0.0,Raw VADER Missed (0 Score)
+vibrant,vibrant,13,生机勃勃色彩斑斓的,2.4,Direct VADER Included
+uneasy,uneasy,13,心神不宁感到不安的,-1.6,Direct VADER Included
+precious,precious,13,弥足珍贵的 memory,2.7,Direct VADER Included
+safest,safest,13,最安全平稳的,1.7,Direct VADER Included
+responsible,responsible,13,负责任的,1.3,Direct VADER Included
+pleasurable,pleasurable,13,令人愉快的,2.4,Direct VADER Included
+apologetic,apologetic,13,诚恳抱歉致歉的,0.0,Raw VADER Missed (0 Score)
+bored,bored,12,感到无聊厌烦的,-1.1,Direct VADER Included
+soaking,soaking,12,沉浸于（soaking in view）,0.0,Raw VADER Missed (0 Score)
+stuffy,stuffy,12,闷热不适的（体感不适）,0.0,Raw VADER Missed (0 Score)
+superbly,superbly,12,出类拔萃完美地,0.0,Raw VADER Missed (0 Score)
+wondrous,wondrous,12,惊叹奇妙的,0.0,Raw VADER Missed (0 Score)
+satisfying,satisfying,11,令人称心满意的,2.0,Direct VADER Included
+wary,wary,11,警惕顾虑的,0.0,Raw VADER Missed (0 Score)
+trepidation,trepidation,11,惊恐战栗 / 不安,0.0,Raw VADER Missed (0 Score)
+surprising,surprising,11,令人出乎意料惊喜的,1.1,Direct VADER Included
+superlative,superlative,11,顶级极致赞赏的,0.0,Raw VADER Missed (0 Score)
+sketchy,sketchy,11,令人不安可疑的,0.0,Raw VADER Missed (0 Score)
+slick,slick,11,熟练专业/光滑的,0.0,Raw VADER Missed (0 Score)
+rewarding,rewarding,11,非常有成就感/物超所值的,2.4,Direct VADER Included
+nervousness,nervousness,11,紧张不安的情绪,-1.2,Direct VADER Included
+mad,mad,11,发怒的 / 生气的,-2.2,Direct VADER Included
+inviting,inviting,11,引人入胜令人愉悦的,1.3,Direct VADER Included
+cheesy,cheesy,11,俗气的 / 劣质的,0.0,Raw VADER Missed (0 Score)
+admire,admire,11,钦佩赞赏,2.1,Direct VADER Included
+mesmerized,mesmerized,10,被深深吸引迷住的,0.0,Raw VADER Missed (0 Score)
+unfortunate,unfortunate,10,不幸遗憾的,-2.0,Direct VADER Included
+stunningly,stunningly,10,令人震撼地,0.0,Raw VADER Missed (0 Score)
+stunned,stunned,10,感到目瞪口呆震撼的,-0.4,Direct VADER Included
+stability,stability,10,平稳安心感,0.0,Raw VADER Missed (0 Score)
+raving,raving,10,赞不绝口极力推荐的,0.0,Raw VADER Missed (0 Score)
+quaint,quaint,10,古朴宜人的,0.0,Raw VADER Missed (0 Score)
+wonderfull,wonderful,10,令人惊叹绝妙的 (错别字变体),0.0,Raw VADER Missed (0 Score)
+jealous,jealous,10,令人羡慕嫉妒的,-2.0,Direct VADER Included
+improving,improving,10,不断改善令人满意的,1.8,Direct VADER Included
+improvement,improvement,10,体验改善 / 提升,2.0,Direct VADER Included
+friendlier,friendlier,10,更加亲切友好的,2.0,Direct VADER Included
+emotional,emotional,10,情感上的 / 动情的,0.6,Direct VADER Included
+ecstatic,ecstatic,10,狂喜的 / 极度兴奋的,2.3,Direct VADER Included
+conscientious,conscientious,10,认真负责的,0.0,Raw VADER Missed (0 Score)
+badly,badly,10,严重地 / 糟糕地,-2.1,Direct VADER Included
+unspoiled,unspoiled,9,未经破坏原始纯粹的,0.0,Raw VADER Missed (0 Score)
+terribly,terribly,9,极度负面地 / 抱歉,-2.6,Direct VADER Included
+susceptible,susceptible,9,易受影响脆弱的,0.0,Raw VADER Missed (0 Score)
+stuffed,stuffed,9,塞满的 / 憋闷不适的,0.0,Raw VADER Missed (0 Score)
+miserable,miserable,9,极度痛苦糟糕的,-2.2,Direct VADER Included
+hassles,hassles,9,烦心事 / 摩擦,0.0,Raw VADER Missed (0 Score)
+effortless,effortless,9,轻松平稳的,0.0,Raw VADER Missed (0 Score)
+compliment,compliment,9,赞美 / 赞赏评价,2.1,Direct VADER Included
+claustrophobia,claustrophobia,9,幽闭恐惧症（密闭机舱焦虑）,0.0,Raw VADER Missed (0 Score)
+cheerfully,cheerfully,9,欢快愉悦地,2.1,Direct VADER Included
+bummer,bummer,9,令人扫兴扫兴的事,-1.6,Direct VADER Included
+awkward,awkward,9,尴尬的 / 别扭的,-0.6,Direct VADER Included
+automatically,automatically,9,自动地 / 自然而然,0.0,Raw VADER Missed (0 Score)
+mindful,mindful,8,细心周到的,0.0,Raw VADER Missed (0 Score)
+yummy,yummy,8,美味愉悦的,2.4,Direct VADER Included
+unstable,unstable,8,不稳定摇晃令人担心的,-1.5,Direct VADER Included
+spoiled,spoiled,8,好心情被破坏毁掉的,0.0,Raw VADER Missed (0 Score)
+shocked,shocked,8,感到震惊惊吓的,-1.3,Direct VADER Included
+poorly,poorly,8,糟糕地 / 差劲地,0.0,Raw VADER Missed (0 Score)
+nerve,nerve,8,紧张神经,0.0,Raw VADER Missed (0 Score)
+grace,grace,8,优雅 / 良好风度,1.8,Direct VADER Included
+frustration,frustration,8,挫败感 / 烦恼,-2.1,Direct VADER Included
+frightened,frightened,8,感到受惊吓害怕的,-1.9,Direct VADER Included
+exhilaration,exhilaration,8,极度兴奋快感,0.0,Raw VADER Missed (0 Score)
+exhausted,exhausted,8,精疲力竭极为疲惫的,-1.5,Direct VADER Included
+dissapointed,disappointed,8,感到失望的（错别字变体）,0.0,Raw VADER Missed (0 Score)
+cherished,cherish,8,珍视铭记的,2.3,Direct VADER Included
+annoyed,annoyed,8,感到烦恼的 / 恼火的,-1.6,Direct VADER Included
+strange,strange,7,怪异不安的,-0.8,Direct VADER Included
+reputable,reputable,7,信誉良好的,0.0,Raw VADER Missed (0 Score)
+ridiculous,ridiculous,7,荒谬的 / 离谱的,-1.5,Direct VADER Included
+rudely,rudely,7,粗鲁地 / 无礼地,-2.2,Direct VADER Included
+serenity,serenity,7,宁静 / 祥和,0.0,Raw VADER Missed (0 Score)
+relieved,relieved,7,宽慰的 / 松了一口气,1.6,Direct VADER Included
+suffered,suffered,7,遭受身体/晕眩痛苦,-2.2,Direct VADER Included
+unhappy,unhappy,7,不高兴不满意的,-1.8,Direct VADER Included
+unpleasant,unpleasant,7,令人不快令人难受的,-2.1,Direct VADER Included
+powerful,powerful,7,强烈的 / 感人的,1.8,Direct VADER Included
+worrying,worry,7,令人担心的,-1.4,Direct VADER Included
+weird,weird,7,古怪令人不安的,-0.7,Direct VADER Included
+painful,painful,7,痛苦的 / 令人难受的,-1.9,Direct VADER Included
+panic,panic,7,恐慌 / 惊恐状态,-2.3,Direct VADER Included
+laughter,laughter,7,欢笑 / 笑声,2.2,Direct VADER Included
+hopeful,hopeful,7,怀抱希望的,2.3,Direct VADER Included
+hesitating,hesitating,7,犹豫顾虑（心理活动）,-1.4,Direct VADER Included
+gushing,gushing,7,滔滔不绝赞赞称道的,0.0,Raw VADER Missed (0 Score)
+exhilerating,exhilarating,7,令人兴奋刺激酣畅地（错别字变体）,0.0,Raw VADER Missed (0 Score)
+enthusiastically,enthusiastically,7,热情高涨地,2.6,Direct VADER Included
+curious,curious,7,好奇求知的,1.3,Direct VADER Included
+confusion,confusion,7,困惑 / 混乱,-1.2,Direct VADER Included
+classy,classy,7,高端优雅的,1.9,Direct VADER Included
+captivated,captivated,7,被深深吸引着迷的,1.6,Direct VADER Included
+alas,alas,7,唉 / 遗憾的是,-1.1,Direct VADER Included
+reassurance,reassurance,6,令人放心的安抚感,1.5,Direct VADER Included
+inspirational,inspirational,6,鼓舞人心的,2.3,Direct VADER Included
+jovial,jovial,6,欢快风趣的,1.9,Direct VADER Included
+precision,precision,6,精准靠谱的,0.0,Raw VADER Missed (0 Score)
+gratitude,gratitude,6,感激 / 感恩,2.3,Direct VADER Included
+relief,relief,6,轻松如释重负感,2.1,Direct VADER Included
+sublime,sublime,6,崇高壮丽绝美的（Aesthetic Emotion/Awe）,0.0,Raw VADER Missed (0 Score)
+timid,timid,6,胆怯害羞的,-1.0,Direct VADER Included
+warmest,warmest,6,最暖心亲切的,1.7,Direct VADER Included
+hug,hug,6,拥抱 / 温暖关怀,2.1,Direct VADER Included
+amaze,amaze,6,使惊叹 / 惊奇,2.5,Direct VADER Included
+frightening,frightening,6,令人惊恐吓人的,-2.2,Direct VADER Included
+calmer,calmer,6,更平静安心的,1.5,Direct VADER Included
+appropriately,appropriately,6,恰当地 / 贴心地,0.0,Raw VADER Missed (0 Score)
+blind,blind,6,盲目的 / 视线受阻的,-1.7,Direct VADER Included
+broad,broad,6,宽广的,0.0,Raw VADER Missed (0 Score)
+fascinated,fascinated,6,深深入迷为之倾倒的,2.1,Direct VADER Included
+casual,casual,6,随和轻松的,0.8,Direct VADER Included
+discouraged,discouraged,6,感到灰心气馁的,-1.7,Direct VADER Included
+enthralled,enthralled,6,被深深吸引迷住的,0.0,Raw VADER Missed (0 Score)
+joyful,joyful,5,充满喜悦欢快的,2.9,Direct VADER Included
+wowed,wowed,5,被深深惊叹震撼的,2.6,Direct VADER Included
+suprise,surprise,5,惊喜 / 意料之外（错别字变体）,0.0,Raw VADER Missed (0 Score)
+stressful,stressful,5,令人压力重重焦虑的（Stress/Anxiety State）,-2.3,Direct VADER Included
+shock,shock,5,震惊 / 冲击,-1.6,Direct VADER Included
+scare,scare,5,吓人 / 引发恐慌的,-2.2,Direct VADER Included
+overwhelmingly,overwhelmingly,5,压倒性震撼地,-0.5,Direct VADER Included
+marveled,marvel,5,惊叹赞赏的,0.0,Raw VADER Missed (0 Score)
+luscious,luscious,5,秀美令人心旷神怡的,0.0,Raw VADER Missed (0 Score)
+pity,pity,5,遗憾 / 同情怜悯,-1.2,Direct VADER Included
+jitters,jitters,5,忐忑不安 / 紧张发抖感,0.0,Raw VADER Missed (0 Score)
+hates,hate,5,厌恶 / 讨厌,-1.9,Direct VADER Included
+hated,hate,5,讨厌 / 极为憎恶的,-3.2,Direct VADER Included
+gloomy,gloomy,5,阴沉的 / 沮丧的,-0.6,Direct VADER Included
+faultless,faultless,5,无可挑剔完美的,2.0,Direct VADER Included
+envy,envy,5,羡慕 / 嫉妒,-1.1,Direct VADER Included
+comforted,comforted,5,感到安慰安心的,1.8,Direct VADER Included
+apprehension,apprehension,5,忧虑 / 疑虑不安,-2.1,Direct VADER Included
+intimidating,intimidating,5,令人胆怯令人畏惧的,-1.9,Direct VADER Included
+tranquil,tranquil,4,清幽宁静的（Calmness/Serenity State）,0.2,Direct VADER Included
+spellbinding,spellbinding,4,扣人心弦迷人的,0.0,Raw VADER Missed (0 Score)
+spellbound,spellbound,4,出神为之入迷的,0.0,Raw VADER Missed (0 Score)
+stoked,stoked,4,极为激动期待的,0.0,Raw VADER Missed (0 Score)
+subtle,subtle,4,微妙精细的,0.0,Raw VADER Missed (0 Score)
+suprised,surprised,4,感到惊喜惊讶的（错别字变体）,0.0,Raw VADER Missed (0 Score)
+thrills,thrills,4,刺激 / 快感,1.5,Direct VADER Included
+unnerving,unnerving,4,令人发慌不安吓人的,0.0,Raw VADER Missed (0 Score)
+tranquility,tranquility,4,宁静 / 平和,1.8,Direct VADER Included
+underwhelmed,underwhelmed,4,大失所望未达预期的,0.0,Raw VADER Missed (0 Score)
+unfair,unfair,4,不公平的 / 冤枉的,-2.1,Direct VADER Included
+unfriendly,unfriendly,4,不友善的,-1.5,Direct VADER Included
+wicked,wicked,4,太棒了 / 绝妙的,-2.4,Direct VADER Included
+wildest,wildest,4,最疯狂的（狂想）,0.0,Raw VADER Missed (0 Score)
+profound,profound,4,深刻震撼的,0.0,Raw VADER Missed (0 Score)
+regretting,regret,4,感到后悔遗憾的,-1.7,Direct VADER Included
+nasty,nasty,4,令人厌恶的 / 恶劣的,-2.6,Direct VADER Included
+pleasing,pleasing,4,令人愉悦满意的,2.4,Direct VADER Included
+frustrated,frustrated,4,感到沮丧的 / 挫败的,-2.4,Direct VADER Included
+captivating,captivating,4,扣人心弦引人入胜的,0.0,Raw VADER Missed (0 Score)
+phobia,phobia,4,恐惧症 / 恐高心理,-1.6,Direct VADER Included
+disconcerting,disconcerting,4,令人不安的,0.0,Raw VADER Missed (0 Score)
+dreaded,dread,4,令人害怕恐惧的 / 提心吊胆,-2.7,Direct VADER Included
+dreading,dread,4,感到十分恐惧担心的,-2.4,Direct VADER Included
+emotion,emotion,4,情感 / 情绪,0.0,Raw VADER Missed (0 Score)
+exhilarated,exhilarated,4,感到无比兴奋酣畅的,3.0,Direct VADER Included
+embarrassed,embarrassed,4,感到尴尬难堪的,-1.5,Direct VADER Included
+giddy,giddy,4,兴奋得头晕目眩欢欣的,-0.6,Direct VADER Included
+hungry,hungry,4,贪婪的（money hungry）,0.0,Raw VADER Missed (0 Score)
+irritated,irritated,4,感到恼火烦躁的,-2.0,Direct VADER Included
+irritating,irritating,4,令人烦躁恼火的,-2.0,Direct VADER Included
+ominous,ominous,4,不详的 / 不妙的,-1.4,Direct VADER Included
+peacefulness,peacefulness,4,宁静详和感,2.1,Direct VADER Included
+reassure,reassure,3,使人感到安心放心的,1.4,Direct VADER Included
+heartfelt,heartfelt,3,真挚的 / 出自内心的,2.5,Direct VADER Included
+horribly,horrible,3,糟糕恐怖地,-2.4,Direct VADER Included
+incomprehensible,incomprehensible,3,难以理解令人困惑的,0.0,Raw VADER Missed (0 Score)
+indulge,indulge,3,尽情享受 / 犒劳自己,0.0,Raw VADER Missed (0 Score)
+joking,joking,3,开玩笑的,0.9,Direct VADER Included
+marvelously,marvelously,3,奇妙极其出色地,0.0,Raw VADER Missed (0 Score)
+overjoyed,overjoyed,3,欣喜若狂的,2.7,Direct VADER Included
+peacefully,peacefully,3,宁静和平地,2.4,Direct VADER Included
+sympathy,sympathy,3,同情 / 体谅,1.5,Direct VADER Included
+remorse,remorse,3,懊悔 / 悔恨,-1.1,Direct VADER Included
+rickety,rickety,3,摇摇欲坠的,0.0,Raw VADER Missed (0 Score)
+scaring,scare,3,使人害怕恐惧的,-1.9,Direct VADER Included
+securely,securely,3,安全平稳地,1.4,Direct VADER Included
+sickening,sickening,3,令人作呕恶心的,-2.4,Direct VADER Included
+spoilt,spoilt,3,被破坏败兴的,0.0,Raw VADER Missed (0 Score)
+uneasiness,uneasiness,3,不安 / 忐忑感,-1.6,Direct VADER Included
+unsettled,unsettled,3,心神不宁忐忑的,-1.3,Direct VADER Included
+happiness,happiness,3,幸福快乐感,2.6,Direct VADER Included
+harrowing,harrowing,3,令人触目惊心惊恐的,0.0,Raw VADER Missed (0 Score)
+curiosity,curiosity,3,好奇心 / 探索欲,0.0,Raw VADER Missed (0 Score)
+guilty,guilty,3,内疚内疚感,-1.8,Direct VADER Included
+carefree,carefree,3,无忧无虑自在的,1.7,Direct VADER Included
+ecstasy,ecstasy,3,狂喜 / 极乐状态,2.9,Direct VADER Included
+aggressively,aggressively,3,挑衅攻击地 / 极其恶劣地,-1.3,Direct VADER Included
+ambivalent,ambivalent,3,矛盾复杂心理的,0.5,Direct VADER Included
+apprehensions,apprehension,3,顾虑 / 忧虑不安,-0.9,Direct VADER Included
+aprehensive,apprehensive,3,感到忧虑不安的（错别字变体）,0.0,Raw VADER Missed (0 Score)
+astonished,astonished,3,感到十分惊异惊叹的,1.6,Direct VADER Included
+beneficial,beneficial,3,有益的 / 有帮助的,1.9,Direct VADER Included
+candid,candid,3,坦率真诚的,0.0,Raw VADER Missed (0 Score)
+astounded,astounded,3,感到十分震惊震撼的,1.8,Direct VADER Included
+cheer,cheer,3,振奋 / 欢呼,2.3,Direct VADER Included
+deaf,deaf,3,听而不闻冷漠的（fell on deaf ears）,0.0,Raw VADER Missed (0 Score)
+dreaming,dreaming,3,梦寐以求 / 心驰神往,0.0,Raw VADER Missed (0 Score)
+compassion,compassion,3,同理心 / 关切,2.0,Direct VADER Included
+disappointingly,disappointed,3,令人失望地,-1.9,Direct VADER Included
+dissatisfied,dissatisfied,3,感到不满意的,-1.6,Direct VADER Included
+dazzled,dazzled,3,目眩神迷震撼的,0.0,Raw VADER Missed (0 Score)
+daunting,daunting,3,令人望而生畏胆怯的,0.0,Raw VADER Missed (0 Score)
+compassionate,compassionate,3,富有同理心体贴的,2.2,Direct VADER Included
+humility,humility,2,谦逊贴心,0.0,Raw VADER Missed (0 Score)
+threaten,threaten,2,受到威胁/令人不安的,-1.6,Direct VADER Included
+suffering,suffering,2,受苦受难不适,-2.1,Direct VADER Included
+squeamish,squeamish,2,胆怯恶心体质易受惊的,0.0,Raw VADER Missed (0 Score)
+rigid,rigid,2,刻板不近人情的,-0.5,Direct VADER Included
+pumped,pumped,2,兴奋激动的 / 跃跃欲试,0.0,Raw VADER Missed (0 Score)
+positively,positively,2,积极正面地,2.4,Direct VADER Included
+offensive,offensive,2,冒犯的 / 令人不适的,-2.0,Direct VADER Included
+primo,primo,2,一流的 / 顶级的,0.0,Raw VADER Missed (0 Score)
+favourable,favourable,2,有利的 / 良好的,0.0,Raw VADER Missed (0 Score)
+desperate,desperate,2,感到绝望迫切的,-1.3,Direct VADER Included
+darling,darling,2,可爱的 / 亲切的,2.8,Direct VADER Included
+compliant,compliant,2,顺从的 / 合规安心的,0.0,Raw VADER Missed (0 Score)
+clever,clever,2,聪明睿智的,2.0,Direct VADER Included
+bothering,bothering,2,打扰令人烦心的,-1.6,Direct VADER Included
+animated,animated,2,生动的 / 活力充沛的,0.0,Raw VADER Missed (0 Score)
+agreeable,agreeable,2,宜人的 / 令人满意的,1.8,Direct VADER Included
+exhausting,exhausting,2,令人筋疲力尽的,-1.5,Direct VADER Included
+shady,shady,1,可疑不诚信的,0.0,Raw VADER Missed (0 Score)
+quell,quell,1,镇定 / 平息（恐惧）,0.0,Raw VADER Missed (0 Score)
+racist,racist,1,种族歧视的,-3.0,Direct VADER Included
+regrettably,regrettably,1,遗憾地 / 抱歉,-2.0,Direct VADER Included
+reward,reward,1,赏心悦目的奖赏体验,2.7,Direct VADER Included
+wasbeautiful,wasbeautiful,1,美丽动人的（美感）,0.0,Raw VADER Missed (0 Score)
+truthful,truthful,1,真实可信的,2.0,Direct VADER Included
+ungodly,ungodly,1,糟糕恶劣的,0.0,Raw VADER Missed (0 Score)
+unwell,unwell,1,身体不适的,0.0,Raw VADER Missed (0 Score)
+immeasurable,immeasurable,1,无法估量的 / 极致的,0.0,Raw VADER Missed (0 Score)
+whelmed,whelmed,1,被深深震撼淹没的,0.0,Raw VADER Missed (0 Score)
+worthful,worthful,1,物有所值的,0.0,Raw VADER Missed (0 Score)
+miraculously,miraculously,1,奇迹般地,0.0,Raw VADER Missed (0 Score)
+grumpy,grumpy,1,脾气暴躁的 / 不悦的,0.0,Raw VADER Missed (0 Score)
+hostile,hostile,1,敌意的 / 恶劣的,-1.6,Direct VADER Included
+hazardous,hazardous,1,危险的 / 有隐患的,0.0,Raw VADER Missed (0 Score)
+harsh,harsh,1,严酷恶劣的,-1.9,Direct VADER Included
+grandest,grandest,1,最宏大的 / 极其壮丽的,2.4,Direct VADER Included
+gloom,gloom,1,阴郁忧伤,-2.6,Direct VADER Included
+flaky,flaky,1,不靠谱的 / 经常取消的,0.0,Raw VADER Missed (0 Score)
+disrespectful,disrespectful,1,无礼的 / 冒犯的,0.0,Raw VADER Missed (0 Score)
+dismay,dismay,1,感到沮丧吃惊,-1.8,Direct VADER Included
+decency,decency,1,礼貌体面 / 服务缺乏礼貌体面,0.0,Raw VADER Missed (0 Score)
+bluntly,bluntly,1,直言不讳地,0.0,Raw VADER Missed (0 Score)
+bluest,bluest,1,最湛蓝的（极致景色）,0.0,Raw VADER Missed (0 Score)
+askance,askance,1,怀疑斜视地（不信任）,0.0,Raw VADER Missed (0 Score)
+zing,zing,1,刺激快感,0.0,Raw VADER Missed (0 Score)
