@@ -183,8 +183,12 @@ Full Master Gold Emotion Codebook (N = 620 Words)
 │              (Manual removal of 10 general evaluative terms: unforgettable, unique, incredibly, plenty, cheaper, smoother, convenient, handy, forward, reasonable)
 │
 └── 🏆 Stage 4: Final Core Low-Altitude Domain Discovery Lexicon ──────── 16 words ⭐ (CORE DISCOVERY)
-               ├── 🏞️ Aerial Visual Awe (13 words): spectacular, incredible, scenic, awe, exceptional, phenomenal, majestic, surreal, breathtakingly, mesmerizing, awed, stunningly, sublime
-               └── 🚁 Flight Motion & Somatic State (3 words): airsick, claustrophobic, claustrophobia
+               ├── 👤 1. Self / Somatic Internal Perception (3 words): airsick, claustrophobic, claustrophobia
+               │      (Perception Entity: Tourist's own physical body & interior psychological state)
+               ├── 🏔️ 2. External Physical Scenery & Environment (8 words): spectacular, scenic, majestic, surreal, sublime, mesmerizing, breathtakingly, stunningly
+               │      (Perception Entity: External natural landscape, mountains, canyons, & aerial visual views)
+               └── 🧠 3. Cognitive Appraisal & Whole Experience Impact (5 words): awe, awed, incredible, exceptional, phenomenal
+                      (Perception Entity: Overall tour experience appraisal & psychological awe impact)
 ```
 
 $$\mathbf{145 \text{ (Stage 1 Gaps)}} \xrightarrow{\text{VADER Audit}} 26 \text{ (Dual Misses)} \xrightarrow{\text{Expert Manual Filter}} \mathbf{16 \text{ Core Discovery Words}}$$
@@ -194,8 +198,8 @@ $$\mathbf{145 \text{ (Stage 1 Gaps)}} \xrightarrow{\text{VADER Audit}} 26 \text{
 ### 📂 Official Saved Dataset Artifacts:
 * 👉 **Master 620 Codebook Dataset (Excel)**: [`data/analyze/post_rescued_nrc_620_codebook.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/post_rescued_nrc_620_codebook.xlsx)
 * 👉 **Master 620 Codebook Dataset (CSV)**: [`data/analyze/post_rescued_nrc_620_codebook.csv`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/post_rescued_nrc_620_codebook.csv)
-* 👉 **Master 16 Low-Altitude Domain Discovery Lexicon (Excel)**: [`data/analyze/final_16_domain_discovery_words.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/final_16_domain_discovery_words.xlsx)
-* 👉 **Master 16 Low-Altitude Domain Discovery Lexicon (CSV)**: [`data/analyze/final_16_domain_discovery_words.csv`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/final_16_domain_discovery_words.csv)
+* 👉 **Master 16 Perceptual Domain Discovery Lexicon (Excel)**: [`data/analyze/final_16_domain_discovery_words.xlsx`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/final_16_domain_discovery_words.xlsx)
+* 👉 **Master 16 Perceptual Domain Discovery Lexicon (CSV)**: [`data/analyze/final_16_domain_discovery_words.csv`](file:///Users/yuliangpeng/Desktop/Low-Altitude/data/analyze/final_16_domain_discovery_words.csv)
 
 ---
 
