@@ -80,42 +80,76 @@ Generic sentiment lexicons (NRC, VADER) fail in specialized experiential domains
 
 ## 📍 Step 3: NRC Benchmark Comparative Audit & 3 Core Classes of Misses
 
-Mapping our **630 Master Gold Emotion Terms** (`data/analyze/gold_emotion_master.csv`) against the **NRC Emotion Lexicon v0.92** (14,182 vocabulary entries) reveals critical generic lexicon coverage gaps:
+Mapping our **630 Master Gold Emotion Terms** (`data/analyze/strict_raw_nrc_630_codebook.csv`) against the **NRC Emotion Lexicon v0.92** (14,182 vocabulary entries) reveals critical generic lexicon coverage gaps across two sequential analytical stages:
 
 ![NRC Gold Lexicon Distribution](figures/nrc_emotion_plots/nrc_mapping_gold_lexicon_distribution.png)
 
-### 1. Post-Rescued NRC Coverage & Gap Breakdown ($N=630$ Words)
+---
+
+### 1. Stage 1: Static Raw NRC Coverage & 3-Class Miss Baseline ($N=630$ Words)
+
+Under strict static string matching without morphological normalization, NRC covers only 358 words (56.83%), missing **272 words (43.17%)** across 3 distinct gap classes:
 
 ```text
 Master Gold Emotion Codebook (N = 630 Words)
 │
-├── 1️⃣ Post-Rescued NRC Vocabulary Universe ────────────────────────── 485 words (76.98%) ⭐
+├── 1️⃣ Directly Mapped into NRC Vocabulary Universe ───────────────── 358 words (56.83%)
 │   ├── 1a. Directly Mapped to NRC 8-Emotion Categories ───────────── 286 words (45.40%)
-│   ├── 1b. Directly Mapped to Positive / Negative Polarity Only ───── 72 words (11.43%)
-│   └── 1c. Class 1 Participle & Morphological Rescued Words ─────── 127 words (20.16%) ⭐
-│           (via Canonical Lemma Normalization, e.g., loved->love, scared->scare, impressed->impress, safer->safe)
+│   └── 1b. Directly Mapped to Positive / Negative Polarity Only ───── 72 words (11.43%)
 │
-└── 2️⃣ Uncovered Domain Gaps (NRC Lexicon Misses) ───────────────────── 145 words (23.02%) ⭐ (CORE FOCUS)
-    ├── 2a. Class 2: Web 2.0 Colloquial Superlatives & Base Terms ── 128 words (20.32% | 28,401 mentions)
+└── 2️⃣ Completely MISSED by NRC Lexicon (3 Core Miss Classes) ──── 272 words (43.17%) ⭐ (CORE FOCUS)
+    ├── 2a. Class 1: Participle & Morphological Derivation Gaps ─ 127 words (20.16% | 17,565 mentions) ⭐
+    │       (e.g., loved, impressed, inspiring, relaxed, scared, amazed, thrilled, better, safer)
+    ├── 2b. Class 2: Web 2.0 Colloquial Superlatives & Base Terms ── 128 words (20.32% | 28,401 mentions)
     │       (e.g., great, awesome, fantastic, nice, incredible, comfortable, fabulous, enjoyable)
-            └── Sub-3C: Flight Anxiety (claustrophobic, claustrophobia, jitters, unnerving, phobia)
+    └── 2c. Class 3: Low-Altitude Air Tourism Domain Lexicon ─────── 17 words (2.70% | 2,862 mentions) ⭐
+            ├── Sub-3A: Aerial Visual Awe (breathtaking, stunning, scenic, awe, surreal, sublime)
+            ├── Sub-3B: Embodied Distress (airsick)
+            └── Sub-3C: Situational Flight Anxiety (claustrophobic, claustrophobia, jitters, unnerving, phobia)
 ```
 
-$$	ext{Total NRC Vocabulary Coverage (358)} = 286 	ext{ (8-Emotions)} + 72 	ext{ (Polarity Only)}$$
-$$	ext{Total Master Gold Codebook (630)} = 358 	ext{ (Total NRC Covered)} + 272 	ext{ (Completely Missed by NRC)}$$
+$$\text{Total Raw NRC Vocabulary Coverage (358)} = 286 \text{ (8-Emotions)} + 72 \text{ (Polarity Only)}$$
+$$\text{Total Baseline NRC Lexicon Misses (272)} = 127 \text{ (Class 1)} + 128 \text{ (Class 2)} + 17 \text{ (Class 3)}$$
 
 ---
 
-### 2. 3 Core Classes of Generic NRC Lexicon Gaps ($N=272$ Missed Words)
+### 2. Stage 2: Rescuing Class 1 Morphological Variants into NRC (Lemma Normalization Protocol)
 
-📌 **Class 1: Participle & Morphological Derivation Gaps (127 Words, 46.69%)**:
+By applying **Canonical Lemma Normalization**, we extract base dictionary roots for all 127 Class 1 inflected terms (*loved -> love*, *scared -> scare*, *impressed -> impress*, *safer -> safe*). Because their base roots exist in NRC, these 127 words are successfully rescued and re-integrated into the NRC Covered Universe:
+
+```text
+Post-Rescued Master Gold Emotion Codebook (N = 630 Words)
+│
+├── 1️⃣ Post-Rescued NRC Vocabulary Universe ────────────────────────── 485 words (76.98%) ⭐
+│   ├── 1a. Directly Mapped to NRC 8-Emotion Categories ───────────── 286 words (45.40%)
+│   ├── 1b. Directly Mapped to Positive / Negative Polarity Only ───── 72 words (11.43%)
+│   └── 1c. Class 1 Morphological Rescued Words ───────────────────── 127 words (20.16%) ⭐
+│           (via Canonical Lemma Normalization, e.g., loved->love, scared->scare, impressed->impress, safer->safe)
+│
+└── 2️⃣ Uncovered Domain Gaps (True NRC Lexicon Misses) ─────────────── 145 words (23.02%) ⭐ (CORE FOCUS)
+    ├── 2a. Class 2: Web 2.0 Colloquial Superlatives & Base Terms ── 128 words (20.32% | 28,401 mentions)
+    │       (e.g., great, awesome, fantastic, nice, incredible, comfortable, fabulous, enjoyable)
+    └── 2b. Class 3: Low-Altitude Air Tourism Domain Lexicon ─────── 17 words (2.70% | 2,862 mentions) ⭐
+            ├── Sub-3A: Aerial Visual Awe (breathtaking, stunning, scenic, awe, surreal, sublime)
+            ├── Sub-3B: Embodied Distress (airsick)
+            └── Sub-3C: Situational Flight Anxiety (claustrophobic, claustrophobia, jitters, unnerving, phobia)
+```
+
+$$\text{Post-Rescued NRC Covered Universe (485)} = 358 \text{ (Raw Covered)} + 127 \text{ (Class 1 Rescued)} = \mathbf{485 \text{ Words (76.98\%)}}$$
+$$\text{Uncovered Domain Gaps (145)} = 128 \text{ (Class 2 Colloquial)} + 17 \text{ (Class 3 Domain)} = \mathbf{145 \text{ Words (23.02\%)}}$$
+
+---
+
+### 3. Detailed Breakdown of the 3 Core Gap Classes ($N=272$ Missed Words)
+
+📌 **Class 1: Participle & Morphological Derivation Gaps (127 Words, 46.69% of Misses | 17,565 Mentions)** ⭐:
 - **Classification Logic**: Inflected participle forms (-ing, -ed) and adverbs/superlatives (-ly, -est, -er) whose base dictionary roots exist in NRC, but static string matching fails to capture due to lack of morphological derivation rules.
-- **Lemma Normalization Rescue**: By applying Canonical Lemma Normalization, all 127 Class 1 morphological variants (e.g., *loved -> love*, *scared -> scare*, *impressed -> impress*, *safer -> safe*) are successfully rescued back into the NRC Covered Universe, expanding total NRC coverage from 358 words (56.83%) to **485 words (76.98%)**.
+- **Rescued Status**: 100% rescued into NRC via Lemma Normalization (*loved -> love [Joy]*, *scared -> scare [Fear]*, *impressed -> impress [Trust]*, *safer -> safe [Trust]*).
 - **Key Terms**: *loved (1,473), impressed (255), inspiring (210), relaxed (159), scared (144), amazed (120), thrilled (113), better (1,585), cheaper (208), perfectly (155), smoother (143), safely (132)*.
 
-📌 **Class 2: Omission of Modern Online Tourism Colloquial Superlatives & Base Terms (128 Words, 47.06%)**:
+📌 **Class 2: Web 2.0 Tourism Colloquial Superlatives & Base Terms (128 Words, 47.06% of Misses | 28,401 Mentions)**:
 - **Classification Logic**: High-frequency base terms and colloquial superlatives widely used across Web 2.0 tourism reviews (restaurants, hotels, sights) that are omitted by NRC due to its formal written seed corpus bias (Mohammad & Turney 2012).
-- **Unfixable Lexicon Gap**: Unlike Class 1, Class 2 words (e.g., *great, awesome, fantastic*) are base roots themselves and cannot be rescued by lemma normalization. They constitute an unfixable domain gap in traditional NRC lexicons.
+- **Unfixable Lexicon Gap**: Unlike Class 1, Class 2 terms (e.g., *great, awesome, fantastic*) are base roots themselves and cannot be rescued by lemma normalization. They constitute an unfixable domain gap in traditional NRC lexicons.
 - **Key Terms**: *great (11,541), awesome (2,530), fantastic (2,026), nice (1,794), incredible (1,612), comfortable (1,446), fabulous (508), enjoyable (460), unforgettable (459), funny (301), phenomenal (200)*.
 
 📌 **Class 3: Low-Altitude Air Tourism Domain-Specific Lexicon (17 Words, 6.25% of Misses | 2,862 Review Mentions)** ⭐ *(CORE PAPER CONTRIBUTION)*:
