@@ -1,0 +1,13 @@
+三级选择范畴 (Selective Category),二级主轴范畴 (Axial Category),一级开放编码 (Open Code Examples),全语料极向 (Polarity),"在 21,215 篇语料中出现频次 (Frequency)",语料渗透率 (%) (Percentage)
+核心范畴 1：躯体风险与起飞恐慌 (Somatic Risk & Anxiety),1.1 高空恐惧与惊恐 (Fear & Panic),"scared, terrified, fear, panic, terrifying",🔴 负向/风险,293,1.38
+核心范畴 1：躯体风险与起飞恐慌 (Somatic Risk & Anxiety),1.2 空间幽闭压抑 (Claustrophobia),"claustrophobic, claustrophobia, tight cabin, cramped",🔴 负向/风险,106,0.5
+核心范畴 1：躯体风险与起飞恐慌 (Somatic Risk & Anxiety),1.3 生理晕机与不适 (Motion Sickness),"airsick, nausea, sick, throw up, vomit, dizzy",🔴 负向/风险,310,1.46
+核心范畴 2：机组互动与安全锚定 (Crew Interaction & Safety),2.1 飞行员专业抚慰 (Pilot Reassurance),"pilot, captain, calm, calming, reassuring, confident",🟢 正向/救赎,13535,63.64
+核心范畴 2：机组互动与安全锚定 (Crew Interaction & Safety),2.2 飞行操纵平稳度 (Riding Smoothness),"smooth, smoothly, steady, gentle ride, no turbulence",🟢 正向/体感,2647,12.45
+核心范畴 2：机组互动与安全锚定 (Crew Interaction & Safety),2.3 极地/高空专业知识解说 (Knowledge Commentary),"knowledgeable, informative, commentary, history, expert",🟢 正向/认知,5785,27.2
+核心范畴 3：高空美学与感官震撼 (Aesthetics & Awe),3.1 高空自然景观美感 (Aerial Visual Scenery),"spectacular, breathtaking, majestic, stunning, view, views",🟢 正向/美学,8597,40.42
+核心范畴 3：高空美学与感官震撼 (Aesthetics & Awe),3.2 崇高体验与敬畏 (Sublime Awe & Wonder),"awe, awed, incredible, surreal, sublime, unreal",🟢 正向/震撼,1942,9.13
+核心范畴 3：高空美学与感官震撼 (Aesthetics & Awe),3.3 独特上帝视角 (Unique Aerial Perspective),"perspective, from above, eye level, panoramic, birds eye",🟢 正向/视角,1049,4.93
+核心范畴 4：流程服务与满意评价 (Service Logistics & Evaluation),4.1 陆空联运与地面接驳 (Air-Ground Logistics),"hummer, humvee, bus, shuttle, ground tour, skywalk",🟡 中性/流程,636,2.99
+核心范畴 4：流程服务与满意评价 (Service Logistics & Evaluation),4.2 天气取消与无法登顶 (Weather Interruption),"weather, canceled, cancelled, fog, clouds, rain",🔴 负向/不可抗力,3575,16.81
+核心范畴 4：流程服务与满意评价 (Service Logistics & Evaluation),4.3 配重分座与窗口限制 (Seating & Weight Issue),"seat, seating, weight, split, middle seat, front",🔴 负向/服务失误,1319,6.2
